@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="cs" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dino Atlas: objevuj dinosaury, prohlížej vědecké informace a poznávej pravěká zvířata v obrázkovém kvízu.">
+  <meta name="theme-color" content="#f7f4ec" id="theme-color">
+  <title>Dino Atlas — Objevuj pravěký svět</title>
+  <script>
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
+    } catch (_) {}
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Přejít na obsah</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#atlas" aria-label="Dino Atlas — úvodní stránka">
+        <span class="brand-mark" aria-hidden="true">DA</span>
+        <span><span class="brand-name">Dino Atlas</span><span class="brand-caption">Objevuj pravěký svět</span></span>
+      </a>
+      <button id="theme-toggle" class="icon-button" type="button" aria-label="Zapnout tmavý vzhled" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+    </div>
+    <nav class="main-nav" aria-label="Hlavní navigace">
+      <a href="#atlas" data-nav="atlas" aria-current="page">Atlas</a>
+      <a href="#kviz" data-nav="kviz">Obrázkový kvíz</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="load-state" class="load-state" role="status"><span class="eyebrow">Vítej v pravěku</span><p>Načítám atlas…</p></div>
+
+    <section id="atlas-view" class="page" aria-labelledby="atlas-title" hidden>
+      <div class="intro">
+        <span class="eyebrow">Malý atlas. Velké objevy.</span>
+        <h1 id="atlas-title">Poznej své dinosaury.</h1>
+        <p>Prohlížej obrázky, objevuj souvislosti a zjisti, co nám prozradily fosilie.</p>
+      </div>
+      <label class="search-field" for="search">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input id="search" type="search" placeholder="Najdi dinosaura…" autocomplete="off" spellcheck="false" aria-label="Najdi dinosaura podle názvu">
+      </label>
+      <div id="period-filters" class="period-filters" role="group" aria-label="Geologické období">
+        <button type="button" data-period="all" aria-pressed="true">Vše</button>
+        <button type="button" data-period="triassic" aria-pressed="false">Trias</button>
+        <button type="button" data-period="jurassic" aria-pressed="false">Jura</button>
+        <button type="button" data-period="cretaceous" aria-pressed="false">Křída</button>
+      </div>
+      <div class="filter-toolbar">
+        <label class="diet-field" for="diet-filter"><span>Potrava</span><select id="diet-filter"><option value="all">Všechna</option><option value="herbivore">Býložravci</option><option value="carnivore">Masožravci</option><option value="omnivore">Všežravci</option></select></label>
+        <button id="favorites-filter" class="button button-quiet" type="button" aria-pressed="false">♡ Oblíbení <span id="favorites-count">0</span></button>
+        <button id="random-button" class="button button-quiet" type="button">Náhodný dinosaurus ↗</button>
+      </div>
+      <div class="section-heading"><h2>Prozkoumej dinosaury</h2><p id="result-count" role="status" aria-live="polite"></p></div>
+      <div id="gallery" class="gallery"></div>
+      <div id="empty-state" class="empty-state" hidden><h2>Tady zatím žádný dinosaurus není.</h2><p>Zkus jiné hledání nebo uprav filtry.</p><button id="clear-filters" class="button button-primary" type="button">Zobrazit všechny dinosaury</button></div>
+      <a class="quiz-invitation" href="#kviz"><span class="quiz-invitation-icon" aria-hidden="true">?</span><span><strong>Poznáš je podle obrázku?</strong><span>Pět otázek, tři možnosti a čas na přemýšlení.</span></span><span aria-hidden="true">→</span></a>
+    </section>
+
+    <section id="detail-view" class="page detail-page" aria-label="Detail dinosaura" hidden></section>
+
+    <section id="quiz-view" class="page quiz-page" aria-labelledby="quiz-title" hidden>
+      <div class="intro"><span class="eyebrow">Hraj si a objevuj</span><h1 id="quiz-title">Kdo je na obrázku?</h1><p>Prohlédni si dinosaura a vyber jeho jméno. Když se netrefíš, můžeš to zkusit znovu.</p></div>
+      <div id="quiz-content"></div>
+    </section>
+
+    <section id="not-found" class="page empty-state" hidden><h1>Tohle heslo tu zatím není.</h1><p>Vrať se do atlasu a vyber jiného dinosaura.</p><a class="button button-primary" href="#atlas">Zpět do atlasu</a></section>
+  </main>
+
+  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>První ukázková verze · 0.1</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail. Zdroje najdeš u jednotlivých hesel.</p></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="load-state">Pro vyhledávání, detaily a kvíz je potřeba zapnutý JavaScript.</p></noscript>
+</body>
+</html>
