@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   apk:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7.0.1
@@ -24,7 +24,23 @@ jobs:
           java-version: '17'
 
       - name: Připravit Android SDK
-        run: sdkmanager "platforms;android-35" "build-tools;35.0.1"
+        run: |
+          dino_sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          dino_sdk_manager="$dino_sdk_root/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$dino_sdk_manager" ]; then
+            for candidate in "$dino_sdk_root"/cmdline-tools/*/bin/sdkmanager; do
+              if [ -x "$candidate" ]; then
+                dino_sdk_manager="$candidate"
+                break
+              fi
+            done
+          fi
+          if [ ! -x "$dino_sdk_manager" ]; then
+            echo "::error::V Android SDK chybí nástroj sdkmanager."
+            exit 1
+          fi
+          printf 'ANDROID_HOME=%s\nANDROID_SDK_ROOT=%s\n' "$dino_sdk_root" "$dino_sdk_root" >> "$GITHUB_ENV"
+          "$dino_sdk_manager" --sdk_root="$dino_sdk_root" "platforms;android-35" "build-tools;35.0.1"
 
       - name: Obnovit soukromý podpisový klíč
         env:
