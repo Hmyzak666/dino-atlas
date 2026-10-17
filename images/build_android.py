@@ -91,7 +91,7 @@ public final class MainActivity extends Activity {
         settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setSupportMultipleWindows(false);
         settings.setJavaScriptCanOpenWindowsAutomatically(false);
-        settings.setUserAgentString(settings.getUserAgentString() + " DinoAtlas/0.2.0");
+        settings.setUserAgentString(settings.getUserAgentString() + " DinoAtlas/__VERSION__");
         if (Build.VERSION.SDK_INT >= 33) settings.setAlgorithmicDarkeningAllowed(false);
         atlas.setWebChromeClient(new WebChromeClient());
         atlas.setWebViewClient(new WebViewClient() {
@@ -224,7 +224,7 @@ def write(path, text):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--version', default='0.2.0')
+    parser.add_argument('--version', default='0.3.0')
     parser.add_argument('--version-code', type=int, default=1)
     args = parser.parse_args()
     if not re.fullmatch(r'[0-9]+(?:\.[0-9]+){1,3}', args.version) or not 1 <= args.version_code <= 2100000000:
@@ -260,7 +260,10 @@ def main():
         shutil.copy2(ROOT/name, destination)
     # Shared web UI; only its packaged footer identifies this APK build.
     page = (assets/'index.html').read_text(encoding='utf-8')
-    page = page.replace('Ukázková verze · 0.2', f'Android · {args.version} · build {args.version_code}')
+    page, footer_count = re.subn(r'Ukázková verze · [0-9.]+',
+                                f'Android · {args.version} · build {args.version_code}', page)
+    if footer_count != 1:
+        raise SystemExit('V index.html chybí jednoznačné označení verze aplikace.')
     (assets/'index.html').write_text(page,encoding='utf-8')
 
     manifest = f'''<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="{APP_ID}" android:versionCode="{args.version_code}" android:versionName="{args.version}">
@@ -291,7 +294,7 @@ def main():
   <foreground android:drawable="@drawable/icon_foreground"/>
 </adaptive-icon>''')
     source = work/'src'/'cz'/'hmyzak'/'dinoatlas'/'MainActivity.java'
-    write(source, JAVA_SOURCE)
+    write(source, JAVA_SOURCE.replace('__VERSION__', args.version))
     run([tools/'aapt2','compile','--dir',res,'-o',work/'resources.zip'])
     unsigned = work/'atlas-unsigned.apk'
     run([tools/'aapt2','link','-o',unsigned,'-I',platform,'--manifest',work/'AndroidManifest.xml','-A',assets,work/'resources.zip'])
