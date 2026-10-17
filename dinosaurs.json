@@ -110,6 +110,146 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1834007/",
       "year": 2006,
       "kind": "Recenzovaná revize dvou exemplářů dříve užívaných jako důkaz kanibalismu."
+    },
+    "velociraptor-quills-2007": {
+      "title": "Turner, Makovicky a Norell: Feather quill knobs in the dinosaur Velociraptor",
+      "shortTitle": "Turner a kol. 2007",
+      "url": "https://doi.org/10.1126/science.1145076",
+      "year": 2007,
+      "kind": "Recenzovaná studie úponů letek na loketní kosti Velociraptora."
+    },
+    "amnh-velociraptor-feathers": {
+      "title": "American Museum of Natural History: Velociraptor Had Feathers",
+      "shortTitle": "AMNH · důkazy opeření",
+      "url": "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+      "year": 2007,
+      "kind": "Zpráva muzea a autorů studie; vysvětluje přímý kosterní doklad a možné funkce peří."
+    },
+    "amnh-velociraptor-card": {
+      "title": "American Museum of Natural History: Velociraptor mongoliensis — OLogy card",
+      "shortTitle": "AMNH · rozměry Velociraptora",
+      "url": "https://www.amnh.org/explore/ology/ology-cards/018-velociraptor-mongoliensis",
+      "kind": "Muzejní přehled; zde používáme význam názvu a orientační rozměry, nikoli jeho historické údaje nebo datování."
+    },
+    "nhm-velociraptor-facts": {
+      "title": "Natural History Museum: Velociraptor — facts about the speedy thief",
+      "shortTitle": "NHM · anatomie a objev",
+      "url": "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+      "kind": "Muzejní výklad s paleontologem; anatomie, fosilní souboj, historie a meze rekonstrukcí chování."
+    },
+    "djadokhta-2005": {
+      "title": "Dashzeveg a kol.: New Stratigraphic Subdivision, Depositional Environment, and Age Estimate for the Upper Cretaceous Djadokhta Formation, Southern Ulan Nur Basin, Mongolia",
+      "shortTitle": "Dashzeveg a kol. 2005",
+      "url": "https://digitalcommons.unl.edu/geosciencefacpub/209/",
+      "year": 2005,
+      "kind": "Recenzovaná studie souvrství Djadochta; datování je stratigrafický odhad, nikoli přesné trvání druhu."
+    },
+    "dromaeosaur-predation-2011": {
+      "title": "Fowler a kol.: The Predatory Ecology of Deinonychus and the Origin of Flapping in Birds",
+      "shortTitle": "Fowler a kol. 2011",
+      "url": "https://doi.org/10.1371/journal.pone.0028964",
+      "year": 2011,
+      "kind": "Recenzovaný funkční model založený především na Deinonychovi; použití u Velociraptora je srovnávací hypotéza."
+    },
+    "nhm-parasaurolophus": {
+      "title": "Natural History Museum: Parasaurolophus",
+      "shortTitle": "NHM · Parasaurolophus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html",
+      "kind": "Muzejní přehled rodu; orientační délka a hmotnost nejsou druhově specifickým měřením P. walkeri."
+    },
+    "parasaurolophus-revision-2021": {
+      "title": "Gates, Evans a Sertich: Description and rediagnosis of the crested hadrosaurid (Ornithopoda) dinosaur Parasaurolophus cyrtocristatus on the basis of new cranial remains",
+      "shortTitle": "Gates a kol. 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7842145/",
+      "year": 2021,
+      "kind": "Recenzovaná revize; porovnává druhy rodu, stavbu hřebene a rozsah nálezů P. walkeri."
+    },
+    "parasaurolophus-pathology-2021": {
+      "title": "Bertozzo a kol.: Description and etiology of paleopathological lesions in the type specimen of Parasaurolophus walkeri, with proposed reconstructions of the nuchal ligament",
+      "shortTitle": "Bertozzo a kol. 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8053592/",
+      "year": 2021,
+      "kind": "Recenzovaná studie skutečných poranění holotypu; navrženou příčinu úrazu odlišuje od pozorovaných lézí."
+    },
+    "parasaurolophus-growth-2013": {
+      "title": "Farke a kol.: Ontogeny in the tube-crested dinosaur Parasaurolophus (Hadrosauridae) and heterochrony in hadrosaurids",
+      "shortTitle": "Farke a kol. 2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3807589/",
+      "year": 2013,
+      "kind": "Recenzovaná studie mláděte Parasaurolophus sp. z Utahu; jeho příslušnost k P. walkeri není doložena."
+    },
+    "rom-parasaurolophus": {
+      "title": "Royal Ontario Museum: Hadrosaur skeleton (Parasaurolophus walkeri), ROM 00768",
+      "shortTitle": "ROM · holotyp P. walkeri",
+      "url": "https://artsandculture.google.com/asset/hadrosaur-skeleton-parasaurolophus-walkeri/LgEh-1pgvyfziA?hl=en",
+      "kind": "Katalogový záznam sbírky ROM: původ, rok nálezu a zaokrouhlené stáří exponátu."
+    },
+    "sandia-parasaurolophus-1997": {
+      "title": "Sandia National Laboratories: Scientists Use Digital Paleontology to Produce Voice of Parasaurolophus Dinosaur",
+      "shortTitle": "Sandia / NMMNH · akustický model",
+      "url": "https://newsreleases.sandia.gov/scientists-use-digital-paleontology-to-produce-voice-of-parasaurolophus-dinosaur/",
+      "year": 1997,
+      "kind": "Zpráva výzkumného týmu o CT a akustické simulaci novomexického jedince rodu; nejde o záznam skutečného hlasu P. walkeri."
+    },
+    "nhm-brachiosaurus": {
+      "title": "Natural History Museum: Brachiosaurus",
+      "shortTitle": "NHM · Brachiosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+      "kind": "Muzejní přehled; velikost a hmotnost jsou orientační rekonstrukce."
+    },
+    "brachiosaurus-taylor-2009": {
+      "title": "Taylor: A re-evaluation of Brachiosaurus altithorax Riggs 1903 and its generic separation from Giraffatitan brancai",
+      "shortTitle": "Taylor 2009",
+      "year": 2009,
+      "url": "https://www.miketaylor.org.uk/dino/pubs/taylor2009/Taylor2009-brachiosaurus-and-giraffatitan.pdf",
+      "kind": "Recenzovaná revize severoamerického druhu, proporcí a odlišení od afrického Giraffatitana; některá přiřazení kostí jsou nejistá."
+    },
+    "nps-morrison": {
+      "title": "National Park Service: The Morrison Formation",
+      "shortTitle": "NPS · souvrství Morrison",
+      "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+      "kind": "Odborný přehled geologie, prostředí a fauny souvrství; výskyt ve stejném souvrství nezaručuje přímé setkání druhů."
+    },
+    "nhm-spinosaurus": {
+      "title": "Natural History Museum: Spinosaurus",
+      "shortTitle": "NHM · Spinosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+      "kind": "Muzejní přehled, orientační rozměry a historie. Pro způsob pohybu používáme také primární studie."
+    },
+    "spinosaurus-2014": {
+      "title": "Ibrahim a kol.: Semiaquatic adaptations in a giant predatory dinosaur",
+      "shortTitle": "Ibrahim a kol. 2014",
+      "year": 2014,
+      "url": "https://doi.org/10.1126/science.1258750",
+      "kind": "Recenzovaný popis kosterních znaků a hypotézy obojživelného způsobu života; některé původní výklady těžiště byly následně opraveny."
+    },
+    "spinosaurus-tail-2020": {
+      "title": "Ibrahim a kol.: Tail-propelled aquatic locomotion in a theropod dinosaur",
+      "shortTitle": "Ibrahim a kol. 2020",
+      "year": 2020,
+      "url": "https://researchportal.port.ac.uk/en/publications/tail-propelled-aquatic-locomotion-in-a-theropod-dinosaur/",
+      "kind": "Recenzovaný popis ocasu a experiment s jeho fyzickými modely. Výkon modelu ocasu není přímé změření plavání celého zvířete."
+    },
+    "spinosaurus-model-2022": {
+      "title": "Sereno a kol.: Spinosaurus is not an aquatic dinosaur",
+      "shortTitle": "Sereno a kol. 2022",
+      "year": 2022,
+      "url": "https://doi.org/10.7554/eLife.80092",
+      "kind": "Recenzovaný alternativní biomechanický výklad; podporuje lov v mělké vodě a zpochybňuje účinné podvodní pronásledování."
+    },
+    "spinosaurus-methods-2024": {
+      "title": "Myhrvold a kol.: Diving dinosaurs? Caveats on the use of bone compactness and pFDA for inferring lifestyle",
+      "shortTitle": "Myhrvold a kol. 2024",
+      "year": 2024,
+      "url": "https://doi.org/10.1371/journal.pone.0298957",
+      "kind": "Recenzovaná kritika metod odvozování životního stylu z kostní kompaktnosti; sama neprokazuje veškeré chování Spinosaura."
+    },
+    "spinosaurus-mirabilis-2026": {
+      "title": "University of Chicago: New scimitar-crested Spinosaurus species discovered in the central Sahara",
+      "shortTitle": "UChicago · nový druh 2026",
+      "year": 2026,
+      "url": "https://biologicalsciences.uchicago.edu/news/new-scimitar-crested-spinosaurus-species-discovered-central-sahara",
+      "kind": "Zpráva instituce výzkumného týmu o studii v Science, DOI 10.1126/science.adx5486; týká se odlišného druhu S. mirabilis."
     }
   },
   "dinosaurs": [
@@ -1419,6 +1559,1358 @@
                 {
                   "text": {
                     "cs": "Přesný pokryv těla a jeho barvy z těchto nálezů neurčujeme. Ani společenské uspořádání nelze převést na jistý příběh o organizovaných smečkách."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "velociraptor-mongoliensis",
+      "scientificName": "Velociraptor mongoliensis",
+      "taxonRank": "species",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "theropod",
+      "continents": [
+        "asia"
+      ],
+      "lengthM": {
+        "min": 1.8,
+        "max": 1.8,
+        "scope": "zaokrouhlený muzejní odhad, nikoli rozsah všech jedinců"
+      },
+      "massKg": {
+        "min": 18,
+        "max": 18,
+        "scope": "orientační muzejní rekonstrukce, nikoli přímé měření"
+      },
+      "ageMa": {
+        "older": null,
+        "younger": null,
+        "estimate": 75,
+        "scope": "zaokrouhlený kontext stáří nálezových vrstev; přesný počátek a konec druhu neurčen"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Maniraptora",
+        "Dromaeosauridae",
+        "Velociraptor"
+      ],
+      "aliases": [
+        "velociraptor",
+        "velociraptor mongoliensis",
+        "velociraptor mongolský",
+        "velociraptor mongolsky",
+        "raptor"
+      ],
+      "reviewedAt": "2026-10-17",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/velociraptor-mongoliensis.webp",
+        "alt": {
+          "cs": "Pracovní rekonstrukce drobného opeřeného Velociraptora s dlouhým ocasem a zdviženými srpovitými drápy."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Úpony letek na předloktí jsou doložené; rozsah tělního opeření odvozujeme i z příbuzných. Zbarvení, přesný obrys peří a krajina jsou ilustrativní."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Rychlý zloděj"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "amnh-velociraptor-card"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "ve-lo-ci-rap-tor"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-velociraptor-card"
+          ],
+          "note": {
+            "cs": "Orientační české rozdělení názvu; není to závazná mezinárodní výslovnost."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Pozdní křída · kampán"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "djadokhta-2005"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Přibližné stáří"
+          },
+          "value": {
+            "cs": "Zhruba před 75 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "djadokhta-2005"
+          ],
+          "note": {
+            "cs": "Zaokrouhlený údaj pro nálezové vrstvy. Studie souvrství navrhuje přibližně 75–71 milionů let s výhradami; nejde o přesně zjištěnou dobu existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Mongolsko · poušť Gobi"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-velociraptor-facts"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 1,8 m včetně ocasu"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-velociraptor-card"
+          ],
+          "note": {
+            "cs": "Orientační muzejní rekonstrukce; jednotliví jedinci se lišili."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přibližně 18 kg"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-velociraptor-card",
+            "amnh-velociraptor-feathers"
+          ],
+          "note": {
+            "cs": "Muzejní odhad. Jedinec popsaný ve zprávě o opeření byl odhadnut asi na 14 kg; nejde o pevnou hmotnost celého druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-velociraptor-facts"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Velociraptor",
+          "ageLabel": "Zhruba před 75 mil. let",
+          "location": "Asie · Mongolsko",
+          "groupLabel": "Teropodi",
+          "cardSummary": "Drobný opeřený dravec s dlouhým ocasem a srpovitým drápem na každé noze.",
+          "summary": "Velociraptor mongoliensis byl lehce stavěný masožravec z dnešního Mongolska. Letky na jeho předních končetinách dokládají úpony na kosti. Byl výrazně menší než populární filmoví raptoři a nelétal.",
+          "quizHint": "Hledej opeření, dlouhý štíhlý ocas a zdvižený zahnutý dráp na noze.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie a peří",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na loketní kosti byly nalezeny hrbolky pro úpony letek. Jde o přímý kosterní doklad velkých per na předloktí, i když se samotné peří tohoto jedince nezachovalo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "velociraptor-quills-2007"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Opeření zbytku těla podporuje srovnání s příbuznými. Přesnou podobu šatu a barvy tohoto druhu neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "amnh-velociraptor-feathers"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pohyboval se po dvou nohách a dlouhý ocas byl vyztužený. Zvětšený dráp druhého prstu mohl držet zdvižený nad zemí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-velociraptor-facts"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Přesnou nejvyšší rychlost ani obratnost živého zvířete neumíme spolehlivě určit."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "potrava-a-lov",
+              "title": "Potrava a lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna hypotéza přisuzuje velkému drápu přidržování kořisti pomocí vlastní váhy. Model vychází hlavně z Deinonycha; použití u Velociraptora je srovnávací odhad, nikoli přímé pozorování lovu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "dromaeosaur-predation-2011"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zpusob-zivota",
+              "title": "Způsob života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Organizovaný lov ve smečkách podobných vlkům není u tohoto druhu doložen. Z fosilií nelze bezpečně vyčíst, jak spolu jednotlivci běžně spolupracovali."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podrobnou růstovou řadu a spolehlivý věk dospívání tohoto druhu zatím v atlasu neuvádíme."
+                  },
+                  "confidence": "pending",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani",
+              "title": "Rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesnou péči o mláďata ani podobu hnízda tohoto druhu neznáme. Chování jiných opeřených dinosaurů samo o sobě není přímým dokladem jeho rodičovské péče."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "fosilni-nalezy",
+              "title": "Fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Známá fosilie zachytila Velociraptora a Protoceratopse ve vzájemném sevření. Je důkazem přímého střetu těchto zvířat; sama neurčuje celý průběh události."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-velociraptor-facts"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "historie-objevu",
+              "title": "Historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První nález byl učiněn v mongolské Gobi roku 1923. Henry Fairfield Osborn rod a druh vědecky pojmenoval v roce 1924."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-velociraptor-facts"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Sedimenty souvrství Djadochta dokládají písečné duny, ale také občasné proudy vody a mělké vodní plochy. Krajina nebyla všude a stále stejnou suchou pouští."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "djadokhta-2005"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "soucasnici-a-pribuzni",
+              "title": "Současníci a příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "S druhem Protoceratops andrewsi sdílel prostředí alespoň při doloženém střetu. Mezi příbuzné dromeosauridy patří také Deinonychus."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-velociraptor-facts"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vyvoj-predstav",
+              "title": "Vývoj vědeckých představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nález úponů letek posílil rekonstrukce opeřeného Velociraptora. Peří nemuselo sloužit k letu; uvažuje se o předvádění, tepelné izolaci a dalších funkcích."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "velociraptor-quills-2007",
+                    "amnh-velociraptor-feathers"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "parasaurolophus-walkeri",
+      "scientificName": "Parasaurolophus walkeri",
+      "taxonRank": "species",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "hadrosaur",
+      "continents": [
+        "north-america"
+      ],
+      "lengthM": {
+        "min": 9,
+        "max": 9,
+        "scope": "orientační rodový údaj NHM; nikoli přesné měření P. walkeri"
+      },
+      "massKg": {
+        "min": 5000,
+        "max": 5000,
+        "scope": "orientační rodový údaj NHM; nikoli druhově specifický hmotnostní model"
+      },
+      "ageMa": {
+        "older": null,
+        "younger": null,
+        "estimate": 76,
+        "scope": "zaokrouhlené stáří holotypu podle sbírkového záznamu ROM; nikoli doba trvání druhu"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae",
+        "Parasaurolophus"
+      ],
+      "aliases": [
+        "parasaurolophus",
+        "parasaurolofus",
+        "parasaurolophus walkeri",
+        "parasaurolof"
+      ],
+      "reviewedAt": "2026-10-17",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/parasaurolophus-walkeri.webp",
+        "alt": {
+          "cs": "Pracovní rekonstrukce Parasaurolopha se zobákem, dlouhým dozadu mířícím hřebenem a ocasem nad zemí."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. walkeri. Dlouhý kostěný hřeben vychází z fosilií; barvy, měkké tkáně a okolní krajina jsou ilustrativní. Přesnou podobu živého zvířete neznáme."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Podobný rodu Saurolophus"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-parasaurolophus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "pa-ra-sau-ro-lo-fus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-parasaurolophus"
+          ],
+          "note": {
+            "cs": "Orientační český přepis vědeckého názvu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Pozdní křída · kampán"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "parasaurolophus-revision-2021"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Přibližné stáří"
+          },
+          "value": {
+            "cs": "Zhruba před 76 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-parasaurolophus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené stáří holotypu; netvrdíme, že druh vznikl nebo vyhynul právě v této době."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Alberta · souvrství Dinosaur Park"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "parasaurolophus-revision-2021",
+            "rom-parasaurolophus"
+          ],
+          "note": {
+            "cs": "Uvádíme doložený původ P. walkeri. Nálezy jiných druhů rodu z USA mu automaticky nepřisuzujeme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Délka — rodový odhad"
+          },
+          "value": {
+            "cs": "Orientačně kolem 9 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-parasaurolophus"
+          ],
+          "note": {
+            "cs": "Muzejní údaj pro rod Parasaurolophus; není to přesné měření konkrétního jedince P. walkeri."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost — rodový odhad"
+          },
+          "value": {
+            "cs": "V muzejním přehledu rodu asi 5 t"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-parasaurolophus"
+          ],
+          "note": {
+            "cs": "Hmotnost závisí na rekonstrukci těla. Tento přehled neposkytuje samostatný hmotnostní model druhu P. walkeri."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-parasaurolophus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Parasaurolophus",
+          "ageLabel": "Nález asi před 76 mil. let",
+          "location": "Severní Amerika · Alberta, Kanada",
+          "groupLabel": "Hadrosauři",
+          "cardSummary": "Býložravec s dlouhým dutým hřebenem, jehož nitrem procházely nosní cesty.",
+          "summary": "Parasaurolophus walkeri patřil mezi hadrosaury. Dlouhý hřeben byl součástí lebky a obsahoval nosní cesty. Dobře doložené kosti umožňují jeho stavbu zkoumat; přesný hlas a barvy zvířete z nich přímo nezjistíme.",
+          "quizHint": "Hledej dlouhý trubicovitý hřeben, který míří z hlavy dozadu.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostěný hřeben byl dutý a obsahoval prodloužené nosní cesty. U P. walkeri je dlouhý a jen mírně zakřivený; různé druhy rodu se stavbou lebky liší."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-revision-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hreben-a-zvuky",
+              "title": "Hřeben a zvuky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Akustické modelování nosních cest jiného druhu rodu podporuje rezonanční funkci hřebene. Možné jsou také vizuální signály; jde o výklad funkce, nikoli přímé pozorování chování."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "sandia-parasaurolophus-1997",
+                    "rom-parasaurolophus"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Skutečný hlas P. walkeri neznáme. Počítačově vytvořené zvuky jsou výsledky modelu s předpoklady o měkkých tkáních, nikoli nahrávky dinosaurů."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": [
+                    "sandia-parasaurolophus-1997"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba hadrosaurů umožňovala pohyb po zadních i oporu o přední končetiny. Kdy přesně P. walkeri jednotlivé postoje používal, zůstává rekonstrukcí."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-parasaurolophus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zobákem získával rostlinnou potravu a soustavy četných zubů ji zpracovávaly. Přesný jídelníček konkrétního jedince z tohoto obecného přizpůsobení nevyčteme."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-parasaurolophus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mládě rodu Parasaurolophus z Utahu mělo krátký, nízký hřeben. Studie dokládá změny hřebene během růstu v rámci rodu; nález ale nebyl bezpečně přiřazen k P. walkeri."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-growth-2013"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani-a-zivot",
+              "title": "Rozmnožování a způsob života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Konkrétní hnízda, rodičovskou péči a velikost skupin P. walkeri zde nemáme doložené. Nálezy hnízd jiných hadrosaurů samy o sobě nestačí k popisu jeho chování."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "fosilni-nalezy",
+              "title": "Fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Základním srovnávacím exemplářem druhu je ROM 768: lebka s přidruženou kostrou z Alberty. Takový exemplář, podle něhož byl druh popsán, nazýváme holotyp."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-revision-2021"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Na holotypu byla popsána mimo jiné zhojená poranění žeber a změny obratlů. Hojení dokládá přežití alespoň části traumatu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-pathology-2021"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Pád těžkého předmětu, například stromu, je navržené vysvětlení poranění, nikoli přímo doložená příčina úrazu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "parasaurolophus-pathology-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "historie-objevu",
+              "title": "Historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Holotyp byl nalezen roku 1920 v Albertě. William A. Parks jej roku 1922 popsal jako nový rod a druh."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-pathology-2021",
+                    "rom-parasaurolophus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patří do skupiny lambeosaurinních hadrosaurů. K témuž rodu se řadí například P. tubicen a P. cyrtocristatus; poznatky o jednom druhu nepřenášíme bez výhrad na ostatní."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "parasaurolophus-revision-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vyvoj-predstav",
+              "title": "Vývoj vědeckých představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní výzkum používá vnitřní stavbu hřebene a změny během růstu. Samotná délka hřebene proto nestačí ke spolehlivému určení druhu, věku ani pohlaví každé fosilie."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "parasaurolophus-revision-2021",
+                    "parasaurolophus-growth-2013"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Co zatím nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, hlas a vzhled všech měkkých tkání nejsou u tohoto druhu známé. Ilustrace ukazuje jednu možnou rekonstrukci."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "brachiosaurus-altithorax",
+      "scientificName": "Brachiosaurus altithorax",
+      "taxonRank": "species",
+      "period": "jurassic",
+      "diet": "herbivore",
+      "group": "sauropod",
+      "continents": [
+        "north-america"
+      ],
+      "lengthM": {
+        "min": 22,
+        "max": 22,
+        "scope": "zaokrouhlená orientační rekonstrukce, ne přesná délka každého jedince"
+      },
+      "massKg": {
+        "min": 47000,
+        "max": 47000,
+        "scope": "zaokrouhlený muzejní odhad 46 900 kg, závislý na rekonstrukci těla"
+      },
+      "ageMa": {
+        "older": null,
+        "younger": null,
+        "estimate": 150,
+        "scope": "zaokrouhlený kontext pozdnějurských nálezů, nikoli celé trvání druhu"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Macronaria",
+        "Titanosauriformes",
+        "Brachiosauridae",
+        "Brachiosaurus"
+      ],
+      "aliases": [
+        "brachiosaurus",
+        "brachiosaur",
+        "brachio",
+        "brachiosaurus altithorax",
+        "brachiosaurus severoamerický"
+      ],
+      "reviewedAt": "2026-10-17",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/brachiosaurus-altithorax.webp",
+        "alt": {
+          "cs": "Pracovní rekonstrukce Brachiosaura s dlouhým zdviženým krkem a rameny výš než kyčle."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Kostra není úplná; část proporcí a měkkých tkání je doplněna srovnáním s příbuznými. Zbarvení, poloha krku a okolní krajina jsou ilustrativní."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Pažní ještěr"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-brachiosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "bra-chi-o-sau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-brachiosaurus"
+          ],
+          "note": {
+            "cs": "Orientační české rozdělení názvu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Pozdní jura"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "brachiosaurus-taylor-2009"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Přibližné stáří"
+          },
+          "value": {
+            "cs": "Zhruba před 150 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nps-morrison",
+            "brachiosaurus-taylor-2009"
+          ],
+          "note": {
+            "cs": "Zaokrouhlený údaj pro kontext nálezů, nikoli přesné datum vzniku nebo vyhynutí druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Západ dnešních USA · souvrství Morrison"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "brachiosaurus-taylor-2009"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 22 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-brachiosaurus"
+          ],
+          "note": {
+            "cs": "Úplnou kostru nemáme. Odhad závisí na doplnění chybějících částí."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 47 t"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-brachiosaurus"
+          ],
+          "note": {
+            "cs": "Různé rekonstrukce těla dávají odlišné výsledky. Nejde o přímé měření hmotnosti živého zvířete."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-brachiosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Brachiosaurus",
+          "ageLabel": "Zhruba před 150 mil. let",
+          "location": "Severní Amerika · západ dnešních USA",
+          "groupLabel": "Sauropodi",
+          "cardSummary": "Obrovský býložravec s dlouhým krkem, dlouhými předními nohami a vysokými rameny.",
+          "summary": "Brachiosaurus se nad ostatní dinosaury tyčil dlouhým krkem a vysokými rameny. Chodil po čtyřech a jeho přední nohy byly delší než zadní. Toto heslo představuje severoamerický druh Brachiosaurus altithorax.",
+          "quizHint": "Hledej velmi dlouhý krk a přední část těla vyšší než zadní.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhé přední končetiny a hluboký trup dávají Brachiosaurovi jinou siluetu než štíhlejším diplodokům. Kompletní tělo ale sestavujeme z neúplných nálezů a srovnání s příbuznými."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "brachiosaurus-taylor-2009"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Chodil po čtyřech. Přesnou rychlost chůze neznáme."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-brachiosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhý krk pravděpodobně usnadňoval získávání listů z vyšších rostlin. Přesný jídelníček neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-brachiosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fosilni-nalezy",
+              "title": "Fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Typová kostra pochází z Colorada. Zahrnuje části páteře, pletenců a končetin; chybějící části proto nelze vydávat za přímo nalezenou úplnou kostru."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "brachiosaurus-taylor-2009"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "historie-objevu",
+              "title": "Historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Typovou kostru objevila Riggsova výprava roku 1900 v Coloradu; druh byl pojmenován v roce 1903."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-brachiosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi-a-soucasnici",
+              "title": "Prostředí a současníci",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Souvrství Morrison zachovává řeky, záplavové nížiny i jezerní prostředí. Jeho fauna zahrnuje také diplodoky, stegosaury a allosaury; nález ve stejném souvrství sám o sobě neprokazuje přímé setkání jednotlivých zvířat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nps-morrison"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni-a-vyvoj-predstav",
+              "title": "Příbuzní a vývoj představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Africký Giraffatitan brancai býval řazen do rodu Brachiosaurus. Podrobná revize odlišila jeho stavbu kostry; dnes se používá samostatné rodové jméno. Mnohé slavné rekonstrukce proto zobrazují spíše Giraffatitana."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "brachiosaurus-taylor-2009"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Co zatím nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné barvy, zvuky, délku života a konkrétní péči o mláďata tohoto druhu neznáme. Tyto podrobnosti nelze doplnit jen podle vzhledu dnešních velkých zvířat."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spinosaurus-aegyptiacus",
+      "scientificName": "Spinosaurus aegyptiacus",
+      "taxonRank": "species",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "theropod",
+      "continents": [
+        "africa"
+      ],
+      "lengthM": {
+        "min": 14,
+        "max": 14,
+        "scope": "orientační rekonstrukce velkého jedince, ne přesná velikost celého druhu"
+      },
+      "massKg": {
+        "min": 7400,
+        "max": 7400,
+        "scope": "orientační muzejní odhad závislý na doplnění kostry a měkkých tkání"
+      },
+      "ageMa": {
+        "older": null,
+        "younger": null,
+        "estimate": 97,
+        "scope": "zaokrouhlený kontext marockých nálezů z cenomanu, nikoli trvání druhu"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tetanurae",
+        "Spinosauridae",
+        "Spinosaurinae",
+        "Spinosaurus"
+      ],
+      "aliases": [
+        "spinosaurus",
+        "spinosaurus aegyptiacus",
+        "spino",
+        "spinosaurus egyptský",
+        "spinosaurus egyptsky"
+      ],
+      "reviewedAt": "2026-10-17",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/spinosaurus-aegyptiacus.webp",
+        "alt": {
+          "cs": "Pracovní rekonstrukce Spinosaura s dlouhými úzkými čelistmi, hřbetní plachtou a vysokým zploštělým ocasem."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce S. aegyptiacus. Tělo doplňuje neúplné nálezy; přesné proporce, měkké tkáně a obrys plachty jsou rekonstrukcí. Barvy jsou ilustrativní. Dvounohý postoj není dokladem přesného způsobu chůze."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Ostnitý ještěr"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-spinosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "spi-no-sau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-spinosaurus"
+          ],
+          "note": {
+            "cs": "Orientační české rozdělení názvu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Pozdní křída · cenoman"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "spinosaurus-2014"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Přibližné stáří"
+          },
+          "value": {
+            "cs": "Zhruba před 97 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "spinosaurus-tail-2020",
+            "nhm-spinosaurus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené stáří nálezového kontextu. Nejde o přesné datum vzniku ani vyhynutí druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Afrika · Egypt a Maroko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-spinosaurus",
+            "spinosaurus-2014"
+          ],
+          "note": {
+            "cs": "Přiřazování některých izolovaných nálezů ke konkrétním druhům spinosauridů je předmětem výzkumu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 14 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-spinosaurus"
+          ],
+          "note": {
+            "cs": "Neúplná kostra vyžaduje doplnění chybějících částí; odhady velikosti se liší."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 7,4 t"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-spinosaurus"
+          ],
+          "note": {
+            "cs": "Výsledek závisí na rekonstrukci tělesného objemu a proporcí."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava, pravděpodobně hlavně ryby"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "spinosaurus-2014"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Spinosaurus",
+          "ageLabel": "Zhruba před 97 mil. let",
+          "location": "Afrika · Egypt a Maroko",
+          "groupLabel": "Teropodi",
+          "cardSummary": "Velký dravec s úzkými čelistmi, vysokou hřbetní plachtou a nezvyklým ocasem.",
+          "summary": "Spinosaura poznáš podle vysoké plachty na zádech a dlouhých úzkých čelistí. Jeho život souvisel s vodním prostředím a pravděpodobně často lovil ryby. Jak přesně se pohyboval a lovil ve vodě, vědci stále zkoumají.",
+          "quizHint": "Hledej vysokou hřbetní plachtu, dlouhý úzký čenich a vysoký ocas.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hřbet nesl výrazně prodloužené výběžky obratlů a čelisti hladké kuželovité zuby. U nověji popsaného marockého materiálu jsou zadní končetiny poměrně krátké vůči trupu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "spinosaurus-2014"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Ocasní nálezy mají vysoké výběžky a dlouhé spodní oblouky obratlů. Dokládají mnohem vyšší profil ocasu než u typického suchozemského teropoda."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "spinosaurus-tail-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb-ve-vode",
+              "title": "Pohyb ve vodě: dvě hlavní představy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Experimenty s modely ocasu ukázaly lepší tvorbu tahu ve vodě než u modelů ocasů některých suchozemských dinosaurů. Podporují možnost aktivního využívání ocasu při plavání; neměří ale výkon celého živého zvířete."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "spinosaurus-tail-2020"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Jiné biomechanické modely zdůrazňují omezení stability a potápění a navrhují spíše lov z břehu nebo v mělké vodě. Rozdíly mezi modely zatím nedovolují vydávat účinné podvodní pronásledování za jistotu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "spinosaurus-model-2022"
+                  ]
+                },
+                {
+                  "text": {
+                    "cs": "Ani hustota kosti sama o sobě bezpečně nerozhoduje o životním stylu. Novější kritika upozornila na problémy výběru vzorků a statistického odvozování potápění."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "spinosaurus-methods-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb-na-sousi",
+              "title": "Pohyb na souši",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rekonstrukce na dvou nohách jsou jednou z podpořených možností. Starší návrhy povinné čtyřnohé chůze byly zpochybněny; neúplné kostry ale stále omezují popis přesného pohybu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "spinosaurus-model-2022",
+                    "spinosaurus-methods-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava-a-lov",
+              "title": "Potrava a lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úzké čelisti a kuželovité zuby podporují význam ryb v jídelníčku. Neznamená to, že jedl výhradně ryby, ani že každou kořist pronásledoval pod vodou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "spinosaurus-2014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hrbetni-plachta",
+              "title": "K čemu sloužila plachta?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Uvažuje se o vizuálních signálech nebo podílu na hospodaření s teplem. Samotné vysoké obratlové výběžky neurčují jedinou prokázanou funkci plachty."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-spinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy-a-objev",
+              "title": "Fosilní nálezy a historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Původní egyptské fosilie byly nalezeny roku 1912 a Ernst Stromer druh pojmenoval roku 1915. Původní materiál byl zničen za druhé světové války; nové nálezy výrazně proměnily rekonstrukci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-spinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "novy-pribuzny-2026",
+              "title": "Nový příbuzný popsaný v roce 2026",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z Nigeru byl roku 2026 popsán další druh rodu, Spinosaurus mirabilis, s nápadným šavlovitým hřebenem na hlavě. Toto heslo se týká S. aegyptiacus; jeho vzhled a způsob života nelze prostě ztotožnit s novým druhem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "spinosaurus-mirabilis-2026"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Co zatím nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, zvuky, sociální chování a způsob péče o potomstvo tohoto druhu neznáme. Podoba živého zvířete zůstává částečnou rekonstrukcí."
                   },
                   "confidence": "unknown",
                   "sourceIds": []

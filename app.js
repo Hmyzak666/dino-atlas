@@ -1,4 +1,4 @@
-/* Dino Atlas 0.1 — bez knihoven a bez sestavování. Obsah patří do dinosaurs.json. */
+/* Dino Atlas — společné rozhraní aplikace. Obsah patří do dinosaurs.json. */
 (() => {
   'use strict';
 
@@ -78,8 +78,20 @@
     return true;
   }
 
+  function narrationText(dino, sectionId = 'summary') {
+    const text = copy(dino);
+    if (sectionId === 'summary') {
+      const age = text.ageLabel.replace(/mil\.\s*let/g, 'miliony let');
+      return `${text.displayName}. ${text.summary} ${PERIODS[dino.period]}. ${age}. ${text.location}.`;
+    }
+    const section = text.sections.find(item => item.id === sectionId);
+    if (!section) return '';
+    const qualifiers = { evidence: '', estimate: 'Vědecký odhad. ', unknown: 'Co zatím nevíme. ', pending: 'Údaj připravujeme. ' };
+    return `${text.displayName}. ${section.title}. ${section.claims.map(claim => qualifiers[claim.confidence] + localized(claim.text)).join(' ')}`;
+  }
+
   // Stejné čisté funkce používá web i kontrola v Node; v prohlížeči se nic neexportuje.
-  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText };
   if (typeof document === 'undefined') return;
 
   const $ = id => document.getElementById(id);
@@ -92,6 +104,13 @@
   let quiz = null;
   let toastTimer;
   let storageNoticeShown = false;
+  let readSequence = 0;
+  let readRequest = '';
+  let readTarget = '';
+  let reading = false;
+  let voiceListener;
+  let voiceTimer;
+  let readTimer;
   const state = { query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
 
   function readStorage(key, fallback) {
@@ -135,12 +154,87 @@
     const [symbol, label] = CONFIDENCE[level];
     return `<span class="confidence confidence-${level}"><span aria-hidden="true">${symbol}</span>${label}</span>`;
   }
-  function sourceLinks(ids) {
-    if (!ids?.length) return '';
-    return `<div class="source-links">${ids.map(id => {
-      const source = database.sources[id];
-      return `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.shortTitle || source.title)} ↗</a>`;
-    }).join('')}</div>`;
+  function readControls(target, label) {
+    return `<div class="read-controls"><button class="button read-button" type="button" data-read="${target}"><span aria-hidden="true">🔊</span>${label}</button><button class="button read-stop" type="button" data-stop-read hidden><span aria-hidden="true">■</span>Zastavit</button></div>`;
+  }
+  function setReadingStatus(status, message) {
+    reading = status === 'loading' || status === 'reading';
+    if (status !== 'loading') clearTimeout(readTimer);
+    document.querySelectorAll('[data-stop-read]').forEach(button => { button.hidden = !reading; });
+    document.querySelectorAll('[data-read]').forEach(button => {
+      button.disabled = reading && button.dataset.read === readTarget;
+    });
+    const output = $('read-status');
+    if (output) output.textContent = message;
+  }
+  function stopNarration(announce = true) {
+    readRequest = '';
+    readTarget = '';
+    clearTimeout(voiceTimer);
+    clearTimeout(readTimer);
+    if (voiceListener) window.speechSynthesis?.removeEventListener('voiceschanged', voiceListener);
+    voiceListener = undefined;
+    try { window.DinoSpeech?.stop(); } catch (_) {}
+    try { window.speechSynthesis?.cancel(); } catch (_) {}
+    setReadingStatus('idle', announce ? 'Čtení zastaveno.' : '');
+  }
+  function readDetail(target) {
+    const dino = byId.get(lastOpenedId);
+    if (!dino || !currentRoute.startsWith('#dinosaurus/')) return;
+    const text = narrationText(dino, target);
+    if (!text) return;
+    stopNarration(false);
+    readTarget = target;
+    readRequest = `read-${++readSequence}`;
+    const request = readRequest;
+    setReadingStatus('loading', 'Připravuji české čtení…');
+    readTimer = setTimeout(() => {
+      if (request !== readRequest) return;
+      stopNarration(false);
+      setReadingStatus('error', 'Čtení se nepodařilo spustit. Zkontroluj český hlas v nastavení telefonu.');
+    }, 15000);
+    if (typeof window.DinoSpeech?.read === 'function') {
+      try { window.DinoSpeech.read(text, request); }
+      catch (_) { setReadingStatus('error', 'Čtení se nepodařilo spustit. Zkus to prosím znovu.'); }
+      return;
+    }
+    const synthesis = window.speechSynthesis;
+    if (!synthesis || typeof window.SpeechSynthesisUtterance !== 'function') {
+      setReadingStatus('error', 'V tomto prostředí není čtení dostupné. Použij Android aplikaci s českým hlasem.');
+      return;
+    }
+    const speak = () => {
+      if (request !== readRequest) return;
+      const voice = synthesis.getVoices().find(item => /^cs(?:-|$)/i.test(item.lang) && item.localService);
+      if (!voice) {
+        setReadingStatus('error', 'Pro čtení bez internetu chybí místní český hlas. Použij aplikaci nebo zkontroluj nastavení hlasu.');
+        return;
+      }
+      const utterance = new window.SpeechSynthesisUtterance(text);
+      utterance.lang = 'cs-CZ';
+      utterance.voice = voice;
+      utterance.rate = 0.92;
+      utterance.onstart = () => { if (request === readRequest) setReadingStatus('reading', 'Čte se…'); };
+      utterance.onend = () => { if (request === readRequest) setReadingStatus('done', 'Dočteno.'); };
+      utterance.onerror = () => { if (request === readRequest) setReadingStatus('error', 'Čtení se nepodařilo. Zkus to prosím znovu.'); };
+      try { synthesis.speak(utterance); }
+      catch (_) { setReadingStatus('error', 'Čtení se nepodařilo spustit.'); }
+    };
+    if (synthesis.getVoices().length) speak();
+    else {
+      voiceListener = () => {
+        clearTimeout(voiceTimer);
+        synthesis.removeEventListener('voiceschanged', voiceListener);
+        voiceListener = undefined;
+        speak();
+      };
+      synthesis.addEventListener('voiceschanged', voiceListener);
+      voiceTimer = setTimeout(() => {
+        if (voiceListener) synthesis.removeEventListener('voiceschanged', voiceListener);
+        voiceListener = undefined;
+        speak();
+      }, 2500);
+    }
   }
   function updateFavoriteButtons() {
     document.querySelectorAll('[data-favorite]').forEach(button => {
@@ -175,21 +269,17 @@
 
   function renderDetail(dino) {
     const text = copy(dino);
-    const sourceIds = [...new Set([...dino.facts.flatMap(fact => fact.sourceIds), ...text.sections.flatMap(section => section.claims.flatMap(claim => claim.sourceIds))])];
     const facts = dino.facts.map(fact => `<div class="fact"><dt>${escapeHtml(localized(fact.label))}</dt><dd>${escapeHtml(localized(fact.value))}${fact.note ? `<small>${escapeHtml(localized(fact.note))}</small>` : ''}${confidenceBadge(fact.confidence)}</dd></div>`).join('');
-    const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p>${sourceLinks(claim.sourceIds)}</div>`).join('')}</div></details>`).join('');
+    const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}${readControls(section.id, 'Přečíst tuto část')}</div></details>`).join('');
     $('detail-view').innerHTML = `<a class="back-link" href="#atlas">← Zpět do atlasu</a>
       <figure class="detail-figure"><div class="detail-image"><img src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024"></div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
       <div class="detail-title-row"><div><span class="eyebrow">${PERIODS[dino.period]} · ${escapeHtml(text.groupLabel)}</span><h1>${escapeHtml(text.displayName)}</h1><p class="scientific-name">${escapeHtml(dino.scientificName)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
       <p class="lead">${escapeHtml(text.summary)}</p>
+      <div class="narration">${readControls('summary', 'Přečíst shrnutí')}<p class="read-status" id="read-status" role="status" aria-live="polite"></p></div>
       <div class="evidence-key" aria-label="Jak číst míru jistoty">${['evidence', 'estimate', 'unknown'].map(confidenceBadge).join('')}</div>
       <dl class="fact-grid">${facts}</dl>
       <p class="taxonomy"><strong>Příbuzenské zařazení</strong>${dino.taxonomy.map(escapeHtml).join(' › ')}</p>
-      ${sections}
-      <details class="detail-section" id="sources"><summary>Zdroje a ověření údajů</summary><div class="section-text"><ol class="sources-list">${sourceIds.map(id => {
-        const source = database.sources[id];
-        return `<li id="source-${id}"><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a>${source.year ? ` (${escapeHtml(source.year)})` : ''}<br><small>${escapeHtml(source.kind)}</small></li>`;
-      }).join('')}</ol><p class="review-date">Zdroje zkontrolovány: ${escapeHtml(dino.reviewedAt)}. Ukázkové heslo; obsah budeme dál rozšiřovat. Zařazení míry jistoty je redakční hodnocení.</p></div></details>`;
+      ${sections}`;
   }
 
   function beginQuiz() {
@@ -258,6 +348,7 @@
   function route() {
     if (!database) return;
     const hash = (!location.hash || location.hash === '#main') ? '#atlas' : location.hash;
+    if (hash !== currentRoute) stopNarration(false);
     if (currentRoute === '#atlas' && hash !== '#atlas') galleryScroll = window.scrollY;
     ['atlas-view', 'detail-view', 'quiz-view', 'not-found'].forEach(id => { $(id).hidden = true; });
     const detailMatch = hash.match(/^#dinosaurus\/([a-z0-9-]+)$/);
@@ -318,6 +409,9 @@
     if (visible.length) location.hash = `dinosaurus/${visible[Math.floor(Math.random() * visible.length)].id}`;
   });
   document.addEventListener('click', event => {
+    if (event.target.closest('[data-stop-read]')) stopNarration();
+    const read = event.target.closest('[data-read]');
+    if (read) readDetail(read.dataset.read);
     const favorite = event.target.closest('[data-favorite]');
     if (favorite) {
       const id = favorite.dataset.favorite;
@@ -338,6 +432,13 @@
     if (event.target.closest('#quiz-restart')) beginQuiz();
   });
   window.addEventListener('hashchange', route);
+  window.addEventListener('dinoatlas-speech', event => {
+    const detail = event.detail;
+    if (detail?.requestId !== readRequest || !readRequest) return;
+    if (['loading', 'reading', 'done', 'error', 'idle'].includes(detail.state)) setReadingStatus(detail.state, String(detail.message || ''));
+  });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) stopNarration(false); });
+  window.addEventListener('pagehide', () => stopNarration(false));
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
   async function init() {
@@ -358,7 +459,7 @@
       console.error('Dino Atlas:', error);
       $('load-state').hidden = false;
       $('load-state').setAttribute('role', 'alert');
-      $('load-state').innerHTML = '<h1>Atlas se nepodařilo načíst.</h1><p>Zkontroluj připojení a přítomnost souboru dinosaurs.json vedle index.html. Web otevři přes GitHub Pages; přímé otevření staženého HTML načtení databáze obvykle neumožní.</p><button class="button button-primary" id="retry-load" type="button">Zkusit znovu</button>';
+      $('load-state').innerHTML = '<h1>Atlas se nepodařilo načíst.</h1><p>Obsah atlasu se nepodařilo načíst nebo zobrazit. Zkus to prosím znovu. Pokud potíže přetrvají, může být potřeba opravená verze aplikace.</p><button class="button button-primary" id="retry-load" type="button">Zkusit znovu</button>';
       $('retry-load').addEventListener('click', init, { once: true });
     }
   }

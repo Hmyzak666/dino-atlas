@@ -2,10 +2,12 @@
 """Build the small offline Android shell using the official Android SDK tools.
 
 The web files at the repository root are the single source of atlas content.
-No Gradle, JavaScript bridge, network access or Android support libraries needed.
+No Gradle, network access or Android support libraries needed. A small local
+JavaScript interface exposes only Czech text-to-speech and its stop control.
 Signing keys are provided separately through environment variables, never Git.
 """
 import argparse
+from html.parser import HTMLParser
 import json
 import os
 from pathlib import Path
@@ -19,23 +21,27 @@ APP_ID = 'cz.hmyzak.dinoatlas'
 JAVA_SOURCE = r'''package cz.hmyzak.dinoatlas;
 
 import android.app.Activity;
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Insets;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.speech.tts.TextToSpeech;
+import android.speech.tts.UtteranceProgressListener;
+import android.speech.tts.Voice;
 import android.view.View;
 import android.view.WindowInsets;
 import android.webkit.WebChromeClient;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 import android.window.OnBackInvokedCallback;
 import android.window.OnBackInvokedDispatcher;
 import java.io.ByteArrayInputStream;
@@ -44,11 +50,21 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Locale;
+import java.util.Set;
+import org.json.JSONObject;
 
 public final class MainActivity extends Activity {
     private static final String HOST = "appassets.androidplatform.net";
     private static final String START = "https://" + HOST + "/assets/index.html#atlas";
     private WebView atlas;
+    private final Handler ui = new Handler(Looper.getMainLooper());
+    private TextToSpeech reader;
+    private boolean readerReady;
+    private boolean readerStarting;
+    private boolean destroyed;
+    private String pendingText = "";
+    private String activeRead = "";
 
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
@@ -90,10 +106,16 @@ public final class MainActivity extends Activity {
         settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setSupportMultipleWindows(false);
         settings.setJavaScriptCanOpenWindowsAutomatically(false);
-        settings.setUserAgentString(settings.getUserAgentString() + " DinoAtlas/0.2.0");
+        settings.setUserAgentString(settings.getUserAgentString() + " DinoAtlas/__VERSION__");
         if (Build.VERSION.SDK_INT >= 33) settings.setAlgorithmicDarkeningAllowed(false);
         atlas.setWebChromeClient(new WebChromeClient());
+        // Only packaged, escaped application content can reach this interface.
+        // External resources and navigations are blocked below.
+        atlas.addJavascriptInterface(new SpeechBridge(), "DinoSpeech");
         atlas.setWebViewClient(new WebViewClient() {
+            @Override public void onPageStarted(WebView view, String url, Bitmap icon) {
+                stopReading();
+            }
             @Override public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
                 Uri uri = request.getUrl();
                 if (!isLocal(uri)) return response(403, "Forbidden", "Blocked resource");
@@ -115,16 +137,7 @@ public final class MainActivity extends Activity {
                 }
             }
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                Uri uri = request.getUrl();
-                if (isLocal(uri)) return false;
-                if (request.isForMainFrame() && request.hasGesture()
-                    && ("https".equals(uri.getScheme()) || "http".equals(uri.getScheme()))) {
-                    try { startActivity(new Intent(Intent.ACTION_VIEW, uri)); }
-                    catch (ActivityNotFoundException unavailable) {
-                        Toast.makeText(MainActivity.this, "V telefonu není dostupný prohlížeč.", Toast.LENGTH_SHORT).show();
-                    }
-                }
-                return true;
+                return !isLocal(request.getUrl());
             }
         });
         if (Build.VERSION.SDK_INT >= 33) {
@@ -134,6 +147,133 @@ public final class MainActivity extends Activity {
                 });
         }
         if (state == null || atlas.restoreState(state) == null) atlas.loadUrl(START);
+    }
+
+    public final class SpeechBridge {
+        @JavascriptInterface public void read(String text, String requestId) {
+            ui.post(() -> readAloud(text, requestId));
+        }
+        @JavascriptInterface public void stop() {
+            ui.post(() -> stopReading());
+        }
+    }
+
+    private void speechEvent(String requestId, String state, String message) {
+        if (destroyed || atlas == null || requestId.isEmpty()) return;
+        String detail = "{requestId:" + JSONObject.quote(requestId)
+            + ",state:" + JSONObject.quote(state) + ",message:" + JSONObject.quote(message) + "}";
+        atlas.evaluateJavascript("window.dispatchEvent(new CustomEvent('dinoatlas-speech',{detail:"
+            + detail + "}));", null);
+    }
+
+    private void readAloud(String text, String requestId) {
+        if (destroyed || isFinishing() || atlas == null || atlas.getUrl() == null
+            || !isLocal(Uri.parse(atlas.getUrl())) || requestId == null
+            || !requestId.matches("read-[0-9]{1,12}")) return;
+        stopReading();
+        activeRead = requestId;
+        if (text == null || text.trim().isEmpty()
+            || text.length() > TextToSpeech.getMaxSpeechInputLength()) {
+            speechFailed("Tuto část teď nelze přečíst. Zkus kratší část textu.");
+            return;
+        }
+        pendingText = text;
+        speechEvent(activeRead, "loading", "Připravuji české čtení…");
+        if (readerReady) {
+            speakPending();
+        } else if (!readerStarting) {
+            readerStarting = true;
+            // Always post: a failed initialization may call back synchronously.
+            try {
+              reader = new TextToSpeech(getApplicationContext(), status -> ui.post(() -> {
+                if (destroyed) return;
+                readerStarting = false;
+                readerReady = status == TextToSpeech.SUCCESS && reader != null;
+                if (!readerReady) {
+                    if (reader != null) reader.shutdown();
+                    reader = null;
+                    speechFailed("V telefonu není dostupné čtení nahlas. Zkontroluj nastavení převodu textu na řeč.");
+                    return;
+                }
+                reader.setOnUtteranceProgressListener(new UtteranceProgressListener() {
+                    @Override public void onStart(String id) {
+                        ui.post(() -> {
+                            if (id.equals(activeRead)) speechEvent(id, "reading", "Čte se…");
+                        });
+                    }
+                    @Override public void onDone(String id) {
+                        ui.post(() -> {
+                            if (id.equals(activeRead)) {
+                                activeRead = "";
+                                speechEvent(id, "done", "Dočteno.");
+                            }
+                        });
+                    }
+                    @Override public void onError(String id) {
+                        ui.post(() -> {
+                            if (id.equals(activeRead)) speechFailed("Čtení se nepodařilo. Zkontroluj český hlas v nastavení telefonu.");
+                        });
+                    }
+                });
+                speakPending();
+              }));
+            } catch (RuntimeException unavailable) {
+                readerStarting = false;
+                readerReady = false;
+                reader = null;
+                speechFailed("Čtení není dostupné. Zkontroluj nastavení převodu textu na řeč v telefonu.");
+            }
+        }
+    }
+
+    private void speakPending() {
+        if (destroyed || !readerReady || reader == null || activeRead.isEmpty() || pendingText.isEmpty()) return;
+        try {
+            Locale czech = new Locale("cs", "CZ");
+            if (reader.isLanguageAvailable(czech) < TextToSpeech.LANG_AVAILABLE) {
+                speechFailed("Pro čtení chybí český hlas. Stáhni češtinu v nastavení převodu textu na řeč v telefonu.");
+                return;
+            }
+            reader.setLanguage(czech);
+            Voice chosen = null;
+            Set<Voice> voices = reader.getVoices();
+            if (voices != null) for (Voice voice : voices) {
+                Set<String> features = voice.getFeatures();
+                if (!"cs".equals(voice.getLocale().getLanguage()) || voice.isNetworkConnectionRequired()
+                    || (features != null && features.contains(TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED))) continue;
+                if (chosen == null || voice.getQuality() > chosen.getQuality()
+                    || (voice.getQuality() == chosen.getQuality() && voice.getName().compareTo(chosen.getName()) < 0)) chosen = voice;
+            }
+            if (chosen == null || reader.setVoice(chosen) != TextToSpeech.SUCCESS) {
+                speechFailed("Chybí stažený český hlas pro čtení bez internetu. Doinstaluj ho v nastavení převodu textu na řeč.");
+                return;
+            }
+            reader.setSpeechRate(0.92f);
+            reader.setPitch(1.0f);
+            String text = pendingText;
+            pendingText = "";
+            if (reader.speak(text, TextToSpeech.QUEUE_FLUSH, null, activeRead) == TextToSpeech.ERROR) {
+                speechFailed("Čtení se nepodařilo spustit. Zkontroluj český hlas v nastavení telefonu.");
+            }
+        } catch (RuntimeException unavailable) {
+            speechFailed("Čtení teď není dostupné. Zkontroluj nastavení českého hlasu v telefonu.");
+        }
+    }
+
+    private void speechFailed(String message) {
+        String id = activeRead;
+        activeRead = "";
+        pendingText = "";
+        if (reader != null) reader.stop();
+        speechEvent(id, "error", message);
+    }
+
+    private void stopReading() {
+        String id = activeRead;
+        activeRead = "";
+        pendingText = "";
+        if (reader != null) reader.stop();
+        speechEvent(id, "idle", "Čtení zastaveno.");
     }
 
     private static boolean isLocal(Uri uri) {
@@ -164,8 +304,22 @@ public final class MainActivity extends Activity {
         atlas.saveState(state);
         super.onSaveInstanceState(state);
     }
+    @Override protected void onPause() {
+        stopReading();
+        super.onPause();
+    }
     @Override protected void onDestroy() {
+        destroyed = true;
+        ui.removeCallbacksAndMessages(null);
+        pendingText = "";
+        activeRead = "";
+        if (reader != null) {
+            reader.stop();
+            reader.shutdown();
+            reader = null;
+        }
         if (atlas != null) {
+            atlas.removeJavascriptInterface("DinoSpeech");
             ((FrameLayout)atlas.getParent()).removeView(atlas);
             atlas.stopLoading();
             atlas.destroy();
@@ -177,6 +331,43 @@ public final class MainActivity extends Activity {
 
 ICON_PATH = 'M20,29 L34,29 C49,29 55,39 55,54 C55,69 49,79 34,79 L20,79 Z M29,38 L29,70 L34,70 C42,70 46,64 46,54 C46,44 42,38 34,38 Z M57,79 L73,29 L84,29 L100,79 L90,79 L87,68 L70,68 L67,79 Z M72,59 L84,59 L78,39 Z'
 
+class AtlasMarkup(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ids = set()
+        self.duplicate_ids = set()
+        self.closed_tags = set()
+
+    def handle_starttag(self, tag, attributes):
+        for name, value in attributes:
+            if name == 'id' and value:
+                if value in self.ids:
+                    self.duplicate_ids.add(value)
+                self.ids.add(value)
+
+    def handle_endtag(self, tag):
+        self.closed_tags.add(tag)
+
+def validate_markup(page):
+    """Fail before packaging when a phone copy/paste has cut off the page."""
+    parser = AtlasMarkup()
+    parser.feed(page)
+    parser.close()
+    required = {
+        'theme-color', 'theme-toggle', 'main', 'load-state', 'atlas-view',
+        'atlas-title', 'search', 'period-filters', 'diet-filter',
+        'favorites-filter', 'favorites-count', 'random-button', 'result-count',
+        'gallery', 'empty-state', 'clear-filters', 'detail-view', 'quiz-view',
+        'quiz-title', 'quiz-content', 'not-found', 'toast'
+    }
+    missing = sorted(required - parser.ids)
+    if missing or not {'body', 'html'}.issubset(parser.closed_tags):
+        detail = ', '.join(missing) if missing else 'ukončení stránky'
+        raise SystemExit('Neúplný index.html: chybí ' + detail
+                         + '. Nahraj celý původní soubor; sestavení bylo zastaveno.')
+    if parser.duplicate_ids:
+        raise SystemExit('Opakovaná ID v index.html: ' + ', '.join(sorted(parser.duplicate_ids)))
+
 def run(arguments, **kwargs):
     subprocess.run([str(x) for x in arguments], check=True, **kwargs)
 
@@ -184,12 +375,23 @@ def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding='utf-8')
 
+def version_floor(version):
+    """Keep local APKs and GitHub builds ordered by their public version."""
+    parts = [int(part) for part in version.split('.')]
+    if any(part > 99 for part in parts[1:]):
+        raise SystemExit('Minor, patch and revision versions must be at most 99.')
+    parts += [0] * (4-len(parts))
+    return parts[0]*1000000 + parts[1]*10000 + parts[2]*100 + parts[3]
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--version', default='0.2.0')
+    parser.add_argument('--version', default='0.4.0')
     parser.add_argument('--version-code', type=int, default=1)
     args = parser.parse_args()
-    if not re.fullmatch(r'[0-9]+(?:\.[0-9]+){1,3}', args.version) or not 1 <= args.version_code <= 2100000000:
+    if not re.fullmatch(r'[0-9]+(?:\.[0-9]+){1,3}', args.version) or args.version_code < 1:
+        raise SystemExit('Invalid Android version.')
+    args.version_code = max(args.version_code, version_floor(args.version))
+    if not 1 <= args.version_code <= 2100000000:
         raise SystemExit('Invalid Android version.')
     sdk_text = os.environ.get('ANDROID_SDK_ROOT') or os.environ.get('ANDROID_HOME')
     if not sdk_text:
@@ -209,6 +411,7 @@ def main():
     assets, res, classes, dex = (work/name for name in ('assets', 'res', 'classes', 'dex'))
     for folder in (assets, res, classes, dex): folder.mkdir(parents=True, exist_ok=True)
 
+    validate_markup((ROOT/'index.html').read_text(encoding='utf-8'))
     db = json.loads((ROOT/'dinosaurs.json').read_text(encoding='utf-8'))
     for name in ('index.html','style.css','app.js','dinosaurs.json'):
         shutil.copy2(ROOT/name, assets/name)
@@ -221,11 +424,15 @@ def main():
         shutil.copy2(ROOT/name, destination)
     # Shared web UI; only its packaged footer identifies this APK build.
     page = (assets/'index.html').read_text(encoding='utf-8')
-    page = page.replace('Ukázková verze · 0.2', f'Android · {args.version} · build {args.version_code}')
+    page, footer_count = re.subn(r'Ukázková verze · [0-9.]+',
+                                f'Android · {args.version} · build {args.version_code}', page)
+    if footer_count != 1:
+        raise SystemExit('V index.html chybí jednoznačné označení verze aplikace.')
     (assets/'index.html').write_text(page,encoding='utf-8')
 
     manifest = f'''<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="{APP_ID}" android:versionCode="{args.version_code}" android:versionName="{args.version}">
   <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+  <queries><intent><action android:name="android.intent.action.TTS_SERVICE"/></intent></queries>
   <application android:label="Dino Atlas" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:theme="@style/AppTheme" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="false" android:enableOnBackInvokedCallback="true">
     <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize|keyboardHidden|uiMode">
       <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
@@ -252,7 +459,7 @@ def main():
   <foreground android:drawable="@drawable/icon_foreground"/>
 </adaptive-icon>''')
     source = work/'src'/'cz'/'hmyzak'/'dinoatlas'/'MainActivity.java'
-    write(source, JAVA_SOURCE)
+    write(source, JAVA_SOURCE.replace('__VERSION__', args.version))
     run([tools/'aapt2','compile','--dir',res,'-o',work/'resources.zip'])
     unsigned = work/'atlas-unsigned.apk'
     run([tools/'aapt2','link','-o',unsigned,'-I',platform,'--manifest',work/'AndroidManifest.xml','-A',assets,work/'resources.zip'])

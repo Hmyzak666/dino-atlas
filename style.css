@@ -146,12 +146,13 @@ figcaption { font-size: .76rem; color: var(--muted); margin-top: 9px; }
 .section-text p { margin-bottom: 10px; font-size: .95rem; }
 .claim { margin: 0 0 16px; }
 .claim .confidence { margin: 0 0 7px; }
-.source-links { font-size: .74rem; margin-bottom: 4px; }
-.source-links a { display: inline-flex; padding-block: 5px; min-height: 32px; align-items: center; margin-right: 9px; }
-.sources-list { padding-left: 24px; font-size: .9rem; }
-.sources-list li { margin-bottom: 15px; overflow-wrap: anywhere; }
-.sources-list a { display: inline-block; padding-block: 3px; }
-.review-date { font-size: .8rem; color: var(--muted); margin: 18px 0; }
+.narration { margin: -8px 0 24px; }
+.read-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; }
+.read-controls .button { min-height: 46px; }
+.read-button { color: var(--heading); }
+.read-status { color: var(--muted); font-size: .82rem; margin: 9px 0 0; }
+.read-status:empty { display: none; }
+.section-text .read-controls { margin: 4px 0 9px; }
 .quiz-page { max-width: 700px; }
 .quiz-progress-label { color: var(--muted); font-size: .82rem; margin-bottom: 7px; }
 .quiz-progress { width: 100%; height: 5px; border: 0; border-radius: 3px; overflow: hidden; margin-bottom: 20px; background: var(--soft); }
