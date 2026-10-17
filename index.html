@@ -11,8 +11,8 @@
       document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
     } catch (_) {}
   </script>
-  <link rel="stylesheet" href="./style.css">
-  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./style.css?v=0.2.0">
+  <script src="./app.js?v=0.2.0" defer></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Přejít na obsah</a>
@@ -62,16 +62,4 @@
 
     <section id="detail-view" class="page detail-page" aria-label="Detail dinosaura" hidden></section>
 
-    <section id="quiz-view" class="page quiz-page" aria-labelledby="quiz-title" hidden>
-      <div class="intro"><span class="eyebrow">Hraj si a objevuj</span><h1 id="quiz-title">Kdo je na obrázku?</h1><p>Prohlédni si dinosaura a vyber jeho jméno. Když se netrefíš, můžeš to zkusit znovu.</p></div>
-      <div id="quiz-content"></div>
-    </section>
-
-    <section id="not-found" class="page empty-state" hidden><h1>Tohle heslo tu zatím není.</h1><p>Vrať se do atlasu a vyber jiného dinosaura.</p><a class="button button-primary" href="#atlas">Zpět do atlasu</a></section>
-  </main>
-
-  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>První ukázková verze · 0.1</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail. Zdroje najdeš u jednotlivých hesel.</p></footer>
-  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <noscript><p class="load-state">Pro vyhledávání, detaily a kvíz je potřeba zapnutý JavaScript.</p></noscript>
-</body>
-</html>
+    <section id="quiz-view" class="page quiz-page" aria-labelledby="quiz
