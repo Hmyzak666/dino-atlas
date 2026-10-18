@@ -78,20 +78,30 @@
     return true;
   }
 
+  function pronunciationText(value) {
+    // A narrow pronunciation hint for voices that read "jedince" with a hard d.
+    // Apply only to spoken text; keep the displayed Czech spelling untouched.
+    // Avoid a global di/ti/ni replacement: scientific names have different rules.
+    return String(value ?? '').normalize('NFC').replace(
+      /(?<![\p{L}\p{M}])jedin(?:cích|cům|cem|ec|ce|ci|ců)(?![\p{L}\p{M}])/giu,
+      word => word.replace(/[dD]/, letter => letter === 'D' ? 'Ď' : 'ď')
+    );
+  }
+
   function narrationText(dino, sectionId = 'summary') {
     const text = copy(dino);
     if (sectionId === 'summary') {
       const age = text.ageLabel.replace(/mil\.\s*let/g, 'miliony let');
-      return `${text.displayName}. ${text.summary} ${PERIODS[dino.period]}. ${age}. ${text.location}.`;
+      return pronunciationText(`${text.displayName}. ${text.summary} ${PERIODS[dino.period]}. ${age}. ${text.location}.`);
     }
     const section = text.sections.find(item => item.id === sectionId);
     if (!section) return '';
     const qualifiers = { evidence: '', estimate: 'Vědecký odhad. ', unknown: 'Co zatím nevíme. ', pending: 'Údaj připravujeme. ' };
-    return `${text.displayName}. ${section.title}. ${section.claims.map(claim => qualifiers[claim.confidence] + localized(claim.text)).join(' ')}`;
+    return pronunciationText(`${text.displayName}. ${section.title}. ${section.claims.map(claim => qualifiers[claim.confidence] + localized(claim.text)).join(' ')}`);
   }
 
   // Stejné čisté funkce používá web i kontrola v Node; v prohlížeči se nic neexportuje.
-  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText, pronunciationText };
   if (typeof document === 'undefined') return;
 
   const $ = id => document.getElementById(id);
