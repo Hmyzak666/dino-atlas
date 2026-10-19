@@ -250,6 +250,193 @@
       "year": 2026,
       "url": "https://biologicalsciences.uchicago.edu/news/new-scimitar-crested-spinosaurus-species-discovered-central-sahara",
       "kind": "Zpráva instituce výzkumného týmu o studii v Science, DOI 10.1126/science.adx5486; týká se odlišného druhu S. mirabilis."
+    },
+    "nhmu-allosaurus": {
+      "title": "Natural History Museum of Utah: Allosaurus fragilis",
+      "shortTitle": "Natural History Museum of Utah: Allosaurus fragilis",
+      "url": "https://nhmu.utah.edu/allosaurus-fragilis",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "nhm-allosaurus": {
+      "title": "Natural History Museum: Allosaurus",
+      "shortTitle": "Natural History Museum: Allosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "rbins-iguanodon": {
+      "title": "Institute of Natural Sciences: Iguanodon bernissartensis",
+      "shortTitle": "Institute of Natural Sciences: Iguanodon bernissartensis",
+      "url": "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "nhm-iguanodon-history": {
+      "title": "Natural History Museum: The discovery of Iguanodon",
+      "shortTitle": "Natural History Museum: The discovery of Iguanodon",
+      "url": "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "nhm-carnotaurus": {
+      "title": "Natural History Museum: Carnotaurus",
+      "shortTitle": "Natural History Museum: Carnotaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "carnotaurus-skin-2021": {
+      "title": "Hendrickx a Bell: The scaly skin of Carnotaurus sastrei",
+      "shortTitle": "Hendrickx a Bell: The scaly skin of Carnotaurus sastrei",
+      "url": "https://doi.org/10.1016/j.cretres.2021.104994",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2021
+    },
+    "carnotaurus-hand-2011": {
+      "title": "Ruiz a kol.: The hand structure of Carnotaurus sastrei",
+      "shortTitle": "Ruiz a kol.: The hand structure of Carnotaurus sastrei",
+      "url": "https://doi.org/10.1111/j.1475-4983.2011.01091.x",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2011
+    },
+    "nhm-therizinosaurus": {
+      "title": "Natural History Museum: Therizinosaurus",
+      "shortTitle": "Natural History Museum: Therizinosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "therizinosaurus-claws-2023": {
+      "title": "Functional space analyses reveal the function and evolution of the most bizarre theropod manual unguals",
+      "shortTitle": "Functional space analyses reveal the function and evolution of the most bizarre theropod manual unguals",
+      "url": "https://doi.org/10.1038/s42003-023-04552-4",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2023
+    },
+    "nhm-pachycephalosaurus": {
+      "title": "Natural History Museum: Pachycephalosaurus",
+      "shortTitle": "Natural History Museum: Pachycephalosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "pachycephalosaur-combat-2013": {
+      "title": "Peterson a kol.: Distributions of Cranial Pathologies Provide Evidence for Head-Butting in Dome-Headed Dinosaurs",
+      "shortTitle": "Peterson a kol.: Distributions of Cranial Pathologies Provide Evidence for Head-Butting in Dome-Headed Dinosaurs",
+      "url": "https://doi.org/10.1371/journal.pone.0068620",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2013
+    },
+    "ndgs-pachycephalosaurus": {
+      "title": "North Dakota Geological Survey: Dinosaurs, Sharks, and Woolly Mammoths",
+      "shortTitle": "North Dakota Geological Survey: Dinosaurs, Sharks, and Woolly Mammoths",
+      "url": "https://www.dmr.nd.gov/dmr/sites/www/files/documents/paleontology/pdfs/articles-and-publications/Hoganson_Dino_Shark_Woolly_sm.pdf",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "stegosaurus-density-2021": {
+      "title": "Larramendi a kol.: A review and reappraisal of the specific gravities of present and past multicellular organisms",
+      "shortTitle": "Larramendi a kol.: A review and reappraisal of the specific gravities of present and past multicellular organisms",
+      "url": "https://doi.org/10.1002/ar.24574",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2021
+    },
+    "stegosaurus-feeding-2016": {
+      "title": "Natural History Museum: Dinosaur eating habit insights from Stegosaurus stenops",
+      "shortTitle": "Natural History Museum: Dinosaur eating habit insights from Stegosaurus stenops",
+      "url": "https://www.nhm.ac.uk/discover/news/2016/may/dinosaur-eating-habit-insights-stegosaurus-stenops.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2016
+    },
+    "amnh-pterosaurs": {
+      "title": "American Museum of Natural History: What Is a Pterosaur?",
+      "shortTitle": "American Museum of Natural History: What Is a Pterosaur?",
+      "url": "https://www.amnh.org/explore/news-blogs/what-is-a-pterosaur",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "amnh-pterosaur-size": {
+      "title": "American Museum of Natural History: Meet the Pterosaurs",
+      "shortTitle": "American Museum of Natural History: Meet the Pterosaurs",
+      "url": "https://www.amnh.org/explore/ology/paleontology/pterosaurs-the-card-game/meet-the-pterosaurs",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "pterodactylus-bennett-2013": {
+      "title": "Bennett: New information on body size and cranial display structures of Pterodactylus antiquus, with a revision of the genus",
+      "shortTitle": "Bennett: New information on body size and cranial display structures of Pterodactylus antiquus, with a revision of the genus",
+      "url": "https://doi.org/10.1007/s12542-012-0159-8",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2013
+    },
+    "pterodactylus-painten-2022": {
+      "title": "The geologically oldest specimen of Pterodactylus: a new exquisitely preserved skeleton from the Upper Jurassic of Painten",
+      "shortTitle": "The geologically oldest specimen of Pterodactylus: a new exquisitely preserved skeleton from the Upper Jurassic of Painten",
+      "url": "https://doi.org/10.3897/fr.25.90692",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2022
+    },
+    "pterosaur-solnhofen-2020": {
+      "title": "Bennett: New pterodactyloid pterosaurs from the Late Jurassic Solnhofen Limestone",
+      "shortTitle": "Bennett: New pterodactyloid pterosaurs from the Late Jurassic Solnhofen Limestone",
+      "url": "https://www.palaeo-electronica.org/content/2020/2976-solnhofen-pterodactyloids",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2020
+    },
+    "museum-solnhofen": {
+      "title": "Museum Solnhofen: Archaeopteryxwelten Solnhofen",
+      "shortTitle": "Museum Solnhofen: Archaeopteryxwelten Solnhofen",
+      "url": "https://www.museum-solnhofen.de/seite/756520/%C3%BCber-das-museum.html",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "amnh-pteranodon": {
+      "title": "American Museum of Natural History: Pteranodon longiceps",
+      "shortTitle": "American Museum of Natural History: Pteranodon longiceps",
+      "url": "https://www.amnh.org/explore/news-blogs/pteranodon-longiceps",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "amnh-pteranodon-card": {
+      "title": "American Museum of Natural History: Pteranodon longiceps — OLogy",
+      "shortTitle": "American Museum of Natural History: Pteranodon longiceps — OLogy",
+      "url": "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "amnh-pterosaur-crests": {
+      "title": "American Museum of Natural History: Pterosaurs’ Head Crests",
+      "shortTitle": "American Museum of Natural History: Pterosaurs’ Head Crests",
+      "url": "https://www.amnh.org/explore/news-blogs/pterosaur-crest-coloration",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "grpm-pterosaurs": {
+      "title": "Grand Rapids Public Museum: Pterosaurs — Flight in the Age of Dinosaurs",
+      "shortTitle": "Grand Rapids Public Museum: Pterosaurs — Flight in the Age of Dinosaurs",
+      "url": "https://www.grpm.org/pterosaurs/",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "ut-quetzalcoatlus-2021": {
+      "title": "University of Texas at Austin: World’s Largest Pterosaur Leaped Aloft to Fly",
+      "shortTitle": "University of Texas at Austin: World’s Largest Pterosaur Leaped Aloft to Fly",
+      "url": "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2021
+    },
+    "quetzalcoatlus-function-2021": {
+      "title": "Padian a kol.: Functional morphology of Quetzalcoatlus",
+      "shortTitle": "Padian a kol.: Functional morphology of Quetzalcoatlus",
+      "url": "https://doi.org/10.1080/02724634.2020.1780247",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2021
+    },
+    "ut-pterosaur-collection": {
+      "title": "University of Texas: Pterosaurs of Big Bend",
+      "shortTitle": "University of Texas: Pterosaurs of Big Bend",
+      "url": "https://www.jsg.utexas.edu/txvp/pterosaurs/",
+      "kind": "Vědecká studie nebo odborný muzejní přehled."
+    },
+    "azhdarchid-foraging-2008": {
+      "title": "Witton a Naish: A Reappraisal of Azhdarchid Pterosaur Functional Morphology and Paleoecology",
+      "shortTitle": "Witton a Naish: A Reappraisal of Azhdarchid Pterosaur Functional Morphology and Paleoecology",
+      "url": "https://doi.org/10.1371/journal.pone.0002271",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2008
+    },
+    "giant-pterosaur-flight-2010": {
+      "title": "Witton a Habib: On the Size and Flight Diversity of Giant Pterosaurs",
+      "shortTitle": "Witton a Habib: On the Size and Flight Diversity of Giant Pterosaurs",
+      "url": "https://doi.org/10.1371/journal.pone.0013982",
+      "kind": "Vědecká studie nebo odborný muzejní přehled.",
+      "year": 2010
     }
   },
   "dinosaurs": [
@@ -287,7 +474,7 @@
         "třírohý",
         "trirohy"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/triceratops-horridus.webp",
@@ -469,9 +656,147 @@
                   "sourceIds": []
                 }
               ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pohyboval se po čtyřech silných končetinách. Velká hlava zatěžovala přední část těla a ocas pomáhal vyvažovat jeho stavbu. Z kostry poznáme oporu končetin lépe než přesnou rychlost běhu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-triceratops"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Jak zpracovával rostliny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zobák odděloval sousta a zuby v čelistech vytvářely navazující řezné plochy. Opotřebené zuby postupně nahrazovaly další. Tato stavba ukazuje schopnost zpracovávat tužší rostlinnou potravu, ale neurčuje jediný druh oblíbené rostliny."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-triceratops"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst a proměny hlavy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvar rohů i límce se s růstem měnil. Při porovnávání lebek proto musíme rozlišovat rozdíly dané věkem od rozdílů mezi druhy. Studie nálezů z vrstev Hell Creek sleduje také proměny triceratopsů během geologického času."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "triceratops-2014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani",
+              "title": "Rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kladení vajec je na základě příbuznosti s dalšími dinosaury očekávané. Přesný vzhled hnízda, délku inkubace ani míru péče o mláďata ale pro T. horridus z těchto podkladů neurčujeme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nálezy ze souvrství Hell Creek pocházejí ze západní části tehdejší Severní Ameriky. Krajina se během ukládání vrstev měnila; stejné jméno souvrství proto neznamená, že všechna nalezená zvířata žila v jednom okamžiku na jednom místě."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "triceratops-2014"
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva dlouhé rohy nad očima a kratší roh na nose."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-triceratops"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široký kostěný límec za hlavou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-triceratops"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné tělo na čtyřech končetinách."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-triceratops"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva dlouhé rohy nad očima a kratší roh na nose. Široký kostěný límec za hlavou. Mohutné tělo na čtyřech končetinách."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-triceratops"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Tato zvířata pocházejí ze severoamerických ekosystémů konce křídy. Nálezy z podobně starých vrstev umožňují srovnávat jejich prostředí, ale nejsou důkazem, že se každý druh setkal s každým v jeden okamžik."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nhm-pachycephalosaurus",
+              "triceratops-2014"
+            ],
+            "ids": [
+              "tyrannosaurus-rex",
+              "ankylosaurus-magniventris",
+              "pachycephalosaurus-wyomingensis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 9,
+        "note": {
+          "cs": "Pro srovnání vybíráme délku velkého triceratopse 9 m. Jde o orientační rodový údaj, ne o přesnou délku každého T. horridus."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-triceratops"
+        ]
       }
     },
     {
@@ -511,7 +836,7 @@
         "t-rex",
         "trex"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/tyrannosaurus-rex.webp",
@@ -697,9 +1022,148 @@
                   "sourceIds": []
                 }
               ]
+            },
+            {
+              "id": "zuby",
+              "title": "Zuby a jejich využití",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silné zuby se odlišovaly od tenkých řezných zubů mnoha jiných teropodů. Čelisti a zuby společně dovolovaly silně namáhat potravu. Stopy po kousání ukazují, že tyranosaurus dokázal poškozovat i velké kosti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-tyrannosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mladý tyranosaurus neměl stejné proporce jako mohutný dospělec. Při sestavování růstových řad je nutné ověřovat druhovou příslušnost neúplných koster; nelze automaticky označit každého malého tyranosauroida za mládě T. rex."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-tyrannosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zivot",
+              "title": "Způsob života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lov živých zvířat a požírání nalezených mršin se nevylučují. Také dnešní velcí predátoři využívají různé příležitosti. Samotné společné naleziště několika koster by nestačilo k doložení organizované lovecké smečky."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-tyrannosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani",
+              "title": "Rozmnožování a péče o mláďata",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesný způsob námluv, počet vajec v hnízdě a každodenní rodičovské chování zde nedokážeme spolehlivě popsat. Filmová scéna s rodinou tyranosaurů může být poutavá, ale není záznamem jejich skutečného života."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a současníci",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tyrannosaurus žil v Severní Americe na konci křídy. Mezi jeho současníky patřili triceratopsové, ankylosauři a pachycefalosauři. Přítomnost v podobně starých vrstvách sama nedokazuje, koho konkrétní jedinec lovil."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-tyrannosaurus",
+                    "nhm-pachycephalosaurus"
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velká hluboká lebka a silné čelisti."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-tyrannosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velmi krátké přední končetiny se dvěma hlavními prsty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-tyrannosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné zadní nohy a dlouhý vyvažující ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-tyrannosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velká hluboká lebka a silné čelisti. Velmi krátké přední končetiny se dvěma hlavními prsty. Silné zadní nohy a dlouhý vyvažující ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-tyrannosaurus"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Tato zvířata pocházejí ze severoamerických ekosystémů konce křídy. Nálezy z podobně starých vrstev umožňují srovnávat jejich prostředí, ale nejsou důkazem, že se každý druh setkal s každým v jeden okamžik."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nhm-pachycephalosaurus",
+              "triceratops-2014"
+            ],
+            "ids": [
+              "triceratops-horridus",
+              "ankylosaurus-magniventris",
+              "pachycephalosaurus-wyomingensis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 12,
+        "note": {
+          "cs": "Ukázková délka 12 m odpovídá velkému tyranosaurovi. Známé kostry a jejich rekonstrukce se velikostí liší."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-tyrannosaurus"
+        ]
       }
     },
     {
@@ -715,12 +1179,9 @@
       "lengthM": {
         "min": 5.5,
         "max": 6,
-        "scope": "exemplář Sophie, nikoli maximum druhu"
+        "scope": "referenční kostra mladého dospělce; nikoli velikostní maximum druhu"
       },
-      "massKg": {
-        "estimate": 1560,
-        "scope": "exemplář Sophie; jeden objemový model"
-      },
+      "massKg": null,
       "ageMa": {
         "estimate": 150,
         "scope": "rounded-age-of-reference-specimen"
@@ -737,7 +1198,7 @@
         "stegosaur",
         "stegosaur stenops"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/stegosaurus-stenops.webp",
@@ -806,32 +1267,34 @@
         },
         {
           "label": {
-            "cs": "Délka Sophie"
+            "cs": "Délka"
           },
           "value": {
-            "cs": "Přibližně 5,5–6 m"
+            "cs": "Podle jedince; u známého mladého dospělce asi 5,5–6 m"
           },
           "confidence": "estimate",
           "sourceIds": [
-            "stegosaurus-skeleton-2015"
+            "stegosaurus-skeleton-2015",
+            "nhm-stegosaurus"
           ],
           "note": {
-            "cs": "Mladý dospělec; větší stegosauři existovali."
+            "cs": "Větší stegosauři existovali. Rodový přehled uvádí až kolem 9 m; tento údaj nepřisuzujeme automaticky každému S. stenops."
           }
         },
         {
           "label": {
-            "cs": "Hmotnost Sophie"
+            "cs": "Hmotnost"
           },
           "value": {
-            "cs": "Modelový odhad asi 1,56 t"
+            "cs": "Řádově několik tun; závisí na jedinci a modelu"
           },
           "confidence": "estimate",
           "sourceIds": [
-            "stegosaurus-mass-2015"
+            "stegosaurus-mass-2015",
+            "stegosaurus-density-2021"
           ],
           "note": {
-            "cs": "U objemové metody 95% predikční interval asi 1,08–2,26 t. Jiná metoda dává jiné odhady."
+            "cs": "Model kostry USNM 4934: asi 2,6 t. U menší Sophie dal objemový model asi 1,56 t. Nejde o dolní a horní hranici celého druhu."
           }
         },
         {
@@ -854,7 +1317,7 @@
           "location": "Severní Amerika · souvrství Morrison",
           "groupLabel": "Stegosauři",
           "cardSummary": "Býložravec s vysokými hřbetními pláty a ocasními trny.",
-          "summary": "Stegosaurus měl malou hlavu, vysoké zadní končetiny a nápadné pláty v kůži. Čtyři dlouhé trny na konci ocasu patří k jeho nejvýraznějším znakům. Velikost zde ilustrujeme konkrétním jedincem Sophie.",
+          "summary": "Stegosaurus byl čtyřnohý býložravec s malou hlavou, vysokými hřbetními pláty a čtyřmi ocasními trny. Přední nohy měl kratší než zadní. Toto heslo se zaměřuje na druh Stegosaurus stenops; velikost i odhady hmotnosti se liší mezi jednotlivými kostrami.",
           "quizHint": "Hledej vysoké pláty na hřbetě a dlouhé trny na konci ocasu.",
           "sections": [
             {
@@ -863,11 +1326,41 @@
               "claims": [
                 {
                   "text": {
-                    "cs": "Kostěné pláty byly součástí kožního pokryvu. Dobře zachovaná kostra Sophie umožňuje studovat vzájemné uspořádání kostí, plátů i ocasních trnů."
+                    "cs": "Hřbet lemovaly dvě podélné, vůči sobě posunuté řady kostěných plátů uložených v kůži. Malá hlava nesla zobák a drobné zuby. Zadní končetiny byly delší a robustnější než přední, takže záda směrem k pánvi stoupala."
                   },
                   "confidence": "evidence",
                   "sourceIds": [
                     "stegosaurus-skeleton-2015"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tělo podpíraly čtyři končetiny a ocas se obvykle rekonstruuje nad zemí. Pohyblivější část ocasu mohla přenášet sílu na čtyři koncové trny. Přesnou rychlost a rozsah pohybu nemůžeme vyčíst z jediného obrázku."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "stegosaurus-skeleton-2015"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rostliny odděloval zobákem a zpracovával malými zuby. Stavba lebky a mechanické modely pomáhají odhadovat způsob skusu. Konkrétní jídelníček a podíl různých rostlin zůstávají méně jisté než samotná býložravost."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "stegosaurus-feeding-2016"
                   ]
                 }
               ]
@@ -878,7 +1371,7 @@
               "claims": [
                 {
                   "text": {
-                    "cs": "Mezi navrhované funkce patří předvádění, rozpoznávání i účast na výměně tepla. Nápadný vzhled sám o sobě nedokazuje jednu konkrétní funkci."
+                    "cs": "Pláty byly nápadné a pravděpodobně měly význam při dorozumívání nebo předvádění. Zvažuje se i souvislost s výměnou tepla. Jejich přítomnost ani prokrvení samy neprokazují jednu výlučnou funkci."
                   },
                   "confidence": "estimate",
                   "sourceIds": [
@@ -888,27 +1381,59 @@
               ]
             },
             {
-              "id": "rust",
-              "title": "Růst a fosilní nálezy",
+              "id": "obrana",
+              "title": "Ocasní trny a obrana",
               "claims": [
                 {
                   "text": {
-                    "cs": "Sophie nebyla plně dorostlým jedincem. Její kostra měří přibližně 5,5–6 metrů a nelze z ní udělat univerzální velikost všech stegosaurů. Přezdívka také neurčuje biologické pohlaví."
+                    "cs": "Čtyři dlouhé kostěné trny jsou skutečnou součástí kostry. Ocas se proto často vykládá jako obranný prostředek. Podrobnosti jednotlivých střetů s predátory ale z těchto kostí samy nevyčteme."
                   },
-                  "confidence": "evidence",
+                  "confidence": "estimate",
                   "sourceIds": [
+                    "nhm-stegosaurus",
                     "stegosaurus-skeleton-2015"
                   ]
                 }
               ]
             },
             {
-              "id": "jak-vime",
-              "title": "Jak odhadujeme hmotnost?",
+              "id": "rust",
+              "title": "Růst",
               "claims": [
                 {
                   "text": {
-                    "cs": "Hmotnost vzniká výpočtem z rekonstruovaného objemu nebo rozměrů kostí. Studie Sophie ukázala podstatné rozdíly mezi metodami; jediné přesné číslo by zakrývalo nejistotu."
+                    "cs": "Kostní tkáň i srůstání některých částí kostry pomáhají rozpoznat fázi růstu. Sophie byla mladým dospělcem a ještě nedorostla. Jiné kostry, například typový exemplář USNM 4934, umožňují srovnávat stavbu druhu nad rámec jediného nálezu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "stegosaurus-skeleton-2015",
+                    "stegosaurus-mass-2015"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hmotnost",
+              "title": "Proč se odhady hmotnosti liší?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie z roku 2021 vypočítala pro rekonstrukci USNM 4934 přibližně 2,6 tuny. Hmotnost závisí na objemu těla, hustotě tkání a doplnění chybějících částí. Číslo proto patří ke konkrétnímu modelu kostry, nikoli ke všem stegosaurům."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "stegosaurus-density-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sophie",
+              "title": "Sophie jako jeden z příkladů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Objemová studie Sophie z roku 2015 získala odhad 1,56 tuny s širokým predikčním intervalem asi 1,08–2,26 tuny. Původně vyšší odhady z končetin se po zohlednění růstové fáze přiblížily objemovým výsledkům. Menší Sophie tedy není důkazem, že všichni dospělí stegosauři vážili jen půldruhé tuny."
                   },
                   "confidence": "estimate",
                   "sourceIds": [
@@ -916,9 +1441,118 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie S. stenops známe z pozdnějurského souvrství Morrison na západě USA. V krajině byly řeky, záplavové roviny i sušší plochy. Stegosaurus sdílel tento širší svět s velkými sauropody a dravými teropody."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "stegosaurus-skeleton-2015",
+                    "nps-morrison"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani",
+              "title": "Rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné námluvy, vzhled hnízd a míru rodičovské péče u S. stenops zde nedokážeme doložit. Ani nápadné pláty nejsou samy důkazem konkrétního párovacího chování nebo spolehlivým určováním pohlaví."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "predstavy",
+              "title": "Vývoj vědeckých představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pláty se rekonstruovaly v různých polohách a jejich rohovinový obal stále odhadujeme. Dnes využíváme více koster, digitální modely i studium tkání. Každá rekonstrukce musí doplňovat i části, které se v konkrétním nálezu nezachovaly."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "stegosaurus-skeleton-2015",
+                    "stegosaurus-density-2021"
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoké kostěné pláty podél hřbetu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "stegosaurus-skeleton-2015"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři dlouhé trny na konci ocasu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "stegosaurus-skeleton-2015"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava a přední nohy kratší než zadní."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "stegosaurus-skeleton-2015"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoké kostěné pláty podél hřbetu. Čtyři dlouhé trny na konci ocasu. Malá hlava a přední nohy kratší než zadní."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "stegosaurus-skeleton-2015"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Fosilie těchto zvířat známe z pozdnějurského souvrství Morrison na západě Severní Ameriky. Různá naleziště i vrstvy však dělil prostor a čas; seznam sám nedokazuje jejich vzájemné setkání."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nps-morrison"
+            ],
+            "ids": [
+              "diplodocus-carnegii",
+              "brachiosaurus-altithorax",
+              "allosaurus-fragilis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 6,
+        "note": {
+          "cs": "Ukázkových 6 m se blíží velikosti dobře známé kostry mladého dospělce. Větší stegosauři existovali; nejde o maximum druhu ani celého rodu."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "stegosaurus-skeleton-2015"
+        ]
       }
     },
     {
@@ -955,7 +1589,7 @@
         "diplodokus",
         "dippy"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/diplodocus-carnegii.webp",
@@ -1134,9 +1768,152 @@
                   "sourceIds": []
                 }
               ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb a opora těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čtyři sloupovité končetiny nesly dlouhý trup, krk a ocas. Přední část těla byla nižší než u brachiosauridů. Velikost sama neznamená, že dinosaurus musel trvale stát ve vodě; pozemní kostra musela jeho hmotnost unést."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-dippy",
+                    "brachiosaurus-taylor-2009"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "krk",
+              "title": "Dlouhý krk",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krk dovoloval přesunout malou hlavu k potravě bez přesouvání celého mohutného trupu. Přesný rozsah pohybu ovlivňovaly i meziobratlové tkáně a svaly. Zobrazení trvale vodorovného nebo velmi vysoko vztyčeného krku je proto konkrétní rekonstrukční volba."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-dippy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pozdnějurské souvrství Morrison vznikalo v různých prostředích včetně říčních niv. V krajině rostly jehličnany, kapradiny a další tehdejší rostliny. Zdejší dinosauři nežili všichni současně; jednotlivá naleziště od sebe odděloval prostor i čas."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nps-morrison"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Diplodocus patřil mezi diplodokovité sauropody. Brachiosaurus byl také sauropod, ale z jiné větve a s odlišnými proporcemi končetin i trupu. Dva dlouhé krky tedy ještě neznamenají totožný způsob získávání potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "brachiosaurus-taylor-2009"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust-a-rozmnozovani",
+              "title": "Růst a rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z dospělé kostry nepoznáme podobu každé růstové fáze ani péči o mláďata. O životním cyklu sauropodů pomáhají vypovídat také nálezy jiných druhů; ty ale nelze bez dalšího převést na přesné chování D. carnegii."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velmi dlouhý krk s drobnou hlavou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-dippy",
+                "brachiosaurus-taylor-2009"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas postupně ztenčený do špičky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-dippy",
+                "brachiosaurus-taylor-2009"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Přední končetiny kratší než u brachiosaura."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-dippy",
+                "brachiosaurus-taylor-2009"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velmi dlouhý krk s drobnou hlavou. Dlouhý ocas postupně ztenčený do špičky. Přední končetiny kratší než u brachiosaura."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-dippy",
+              "brachiosaurus-taylor-2009"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Fosilie těchto zvířat známe z pozdnějurského souvrství Morrison na západě Severní Ameriky. Různá naleziště i vrstvy však dělil prostor a čas; seznam sám nedokazuje jejich vzájemné setkání."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nps-morrison"
+            ],
+            "ids": [
+              "stegosaurus-stenops",
+              "brachiosaurus-altithorax",
+              "allosaurus-fragilis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 26,
+        "note": {
+          "cs": "Orientační rekonstrukce dlouhého těla D. carnegii. Doplnění chybějících konců ocasu nebo rozestupů obratlů výsledek ovlivňuje."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-dippy",
+          "carnegie-dippy"
+        ]
       }
     },
     {
@@ -1172,7 +1949,7 @@
         "ankylosaur",
         "ankylo"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/ankylosaurus-magniventris.webp",
@@ -1350,9 +2127,150 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pohyboval se po čtyřech končetinách s tělem nízko nad zemí. Při otáčení nebo obranném pohybu musel zacházet i s hmotným ocasem. Z pevné koncové části ocasu nelze odvozovat stejnou pohyblivost každého jeho úseku."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ankylosaurus-2017"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přední část tlamy tvořil zobák, za ním byly drobné zuby. Tvar lebky a výška těla ukazují na získávání rostlinné potravy blízko země. Konkrétní zastoupení rostlin zůstává odhadem."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ankylosaurus-2017",
+                    "nhm-ankylosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lebka",
+              "title": "Hlava a nos",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lebka byla široká, krytá kostěnými útvary a doplněná výběžky. Vnitřní uspořádání nosní oblasti bylo složitější, než naznačuje vnější obrys tlamy. Rekonstrukce z roku 2017 ukázala, jak důležité je znovu zkoumat i dlouho známé fosilie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "ankylosaurus-2017"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a současníci",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nálezy pocházejí z konce křídy v Severní Americe. V podobně starých ekosystémech žili také tyranosauři a triceratopsové. Skutečná četnost jejich setkávání ale není zachována v prostém seznamu druhů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-ankylosaurus",
+                    "nhm-pachycephalosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust-rozmnozovani",
+              "title": "Růst a rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U tohoto druhu neznáme všechny růstové fáze stejně podrobně. Podoba mláďat, vývoj celého pancíře a rodičovská péče proto nemají být doplněny jistým příběhem jen podle dospělé rekonstrukce."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široké nízké tělo s kostěným pancířem v kůži."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "ankylosaurus-2017"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Rozšířený kostěný kyj na konci ocasu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "ankylosaurus-2017"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři silné krátké končetiny."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "ankylosaurus-2017"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široké nízké tělo s kostěným pancířem v kůži. Rozšířený kostěný kyj na konci ocasu. Čtyři silné krátké končetiny."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "ankylosaurus-2017"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Tato zvířata pocházejí ze severoamerických ekosystémů konce křídy. Nálezy z podobně starých vrstev umožňují srovnávat jejich prostředí, ale nejsou důkazem, že se každý druh setkal s každým v jeden okamžik."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nhm-pachycephalosaurus",
+              "triceratops-2014"
+            ],
+            "ids": [
+              "triceratops-horridus",
+              "tyrannosaurus-rex",
+              "pachycephalosaurus-wyomingensis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 8,
+        "note": {
+          "cs": "Vybraná délka 8 m znázorňuje velkou rekonstrukci. Úplná kostra ankylosaura nebyla nalezena."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-ankylosaurus",
+          "ankylosaurus-2017"
+        ]
       }
     },
     {
@@ -1387,7 +2305,7 @@
         "celofysis",
         "célofyzis"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/coelophysis-bauri.webp",
@@ -1564,9 +2482,137 @@
                   "sourceIds": []
                 }
               ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zadní končetiny nesly hlavní váhu těla a dlouhý ocas pomáhal s rovnováhou. Lehká stavba těla je slučitelná s obratným pohybem; přesnou nejvyšší rychlost ani konkrétní způsob pronásledování kořisti však neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "coelophysis-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úzké čelisti nesly ostré zuby vhodné k práci s živočišnou potravou. Drobný obratlovec mohl být kořistí spíše než obří býložravec. Známé nálezy ale nedovolují sepsat úplný jídelníček tohoto druhu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "amnh-coelophysis",
+                    "coelophysis-cannibalism-2006"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí Ghost Ranch",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní Nové Mexiko vypadalo na konci triasu jinak. Kosti z Ghost Ranch jsou součástí uloženin, na jejichž vzniku se podílela voda. Jejich rozložení zkoumáme spolu s horninami, abychom oddělili způsob života od události, při které se těla nahromadila."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "coelophysis-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Jak poznáváme růst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Početné kostry různě velkých jedinců umožňují srovnávat lebky a zuby. Některé znaky se měnily během dospívání. Rozpoznání této proměny pomáhá předejít tomu, abychom každý odlišný tvar hlavy popsali jako další druh."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "coelophysis-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmnozovani",
+              "title": "Rozmnožování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hromadné naleziště samo neprozrazuje podobu hnízd ani to, zda rodiče nosili mláďatům potravu. Takové chování zde neoznačujeme za prokázané."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Lehké štíhlé tělo na dvou zadních končetinách."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-coelophysis",
+                "coelophysis-2024"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý krk a úzká hlava s drobnými ostrými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-coelophysis",
+                "coelophysis-2024"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý tenký ocas vyvažující přední část těla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-coelophysis",
+                "coelophysis-2024"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Lehké štíhlé tělo na dvou zadních končetinách. Dlouhý krk a úzká hlava s drobnými ostrými zuby. Dlouhý tenký ocas vyvažující přední část těla."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "amnh-coelophysis",
+              "coelophysis-2024"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 3,
+        "note": {
+          "cs": "Přibližná délka většího jedince. Mláďata i jednotliví dospělci byli různě velcí."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "amnh-coelophysis"
+        ]
       }
     },
     {
@@ -1610,7 +2656,7 @@
         "velociraptor mongolsky",
         "raptor"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/velociraptor-mongoliensis.webp",
@@ -1919,8 +2965,62 @@
                 }
               ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Prodloužená nízká hlava."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-velociraptor-facts",
+                "velociraptor-quills-2007"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velký zahnutý dráp na druhém prstu zadní nohy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-velociraptor-facts",
+                "velociraptor-quills-2007"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Peří na předloktí, doložené úpony letek na kosti."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-velociraptor-facts",
+                "velociraptor-quills-2007"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Prodloužená nízká hlava. Velký zahnutý dráp na druhém prstu zadní nohy. Peří na předloktí, doložené úpony letek na kosti."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-velociraptor-facts",
+              "velociraptor-quills-2007"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 1.8,
+        "note": {
+          "cs": "Zaokrouhlený muzejní odhad celkové délky včetně ocasu. Nejde o výšku zvířete."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "amnh-velociraptor-card"
+        ]
       }
     },
     {
@@ -1963,7 +3063,7 @@
         "parasaurolophus walkeri",
         "parasaurolof"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/parasaurolophus-walkeri.webp",
@@ -2290,8 +3390,62 @@
                 }
               ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý trubicovitý hřeben směřující dozadu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-parasaurolophus",
+                "parasaurolophus-revision-2021"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Rozšířená přední část tlamy připomínající kachní zobák."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-parasaurolophus",
+                "parasaurolophus-revision-2021"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné zadní a menší přední končetiny."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-parasaurolophus",
+                "parasaurolophus-revision-2021"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý trubicovitý hřeben směřující dozadu. Rozšířená přední část tlamy připomínající kachní zobák. Silné zadní a menší přední končetiny."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-parasaurolophus",
+              "parasaurolophus-revision-2021"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 9,
+        "note": {
+          "cs": "Muzejní hodnota kolem 9 m je orientační údaj o rodu. Není přesným změřením všech jedinců P. walkeri."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-parasaurolophus"
+        ]
       }
     },
     {
@@ -2337,7 +3491,7 @@
         "brachiosaurus altithorax",
         "brachiosaurus severoamerický"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/brachiosaurus-altithorax.webp",
@@ -2588,8 +3742,73 @@
                 }
               ]
             }
-          ]
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Přední končetiny delší než zadní."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "brachiosaurus-taylor-2009"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vysoká ramena a dlouhý krk."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "brachiosaurus-taylor-2009"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ocas kratší vůči tělu než u diplodoka."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "brachiosaurus-taylor-2009"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Přední končetiny delší než zadní. Vysoká ramena a dlouhý krk. Ocas kratší vůči tělu než u diplodoka."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "brachiosaurus-taylor-2009"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Fosilie těchto zvířat známe z pozdnějurského souvrství Morrison na západě Severní Ameriky. Různá naleziště i vrstvy však dělil prostor a čas; seznam sám nedokazuje jejich vzájemné setkání."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nps-morrison"
+            ],
+            "ids": [
+              "stegosaurus-stenops",
+              "diplodocus-carnegii",
+              "allosaurus-fragilis"
+            ]
+          }
         }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 22,
+        "note": {
+          "cs": "Přibližná délka velkého brachiosaura podle muzejní rekonstrukce. Americký B. altithorax není africký Giraffatitan."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-brachiosaurus",
+          "brachiosaurus-taylor-2009"
+        ]
       }
     },
     {
@@ -2634,7 +3853,7 @@
         "spinosaurus egyptský",
         "spinosaurus egyptsky"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "quizEnabled": true,
       "image": {
         "src": "images/spinosaurus-aegyptiacus.webp",
@@ -2917,8 +4136,2684 @@
                 }
               ]
             }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhá úzká tlama s kuželovitými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "spinosaurus-2014",
+                "spinosaurus-tail-2020"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Výrazné vysoké výběžky obratlů tvořící hřbetní plachtu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "spinosaurus-2014",
+                "spinosaurus-tail-2020"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké zadní končetiny a vysoký zploštělý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "spinosaurus-2014",
+                "spinosaurus-tail-2020"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhá úzká tlama s kuželovitými zuby. Výrazné vysoké výběžky obratlů tvořící hřbetní plachtu. Krátké zadní končetiny a vysoký zploštělý ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "spinosaurus-2014",
+              "spinosaurus-tail-2020"
+            ]
+          }
+        }
+      },
+      "category": "dinosaur",
+      "comparison": {
+        "kind": "length",
+        "valueM": 14,
+        "note": {
+          "cs": "Orientační délka velkého rekonstruovaného jedince. Proporce doplňujeme z neúplných fosilií."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-spinosaurus",
+          "spinosaurus-2014"
+        ]
+      }
+    },
+    {
+      "id": "allosaurus-fragilis",
+      "scientificName": "Allosaurus fragilis",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "jurassic",
+      "diet": "carnivore",
+      "group": "theropod",
+      "continents": [
+        "north-america"
+      ],
+      "ageMa": {
+        "estimate": 150,
+        "scope": "přibližné stáří morrisonských nálezů"
+      },
+      "lengthM": {
+        "min": 7,
+        "max": 10
+      },
+      "massKg": {
+        "estimate": 2700,
+        "scope": "orientační rodový muzejní odhad"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Allosauroidea",
+        "Allosauridae"
+      ],
+      "aliases": [
+        "allosaurus"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/allosaurus-fragilis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Allosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce A. fragilis. Barvy, měkké tkáně a podoba zavřených úst jsou ilustrativní; drobné výběžky hlavy nejsou býčí rohy."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Jiný ještěr"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "a-lo-sau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Asi před 150 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · souvrství Morrison"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 7–10 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ],
+          "note": {
+            "cs": "Orientační rozměry větších jedinců; různé kostry i rekonstrukce se liší."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 2,7 t"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
+          ],
+          "note": {
+            "cs": "Muzejní hodnota o rodu, nikoli hmotnost každé známé kostry."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhmu-allosaurus",
+            "nhm-allosaurus"
           ]
         }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Allosaurus",
+          "ageLabel": "Asi před 150 mil. let",
+          "location": "Severní Amerika · souvrství Morrison",
+          "groupLabel": "Teropodi",
+          "summary": "Allosaurus byl velkým predátorem pozdní jury. Nad očima měl krátké kostěné výběžky a na rozdíl od tyranosaura poměrně vyvinuté paže se třemi drápatými prsty. Četné kostry pomáhají sledovat rozdíly mezi rostoucími a dospělými zvířaty.",
+          "cardSummary": "Jurský dravec s výběžky nad očima a tříprstými pažemi.",
+          "quizHint": "Hledej nízké výběžky nad očima a tři drápaté prsty na větších pažích.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lebka byla velká, ale ne tak hluboká a robustní jako u tyranosaura. Krátké výběžky u očí měnily její obrys. Silnější paže končily drápatými prsty a dlouhý ocas vyvažoval trup při dvounohém postoji."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhmu-allosaurus",
+                    "nhm-allosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zadní končetiny zajišťovaly chůzi i rychlejší pohyb. Proporce kostí a rekonstrukce svalů dovolují vytvářet mechanické modely, ale přesná nejvyšší rychlost není naměřeným údajem. Přední končetiny při chůzi nenesly tělo."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhmu-allosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava a lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby se zoubkovanými okraji pomáhaly řezat živočišnou potravu. V morrisonských ekosystémech bylo mnoho velkých býložravců. Lov, využívání mršin i volba kořisti mohly záviset na velikosti zvířete a příležitosti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-allosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst a fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Muzeum v Utahu uchovává jedince od malých mláďat po velké dospělce. Takový soubor ukazuje, jak se při růstu měnily tělesné proporce. Velké množství nálezů je výhodou, samo však nedokládá život ve smečce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhmu-allosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žil na západě dnešní Severní Ameriky. Souvrství Morrison zahrnuje usazeniny řek, záplavových rovin i jezer. Jehličnany a kapradiny v této krajině doprovázely další tehdejší skupiny rostlin."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nps-morrison"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Příbuzní a rozdíly",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Allosaurus i Tyrannosaurus patřili mezi teropody, ale do různých větví. Nebyli sousedy ve stejném pravěkém čase: tyranosaurus se objevil mnohem později. Podobný predátorský vzhled proto nestačí k určení blízké příbuznosti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-allosaurus",
+                    "nhm-tyrannosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nevime",
+              "title": "Způsob života a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné námluvy, péče o mláďata, zvuky a zbarvení nemají v tomto hesle přímý fosilní doklad. Nelze je doplnit jako jistá fakta jen podle chování dnešních velkých šelem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Krátké kostěné výběžky u očí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhmu-allosaurus",
+                "nhm-allosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Paže se třemi drápatými prsty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhmu-allosaurus",
+                "nhm-allosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvounohé tělo s velkou hlavou a dlouhým ocasem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhmu-allosaurus",
+                "nhm-allosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Krátké kostěné výběžky u očí. Paže se třemi drápatými prsty. Dvounohé tělo s velkou hlavou a dlouhým ocasem."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhmu-allosaurus",
+              "nhm-allosaurus"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Fosilie těchto zvířat známe z pozdnějurského souvrství Morrison na západě Severní Ameriky. Různá naleziště i vrstvy však dělil prostor a čas; seznam sám nedokazuje jejich vzájemné setkání."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nps-morrison"
+            ],
+            "ids": [
+              "stegosaurus-stenops",
+              "diplodocus-carnegii",
+              "brachiosaurus-altithorax"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 9,
+        "note": {
+          "cs": "Ukázková délka 9 m leží v orientačním muzejním rozmezí větších jedinců. Není průměrem celého druhu."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhmu-allosaurus"
+        ]
+      }
+    },
+    {
+      "id": "iguanodon-bernissartensis",
+      "scientificName": "Iguanodon bernissartensis",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "ornithopod",
+      "continents": [
+        "europe"
+      ],
+      "ageMa": {
+        "older": 126,
+        "younger": 122,
+        "scope": "přibližný muzejní interval nálezů"
+      },
+      "lengthM": {
+        "min": 9,
+        "max": 11
+      },
+      "massKg": {
+        "estimate": 8000,
+        "scope": "orientační muzejní odhad dospělce"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Iguanodontia",
+        "Iguanodontidae"
+      ],
+      "aliases": [
+        "iguanodon"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/iguanodon-bernissartensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Iguanodon."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce I. bernissartensis. Zbarvení a měkké tkáně jsou ilustrativní. Palcový bodec patří na ruku, nikoli na nos."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Leguání zub"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "i-gua-no-don"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Asi před 126–122 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · zejména Belgie a západní Evropa"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Větší dospělci přibližně 9–11 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ],
+          "note": {
+            "cs": "Rozměry vycházejí z muzejního přehledu druhu I. bernissartensis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 8 t"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ],
+          "note": {
+            "cs": "Odhad velkého dospělce z belgického muzejního přehledu; velikosti jednotlivých koster se liší."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rbins-iguanodon",
+            "nhm-iguanodon-history"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Iguanodon",
+          "ageLabel": "Asi před 126–122 mil. let",
+          "location": "Evropa · zejména Belgie a západní Evropa",
+          "groupLabel": "Ornitopodi",
+          "summary": "Iguanodon byl velký býložravec s nápadným bodcem na palci. Dobře zachované kostry z belgického Bernissartu zásadně změnily představy o jeho vzhledu. Dlouhý ocas vyvažoval tělo; dnešní rekonstrukce jej obvykle neukazují jako oporu vláčenou po zemi.",
+          "cardSummary": "Evropský býložravec s výrazným bodcem na palci.",
+          "quizHint": "Hledej bodec na palci ruky, ne roh na nose.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hlava nesla zobák a soustavu zubů zpracovávajících rostliny. Ruka měla několik různě upravených prstů: nápadný palcový bodec není totéž co prsty nesoucí hmotnost při chůzi. Pevné zadní nohy byly delší než přední."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rbins-iguanodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přední končetiny mohly podpírat tělo při chůzi. Zvažuje se také pohyb na zadních končetinách; jeho využití a rozsah jsou předmětem biomechanického výkladu. Těžký ocas tvořil protiváhu přední části těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rbins-iguanodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zobák odděloval rostlinná sousta a zuby je dále zpracovávaly. Podobnost některých zubů se zuby leguána dala rodu jméno, neznamená ale, že šlo o obřího leguána se stejnou stavbou těla a způsobem života."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-iguanodon-history",
+                    "rbins-iguanodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "palec",
+              "title": "K čemu sloužil palcový bodec?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mohl se uplatňovat při obraně nebo jiném kontaktu se zvířaty. Samotný kostěný bodec neurčuje přesnou četnost ani průběh soubojů. Jeho rohovinový obal mohl měnit skutečný rozměr oproti dochované kosti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rbins-iguanodon",
+                    "nhm-iguanodon-history"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "objev",
+              "title": "Historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Od roku 1878 přinesl důl v Bernissartu desítky výjimečně zachovaných koster. Byly nalezeny více než tři sta metrů pod dnešním povrchem. Jejich vzájemné srovnání pomohlo poznat celé zvíře mnohem přesněji než dřívější izolované zuby a kosti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rbins-iguanodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "predstavy",
+              "title": "Vývoj vědeckých představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na raných rekonstrukcích se budoucí palcový bodec ocitl na nose. Úplnější kostry ukázaly jeho správné místo na ruce. Proměnily se také představy o vzpřímeném postoji a ocasu opřeném o zem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-iguanodon-history"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust-a-zivot",
+              "title": "Růst a způsob života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Společný výskyt mnoha koster pomáhá zkoumat jejich rozdíly. Jedno hromadné naleziště však nestačí k přesnému popisu celoročního stáda. Podrobnosti rozmnožování a péče o mláďata zde nepovažujeme za doložené."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rbins-iguanodon"
+                  ]
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Výrazný bodec na palci každé ruky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rbins-iguanodon",
+                "nhm-iguanodon-history"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Prodloužená hlava se zobákem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rbins-iguanodon",
+                "nhm-iguanodon-history"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutný trup, silné zadní končetiny a dlouhý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rbins-iguanodon",
+                "nhm-iguanodon-history"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Výrazný bodec na palci každé ruky. Prodloužená hlava se zobákem. Mohutný trup, silné zadní končetiny a dlouhý ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "rbins-iguanodon",
+              "nhm-iguanodon-history"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 10,
+        "note": {
+          "cs": "Pro srovnání vybíráme 10 m z muzejního rozmezí dospělců asi 9–11 m."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "rbins-iguanodon"
+        ]
+      }
+    },
+    {
+      "id": "carnotaurus-sastrei",
+      "scientificName": "Carnotaurus sastrei",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "theropod",
+      "continents": [
+        "south-america"
+      ],
+      "ageMa": {
+        "older": 71,
+        "younger": 69,
+        "scope": "přibližné muzejní zařazení nálezových vrstev"
+      },
+      "lengthM": {
+        "estimate": 8,
+        "scope": "rekonstrukce neúplného jedince"
+      },
+      "massKg": null,
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Ceratosauria",
+        "Abelisauridae"
+      ],
+      "aliases": [
+        "carnotaurus",
+        "karnotaurus",
+        "karnotaur"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/carnotaurus-sastrei.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Carnotaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce C. sastrei. Šupinatý pokryv je doložen, ale zbarvení a přesná měkká podoba rohů jsou ilustrativní. Ocas a části nohou jsou doplněné podle příbuzných."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Masožravý býk"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "kar-no-tau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Asi před 71–69 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jižní Amerika · Patagonie, Argentina"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 8 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ],
+          "note": {
+            "cs": "Ocas a spodní části zadních končetin nejsou v jediné známé kostře kompletní."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nejistá"
+          },
+          "confidence": "unknown",
+          "sourceIds": [],
+          "note": {
+            "cs": "Přesnou hmotnost živého zvířete z těchto fosilií neznáme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-carnotaurus",
+            "carnotaurus-skin-2021"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Carnotaurus",
+          "ageLabel": "Asi před 71–69 mil. let",
+          "location": "Jižní Amerika · Patagonie, Argentina",
+          "groupLabel": "Abelisauridi",
+          "summary": "Carnotaurus se pozná podle dvou rohů nad očima a mimořádně krátkých předních končetin. Byl to dvounohý predátor z Patagonie. Otisky jeho kůže dokládají mozaiku drobných šupin s většími výraznými šupinami mezi nimi.",
+          "cardSummary": "Patagonský dravec se dvěma rohy a maličkými pažemi.",
+          "quizHint": "Hledej dva rohy nad očima, krátkou vysokou hlavu a maličké paže.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krátká a hluboká lebka nesla nad očima párové rohy. Zepředu byla hlava úzká. Přední končetiny byly velmi redukované; stavba ruky se lišila od mohutnějších chápavých rukou například u allosaura."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-carnotaurus",
+                    "carnotaurus-hand-2011"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kuze",
+              "title": "Co nám prozradila kůže",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachované otisky z různých částí těla ukazují drobné nepřekrývající se šupiny i větší kuželovité šupiny. Jejich rozmístění nebylo jednoduchou řadou pravidelných pancéřových hrotů. Barvu ani případné změny barvy tyto otisky nedokládají."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carnotaurus-skin-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Chodil po zadních končetinách. Úplný ocas ani spodní části nohou nejsou doložené, takže rekonstrukce jejich proporcí využívá příbuzné abelisauridy. Přesný rychlostní rekord z takové kostry určit nelze."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-carnotaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava a lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Masožravost odpovídá stavbě čelistí a zubů. Která zvířata konkrétně lovil nejčastěji, ale nevíme. Příbuzný predátor s podobným chrupem může napovědět možnosti, ne dokázat shodný jídelníček."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-carnotaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rohy",
+              "title": "K čemu byly rohy?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mezi hlavní možnosti patří předvádění, rozpoznávání a kontakt s rivaly. Tvar rohů sám nestačí k důkazu pravidelného nabíhání hlavou proti jinému zvířeti. Rozsah rohovinového obalu také rekonstruujeme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-carnotaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pochází z argentinského souvrství La Colonia. Jediný známý exemplář uchoval podstatnou část kostry i kůže. Usazeniny oblasti ukazují prostředí ovlivněné vodou, místy poblíž pobřeží."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-carnotaurus",
+                    "carnotaurus-skin-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi abelisauridy, například spolu s rodem Majungasaurus. S tyranosaurem sdílel dvounohý predátorský vzhled, ale nešlo o blízké příbuzné. Krátké přední končetiny se v různých liniích vyvinuly nezávisle."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-carnotaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Růst, rozmnožování a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jeden známý jedinec nestačí k vytvoření úplné růstové řady. Neznáme jeho přesný hlas, námluvy ani péči o mláďata. Tvrzení o schopnosti měnit barvu jako chameleon nemá přímý fosilní důkaz."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva nápadné rohy nad očima."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-carnotaurus",
+                "carnotaurus-hand-2011"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátká hluboká lebka."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-carnotaurus",
+                "carnotaurus-hand-2011"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mimořádně malé přední končetiny."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-carnotaurus",
+                "carnotaurus-hand-2011"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva nápadné rohy nad očima. Krátká hluboká lebka. Mimořádně malé přední končetiny."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-carnotaurus",
+              "carnotaurus-hand-2011"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 8,
+        "note": {
+          "cs": "Orientační délka neúplné kostry doplněné pomocí příbuzných. Nejde o přesný rozměr celého druhu."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-carnotaurus"
+        ]
+      }
+    },
+    {
+      "id": "pachycephalosaurus-wyomingensis",
+      "scientificName": "Pachycephalosaurus wyomingensis",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "pachycephalosaur",
+      "continents": [
+        "north-america"
+      ],
+      "ageMa": {
+        "older": 69,
+        "younger": 66,
+        "scope": "zaokrouhlený muzejní interval"
+      },
+      "lengthM": {
+        "estimate": 4.5,
+        "scope": "orientační rekonstrukce"
+      },
+      "massKg": {
+        "estimate": 450,
+        "scope": "orientační muzejní odhad"
+      },
+      "taxonomy": [
+        "Dinosauria",
+        "Ornithischia",
+        "Marginocephalia",
+        "Pachycephalosauria",
+        "Pachycephalosauridae"
+      ],
+      "aliases": [
+        "pachycephalosaurus",
+        "pachycefalosaurus",
+        "pachycefalosaur"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pachycephalosaurus-wyomingensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pachycephalosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. wyomingensis. Kostěná kopule je doložena; její měkký kryt, barvy i další podrobnosti těla jsou rekonstrukcí."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Tlustohlavý ještěr"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "pa-chy-ce-fa-lo-sau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Asi před 69–66 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · západ USA a Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 4,5 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ],
+          "note": {
+            "cs": "Jde o rekonstrukční odhad. Muzejní přehledy uvádějí různé orientační délky."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 450 kg"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlený muzejní odhad závislý na rekonstruovaných proporcích."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-pachycephalosaurus",
+            "ndgs-pachycephalosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pachycephalosaurus",
+          "ageLabel": "Asi před 69–66 mil. let",
+          "location": "Severní Amerika · západ USA a Kanada",
+          "groupLabel": "Pachycefalosauři",
+          "summary": "Nápadná kostěná kopule na hlavě dala pachycefalosaurovi jméno. Tento dvounohý dinosaurus žil na konci křídy v Severní Americe. O použití kopule se diskutuje; poranění některých lebek podporují možnost soubojů, ne však jediný přesný scénář.",
+          "cardSummary": "Dvounohý dinosaurus s vysokou kostěnou kopulí na hlavě.",
+          "quizHint": "Hledej vysokou zaoblenou kostěnou kopuli, ne dlouhé rohy.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zesílené čelní a temenní kosti tvořily výraznou kopuli. Kolem zadní části lebky byly menší uzly a výběžky. Tělo se pohybovalo po dvou zadních končetinách; přední končetiny byly krátké."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-pachycephalosaurus",
+                    "pachycephalosaur-combat-2013"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kopule",
+              "title": "Používal hlavu k soubojům?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některé pachycefalosauří kopule nesou stopy poranění soustředěné poblíž nejvyšší části. Studie z roku 2013 je vyložila jako podporu soubojového využití. Přesný postoj soupeřů, síla nárazu ani četnost takového chování však nejsou přímo známé."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "pachycephalosaur-combat-2013"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dalsi-funkce",
+              "title": "Další možné funkce kopule",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kopule mohla současně fungovat při předvádění či rozpoznávání zvířat. Použití v souboji nevylučuje vizuální signalizaci. Nápadné kostěné útvary žijících živočichů také nemusí mít jen jedinou funkci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-pachycephalosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Muzejní přehled řadí pachycefalosaura především k býložravcům. Zobák a chrup vypovídají o zpracování potravy, ale její přesné složení je méně jisté. Jednoduché označení v atlasu neznamená, že známe každé sousto."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-pachycephalosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žil v severoamerických ekosystémech konce křídy, kde se vyskytovali také tyranosauři, triceratopsové a ankylosauři. Nejde o současníka mnohem starších jurských stegosaurů a diplodoků."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-pachycephalosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy-a-rust",
+              "title": "Fosilní nálezy a růst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nápadná kopule se ve fosilním záznamu poznává snadněji než nenápadné oddělené kosti těla. Při porovnávání lebek záleží na věku jedinců i zachování povrchu: ne každá prohlubeň musí být poraněním z boje."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "pachycephalosaur-combat-2013"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Co zatím nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné rozmnožovací chování, zvuky, zbarvení a podoba společenských skupin nejsou těmito nálezy určené. Obrázek samotný nedokazuje velikost rohovinového krytu kopule ani její živé barvy."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoká zaoblená kostěná kopule na hlavě."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-pachycephalosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Drobné uzly a výběžky kolem zadní části lebky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-pachycephalosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvounohý postoj s krátkými předními končetinami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-pachycephalosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoká zaoblená kostěná kopule na hlavě. Drobné uzly a výběžky kolem zadní části lebky. Dvounohý postoj s krátkými předními končetinami."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "nhm-pachycephalosaurus"
+            ]
+          },
+          "contemporaries": {
+            "text": {
+              "cs": "Tato zvířata pocházejí ze severoamerických ekosystémů konce křídy. Nálezy z podobně starých vrstev umožňují srovnávat jejich prostředí, ale nejsou důkazem, že se každý druh setkal s každým v jeden okamžik."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nhm-pachycephalosaurus",
+              "triceratops-2014"
+            ],
+            "ids": [
+              "triceratops-horridus",
+              "tyrannosaurus-rex",
+              "ankylosaurus-magniventris"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 4.5,
+        "note": {
+          "cs": "Orientační délka uváděná geologickou službou Severní Dakoty. Nejde o výšku kopule ani přesné měření každého jedince."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "ndgs-pachycephalosaurus"
+        ]
+      }
+    },
+    {
+      "id": "therizinosaurus-cheloniformis",
+      "scientificName": "Therizinosaurus cheloniformis",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "theropod",
+      "continents": [
+        "asia"
+      ],
+      "ageMa": {
+        "estimate": 70,
+        "scope": "zaokrouhlený muzejní kontext"
+      },
+      "lengthM": {
+        "estimate": 10,
+        "scope": "velmi neúplné fosilie, doplnění podle příbuzných"
+      },
+      "massKg": null,
+      "taxonomy": [
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Maniraptora",
+        "Therizinosauria",
+        "Therizinosauridae"
+      ],
+      "aliases": [
+        "therizinosaurus",
+        "terizinosaurus",
+        "terizinosaur"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/therizinosaurus-cheloniformis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Therizinosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce T. cheloniformis. Hlava, celková stavba těla a opeření se z velké části odvozují z příbuzných. Dlouhé drápy jsou doložené, jejich přesný rohovinový obal a funkce nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Ještěr s kosou"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "te-ri-zi-no-sau-rus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Přibližně před 70 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Asie · Mongolsko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Velmi orientačně kolem 10 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ],
+          "note": {
+            "cs": "Celková délka je rekonstrukce neúplně známého druhu, nikoli přímé změření úplné kostry."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nejistá"
+          },
+          "confidence": "unknown",
+          "sourceIds": [],
+          "note": {
+            "cs": "Přesnou hmotnost živého zvířete z těchto fosilií neznáme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "nhm-therizinosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Therizinosaurus",
+          "ageLabel": "Přibližně před 70 mil. let",
+          "location": "Asie · Mongolsko",
+          "groupLabel": "Terizinosauři",
+          "summary": "Therizinosaurus je známý především obrovskými drápy na předních končetinách. Patřil mezi teropody, ale nejspíš přijímal hlavně rostlinnou potravu. Protože nemáme jeho úplnou kostru, dlouhý krk, malou hlavu i celkové proporce doplňujeme s pomocí příbuzných.",
+          "cardSummary": "Neobvyklý teropod s mimořádně dlouhými drápy.",
+          "quizHint": "Hledej tři velmi dlouhé úzké drápy na každé ruce a malou hlavu na dlouhém krku.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Co máme skutečně nalezené",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nejznámější jsou kosti mohutných předních končetin a dlouhé drápy; známé jsou také další části neúplné kostry. Celá lebka a souvislá kompletní kostra nalezeny nebyly. Celkový obraz tedy využívá srovnání s jinými terizinosaury."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "nhm-therizinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "drapy",
+              "title": "K čemu sloužily drápy?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhé štíhlé drápy nemusely být vhodné k silnému bodání nebo hrabání. Mechanická studie z roku 2023 zdůraznila možnost předvádění. Přitahování větví či odstrašování jiných zvířat jsou další uvažované funkce; přesné použití zůstává nejisté."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "therizinosaurus-claws-2023",
+                    "nhm-therizinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zařazení mezi hlavně býložravé teropody vychází z příbuzenských vztahů a známé anatomie terizinosaurů. Není to automatický důsledek toho, že drápy vypadají jako kosy. Přímý kompletní jídelníček tohoto druhu neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-therizinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rekonstrukce jej ukazují jako těžkého dvounohého živočicha. Přesný postoj a rozložení hmotnosti závisejí na doplnění chybějících částí těla. Z velkých drápů nelze vyvozovat, že běhal a lovil jako filmový predátor."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-therizinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "peri",
+              "title": "Jak jisté je opeření?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Opeřený vzhled se odvozuje z příbuzných teropodů. Přímý kožní pokryv celého Therizinosaurus cheloniformis zachovaný nemáme. Rozsah opeření, jeho hustota a barvy na obrázku proto patří k rekonstrukčním volbám."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-therizinosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Příbuzní a proměny výkladu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Teropodi nebyli jen velcí masožravci. V této vývojové větvi vznikly také linie přizpůsobené rostlinné potravě. Neobvyklé drápy je proto třeba vykládat v souvislosti s celým živočichem, ne izolovaně jako jasnou zbraň lovce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "nhm-therizinosaurus",
+                    "therizinosaurus-claws-2023"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Růst, rozmnožování a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podrobnou růstovou řadu, přesnou hmotnost i druhově doložené každodenní chování zde nemáme. Nálezy hnízd příbuzných terizinosaurů by samy neprokázaly totožnou péči o mláďata u tohoto druhu."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Tři nápadně prodloužené drápy na každé ruce."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "nhm-therizinosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava a dlouhý krk podle rekonstrukce z příbuzných."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "nhm-therizinosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutný dvounohý trup podle neúplných nálezů a příbuzných."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "nhm-therizinosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Poznávacím znakem jsou mimořádně dlouhé drápy. Malou hlavu, dlouhý krk a velký trup rekonstruujeme podle příbuzných; samotné dlouhé drápy nedokazují lov velké kořisti."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "nhm-therizinosaurus"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 10,
+        "note": {
+          "cs": "Silně orientační celková délka z muzejní rekonstrukce. Druh není znám z úplné kostry."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "nhm-therizinosaurus"
+        ]
+      }
+    },
+    {
+      "id": "pterodactylus-antiquus",
+      "scientificName": "Pterodactylus antiquus",
+      "taxonRank": "species",
+      "category": "pterosaur",
+      "period": "jurassic",
+      "diet": "carnivore",
+      "group": "pterodactyloid",
+      "continents": [
+        "europe"
+      ],
+      "ageMa": {
+        "estimate": 150,
+        "scope": "zaokrouhlené pozdnějurské stáří bavorských nálezů"
+      },
+      "lengthM": null,
+      "massKg": null,
+      "taxonomy": [
+        "Archosauria",
+        "Pterosauria",
+        "Pterodactyloidea",
+        "Archaeopterodactyloidea"
+      ],
+      "aliases": [
+        "pterodactylus",
+        "pterodaktyl",
+        "pterodactyl",
+        "pterodaktylus"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pterodactylus-antiquus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pterodactylus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. antiquus. Zuby a krátký ocas patří k doložené anatomii; barvy, měkké tkáně a hustotu tělního pokryvu rekonstruujeme."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Křídlový prst"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "pte-ro-dak-ty-lus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Přibližně před 150 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · Bavorsko, Německo"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Rozpětí křídel"
+          },
+          "value": {
+            "cs": "U dospělců přibližně kolem 1 m či trochu více"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ],
+          "note": {
+            "cs": "Studie dospělejšího materiálu doložila rozpětí přes jeden metr. Velikost závisí na věku a správném určení druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nejistá"
+          },
+          "confidence": "unknown",
+          "sourceIds": [],
+          "note": {
+            "cs": "Přesnou hmotnost živého zvířete z těchto fosilií neznáme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "pterodactylus-bennett-2013",
+            "amnh-pterosaurs"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pterodactylus",
+          "ageLabel": "Přibližně před 150 mil. let",
+          "location": "Evropa · Bavorsko, Německo",
+          "groupLabel": "Ptakoještěři",
+          "summary": "Pterodactylus byl malý ptakoještěr s dlouhými ozubenými čelistmi a krátkým ocasem. Křídla tvořila blána nesená prodlouženým čtvrtým prstem ruky. Nebyl to dinosaurus ani pták a jeho jméno neoznačuje všechny ptakoještěry.",
+          "cardSummary": "Malý jurský ptakoještěr s ozubenými čelistmi.",
+          "quizHint": "Hledej dlouhé čelisti s drobnými zuby, krátký ocas a jen nízký hlavový hřebínek.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Prodloužené čelisti nesly drobné kuželovité zuby. Ocas byl krátký. Nízký kostěný hřebínek a jeho měkký doplněk jsou doložené u větších jedinců; nápadný dozadu protažený mečovitý hřeben pteranodona sem nepatří."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "pterodactylus-bennett-2013",
+                    "pterodactylus-painten-2022"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kridlo",
+              "title": "Jak fungovalo křídlo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hlavní oporu blanitého křídla tvořil extrémně prodloužený čtvrtý prst. Tři kratší volné prsty byly jiné části téže ruky. Nešlo tedy o ptačí křídlo z letek ani o netopýří křídlo rozepřené více dlouhými prsty."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "amnh-pterosaurs"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drobné zuby a čelisti jsou slučitelné s lovem malých živočichů, například drobných vodních zvířat. Přesné zastoupení kořisti a způsob jejího získávání nejsou stejně dobře doložené jako ozubená stavba čelistí."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "pterodactylus-painten-2022"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a fosilní nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bavorské deskové vápence uchovávají pozdnějurský svět mělkých lagun a okolních ostrovů. Výjimečně jemné usazeniny dovolily zachovat i křehké kostry. Nalezení těla v laguně samo neznamená, že zvíře celý život plavalo v moři."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "museum-solnhofen",
+                    "amnh-pterosaurs"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Růst a určování druhů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mláďata měla jiné proporce hlavy a těla než dospělejší jedinci. Badatelé proto znovu přezkoumávají, které rozdíly vznikly růstem a které mohou vymezovat samostatné druhy. V tomto hesle zůstáváme u P. antiquus."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "pterodactylus-bennett-2013",
+                    "pterosaur-solnhofen-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "predstavy",
+              "title": "Vývoj vědeckých představ",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rané výklady ptakoještěřích koster uvažovaly i o vodním způsobu života. Dlouhé křídelní prsty a další nálezy pomohly rozpoznat létající plazy. Dnes opatrně rozlišujeme skutečný Pterodactylus od mnoha jiných rodů, kterým se lidově říká pterodaktyl."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "amnh-pterosaurs"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Rozmnožování a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné barvy tohoto druhu, jeho hlas a podrobnou péči o mláďata z uvedených nálezů neurčujeme. Rozmnožování jiných ptakoještěrů nelze bez ověření popsat jako totožné chování P. antiquus."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Prodloužené čelisti s drobnými kuželovitými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "pterodactylus-bennett-2013",
+                "pterodactylus-painten-2022"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátký ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "pterodactylus-bennett-2013",
+                "pterodactylus-painten-2022"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Nízký hlavový hřebínek, nikoli dlouhý zadní hřeben pteranodona."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "pterodactylus-bennett-2013",
+                "pterodactylus-painten-2022"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Prodloužené čelisti s drobnými kuželovitými zuby. Krátký ocas. Nízký hlavový hřebínek, nikoli dlouhý zadní hřeben pteranodona."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "pterodactylus-bennett-2013",
+              "pterodactylus-painten-2022"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "wingspan",
+        "valueM": 1,
+        "note": {
+          "cs": "Ukázkové rozpětí kolem 1 m. Dospělejší fosilní materiál dovoluje i mírně větší odhad; růst a taxonomie velikostní srovnání ovlivňují."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "pterodactylus-bennett-2013"
+        ]
+      },
+      "wingspanM": {
+        "estimate": 1,
+        "scope": "zaokrouhlený dospělejší rekonstrukční rozměr, nikoli maximum"
+      }
+    },
+    {
+      "id": "pteranodon-longiceps",
+      "scientificName": "Pteranodon longiceps",
+      "taxonRank": "species",
+      "category": "pterosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "pteranodontian",
+      "continents": [
+        "north-america"
+      ],
+      "ageMa": {
+        "estimate": 85,
+        "scope": "přibližný muzejní údaj"
+      },
+      "lengthM": null,
+      "massKg": null,
+      "taxonomy": [
+        "Archosauria",
+        "Pterosauria",
+        "Pterodactyloidea",
+        "Pteranodontia",
+        "Pteranodontidae"
+      ],
+      "aliases": [
+        "pteranodon",
+        "pteranodont"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pteranodon-longiceps.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pteranodon."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. longiceps s výrazným zadním hřebenem. Zbarvení, měkké tkáně a letová poloha jsou ilustrativní; hřebeny a velikosti jedinců se lišily."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Křídlatý a bezzubý"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "pte-ra-no-don"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Přibližně před 85 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · zejména Kansas, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Rozpětí křídel"
+          },
+          "value": {
+            "cs": "U velkých jedinců až kolem 6 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ],
+          "note": {
+            "cs": "Rozpětí je vzdálenost mezi konci roztažených křídel. Různě velcí jedinci neměli totožný hřeben ani proporce."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nejistá"
+          },
+          "confidence": "unknown",
+          "sourceIds": [],
+          "note": {
+            "cs": "Přesnou hmotnost živého zvířete z těchto fosilií neznáme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "amnh-pteranodon",
+            "amnh-pteranodon-card"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pteranodon",
+          "ageLabel": "Přibližně před 85 mil. let",
+          "location": "Severní Amerika · zejména Kansas, USA",
+          "groupLabel": "Ptakoještěři",
+          "summary": "Pteranodon měl dlouhý bezzubý zobák a nápadný hřeben směřující dozadu. Plachtil nad vnitrozemským mořem, které tehdy pokrývalo část Severní Ameriky. Velké rozpětí křídel nebylo délkou těla a tento létající plaz nepatřil mezi dinosaury.",
+          "cardSummary": "Velký mořský ptakoještěr s bezzubým zobákem.",
+          "quizHint": "Hledej bezzubý zobák a dlouhý hřeben vybíhající dozadu za hlavou.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lebka nesla dlouhé bezzubé čelisti a dozadu orientovaný hřeben. Křídla byla blanitá a ocas krátký. Nápadně dlouhý hřeben na ilustraci představuje konkrétní velkou rekonstrukci, nikoli stejnou podobu všech jedinců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "amnh-pteranodon",
+                    "amnh-pterosaur-crests"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Let",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhá křídla byla přizpůsobená letu a plachtění. Podoba vzletu z vody i přesné využití větru jsou biomechanické výklady. Létající pterosaur zůstává plazem jiné větve než ptáci, přestože zvládl podobný úkol pohybu vzduchem."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "amnh-pteranodon",
+                    "amnh-pterosaurs"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava a získávání ryb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ryby jsou doloženou součástí pteranodoní potravy, mimo jiné nálezy jejich pozůstatků ve spojení s fosiliemi. Přesná hloubka ponoru a běžný lovecký postup jsou méně jisté než samotná přítomnost rybí potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "grpm-pterosaurs",
+                    "amnh-pteranodon-card"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hreben",
+              "title": "K čemu sloužil hřeben",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nápadné hřebeny ptakoještěrů se vykládají také jako vizuální signály. Předvádění a rozpoznávání jsou možné funkce, které nemusely vylučovat jiné vlivy. Přesnou barvu hřebene P. longiceps neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "amnh-pterosaur-crests"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní suchý Kansas byl součástí oblasti velkého vnitrozemského moře. Křídové mořské usazeniny zachovaly kosti pteranodonů i dalších živočichů. Moderní poloha naleziště tedy nepopisuje pravěkou krajinu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "amnh-pteranodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "objev",
+              "title": "Historie objevu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První významné nálezy pocházejí z výprav do Kansasu v 19. století. Pteranodon byl dlouho největším známým ptakoještěrem, než byly rozpoznány ještě větší formy včetně quetzalcoatla. Nešlo však o jeho předka žijícího na stejném místě ve stejné době."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "amnh-pteranodon-card",
+                    "amnh-pteranodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Růst, rozmnožování a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozdílné velikosti a tvary hřebenů vyžadují zohlednit růst i možné rozdíly mezi pohlavími. Z jednoho obrázku nelze určit chování celé populace. Přesné námluvy, hlas ani každodenní péči o mláďata zde spolehlivě nepopisujeme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý bezzubý zobák."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-pteranodon",
+                "amnh-pterosaur-crests"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Hřeben protažený dozadu za hlavou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-pteranodon",
+                "amnh-pterosaur-crests"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhá blanitá křídla a velmi krátký ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "amnh-pteranodon",
+                "amnh-pterosaur-crests"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý bezzubý zobák. Hřeben protažený dozadu za hlavou. Dlouhá blanitá křídla a velmi krátký ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "amnh-pteranodon",
+              "amnh-pterosaur-crests"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "wingspan",
+        "valueM": 6,
+        "note": {
+          "cs": "Rozpětí velkého rekonstruovaného jedince. Nejde o délku těla, výšku ani velikost každého pteranodona."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "amnh-pteranodon"
+        ]
+      },
+      "wingspanM": {
+        "upperApprox": 6,
+        "scope": "orientační muzejní velikost velkých jedinců"
+      }
+    },
+    {
+      "id": "quetzalcoatlus-northropi",
+      "scientificName": "Quetzalcoatlus northropi",
+      "taxonRank": "species",
+      "category": "pterosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "azhdarchid",
+      "continents": [
+        "north-america"
+      ],
+      "ageMa": {
+        "estimate": 70,
+        "scope": "zaokrouhlené muzejní časové zařazení Big Bend"
+      },
+      "lengthM": null,
+      "massKg": null,
+      "taxonomy": [
+        "Archosauria",
+        "Pterosauria",
+        "Pterodactyloidea",
+        "Azhdarchoidea",
+        "Azhdarchidae"
+      ],
+      "aliases": [
+        "quetzalcoatlus",
+        "quetzalcoatl",
+        "quetzal",
+        "kecalkoatlus",
+        "quetzalcoatlus northropi",
+        "quecoatlus",
+        "quecalcoatlus"
+      ],
+      "reviewedAt": "2026-10-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/quetzalcoatlus-northropi.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Quetzalcoatlus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce Q. northropi. Krk, hlava a celkové proporce využívají srovnání s Q. lawsoni a dalšími azhdarchidy; barvy a tělní pokryv jsou ilustrativní."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Význam rodového názvu"
+          },
+          "value": {
+            "cs": "Jméno podle Quetzalcoatla, opeřeného hada z mezoamerické mytologie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Výslovnost"
+          },
+          "value": {
+            "cs": "ke-cal-ko-at-lus"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ],
+          "note": {
+            "cs": "Orientační český přepis."
+          }
+        },
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Přibližně před 70 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ],
+          "note": {
+            "cs": "Zaokrouhlené časové zařazení nálezů; nejde o přesný počátek a konec existence druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Big Bend, Texas"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Rozpětí křídel"
+          },
+          "value": {
+            "cs": "Odhadem přibližně 10–11 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ],
+          "note": {
+            "cs": "Rozpětí odhadujeme z neúplných kostí. Mnoho podrobností celého těla se odvozuje z menšího druhu Q. lawsoni."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nejistá"
+          },
+          "confidence": "unknown",
+          "sourceIds": [],
+          "note": {
+            "cs": "Přesnou hmotnost živého zvířete z těchto fosilií neznáme."
+          }
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ut-quetzalcoatlus-2021",
+            "quetzalcoatlus-function-2021"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Quetzalcoatlus",
+          "ageLabel": "Přibližně před 70 mil. let",
+          "location": "Severní Amerika · Big Bend, Texas",
+          "groupLabel": "Azhdarchidi",
+          "summary": "Quetzalcoatlus northropi patřil mezi obří ptakoještěry. Známe jej jen z neúplných nálezů, takže jeho dlouhý krk, zobák a celkový vzhled doplňujeme také podle menšího příbuzného druhu Q. lawsoni. Na souši se rekonstruuje jako čtyřnohý živočich.",
+          "cardSummary": "Obří ptakoještěr s dlouhým krkem a zobákem.",
+          "quizHint": "Hledej velmi dlouhý krk, dlouhý bezzubý zobák a vysoký čtyřnohý postoj.",
+          "sections": [
+            {
+              "id": "anatomie",
+              "title": "Anatomie a meze rekonstrukce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velký Q. northropi je známý z malého počtu kostí, zejména křídelních. Menší Q. lawsoni má podstatně bohatší fosilní materiál. Přenesení proporcí mezi druhy pomáhá sestavit pracovní model, ale není totéž jako nález úplné obří kostry."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "ut-quetzalcoatlus-2021",
+                    "ut-pterosaur-collection"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "let",
+              "title": "Jak mohl vzlétnout?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mechanické studie posuzují sílu končetin, pohyby kloubů a prostor pro záběr křídel. Jedna rekonstrukce zdůrazňuje silný výskok před máváním, jiné modely zvažují čtyřkončetinový odraz. Přesnou sekvenci vzletu neznáme z přímého pozorování."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "quetzalcoatlus-function-2021",
+                    "giant-pterosaur-flight-2010"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Pohyb na souši",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na zemi se azhdarchidi rekonstruují s oporou o zadní končetiny i přední končetiny s přeloženými křídly. Dlouhé přední končetiny a krk umožňovaly vysoký postoj. Rozměry měkkých tkání a rozsahy některých pohybů ale stále modelujeme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "quetzalcoatlus-function-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava: hlavní možnosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Navrhuje se sběr menší kořisti při chůzi po souši i získávání drobných vodních živočichů v mělké vodě. Dlouhý zobák je slučitelný s více způsoby získávání potravy. Obraz pravidelného lovce velkých dinosaurů není z těchto nálezů prokázán."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ut-quetzalcoatlus-2021",
+                    "azhdarchid-foraging-2008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prostredi",
+              "title": "Prostředí a objev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Douglas Lawson objevil významný materiál v texaském Big Bendu roku 1971. Zdejší pravěká krajina byla spojena s řekami a vegetací, nikoli jen s dnešní pouští. Geologické okolí fosilií je důležité pro výklady jeho života."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "ut-quetzalcoatlus-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Dva různé druhy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Q. northropi je velký druh. Q. lawsoni je menší, podrobněji známý příbuzný pojmenovaný roku 2021. Údaje o jejich velikosti a konkrétních nalezištích se nesmějí bez vysvětlení smíchat do jednoho zvířete."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "ut-quetzalcoatlus-2021",
+                    "ut-pterosaur-collection"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hmotnost",
+              "title": "Proč neuvádíme jediné číslo hmotnosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozpětí křídel neurčuje jednoznačně hmotnost. Záleží i na objemu trupu, svalech, hustotě a doplnění chybějících kostí. U neúplně známého obřího druhu by samotné přesné číslo skrylo velkou část nejistoty."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "quetzalcoatlus-function-2021"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "co-nezname",
+              "title": "Rozmnožování a co neznáme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbarvení, zvuky, podrobnosti námluv ani míru péče o mláďata Q. northropi neznáme. Ani nálezy více jedinců menšího Q. lawsoni samy nedokazují totožný společenský život obřího druhu."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ],
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý bezzubý zobák podle srovnávací rekonstrukce."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "quetzalcoatlus-function-2021",
+                "ut-quetzalcoatlus-2021"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velmi dlouhý krk odvozený z příbuzných."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "quetzalcoatlus-function-2021",
+                "ut-quetzalcoatlus-2021"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vysoký čtyřnohý postoj s přeloženými křídly při chůzi."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "quetzalcoatlus-function-2021",
+                "ut-quetzalcoatlus-2021"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý krk, dlouhý zobák a vysoký postoj odpovídají rekonstrukci obřího azhdarchida. Q. northropi známe neúplně, takže celkový vzhled doplňujeme také podle menšího Q. lawsoni."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "quetzalcoatlus-function-2021",
+              "ut-quetzalcoatlus-2021"
+            ]
+          }
+        }
+      },
+      "comparison": {
+        "kind": "wingspan",
+        "valueM": 10,
+        "note": {
+          "cs": "Ukázkové rozpětí 10 m je zaokrouhlený odhad obřího druhu z neúplných kostí. Nejde o výšku při chůzi; menší Q. lawsoni je jiný druh."
+        },
+        "confidence": "estimate",
+        "sourceIds": [
+          "quetzalcoatlus-function-2021",
+          "amnh-pterosaur-size"
+        ]
+      },
+      "wingspanM": {
+        "min": 10,
+        "max": 11,
+        "scope": "modelové rozpětí obřího druhu"
       }
     }
   ]
