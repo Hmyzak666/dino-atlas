@@ -1,0 +1,80 @@
+name: Sestavit Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Verze aplikace (například 0.5.1)
+        required: true
+        default: '0.5.1'
+
+permissions:
+  contents: read
+
+jobs:
+  apk:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-java@v6.1.0
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Připravit Android SDK
+        run: |
+          dino_sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          dino_sdk_manager="$dino_sdk_root/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$dino_sdk_manager" ]; then
+            for candidate in "$dino_sdk_root"/cmdline-tools/*/bin/sdkmanager; do
+              if [ -x "$candidate" ]; then
+                dino_sdk_manager="$candidate"
+                break
+              fi
+            done
+          fi
+          if [ ! -x "$dino_sdk_manager" ]; then
+            echo "::error::V Android SDK chybí nástroj sdkmanager."
+            exit 1
+          fi
+          printf 'ANDROID_HOME=%s\nANDROID_SDK_ROOT=%s\n' "$dino_sdk_root" "$dino_sdk_root" >> "$GITHUB_ENV"
+          "$dino_sdk_manager" --sdk_root="$dino_sdk_root" "platforms;android-35" "build-tools;35.0.1"
+
+      - name: Obnovit soukromý podpisový klíč
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import base64, os
+          from pathlib import Path
+          if not os.environ['KEYSTORE_BASE64'] or not os.environ['KEYSTORE_PASSWORD']:
+              raise SystemExit('Chybí podpisové secrets. Postup je v ANDROID.md.')
+          key = Path(os.environ['RUNNER_TEMP']) / 'dino-atlas-release.p12'
+          key.write_bytes(base64.b64decode(''.join(os.environ['KEYSTORE_BASE64'].split()), validate=True))
+          key.chmod(0o600)
+          PY
+
+      - name: Sestavit a ověřit APK
+        env:
+          DINO_VERSION: ${{ inputs.version }}
+          DINO_STORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          DINO_KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          export DINO_KEYSTORE_PATH="$RUNNER_TEMP/dino-atlas-release.p12"
+          DINO_VERSION_CODE="$((100 + GITHUB_RUN_NUMBER))"
+          python3 build_android.py --version "$DINO_VERSION" --version-code "$DINO_VERSION_CODE"
+
+      - name: Zpřístupnit APK ke stažení
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: Dino-Atlas-Android-${{ inputs.version }}
+          path: build-android/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Odstranit dočasný podpisový klíč
+        if: always()
+        run: rm -f "$RUNNER_TEMP/dino-atlas-release.p12"
