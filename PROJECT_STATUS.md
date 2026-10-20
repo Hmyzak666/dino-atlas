@@ -1,6 +1,17 @@
 # Stav projektu Dino Atlas
 
-Aktualizováno: 20. října 2026. Rozsah změny: technický úklid a ověření spolehlivosti; bez nové funkce či nového zvířete oproti nainstalované 0.8.0.
+Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 80100**. Obsah 42 zvířat se nemění.
+
+## Vyžádané změny 0.8.1
+
+- V čtecí vrstvě se Diplodocus a jeho české tvary vyslovují s tvrdým k, například Diplodokovi v popisu Camarasaura. Psané názvy jsou zachované.
+- U názvu zvířete je samostatné tlačítko pro přečtení pouze jeho jména.
+- Obrázek v detailu i v kvízu lze otevřít přes celou obrazovku. Má přiblížení 1–4× dvěma prsty, posun jedním prstem, dvojité klepnutí, tlačítka +/− a návrat k celému obrázku. Zavření a systémové Zpět vracejí na původní místo. Kvízový obrázek neprozrazuje jméno správné odpovědi.
+- Filtry období mají pořadí **Trias · Jura · Křída · Vše**.
+
+Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Podepsané sestavení 0.8.1 a zkouška této nové funkce v telefonu ještě nejsou potvrzené. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
+
+Databáze, 42 obrázků, Java zdroj, manifest, nativní prostředky, certifikát a klíče uživatelského úložiště zůstávají stejné. Původní podklad `verified-0.8.0.json` zůstává zachovaný; změny tří webových souborů mají výslovný podklad `approved-0.8.1.json`.
 
 ## Ověřený základ a verze
 
@@ -44,7 +55,7 @@ Dokumentace k obrázkům je v `docs/image-prompts/`, vědecké poznámky v `docs
 
 Jediné workflow kontroluje pull requesty a `main`. Při ručním spuštění stejného workflow vzniká podepsané APK. Automatická kompilace z pull requestů nepotřebuje původní podpisový klíč a nevydává nepodepsaný soubor jako instalovatelnou aktualizaci.
 
-## Ověření úklidu
+## Předchozí ověření úklidu 0.8.0
 
 Místně prošly:
 
@@ -58,10 +69,10 @@ Místně prošly:
 - Kontrola jediného workflow nástrojem actionlint 1.7.12 a kontrola aktivních dokumentačních odkazů.
 - Úplná kompilace Java, DEX a prostředků z Android SDK, balení, zarovnání a podpis původním klíčem. Nativní prostředky v hotovém APK jsou shodné s původním APK.
 
-Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. U nové technické sestavy ještě nebyla provedena taková ruční telefonní zkouška. Původní 0.8.0 už uživatel v telefonu potvrdil.
+Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. Uživatel následně potvrdil funkčnost technického sestavení 80001 v telefonu. Samsung tablet vyžadoval stažení českého systémového hlasu. Zkouška nového prohlížeče obrázků a nového čtení jména se týká až 0.8.1.
 
 Připojení GitHubu původně odmítalo zápis chybou 403; po autorizaci bylo obnoveno. Změny jsou na GitHubu ve větvi `chore/project-cleanup-2026-10-20` a v [návrhu změn č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1). Automatické kontroly přímo na GitHubu se spouštějí při změnách tohoto návrhu; jejich aktuální výsledky jsou v jeho kontrolách. Původní stav chrání větev `backup/pre-cleanup-2026-10-20`, ověřený základ větev `backup/verified-0.8.0-before-cleanup`. `main` se při přípravě nezměnil; návrh zůstává oddělený k posouzení a ke zkoušce aktualizace na telefonu.
 
 ## Další postup
 
-Žádná nová funkce ani obsahová várka nyní není domluvená. Budoucí změny připravovat odděleně podle [DEVELOPMENT.md](docs/DEVELOPMENT.md). Při schválené změně obsahu záměrně aktualizovat očekávání i srovnávací podklad; u technického úklidu je zachovat.
+Domluvené úpravy 0.8.1 jsou vyjmenované výše; další obsahová várka nyní není domluvená. Budoucí změny připravovat odděleně podle [DEVELOPMENT.md](docs/DEVELOPMENT.md). Při schválené změně obsahu záměrně aktualizovat očekávání i srovnávací podklad; u technického úklidu je zachovat.

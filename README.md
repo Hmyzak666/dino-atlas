@@ -2,14 +2,15 @@
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 
-Tato větev vychází z telefonem ověřené **verze 0.8.0: 42 zvířat — 30 dinosaurů, 6 ptakoještěrů a 6 mořských plazů**. Technický úklid má sestavení **80001**. Kód rozhraní, obsah, obrázky i nativní chování odpovídají původnímu sestavení 80000.
+Aktuální příprava **0.8.1, sestavení 80100** navazuje na telefonem ověřenou 0.8.0 a její technický úklid 80001. Obsah zůstává **42 zvířat — 30 dinosaurů, 6 ptakoještěrů a 6 mořských plazů**. Nově je možné zvětšit obrázek a přibližovat ho prsty, přečíst samotné jméno u názvu a správně vyslovit české tvary jména Diplodocus. Filtry období jsou v pořadí Trias, Jura, Křída, Vše.
 
 ## Funkce
 
 - Kategorie Vše, Dinosauři, Ptakoještěři a Mořští plazi; abecední řazení, hledání, filtry období a potravy.
 - Oblíbená zvířata, uložený vzhled a zvolená kategorie.
 - Podrobnosti, poznávací znaky, míra jistoty tvrzení a velikostní porovnání.
-- Oddělené čtení popisu, základních údajů a podrobností; místní české TTS.
+- Oddělené čtení samotného jména, popisu, základních údajů a podrobností; místní české TTS.
+- Celý obrázek na obrazovce, přiblížení 1–4×, posun, dvojité klepnutí, tlačítka +/− a návrat pomocí Zpět; také v kvízu bez prozrazení odpovědi.
 - Šipky a dotykové procházení detailů, zachování hledání a polohy při návratu.
 - Obrázkový kvíz s nápovědou, vysvětlením a omezením zaměnitelných odpovědí.
 
