@@ -97,9 +97,15 @@ async function openAnimal(page,id) {
       // Opening a picture must preserve the detail, orientation and scroll.
       const magnifier = page.locator('.detail-image .image-zoom-open');
       await magnifier.scrollIntoViewIfNeeded();
-      const pictureY = await page.evaluate(() => scrollY);
+      // A click may scroll an image away from the floating page arrows.
+      // Restore the position at the actual tap, not before Playwright scrolls it into reach.
+      await magnifier.evaluate(button => button.addEventListener('pointerdown', () => {
+        window.__pictureOpenY = scrollY;
+      }, {once:true,capture:true}));
       const originalSrc = await page.locator('.detail-image img').getAttribute('src');
       await magnifier.click();
+      const pictureY = await page.evaluate(() => window.__pictureOpenY);
+      assert.equal(await page.evaluate(() => scrollY),pictureY,'Opening keeps the tap position');
       await page.locator('#image-viewer').waitFor({state:'visible'});
       await page.waitForFunction(() => document.querySelector('#image-viewer-image').naturalWidth > 0);
       await page.waitForFunction(() => parseFloat(document.querySelector('#image-viewer-image').style.width) > 0);
