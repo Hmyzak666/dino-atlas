@@ -27,9 +27,10 @@ class BuildTests(unittest.TestCase):
             build.validate_markup(page.split('</body>')[0])
         with self.assertRaisesRegex(ValueError, 'Duplicate IDs'):
             build.validate_markup(page.replace('</body>', '<div id="gallery"></div></body>'))
-        rendered = build.render_page(page, '0.8.0', 80001)
-        self.assertIn('Android · 0.8.0 · build 80001', rendered)
-        self.assertEqual(rendered.replace('Android · 0.8.0 · build 80001', 'Ukázková verze · 0.8.0'), page)
+        label = f"Android · {config['version']} · build {config['versionCode']}"
+        rendered = build.render_page(page, config['version'], config['versionCode'])
+        self.assertIn(label, rendered)
+        self.assertEqual(rendered.replace(label, f"Ukázková verze · {config['version']}"), page)
 
     def test_native_manifest_contract(self):
         baseline = json.loads((build.ROOT/'tests/fixtures/verified-0.8.0.json').read_text())

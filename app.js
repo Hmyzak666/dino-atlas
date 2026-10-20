@@ -129,7 +129,9 @@
       word => word.replace(/[dD]/, letter => letter === 'D' ? 'Ď' : 'ď')
     // Some Czech voices incorrectly soften r before i in this foreign stem.
     // This narrow hint is used only for speech, including adjective endings.
-    ).replace(/ameri(?=ck|čt)/giu, word => word.slice(0, -1) + (word.endsWith('I') ? 'Y' : 'y'));
+    ).replace(/ameri(?=ck|čt)/giu, word => word.slice(0, -1) + (word.endsWith('I') ? 'Y' : 'y'))
+    // Latin spelling stays on screen; Czech narration needs a hard k.
+    .replace(/(?<![\p{L}\p{M}])diplodoc/giu, word => word.slice(0, -1) + (word.endsWith('C') ? 'K' : 'k'));
   }
 
   function speechMeasurements(value) {
@@ -145,6 +147,7 @@
 
   function narrationText(dino, sectionId = 'summary', humanHeight = 1.8) {
     const text = copy(dino);
+    if (sectionId === 'name') return pronunciationText(text.displayName);
     if (sectionId === 'summary') {
       return pronunciationText(text.summary.startsWith(text.displayName) ? text.summary : `${text.displayName}. ${text.summary}`);
     }
@@ -450,7 +453,7 @@
     const facts = dino.facts.map(fact => `<div class="fact"><dt>${escapeHtml(localized(fact.label))}</dt><dd>${escapeHtml(localized(fact.value))}${fact.note ? `<small>${escapeHtml(localized(fact.note))}</small>` : ''}${confidenceBadge(fact.confidence)}</dd></div>`).join('');
     const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${readControls(section.id, 'Přečíst tuto část')}${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}</div></details>`).join('');
     $('detail-view').innerHTML = `<a class="back-link" href="#atlas">← Zpět do atlasu</a>
-      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
+      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><div class="detail-name read-controls" data-read-controls="name"><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><button class="button read-button name-read-button" type="button" data-read="name" aria-pressed="false" aria-label="Přečíst jméno zvířete" title="Přečíst jméno"><span aria-hidden="true">🔊</span></button><button class="button read-stop name-read-button" type="button" data-stop-read hidden aria-label="Zastavit čtení jména"><span aria-hidden="true">■</span></button><p class="read-status" data-read-status="name" role="status" aria-live="polite"></p></div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
       ${detailNavigation(dino)}
       <figure class="detail-figure"><div class="detail-image"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024"></div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
       <p class="lead">${escapeHtml(text.summary)}</p>
