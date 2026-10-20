@@ -346,7 +346,12 @@
   $('image-viewer-close').addEventListener('click', closePicture);
   pictureDialog.addEventListener('cancel', event => { event.preventDefault(); closePicture(); });
   pictureDialog.addEventListener('keydown', event => {
-    if (['+', '=', '-', '0'].includes(event.key)) {
+    if (event.key === 'Tab') {
+      const targets = [...pictureDialog.querySelectorAll('button:not(:disabled), [tabindex="0"]')].filter(node => node.getClientRects().length);
+      const index = targets.indexOf(document.activeElement);
+      event.preventDefault();
+      targets[(index + (event.shiftKey ? -1 : 1) + targets.length) % targets.length]?.focus({ preventScroll: true });
+    } else if (['+', '=', '-', '0'].includes(event.key)) {
       event.preventDefault(); if (event.key === '0') paintPicture(1, 0, 0); else zoomPicture(pictureView.scale + (event.key === '-' ? -.5 : .5));
     } else if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key) && pictureView.scale > 1) {
       event.preventDefault(); paintPicture(pictureView.scale, pictureView.x + (event.key === 'ArrowLeft' ? 40 : event.key === 'ArrowRight' ? -40 : 0), pictureView.y + (event.key === 'ArrowUp' ? 40 : event.key === 'ArrowDown' ? -40 : 0));
