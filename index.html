@@ -11,8 +11,8 @@
       document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
     } catch (_) {}
   </script>
-  <link rel="stylesheet" href="./style.css?v=0.8.0">
-  <script src="./app.js?v=0.8.0" defer></script>
+  <link rel="stylesheet" href="./style.css?v=0.8.1-80101">
+  <script src="./app.js?v=0.8.1-80101" defer></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Přejít na obsah</a>
@@ -52,10 +52,10 @@
         <input id="search" type="search" placeholder="Koho hledáš?" autocomplete="off" spellcheck="false" aria-label="Najdi pravěké zvíře podle názvu">
       </label>
       <div id="period-filters" class="period-filters" role="group" aria-label="Geologické období">
-        <button type="button" data-period="all" aria-pressed="true">Vše</button>
         <button type="button" data-period="triassic" aria-pressed="false">Trias</button>
         <button type="button" data-period="jurassic" aria-pressed="false">Jura</button>
         <button type="button" data-period="cretaceous" aria-pressed="false">Křída</button>
+        <button type="button" data-period="all" aria-pressed="true">Vše</button>
       </div>
       <div class="filter-toolbar">
         <label class="diet-field" for="diet-filter"><span>Potrava</span><select id="diet-filter"><option value="all">Všechna</option><option value="herbivore">Býložravci</option><option value="carnivore">Masožravci</option><option value="omnivore">Všežravci</option></select></label>
@@ -77,11 +77,17 @@
     <section id="not-found" class="page empty-state" hidden><h1>Tohle heslo tu zatím není.</h1><p>Vrať se do atlasu a vyber jiné zvíře.</p><a class="button button-primary" href="#atlas">Zpět do atlasu</a></section>
   </main>
 
-  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 0.8.0</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
+  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 0.8.1</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
   <div id="scroll-controls" class="scroll-controls" role="group" aria-label="Rychlý posun stránky" hidden>
     <button id="scroll-up" type="button" data-scroll="up" aria-label="Na začátek stránky" title="Na začátek stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7"/></svg></button>
     <button id="scroll-down" type="button" data-scroll="down" aria-label="Na konec stránky" title="Na konec stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg></button>
   </div>
+  <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title" aria-describedby="image-viewer-hint">
+    <div class="image-viewer-header"><h2 id="image-viewer-title">Obrázek</h2><button id="image-viewer-close" class="button" type="button" autofocus>Zavřít <span aria-hidden="true">×</span></button></div>
+    <div id="image-viewer-stage" class="image-viewer-stage" tabindex="0" aria-label="Zvětšený obrázek. Přibliž dvěma prsty nebo tlačítky ve spodní části obrazovky."><img id="image-viewer-image" alt="" draggable="false"></div>
+    <div class="image-viewer-controls" role="group" aria-label="Přiblížení obrázku"><button id="image-zoom-out" class="button" type="button" aria-label="Oddálit obrázek">−</button><output id="image-zoom-level" aria-live="off">100 %</output><button id="image-zoom-in" class="button" type="button" aria-label="Přiblížit obrázek">+</button><button id="image-zoom-reset" class="button" type="button">Celý obrázek</button></div>
+    <p id="image-viewer-hint" class="image-viewer-hint">Dvěma prsty přibliž, jedním posouvej.</p>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
   <noscript><p class="load-state">Pro vyhledávání, detaily a kvíz je potřeba zapnutý JavaScript.</p></noscript>
 </body>

@@ -42,7 +42,16 @@ assert.match(facts, /Hmotnost: Orientačně kolem 47 tun/);
 assert.doesNotMatch(facts, /severoamerycký druh/);
 assert.equal(app.speechMeasurements('6–7 m; 1,8 m; 47 t; 980 kg'), '6 až 7 metrů; 1,8 metru; 47 tun; 980 kilogramů');
 
-const reserved = new Set(['summary','facts','recognition','comparison','contemporaries']);
+
+const camarasaurus = byId.get('camarasaurus-lentus');
+assert.match(camarasaurus.translations.cs.summary, /Diplodocovi/);
+assert.match(app.narrationText(camarasaurus), /Diplodokovi/);
+assert.match(app.narrationText(camarasaurus, 'recognition'), /Diplodoka/);
+assert.equal(app.narrationText(camarasaurus, 'name'), 'Camarasaurus');
+assert.equal(app.narrationText(byId.get('diplodocus-carnegii'), 'name'), 'Diplodokus');
+assert.equal(app.pronunciationText('Diplodocovi, diplodoců, DIPLODOCUS'), 'Diplodokovi, diplodoků, DIPLODOKUS');
+
+const reserved = new Set(['name','summary','facts','recognition','comparison','contemporaries']);
 for (const animal of db.dinosaurs) {
   const file = path.join(__dirname, '..', animal.image.src);
   const image = fs.readFileSync(file);

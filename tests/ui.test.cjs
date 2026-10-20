@@ -64,6 +64,7 @@ async function openAnimal(page,id) {
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
       assert.equal(await page.locator('#gallery .dino-card').count(),42);
+      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
         const decoded=await page.evaluate(async sources=>Promise.all(sources.map(src=>new Promise((resolve,reject)=>{
@@ -93,12 +94,89 @@ async function openAnimal(page,id) {
       await noOverflow(page);
       await page.screenshot({path:path.join(artifacts,'detail-'+width+'.png')});
 
+      // Opening a picture must preserve the detail, orientation and scroll.
+      const magnifier = page.locator('.detail-image .image-zoom-open');
+      await magnifier.scrollIntoViewIfNeeded();
+      // A click may scroll an image away from the floating page arrows.
+      // Restore the position at the actual tap, not before Playwright scrolls it into reach.
+      await magnifier.evaluate(button => button.addEventListener('pointerdown', () => {
+        window.__pictureOpenY = scrollY;
+      }, {once:true,capture:true}));
+      const originalSrc = await page.locator('.detail-image img').getAttribute('src');
+      await magnifier.click();
+      const pictureY = await page.evaluate(() => window.__pictureOpenY);
+      assert.equal(await page.evaluate(() => scrollY),pictureY,'Opening keeps the tap position');
+      await page.locator('#image-viewer').waitFor({state:'visible'});
+      await page.waitForFunction(() => document.querySelector('#image-viewer-image').naturalWidth > 0);
+      await page.waitForFunction(() => parseFloat(document.querySelector('#image-viewer-image').style.width) > 0);
+      assert.equal(await page.locator('#image-viewer-title').textContent(), 'Brachiosaurus');
+      assert.equal(await page.locator('#image-viewer-image').getAttribute('src'), originalSrc);
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'), '1');
+      assert.equal(await page.evaluate(() => getComputedStyle(document.body).overflow), 'hidden');
+      const fitted = await page.locator('#image-viewer-image').boundingBox();
+      const stageBox = await page.locator('#image-viewer-stage').boundingBox();
+      assert.ok(fitted.width <= stageBox.width + 2 && fitted.height <= stageBox.height + 2, 'Whole image fits');
+      for (let i=0;i<6;i++) await page.locator('#image-zoom-in').click();
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'), '4');
+      assert.equal(await page.locator('#image-zoom-in').isDisabled(), true);
+      assert.ok((await page.locator('#image-viewer-image').boundingBox()).width > fitted.width * 3.9);
+      await page.locator('#image-zoom-reset').click();
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'), '1');
+      assert.equal(await page.locator('#image-zoom-out').isDisabled(), true);
+
+      if (width===360) {
+        const touchViewer = await context.newCDPSession(page);
+        const cx=stageBox.x+stageBox.width/2, cy=stageBox.y+stageBox.height/2;
+        const points=distance=>[{id:1,x:cx-distance,y:cy},{id:2,x:cx+distance,y:cy}];
+        await touchViewer.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:points(30)});
+        for(const distance of [45,60,75,90]) await touchViewer.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:points(distance)});
+        await touchViewer.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+        assert.ok(Number(await page.locator('#image-viewer-stage').getAttribute('data-zoom')) > 2.5, 'Real two-finger pinch');
+        await touchViewer.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{id:3,x:cx,y:cy}]});
+        await touchViewer.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{id:3,x:cx+60,y:cy}]});
+        await touchViewer.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+        assert.ok(Number(await page.locator('#image-viewer-stage').getAttribute('data-pan-x')) > 40, 'Pan the enlarged image');
+        assert.ok(page.url().endsWith('/#dinosaurus/brachiosaurus-altithorax'), 'Pinch does not change animal');
+        await page.locator('#image-zoom-reset').click();
+        await page.touchscreen.tap(cx,cy);
+        await page.touchscreen.tap(cx,cy);
+        assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'2','Double tap zoom');
+        await page.keyboard.press('0');
+        assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-pan-x'),'0');
+        for(let i=0;i<8;i++) {
+          await page.keyboard.press('Tab');
+          assert.equal(await page.evaluate(()=>Boolean(document.activeElement.closest('#image-viewer'))),true,'Focus stays in modal');
+        }
+        await page.goBack();
+        await page.locator('#image-viewer').waitFor({state:'hidden'});
+        assert.ok(page.url().endsWith('/#dinosaurus/brachiosaurus-altithorax'),'Back closes only the image');
+        await page.goForward();
+        await page.locator('#image-viewer').waitFor({state:'visible'});
+        assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'1');
+      }
+      if (width===900) {
+        await page.locator('#image-viewer-stage').hover();
+        await page.mouse.wheel(0,-200);
+        await page.waitForFunction(()=>Number(document.querySelector('#image-viewer-stage').dataset.zoom)>1);
+        await page.keyboard.press('Escape');
+      } else await page.locator('#image-viewer-close').click();
+      await page.locator('#image-viewer').waitFor({state:'hidden'});
+      await page.waitForFunction(y=>Math.abs(scrollY-y)<5,pictureY).catch(async error => {
+        console.error('Viewer scroll restoration', {width, expected:pictureY, actual:await page.evaluate(()=>scrollY)});
+        throw error;
+      });
+      assert.equal(await page.evaluate(()=>document.activeElement.classList.contains('image-zoom-open')),true,'Restore focus');
+      await noOverflow(page);
+
+
       await page.locator('[data-detail-step="1"]').click();
       await page.waitForURL('**/#dinosaurus/brontosaurus-excelsus');
       await page.locator('[data-detail-step="-1"]').click();
       await page.waitForURL('**/#dinosaurus/brachiosaurus-altithorax');
 
       if(width===360) {
+        await page.locator('[data-read="name"]').click();
+        assert.equal(await page.evaluate(()=>__spoken.at(-1).text),'Brachiosaurus');
         await page.locator('[data-read="summary"]').click();
         let record=await page.evaluate(()=>__spoken.at(-1));
         assert.match(record.text,/severoamerycký/);
@@ -172,6 +250,25 @@ async function openAnimal(page,id) {
       if(width===412) {
         await page.getByRole('link',{name:'Obrázkový kvíz',exact:true}).click();
         await page.waitForURL('**/#kviz');
+
+        const questionSrc=await page.locator('.quiz-picture img').getAttribute('src');
+        await page.locator('.quiz-picture .image-zoom-open').click();
+        await page.locator('#image-viewer').waitFor({state:'visible'});
+        assert.equal(await page.locator('#image-viewer-title').textContent(),'Obrázek v kvízu');
+        const answerName=db.dinosaurs.find(a=>a.image.src===questionSrc).translations.cs.displayName;
+        assert.equal((await page.locator('#image-viewer').textContent()).includes(answerName),false,'Viewer does not reveal the answer');
+        assert.equal((await page.locator('#image-viewer-image').getAttribute('alt')).includes(answerName),false);
+        await page.locator('#image-viewer-close').click();
+        await page.locator('#image-viewer').waitFor({state:'hidden'});
+        assert.equal(await page.locator('.quiz-picture img').getAttribute('src'),questionSrc);
+        assert.equal(await page.locator('.quiz-answer:not(:disabled)').count(),3);
+        await page.goForward();
+        await page.locator('#image-viewer').waitFor({state:'visible'});
+        await page.locator('#image-viewer-close').click();
+        await page.locator('#image-viewer').waitFor({state:'hidden'});
+        await page.waitForFunction(()=>Boolean(document.activeElement.closest('.quiz-picture')));
+
+
         for(let i=0;i<5;i++) {
           const id=(await page.locator('#quiz-content img').getAttribute('src')).match(/images\/(.+)\.webp/)[1];
           await page.locator('[data-answer="'+id+'"]').click();
@@ -236,6 +333,75 @@ async function openAnimal(page,id) {
       }
       console.log('PASS viewport '+width+': alphabetic cards, header, images, navigation, favorites and scroll restoration');
       await context.close();
+    }
+    // Regression: the viewer uses the full viewport, even on short landscape screens.
+    // Controls overlay the image; they must not reserve rows or create cream borders.
+    for (const theme of ['light', 'dark']) {
+      const context = await browser.newContext({viewport:{width:412,height:915},isMobile:true,hasTouch:true});
+      await inject(context);
+      await context.addInitScript(value => localStorage.setItem('dinoatlas-theme',value), theme);
+      const page = await context.newPage();
+      page.on('pageerror',e=>errors.push(e.message));
+      await page.goto(base+'/#dinosaurus/allosaurus-fragilis');
+      await page.waitForFunction(() => document.querySelector('.detail-image img')?.naturalWidth > 0);
+
+      async function checkDetailImage() {
+        const size = await page.locator('.detail-image img').evaluate(img => ({
+          width:img.clientWidth, height:img.clientHeight, ratio:img.naturalWidth/img.naturalHeight
+        }));
+        assert.ok(Math.abs(size.width/size.height-size.ratio)<.01, 'Detail keeps the intrinsic image ratio without letterboxing');
+        if(theme==='dark') assert.equal(await page.locator('.detail-image').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(16, 34, 28)');
+      }
+      async function checkFullViewport(width,height) {
+        await page.waitForFunction(() => {
+          const img = document.querySelector('#image-viewer-image');
+          const stage = document.querySelector('#image-viewer-stage');
+          const ratio = Math.min(stage.clientWidth/img.naturalWidth,stage.clientHeight/img.naturalHeight);
+          return img.naturalWidth > 0 && Math.abs(parseFloat(img.style.width)-img.naturalWidth*ratio)<1;
+        });
+        const geometry = await page.evaluate(() => {
+          const stage=document.querySelector('#image-viewer-stage'), img=document.querySelector('#image-viewer-image');
+          const rect=stage.getBoundingClientRect(), image=img.getBoundingClientRect();
+          return {stage:{x:rect.x,y:rect.y,width:rect.width,height:rect.height},
+            image:{x:image.x,y:image.y,width:image.width,height:image.height},
+            ratio:img.naturalWidth/img.naturalHeight, background:getComputedStyle(stage).backgroundColor};
+        });
+        assert.equal(geometry.background,'rgb(16, 34, 28)','Dark image background in either app theme');
+        assert.ok(Math.abs(geometry.stage.x)<1 && Math.abs(geometry.stage.y)<1,'Stage starts at viewport edge');
+        assert.ok(geometry.stage.width>=width-1 && geometry.stage.height>=height-1,'Controls do not shrink the image stage');
+        const expectedWidth=Math.min(width,height*geometry.ratio);
+        assert.ok(Math.abs(geometry.image.width-expectedWidth)<2,'Image is as large as possible while showing the whole source');
+        assert.ok(Math.abs(geometry.image.width/geometry.image.height-geometry.ratio)<.01,'No image stretching');
+        assert.ok(geometry.image.x>=-1 && geometry.image.y>=-1,'Whole image remains visible at 100 percent');
+        const close=await page.locator('#image-viewer-close').boundingBox();
+        const zoom=await page.locator('#image-zoom-in').boundingBox();
+        assert.ok(close.x>=0 && close.y>=0 && close.x+close.width<=width+1 && close.y+close.height<=height+1,'Close stays on screen');
+        assert.ok(zoom.x>=0 && zoom.y>=0 && zoom.x+zoom.width<=width+1 && zoom.y+zoom.height<=height+1,'Zoom stays on screen');
+      }
+      await checkDetailImage();
+      await page.locator('.detail-image .image-zoom-open').click();
+      await page.locator('#image-viewer').waitFor({state:'visible'});
+      await checkFullViewport(412,915);
+      for (const viewport of [{width:915,height:412},{width:740,height:320},{width:1024,height:600},{width:412,height:915}]) {
+        await page.setViewportSize(viewport);
+        await checkFullViewport(viewport.width,viewport.height);
+        await page.screenshot({path:path.join(artifacts,'viewer-'+theme+'-'+viewport.width+'x'+viewport.height+'.png')});
+      }
+      await page.locator('#image-zoom-in').click();
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'1.5');
+      await page.setViewportSize({width:915,height:412});
+      await page.waitForFunction(()=>document.querySelector('#image-viewer-stage').clientWidth===915);
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'1.5','Rotation preserves zoom');
+      await page.locator('#image-zoom-reset').click();
+      await checkFullViewport(915,412);
+      await page.locator('#image-viewer-close').click();
+      await page.locator('#image-viewer').waitFor({state:'hidden'});
+      await checkDetailImage();
+      await page.reload();
+      await page.waitForFunction(() => document.querySelector('.detail-image img')?.naturalWidth > 0);
+      await checkDetailImage();
+      await context.close();
+      console.log('PASS '+theme+': full-size viewer, no pale borders, portrait/landscape/rotation and intrinsic detail ratio');
     }
     assert.deepEqual(errors,[]);
     console.log('PASS browser: section speech, facts, stop/switch behavior, real touch swipes, vertical scrolling, marine quiz, no external requests or page errors.');

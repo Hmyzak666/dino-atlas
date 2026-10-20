@@ -1,17 +1,17 @@
 # Sestavení Android aplikace
 
-Aktuální údaje čte sestavování z `project.json`. Tento technický úklid používá verzi **0.8.0, sestavení 80001**. Android obal je v `android/`, webové soubory v kořeni projektu. Gradle se nepoužívá.
+Aktuální údaje čte sestavování z `project.json`. Aktuální verze používá **0.8.1, sestavení 80101**. Android obal je v `android/`, webové soubory v kořeni projektu. Gradle se nepoužívá.
 
 ## GitHub Actions
 
 1. Nahraj nebo sluč úplné změny pracovní větve, včetně složek `android/`, `tools/` a `tests/`, `project.json`, `package.json` a `package-lock.json`.
 2. Ověř úspěch kontrol v jediném workflow **Dino Atlas — kontroly a APK**.
-3. V **Actions → Dino Atlas — kontroly a APK → Run workflow** vyber požadovanou větev a spusť sestavení. Verzi workflow načítá z projektu.
-4. Stáhni artefakt `Dino-Atlas-Android-0.8.0-build80001`, rozbal jej a nainstaluj APK jako aktualizaci existující aplikace.
+3. V **Actions → Dino Atlas — kontroly a APK → Run workflow** pro stabilní verzi vyber `main` (pro zkoušku rozpracované změny její pracovní větev) a spusť sestavení. Verzi workflow načítá z projektu.
+4. Stáhni artefakt `Dino-Atlas-Android-0.8.1-build80101`, rozbal jej a nainstaluj APK jako aktualizaci existující aplikace.
 
 Secrets zůstávají **`ANDROID_KEYSTORE_BASE64`** a **`ANDROID_KEYSTORE_PASSWORD`**. Musí obsahovat dosavadní soukromý klíč; alias je `dinoatlas`. Nový klíč by nevytvořil kompatibilní aktualizaci. Skript porovná podpis hotového APK s veřejným otiskem v `project.json` a při odlišném certifikátu sestavení odmítne.
 
-Na pull requestech a při pushi na `main` běží kontroly i úplná kompilace bez podpisového klíče. Nepodepsaný výsledek slouží jen ke kontrole kompilace. Ruční spuštění vytváří podepsanou aktualizaci po úspěšných testech.
+Na pull requestech a při pushi na `main` běží kontroly a úplná kompilace. U pull requestu založeného vlastníkem projektu z větve stejného repozitáře může po úspěšných testech vzniknout také podepsané APK, pokud jsou nastavená obě původní podpisová secrets. Ostatní pull requesty se sestavují bez klíče. Ruční spuštění vždy vyžaduje původní klíč. Nepodepsaný výsledek slouží jen ke kontrole kompilace; ke stažení jako aktualizace se nabízí pouze APK ověřené původním certifikátem.
 
 ## Místní sestavení
 

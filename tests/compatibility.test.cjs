@@ -5,12 +5,15 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const baseline = require('./fixtures/verified-0.8.0.json');
 const config = require('../project.json');
+const approved = require('./fixtures/approved-0.8.1.json');
 const db = require('../dinosaurs.json');
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 
-// A structural cleanup must keep the user-confirmed runtime assets byte-for-byte.
+// Only the explicitly requested UI/speech changes may differ from the confirmed baseline.
+assert.equal(approved.baselineVersion, baseline.version);
+assert.deepEqual(Object.keys(approved.assets).sort(), ['app.js', 'index.html', 'style.css']);
 for (const [name, expected] of Object.entries(baseline.assets)) {
-  assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, name + ' changed from the confirmed app');
+  assert.equal(digest(fs.readFileSync(path.join(root, name))), approved.assets[name] || expected, name + ' differs from the approved sources');
 }
 assert.deepEqual(db.dinosaurs.map(a => a.id).sort(), baseline.animalIds);
 assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);
@@ -18,7 +21,7 @@ for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
 assert.equal(config.android.certificateSha256, baseline.certificateSha256);
-assert.equal(config.version, baseline.version);
+assert.equal(config.version, approved.version);
 assert.ok(config.versionCode > baseline.versionCode, 'cleanup APK must update the installed build');
 const java = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
 assert.ok(java.includes('package ' + baseline.applicationId + ';'));
@@ -29,4 +32,4 @@ for (const key of baseline.storageKeys) assert.ok(app.includes("'" + key + "'"),
 const workflows = fs.readdirSync(path.join(root, '.github/workflows')).filter(f => /\.ya?ml$/.test(f));
 assert.deepEqual(workflows, ['android-apk.yml']);
 assert.deepEqual(fs.readdirSync(path.join(root, 'images')).sort(), db.dinosaurs.map(a => path.basename(a.image.src)).sort());
-console.log('PASS: confirmed runtime bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and one active workflow.');
+console.log('PASS: approved UI changes and confirmed database/image bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and one active workflow.');

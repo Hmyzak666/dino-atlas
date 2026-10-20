@@ -2,14 +2,15 @@
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 
-Tato větev vychází z telefonem ověřené **verze 0.8.0: 42 zvířat — 30 dinosaurů, 6 ptakoještěrů a 6 mořských plazů**. Technický úklid má sestavení **80001**. Kód rozhraní, obsah, obrázky i nativní chování odpovídají původnímu sestavení 80000.
+Aktuální uživatelem ověřená verze **0.8.1, sestavení 80101** navazuje na telefonem ověřenou 0.8.0 a její technický úklid 80001. Obsah zůstává **42 zvířat — 30 dinosaurů, 6 ptakoještěrů a 6 mořských plazů**. Nově je možné zvětšit obrázek a přibližovat ho prsty, přečíst samotné jméno u názvu a správně vyslovit české tvary jména Diplodocus. Filtry období jsou v pořadí Trias, Jura, Křída, Vše. Opravné sestavení 80101 využívá pro obrázek celý displej s ovládáním přes obraz a tmavým pozadím; detail zachovává přirozený poměr stran bez světlých bočních okrajů.
 
 ## Funkce
 
 - Kategorie Vše, Dinosauři, Ptakoještěři a Mořští plazi; abecední řazení, hledání, filtry období a potravy.
 - Oblíbená zvířata, uložený vzhled a zvolená kategorie.
 - Podrobnosti, poznávací znaky, míra jistoty tvrzení a velikostní porovnání.
-- Oddělené čtení popisu, základních údajů a podrobností; místní české TTS.
+- Oddělené čtení samotného jména, popisu, základních údajů a podrobností; místní české TTS.
+- Celý obrázek na obrazovce, přiblížení 1–4×, posun, dvojité klepnutí, tlačítka +/− a návrat pomocí Zpět; také v kvízu bez prozrazení odpovědi.
 - Šipky a dotykové procházení detailů, zachování hledání a polohy při návratu.
 - Obrázkový kvíz s nápovědou, vysvětlením a omezením zaměnitelných odpovědí.
 
@@ -43,10 +44,10 @@ Pro místní webový náhled spusť z kořene projektu `python3 -m http.server 8
 
 ## Android
 
-Na GitHubu spusť **Actions → Dino Atlas — kontroly a APK → Run workflow**. Verzi načte workflow z `project.json`, použije původní podpisová tajemství a nabídne podepsané APK. Při pull requestu a pushi na `main` běží stejné testy a úplná kompilace bez soukromého klíče.
+Na GitHubu spusť **Actions → Dino Atlas — kontroly a APK → Run workflow** a pro aktuální stabilní verzi vyber větev **main**. Verzi načte workflow z `project.json`, použije původní podpisová tajemství a nabídne podepsané APK. Při pull requestu a pushi na `main` běží stejné testy a úplná kompilace. Interní pull request vlastníka projektu může po testech nabídnout i podepsané APK, pokud jsou dostupná původní podpisová secrets; ostatní kontroly se obejdou bez soukromého klíče.
 
 ApplicationId zůstává **`cz.hmyzak.dinoatlas`**, minimem je Android 8.0. Podpisový klíč se negeneruje znovu. Postup, kontrola certifikátu a místní sestavení jsou v [ANDROID.md](ANDROID.md).
 
 ## Další vývoj
 
-Před změnami přečti [PROJECT_STATUS.md](PROJECT_STATUS.md) a [návod k vývoji](docs/DEVELOPMENT.md). Zjištění, původ ověřené verze a body návratu zachycuje [audit úklidu](docs/cleanup-audit-2026-10-20.md). Historické návody v `docs/history/` nejsou aktuální sestavovací postupy.
+Nové pracovní větve zakládej z aktuální `main`, která obsahuje dokončený úklid i ověřené úpravy 0.8.1. Před změnami přečti [PROJECT_STATUS.md](PROJECT_STATUS.md) a [návod k vývoji](docs/DEVELOPMENT.md). Zjištění, původ ověřené verze a body návratu zachycuje [audit úklidu](docs/cleanup-audit-2026-10-20.md). Historické návody v `docs/history/` nejsou aktuální sestavovací postupy.

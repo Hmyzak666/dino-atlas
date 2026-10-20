@@ -40,6 +40,22 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Zvolit podepsané nebo kontrolní sestavení
+        id: signing
+        env:
+          SIGNING_ALLOWED: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.login == github.repository_owner) }}
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import os
+          available = bool(os.environ['KEYSTORE_BASE64'] and os.environ['KEYSTORE_PASSWORD'])
+          allowed = os.environ['SIGNING_ALLOWED'] == 'true'
+          if os.environ['GITHUB_EVENT_NAME'] == 'workflow_dispatch' and not available:
+              raise SystemExit('Chybí původní podpisové secrets; postup je v ANDROID.md.')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              print('enabled=' + str(allowed and available).lower(), file=out)
+          PY
       - name: Načíst údaje o sestavení
         id: release
         run: |
@@ -68,10 +84,10 @@ jobs:
           printf 'ANDROID_HOME=%s\nANDROID_SDK_ROOT=%s\n' "$dino_sdk_root" "$dino_sdk_root" >> "$GITHUB_ENV"
           "$dino_sdk_manager" --sdk_root="$dino_sdk_root" "platforms;android-$dino_platform" "build-tools;$dino_build_tools"
       - name: Ověřit kompilaci bez soukromého klíče
-        if: github.event_name != 'workflow_dispatch'
+        if: steps.signing.outputs.enabled != 'true'
         run: python3 build_android.py --unsigned
       - name: Obnovit původní podpisový klíč
-        if: github.event_name == 'workflow_dispatch'
+        if: steps.signing.outputs.enabled == 'true'
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
@@ -86,7 +102,7 @@ jobs:
           key.chmod(0o600)
           PY
       - name: Sestavit APK s původním certifikátem
-        if: github.event_name == 'workflow_dispatch'
+        if: steps.signing.outputs.enabled == 'true'
         env:
           DINO_STORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           DINO_KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
@@ -94,7 +110,7 @@ jobs:
           export DINO_KEYSTORE_PATH="$RUNNER_TEMP/dino-atlas-release.p12"
           python3 build_android.py
       - name: Zpřístupnit podepsané APK ke stažení
-        if: github.event_name == 'workflow_dispatch'
+        if: steps.signing.outputs.enabled == 'true'
         uses: actions/upload-artifact@v7.0.2
         with:
           name: Dino-Atlas-Android-${{ steps.release.outputs.version }}-build${{ steps.release.outputs.code }}

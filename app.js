@@ -129,7 +129,9 @@
       word => word.replace(/[dD]/, letter => letter === 'D' ? 'Ď' : 'ď')
     // Some Czech voices incorrectly soften r before i in this foreign stem.
     // This narrow hint is used only for speech, including adjective endings.
-    ).replace(/ameri(?=ck|čt)/giu, word => word.slice(0, -1) + (word.endsWith('I') ? 'Y' : 'y'));
+    ).replace(/ameri(?=ck|čt)/giu, word => word.slice(0, -1) + (word.endsWith('I') ? 'Y' : 'y'))
+    // Latin spelling stays on screen; Czech narration needs a hard k.
+    .replace(/(?<![\p{L}\p{M}])diplodoc/giu, word => word.slice(0, -1) + (word.endsWith('C') ? 'K' : 'k'));
   }
 
   function speechMeasurements(value) {
@@ -145,6 +147,7 @@
 
   function narrationText(dino, sectionId = 'summary', humanHeight = 1.8) {
     const text = copy(dino);
+    if (sectionId === 'name') return pronunciationText(text.displayName);
     if (sectionId === 'summary') {
       return pronunciationText(text.summary.startsWith(text.displayName) ? text.summary : `${text.displayName}. ${text.summary}`);
     }
@@ -202,6 +205,172 @@
   let readTimer;
   const state = { category: 'all', query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
   let comparisonHeight = 1.8;
+
+
+  const pictureDialog = $('image-viewer');
+  const pictureStage = $('image-viewer-stage');
+  const picture = $('image-viewer-image');
+  const picturePointers = new Map();
+  let pictureGesture = null;
+  let pictureView = { scale: 1, x: 0, y: 0, width: 0, height: 0, flipped: false };
+  let pictureFocus = null;
+  let pictureScroll = 0;
+  let pictureClosing = false;
+  let pictureTap = null;
+
+  function paintPicture(scale = pictureView.scale, x = pictureView.x, y = pictureView.y) {
+    const view = pictureView;
+    view.scale = Math.max(1, Math.min(4, scale));
+    const limitX = Math.max(0, (view.width * view.scale - pictureStage.clientWidth) / 2);
+    const limitY = Math.max(0, (view.height * view.scale - pictureStage.clientHeight) / 2);
+    view.x = Math.max(-limitX, Math.min(limitX, x));
+    view.y = Math.max(-limitY, Math.min(limitY, y));
+    picture.style.transform = 'translate(-50%, -50%) translate(' + view.x + 'px, ' + view.y + 'px) scale(' + (view.flipped ? -view.scale : view.scale) + ', ' + view.scale + ')';
+    $('image-zoom-level').value = Math.round(view.scale * 100) + ' %';
+    $('image-zoom-out').disabled = view.scale <= 1;
+    $('image-zoom-in').disabled = view.scale >= 4;
+    Object.assign(pictureStage.dataset, { zoom: String(view.scale), panX: String(view.x), panY: String(view.y) });
+  }
+  function fitPicture() {
+    if (!pictureDialog.open || !picture.naturalWidth || !picture.naturalHeight) return;
+    const ratio = Math.min(pictureStage.clientWidth / picture.naturalWidth, pictureStage.clientHeight / picture.naturalHeight);
+    pictureView.width = picture.naturalWidth * ratio;
+    pictureView.height = picture.naturalHeight * ratio;
+    picture.style.width = pictureView.width + 'px';
+    picture.style.height = pictureView.height + 'px';
+    paintPicture();
+  }
+  function zoomPicture(next, x = 0, y = 0) {
+    const scale = Math.max(1, Math.min(4, next));
+    const ratio = scale / pictureView.scale;
+    paintPicture(scale, x - (x - pictureView.x) * ratio, y - (y - pictureView.y) * ratio);
+  }
+  function picturePoint(event) {
+    const box = pictureStage.getBoundingClientRect();
+    return { x: event.clientX - box.left - box.width / 2, y: event.clientY - box.top - box.height / 2 };
+  }
+  function hidePicture(restore = true) {
+    if (!pictureDialog.open) return;
+    pictureDialog.close();
+    document.body.classList.remove('image-viewing');
+    document.body.style.removeProperty('--picture-scrollbar-width');
+    picturePointers.clear();
+    pictureGesture = pictureTap = null;
+    pictureClosing = false;
+    if (restore) {
+      const target = pictureFocus, top = pictureScroll;
+      requestAnimationFrame(() => {
+        if (!pictureDialog.open) { if (target?.isConnected) target.focus({ preventScroll: true }); window.scrollTo(0, top); }
+      });
+    }
+  }
+  function closePicture() {
+    if (!pictureDialog.open || pictureClosing) return;
+    if (history.state?.dinoAtlasImage?.route === location.hash) { pictureClosing = true; history.back(); }
+    else hidePicture();
+  }
+  function showPicture(data, trigger, push = true) {
+    if (pictureDialog.open || !dinosaurs.some(animal => animal.image.src === data.src)) return;
+    pictureFocus = trigger || document.querySelector(location.hash === '#kviz' ? '.quiz-picture .image-zoom-open' : '.detail-image .image-zoom-open');
+    pictureScroll = window.scrollY;
+    pictureView = { scale: 1, x: 0, y: 0, width: 0, height: 0, flipped: Boolean(data.flipped) };
+    picturePointers.clear();
+    pictureGesture = pictureTap = null;
+    pictureClosing = false;
+    $('image-viewer-title').textContent = data.title;
+    picture.alt = data.alt;
+    picture.src = data.src;
+    $('image-viewer-hint').textContent = 'Dvěma prsty přibliž, jedním posouvej. Dvojím klepnutím přiblížíš nebo oddálíš.';
+    // Keep the page width stable when a desktop scrollbar is hidden by the modal.
+    document.body.style.setProperty('--picture-scrollbar-width', Math.max(0, window.innerWidth - document.documentElement.clientWidth) + 'px');
+    document.body.classList.add('image-viewing');
+    pictureDialog.showModal();
+    paintPicture(1, 0, 0);
+    fitPicture();
+    if (push) history.pushState({ ...history.state, dinoAtlasImage: { ...data, route: location.hash } }, '', location.href);
+    $('image-viewer-close').focus({ preventScroll: true });
+  }
+  function openPicture(trigger) {
+    const box = trigger.closest('.detail-image, .quiz-picture'), img = box?.querySelector('img');
+    if (!img) return;
+    showPicture({ src: img.getAttribute('src'), alt: img.alt, flipped: img.classList.contains('image-flipped'),
+      title: box.closest('#detail-view') ? $('detail-title').textContent : 'Obrázek v kvízu' }, box.querySelector('.image-zoom-open'));
+  }
+  function rebasePictureGesture() {
+    const points = [...picturePointers.values()];
+    if (points.length >= 2) {
+      points.forEach(point => { point.multi = true; });
+      const [a, b] = points;
+      pictureGesture = { pinch: true, distance: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)), cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2, ...pictureView };
+    } else pictureGesture = points.length ? { startX: points[0].x, startY: points[0].y, ...pictureView } : null;
+  }
+  pictureStage.addEventListener('pointerdown', event => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    event.preventDefault();
+    const point = picturePoint(event);
+    picturePointers.set(event.pointerId, { ...point, startX: point.x, startY: point.y, moved: false, multi: false });
+    pictureStage.setPointerCapture(event.pointerId);
+    rebasePictureGesture();
+  });
+  pictureStage.addEventListener('pointermove', event => {
+    const point = picturePointers.get(event.pointerId), gesture = pictureGesture;
+    if (!point || !gesture) return;
+    Object.assign(point, picturePoint(event));
+    if (Math.hypot(point.x - point.startX, point.y - point.startY) > 6) point.moved = true;
+    if (gesture.pinch && picturePointers.size >= 2) {
+      const [a, b] = [...picturePointers.values()];
+      const scale = Math.max(1, Math.min(4, gesture.scale * Math.hypot(a.x - b.x, a.y - b.y) / gesture.distance)), ratio = scale / gesture.scale;
+      paintPicture(scale, (a.x + b.x) / 2 - (gesture.cx - gesture.x) * ratio, (a.y + b.y) / 2 - (gesture.cy - gesture.y) * ratio);
+    } else paintPicture(pictureView.scale, gesture.x + point.x - gesture.startX, gesture.y + point.y - gesture.startY);
+  });
+  function endPicturePointer(event) {
+    const point = picturePointers.get(event.pointerId);
+    if (!point) return;
+    picturePointers.delete(event.pointerId);
+    if (event.type === 'pointerup' && event.pointerType !== 'mouse' && !point.moved && !point.multi) {
+      const now = performance.now();
+      if (pictureTap && now - pictureTap.time < 320 && Math.hypot(point.x - pictureTap.x, point.y - pictureTap.y) < 30) {
+        zoomPicture(pictureView.scale > 1 ? 1 : 2, point.x, point.y); pictureTap = null;
+      } else pictureTap = { x: point.x, y: point.y, time: now };
+    } else pictureTap = null;
+    rebasePictureGesture();
+  }
+  ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(type => pictureStage.addEventListener(type, endPicturePointer));
+  pictureStage.addEventListener('dblclick', event => {
+    if (event.sourceCapabilities?.firesTouchEvents) return;
+    event.preventDefault(); const point = picturePoint(event); zoomPicture(pictureView.scale > 1 ? 1 : 2, point.x, point.y);
+  });
+  pictureStage.addEventListener('wheel', event => {
+    event.preventDefault(); const point = picturePoint(event); zoomPicture(pictureView.scale * Math.exp(-event.deltaY * .002), point.x, point.y);
+  }, { passive: false });
+  $('image-zoom-in').addEventListener('click', () => zoomPicture(pictureView.scale + .5));
+  $('image-zoom-out').addEventListener('click', () => zoomPicture(pictureView.scale - .5));
+  $('image-zoom-reset').addEventListener('click', () => paintPicture(1, 0, 0));
+  $('image-viewer-close').addEventListener('click', closePicture);
+  pictureDialog.addEventListener('cancel', event => { event.preventDefault(); closePicture(); });
+  pictureDialog.addEventListener('keydown', event => {
+    if (event.key === 'Tab') {
+      const targets = [...pictureDialog.querySelectorAll('button:not(:disabled), [tabindex="0"]')].filter(node => node.getClientRects().length);
+      const index = targets.indexOf(document.activeElement);
+      event.preventDefault();
+      targets[(index + (event.shiftKey ? -1 : 1) + targets.length) % targets.length]?.focus({ preventScroll: true });
+    } else if (['+', '=', '-', '0'].includes(event.key)) {
+      event.preventDefault(); if (event.key === '0') paintPicture(1, 0, 0); else zoomPicture(pictureView.scale + (event.key === '-' ? -.5 : .5));
+    } else if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key) && pictureView.scale > 1) {
+      event.preventDefault(); paintPicture(pictureView.scale, pictureView.x + (event.key === 'ArrowLeft' ? 40 : event.key === 'ArrowRight' ? -40 : 0), pictureView.y + (event.key === 'ArrowUp' ? 40 : event.key === 'ArrowDown' ? -40 : 0));
+    }
+  });
+  picture.addEventListener('load', fitPicture);
+  picture.addEventListener('error', () => { $('image-viewer-hint').textContent = 'Obrázek se nepodařilo načíst. Zavři ho a zkus to znovu.'; });
+  window.addEventListener('popstate', () => {
+    const saved = history.state?.dinoAtlasImage;
+    if (saved?.route === location.hash && location.hash === currentRoute) { if (!pictureDialog.open) showPicture(saved, null, false); }
+    else hidePicture(location.hash === currentRoute);
+  });
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(() => { picturePointers.clear(); pictureGesture = null; fitPicture(); }).observe(pictureStage);
+  function imageZoomButton() {
+    return '<button class="image-zoom-open" data-image-viewer type="button" aria-label="Zvětšit obrázek" title="Zvětšit obrázek"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m14.5 14.5 6 6M10 7v6M7 10h6"/></svg></button>';
+  }
 
   function readStorage(key, fallback) {
     try { return localStorage.getItem(key) ?? fallback; } catch (_) { return fallback; }
@@ -450,9 +619,9 @@
     const facts = dino.facts.map(fact => `<div class="fact"><dt>${escapeHtml(localized(fact.label))}</dt><dd>${escapeHtml(localized(fact.value))}${fact.note ? `<small>${escapeHtml(localized(fact.note))}</small>` : ''}${confidenceBadge(fact.confidence)}</dd></div>`).join('');
     const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${readControls(section.id, 'Přečíst tuto část')}${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}</div></details>`).join('');
     $('detail-view').innerHTML = `<a class="back-link" href="#atlas">← Zpět do atlasu</a>
-      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
+      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><div class="detail-name read-controls" data-read-controls="name"><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><button class="button read-button name-read-button" type="button" data-read="name" aria-pressed="false" aria-label="Přečíst jméno zvířete" title="Přečíst jméno"><span aria-hidden="true">🔊</span></button><button class="button read-stop name-read-button" type="button" data-stop-read hidden aria-label="Zastavit čtení jména"><span aria-hidden="true">■</span></button><p class="read-status" data-read-status="name" role="status" aria-live="polite"></p></div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
       ${detailNavigation(dino)}
-      <figure class="detail-figure"><div class="detail-image"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024"></div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
+      <figure class="detail-figure"><div class="detail-image"><img data-image-viewer class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024">${imageZoomButton()}</div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
       <p class="lead">${escapeHtml(text.summary)}</p>
       <div class="narration">${readControls('summary', 'Přečíst popis')}</div>
       ${renderRecognition(dino)}
@@ -480,7 +649,7 @@
     const question = quiz.questions[quiz.index];
     const dino = byId.get(question.answerId);
     $('quiz-content').innerHTML = `<p class="quiz-progress-label">Otázka ${quiz.index + 1} z ${quiz.questions.length} · Bez časového limitu</p><progress class="quiz-progress" max="${quiz.questions.length}" value="${quiz.index}" aria-label="Dokončené otázky"></progress>
-      <div class="quiz-picture"><img src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce pravěkého zvířete. Vyber jeho jméno z možností pod obrázkem."></div>
+      <div class="quiz-picture"><img data-image-viewer src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce pravěkého zvířete. Vyber jeho jméno z možností pod obrázkem.">${imageZoomButton()}</div>
       <button id="quiz-hint" type="button" class="button button-quiet hint-button" aria-expanded="${quiz.hintRevealed}" aria-controls="quiz-hint-text">${quiz.hintRevealed ? 'Skrýt nápovědu' : 'Potřebuji nápovědu'}</button><p id="quiz-hint-text" class="hint-text" ${quiz.hintRevealed ? '' : 'hidden'}>${escapeHtml(copy(dino).quizHint)}</p>
       <div class="quiz-answers" role="group" aria-label="Vyber jméno zvířete">${question.optionIds.map((id, index) => `<button type="button" class="quiz-answer" data-answer="${id}"><span class="answer-letter" aria-hidden="true">${String.fromCharCode(65 + index)}</span><span class="answer-name">${escapeHtml(copy(byId.get(id)).displayName)}</span></button>`).join('')}</div>
       <div class="quiz-feedback" id="quiz-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
@@ -531,6 +700,7 @@
 
   function route() {
     if (!database) return;
+    hidePicture(false);
     const hash = (!location.hash || location.hash === '#main') ? '#atlas' : location.hash;
     if (hash !== currentRoute) stopNarration(false);
     if (currentRoute === '#atlas' && hash !== '#atlas') galleryScroll = window.scrollY;
@@ -657,6 +827,8 @@
     if (visible.length) location.hash = `dinosaurus/${visible[Math.floor(Math.random() * visible.length)].id}`;
   });
   document.addEventListener('click', event => {
+    const image = event.target.closest('[data-image-viewer]');
+    if (image) { openPicture(image); return; }
     const step = event.target.closest('[data-detail-step]');
     if (step && !step.disabled) stepDetail(Number(step.dataset.detailStep));
     const height = event.target.closest('[data-human]');
