@@ -1,12 +1,12 @@
 # Sestavení Android aplikace
 
-Aktuální údaje čte sestavování z `project.json`. Aktuální příprava používá verzi **0.8.1, sestavení 80101**. Android obal je v `android/`, webové soubory v kořeni projektu. Gradle se nepoužívá.
+Aktuální údaje čte sestavování z `project.json`. Aktuální verze používá **0.8.1, sestavení 80101**. Android obal je v `android/`, webové soubory v kořeni projektu. Gradle se nepoužívá.
 
 ## GitHub Actions
 
 1. Nahraj nebo sluč úplné změny pracovní větve, včetně složek `android/`, `tools/` a `tests/`, `project.json`, `package.json` a `package-lock.json`.
 2. Ověř úspěch kontrol v jediném workflow **Dino Atlas — kontroly a APK**.
-3. V **Actions → Dino Atlas — kontroly a APK → Run workflow** vyber požadovanou větev a spusť sestavení. Verzi workflow načítá z projektu.
+3. V **Actions → Dino Atlas — kontroly a APK → Run workflow** pro stabilní verzi vyber `main` (pro zkoušku rozpracované změny její pracovní větev) a spusť sestavení. Verzi workflow načítá z projektu.
 4. Stáhni artefakt `Dino-Atlas-Android-0.8.1-build80101`, rozbal jej a nainstaluj APK jako aktualizaci existující aplikace.
 
 Secrets zůstávají **`ANDROID_KEYSTORE_BASE64`** a **`ANDROID_KEYSTORE_PASSWORD`**. Musí obsahovat dosavadní soukromý klíč; alias je `dinoatlas`. Nový klíč by nevytvořil kompatibilní aktualizaci. Skript porovná podpis hotového APK s veřejným otiskem v `project.json` a při odlišném certifikátu sestavení odmítne.

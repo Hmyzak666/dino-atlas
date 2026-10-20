@@ -2,9 +2,9 @@
 
 ## Před změnou
 
-Přečti `PROJECT_STATUS.md`, zkontroluj pracovní strom a vycházej z poslední schválené větve. Vytvoř samostatnou větev pro jednu změnu. Poslední telefonem ověřená aplikace při tomto úklidu je 0.8.0 se 42 zvířaty.
+Přečti `PROJECT_STATUS.md`, zkontroluj pracovní strom a vycházej z aktuální hlavní větve `main`. Vytvoř samostatnou větev pro jednu změnu. Poslední uživatelem ověřená aplikace je 0.8.1, sestavení 80101, se 42 zvířaty.
 
-Technický úklid zachovává `index.html`, `style.css`, `app.js`, `dinosaurs.json` a všech 42 obrázků po bajtech. Obnovovací tagy a zdrojový původ popisuje [audit](cleanup-audit-2026-10-20.md).
+Samotný úklid 0.8.0 zachoval webové soubory, databázi a všech 42 obrázků po bajtech. Výslovně vyžádané úpravy rozhraní a čtení v 0.8.1 mají vlastní srovnávací podklad `tests/fixtures/approved-0.8.1.json`; původní podklad zůstává zachovaný. Zdrojový původ a body návratu úklidu popisuje [audit](cleanup-audit-2026-10-20.md).
 
 ## Kam změna patří
 
@@ -41,9 +41,11 @@ Při výslovně schválené nové funkci nebo obsahové várce změň očekává
 
 Zkontroluj celý diff, aktuálnost README a `PROJECT_STATUS.md`, nepřítomnost klíčů a vygenerovaných souborů a úspěšné testy. Otevři přehled změn pracovní větve. Podepsanou aktualizaci sestav pomocí původních secrets; projdi automatické ověření APK a podle rozsahu změny i test v telefonu.
 
-V tomto úklidu jsou Java, vzhled i obsah stejné jako v 0.8.0. Po budoucí změně Android obalu věnuj zvláštní pozornost čtení, systémovému tlačítku Zpět, bezpečným okrajům displeje a zachování místního úložiště.
+Android obal a obsah zůstávají stejné jako v ověřené 0.8.0; rozhraní obsahuje uživatelem potvrzené úpravy 0.8.1. Po budoucí změně Android obalu věnuj zvláštní pozornost čtení, systémovému tlačítku Zpět, bezpečným okrajům displeje a zachování místního úložiště.
 
 ## Obnova
+
+Původní `main` před dokončením sloučení chrání `origin/backup/main-before-merge-2026-10-21`. Přesné zdroje funkčního APK 0.8.1 chrání `origin/backup/verified-0.8.1-build80101`.
 
 Ke starému projektu se vrať v nové větvi po načtení záložních větví z GitHubu:
 

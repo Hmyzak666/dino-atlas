@@ -1,12 +1,20 @@
 # Stav projektu Dino Atlas
 
-Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 80101**. Obsah 42 zvířat se nemění.
+Aktualizováno: 21. října 2026. Aktuální uživatelem ověřená verze je **0.8.1, versionCode 80101**. Obsah 42 zvířat se nemění.
+
+## Hlavní větev a body návratu
+
+Technický úklid z [návrhu č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1) a úpravy 0.8.1 z [návrhu č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) tvoří společný základ v `main`. Další vývoj zahajuj samostatnou větví z aktuální `main`. Změny se slučují se zachováním historie.
+
+Před sloučením byly zachovány zálohy `backup/main-before-merge-2026-10-21` (původní hlavní větev) a `backup/verified-0.8.1-build80101` (přesné zdroje uživatelem potvrzeného APK). Starší body návratu zůstávají v historii a záložních větvích.
+
+Při dokončení se mění pouze dokumentace a historie větví. Runtime soubory, databáze, obrázky, sestavování a podpis odpovídají ověřenému sestavení 80101, takže nová instalace aplikace není potřeba. Kontroly po sloučení sleduj v GitHub Actions pro větev `main`; podepsané APK se vytváří ručním spuštěním stejného workflow s výběrem `main`.
 
 ## Oprava prohlížeče obrázků, sestavení 80101
 
 Uživatel vyzkoušel sestavení 80100 a doložil světlé okraje obrázku a příliš malé zobrazení naležato. Ovládání prohlížeče se v sestavení 80101 překrývá s obrazem a neubírá mu prostor; obrázek se přizpůsobuje celému displeji na tmavém pozadí ve světlém i tmavém vzhledu. Detail zachovává přirozený poměr stran bez pevného výškového stropu. Původní obsah obrázků se nemění.
 
-Regresní testy ověřují skutečnou velikost a barvu pozadí v obou vzhledech, otočení otevřeného prohlížeče, krátké displeje naležato, zachování přiblížení a ovládání. Zkouška opravného sestavení na fyzickém zařízení zatím není potvrzená.
+Regresní testy ověřují skutečnou velikost a barvu pozadí v obou vzhledech, otočení otevřeného prohlížeče, krátké displeje naležato, zachování přiblížení a ovládání. Uživatel následně potvrdil funkčnost opravného sestavení 80101 a spokojenost s výsledkem.
 
 ## Vyžádané změny 0.8.1
 
@@ -15,13 +23,14 @@ Regresní testy ověřují skutečnou velikost a barvu pozadí v obou vzhledech,
 - Obrázek v detailu i v kvízu lze otevřít přes celou obrazovku. Má přiblížení 1–4× dvěma prsty, posun jedním prstem, dvojité klepnutí, tlačítka +/− a návrat k celému obrázku. Zavření a systémové Zpět vracejí na původní místo. Kvízový obrázek neprozrazuje jméno správné odpovědi.
 - Filtry období mají pořadí **Trias · Jura · Křída · Vše**.
 
-Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Sestavení 80100 uživatel vyzkoušel; jeho připomínka k obrázku je zapracována v 80101. Podepsané APK se nabízí ve výstupech workflow, pokud má GitHub k dispozici původní podpisová secrets. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
+Úpravy vznikly ve větvi `feature/image-viewer-reading-0.8.1` a v návrhu č. 2 po technickém úklidu v č. 1. [Ověření sestavení 80101](https://github.com/Hmyzak666/dino-atlas/actions/runs/39479422173) úspěšně prošlo obsahovými, kompatibilními a prohlížečovými testy i úplným podepsaným Android sestavením. V době přípravy této verze bylo místní prostředí nedostupné, takže ověření proběhlo přes GitHub Actions. Připomínku k obrázku ze sestavení 80100 vyřešilo uživatelem potvrzené 80101.
 
 Databáze, 42 obrázků, Java zdroj, manifest, nativní prostředky, certifikát a klíče uživatelského úložiště zůstávají stejné. Původní podklad `verified-0.8.0.json` zůstává zachovaný; změny tří webových souborů mají výslovný podklad `approved-0.8.1.json`.
 
 ## Ověřený základ a verze
 
-- Telefonem potvrzená verze: **0.8.0, versionCode 80000**.
+- Aktuální uživatelem potvrzená verze: **0.8.1, versionCode 80101**.
+- Telefonem potvrzený výchozí základ úklidu: **0.8.0, versionCode 80000**.
 - Obsah: **42 hesel a 42 WebP obrázků**; 30 dinosaurů, 6 ptakoještěrů, 6 mořských plazů. Trias zahrnuje 11 hesel.
 - Zdrojový základ: úplný `Dino-Atlas-0.8.0-zdroje.zip`. Jeho čtyři webové soubory a všech 42 obrázků byly porovnány s hotovým APK; liší se pouze záměrně generované označení sestavení v patičce.
 - Uklizené sestavení: **0.8.0, versionCode 80001**, aby aktualizovalo dosavadní APK. Zobrazené funkce, texty, obrázky a chování jsou zachované.
@@ -77,7 +86,7 @@ Místně prošly:
 
 Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. Uživatel následně potvrdil funkčnost technického sestavení 80001 v telefonu. Samsung tablet vyžadoval stažení českého systémového hlasu. Zkouška sestavení 80100 odhalila výše popsané okraje a malé zobrazení obrázku.
 
-Připojení GitHubu původně odmítalo zápis chybou 403; po autorizaci bylo obnoveno. Změny jsou na GitHubu ve větvi `chore/project-cleanup-2026-10-20` a v [návrhu změn č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1). Automatické kontroly přímo na GitHubu se spouštějí při změnách tohoto návrhu; jejich aktuální výsledky jsou v jeho kontrolách. Původní stav chrání větev `backup/pre-cleanup-2026-10-20`, ověřený základ větev `backup/verified-0.8.0-before-cleanup`. `main` se při přípravě nezměnil; návrh zůstává oddělený k posouzení a ke zkoušce aktualizace na telefonu.
+Připojení GitHubu původně odmítalo zápis chybou 403; po autorizaci bylo obnoveno. Historii úklidu zachycuje návrh č. 1 a větev `chore/project-cleanup-2026-10-20`. Původní stav chrání větev `backup/pre-cleanup-2026-10-20`, ověřený základ větev `backup/verified-0.8.0-before-cleanup`. Po potvrzení funkčnosti uživatelem navazuje dokončení sloučením obou návrhů do `main`, ze které se má vycházet při dalším vývoji.
 
 ## Další postup
 
