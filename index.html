@@ -11,8 +11,8 @@
       document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
     } catch (_) {}
   </script>
-  <link rel="stylesheet" href="./style.css?v=0.8.1">
-  <script src="./app.js?v=0.8.1" defer></script>
+  <link rel="stylesheet" href="./style.css?v=0.8.1-80101">
+  <script src="./app.js?v=0.8.1-80101" defer></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Přejít na obsah</a>
@@ -84,7 +84,7 @@
   </div>
   <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title" aria-describedby="image-viewer-hint">
     <div class="image-viewer-header"><h2 id="image-viewer-title">Obrázek</h2><button id="image-viewer-close" class="button" type="button" autofocus>Zavřít <span aria-hidden="true">×</span></button></div>
-    <div id="image-viewer-stage" class="image-viewer-stage" tabindex="0" aria-label="Zvětšený obrázek. Přibliž dvěma prsty nebo tlačítky pod obrázkem."><img id="image-viewer-image" alt="" draggable="false"></div>
+    <div id="image-viewer-stage" class="image-viewer-stage" tabindex="0" aria-label="Zvětšený obrázek. Přibliž dvěma prsty nebo tlačítky ve spodní části obrazovky."><img id="image-viewer-image" alt="" draggable="false"></div>
     <div class="image-viewer-controls" role="group" aria-label="Přiblížení obrázku"><button id="image-zoom-out" class="button" type="button" aria-label="Oddálit obrázek">−</button><output id="image-zoom-level" aria-live="off">100 %</output><button id="image-zoom-in" class="button" type="button" aria-label="Přiblížit obrázek">+</button><button id="image-zoom-reset" class="button" type="button">Celý obrázek</button></div>
     <p id="image-viewer-hint" class="image-viewer-hint">Dvěma prsty přibliž, jedním posouvej.</p>
   </dialog>

@@ -325,6 +325,75 @@ async function openAnimal(page,id) {
       console.log('PASS viewport '+width+': alphabetic cards, header, images, navigation, favorites and scroll restoration');
       await context.close();
     }
+    // Regression: the viewer uses the full viewport, even on short landscape screens.
+    // Controls overlay the image; they must not reserve rows or create cream borders.
+    for (const theme of ['light', 'dark']) {
+      const context = await browser.newContext({viewport:{width:412,height:915},isMobile:true,hasTouch:true});
+      await inject(context);
+      await context.addInitScript(value => localStorage.setItem('dinoatlas-theme',value), theme);
+      const page = await context.newPage();
+      page.on('pageerror',e=>errors.push(e.message));
+      await page.goto(base+'/#dinosaurus/allosaurus-fragilis');
+      await page.waitForFunction(() => document.querySelector('.detail-image img')?.naturalWidth > 0);
+
+      async function checkDetailImage() {
+        const size = await page.locator('.detail-image img').evaluate(img => ({
+          width:img.clientWidth, height:img.clientHeight, ratio:img.naturalWidth/img.naturalHeight
+        }));
+        assert.ok(Math.abs(size.width/size.height-size.ratio)<.01, 'Detail keeps the intrinsic image ratio without letterboxing');
+        if(theme==='dark') assert.equal(await page.locator('.detail-image').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(16, 34, 28)');
+      }
+      async function checkFullViewport(width,height) {
+        await page.waitForFunction(() => {
+          const img = document.querySelector('#image-viewer-image');
+          const stage = document.querySelector('#image-viewer-stage');
+          const ratio = Math.min(stage.clientWidth/img.naturalWidth,stage.clientHeight/img.naturalHeight);
+          return img.naturalWidth > 0 && Math.abs(parseFloat(img.style.width)-img.naturalWidth*ratio)<1;
+        });
+        const geometry = await page.evaluate(() => {
+          const stage=document.querySelector('#image-viewer-stage'), img=document.querySelector('#image-viewer-image');
+          const rect=stage.getBoundingClientRect(), image=img.getBoundingClientRect();
+          return {stage:{x:rect.x,y:rect.y,width:rect.width,height:rect.height},
+            image:{x:image.x,y:image.y,width:image.width,height:image.height},
+            ratio:img.naturalWidth/img.naturalHeight, background:getComputedStyle(stage).backgroundColor};
+        });
+        assert.equal(geometry.background,'rgb(16, 34, 28)','Dark image background in either app theme');
+        assert.ok(Math.abs(geometry.stage.x)<1 && Math.abs(geometry.stage.y)<1,'Stage starts at viewport edge');
+        assert.ok(geometry.stage.width>=width-1 && geometry.stage.height>=height-1,'Controls do not shrink the image stage');
+        const expectedWidth=Math.min(width,height*geometry.ratio);
+        assert.ok(Math.abs(geometry.image.width-expectedWidth)<2,'Image is as large as possible while showing the whole source');
+        assert.ok(Math.abs(geometry.image.width/geometry.image.height-geometry.ratio)<.01,'No image stretching');
+        assert.ok(geometry.image.x>=-1 && geometry.image.y>=-1,'Whole image remains visible at 100 percent');
+        const close=await page.locator('#image-viewer-close').boundingBox();
+        const zoom=await page.locator('#image-zoom-in').boundingBox();
+        assert.ok(close.x>=0 && close.y>=0 && close.x+close.width<=width+1 && close.y+close.height<=height+1,'Close stays on screen');
+        assert.ok(zoom.x>=0 && zoom.y>=0 && zoom.x+zoom.width<=width+1 && zoom.y+zoom.height<=height+1,'Zoom stays on screen');
+      }
+      await checkDetailImage();
+      await page.locator('.detail-image .image-zoom-open').click();
+      await page.locator('#image-viewer').waitFor({state:'visible'});
+      await checkFullViewport(412,915);
+      for (const viewport of [{width:915,height:412},{width:740,height:320},{width:1024,height:600},{width:412,height:915}]) {
+        await page.setViewportSize(viewport);
+        await checkFullViewport(viewport.width,viewport.height);
+        await page.screenshot({path:path.join(artifacts,'viewer-'+theme+'-'+viewport.width+'x'+viewport.height+'.png')});
+      }
+      await page.locator('#image-zoom-in').click();
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'1.5');
+      await page.setViewportSize({width:915,height:412});
+      await page.waitForFunction(()=>document.querySelector('#image-viewer-stage').clientWidth===915);
+      assert.equal(await page.locator('#image-viewer-stage').getAttribute('data-zoom'),'1.5','Rotation preserves zoom');
+      await page.locator('#image-zoom-reset').click();
+      await checkFullViewport(915,412);
+      await page.locator('#image-viewer-close').click();
+      await page.locator('#image-viewer').waitFor({state:'hidden'});
+      await checkDetailImage();
+      await page.reload();
+      await page.waitForFunction(() => document.querySelector('.detail-image img')?.naturalWidth > 0);
+      await checkDetailImage();
+      await context.close();
+      console.log('PASS '+theme+': full-size viewer, no pale borders, portrait/landscape/rotation and intrinsic detail ratio');
+    }
     assert.deepEqual(errors,[]);
     console.log('PASS browser: section speech, facts, stop/switch behavior, real touch swipes, vertical scrolling, marine quiz, no external requests or page errors.');
   } finally {await browser.close();await new Promise(resolve=>server.close(resolve));}

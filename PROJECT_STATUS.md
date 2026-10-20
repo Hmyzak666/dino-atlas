@@ -1,6 +1,12 @@
 # Stav projektu Dino Atlas
 
-Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 80100**. Obsah 42 zvířat se nemění.
+Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 80101**. Obsah 42 zvířat se nemění.
+
+## Oprava prohlížeče obrázků, sestavení 80101
+
+Uživatel vyzkoušel sestavení 80100 a doložil světlé okraje obrázku a příliš malé zobrazení naležato. Ovládání prohlížeče se v sestavení 80101 překrývá s obrazem a neubírá mu prostor; obrázek se přizpůsobuje celému displeji na tmavém pozadí ve světlém i tmavém vzhledu. Detail zachovává přirozený poměr stran bez pevného výškového stropu. Původní obsah obrázků se nemění.
+
+Regresní testy ověřují skutečnou velikost a barvu pozadí v obou vzhledech, otočení otevřeného prohlížeče, krátké displeje naležato, zachování přiblížení a ovládání. Zkouška opravného sestavení na fyzickém zařízení zatím není potvrzená.
 
 ## Vyžádané změny 0.8.1
 
@@ -9,7 +15,7 @@ Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 
 - Obrázek v detailu i v kvízu lze otevřít přes celou obrazovku. Má přiblížení 1–4× dvěma prsty, posun jedním prstem, dvojité klepnutí, tlačítka +/− a návrat k celému obrázku. Zavření a systémové Zpět vracejí na původní místo. Kvízový obrázek neprozrazuje jméno správné odpovědi.
 - Filtry období mají pořadí **Trias · Jura · Křída · Vše**.
 
-Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Zkouška 0.8.1 ve fyzickém telefonu ještě není potvrzená. Podepsané APK se nabízí ve výstupech workflow, pokud má GitHub k dispozici původní podpisová secrets. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
+Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Sestavení 80100 uživatel vyzkoušel; jeho připomínka k obrázku je zapracována v 80101. Podepsané APK se nabízí ve výstupech workflow, pokud má GitHub k dispozici původní podpisová secrets. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
 
 Databáze, 42 obrázků, Java zdroj, manifest, nativní prostředky, certifikát a klíče uživatelského úložiště zůstávají stejné. Původní podklad `verified-0.8.0.json` zůstává zachovaný; změny tří webových souborů mají výslovný podklad `approved-0.8.1.json`.
 
@@ -69,7 +75,7 @@ Místně prošly:
 - Kontrola jediného workflow nástrojem actionlint 1.7.12 a kontrola aktivních dokumentačních odkazů.
 - Úplná kompilace Java, DEX a prostředků z Android SDK, balení, zarovnání a podpis původním klíčem. Nativní prostředky v hotovém APK jsou shodné s původním APK.
 
-Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. Uživatel následně potvrdil funkčnost technického sestavení 80001 v telefonu. Samsung tablet vyžadoval stažení českého systémového hlasu. Zkouška nového prohlížeče obrázků a nového čtení jména se týká až 0.8.1.
+Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. Uživatel následně potvrdil funkčnost technického sestavení 80001 v telefonu. Samsung tablet vyžadoval stažení českého systémového hlasu. Zkouška sestavení 80100 odhalila výše popsané okraje a malé zobrazení obrázku.
 
 Připojení GitHubu původně odmítalo zápis chybou 403; po autorizaci bylo obnoveno. Změny jsou na GitHubu ve větvi `chore/project-cleanup-2026-10-20` a v [návrhu změn č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1). Automatické kontroly přímo na GitHubu se spouštějí při změnách tohoto návrhu; jejich aktuální výsledky jsou v jeho kontrolách. Původní stav chrání větev `backup/pre-cleanup-2026-10-20`, ověřený základ větev `backup/verified-0.8.0-before-cleanup`. `main` se při přípravě nezměnil; návrh zůstává oddělený k posouzení a ke zkoušce aktualizace na telefonu.
 

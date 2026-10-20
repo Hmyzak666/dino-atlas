@@ -1,10 +1,10 @@
 {
   "version": "0.8.1",
   "baselineVersion": "0.8.0",
-  "scope": "Výslovně vyžádané změny: výslovnost Diplodocus, čtení jména, prohlížeč obrázků a pořadí filtrů. Obsah a Android obal zůstávají shodné s ověřenou 0.8.0.",
+  "scope": "Výslovně vyžádané změny: výslovnost Diplodocus, čtení jména, prohlížeč obrázků a pořadí filtrů. Obsah a Android obal zůstávají shodné s ověřenou 0.8.0. Opravné sestavení 80101: tmavé pozadí, celá plocha displeje a přirozený poměr stran detailu podle připomínky uživatele.",
   "assets": {
     "app.js": "3e975387e4458fef9c575e5df2bf7edd05863c5902d07c648299eb785f59ad51",
-    "index.html": "8f710a892a0bd84b3312523ad85391334f5afcff9ad08d8b9764a51f546c92cc",
-    "style.css": "f2fe0f887be75bb60fbff4741d0e6c2c5342b7ccc505ed66491bf3ab6ad279c5"
+    "index.html": "d7b49cfc64111073163cef630ce91cb44b8c5744d78ee6e2fd8a3a7fd3bc5443",
+    "style.css": "35236925b6c9d2b41d76176ac42cf56aed7a57a45e0231c16377aad9b27d7b61"
   }
 }
