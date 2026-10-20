@@ -3,6 +3,8 @@
   'use strict';
 
   const LANG = 'cs';
+  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', all: 'Vše' };
+  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz' };
   const PERIODS = { triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída' };
   const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec' };
   const CONFIDENCE = {
@@ -14,19 +16,34 @@
 
   const localized = value => typeof value === 'string' ? value : (value?.[LANG] || value?.en || '');
   const copy = dino => dino.translations[LANG] || dino.translations.en;
+  const nameOrder = new Intl.Collator('cs', { sensitivity: 'base', numeric: true });
+  const sortAnimals = animals => [...animals].sort((a, b) => nameOrder.compare(copy(a).displayName, copy(b).displayName) || a.id.localeCompare(b.id));
   const normalize = value => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
   const compactName = value => normalize(value).replace(/ /g, '');
+  const categoryOf = animal => animal.category || 'dinosaur';
+  const atlasImageClass = animal => (animal.image.facing || 'right') === (animal.diet === 'carnivore' ? 'left' : 'right') ? '' : 'image-flipped';
+  const categoryAnimals = (animals, category = 'all') => animals.filter(animal => category === 'all' || categoryOf(animal) === category);
+  const numberLabel = value => new Intl.NumberFormat('cs-CZ', { maximumFractionDigits: 2 }).format(value);
+
+  function comparisonData(animal, humanHeight = 1.8) {
+    const measure = animal.comparison;
+    if (!measure || !Number.isFinite(measure.valueM) || measure.valueM <= 0 || !Number.isFinite(humanHeight) || humanHeight <= 0) return null;
+    const maximum = Math.max(measure.valueM, humanHeight);
+    return { animalPercent: measure.valueM / maximum * 100, humanPercent: humanHeight / maximum * 100,
+      ratio: measure.valueM / humanHeight, humanHeight, valueM: measure.valueM, kind: measure.kind };
+  }
 
   function filteredDinosaurs(dinosaurs, state) {
     const query = normalize(state.query);
-    return dinosaurs.filter(dino => {
+    return sortAnimals(dinosaurs.filter(dino => {
       const words = [dino.scientificName, copy(dino).displayName, ...(dino.aliases || [])].map(normalize);
       const matchesName = !query || words.some(word => word.includes(query) || compactName(word).includes(compactName(query)));
-      return matchesName && (state.period === 'all' || dino.period === state.period)
+      return matchesName && (!state.category || state.category === 'all' || categoryOf(dino) === state.category)
+        && (state.period === 'all' || dino.period === state.period)
         && (state.diet === 'all' || dino.diet === state.diet)
         && (!state.favoritesOnly || state.favorites.has(dino.id));
-    });
+    }));
   }
 
   function shuffle(items, random = Math.random) {
@@ -41,9 +58,10 @@
   function makeQuiz(dinosaurs, count = 5, random = Math.random) {
     const usable = dinosaurs.filter(dino => dino.quizEnabled !== false && dino.image?.src);
     if (usable.length < 3) return [];
-    return shuffle(usable, random).slice(0, count).map(answer => ({
+    const alternatives = answer => usable.filter(dino => dino.id !== answer.id && (!answer.quizLookalikeGroup || dino.quizLookalikeGroup !== answer.quizLookalikeGroup));
+    return shuffle(usable.filter(answer => alternatives(answer).length >= 2), random).slice(0, count).map(answer => ({
       answerId: answer.id,
-      optionIds: shuffle([answer, ...shuffle(usable.filter(dino => dino.id !== answer.id), random).slice(0, 2)], random).map(dino => dino.id)
+      optionIds: shuffle([answer, ...shuffle(alternatives(answer), random).slice(0, 2)], random).map(dino => dino.id)
     }));
   }
 
@@ -59,17 +77,41 @@
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(dino.id) || ids.has(dino.id)) throw new Error('Neplatné nebo opakované ID dinosaura.');
       ids.add(dino.id);
       if (!PERIODS[dino.period] || !DIETS[dino.diet] || !dino.scientificName || !dino.translations?.[LANG]) throw new Error('Heslu chybí základní údaje.');
+      if (!Object.prototype.hasOwnProperty.call(CATEGORY_LABELS, categoryOf(dino))) throw new Error('Neznámá kategorie zvířete.');
+      if (!Array.isArray(dino.taxonomy) || !dino.taxonomy.length) throw new Error('Chybí příbuzenské zařazení.');
+      if (categoryOf(dino) === 'pterosaur' && (!dino.taxonomy.includes('Pterosauria') || dino.taxonomy.includes('Dinosauria'))) throw new Error('Ptakoještěr má nesprávné zařazení.');
+      if (categoryOf(dino) === 'dinosaur' && (!dino.taxonomy.includes('Dinosauria') || dino.taxonomy.includes('Pterosauria'))) throw new Error('Dinosaurus má nesprávné zařazení.');
+      if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
       const text = copy(dino);
       if (!text.displayName || !text.summary || !text.ageLabel || !text.location || !text.quizHint) throw new Error('Heslu chybí text.');
       if (!/^images\/[a-z0-9-]+\.(png|webp|jpe?g)$/.test(dino.image?.src || '')) throw new Error('Neplatná cesta k obrázku.');
+      if (dino.image.facing !== undefined && !['left', 'right'].includes(dino.image.facing)) throw new Error('Neplatný směr obrázku.');
+      if (dino.quizLookalikeGroup !== undefined && !/^[a-z0-9-]+$/.test(dino.quizLookalikeGroup)) throw new Error('Neplatná skupina podobných zvířat.');
       if (!Array.isArray(dino.facts) || !Array.isArray(text.sections)) throw new Error('Heslu chybí fakta nebo sekce.');
       dino.facts.forEach(validateClaim);
+      if (text.recognition) {
+        if (!Array.isArray(text.recognition) || text.recognition.length !== 3) throw new Error('Poznávací znaky musí být tři.');
+        text.recognition.forEach(validateClaim);
+      }
+      if (text.quizExplanation) validateClaim(text.quizExplanation);
+      if (dino.comparison) {
+        const measure = dino.comparison;
+        if (!['length', 'wingspan'].includes(measure.kind) || !Number.isFinite(measure.valueM) || measure.valueM <= 0 || measure.valueM > 100) throw new Error('Neplatný rozměr pro srovnání.');
+        validateClaim({ ...measure, text: measure.note });
+      }
+      if (text.contemporaries) {
+        validateClaim(text.contemporaries);
+        if (!Array.isArray(text.contemporaries.ids) || new Set(text.contemporaries.ids).size !== text.contemporaries.ids.length) throw new Error('Neplatní současníci.');
+      }
       const sectionIds = new Set();
       text.sections.forEach(section => {
         if (!/^[a-z0-9-]+$/.test(section.id) || sectionIds.has(section.id) || !section.title || !Array.isArray(section.claims)) throw new Error('Neplatná sekce.');
         sectionIds.add(section.id);
         section.claims.forEach(validateClaim);
       });
+    }
+    for (const animal of db.dinosaurs) {
+      for (const id of copy(animal).contemporaries?.ids || []) if (id === animal.id || !ids.has(id)) throw new Error('Neznámý současník: ' + id);
     }
     for (const [id, source] of Object.entries(db.sources)) {
       if (!/^[a-z0-9-]+$/.test(id)) throw new Error('Neplatné ID zdroje.');
@@ -85,23 +127,56 @@
     return String(value ?? '').normalize('NFC').replace(
       /(?<![\p{L}\p{M}])jedin(?:cích|cům|cem|ec|ce|ci|ců)(?![\p{L}\p{M}])/giu,
       word => word.replace(/[dD]/, letter => letter === 'D' ? 'Ď' : 'ď')
-    );
+    // Some Czech voices incorrectly soften r before i in this foreign stem.
+    // This narrow hint is used only for speech, including adjective endings.
+    ).replace(/ameri(?=ck|čt)/giu, word => word.slice(0, -1) + (word.endsWith('I') ? 'Y' : 'y'));
   }
 
-  function narrationText(dino, sectionId = 'summary') {
+  function speechMeasurements(value) {
+    const forms = { m: ['metr', 'metry', 'metrů', 'metru'], kg: ['kilogram', 'kilogramy', 'kilogramů', 'kilogramu'], t: ['tuna', 'tuny', 'tun', 'tuny'] };
+    return String(value).replace(/(\d+(?:[.,]\d+)?)(?:\s*[–−-]\s*(\d+(?:[.,]\d+)?))?\s*(kg|m|t)(?![\p{L}])/gu, (_, first, last, unit) => {
+      const amount = last || first;
+      const number = Number(amount.replace(',', '.'));
+      const form = /[.,]/.test(amount) ? 3 : number === 1 ? 0 : number >= 2 && number <= 4 ? 1 : 2;
+      const label = forms[unit][form];
+      return `${first.replace('.', ',')}${last ? ' až ' + last.replace('.', ',') : ''} ${label}`;
+    }).replace(/(\d)\s*[–−]\s*(?=\d)/g, '$1 až ').replace(/mil\.\s*let/g, 'miliony let').replace(/\s*·\s*/g, '. ').replace(/([.!?])\s*\./g, '$1');
+  }
+
+  function narrationText(dino, sectionId = 'summary', humanHeight = 1.8) {
     const text = copy(dino);
     if (sectionId === 'summary') {
-      const age = text.ageLabel.replace(/mil\.\s*let/g, 'miliony let');
-      return pronunciationText(`${text.displayName}. ${text.summary} ${PERIODS[dino.period]}. ${age}. ${text.location}.`);
+      return pronunciationText(text.summary.startsWith(text.displayName) ? text.summary : `${text.displayName}. ${text.summary}`);
+    }
+    if (sectionId === 'facts') {
+      const period = dino.facts.find(fact => /období/i.test(localized(fact.label)));
+      const location = dino.facts.find(fact => /oblast|původ|naleziště|výskyt|rozšíření/i.test(localized(fact.label)));
+      const others = dino.facts.filter(fact => !/období|stáří|oblast|původ|naleziště|výskyt|rozšíření|význam|výslovnost/i.test(localized(fact.label)));
+      const parts = [text.displayName, 'Základní údaje', `Období: ${period ? localized(period.value) : PERIODS[dino.period]}`, text.ageLabel,
+        `Oblast nálezů: ${location ? localized(location.value) : text.location}`,
+        ...others.map(fact => `${localized(fact.label)}: ${localized(fact.value)}${fact.note ? '. ' + localized(fact.note) : ''}`)];
+      if (period?.note) parts.push(localized(period.note));
+      return pronunciationText(speechMeasurements(parts.join('. ') + '.'));
+    }
+    if (sectionId === 'recognition') {
+      return pronunciationText(`${text.displayName}. Podle čeho mě poznáš? ${(text.recognition || []).map(trait => localized(trait.text)).join(' ')}`);
+    }
+    if (sectionId === 'comparison') {
+      const data = comparisonData(dino, humanHeight);
+      if (!data) return '';
+      return pronunciationText(speechMeasurements(`${text.displayName}. Jak velký byl? ${data.kind === 'wingspan' ? 'Rozpětí křídel' : 'Délka těla'} přibližně ${numberLabel(data.valueM)} m. Výška člověka pro porovnání ${numberLabel(humanHeight)} m. ${localized(dino.comparison.note)}`));
+    }
+    if (sectionId === 'contemporaries') {
+      return text.contemporaries ? pronunciationText(`${text.displayName}. Ze stejného pravěkého prostředí. ${localized(text.contemporaries.text)}`) : '';
     }
     const section = text.sections.find(item => item.id === sectionId);
     if (!section) return '';
     const qualifiers = { evidence: '', estimate: 'Vědecký odhad. ', unknown: 'Co zatím nevíme. ', pending: 'Údaj připravujeme. ' };
-    return pronunciationText(`${text.displayName}. ${section.title}. ${section.claims.map(claim => qualifiers[claim.confidence] + localized(claim.text)).join(' ')}`);
+    return pronunciationText(speechMeasurements(`${text.displayName}. ${section.title}. ${section.claims.map(claim => qualifiers[claim.confidence] + localized(claim.text)).join(' ')}`));
   }
 
   // Stejné čisté funkce používá web i kontrola v Node; v prohlížeči se nic neexportuje.
-  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText, pronunciationText };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, sortAnimals, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText, pronunciationText, speechMeasurements, categoryOf, categoryAnimals, comparisonData };
   if (typeof document === 'undefined') return;
 
   const $ = id => document.getElementById(id);
@@ -111,6 +186,10 @@
   let currentRoute = '';
   let galleryScroll = 0;
   let lastOpenedId = '';
+  let detailIds = [];
+  let detailSwipe = null;
+  let suppressDetailClickUntil = 0;
+  let scrollFrame = 0;
   let quiz = null;
   let toastTimer;
   let storageNoticeShown = false;
@@ -121,7 +200,8 @@
   let voiceListener;
   let voiceTimer;
   let readTimer;
-  const state = { query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
+  const state = { category: 'all', query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
+  let comparisonHeight = 1.8;
 
   function readStorage(key, fallback) {
     try { return localStorage.getItem(key) ?? fallback; } catch (_) { return fallback; }
@@ -158,26 +238,39 @@
 
   function favoriteButton(dino, extraClass = '') {
     const saved = state.favorites.has(dino.id);
-    return `<button type="button" class="favorite-button ${extraClass}" data-favorite="${dino.id}" aria-pressed="${saved}" aria-label="${saved ? 'Odebrat z oblíbených' : 'Přidat do oblíbených'}: ${escapeHtml(copy(dino).displayName)}"><span aria-hidden="true">${saved ? '♥' : '♡'}</span></button>`;
+    return `<button type="button" class="favorite-button ${extraClass}" data-favorite="${dino.id}" aria-pressed="${saved}" aria-label="${saved ? 'Odebrat z oblíbených' : 'Přidat do oblíbených'}: ${escapeHtml(copy(dino).displayName)}"><svg class="favorite-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"/></svg></button>`;
+  }
+  function syncCategory() {
+    document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
+    $('quiz-category').textContent = state.category === 'all' ? 'Kvíz · Všechna pravěká zvířata' : `Kvíz · ${CATEGORIES[state.category]}`;
+    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.' };
+    $('atlas-title').textContent = headings[state.category];
+    $('atlas-intro').textContent = state.category === 'pterosaur'
+      ? 'Létající příbuzní dinosaurů s blanitými křídly.'
+      : state.category === 'dinosaur' ? 'Objevuj podobu, způsob života a stopy ve fosiliích.'
+      : state.category === 'marine-reptile' ? 'Obyvatelé pravěkých moří. Patří do různých skupin plazů a nejsou to dinosauři.'
+      : 'Dinosauři, ptakoještěři i mořští plazi. Objevuj, porovnávej a hraj.';
+    $('gallery-title').textContent = state.category === 'all' ? 'Prozkoumej atlas' : CATEGORIES[state.category];
   }
   function confidenceBadge(level) {
     const [symbol, label] = CONFIDENCE[level];
     return `<span class="confidence confidence-${level}"><span aria-hidden="true">${symbol}</span>${label}</span>`;
   }
   function readControls(target, label) {
-    return `<div class="read-controls"><button class="button read-button" type="button" data-read="${target}"><span aria-hidden="true">🔊</span>${label}</button><button class="button read-stop" type="button" data-stop-read hidden><span aria-hidden="true">■</span>Zastavit</button></div>`;
+    return `<div class="read-controls" data-read-controls="${target}"><button class="button read-button" type="button" data-read="${target}" aria-pressed="false"><span aria-hidden="true">🔊</span>${label}</button><button class="button read-stop" type="button" data-stop-read hidden aria-label="Zastavit čtení této části"><span aria-hidden="true">■</span>Zastavit</button><p class="read-status" data-read-status="${target}" role="status" aria-live="polite"></p></div>`;
   }
-  function setReadingStatus(status, message) {
+  function setReadingStatus(status, message, target = readTarget) {
     reading = status === 'loading' || status === 'reading';
     if (status !== 'loading') clearTimeout(readTimer);
-    document.querySelectorAll('[data-stop-read]').forEach(button => { button.hidden = !reading; });
+    document.querySelectorAll('[data-read-controls]').forEach(group => { group.querySelector('[data-stop-read]').hidden = !reading || group.dataset.readControls !== target; });
     document.querySelectorAll('[data-read]').forEach(button => {
       button.disabled = reading && button.dataset.read === readTarget;
+      button.setAttribute('aria-pressed', String(reading && button.dataset.read === readTarget));
     });
-    const output = $('read-status');
-    if (output) output.textContent = message;
+    document.querySelectorAll('[data-read-status]').forEach(output => { output.textContent = output.dataset.readStatus === target ? message : ''; });
   }
   function stopNarration(announce = true) {
+    const target = readTarget;
     readRequest = '';
     readTarget = '';
     clearTimeout(voiceTimer);
@@ -186,12 +279,12 @@
     voiceListener = undefined;
     try { window.DinoSpeech?.stop(); } catch (_) {}
     try { window.speechSynthesis?.cancel(); } catch (_) {}
-    setReadingStatus('idle', announce ? 'Čtení zastaveno.' : '');
+    setReadingStatus('idle', announce ? 'Čtení zastaveno.' : '', target);
   }
   function readDetail(target) {
     const dino = byId.get(lastOpenedId);
     if (!dino || !currentRoute.startsWith('#dinosaurus/')) return;
-    const text = narrationText(dino, target);
+    const text = narrationText(dino, target, comparisonHeight);
     if (!text) return;
     stopNarration(false);
     readTarget = target;
@@ -253,7 +346,6 @@
       const saved = state.favorites.has(dino.id);
       button.setAttribute('aria-pressed', String(saved));
       button.setAttribute('aria-label', `${saved ? 'Odebrat z oblíbených' : 'Přidat do oblíbených'}: ${copy(dino).displayName}`);
-      button.innerHTML = `<span aria-hidden="true">${saved ? '♥' : '♡'}</span>`;
     });
     $('favorites-count').textContent = state.favorites.size;
   }
@@ -262,58 +354,137 @@
     $('gallery').innerHTML = visible.map((dino, index) => {
       const text = copy(dino);
       return `<article class="dino-card">
-        <a class="card-link" id="card-${dino.id}" href="#dinosaurus/${dino.id}">
-          <div class="card-picture"><img src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024" ${index > 1 ? 'loading="lazy"' : ''} decoding="async"></div>
-          <div class="card-body"><h3>${escapeHtml(text.displayName)}</h3><p class="scientific-name">${escapeHtml(dino.scientificName)}</p>
-          <div class="card-meta"><span class="period-tag">${PERIODS[dino.period]}</span><span>${escapeHtml(text.ageLabel)}</span></div>
+          <div class="card-picture"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024" ${index > 1 ? 'loading="lazy"' : ''} decoding="async"></div>
+          <div class="card-body"><div class="card-title-row"><h3><a class="card-link" id="card-${dino.id}" href="#dinosaurus/${dino.id}">${escapeHtml(text.displayName)}</a></h3>${favoriteButton(dino, 'card-favorite')}</div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p>
+          <div class="card-meta"><span class="period-tag">${PERIODS[dino.period]}</span><span class="animal-kind">${CATEGORY_LABELS[categoryOf(dino)]}</span><span>${escapeHtml(text.ageLabel)}</span></div>
           <p class="card-location">${escapeHtml(text.location)}</p><p class="card-summary">${escapeHtml(text.cardSummary)}</p><span class="card-open">Prozkoumat →</span></div>
-        </a>${favoriteButton(dino)}
       </article>`;
     }).join('');
-    $('result-count').textContent = `${visible.length} z ${dinosaurs.length} dinosaurů`;
+    $('result-count').textContent = `Zobrazeno ${visible.length} z ${categoryAnimals(dinosaurs, state.category).length}`;
     $('empty-state').hidden = visible.length !== 0;
     $('random-button').disabled = visible.length === 0;
     $('favorites-filter').setAttribute('aria-pressed', String(state.favoritesOnly));
     updateFavoriteButtons();
+    scheduleScrollControls();
+  }
+
+  function scheduleScrollControls() {
+    if (scrollFrame) return;
+    scrollFrame = requestAnimationFrame(() => {
+      scrollFrame = 0;
+      const maximum = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      const editing = document.activeElement?.matches('input, textarea, select, [contenteditable="true"]');
+      const supported = currentRoute === '#atlas' || currentRoute.startsWith('#dinosaurus/');
+      $('scroll-controls').hidden = !supported || maximum < 100 || window.scrollY < 120 || editing;
+      $('scroll-up').disabled = window.scrollY <= 8;
+      $('scroll-down').disabled = window.scrollY >= maximum - 8;
+    });
+  }
+
+  function chooseDetailSequence(dino) {
+    // Keep the opened list stable while browsing, including a favorites-only list.
+    if (currentRoute.startsWith('#dinosaurus/') && detailIds.includes(dino.id)) return;
+    // Searching locates the starting animal; browsing continues through the
+    // category and other active filters without clearing the atlas query.
+    const selected = currentRoute === '#atlas' ? filteredDinosaurs(dinosaurs, { ...state, query: '' }) : categoryAnimals(dinosaurs, state.category);
+    const fallbackCategory = state.category === 'all' ? 'all' : categoryOf(dino);
+    detailIds = (selected.some(item => item.id === dino.id) ? selected : categoryAnimals(dinosaurs, fallbackCategory)).map(item => item.id);
+  }
+
+  function detailNavigation(dino) {
+    const index = detailIds.indexOf(dino.id);
+    const previous = byId.get(detailIds[index - 1]);
+    const next = byId.get(detailIds[index + 1]);
+    return `<nav class="detail-browser" aria-label="Procházení vybraných zvířat">
+      <button type="button" class="button" data-detail-step="-1" ${previous ? `aria-label="Předchozí: ${escapeHtml(copy(previous).displayName)}"` : 'disabled'}><span aria-hidden="true">←</span>Předchozí</button>
+      <span class="detail-position" aria-label="Zvíře ${index + 1} z ${detailIds.length}">${index + 1} / ${detailIds.length}</span>
+      <button type="button" class="button" data-detail-step="1" ${next ? `aria-label="Další: ${escapeHtml(copy(next).displayName)}"` : 'disabled'}>Další<span aria-hidden="true">→</span></button>
+    </nav>${detailIds.length > 1 ? '<p class="swipe-hint">Na telefonu můžeš přejít i tahem doleva nebo doprava.</p>' : ''}`;
+  }
+
+  function stepDetail(direction) {
+    if (!currentRoute.startsWith('#dinosaurus/') || ![-1, 1].includes(direction)) return false;
+    const index = detailIds.indexOf(lastOpenedId);
+    const nextId = index >= 0 ? detailIds[index + direction] : undefined;
+    if (!nextId) return false;
+    // Swiping does not add a separate Back step for every animal.
+    history.replaceState(null, '', `#dinosaurus/${nextId}`);
+    route();
+    return true;
+  }
+
+  function renderComparison(dino) {
+    const data = comparisonData(dino, comparisonHeight);
+    if (!data) return '';
+    const metric = data.kind === 'wingspan' ? 'Rozpětí křídel' : 'Délka od hlavy po ocas';
+    return `<details class="detail-section size-section"><summary>Jak velký byl?</summary><div class="section-text">
+      ${readControls('comparison', 'Přečíst porovnání')}
+      <p>Porovnej ${data.kind === 'wingspan' ? 'rozpětí křídel' : 'délku těla'} s výškou člověka. Oba proužky mají stejné měřítko.</p>
+      <div class="human-choices" role="group" aria-label="Výška člověka pro porovnání"><button type="button" data-human="1.8" aria-pressed="${comparisonHeight === 1.8}">Dospělý · 1,8 m</button><button type="button" data-human="1.1" aria-pressed="${comparisonHeight === 1.1}">Dítě · 1,1 m</button></div>
+      <figure class="size-chart" aria-label="${escapeHtml(metric)} asi ${numberLabel(data.valueM)} metru; výška člověka ${numberLabel(data.humanHeight)} metru.">
+        <div class="size-row"><div class="size-label"><strong>${escapeHtml(copy(dino).displayName)}</strong><span>${metric} · asi ${numberLabel(data.valueM)} m</span></div><div class="size-track"><div class="size-bar animal-bar" style="width:${data.animalPercent}%"></div></div></div>
+        <div class="size-row"><div class="size-label"><strong><svg class="human-icon" viewBox="0 0 24 40" width="16" height="27" aria-hidden="true"><circle cx="12" cy="5" r="4"/><path d="M7 12h10l3 12h-4l-1-8v22h-4V25h-1v13H6V16l-2 8H0l4-12z"/></svg>Člověk</strong><span>Výška · ${numberLabel(data.humanHeight)} m</span></div><div class="size-track"><div class="size-bar human-bar" style="width:${data.humanPercent}%"></div></div></div>
+        <figcaption>Vybraný rozměr odpovídá přibližně ${numberLabel(data.ratio)}násobku této výšky člověka. Nesrovnáváme hmotnost ani výšku zvířete.</figcaption>
+      </figure>
+      ${confidenceBadge(dino.comparison.confidence)}<p class="measurement-note">${escapeHtml(localized(dino.comparison.note))}</p>
+    </div></details>`;
+  }
+
+  function renderRecognition(dino) {
+    const traits = copy(dino).recognition;
+    if (!traits?.length) return '';
+    return `<section class="recognition" aria-labelledby="recognition-title"><span class="eyebrow">Všímej si detailů</span><h2 id="recognition-title">Podle čeho mě poznáš?</h2><ul>${traits.map(trait => `<li><p>${escapeHtml(localized(trait.text))}</p>${trait.confidence !== 'evidence' ? confidenceBadge(trait.confidence) : ''}</li>`).join('')}</ul>${readControls('recognition', 'Přečíst poznávací znaky')}</section>`;
+  }
+
+  function renderContemporaries(dino) {
+    const context = copy(dino).contemporaries;
+    if (!context?.ids?.length) return '';
+    return `<section class="contemporaries" aria-labelledby="contemporaries-title"><h2 id="contemporaries-title">Ze stejného pravěkého prostředí</h2><p>${escapeHtml(localized(context.text))}</p>${confidenceBadge(context.confidence)}${readControls('contemporaries', 'Přečíst o prostředí')}<div class="neighbor-list">${context.ids.map(id => {
+      const neighbor = byId.get(id);
+      return `<a class="neighbor" href="#dinosaurus/${id}"><img src="${escapeHtml(neighbor.image.src)}" alt="" width="108" height="72" loading="lazy"><span>${escapeHtml(copy(neighbor).displayName)}<small>${escapeHtml(neighbor.scientificName)}</small></span><span aria-hidden="true">→</span></a>`;
+    }).join('')}</div></section>`;
   }
 
   function renderDetail(dino) {
     const text = copy(dino);
     const facts = dino.facts.map(fact => `<div class="fact"><dt>${escapeHtml(localized(fact.label))}</dt><dd>${escapeHtml(localized(fact.value))}${fact.note ? `<small>${escapeHtml(localized(fact.note))}</small>` : ''}${confidenceBadge(fact.confidence)}</dd></div>`).join('');
-    const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}${readControls(section.id, 'Přečíst tuto část')}</div></details>`).join('');
+    const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${readControls(section.id, 'Přečíst tuto část')}${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}</div></details>`).join('');
     $('detail-view').innerHTML = `<a class="back-link" href="#atlas">← Zpět do atlasu</a>
-      <figure class="detail-figure"><div class="detail-image"><img src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024"></div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
-      <div class="detail-title-row"><div><span class="eyebrow">${PERIODS[dino.period]} · ${escapeHtml(text.groupLabel)}</span><h1>${escapeHtml(text.displayName)}</h1><p class="scientific-name">${escapeHtml(dino.scientificName)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
+      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
+      ${detailNavigation(dino)}
+      <figure class="detail-figure"><div class="detail-image"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024"></div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
       <p class="lead">${escapeHtml(text.summary)}</p>
-      <div class="narration">${readControls('summary', 'Přečíst shrnutí')}<p class="read-status" id="read-status" role="status" aria-live="polite"></p></div>
+      <div class="narration">${readControls('summary', 'Přečíst popis')}</div>
+      ${renderRecognition(dino)}
       <div class="evidence-key" aria-label="Jak číst míru jistoty">${['evidence', 'estimate', 'unknown'].map(confidenceBadge).join('')}</div>
-      <dl class="fact-grid">${facts}</dl>
+      <section class="basic-facts" aria-labelledby="facts-title"><h2 id="facts-title">Základní údaje</h2>${readControls('facts', 'Přečíst základní údaje')}<dl class="fact-grid">${facts}</dl></section>
       <p class="taxonomy"><strong>Příbuzenské zařazení</strong>${dino.taxonomy.map(escapeHtml).join(' › ')}</p>
-      ${sections}`;
+      ${renderComparison(dino)}${sections}${renderContemporaries(dino)}`;
   }
 
   function beginQuiz() {
-    const questions = makeQuiz(dinosaurs);
-    quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, tried: new Set() };
+    const questions = makeQuiz(categoryAnimals(dinosaurs, state.category));
+    quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, hintRevealed: false, tried: new Set() };
     renderQuiz();
   }
   function renderQuiz() {
     if (!quiz) { beginQuiz(); return; }
     if (!quiz.questions.length) {
-      $('quiz-content').innerHTML = '<p>Pro kvíz potřebujeme alespoň tři dinosaury s obrázkem.</p>';
+      $('quiz-content').innerHTML = '<p>Pro kvíz v této kategorii potřebujeme alespoň tři zvířata s obrázkem. Zkus přepnout na Vše.</p>';
       return;
     }
     if (quiz.index >= quiz.questions.length) {
-      $('quiz-content').innerHTML = `<div class="quiz-finish"><span class="eyebrow">Výprava dokončena</span><h2>To bylo objevování!</h2><p class="score">Napoprvé poznáno: ${quiz.firstTry} z ${quiz.questions.length}.</p><p>Každý další pokus pomáhá poznat dinosaury lépe.</p><div class="quiz-actions"><button class="button button-primary" id="quiz-restart" type="button">Hrát znovu</button><a class="button" href="#atlas">Prozkoumat atlas</a></div></div>`;
+      $('quiz-content').innerHTML = `<div class="quiz-finish"><span class="eyebrow">Výprava dokončena</span><h2>To bylo objevování!</h2><p class="score">Napoprvé poznáno: ${quiz.firstTry} z ${quiz.questions.length}.</p><p>Každý další pokus pomáhá poznat pravěká zvířata lépe.</p><div class="quiz-actions"><button class="button button-primary" id="quiz-restart" type="button">Hrát znovu</button><a class="button" href="#atlas">Prozkoumat atlas</a></div></div>`;
       return;
     }
     const question = quiz.questions[quiz.index];
     const dino = byId.get(question.answerId);
     $('quiz-content').innerHTML = `<p class="quiz-progress-label">Otázka ${quiz.index + 1} z ${quiz.questions.length} · Bez časového limitu</p><progress class="quiz-progress" max="${quiz.questions.length}" value="${quiz.index}" aria-label="Dokončené otázky"></progress>
-      <div class="quiz-picture"><img src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce dinosaura. Vyber jeho jméno z možností pod obrázkem."></div>
-      <div class="quiz-answers" role="group" aria-label="Vyber jméno dinosaura">${question.optionIds.map((id, index) => `<button type="button" class="quiz-answer" data-answer="${id}"><span class="answer-letter" aria-hidden="true">${String.fromCharCode(65 + index)}</span>${escapeHtml(copy(byId.get(id)).displayName)}</button>`).join('')}</div>
+      <div class="quiz-picture"><img src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce pravěkého zvířete. Vyber jeho jméno z možností pod obrázkem."></div>
+      <button id="quiz-hint" type="button" class="button button-quiet hint-button" aria-expanded="${quiz.hintRevealed}" aria-controls="quiz-hint-text">${quiz.hintRevealed ? 'Skrýt nápovědu' : 'Potřebuji nápovědu'}</button><p id="quiz-hint-text" class="hint-text" ${quiz.hintRevealed ? '' : 'hidden'}>${escapeHtml(copy(dino).quizHint)}</p>
+      <div class="quiz-answers" role="group" aria-label="Vyber jméno zvířete">${question.optionIds.map((id, index) => `<button type="button" class="quiz-answer" data-answer="${id}"><span class="answer-letter" aria-hidden="true">${String.fromCharCode(65 + index)}</span><span class="answer-name">${escapeHtml(copy(byId.get(id)).displayName)}</span></button>`).join('')}</div>
       <div class="quiz-feedback" id="quiz-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
-      <div class="quiz-actions"><button id="quiz-next" class="button button-primary" type="button" hidden>${quiz.index === quiz.questions.length - 1 ? 'Dokončit kvíz' : 'Další dinosaurus →'}</button></div>`;
+      <div class="quiz-actions"><button id="quiz-next" class="button button-primary" type="button" hidden>${quiz.index === quiz.questions.length - 1 ? 'Dokončit kvíz' : 'Další otázka →'}</button></div>`;
     // Návrat z atlasu musí obnovit i rozehranou nebo již zodpovězenou otázku.
     document.querySelectorAll('[data-answer]').forEach(button => {
       if (quiz.tried.has(button.dataset.answer)) {
@@ -327,7 +498,10 @@
   }
   function showCorrectAnswer(dino) {
     $('quiz-feedback').classList.add('is-success');
-    $('quiz-feedback').innerHTML = `<p><strong>Ano! Je to ${escapeHtml(copy(dino).displayName)}.</strong> ${escapeHtml(copy(dino).cardSummary)}</p>`;
+    const text = copy(dino);
+    $('quiz-feedback').innerHTML = `<p><strong>Ano! Je to ${escapeHtml(text.displayName)}.</strong></p><p>${escapeHtml(text.quizExplanation ? localized(text.quizExplanation.text) : text.cardSummary)}</p><a class="quiz-detail-link" href="#dinosaurus/${dino.id}">Prohlédnout detail →</a>`;
+    $('quiz-hint').hidden = true;
+    $('quiz-hint-text').hidden = true;
     $('quiz-next').hidden = false;
   }
   function answerQuiz(id) {
@@ -380,12 +554,15 @@
       $('main').focus({ preventScroll: true });
     } else if (detailMatch && byId.has(detailMatch[1])) {
       const dino = byId.get(detailMatch[1]);
+      chooseDetailSequence(dino);
       lastOpenedId = dino.id;
       $('detail-view').hidden = false;
       renderDetail(dino);
       document.title = `${copy(dino).displayName} — Dino Atlas`;
-      window.scrollTo(0, 0);
-      $('main').focus({ preventScroll: true });
+      $('detail-title').focus({ preventScroll: true });
+      requestAnimationFrame(() => {
+        if (lastOpenedId === dino.id && !$('detail-view').hidden) $('detail-heading').scrollIntoView({ block: 'start' });
+      });
     } else {
       $('not-found').hidden = false;
       document.title = 'Heslo nenalezeno — Dino Atlas';
@@ -395,8 +572,69 @@
       if (link.dataset.nav === nav) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
     });
     currentRoute = hash;
+    detailSwipe = null;
+    scheduleScrollControls();
   }
 
+  // Keep vertical scrolling and pinch zoom native to the WebView.
+  const swipeIgnored = 'a, button, input, select, textarea, summary, [contenteditable], [role="button"]';
+  $('detail-view').addEventListener('pointerdown', event => {
+    detailSwipe = null;
+    if (!event.isPrimary || event.pointerType !== 'touch' || event.target.closest(swipeIgnored)) return;
+    if (event.clientX < 24 || event.clientX > document.documentElement.clientWidth - 24 || window.getSelection()?.toString()) return;
+    detailSwipe = { id: event.pointerId, x: event.clientX, y: event.clientY, started: performance.now(), route: currentRoute };
+  }, { passive: true });
+  $('detail-view').addEventListener('pointermove', event => {
+    if (!detailSwipe || event.pointerId !== detailSwipe.id) return;
+    const dx = Math.abs(event.clientX - detailSwipe.x);
+    const dy = Math.abs(event.clientY - detailSwipe.y);
+    if (dy > 20 && dy > dx) detailSwipe = null;
+  }, { passive: true });
+  $('detail-view').addEventListener('pointercancel', () => { detailSwipe = null; });
+  $('detail-view').addEventListener('pointerup', event => {
+    const swipe = detailSwipe;
+    detailSwipe = null;
+    if (!swipe || event.pointerId !== swipe.id || swipe.route !== currentRoute || window.getSelection()?.toString()) return;
+    const dx = event.clientX - swipe.x;
+    const dy = event.clientY - swipe.y;
+    const threshold = Math.min(100, Math.max(60, document.documentElement.clientWidth * .18));
+    if (performance.now() - swipe.started > 1000 || Math.abs(dx) < threshold || Math.abs(dx) < Math.abs(dy) * 1.6) return;
+    if (stepDetail(dx < 0 ? 1 : -1)) {
+      suppressDetailClickUntil = performance.now() + 400;
+      if (event.cancelable) event.preventDefault();
+    }
+  });
+  $('detail-view').addEventListener('click', event => {
+    if (performance.now() < suppressDetailClickUntil) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+  }, true);
+  $('scroll-controls').addEventListener('click', event => {
+    const button = event.target.closest('[data-scroll]');
+    if (!button || button.disabled) return;
+    const top = button.dataset.scroll === 'up' ? 0 : document.documentElement.scrollHeight;
+    const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth';
+    window.scrollTo({ top, behavior });
+  });
+  window.addEventListener('scroll', scheduleScrollControls, { passive: true });
+  window.addEventListener('resize', scheduleScrollControls);
+  document.addEventListener('focusin', scheduleScrollControls);
+  document.addEventListener('focusout', scheduleScrollControls);
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(scheduleScrollControls).observe(document.body);
+
+  $('category-filters').addEventListener('click', event => {
+    const button = event.target.closest('[data-category]');
+    if (!button || button.dataset.category === state.category) return;
+    state.category = button.dataset.category;
+    saveStorage('dinoatlas-category', state.category);
+    syncCategory();
+    quiz = null;
+    galleryScroll = 0;
+    if (currentRoute === '#kviz') beginQuiz();
+    else if (currentRoute === '#atlas') renderGallery();
+    else location.hash = 'atlas';
+  });
   $('search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
   $('diet-filter').addEventListener('change', event => { state.diet = event.target.value; renderGallery(); });
   $('period-filters').addEventListener('click', event => {
@@ -419,6 +657,20 @@
     if (visible.length) location.hash = `dinosaurus/${visible[Math.floor(Math.random() * visible.length)].id}`;
   });
   document.addEventListener('click', event => {
+    const step = event.target.closest('[data-detail-step]');
+    if (step && !step.disabled) stepDetail(Number(step.dataset.detailStep));
+    const height = event.target.closest('[data-human]');
+    if (height) {
+      const next = Number(height.dataset.human);
+      if ([1.1, 1.8].includes(next)) {
+        if (readTarget === 'comparison') stopNarration(false);
+        comparisonHeight = next;
+        const comparison = document.querySelector('.size-section');
+        comparison.outerHTML = renderComparison(byId.get(lastOpenedId));
+        document.querySelector('.size-section').open = true;
+        document.querySelector(`[data-human="${next}"]`)?.focus({ preventScroll: true });
+      }
+    }
     if (event.target.closest('[data-stop-read]')) stopNarration();
     const read = event.target.closest('[data-read]');
     if (read) readDetail(read.dataset.read);
@@ -431,15 +683,26 @@
     }
     const answer = event.target.closest('[data-answer]');
     if (answer) answerQuiz(answer.dataset.answer);
+    if (event.target.closest('#quiz-hint') && quiz && !quiz.answered) {
+      quiz.hintRevealed = !quiz.hintRevealed;
+      $('quiz-hint').setAttribute('aria-expanded', String(quiz.hintRevealed));
+      $('quiz-hint').textContent = quiz.hintRevealed ? 'Skrýt nápovědu' : 'Potřebuji nápovědu';
+      $('quiz-hint-text').hidden = !quiz.hintRevealed;
+    }
     if (event.target.closest('#quiz-next') && quiz?.answered) {
       quiz.index++;
       quiz.answered = false;
       quiz.attempts = 0;
+      quiz.hintRevealed = false;
       quiz.tried.clear();
       renderQuiz();
+      $('quiz-title').scrollIntoView({ block: 'start' });
       $('quiz-content').querySelector('button')?.focus({ preventScroll: true });
     }
-    if (event.target.closest('#quiz-restart')) beginQuiz();
+    if (event.target.closest('#quiz-restart')) {
+      beginQuiz();
+      $('quiz-title').scrollIntoView({ block: 'start' });
+    }
   });
   window.addEventListener('hashchange', route);
   window.addEventListener('dinoatlas-speech', event => {
@@ -457,11 +720,14 @@
       if (!response.ok) throw new Error(`Databáze se nenačetla (${response.status}).`);
       database = await response.json();
       validateDatabase(database);
-      dinosaurs = database.dinosaurs;
+      dinosaurs = sortAnimals(database.dinosaurs);
       byId = new Map(dinosaurs.map(dino => [dino.id, dino]));
       let saved = [];
       try { saved = JSON.parse(readStorage('dinoatlas-favorites', '[]')); } catch (_) {}
       state.favorites = new Set((Array.isArray(saved) ? saved : []).filter(id => byId.has(id)));
+      const savedCategory = readStorage('dinoatlas-category', 'all');
+      state.category = Object.prototype.hasOwnProperty.call(CATEGORIES, savedCategory) ? savedCategory : 'all';
+      syncCategory();
       $('load-state').hidden = true;
       route();
     } catch (error) {

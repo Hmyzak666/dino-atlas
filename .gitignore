@@ -1,6 +1,10 @@
 build-android/
-*.keystore
+__pycache__/
+*.pyc
+*.apk
 *.p12
 *.jks
-*.apk
-__pycache__/
+*.keystore
+credentials.json
+ANDROID_KEYSTORE_BASE64.txt
+ANDROID_KEYSTORE_PASSWORD.txt

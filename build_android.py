@@ -385,7 +385,7 @@ def version_floor(version):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--version', default='0.5.0')
+    parser.add_argument('--version', default='0.8.0')
     parser.add_argument('--version-code', type=int, default=1)
     args = parser.parse_args()
     if not re.fullmatch(r'[0-9]+(?:\.[0-9]+){1,3}', args.version) or args.version_code < 1:
