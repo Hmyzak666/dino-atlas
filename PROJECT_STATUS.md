@@ -60,7 +60,7 @@ Místně prošly:
 
 Tyto kontroly nenahrazují poslech konkrétního hlasu a zkoušku aktualizace na fyzickém telefonu. U nové technické sestavy ještě nebyla provedena taková ruční telefonní zkouška. Původní 0.8.0 už uživatel v telefonu potvrdil.
 
-Zápis větve do GitHubu při přípravě odmítlo připojení chybou 403. Změny jsou připravené v místní větvi `chore/project-cleanup-2026-10-20`; jejich automatické kontroly přímo na GitHubu je potřeba spustit po zpřístupnění zápisu. `main` na GitHubu se při této přípravě nezměnil.
+Připojení GitHubu původně odmítalo zápis chybou 403; po autorizaci bylo obnoveno. Změny jsou na GitHubu ve větvi `chore/project-cleanup-2026-10-20` a v [návrhu změn č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1). Automatické kontroly přímo na GitHubu se spouštějí při změnách tohoto návrhu; jejich aktuální výsledky jsou v jeho kontrolách. Původní stav chrání větev `backup/pre-cleanup-2026-10-20`, ověřený základ větev `backup/verified-0.8.0-before-cleanup`. `main` se při přípravě nezměnil; návrh zůstává oddělený k posouzení a ke zkoušce aktualizace na telefonu.
 
 ## Další postup
 

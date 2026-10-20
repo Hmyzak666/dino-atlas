@@ -26,16 +26,16 @@ Uživatel v tomto vývojovém chatu potvrdil funkční Android 0.8.0. Úplné zd
 - Všech 18 dosavadních obrázků z GitHubu má stejné bajty jako ve vydání 0.8.0.
 - Kořenový Java obal v předchozím `main` už odpovídal ověřené verzi 0.8.0. Nebyl nahrazen starou kopií z `images/`.
 
-Zdrojový základ byl přidán odděleným commitem `ee10cd6` a označen tagem `verified-0.8.0-before-cleanup`. Tag zachycuje potvrzené runtime soubory; nové CI patří až do technického úklidu. V tomto mezikroku zůstaly staré neaktivní kopie zachované; jejich odstranění patří do následujícího commitu.
+Zdrojový základ byl přidán odděleným místním commitem `ee10cd6` a označen místním tagem `verified-0.8.0-before-cleanup`. Na GitHubu mu odpovídá commit `5edf2e97354962765893827fcb8bd2b7e900fd8f` ve větvi `backup/verified-0.8.0-before-cleanup`. Oba mají shodný strom souborů `8a93ea7ed3105d59178d0fba4d636b754f14acd3`; liší se metadata vytvoření commitů při přenosu přes GitHub API. Tento bod zachycuje potvrzené runtime soubory; nové CI patří až do technického úklidu. V mezikroku zůstaly staré neaktivní kopie zachované; jejich odstranění patří do následujícího commitu.
 
 ## Body návratu a zachování historie
 
-Původní `main` je zachycen tagem `pre-cleanup-2026-10-20`. Před úpravami vznikl samostatný Git bundle a jeho úplnost byla ověřena pomocí `git bundle verify`. Pracovní větev je `chore/project-cleanup-2026-10-20`.
+Původní `main` je zachycen místním tagem `pre-cleanup-2026-10-20` a vzdálenou větví `backup/pre-cleanup-2026-10-20`. Před úpravami vznikl samostatný Git bundle a jeho úplnost byla ověřena pomocí `git bundle verify`. Pracovní větev je `chore/project-cleanup-2026-10-20`; předávací Git bundle obsahuje i místní tagy a původní místní přípravu ve větvi `archive/cleanup-local-2026-10-20`.
 
 Staré kopie kódu a druhé workflow jsou odebrány pouze z aktuálního stromu pracovní větve. V historii a předúklidovém tagu zůstávají obnovitelné. Historické textové návody a prompty byly přesunuty pod `docs/`, místo aby se tvářily jako současné instrukce.
 
-Vzdálené vytvoření větve odmítla GitHub integrace chybou 403 `Resource not accessible by integration`; samostatný Git push neměl dostupné přihlášení. Všechny uvedené nové větve, tagy a commity jsou při tomto předání místní. Původní vzdálený `main` nebyl změněn a jeho historie nebyla přepsána.
+Vzdálené vytvoření větve původně odmítla GitHub integrace chybou 403 `Resource not accessible by integration`; samostatný Git push neměl dostupné přihlášení. Po autorizaci připojení se zápis obnovil. Změny byly přeneseny přes GitHub API do samostatné vzdálené větve a [návrhu změn č. 1](https://github.com/Hmyzak666/dino-atlas/pull/1). Stromy všech tří přenesených commitů mají přesně stejná Git SHA jako místně otestované stromy; původní historie zůstává zachovaná. Následný dokumentační commit aktualizuje tento stav a návod k obnově. Původní vzdálený `main` nebyl změněn a jeho historie nebyla přepsána. Záložní větve jsou na GitHubu; místní tagy jsou v předávacím bundle.
 
 ## Výsledek a ověření
 
-Podrobný aktuální stav a výsledky kontrol uvádí [PROJECT_STATUS.md](../PROJECT_STATUS.md). Sestavení 80001 je technická revize stejné verze 0.8.0. Má původní certifikát, applicationId, úložný původ a ID zvířat. Ruční telefonní zkouška nového sestavení a kontroly přímo na GitHubu zůstávají samostatnými kroky po předání.
+Podrobný aktuální stav a výsledky místních kontrol uvádí [PROJECT_STATUS.md](../PROJECT_STATUS.md); výsledky GitHub Actions jsou v kontrolách návrhu změn č. 1. Sestavení 80001 je technická revize stejné verze 0.8.0. Má původní certifikát, applicationId, úložný původ a ID zvířat. Ruční telefonní zkouška nového sestavení ještě zbývá.

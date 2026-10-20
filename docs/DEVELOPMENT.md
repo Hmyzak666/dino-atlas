@@ -45,4 +45,11 @@ V tomto úklidu jsou Java, vzhled i obsah stejné jako v 0.8.0. Po budoucí změ
 
 ## Obnova
 
-Ke starému projektu se vrať v nové větvi, například `git switch -c recovery/pre-cleanup pre-cleanup-2026-10-20`. K ověřenému zdrojovému základu slouží `verified-0.8.0-before-cleanup`. Historii nepřepisuj silovým pushem; pro návrat již sloučené změny použij přehledný revert.
+Ke starému projektu se vrať v nové větvi po načtení záložních větví z GitHubu:
+
+```bash
+git fetch origin
+git switch -c recovery/pre-cleanup origin/backup/pre-cleanup-2026-10-20
+```
+
+K telefonem ověřenému zdrojovému základu slouží vzdálená větev `origin/backup/verified-0.8.0-before-cleanup`. Při obnově z předávacího Git bundle lze použít i tagy `pre-cleanup-2026-10-20` a `verified-0.8.0-before-cleanup`. Historii nepřepisuj silovým pushem; pro návrat již sloučené změny použij přehledný revert.
