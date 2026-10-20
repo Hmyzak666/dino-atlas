@@ -5,7 +5,7 @@ const path = require('node:path');
 const { chromium } = require(require.resolve('playwright', { paths: [process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES || process.cwd()] }));
 const db = require('../dinosaurs.json');
 const root = path.resolve(__dirname,'..');
-const artifacts = process.env.DINO_QA_DIR || path.resolve(root,'../.qa');
+const artifacts = process.env.DINO_QA_DIR || path.resolve(root,'.qa');
 const errors = [];
 
 const server = http.createServer(async(req,res)=>{
@@ -65,6 +65,16 @@ async function openAnimal(page,id) {
       await page.locator('#gallery .dino-card').last().waitFor();
       assert.equal(await page.locator('#gallery .dino-card').count(),42);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
+      if(width===360) {
+        const decoded=await page.evaluate(async sources=>Promise.all(sources.map(src=>new Promise((resolve,reject)=>{
+          const img=new Image();
+          img.onload=()=>resolve({src,width:img.naturalWidth,height:img.naturalHeight});
+          img.onerror=()=>reject(new Error('Image decoding failed: '+src));
+          img.src=src;
+        }))),db.dinosaurs.map(a=>a.image.src));
+        assert.equal(decoded.length,42);
+        assert.ok(decoded.every(img=>img.width>0&&img.height>0),'All animal images must decode in the browser');
+      }
       const names=await page.locator('.card-title-row h3').allTextContents();
       assert.deepEqual(names,[...names].sort(new Intl.Collator('cs',{sensitivity:'base'}).compare));
       await noOverflow(page);
@@ -200,6 +210,29 @@ async function openAnimal(page,id) {
         await openAnimal(page,'eodromaeus-murphi');
         await page.locator('[data-read="facts"]').click();
         assert.match(await page.evaluate(()=>__spoken.at(-1).text),/5 až 7 kilogramů/);
+        // Import an existing user's stored state into a fresh app context.
+        await openAnimal(page,'nothosaurus-mirabilis');
+        await page.locator('.detail-favorite').click();
+        await page.locator('#theme-toggle').click();
+        assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+        await page.getByRole('link',{name:'← Zpět do atlasu',exact:true}).click();
+        await page.waitForURL('**/#atlas');
+        await page.locator('[data-category="marine-reptile"]').click();
+        const stored=await context.storageState();
+        const restored=await browser.newContext({storageState:stored,viewport:{width:360,height:850},isMobile:true,hasTouch:true});
+        const restoredPage=await restored.newPage();
+        restoredPage.on('pageerror',e=>errors.push(e.message));
+        await restoredPage.goto(base+'/#atlas');
+        await restoredPage.locator('#gallery .dino-card').first().waitFor();
+        assert.equal(await restoredPage.locator('html').getAttribute('data-theme'),'dark');
+        assert.equal(await restoredPage.locator('[data-category="marine-reptile"]').getAttribute('aria-pressed'),'true');
+        assert.equal(await restoredPage.locator('#favorites-count').textContent(),'3');
+        await restoredPage.locator('#favorites-filter').click();
+        assert.equal(await restoredPage.locator('#gallery .dino-card').count(),1);
+        assert.ok(await restoredPage.locator('#card-nothosaurus-mirabilis').isVisible());
+        await restoredPage.locator('[data-category="all"]').click();
+        assert.equal(await restoredPage.locator('#gallery .dino-card').count(),3);
+        await restored.close();
       }
       console.log('PASS viewport '+width+': alphabetic cards, header, images, navigation, favorites and scroll restoration');
       await context.close();

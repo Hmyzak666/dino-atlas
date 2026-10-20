@@ -1,4 +1,8 @@
 build-android/
+node_modules/
+.qa/
+test-results/
+playwright-report/
 __pycache__/
 *.pyc
 *.apk
@@ -8,3 +12,8 @@ __pycache__/
 credentials.json
 ANDROID_KEYSTORE_BASE64.txt
 ANDROID_KEYSTORE_PASSWORD.txt
+*.idsig
+.private-*/
+*SOUKROME*.zip
+.env
+.env.*
