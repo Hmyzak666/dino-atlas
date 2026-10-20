@@ -269,3 +269,21 @@ figcaption { font-size: .76rem; color: var(--muted); margin-top: 9px; }
 .detail-name { gap: 8px; margin-bottom: 4px; }
 .detail-name h1 { margin: 0; }
 .detail-name .name-read-button { flex-shrink: 0; min-width: 46px; padding: 8px; }
+
+.detail-image { position: relative; }
+.detail-image > img[data-image-viewer], .quiz-picture > img[data-image-viewer] { cursor: zoom-in; }
+.image-zoom-open { position: absolute; right: 10px; bottom: 10px; display: grid; place-items: center; width: 46px; height: 46px; padding: 10px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); color: var(--heading); box-shadow: var(--shadow); }
+.image-zoom-open svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+body.image-viewing { overflow: hidden; }
+dialog.image-viewer { position: fixed; inset: 0; margin: 0; padding: 12px; width: 100%; height: 100%; max-width: none; max-height: none; border: 0; background: var(--page); color: var(--text); overflow: hidden; }
+dialog.image-viewer[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto; gap: 10px; }
+.image-viewer::backdrop { background: #10221c; }
+.image-viewer-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.image-viewer-header h2 { margin: 0; font-size: 1.25rem; overflow-wrap: anywhere; }
+.image-viewer-header .button { flex-shrink: 0; }
+.image-viewer-stage { position: relative; min-width: 0; min-height: 0; width: 100%; overflow: hidden; background: var(--image-bg); border-radius: 14px; touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab; }
+#image-viewer-image { position: absolute; left: 50%; top: 50%; width: auto; height: auto; max-width: none; max-height: none; pointer-events: none; transform-origin: center; will-change: transform; }
+.image-viewer-controls { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.image-viewer-controls .button { min-width: 44px; padding-inline: 12px; }
+#image-zoom-level { min-width: 54px; text-align: center; font-variant-numeric: tabular-nums; font-size: .9rem; }
+.image-viewer-hint { margin: 0; color: var(--muted); font-size: .8rem; line-height: 1.4; text-align: center; }

@@ -82,6 +82,12 @@
     <button id="scroll-up" type="button" data-scroll="up" aria-label="Na začátek stránky" title="Na začátek stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7"/></svg></button>
     <button id="scroll-down" type="button" data-scroll="down" aria-label="Na konec stránky" title="Na konec stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg></button>
   </div>
+  <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title" aria-describedby="image-viewer-hint">
+    <div class="image-viewer-header"><h2 id="image-viewer-title">Obrázek</h2><button id="image-viewer-close" class="button" type="button" autofocus>Zavřít <span aria-hidden="true">×</span></button></div>
+    <div id="image-viewer-stage" class="image-viewer-stage" tabindex="0" aria-label="Zvětšený obrázek. Přibliž dvěma prsty nebo tlačítky pod obrázkem."><img id="image-viewer-image" alt="" draggable="false"></div>
+    <div class="image-viewer-controls" role="group" aria-label="Přiblížení obrázku"><button id="image-zoom-out" class="button" type="button" aria-label="Oddálit obrázek">−</button><output id="image-zoom-level" aria-live="off">100 %</output><button id="image-zoom-in" class="button" type="button" aria-label="Přiblížit obrázek">+</button><button id="image-zoom-reset" class="button" type="button">Celý obrázek</button></div>
+    <p id="image-viewer-hint" class="image-viewer-hint">Dvěma prsty přibliž, jedním posouvej.</p>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
   <noscript><p class="load-state">Pro vyhledávání, detaily a kvíz je potřeba zapnutý JavaScript.</p></noscript>
 </body>
