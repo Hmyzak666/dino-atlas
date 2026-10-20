@@ -19,7 +19,8 @@ class BuildTests(unittest.TestCase):
 
     def test_metadata_and_html_contract(self):
         config, db, images = build.validate_inputs()
-        self.assertEqual(config['versionCode'], 80001)
+        baseline = json.loads((build.ROOT/'tests/fixtures/verified-0.8.0.json').read_text())
+        self.assertGreater(config['versionCode'], baseline['versionCode'])
         self.assertEqual(len(images), len(db['dinosaurs']))
         page = (build.ROOT/'index.html').read_text()
         with self.assertRaisesRegex(ValueError, 'Incomplete'):

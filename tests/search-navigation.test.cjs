@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const http = require('node:http');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { chromium } = require(require.resolve('playwright', { paths: [process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES || process.cwd()] }));
+const { chromium } = require(require.resolve('playwright', { paths: [path.resolve(__dirname, '..'), process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES || process.cwd()] }));
 const root = path.resolve(__dirname, '..');
 const errors = [];
 const server = http.createServer(async (req, res) => {
