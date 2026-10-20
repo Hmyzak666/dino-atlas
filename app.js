@@ -270,7 +270,7 @@
   }
   function showPicture(data, trigger, push = true) {
     if (pictureDialog.open || !dinosaurs.some(animal => animal.image.src === data.src)) return;
-    pictureFocus = trigger || document.querySelector('.detail-image .image-zoom-open, .quiz-picture .image-zoom-open');
+    pictureFocus = trigger || document.querySelector(location.hash === '#kviz' ? '.quiz-picture .image-zoom-open' : '.detail-image .image-zoom-open');
     pictureScroll = window.scrollY;
     pictureView = { scale: 1, x: 0, y: 0, width: 0, height: 0, flipped: Boolean(data.flipped) };
     picturePointers.clear();

@@ -253,6 +253,12 @@ async function openAnimal(page,id) {
         await page.locator('#image-viewer').waitFor({state:'hidden'});
         assert.equal(await page.locator('.quiz-picture img').getAttribute('src'),questionSrc);
         assert.equal(await page.locator('.quiz-answer:not(:disabled)').count(),3);
+        await page.goForward();
+        await page.locator('#image-viewer').waitFor({state:'visible'});
+        await page.locator('#image-viewer-close').click();
+        await page.locator('#image-viewer').waitFor({state:'hidden'});
+        await page.waitForFunction(()=>Boolean(document.activeElement.closest('.quiz-picture')));
+
 
         for(let i=0;i<5;i++) {
           const id=(await page.locator('#quiz-content img').getAttribute('src')).match(/images\/(.+)\.webp/)[1];

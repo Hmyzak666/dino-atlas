@@ -9,7 +9,7 @@ Aktualizováno: 20. října 2026. Aktuální příprava je **0.8.1, versionCode 
 - Obrázek v detailu i v kvízu lze otevřít přes celou obrazovku. Má přiblížení 1–4× dvěma prsty, posun jedním prstem, dvojité klepnutí, tlačítka +/− a návrat k celému obrázku. Zavření a systémové Zpět vracejí na původní místo. Kvízový obrázek neprozrazuje jméno správné odpovědi.
 - Filtry období mají pořadí **Trias · Jura · Křída · Vše**.
 
-Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Podepsané sestavení 0.8.1 a zkouška této nové funkce v telefonu ještě nejsou potvrzené. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
+Samostatná větev `feature/image-viewer-reading-0.8.1` a [návrh změn č. 2](https://github.com/Hmyzak666/dino-atlas/pull/2) navazují na technický úklid v č. 1. Aktuální výsledky automatických testů a úplné Android kompilace jsou v kontrolách návrhu. Zkouška 0.8.1 ve fyzickém telefonu ještě není potvrzená. Podepsané APK se nabízí ve výstupech workflow, pokud má GitHub k dispozici původní podpisová secrets. Místní pracovní prostředí je při této přípravě nedostupné, ověření probíhá přes GitHub Actions.
 
 Databáze, 42 obrázků, Java zdroj, manifest, nativní prostředky, certifikát a klíče uživatelského úložiště zůstávají stejné. Původní podklad `verified-0.8.0.json` zůstává zachovaný; změny tří webových souborů mají výslovný podklad `approved-0.8.1.json`.
 
