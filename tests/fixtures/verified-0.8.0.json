@@ -1,0 +1,198 @@
+{
+  "version": "0.8.0",
+  "versionCode": 80000,
+  "sourceArchiveSha256": "c544e05ba2e7dabc48a06c38cefdb13eef0f470b92c174090e5be039f241965f",
+  "apkSha256": "d69083583e5ce7b2695b23e2f73b8ba0d29fad304465c8ecb3cb3bf974d9c5eb",
+  "applicationId": "cz.hmyzak.dinoatlas",
+  "origin": "https://appassets.androidplatform.net",
+  "startPath": "/assets/index.html#atlas",
+  "certificateSha256": "4008bd7e1dbf92662a5d2de90fa090e1cbb63a6b0020fd687a2927e711da522c",
+  "nativeSourceSha256": "9902efc6cf6e7d6683c5b525a529ea60b0888c1462994c6e6822cad0ff89f438",
+  "storageKeys": [
+    "dinoatlas-theme",
+    "dinoatlas-favorites",
+    "dinoatlas-category"
+  ],
+  "counts": {
+    "dinosaur": 30,
+    "pterosaur": 6,
+    "marine-reptile": 6
+  },
+  "assets": {
+    "index.html": "478fc6673188c971a06dfd3d962cea91a9567490d77244c116c032341349b340",
+    "style.css": "4c98d578771e500b82ccb3552845951a4d070aeecce0b752563c6ffcf52096b5",
+    "app.js": "dd6919c5ac637f0ccf2791a12e95b54eb47aad8ad6d122fafd0750afc4ddd4f5",
+    "dinosaurs.json": "20b3edbed3f18f39bf26301e9d4e57a50670fec3c19e56df8533d545a474c4e0",
+    "images/triceratops-horridus.webp": "ea06b81b8d6893c4e706d9999f87bcd8e8bf4bcd577517ff31305348742c8125",
+    "images/tyrannosaurus-rex.webp": "1c016f120505238a947d510e9625e30fccdd94b0e29fce559bde6fa8a2a6f466",
+    "images/stegosaurus-stenops.webp": "1b59fedf3b188e7a5b72c67252491d2c0aee3c3f0aeab84af38cbc76b6f009b1",
+    "images/diplodocus-carnegii.webp": "2ee2a8ad6399810ee5b591dbf7990f273ab71403f4a648b7d8bb074f435e4e4d",
+    "images/ankylosaurus-magniventris.webp": "1a7a3b9cd24f6c57f1b1ad79b9cf42de4b27e8c655a261b6a5ce903a58840adf",
+    "images/coelophysis-bauri.webp": "58b50c7b2bb47b10982dad76af01e0d77bce0a7b7fac633050b35ee705d926f6",
+    "images/velociraptor-mongoliensis.webp": "bd3d6949476c599eb57f4fc7057b38958a358f02c9cff6675b14bdf3c1d7f4e3",
+    "images/parasaurolophus-walkeri.webp": "91923eeff63f587d71c84a579c0a41455a450a594545462ad429019f87d40276",
+    "images/brachiosaurus-altithorax.webp": "7d85389f36d98db42bd352eea79af6c48df843f0ec8aac99073915902209218d",
+    "images/spinosaurus-aegyptiacus.webp": "7e478abb0c0ecd29cfd54440c7a11509e8f72b44bed25a12b5ced961fee36875",
+    "images/allosaurus-fragilis.webp": "a7461ac561d1dbba9b2c89fe4d08838289288155ff12c31849069ed392e5f2c2",
+    "images/iguanodon-bernissartensis.webp": "18778297b4ff9a71c6d338910ac930ea12b56679528761b3f02e34ad4f9e76ce",
+    "images/carnotaurus-sastrei.webp": "76ecf611fcc598cb6c87e19de20e71d84bbc8282d4f463deec3380f78df93ba1",
+    "images/pachycephalosaurus-wyomingensis.webp": "d6dc938c4fa118d69a9d2c6fe766439a91aaab58ac07b146960c567e9df715c1",
+    "images/therizinosaurus-cheloniformis.webp": "a84c29956ecfbf085afa4ec35eaa7ea328c8991bf662de0d4c1daf978adff52a",
+    "images/pterodactylus-antiquus.webp": "f1b9317f819b463efa9494c1007b2336c72e5cde6d874250bd103dd7351b0a2c",
+    "images/pteranodon-longiceps.webp": "4ffa17bdc70dce4219be70f7a7145751de9183118e58c128982cde037989f4c5",
+    "images/quetzalcoatlus-northropi.webp": "3248c4d977e7b7c672823a9e599035687c2cd7c05c8e7838add3ae31e1ed1c7b",
+    "images/dilophosaurus-wetherilli.webp": "dd65f3d5e4041432e9f120e8341540b4f5069ab1c79e54bf05ed90a0e6fe435d",
+    "images/deinonychus-antirrhopus.webp": "d58a8be46666e8a8ec97e77bfee7d1724947484ff2c6a257732bc105234bf19e",
+    "images/edmontosaurus-annectens.webp": "afe3de254db546dffc074dbd4504007732ddf48395ff92c8dc728f8fff190bae",
+    "images/protoceratops-andrewsi.webp": "14bd683559f7a5fba3247c175266079949c13d75c550d8f75383148c466a2766",
+    "images/plateosaurus-trossingensis.webp": "13f9694acbcc5f9158a66465f44670ab75a286c7e2a639341a39fb3a7b337db2",
+    "images/mosasaurus-hoffmanni.webp": "ee0b309feddf9511680fa937ae6cd196d8a6f58b00b5973248d66b6cb8e34a1a",
+    "images/plesiosaurus-dolichodeirus.webp": "70ac945ce92834b5a0dee3697148bc8e8e9b073ad7450937665980251d919294",
+    "images/ichthyosaurus-communis.webp": "23e3095a532d56dc9ab7ef5bd12bd2045bf2c59a90f961cfb22316fb07ccfb84",
+    "images/apatosaurus-louisae.webp": "07e960e4f5dad67a2c0d65ceb36b45afe5a4f75b7a44547a6ac8b1e61783e0e3",
+    "images/brontosaurus-excelsus.webp": "ec1d6c9bf369fbc5857719aaedf32aaffc5e457a073c5b27d0ebbccd7d6607b6",
+    "images/camarasaurus-lentus.webp": "eb980889354da30d2116ce45abdd26a9553f14b6866d930e19f0bd7c96a22aef",
+    "images/ceratosaurus-nasicornis.webp": "f5dbfa77bac012fb28afadd152d6cf3efe6aff167a697cfda538d157d07df1e5",
+    "images/megalosaurus-bucklandii.webp": "147f2137cb111a5d005a3cd9aebacf4688a7b538bd1d70746ea79a9be0726382",
+    "images/liopleurodon-ferox.webp": "803f52bf716de0ab10f01e8c131b48d70371ae354722c6ef35bd9ea51fce9c1d",
+    "images/rhamphorhynchus-muensteri.webp": "41fa3bf181397db8806f549acfc535c5264753b127761d268291cab84b02d0c7",
+    "images/eoraptor-lunensis.webp": "3c70c59f56a463c793bd7d953208ce9c3159345bacb489d7e364a1732b15d92f",
+    "images/herrerasaurus-ischigualastensis.webp": "edbf18de34e5ad0326d36a740af7521c2597ccd5628a71df748b9eb9fbf1c317",
+    "images/eodromaeus-murphi.webp": "6d2e8f5da78e0f669720f866464998aeb7b7462bf4145543a671e396c319373e",
+    "images/saturnalia-tupiniquim.webp": "0586014921f34d9e188c7081b1948a282446bc041b2dfde81baa65f7fdb858e8",
+    "images/riojasaurus-incertus.webp": "bdcdc1166bf827755129559f81263340a28604f9a04fce6e4d846167196d2060",
+    "images/eudimorphodon-ranzii.webp": "a258af924d857fa301c50dbc93303386505e73f5c4b02901e6c4a42b9ecf4658",
+    "images/peteinosaurus-zambellii.webp": "91603dc1124e966f0b9c00e8947aaaf70d4dc00766df6804f4291ef2215be35d",
+    "images/nothosaurus-mirabilis.webp": "5f6c0e60350f76bc6d3289b0829c57e231862c2f92c6836e2411dbb6afc842f2",
+    "images/shonisaurus-popularis.webp": "66a2f10d2ed48a4f999af9f167c3f03d08c6adfc41ecb672d59e8c446f1b0ab7"
+  },
+  "animalIds": [
+    "allosaurus-fragilis",
+    "ankylosaurus-magniventris",
+    "apatosaurus-louisae",
+    "brachiosaurus-altithorax",
+    "brontosaurus-excelsus",
+    "camarasaurus-lentus",
+    "carnotaurus-sastrei",
+    "ceratosaurus-nasicornis",
+    "coelophysis-bauri",
+    "deinonychus-antirrhopus",
+    "dilophosaurus-wetherilli",
+    "diplodocus-carnegii",
+    "edmontosaurus-annectens",
+    "eodromaeus-murphi",
+    "eoraptor-lunensis",
+    "eudimorphodon-ranzii",
+    "herrerasaurus-ischigualastensis",
+    "ichthyosaurus-communis",
+    "iguanodon-bernissartensis",
+    "liopleurodon-ferox",
+    "megalosaurus-bucklandii",
+    "mosasaurus-hoffmanni",
+    "nothosaurus-mirabilis",
+    "pachycephalosaurus-wyomingensis",
+    "parasaurolophus-walkeri",
+    "peteinosaurus-zambellii",
+    "plateosaurus-trossingensis",
+    "plesiosaurus-dolichodeirus",
+    "protoceratops-andrewsi",
+    "pteranodon-longiceps",
+    "pterodactylus-antiquus",
+    "quetzalcoatlus-northropi",
+    "rhamphorhynchus-muensteri",
+    "riojasaurus-incertus",
+    "saturnalia-tupiniquim",
+    "shonisaurus-popularis",
+    "spinosaurus-aegyptiacus",
+    "stegosaurus-stenops",
+    "therizinosaurus-cheloniformis",
+    "triceratops-horridus",
+    "tyrannosaurus-rex",
+    "velociraptor-mongoliensis"
+  ],
+  "manifest": {
+    "tag": "manifest",
+    "attributes": {
+      "package": "cz.hmyzak.dinoatlas"
+    },
+    "children": [
+      {
+        "tag": "uses-sdk",
+        "attributes": {
+          "{http://schemas.android.com/apk/res/android}minSdkVersion": "26",
+          "{http://schemas.android.com/apk/res/android}targetSdkVersion": "35"
+        },
+        "children": []
+      },
+      {
+        "tag": "queries",
+        "attributes": {},
+        "children": [
+          {
+            "tag": "intent",
+            "attributes": {},
+            "children": [
+              {
+                "tag": "action",
+                "attributes": {
+                  "{http://schemas.android.com/apk/res/android}name": "android.intent.action.TTS_SERVICE"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "application",
+        "attributes": {
+          "{http://schemas.android.com/apk/res/android}allowBackup": "false",
+          "{http://schemas.android.com/apk/res/android}enableOnBackInvokedCallback": "true",
+          "{http://schemas.android.com/apk/res/android}icon": "@mipmap/ic_launcher",
+          "{http://schemas.android.com/apk/res/android}label": "Dino Atlas",
+          "{http://schemas.android.com/apk/res/android}roundIcon": "@mipmap/ic_launcher",
+          "{http://schemas.android.com/apk/res/android}supportsRtl": "true",
+          "{http://schemas.android.com/apk/res/android}theme": "@style/AppTheme",
+          "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "false"
+        },
+        "children": [
+          {
+            "tag": "activity",
+            "attributes": {
+              "{http://schemas.android.com/apk/res/android}configChanges": "orientation|screenSize|keyboardHidden|uiMode",
+              "{http://schemas.android.com/apk/res/android}exported": "true",
+              "{http://schemas.android.com/apk/res/android}name": ".MainActivity"
+            },
+            "children": [
+              {
+                "tag": "intent-filter",
+                "attributes": {},
+                "children": [
+                  {
+                    "tag": "action",
+                    "attributes": {
+                      "{http://schemas.android.com/apk/res/android}name": "android.intent.action.MAIN"
+                    },
+                    "children": []
+                  },
+                  {
+                    "tag": "category",
+                    "attributes": {
+                      "{http://schemas.android.com/apk/res/android}name": "android.intent.category.LAUNCHER"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nativeResources": {
+    "android/res/drawable/icon_foreground.xml": "8f16044c2ba4230771d3d295223efe95710599ac1922046317f6db7077cfb583",
+    "android/res/mipmap-anydpi-v26/ic_launcher.xml": "40a90707340e2209fa9b09176ff52b1ce1755cfc5c8c4606967a62a938e1170b",
+    "android/res/values/styles.xml": "c0e2c48135d0576f9ce2f40828a99791bbed8efc788fa2ed8853dfe68fc02bfd"
+  }
+}

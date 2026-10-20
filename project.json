@@ -1,0 +1,10 @@
+{
+  "version": "0.8.0",
+  "versionCode": 80001,
+  "android": {
+    "platform": 35,
+    "buildTools": "35.0.1",
+    "keyAlias": "dinoatlas",
+    "certificateSha256": "4008bd7e1dbf92662a5d2de90fa090e1cbb63a6b0020fd687a2927e711da522c"
+  }
+}

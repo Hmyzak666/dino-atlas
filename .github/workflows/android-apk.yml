@@ -1,29 +1,56 @@
-name: Sestavit Android APK
+name: Dino Atlas — kontroly a APK
 
 on:
+  pull_request:
+  push:
+    branches: [main]
   workflow_dispatch:
-    inputs:
-      version:
-        description: Verze aplikace (například 0.5.0)
-        required: true
-        default: '0.5.0'
 
 permissions:
   contents: read
 
 jobs:
-  apk:
+  verify:
+    name: Databáze, kompatibilita a rozhraní
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Připravit prohlížeč pro testy
+        run: npx playwright install --with-deps chromium --only-shell
+      - name: Ověřit mobilní rozhraní a uložené volby
+        env:
+          DINO_QA_DIR: ${{ runner.temp }}/dino-atlas-qa
+        run: npm run test:ui
 
+  apk:
+    name: Sestavit a ověřit Android
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
       - uses: actions/setup-java@v6.1.0
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Připravit Android SDK
+      - name: Načíst údaje o sestavení
+        id: release
+        run: |
+          python3 - <<'PY'
+          import json, os
+          config = json.load(open('project.json'))
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              print('version=' + config['version'], file=out)
+              print('code=' + str(config['versionCode']), file=out)
+          PY
+      - name: Připravit Android SDK podle project.json
         run: |
           dino_sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
           dino_sdk_manager="$dino_sdk_root/cmdline-tools/latest/bin/sdkmanager"
@@ -35,14 +62,16 @@ jobs:
               fi
             done
           fi
-          if [ ! -x "$dino_sdk_manager" ]; then
-            echo "::error::V Android SDK chybí nástroj sdkmanager."
-            exit 1
-          fi
+          test -x "$dino_sdk_manager"
+          dino_platform="$(python3 -c "import json; print(json.load(open('project.json'))['android']['platform'])")"
+          dino_build_tools="$(python3 -c "import json; print(json.load(open('project.json'))['android']['buildTools'])")"
           printf 'ANDROID_HOME=%s\nANDROID_SDK_ROOT=%s\n' "$dino_sdk_root" "$dino_sdk_root" >> "$GITHUB_ENV"
-          "$dino_sdk_manager" --sdk_root="$dino_sdk_root" "platforms;android-35" "build-tools;35.0.1"
-
-      - name: Obnovit soukromý podpisový klíč
+          "$dino_sdk_manager" --sdk_root="$dino_sdk_root" "platforms;android-$dino_platform" "build-tools;$dino_build_tools"
+      - name: Ověřit kompilaci bez soukromého klíče
+        if: github.event_name != 'workflow_dispatch'
+        run: python3 build_android.py --unsigned
+      - name: Obnovit původní podpisový klíč
+        if: github.event_name == 'workflow_dispatch'
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
@@ -51,30 +80,27 @@ jobs:
           import base64, os
           from pathlib import Path
           if not os.environ['KEYSTORE_BASE64'] or not os.environ['KEYSTORE_PASSWORD']:
-              raise SystemExit('Chybí podpisové secrets. Postup je v ANDROID.md.')
+              raise SystemExit('Chybí původní podpisové secrets; postup je v ANDROID.md.')
           key = Path(os.environ['RUNNER_TEMP']) / 'dino-atlas-release.p12'
           key.write_bytes(base64.b64decode(''.join(os.environ['KEYSTORE_BASE64'].split()), validate=True))
           key.chmod(0o600)
           PY
-
-      - name: Sestavit a ověřit APK
+      - name: Sestavit APK s původním certifikátem
+        if: github.event_name == 'workflow_dispatch'
         env:
-          DINO_VERSION: ${{ inputs.version }}
           DINO_STORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           DINO_KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
         run: |
           export DINO_KEYSTORE_PATH="$RUNNER_TEMP/dino-atlas-release.p12"
-          DINO_VERSION_CODE="$((100 + GITHUB_RUN_NUMBER))"
-          python3 build_android.py --version "$DINO_VERSION" --version-code "$DINO_VERSION_CODE"
-
-      - name: Zpřístupnit APK ke stažení
+          python3 build_android.py
+      - name: Zpřístupnit podepsané APK ke stažení
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v7.0.2
         with:
-          name: Dino-Atlas-Android-${{ inputs.version }}
+          name: Dino-Atlas-Android-${{ steps.release.outputs.version }}-build${{ steps.release.outputs.code }}
           path: build-android/*.apk
           if-no-files-found: error
           retention-days: 30
-
       - name: Odstranit dočasný podpisový klíč
         if: always()
-        run: rm -f "$RUNNER_TEMP/dino-atlas-release.p12"
+        run: rm -f -- "$RUNNER_TEMP/dino-atlas-release.p12"
