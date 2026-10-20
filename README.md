@@ -44,7 +44,7 @@ Pro místní webový náhled spusť z kořene projektu `python3 -m http.server 8
 
 ## Android
 
-Na GitHubu spusť **Actions → Dino Atlas — kontroly a APK → Run workflow**. Verzi načte workflow z `project.json`, použije původní podpisová tajemství a nabídne podepsané APK. Při pull requestu a pushi na `main` běží stejné testy a úplná kompilace bez soukromého klíče.
+Na GitHubu spusť **Actions → Dino Atlas — kontroly a APK → Run workflow**. Verzi načte workflow z `project.json`, použije původní podpisová tajemství a nabídne podepsané APK. Při pull requestu a pushi na `main` běží stejné testy a úplná kompilace. Interní pull request vlastníka projektu může po testech nabídnout i podepsané APK, pokud jsou dostupná původní podpisová secrets; ostatní kontroly se obejdou bez soukromého klíče.
 
 ApplicationId zůstává **`cz.hmyzak.dinoatlas`**, minimem je Android 8.0. Podpisový klíč se negeneruje znovu. Postup, kontrola certifikátu a místní sestavení jsou v [ANDROID.md](ANDROID.md).
 

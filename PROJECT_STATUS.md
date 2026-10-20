@@ -53,7 +53,7 @@ Aktivní web zůstává v kořeni kvůli stabilním cestám i prostému webovém
 
 Dokumentace k obrázkům je v `docs/image-prompts/`, vědecké poznámky v `docs/research/` a staré návody v `docs/history/`. Staré kopie kódu nejsou součástí aktivního stromu; lze je obnovit z Git historie a bodů návratu uvedených v auditu.
 
-Jediné workflow kontroluje pull requesty a `main`. Při ručním spuštění stejného workflow vzniká podepsané APK. Automatická kompilace z pull requestů nepotřebuje původní podpisový klíč a nevydává nepodepsaný soubor jako instalovatelnou aktualizaci.
+Jediné workflow kontroluje pull requesty a `main`. Při ručním spuštění stejného workflow vzniká podepsané APK. U interního pull requestu založeného vlastníkem projektu může po testech vzniknout podepsané APK, pokud jsou původní podpisová secrets dostupná. Ostatní kontroly nepotřebují soukromý klíč; nepodepsaná kompilace se nevydává jako instalovatelná aktualizace.
 
 ## Předchozí ověření úklidu 0.8.0
 
