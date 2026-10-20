@@ -253,6 +253,7 @@
     if (!pictureDialog.open) return;
     pictureDialog.close();
     document.body.classList.remove('image-viewing');
+    document.body.style.removeProperty('--picture-scrollbar-width');
     picturePointers.clear();
     pictureGesture = pictureTap = null;
     pictureClosing = false;
@@ -280,6 +281,8 @@
     picture.alt = data.alt;
     picture.src = data.src;
     $('image-viewer-hint').textContent = 'Dvěma prsty přibliž, jedním posouvej. Dvojím klepnutím přiblížíš nebo oddálíš.';
+    // Keep the page width stable when a desktop scrollbar is hidden by the modal.
+    document.body.style.setProperty('--picture-scrollbar-width', Math.max(0, window.innerWidth - document.documentElement.clientWidth) + 'px');
     document.body.classList.add('image-viewing');
     pictureDialog.showModal();
     paintPicture(1, 0, 0);

@@ -155,7 +155,10 @@ async function openAnimal(page,id) {
         await page.keyboard.press('Escape');
       } else await page.locator('#image-viewer-close').click();
       await page.locator('#image-viewer').waitFor({state:'hidden'});
-      await page.waitForFunction(y=>Math.abs(scrollY-y)<5,pictureY);
+      await page.waitForFunction(y=>Math.abs(scrollY-y)<5,pictureY).catch(async error => {
+        console.error('Viewer scroll restoration', {width, expected:pictureY, actual:await page.evaluate(()=>scrollY)});
+        throw error;
+      });
       assert.equal(await page.evaluate(()=>document.activeElement.classList.contains('image-zoom-open')),true,'Restore focus');
       await noOverflow(page);
 
