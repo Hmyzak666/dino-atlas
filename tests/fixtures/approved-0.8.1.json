@@ -1,0 +1,10 @@
+{
+  "version": "0.8.1",
+  "baselineVersion": "0.8.0",
+  "scope": "Výslovně vyžádané změny: výslovnost Diplodocus, čtení jména, prohlížeč obrázků a pořadí filtrů. Obsah a Android obal zůstávají shodné s ověřenou 0.8.0.",
+  "assets": {
+    "app.js": "e9c1915e2930bdbd128cdac3f304bd59a608eceab7de0daf20a3b3fd131c8cbe",
+    "index.html": "8f710a892a0bd84b3312523ad85391334f5afcff9ad08d8b9764a51f546c92cc",
+    "style.css": "f2fe0f887be75bb60fbff4741d0e6c2c5342b7ccc505ed66491bf3ab6ad279c5"
+  }
+}
