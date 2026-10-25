@@ -54,3 +54,15 @@ U Edestus protilehlé čelistní čepele, ne spirála Helicopriona. U Helicoprio
 
 ## Poznámka k předávání
 Uživatel nemusí ručně sepisovat problematické druhy: tento audit vychází z přesných obrazů instalovaného APK. Veškerý původní obsah aplikace zůstává funkční a testovaný. Tento dokument je **plán a audit**, nikoli tvrzení, že už byly obrázky vyměněny.
+
+
+## První kontrola náhrady obrázku (25. 10. 2026 večer)
+Zkušební nové generování **Eurypterus remipes** úspěšně vyrobilo ostré plné podmořské prostředí, ale živočichovi **chybně přidalo velká uchopovací klepítka/chelicery podobné pterygotidovi**, takže tento pokus **nelze použít jako Eurypterus remipes**. Také automatická koláž typu „před a po“ byla vyřazena jako nevhodný instalační asset.
+
+Původní WebP `images/eurypterus-remipes.webp` je 1152×768; ostrá centrální oblast zabírá přibližně **x=192–960**, zatímco levý a pravý pruh zůstávají uměle rozostřené. Experiment se zrcadlením ostrého středu sice odstranil blur, ale zdvojil ocasní hrot, plovací končetiny a nohy. Blend s druhým AI obrazem zase vytvořil cizí končetiny v pozadí. **Obě techniky vyřazeny**, nic nenahradily.
+
+Při výběru náhrady upřednostnit plnohodnotnou 3:2 scénu, v níž `Eurypterus remipes` má špičatý ocasní trn, **plovací vesla v posledním páru nohou a nikoli nápadná velká klepítka**. `Acutiramus bohemicus` velká úchopová chelicerae naopak mít může; nelze tedy mezi nimi ilustrace zaměňovat.
+
+Otevřeně licencované `Eurypterus Paleoart.jpg` od Obsidian Soul je konkrétně založeno převážně na **Eurypterus tetragonophthalmus**, a proto by nebylo věrnou nezaměnitelnou náhradou pro `E. remipes`. Nepoužít bez další druhové kontroly. Vizuální úpravy dosud **nemění** aplikaci, zdrojových 112 obrázků ani verzi 1000000.
+
+**Bezpečné pravidlo:** nezaměňovat odstranění rozmazaných okrajů za vědeckou přesnost. Nahradit jen obrazem, který splní obě podmínky, a před vložením zachovat zdrojovou zálohu, kredity a výslovné posouzení anatomie.
