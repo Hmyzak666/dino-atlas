@@ -7,7 +7,7 @@ const draft=require('../content-drafts/silurian-five.json');
 const ids=['eurypterus-remipes','acutiramus-bohemicus','birkenia-elegans','entelognathus-primordialis','qilinyu-rostrata'];
 assert.equal(draft.status,'draft-awaiting-five-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
-assert.ok([83,88,96,104].includes(db.dinosaurs.length),'Only the complete 83 or 88 checkpoint is valid');
+assert.ok([83,88,96,104,112].includes(db.dinosaurs.length),'Only the complete 83 or 88 checkpoint is valid');
 const published=db.dinosaurs.length>=88;
 assert.equal(db.dinosaurs.filter(a=>a.period==='cambrian').length,6);
 assert.equal(db.dinosaurs.filter(a=>a.period==='ordovician').length,5);
