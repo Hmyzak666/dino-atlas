@@ -1,0 +1,50 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const app=require('../app.js');
+const db=require('../dinosaurs.json');
+const draft=require('../content-drafts/carboniferous-eight.json');
+const expected=['arthropleura-armata','meganeura-monyi','pulmonoscorpius-kirktonensis','hylonomus-lyelli','greererpeton-burkemorani','edestus-heinrichi','petrolacosaurus-kansensis','crassigyrinus-scoticus'];
+assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
+assert.deepEqual(draft.animals.map(a=>a.id),expected);
+assert.equal(draft.animals.length,8);
+assert.ok([96,104].includes(db.dinosaurs.length));
+const active=db.dinosaurs.length===104;
+assert.equal(db.dinosaurs.filter(a=>a.period==='devonian').length,8);
+assert.equal(db.dinosaurs.filter(a=>a.period==='carboniferous').length,active?8:0);
+const future=structuredClone(db);
+future.periods.carboniferous='Karbon';
+Object.assign(future.sources,draft.sources);
+if(!active)future.dinosaurs.push(...draft.animals);
+assert.equal(future.dinosaurs.length,104);
+assert.equal(app.validateDatabase(future),true);
+assert.equal(new Set(future.dinosaurs.map(a=>a.id)).size,104);
+for(const animal of draft.animals){
+ assert.equal(animal.period,'carboniferous');
+ assert.equal(animal.quizEnabled,true);
+ assert.equal(animal.image.status,'awaiting-original-image');
+ assert.equal(animal.translations.cs.recognition.length,3);
+ assert.equal(animal.translations.cs.sections.length,6);
+ assert.ok(animal.translations.cs.quizHint);
+ assert.ok(app.narrationText(animal,'name'));
+ for(const section of animal.translations.cs.sections)assert.ok(app.narrationText(animal,section.id).includes(app.pronunciationText(section.title)));
+ assert.equal(fs.existsSync(path.resolve(__dirname,'..',animal.image.src)),active);
+ if(active){
+  const pub=db.dinosaurs.find(x=>x.id===animal.id);
+  assert.ok(pub);
+  assert.equal(pub.image.status,'working-reconstruction');
+ }
+}
+const get=id=>draft.animals.find(a=>a.id===id);
+assert.equal(get('meganeura-monyi').comparison.kind,'wingspan');
+assert.equal(get('meganeura-monyi').comparison.valueM,0.7);
+assert.equal(get('arthropleura-armata').category,'arthropod');
+assert.equal(get('pulmonoscorpius-kirktonensis').category,'arthropod');
+assert.equal(get('hylonomus-lyelli').category,'other-reptile');
+assert.equal(get('petrolacosaurus-kansensis').category,'other-reptile');
+assert.equal(get('greererpeton-burkemorani').category,'early-tetrapod');
+assert.equal(get('crassigyrinus-scoticus').category,'early-tetrapod');
+assert.equal(get('edestus-heinrichi').category,'fish');
+assert.equal(app.filteredDinosaurs(future.dinosaurs,{query:'',era:'paleozoic',period:'carboniferous',category:'all',diet:'all',favoritesOnly:false,favorites:new Set()}).length,8);
+assert.equal(app.makeQuiz(draft.animals).length,5);
+console.log('PASS: eight sourced Carboniferous draft records, anatomy, taxonomy, units, uncertainty and 96/104 activation.');
