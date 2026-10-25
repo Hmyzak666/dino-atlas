@@ -1,6 +1,6 @@
 # Dino Atlas 1.0.0 — prvohory (pracovní plán)
 
-> **Stav:** rozpracované zadání; samotná hesla ani obrázky dosud nejsou přidané. Nikdy nevydávat tuto větev jako hotovou 1.0.0 bez 40 vědecky ověřených hesel, 40 samostatných obrázků a zeleného CI.
+> **Stav:** šest vědecky zdrojovaných kandidátních hesel kambria je nyní v `content-drafts/cambrian-six.json`; zatím se nezobrazují v aplikaci, protože chybí původní ilustrace. Pokyny ke všem šesti obrázkům jsou v `docs/image-prompts/1.0.0-cambrian.md`. Nevydávat tuto větev jako hotovou 1.0.0 bez 40 vědecky ověřených a zveřejněných hesel, 40 samostatných obrázků a zeleného CI.
 
 ## Výchozí stav
 Navazuje na ověřené Dino Atlas 0.9.0 (72 živočichů) včetně posunu kvízu na výšku. První krok je model éra → období, samostatné filtry atlasu a kvízu a rozšiřitelné kategorie. Stabilní main a původních 72 hesel/obrázků zůstanou nedotčené až do schválené aktualizace.
@@ -33,3 +33,10 @@ Ponechat: Dinosauři, Ptakoještěři, Mořští plazi, Členovci, Vše. Připra
 - Původní oblíbení, tema, TTS, offline, ID a původní certifikát aktualizace zachovány.
 - Regresní testy všeho; úplné sestavení původně podepsaného APK přes GitHub Actions a fyzická zkouška před merge.
 - Zatím **nepřidávat kenozoikum** ani povinně druhohorní ryby/savce; architektura je musí umožnit.
+
+## Dokončený první obsahový krok — kambrium
+
+- Vypracováno 6 samostatných draftů s českými texty, šesti podtématy, třemi rozpoznávacími znaky, mluveným jménem, filtrací, kvízem a sedmi zdroji.
+- Vědecké rozlišení: Marrella jako členovec; Anomalocaris, Opabinia, Hallucigenia a Wiwaxia mezi dalšími bezobratlými; Pikaia jako samostatný raný strunatec, nikoli ryba.
+- Test `tests/cambrian-drafts-1.0.0.test.cjs` kontroluje oddělené drafty, kategorii, hlášky, zdroje a podmínku chybějících obrázků. Aktivní atlas zatím zůstává na 72 živočiších.
+- Následuje vytvoření 6 samostatných původních WebP rekonstrukcí; teprve poté přesun draftů do aktivní databáze a mobilní regresní testy.
