@@ -1,0 +1,44 @@
+name: Import five reviewed Ordovician pictures
+
+on:
+  push:
+    branches:
+      - feature/paleozoic-1.0.0
+    paths:
+      - Dino-Atlas-1.0.0-Ordovik-5-obrazku.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import-ordovician:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/paleozoic-1.0.0
+          persist-credentials: true
+      - name: Validate five pictures and activate five entries
+        run: python3 tools/import_ordovician.py Dino-Atlas-1.0.0-Ordovik-5-obrazku.zip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Validate all 83 animals and images
+        run: |
+          npm ci
+          npm test
+      - name: Verify UI in Chromium
+        run: |
+          npx playwright install --with-deps chromium --only-shell
+          npm run test:ui
+      - name: Retire this one-time importer
+        run: rm .github/workflows/import-ordovician.yml
+      - name: Commit only to the 1.0 feature branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Activate Ordovician batch: five animals and five original WebP images (83 total)"
+          git push origin HEAD:feature/paleozoic-1.0.0
