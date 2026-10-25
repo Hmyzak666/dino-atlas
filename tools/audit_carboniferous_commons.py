@@ -22,7 +22,7 @@ SOURCES=[
     {"id":"greererpeton-burkemorani","title":"Greererpeton BW.jpg","author":"Nobu Tamura","license":"CC BY 2.5","sha1":None,"dimensions":[800,322]},
     {"id":"edestus-heinrichi","title":"Edestus recon.png","author":"Entelognathus","license":"CC BY-SA 4.0","sha1":None,"dimensions":[3226,1304]},
     {"id":"petrolacosaurus-kansensis","title":"Petrolacosaurus BW.jpg","author":"Nobu Tamura","license":"CC BY 2.5","sha1":"a4b851735897aa8a11fb76f309aeae123ae89e3b","dimensions":[788,313]},
-    {"id":"crassigyrinus-scoticus","title":"Crassygyrinus224.jpg","author":"ДиБгд","license":"CC BY 4.0","sha1":"eb71afe51057dd6e1737b3f00d2af5c61d232030","dimensions":[2953,2362]}
+    {"id":"crassigyrinus-scoticus","title":"Crassygyrinus224.jpg","author":"ДиБгд","license":"CC BY 4.0","sha1":None,"dimensions":[2953,2362]}
 ]
 
 def wikimedia_url(title):
