@@ -1,4 +1,5 @@
 name: Request signed Dino Atlas 1.0.0 phone-test APK
+# Re-run after full 112-species content validation, release metadata and test allowlist.
 
 on:
   push:
