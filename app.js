@@ -198,7 +198,7 @@
   }
 
   // Stejné čisté funkce používá web i kontrola v Node; v prohlížeči se nic neexportuje.
-  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, sortAnimals, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText, pronunciationText, speechMeasurements, categoryOf, categoryAnimals, comparisonData };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, sortAnimals, filteredDinosaurs, shuffle, makeQuiz, validateDatabase, escapeHtml, narrationText, pronunciationText, speechMeasurements, categoryOf, categoryAnimals, comparisonData, periodInEra, ERA_PERIODS };
   if (typeof document === 'undefined') return;
 
   const $ = id => document.getElementById(id);
