@@ -295,3 +295,8 @@ dialog.image-viewer[open] { display: block; }
   .image-viewer-header { padding-top: calc(6px + env(safe-area-inset-top, 0px)); }
   .image-viewer-controls { padding-bottom: calc(6px + env(safe-area-inset-bottom, 0px)); }
 }
+
+/* Independent quiz filters and detail periods reuse the established touch controls. */
+#quiz-filters { margin-bottom: 1.5rem; }
+#quiz-filters .category-filters { flex-wrap: wrap; }
+#detail-view > .period-filters { margin-block: 1rem; }

@@ -2,10 +2,14 @@
   "name": "dino-atlas",
   "private": true,
   "description": "Offline Czech Dino Atlas; release metadata is in project.json.",
-  "engines": { "node": ">=22" },
-  "scripts": {
-    "test": "node tests/content.test.cjs && node tests/search.test.cjs && node tests/compatibility.test.cjs && python3 -m unittest discover -s tests -p 'test_*.py' && python3 build_android.py --check",
-    "test:ui": "node tests/search-navigation.test.cjs && node tests/ui.test.cjs"
+  "engines": {
+    "node": ">=22"
   },
-  "devDependencies": { "playwright": "1.62.1" }
+  "scripts": {
+    "test": "node tests/content.test.cjs && node tests/release-0.9.0.test.cjs && node tests/search.test.cjs && node tests/compatibility.test.cjs && python3 -m unittest discover -s tests -p 'test_*.py' && python3 build_android.py --check",
+    "test:ui": "node tests/search-navigation.test.cjs && node tests/ui.test.cjs && node tests/filters-0.9.0.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
 }

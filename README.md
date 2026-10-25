@@ -2,11 +2,12 @@
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 
-Aktuální uživatelem ověřená verze **0.8.1, sestavení 80101** navazuje na telefonem ověřenou 0.8.0 a její technický úklid 80001. Obsah zůstává **42 zvířat — 30 dinosaurů, 6 ptakoještěrů a 6 mořských plazů**. Nově je možné zvětšit obrázek a přibližovat ho prsty, přečíst samotné jméno u názvu a správně vyslovit české tvary jména Diplodocus. Filtry období jsou v pořadí Trias, Jura, Křída, Vše. Opravné sestavení 80101 využívá pro obrázek celý displej s ovládáním přes obraz a tmavým pozadím; detail zachovává přirozený poměr stran bez světlých bočních okrajů.
+Připravená verze **0.9.0, sestavení 90000** rozšiřuje atlas na **72 zvířat — 45 dinosaurů, 10 ptakoještěrů, 8 mořských plazů a 9 členovců**. Vychází z uživatelem ověřené verze 0.8.1 (80101). Původních 42 záznamů a obrázků je zachováno. Před sloučením do `main` je potřeba vyzkoušet podepsané APK na telefonu.
 
+Nová verze přidává nezávislé filtry kategorie a období v kvízu, přepínání období přímo v detailu a čitelné porovnání drobných členovců v centimetrech či milimetrech. Vědecké nejistoty rekonstrukcí a rozměrů jsou výslovně označené.
 ## Funkce
 
-- Kategorie Vše, Dinosauři, Ptakoještěři a Mořští plazi; abecední řazení, hledání, filtry období a potravy.
+- Kategorie Vše, Dinosauři, Ptakoještěři Mořští plazi a Členovci; abecední řazení, hledání, filtry období a potravy.
 - Oblíbená zvířata, uložený vzhled a zvolená kategorie.
 - Podrobnosti, poznávací znaky, míra jistoty tvrzení a velikostní porovnání.
 - Oddělené čtení samotného jména, popisu, základních údajů a podrobností; místní české TTS.
@@ -20,7 +21,7 @@ Aktuální uživatelem ověřená verze **0.8.1, sestavení 80101** navazuje na 
 |---|---|
 | `index.html`, `style.css`, `app.js` | Jediné aktivní webové rozhraní |
 | `dinosaurs.json` | Jediná aktivní databáze včetně interních vědeckých podkladů |
-| `images/` | Pouze 42 obrázků odkazovaných databází |
+| `images/` | Pouze 72 obrázků odkazovaných databází |
 | `android/` | Manifest, nativní Java obal a prostředky Androidu |
 | `project.json` | Verze, číslo sestavení, SDK a očekávaný podpis |
 | `build_android.py` | Jediný vstupní bod sestavení APK |

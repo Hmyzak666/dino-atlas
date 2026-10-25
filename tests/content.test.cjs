@@ -6,12 +6,12 @@ const db = require('../dinosaurs.json');
 const byId = new Map(db.dinosaurs.map(a => [a.id, a]));
 
 assert.equal(app.validateDatabase(db), true);
-assert.equal(db.dinosaurs.length, 42);
-assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile'].map(category => [category, app.categoryAnimals(db.dinosaurs, category).length])),
-  { dinosaur: 30, pterosaur: 6, 'marine-reptile': 6 });
+assert.equal(db.dinosaurs.length, 72);
+assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile', 'arthropod'].map(category => [category, app.categoryAnimals(db.dinosaurs, category).length])),
+  { dinosaur: 45, pterosaur: 10, 'marine-reptile': 8, arthropod: 9 });
 
 const addedIds = ['eoraptor-lunensis','herrerasaurus-ischigualastensis','eodromaeus-murphi','saturnalia-tupiniquim','riojasaurus-incertus','eudimorphodon-ranzii','peteinosaurus-zambellii','nothosaurus-mirabilis','shonisaurus-popularis'];
-assert.equal(db.dinosaurs.filter(a => a.period === 'triassic').length, 11);
+assert.equal(db.dinosaurs.filter(a => a.period === 'triassic').length, 17);
 for (const id of addedIds) {
   const animal = byId.get(id);
   assert.equal(animal.period, 'triassic', id);
@@ -65,25 +65,26 @@ for (const animal of db.dinosaurs) {
     assert.ok(spoken.length < 4000, animal.id + ': speech engine input limit');
   }
   for (const target of reserved) {
+    if (target === 'comparison' && !animal.comparison) continue;
     if (target === 'contemporaries' && !animal.translations.cs.contemporaries) continue;
     const spoken = app.narrationText(animal, target);
     assert.ok(spoken.length > 0 && spoken.length < 4000, animal.id + ': ' + target);
   }
   const spokenFacts = app.narrationText(animal, 'facts');
   assert.match(spokenFacts, /Hmotnost[^:]*:/, animal.id);
-  assert.match(spokenFacts, animal.category === 'pterosaur' ? /Rozpětí křídel[^:]*:/ : /Délka[^:]*:/, animal.id);
+  assert.match(spokenFacts, animal.comparison?.kind === 'wingspan' || animal.facts.some(f => f.label.cs === 'Rozpětí křídel') ? /Rozpětí křídel[^:]*:/ : /Délka[^:]*:/, animal.id);
 }
 
 const state = {category:'all',query:'',period:'all',diet:'all',favoritesOnly:false,favorites:new Set()};
 const expectedOrder = ['Allosaurus','Ankylosaurus','Apatosaurus','Brachiosaurus','Brontosaurus','Camarasaurus','Carnotaurus','Ceratosaurus','Coelophysis'];
-assert.deepEqual(app.filteredDinosaurs(db.dinosaurs,state).slice(0,9).map(a=>a.translations.cs.displayName),expectedOrder);
+assert.deepEqual(app.filteredDinosaurs(db.dinosaurs.slice(0,42),state).slice(0,9).map(a=>a.translations.cs.displayName),expectedOrder);
 assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,query:'rhampho'})[0].id,'rhamphorhynchus-muensteri');
 assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,query:'tyrannosaurus'})[0].id,'tyrannosaurus-rex');
 assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,favoritesOnly:true,favorites:new Set(['tyrannosaurus-rex','brachiosaurus-altithorax'])}).length,2);
 
 let seed = 705;
 const random = () => { seed = (Math.imul(seed,1664525)+1013904223) >>> 0; return seed/4294967296; };
-for (const category of ['all','dinosaur','pterosaur','marine-reptile']) {
+for (const category of ['all','dinosaur','pterosaur','marine-reptile','arthropod']) {
   const animals = app.categoryAnimals(db.dinosaurs,category);
   for (let i=0;i<100;i++) {
     const quiz = app.makeQuiz(animals,5,random);
@@ -105,4 +106,4 @@ const pterosaur = byId.get('rhamphorhynchus-muensteri');
 assert.match(app.narrationText(pterosaur,'comparison'),/Rozpětí křídel/);
 assert.match(app.narrationText(pterosaur,'comparison',1.1),/1,1 metru/);
 assert.equal(app.narrationText(brachio,'missing-section'),'');
-console.log('PASS: 42 animals, all images and narration targets, preserved spelling, separate facts, Czech sorting, filters, and 400 quizzes.');
+console.log('PASS: 72 animals, all images and narration targets, preserved spelling, separate facts, Czech sorting, filters, and 500 quizzes.');

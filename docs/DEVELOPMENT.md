@@ -27,7 +27,7 @@ npm run test:ui
 python3 build_android.py --unsigned
 ```
 
-Poslední příkaz vyžaduje SDK. `npm test` zahrnuje obsah, 400 kvízů, vyhledávání, kompatibilitu a kontroly sestavování. Testy rozhraní ověřují malé i velké šířky, gesta, čtení, návrat do atlasu, kvíz a uložené preference.
+Poslední příkaz vyžaduje SDK. `npm test` zahrnuje obsah, 500 kvízů a všechny kombinace nových filtrů, vyhledávání, kompatibilitu a kontroly sestavování. Testy rozhraní ověřují malé i velké šířky, gesta, čtení, návrat do atlasu, kvíz a uložené preference.
 
 Pro vlastní instalované Chromium lze nastavit `DINO_BROWSER_PATH`. Kontrolní snímky patří do `.qa/` nebo do složky z `DINO_QA_DIR`; nejsou součástí aplikace ani zdrojové historie.
 
@@ -41,7 +41,7 @@ Při výslovně schválené nové funkci nebo obsahové várce změň očekává
 
 Zkontroluj celý diff, aktuálnost README a `PROJECT_STATUS.md`, nepřítomnost klíčů a vygenerovaných souborů a úspěšné testy. Otevři přehled změn pracovní větve. Podepsanou aktualizaci sestav pomocí původních secrets; projdi automatické ověření APK a podle rozsahu změny i test v telefonu.
 
-Android obal a obsah zůstávají stejné jako v ověřené 0.8.0; rozhraní obsahuje uživatelem potvrzené úpravy 0.8.1. Po budoucí změně Android obalu věnuj zvláštní pozornost čtení, systémovému tlačítku Zpět, bezpečným okrajům displeje a zachování místního úložiště.
+Android obal zůstává stejný jako v ověřené 0.8.0; verze 0.9.0 rozšiřuje obsah a filtry, zachovává původní záznamy i obrázky. Po budoucí změně Android obalu věnuj zvláštní pozornost čtení, systémovému tlačítku Zpět, bezpečným okrajům displeje a zachování místního úložiště.
 
 ## Obnova
 
@@ -55,3 +55,11 @@ git switch -c recovery/pre-cleanup origin/backup/pre-cleanup-2026-10-20
 ```
 
 K telefonem ověřenému zdrojovému základu slouží vzdálená větev `origin/backup/verified-0.8.0-before-cleanup`. Při obnově z předávacího Git bundle lze použít i tagy `pre-cleanup-2026-10-20` a `verified-0.8.0-before-cleanup`. Historii nepřepisuj silovým pushem; pro návrat již sloučené změny použij přehledný revert.
+
+## Obsahové rozšíření 0.9.0
+
+Databázové `periods` je uspořádaný slovník ID → český název; všechna tlačítka období se tvoří z něj. Zachovat fallback starších databází. Kategorie `arthropod` musí mít v taxonomii `Arthropoda`. Nezaměňovat s dinosaury. `speechName` mění jen čtení, nikoli psané jméno. U malých rozměrů ukládat `comparison.valueM` stále v metrech, rozhraní volí mm/cm. Pokud spolehlivý odhad chybí, comparison se vynechá a údaj označí unknown.
+
+`quizFilters` jsou oddělené od atlasového `state`; detail pracuje se snímkem filtrů `detailFilter`. Hledaný text určí vstupní zvíře, ale neomezuje následující listování. Přepnutí období v detailu nesmí přepisovat atlasové filtry ani přidávat mezikroky do historie návratu.
+
+`original-0.8.1-records.json` chrání původních 42 záznamů; původní obrazové hashe se nadále kontrolují proti verified-0.8.0. Není dovoleno aktualizovat tyto podklady jen kvůli průchodu testů. Nové druhy hlídá samostatný přesný seznam additions-0.9.0.
