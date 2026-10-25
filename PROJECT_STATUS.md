@@ -1,6 +1,6 @@
 # Stav projektu Dino Atlas
 
-Aktualizováno 25. října 2026. Kandidát **0.9.0, versionCode 90001** ve větvi `feature/atlas-0.9.0`; poslední telefonem potvrzená verze je **0.8.1 (80101)**. Základ: `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Do main neslučovat před vyzkoušením APK.
+Aktualizováno 25. října 2026. **Telefonem ověřená finální verze 0.9.0, versionCode 90001**, připravená ke sloučení do `main` po výslovném souhlasu uživatele. Základ: 0.8.1 (80101), commit `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Uživatel potvrdil funkčnost 0.9.0 (90000) i následné opravy automatického posunu kvízu v 90001.
 
 ## Obsah a funkce 0.9.0
 
@@ -16,7 +16,7 @@ Aktualizováno 25. října 2026. Kandidát **0.9.0, versionCode 90001** ve větv
 
 `npm test` kontroluje 72 záznamů, obrázky, výslovnost, vyhledávání, kombinace filtrů, kvízy, kompatibilitu a sestavování. `npm run test:ui` kontroluje skutečný prohlížeč na malých i velkých obrazovkách, gesta, zoom, TTS, návraty a nezávislé filtry. Úplné Android sestavení v jediném GitHub workflow ověřuje také obsah APK a původní podpis.
 
-Stav konkrétního běhu a odkaz na APK patří do pull requestu; úspěšné statické testy samy nepotvrzují instalovatelné APK. Fyzický telefon a skutečný český hlas musí ještě vyzkoušet uživatel. Instalovat jako aktualizaci bez odinstalace.
+Poslední sestavení 90001 prošlo automatickými testy, úplným Android buildem s původním podpisovým certifikátem a ověřením přímo na telefonu uživatele. Instalace aktualizace proběhla bez odinstalování předchozí verze. Viz [GitHub Actions](https://github.com/Hmyzak666/dino-atlas/actions/runs/40184888132).
 
 ## Kompatibilita aktualizace
 
