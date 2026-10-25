@@ -6,6 +6,8 @@ on:
       - feature/paleozoic-1.0.0
     paths:
       - Dino-Atlas-1.0.0-Devon-7-pracovnich-obrazku.zip
+      - DinoAtlas_Devon_7_images_GitHub.zip
+      - .github/workflows/import-devonian.yml
 
 permissions:
   contents: write
@@ -23,6 +25,11 @@ jobs:
         with:
           node-version: "22"
           cache: npm
+      - name: Adopt previously uploaded Devonian ZIP (no new upload required)
+        run: |
+          if test -f DinoAtlas_Devon_7_images_GitHub.zip && ! test -f Dino-Atlas-1.0.0-Devon-7-pracovnich-obrazku.zip; then
+            mv DinoAtlas_Devon_7_images_GitHub.zip Dino-Atlas-1.0.0-Devon-7-pracovnich-obrazku.zip
+          fi
       - name: Download the published CC BY 4.0 scientific Dunkleosteus figure
         run: |
           curl --fail --location --retry 4 --connect-timeout 15 --max-time 90 \
