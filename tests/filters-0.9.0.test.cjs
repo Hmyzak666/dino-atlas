@@ -37,7 +37,7 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
     const choices=document.querySelector('.quiz-answers');
     if(!picture||!choices) return false;
     const image=picture.getBoundingClientRect(), answers=choices.getBoundingClientRect();
-    return image.top>=-2&&image.top<=35&&answers.bottom<=innerHeight+2;
+    return image.top>=-2&&image.bottom<=innerHeight+2&&answers.top>=-2&&answers.bottom<=innerHeight+2;
    });
   }
   await page.locator('[data-nav="kviz"]').click();
