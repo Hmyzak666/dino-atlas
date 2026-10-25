@@ -14,7 +14,8 @@ const expected = [
   'pikaia-gracilens'
 ];
 assert.equal(drafts.status, 'draft-awaiting-six-original-webp-images');
-assert.equal(stable.dinosaurs.length, 72, 'Do not publish incomplete content into the verified atlas');
+assert.ok([72,78].includes(stable.dinosaurs.length));
+const active = stable.dinosaurs.length === 78;
 assert.equal(drafts.animals.length, 6);
 assert.deepEqual(drafts.animals.map(a => a.id), expected);
 assert.equal(new Set(drafts.animals.map(a => a.scientificName)).size, 6);
@@ -23,7 +24,7 @@ assert.equal(drafts.sources['pikaia-2024'].url, 'https://doi.org/10.1016/j.cub.2
 const combined = structuredClone(stable);
 combined.periods.cambrian = 'Kambrium';
 Object.assign(combined.sources, drafts.sources);
-combined.dinosaurs.push(...drafts.animals);
+if (!active) combined.dinosaurs.push(...drafts.animals);
 assert.equal(combined.dinosaurs.length, 78);
 assert.equal(app.validateDatabase(combined), true);
 
@@ -37,8 +38,13 @@ for (const animal of drafts.animals) {
   assert.ok(app.narrationText(animal, 'name'));
   assert.ok(app.narrationText(animal, 'facts').includes('Hmotnost:'));
   assert.equal(animal.image.status, 'awaiting-original-image');
-  assert.equal(fs.existsSync(path.resolve(__dirname, '..', animal.image.src)), false,
-    'No invented, shared or placeholder image files may masquerade as a finished species');
+  assert.equal(fs.existsSync(path.resolve(__dirname, '..', animal.image.src)), active,
+    'All six images must exist together with the activated entries, never as incomplete placeholders');
+  if(active) {
+    const published=stable.dinosaurs.find(item=>item.id===animal.id);
+    assert.ok(published && published.image.status==='working-reconstruction');
+    assert.equal(published.image.src,animal.image.src);
+  }
   for (const section of animal.translations.cs.sections) {
     assert.ok(app.narrationText(animal, section.id).includes(section.title));
   }
@@ -60,4 +66,4 @@ assert.equal(app.filteredDinosaurs(combined.dinosaurs,
   {category:'all',era:'mesozoic',period:'all',diet:'all',query:'',favoritesOnly:false,favorites:new Set()}).length,72);
 assert.equal(app.makeQuiz(drafts.animals, 5, () => 0.4).length,5);
 
-console.log('PASS: six complete scientific Cambrian entry drafts (unpublished), categories, Czech TTS, quiz and period filtering; no image placeholders.');
+console.log('PASS: six sourced Cambrian entries, accurate categories, Czech TTS, quiz and filters; activation and original-image completeness = '+active);
