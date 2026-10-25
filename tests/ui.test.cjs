@@ -288,7 +288,8 @@ async function openAnimal(page,id) {
         await page.waitForURL('**/#atlas');
         await page.locator('[data-category="all"]').click();
         await page.locator('[data-period="triassic"]').click();
-        assert.equal(await page.locator('#gallery .dino-card').count(),11);
+        const triassicCount=db.dinosaurs.filter(animal=>animal.period==='triassic').length;
+        assert.equal(await page.locator('#gallery .dino-card').count(),triassicCount);
         await page.locator('#search').fill('nothosaurus');
         await page.locator('#card-nothosaurus-mirabilis').click();
         await page.waitForURL('**/#dinosaurus/nothosaurus-mirabilis');
@@ -298,7 +299,7 @@ async function openAnimal(page,id) {
         assert.match(facts,/Střední trias/);
         assert.match(facts,/Hmotnost:/);
         assert.match(facts,/3,2 metru/);
-        assert.match(await page.locator('.detail-position').textContent(),/\/ 11/);
+        assert.match(await page.locator('.detail-position').textContent(),new RegExp('/ '+triassicCount));
         await page.screenshot({path:path.join(artifacts,'nothosaurus-360.png')});
         await openAnimal(page,'eudimorphodon-ranzii');
         await page.locator('[data-read="facts"]').click();
