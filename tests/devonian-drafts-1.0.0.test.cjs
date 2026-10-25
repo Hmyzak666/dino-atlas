@@ -10,7 +10,7 @@ const ids=['dunkleosteus-terrelli','tiktaalik-roseae','bothriolepis-canadensis',
 'cladoselache-fyleri','jaekelopterus-rhenaniae'];
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
-assert.ok([88,96,104].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
+assert.ok([88,96,104,112].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
 const activated=db.dinosaurs.length>=96;
 for(const [period,count] of [['cambrian',6],['ordovician',5],['silurian',5]]){
  assert.equal(db.dinosaurs.filter(a=>a.period===period).length,count,'Preserve previous Paleozoic batches');
