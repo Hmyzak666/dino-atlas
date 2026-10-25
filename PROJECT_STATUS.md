@@ -1,5 +1,6 @@
 # Stav projektu Dino Atlas
 
+## Kandidát 1.0.0 – 25. října 2026\n\nPracovní větev `feature/paleozoic-1.0.0`, 112 druhů (72 původních + 40 prvohorních), 112 obrázků. Časové filtry Prvohory / Druhohory, Kambrium / Ordovik / Silur / Devon / Karbon / Perm, zdrojované texty, český TTS a nové kategorie. Verze 1.0.0, Android build 1000000; ověřit podepsané APK na telefonu před spojením PR #4 do `main`. Tato informace má přednost před historickými pracovními poznámkami 0.9.0 níže. Viz [testovací checklist](docs/RELEASE-1.0.0-CHECKLIST.md).\n\n
 Aktualizováno 25. října 2026. **Telefonem ověřená finální verze 0.9.0, versionCode 90001**, připravená ke sloučení do `main` po výslovném souhlasu uživatele. Základ: 0.8.1 (80101), commit `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Uživatel potvrdil funkčnost 0.9.0 (90000) i následné opravy automatického posunu kvízu v 90001.
 
 ## Obsah a funkce 0.9.0
