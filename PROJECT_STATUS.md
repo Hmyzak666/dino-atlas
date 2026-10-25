@@ -1,6 +1,6 @@
 # Stav projektu Dino Atlas
 
-Aktualizováno 25. října 2026. Kandidát **0.9.0, versionCode 90000** ve větvi `feature/atlas-0.9.0`; poslední telefonem potvrzená verze je **0.8.1 (80101)**. Základ: `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Do main neslučovat před vyzkoušením APK.
+Aktualizováno 25. října 2026. Kandidát **0.9.0, versionCode 90001** ve větvi `feature/atlas-0.9.0`; poslední telefonem potvrzená verze je **0.8.1 (80101)**. Základ: `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Do main neslučovat před vyzkoušením APK.
 
 ## Obsah a funkce 0.9.0
 
@@ -51,3 +51,7 @@ Slovník `periods` v databázi určuje dostupná období a jejich pořadí. Nov�
 ## Body návratu
 
 `main` na výše uvedeném commitu a `backup/verified-0.8.1-build80101` uchovávají výchozí verzi. Historii nepřepisovat, původní zálohy nemazat. Úklid a jeho původ popisuje [audit](docs/cleanup-audit-2026-10-20.md); předchozí funkční změny jsou v PR #1 a #2.
+
+## Aktualizace chování kvízu v sestavení 90001
+
+Po otevření kvízu, změně filtrů a přechodu na další otázku se na displejích na výšku automaticky posune obrazovka k obrázku a volbám odpovědí. Na šířku se vynucené posouvání neuplatňuje. Prohlížečové regresní testy ověřují viditelnost obrázku a odpovědí. Sestavení 90001 navazuje na telefonem otestované 90000; před vydáním ověřit aktualizaci na telefonu.
