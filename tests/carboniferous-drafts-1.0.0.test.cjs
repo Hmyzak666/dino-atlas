@@ -8,17 +8,17 @@ const expected=['arthropleura-armata','meganeura-monyi','pulmonoscorpius-kirkton
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),expected);
 assert.equal(draft.animals.length,8);
-assert.ok([96,104].includes(db.dinosaurs.length));
-const active=db.dinosaurs.length===104;
+assert.ok([96,104,112].includes(db.dinosaurs.length));
+const active=db.dinosaurs.length>=104;
 assert.equal(db.dinosaurs.filter(a=>a.period==='devonian').length,8);
 assert.equal(db.dinosaurs.filter(a=>a.period==='carboniferous').length,active?8:0);
 const future=structuredClone(db);
 future.periods.carboniferous='Karbon';
 Object.assign(future.sources,draft.sources);
 if(!active)future.dinosaurs.push(...draft.animals);
-assert.equal(future.dinosaurs.length,104);
+assert.equal(future.dinosaurs.length,active?db.dinosaurs.length:104);
 assert.equal(app.validateDatabase(future),true);
-assert.equal(new Set(future.dinosaurs.map(a=>a.id)).size,104);
+assert.equal(new Set(future.dinosaurs.map(a=>a.id)).size,future.dinosaurs.length);
 for(const animal of draft.animals){
  assert.equal(animal.period,'carboniferous');
  assert.equal(animal.quizEnabled,true);
