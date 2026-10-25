@@ -4,6 +4,8 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const { chromium } = require(require.resolve('playwright', { paths: [path.resolve(__dirname, '..'), process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES || process.cwd()] }));
 const root = path.resolve(__dirname, '..');
+const app = require('../app.js');
+const db = require('../dinosaurs.json');
 const errors = [];
 const server = http.createServer(async (req, res) => {
   const name = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
