@@ -1,0 +1,1581 @@
+{
+  "status": "draft-awaiting-six-original-webp-images",
+  "period": "cambrian",
+  "reviewedAt": "2026-10-25",
+  "explanation": "Tento soubor obsahuje vědecky zdrojované kandidátní položky. Zatím se nepřidává do aktivního dinosaurs.json a nesmí se publikovat bez skutečných šesti WebP obrázků, jejich obrazového auditu a regresních testů.",
+  "sources": {
+    "rom-anomalocaris": {
+      "title": "Royal Ontario Museum: Anomalocaris canadensis",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "rom-opabinia": {
+      "title": "Royal Ontario Museum: Opabinia regalis",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "rom-hallucigenia": {
+      "title": "Royal Ontario Museum: Hallucigenia sparsa",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "rom-marrella": {
+      "title": "Royal Ontario Museum: Marrella splendens",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "rom-wiwaxia": {
+      "title": "Royal Ontario Museum: Wiwaxia corrugata",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/wiwaxia-corrugata/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "rom-pikaia": {
+      "title": "Royal Ontario Museum: Pikaia gracilens",
+      "shortTitle": "ROM Burgess Shale",
+      "url": "https://burgess-shale.rom.on.ca/fossils/pikaia-gracilens/",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    },
+    "pikaia-2024": {
+      "title": "Mussini et al. 2024: New interpretation of Pikaia",
+      "shortTitle": "Current Biology 2024",
+      "url": "https://doi.org/10.1016/j.cub.2024.05.026",
+      "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
+      "accessedAt": "2026-10-25"
+    }
+  },
+  "animals": [
+    {
+      "id": "anomalocaris-canadensis",
+      "scientificName": "Anomalocaris canadensis",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "carnivore",
+      "group": "anomalocaris",
+      "taxonomy": [
+        "Panarthropoda",
+        "Radiodonta",
+        "Anomalocarididae",
+        "Anomalocaris"
+      ],
+      "aliases": [
+        "anomalocaris",
+        "anomalokaris"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Anomalokaris",
+      "image": {
+        "src": "images/anomalocaris-canadensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Anomalocaris."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-anomalocaris"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-anomalocaris"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Nejúplnější kostry kolem 25 cm, u větších jedinců odhady až kolem 1 m"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-anomalocaris"
+          ],
+          "note": {
+            "cs": "25 cm odpovídá zachované téměř úplné fosilii; až 1 m je nejistý odhad z oddělených částí."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-anomalocaris"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Anomalocaris",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Radiodonti · vzdálení příbuzní členovců",
+          "cardSummary": "Plavec s velkýma očima a dvojicí ostnitých chňapadel.",
+          "summary": "Velký mořský lovec s párem ostnitých končetin před ústy, velkýma očima a plovacími laloky podél těla. Patřil mezi nápadné predátory kambrijských moří.",
+          "quizHint": "Před kruhovými ústy má dvě ostnitá chňapadla.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dvě článkované ostnité končetiny před ústy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-anomalocaris"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velké oči po stranách přední části těla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-anomalocaris"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Řada bočních plovacích laloků a ocasní vějíř."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-anomalocaris"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dvě článkované ostnité končetiny před ústy. Velké oči po stranách přední části těla. Řada bočních plovacích laloků a ocasní vějíř. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-anomalocaris"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Podivné chňapadlo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Před ústy měl dvojici článkovaných končetin s ostny, kterými pravděpodobně zachycoval a přidržoval kořist."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-anomalocaris"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Pohyb ve vodě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Boční plovací laloky umožňovaly vlnivý pohyb a ocasní vějíř pomáhal při změně směru."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-anomalocaris"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Co jedl?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl masožravec. Nové biomechanické úvahy zpochybňují představu, že běžně drtil tvrdé schránky trilobitů; pravděpodobnou kořistí byli i měkcí živočichové."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-anomalocaris"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Jak vypadal?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na hlavě nesl velké oči a pod ní věnec ústních destiček. Takové ústní ústrojí se nepodobalo dnešním čelistem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-anomalocaris"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Jak se skládala jeho podoba",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní ústní části, končetiny i trup byly původně popisovány odděleně. Teprve další nálezy pomohly rozpoznat celé zvíře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-anomalocaris"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co ještě nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesnou barvu, rychlost plavání ani skutečnou maximální délku všech jedinců neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.25,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-anomalocaris"
+        ],
+        "note": {
+          "cs": "25 cm odpovídá zachované téměř úplné fosilii; až 1 m je nejistý odhad z oddělených částí."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.25,
+        "scope": "25 cm odpovídá zachované téměř úplné fosilii; až 1 m je nejistý odhad z oddělených částí."
+      }
+    },
+    {
+      "id": "opabinia-regalis",
+      "scientificName": "Opabinia regalis",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "carnivore",
+      "group": "opabinia",
+      "taxonomy": [
+        "Panarthropoda",
+        "Opabiniidae",
+        "Opabinia"
+      ],
+      "aliases": [
+        "opabinia",
+        "opabinie"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Opabinia",
+      "image": {
+        "src": "images/opabinia-regalis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Opabinia."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-opabinia"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-opabinia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Tělo asi 4–7 cm bez předního chobotu"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-opabinia"
+          ],
+          "note": {
+            "cs": "Rozsah délky těla bez chobotu podle muzejního přehledu; exempláře včetně chobotu mohly být delší."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-opabinia"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Opabinia",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Kmenoví příbuzní členovců",
+          "cardSummary": "Pět očí, dlouhý chobot a vějířovitý ocas.",
+          "summary": "Malý kambrijský plavec s pěti očima a dlouhým ohebným chobotem zakončeným drobnými kleštičkami. Kořist mohl podávat směrem k ústům na spodní straně hlavy.",
+          "quizHint": "Hledej pět očí a dlouhý chobot s kleštičkami.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Na přední části hlavy pět očí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-opabinia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Jediný dlouhý ohebný chobot zakončený kleštičkami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-opabinia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Boční plovací laloky a vějířovitý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-opabinia"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Na přední části hlavy pět očí. Jediný dlouhý ohebný chobot zakončený kleštičkami. Boční plovací laloky a vějířovitý ocas. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-opabinia"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Pět očí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na horní straně hlavy měla pět očí. Jejich umístění patří k nejlépe rozpoznatelným znakům druhu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-opabinia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Ohebný chobot",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhý přední výběžek zakončovaly dvě protilehlé ostnité části, podobné kleštičkám. Mohla jimi uchopovat drobnou kořist."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-opabinia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Plavání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Trup nesl opakující se boční laloky, které mohly vlnivým pohybem zajišťovat plavání. Vějíř na konci těla pomáhal řídit směr."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-opabinia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuznost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nejde o dnešního korýše ani o rybu. Opabinia patří mezi dávné příbuzné členovců, ale její přesné místo na evolučním stromu je předmětem výzkumu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-opabinia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Vzácné fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Opabinia není na nalezišti Burgess Shale tak běžná jako některé jiné kambrijské druhy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-opabinia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Barva těla a přesný výběr kořisti se z fosilií přímo určit nedají."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.07,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-opabinia"
+        ],
+        "note": {
+          "cs": "Rozsah délky těla bez chobotu podle muzejního přehledu; exempláře včetně chobotu mohly být delší."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.07,
+        "scope": "Rozsah délky těla bez chobotu podle muzejního přehledu; exempláře včetně chobotu mohly být delší."
+      }
+    },
+    {
+      "id": "hallucigenia-sparsa",
+      "scientificName": "Hallucigenia sparsa",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "unknown",
+      "group": "hallucigenia",
+      "taxonomy": [
+        "Panarthropoda",
+        "Lobopodia",
+        "Hallucigeniidae",
+        "Hallucigenia"
+      ],
+      "aliases": [
+        "hallucigenia",
+        "halucigenie"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Halucigenia",
+      "image": {
+        "src": "images/hallucigenia-sparsa.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Hallucigenia."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-hallucigenia"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-hallucigenia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Až kolem 3 cm"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-hallucigenia"
+          ],
+          "note": {
+            "cs": "Muzejní přehled uvádí maximální velikost kolem 30 mm; konkrétní nalezené jedince mohou být menší."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy neznáme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Hallucigenia",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Lalokonozí příbuzní členovců",
+          "cardSummary": "Měkké nožky dole, dlouhé ostny nahoře.",
+          "summary": "Drobné červovité zvíře s měkkými nožkami zakončenými drápky a se sedmi páry hřbetních ostnů. Patřilo mezi dávné lalokonohé živočichy, nikoli mezi dnešní hmyz.",
+          "quizHint": "Na zádech má dlouhé ostny a pod tělem měkké nožky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhé ostny vyrůstající z hřbetní strany."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-hallucigenia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Několik párů měkkých nožek s drápky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-hallucigenia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Drobné podlouhlé červovité tělo."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-hallucigenia"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhé ostny vyrůstající z hřbetní strany. Několik párů měkkých nožek s drápky. Drobné podlouhlé červovité tělo. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-hallucigenia"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Ostny a nožky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na hřbetě měla sedm párů dlouhých ostnů a pod tělem měkké končetiny zakončené drápky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-hallucigenia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Omyl s převrácenou rekonstrukcí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Starší rekonstrukce postavily zvíře na ostny a zaměnily přední a zadní část. Pozdější studie správně určily orientaci těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-hallucigenia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Malá hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na hlavě byly jednoduché oči a ústní otvor; výzkum rozpoznal také drobné struktury uvnitř hltanu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-hallucigenia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Čím se živila?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vědci navrhují různá vysvětlení: mohla využívat houby jako oporu a zachytávat částice z vody. Přesný způsob přijímání potravy zůstává hypotézou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-hallucigenia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Kdo byli její příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hallucigenia patřila do širší skupiny Panarthropoda. Nebyla však typickým článkovaným členovcem jako dnešní hmyz."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-hallucigenia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme barvu těla ani přesnou podobu každodenního života."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.03,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-hallucigenia"
+        ],
+        "note": {
+          "cs": "Muzejní přehled uvádí maximální velikost kolem 30 mm; konkrétní nalezené jedince mohou být menší."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.03,
+        "scope": "Muzejní přehled uvádí maximální velikost kolem 30 mm; konkrétní nalezené jedince mohou být menší."
+      }
+    },
+    {
+      "id": "marrella-splendens",
+      "scientificName": "Marrella splendens",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "cambrian",
+      "diet": "unknown",
+      "group": "marrella",
+      "taxonomy": [
+        "Arthropoda",
+        "Marrellomorpha",
+        "Marrellidae",
+        "Marrella"
+      ],
+      "aliases": [
+        "marrella",
+        "marela"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Marrela",
+      "image": {
+        "src": "images/marrella-splendens.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Marrella."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-marrella"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-marrella"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Až asi 2,5 cm"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-marrella"
+          ],
+          "note": {
+            "cs": "Maximální délka těla udávaná Royal Ontario Museum; bez vyčnívajících hlavových ostnů."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy neznáme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Marrella",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Vyhynulí členovci · marrellomorfové",
+          "cardSummary": "Malý členovec s dlouhými hlavovými ostny.",
+          "summary": "Drobný pravý členovec s nápadnými dlouhými hlavovými ostny, jemnými tykadly a mnoha páry dvouvětevných končetin. Patří k nejhojnějším zkamenělinám Burgess Shale.",
+          "quizHint": "Z hlavy mu dozadu trčí dlouhé zahnuté ostny.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhé ostny vycházející z hlavového štítu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-marrella"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Pár jemných dlouhých tykadel."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-marrella"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mnoho opakujících se párů končetin pod tělem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-marrella"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhé ostny vycházející z hlavového štítu. Pár jemných dlouhých tykadel. Mnoho opakujících se párů končetin pod tělem. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-marrella"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Ozdobená hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hlavový štít měl několik dlouhých ostnů, které směřovaly dozadu podél těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-marrella"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Trup sestával z mnoha článků se dvěma větvemi končetin; některé větve nesly jemné žaberní struktury."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-marrella"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachycování drobných organických částic z vody nebo sedimentu je nejpravděpodobnějším vysvětlením způsobu krmení."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-marrella"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Končetiny a přední lopatkovité přívěsky umožňovaly pohyb nad mořským dnem; přesnou rychlost neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-marrella"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Velmi častý nález",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve sbírkách je známo více než 25 tisíc fosilií Marrelly. Díky tomu se dá sledovat i její svlékání."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-marrella"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme přesné barvy ani funkci všech hlavových ostnů."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.025,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-marrella"
+        ],
+        "note": {
+          "cs": "Maximální délka těla udávaná Royal Ontario Museum; bez vyčnívajících hlavových ostnů."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.025,
+        "scope": "Maximální délka těla udávaná Royal Ontario Museum; bez vyčnívajících hlavových ostnů."
+      }
+    },
+    {
+      "id": "wiwaxia-corrugata",
+      "scientificName": "Wiwaxia corrugata",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "herbivore",
+      "group": "wiwaxia",
+      "taxonomy": [
+        "Halwaxiida",
+        "Wiwaxiidae",
+        "Wiwaxia"
+      ],
+      "aliases": [
+        "wiwaxia",
+        "vivaksia"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Vivaksia",
+      "image": {
+        "src": "images/wiwaxia-corrugata.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Wiwaxia."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-wiwaxia"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-wiwaxia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Až asi 5,5 cm"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-wiwaxia"
+          ],
+          "note": {
+            "cs": "Délka podle muzejního přehledu, maximum kolem 55 mm."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně mikrobiální povlaky"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-wiwaxia"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Wiwaxia",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Záhadní mořští bezobratlí",
+          "cardSummary": "Obrněný mořský tvor s ostny jako jehly.",
+          "summary": "Mořský živočich podobný obrněnému slimákovi. Na hřbetě nesl tvrdší destičky a dlouhé ostny, zatímco spodní část těla byla měkčí. Pravděpodobně spásal mikrobiální povlaky.",
+          "quizHint": "Má široké oválné tělo kryté destičkami a dlouhými ostny.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlé oválné tělo s měkčím spodkem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-wiwaxia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na zádech soustava drobných obranných destiček."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-wiwaxia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po stranách či na hřbetě vysoké špičaté ostny."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-wiwaxia"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlé oválné tělo s měkčím spodkem. Na zádech soustava drobných obranných destiček. Po stranách či na hřbetě vysoké špičaté ostny. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-wiwaxia"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Brnění z destiček",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tělo pokrývaly sklerity, tedy drobné pevnější destičky. Z horní části vyrůstaly delší ostny."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-wiwaxia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Mořský slimák?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vzhled připomíná obrněného slimáka, ale neznamená to, že byla Wiwaxia totožná s dnešními plži."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-wiwaxia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Kdo byli její příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vědci diskutují o příbuznosti Wiwaxie k měkkýšům nebo kroužkovcům; přesné postavení není definitivní."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-wiwaxia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Potrava ze dna",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zubům podobné části ústního ústrojí mohly seškrabovat sinicové a mikrobiální povlaky z mořského dna."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-wiwaxia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Ochrana před predátory",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvrdší pokryv a ostny nejspíš ztěžovaly napadení. Někdy se nalézají i poškozené ostny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-wiwaxia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme přesnou barvu a není jisté, kterému dnešnímu živočišnému kmenu byla nejblíže."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.055,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-wiwaxia"
+        ],
+        "note": {
+          "cs": "Délka podle muzejního přehledu, maximum kolem 55 mm."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.055,
+        "scope": "Délka podle muzejního přehledu, maximum kolem 55 mm."
+      }
+    },
+    {
+      "id": "pikaia-gracilens",
+      "scientificName": "Pikaia gracilens",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "cambrian",
+      "diet": "unknown",
+      "group": "pikaia",
+      "taxonomy": [
+        "Chordata",
+        "Stem-group Chordata",
+        "Pikaia"
+      ],
+      "aliases": [
+        "pikaia",
+        "pikaja"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Pikaja",
+      "image": {
+        "src": "images/pikaia-gracilens.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pikaia."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Připravovaná vědecky kontrolovaná digitální rekonstrukce. Obrazový soubor dosud nebyl vytvořen a nesmí se zaměnit za jiný druh."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období"
+          },
+          "value": {
+            "cs": "Kambrium · přibližně před 505 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-pikaia",
+            "pikaia-2024"
+          ],
+          "note": {
+            "cs": "Stáří vychází z vrstev Burgess Shale, nikoli z celého trvání kambria."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · Britská Kolumbie · Burgess Shale"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "rom-pikaia",
+            "pikaia-2024"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Až asi 5,5 cm"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "rom-pikaia",
+            "pikaia-2024"
+          ],
+          "note": {
+            "cs": "Maximální délka podle nálezů uváděných Royal Ontario Museum."
+          }
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy neznáme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pikaia",
+          "ageLabel": "Asi před 505 miliony let",
+          "location": "Kanada · Britská Kolumbie",
+          "groupLabel": "Prvotní strunatci · nikoli ryba",
+          "cardSummary": "Protáhlý kambrijský strunatec, ne ryba.",
+          "summary": "Malý podlouhlý plavec s řadou svalových oddílů podél těla. Patřil mezi nejranější známé příbuzné dnešních strunatců; nebyl to však dnešní typ ryby.",
+          "quizHint": "Připomíná úzkou rybku, ale nemá párové ploutve; na těle jsou příčné svalové oddíly.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlé měkké tělo připomínající úzkou rybku."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-pikaia",
+                "pikaia-2024"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Pravidelné šikmé svalové oddíly podél těla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-pikaia",
+                "pikaia-2024"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Bez klasických párových rybích ploutví."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "rom-pikaia",
+                "pikaia-2024"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlé měkké tělo připomínající úzkou rybku. Pravidelné šikmé svalové oddíly podél těla. Bez klasických párových rybích ploutví. Zbarvení na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "rom-pikaia",
+              "pikaia-2024"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Prastarý strunatec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie z roku 2024 podpořila zařazení Pikaie mezi kmenové strunatce, tedy dávné příbuzné všech dnešních obratlovců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-pikaia",
+                    "pikaia-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Svaly při plavání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podél těla měla pravidelné svalové oddíly. Pravděpodobně umožňovaly vlnění trupu při plavání."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-pikaia",
+                    "pikaia-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Nová interpretace těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nová analýza fosilií ukázala, že dřívější rekonstrukce zaměnila hřbetní a břišní stranu. Popsala také strukturu interpretovanou jako hřbetní nervová trubice."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-pikaia",
+                    "pikaia-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Není to ryba",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pikaia nepatří mezi pravé ryby; jde o raného strunatce z doby dlouho před rozmanitostí známých rybích skupin."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "rom-pikaia",
+                    "pikaia-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Život v moři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nejspíš se pohybovala ve vodě poblíž mořského dna. Přesný způsob získávání potravy není s jistotou znám."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "rom-pikaia",
+                    "pikaia-2024"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbarvení a přesné chování neznáme. Nejde o prokázaného přímého předka člověka, ale o příbuznou starou větev."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.055,
+        "confidence": "estimate",
+        "sourceIds": [
+          "rom-pikaia",
+          "pikaia-2024"
+        ],
+        "note": {
+          "cs": "Maximální délka podle nálezů uváděných Royal Ontario Museum."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.055,
+        "scope": "Maximální délka podle nálezů uváděných Royal Ontario Museum."
+      }
+    }
+  ]
+}
