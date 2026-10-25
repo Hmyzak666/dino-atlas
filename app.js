@@ -3,8 +3,8 @@
   'use strict';
 
   const LANG = 'cs';
-  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', fish: 'Ryby', 'early-tetrapod': 'Obojživelníci a raní čtyřnožci', synapsid: 'Synapsidi', 'other-reptile': 'Další plazi', 'other-invertebrate': 'Ostatní bezobratlí', all: 'Vše' };
-  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec', fish: 'Ryba / raný obratlovec', 'early-tetrapod': 'Raný čtyřnožec', synapsid: 'Synapsid', 'other-reptile': 'Plaz', 'other-invertebrate': 'Bezobratlý' };
+  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', fish: 'Ryby', 'early-chordate': 'Raní strunatci', 'early-tetrapod': 'Obojživelníci a raní čtyřnožci', synapsid: 'Synapsidi', 'other-reptile': 'Další plazi', 'other-invertebrate': 'Ostatní bezobratlí', all: 'Vše' };
+  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec', fish: 'Ryba', 'early-chordate': 'Raný strunatec', 'early-tetrapod': 'Raný čtyřnožec', synapsid: 'Synapsid', 'other-reptile': 'Plaz', 'other-invertebrate': 'Bezobratlý' };
   const ERA_PERIODS = {
     paleozoic: ['cambrian', 'ordovician', 'silurian', 'devonian', 'carboniferous', 'permian'],
     mesozoic: ['triassic', 'jurassic', 'cretaceous']
