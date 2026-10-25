@@ -8,7 +8,7 @@ const old=require('../content-drafts/cambrian-six.json');
 const ids=['isotelus-rex','asaphus-kowalewskii','aegirocassis-benmoulai','arandaspis-prionotolepis','endoceras-proteiforme'];
 assert.equal(drafts.status,'draft-awaiting-five-original-webp-images');
 assert.deepEqual(drafts.animals.map(x=>x.id),ids);
-assert.ok([78,83,88,96,104].includes(db.dinosaurs.length),'Ordovician batch is either not active (78), or fully imported (83)');
+assert.ok([78,83,88,96,104,112].includes(db.dinosaurs.length),'Ordovician batch is either not active (78), or fully imported (83)');
 const active=db.dinosaurs.length>=83;
 assert.equal(db.dinosaurs.filter(x=>x.period==='cambrian').length,6,'Cambrian six must be preserved intact');
 for(const a of old.animals) assert.ok(db.dinosaurs.some(b=>b.id===a.id));
