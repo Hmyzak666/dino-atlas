@@ -1472,6 +1472,83 @@
       "url": "https://www.uky.edu/OtherOrgs/KPS/poky/files/pokych02-01-118.pdf",
       "kind": "Vědecká práce nebo institucionální paleontologický materiál",
       "accessedAt": "2026-10-25"
+    },
+    "silur-eurypterus-museum": {
+      "title": "New York State Museum: Eurypterus remipes state fossil",
+      "shortTitle": "New York State Museum",
+      "url": "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-eurypterus-review": {
+      "title": "NY State Museum: State Fossils and Eurypterus remipes",
+      "shortTitle": "NY State Museum",
+      "url": "https://nysm.nysed.gov/bibcite/reference/37041",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-acutiramus-chlupac": {
+      "title": "Chlupáč (1994): Pterygotid eurypterids of Bohemia",
+      "shortTitle": "Chlupáč (1994)",
+      "url": "https://www.arachnology.cz/literatura/pterygotid-eurypterids-arthropoda-chelicerata-in-the-silurian-and-devonian-of-bohemia.-2316.html",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-acutiramus-size": {
+      "title": "Braddy et al. (2008): Giant claw reveals the largest ever arthropod",
+      "shortTitle": "Braddy et al. (2008)",
+      "url": "https://doi.org/10.1098/rsbl.2007.0491",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-acutiramus-ecology": {
+      "title": "Braddy (2023): Pterygotid eurypterid palaeoecology",
+      "shortTitle": "Braddy (2023)",
+      "url": "https://doi.org/10.3140/bull.geosci.1891",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-birkenia-scotland": {
+      "title": "Scottish Geology Trust: Silurian fossil fishes of Scotland",
+      "shortTitle": "Scottish Geology Trust",
+      "url": "https://geoguide.scottishgeologytrust.org/p/gcr16/gcr16_chapter2silurianfishscotland",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-birkenia-anaspids": {
+      "title": "Blom (2012): Birkeniid anaspids and phylogenetic implications",
+      "shortTitle": "Blom (2012)",
+      "url": "https://doi.org/10.1111/j.1475-4983.2012.01142.x",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-entelognathus-nature": {
+      "title": "Zhu et al. (2013): A Silurian placoderm with osteichthyan-like marginal jaw bones",
+      "shortTitle": "Zhu et al. (2013)",
+      "url": "https://doi.org/10.1038/nature12617",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-entelognathus-ivpp": {
+      "title": "IVPP: Exceptionally preserved Entelognathus",
+      "shortTitle": "IVPP",
+      "url": "https://english.ivpp.cas.cn/rh/rp/202509/t20250902_1052190.html",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-qilinyu-science": {
+      "title": "Zhu et al. (2016): A Silurian maxillate placoderm illuminates jaw evolution",
+      "shortTitle": "Zhu et al. (2016)",
+      "url": "https://doi.org/10.1126/science.aah3764",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
+    },
+    "silur-qilinyu-cas": {
+      "title": "Chinese Academy of Sciences: Qilinyu and jaw evolution",
+      "shortTitle": "Chinese Academy of Sciences",
+      "url": "https://www.eurekalert.org/news-releases/659466",
+      "kind": "Muzejní pramen nebo odborná recenzovaná paleontologická studie",
+      "accessedAt": "2026-10-25"
     }
   },
   "dinosaurs": [
@@ -26168,6 +26245,1341 @@
         "estimate": 3.5,
         "scope": "Pro srovnání používáme 3,5 m jako orientační historický odhad délky velké schránky; úplná měkká anatomie není dochována."
       }
+    },
+    {
+      "id": "eurypterus-remipes",
+      "scientificName": "Eurypterus remipes",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "silurian",
+      "diet": "carnivore",
+      "taxonomy": [
+        "Arthropoda",
+        "Chelicerata",
+        "Eurypterida",
+        "Eurypteridae",
+        "Eurypterus"
+      ],
+      "aliases": [
+        "eurypterus",
+        "eurypterus remipes",
+        "mořský štír"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Eurypterus",
+      "group": "Eurypterus",
+      "image": {
+        "src": "images/eurypterus-remipes.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Eurypterus."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní silur · přibližně před 425–420 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-eurypterus-museum",
+            "silur-eurypterus-review"
+          ],
+          "note": {
+            "cs": "Časové určení je přibližné a vztahuje se k nálezům, nikoli ke všem jedincům druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · dnešní stát New York"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "silur-eurypterus-museum",
+            "silur-eurypterus-review"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Zobrazených 20 cm je přibližná délka běžných dospělých jedinců, nikoli doložená maximální délka druhu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-eurypterus-museum",
+            "silur-eurypterus-review"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší vodní živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-eurypterus-museum",
+            "silur-eurypterus-review"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Eurypterus",
+          "ageLabel": "Pozdní silur · přibližně před 425–420 mil. let",
+          "location": "Severní Amerika · dnešní stát New York",
+          "groupLabel": "Kyjonožci · eurypteridi",
+          "cardSummary": "Mořský členovec s párem veslovitých končetin.",
+          "summary": "Příbuzný pavoukovců z mělkých silurských moří a lagun, s článkovaným pancířem, plovacími končetinami a špičatým ocasním trnem; navzdory jménu neměl štíří jedový bodec.",
+          "quizHint": "Hledej dvě plovací vesla po stranách těla a úzký špičatý ocas.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Zploštělá oválná přední část těla s párem očí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-eurypterus-museum",
+                "silur-eurypterus-review"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Šestý pár končetin přeměněný ve velká plovací vesla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-eurypterus-museum",
+                "silur-eurypterus-review"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Článkovaný trup zakončený dlouhým špičatým telsonem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-eurypterus-museum",
+                "silur-eurypterus-review"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Zploštělá oválná přední část těla s párem očí. Šestý pár končetin přeměněný ve velká plovací vesla. Článkovaný trup zakončený dlouhým špičatým telsonem. Barva v ilustraci není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "silur-eurypterus-museum",
+              "silur-eurypterus-review"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Příbuzný pavouků",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Eurypterus je vyhynulý klepítkatec. Lidové označení mořský štír popisuje vzhled, ne skutečné zařazení mezi dnešní štíry."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-eurypterus-museum",
+                    "silur-eurypterus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Veslovité končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Poslední pár končetin byl široký a podobný veslům, čímž se odlišoval od ostatních štíhlých kráčivých nohou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-eurypterus-museum",
+                    "silur-eurypterus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Ocas bez jedu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhý koncový telson připomínal hrot, ale nebyl štířím jedovým žihadlem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-eurypterus-museum",
+                    "silur-eurypterus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Mělká voda",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkameněliny druhu jsou známé z pozdně silurských hornin dnešního státu New York; prostředí zahrnovalo mělké slané a brakické vody."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-eurypterus-museum",
+                    "silur-eurypterus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Možná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba končetin ukazuje na schopnost zacházet s menšími vodními živočichy. Přesnou skladbu jídelníčku jednotlivce z fosilií neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "silur-eurypterus-museum",
+                    "silur-eurypterus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z fosilií neumíme určit přirozenou barvu pancíře ani přesnou rychlost plavání."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.2,
+        "confidence": "estimate",
+        "sourceIds": [
+          "silur-eurypterus-museum",
+          "silur-eurypterus-review"
+        ],
+        "note": {
+          "cs": "Zobrazených 20 cm je přibližná délka běžných dospělých jedinců, nikoli doložená maximální délka druhu."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.2,
+        "scope": "Zobrazených 20 cm je přibližná délka běžných dospělých jedinců, nikoli doložená maximální délka druhu."
+      }
+    },
+    {
+      "id": "acutiramus-bohemicus",
+      "scientificName": "Acutiramus bohemicus",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "silurian",
+      "diet": "carnivore",
+      "taxonomy": [
+        "Arthropoda",
+        "Chelicerata",
+        "Eurypterida",
+        "Pterygotidae",
+        "Acutiramus"
+      ],
+      "aliases": [
+        "acutiramus",
+        "acutiramus bohemicus",
+        "obří mořský štír z čech"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Akutirámus",
+      "group": "Acutiramus",
+      "image": {
+        "src": "images/acutiramus-bohemicus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Acutiramus."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní silur · zejména přídolí, přibližně před 423–419 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-acutiramus-chlupac",
+            "silur-acutiramus-size",
+            "silur-acutiramus-ecology"
+          ],
+          "note": {
+            "cs": "Časové určení je přibližné a vztahuje se k nálezům, nikoli ke všem jedincům druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · Barrandien, dnešní Česko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "silur-acutiramus-chlupac",
+            "silur-acutiramus-size",
+            "silur-acutiramus-ecology"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližných 2,1 m je nepřímý odhad ze zachovaných velkých klepítek a tělesných proporcí příbuzných druhů; nejde o kompletně změřenou kostru."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-acutiramus-chlupac",
+            "silur-acutiramus-size",
+            "silur-acutiramus-ecology"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší vodní živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-acutiramus-chlupac",
+            "silur-acutiramus-size",
+            "silur-acutiramus-ecology"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Acutiramus",
+          "ageLabel": "Pozdní silur · zejména přídolí, přibližně před 423–419 mil. let",
+          "location": "Evropa · Barrandien, dnešní Česko",
+          "groupLabel": "Obří kyjonožci · pterygotidi",
+          "cardSummary": "Obří vodní členovec z českých silurských moří.",
+          "summary": "Jeden z největších známých silurských klepítkatců. V Čechách se zachovaly části mohutných uchopovacích klepítek; délka těla je odvozena ze srovnání s příbuznými eurypteridy.",
+          "quizHint": "Má veliké uchopovací klepítko s pilovitými výrůstky a dlouhý článkovaný trup.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velké dopředu směřující článkované klepítko se zahnutými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-acutiramus-chlupac",
+                "silur-acutiramus-size",
+                "silur-acutiramus-ecology"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Plochý přední tělní štít s očima po stranách."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-acutiramus-chlupac",
+                "silur-acutiramus-size",
+                "silur-acutiramus-ecology"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé tělo s plovacími končetinami a zúženým ocasem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-acutiramus-chlupac",
+                "silur-acutiramus-size",
+                "silur-acutiramus-ecology"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velké dopředu směřující článkované klepítko se zahnutými zuby. Plochý přední tělní štít s očima po stranách. Dlouhé tělo s plovacími končetinami a zúženým ocasem. Barva v ilustraci není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "silur-acutiramus-chlupac",
+              "silur-acutiramus-size",
+              "silur-acutiramus-ecology"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Český paleontologický obr",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní části Acutiramus bohemicus pocházejí z českého Barrandienu; druh popsal Joachim Barrande již v 19. století."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-acutiramus-chlupac",
+                    "silur-acutiramus-size",
+                    "silur-acutiramus-ecology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Proč dvě délky?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Starší odhady uváděly až 2,3–2,5 m. Přepočet z velikosti klepítek v novější práci dává přibližně 2,1 m."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "silur-acutiramus-chlupac",
+                    "silur-acutiramus-size",
+                    "silur-acutiramus-ecology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Zuby na klepítkách",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velké chelicery nesly špičaté zahnuté výrůstky vhodné k přidržení nebo uchopení živočišné potravy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-acutiramus-chlupac",
+                    "silur-acutiramus-size",
+                    "silur-acutiramus-ecology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Jak lovil?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Starší představy jej často zobrazovaly jako vrcholového rychlého predátora. Novější výzkum připouští rozdílné ekologické strategie pterygotidů; přesné chování tohoto druhu neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "silur-acutiramus-chlupac",
+                    "silur-acutiramus-size",
+                    "silur-acutiramus-ecology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Příbuzní pavoukovců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Šlo o vyhynulého vodního klepítkatce, nikoli o skutečného štíra nebo pravého kraba."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-acutiramus-chlupac",
+                    "silur-acutiramus-size",
+                    "silur-acutiramus-ecology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Není známé přesné zbarvení ani kompletní tělesná stavba jediného dochovaného jedince."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2.1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "silur-acutiramus-chlupac",
+          "silur-acutiramus-size",
+          "silur-acutiramus-ecology"
+        ],
+        "note": {
+          "cs": "Přibližných 2,1 m je nepřímý odhad ze zachovaných velkých klepítek a tělesných proporcí příbuzných druhů; nejde o kompletně změřenou kostru."
+        }
+      },
+      "lengthM": {
+        "estimate": 2.1,
+        "scope": "Přibližných 2,1 m je nepřímý odhad ze zachovaných velkých klepítek a tělesných proporcí příbuzných druhů; nejde o kompletně změřenou kostru."
+      }
+    },
+    {
+      "id": "birkenia-elegans",
+      "scientificName": "Birkenia elegans",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "silurian",
+      "diet": "unknown",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Anaspida",
+        "Birkeniidae",
+        "Birkenia"
+      ],
+      "aliases": [
+        "birkenia",
+        "birkenia elegans",
+        "silurská bezčelistnatá ryba"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Birkenia",
+      "group": "Birkenia",
+      "image": {
+        "src": "images/birkenia-elegans.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Birkenia."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Silur · přibližně před 430–420 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-birkenia-scotland",
+            "silur-birkenia-anaspids"
+          ],
+          "note": {
+            "cs": "Časové určení je přibližné a vztahuje se k nálezům, nikoli ke všem jedincům druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · Skotsko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "silur-birkenia-scotland",
+            "silur-birkenia-anaspids"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 10 cm odpovídá rozsahu fosilních nálezů; obvykle menší jedinci měli přibližně 2–10 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-birkenia-scotland",
+            "silur-birkenia-anaspids"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Birkenia",
+          "ageLabel": "Silur · přibližně před 430–420 mil. let",
+          "location": "Evropa · Skotsko",
+          "groupLabel": "Raní bezčelistnatí obratlovci · anaspidi",
+          "cardSummary": "Štíhlý bezčelistnatý obratlovec se zvláštními šupinami.",
+          "summary": "Malá silurská bezčelistnatá ryba s úzkým ze stran stlačeným tělem, šikmými řadami šupin, řadou hřbetních štítků a asymetrickým ocasem. Není to předek moderních ryb v přímé linii.",
+          "quizHint": "Podlouhlá malá ryba bez čelistí, s šikmými řadami šupin a dolů zahnutou osou ocasu.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Úzké tělo kryté šikmými řadami dlouhých šupin."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-birkenia-scotland",
+                "silur-birkenia-anaspids"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Řada menších charakteristických hřbetních štítků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-birkenia-scotland",
+                "silur-birkenia-anaspids"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Nesouměrný ocas s osou těla směřující do spodního laloku."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-birkenia-scotland",
+                "silur-birkenia-anaspids"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Úzké tělo kryté šikmými řadami dlouhých šupin. Řada menších charakteristických hřbetních štítků. Nesouměrný ocas s osou těla směřující do spodního laloku. Barva v ilustraci není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "silur-birkenia-scotland",
+              "silur-birkenia-anaspids"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Bez čelistí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Birkenia patřila mezi anaspidy, vyhynulé rané bezčelistnaté obratlovce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-birkenia-scotland",
+                    "silur-birkenia-anaspids"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Šupiny jinak než dnes",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tělo neslo podlouhlé šupiny šikmo uspořádané podél trupu, nahoře se nacházely zvláštní hřbetní destičky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-birkenia-scotland",
+                    "silur-birkenia-anaspids"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Zvláštní ocas",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pro anaspidy byl typický ocas, jehož osa zasahovala do dolního laloku. Nesprávně býval rekonstruován opačně."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-birkenia-scotland",
+                    "silur-birkenia-anaspids"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Zkameněliny ve Skotsku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní nálezy pocházejí zejména ze skotských silurských vrstev kolem Lesmahagow a Hagshaw Hills."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-birkenia-scotland",
+                    "silur-birkenia-anaspids"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Způsob života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úzké tělo a ocasní ploutev umožňovaly plavat, přesnou rychlost ani získávání potravy ale ze šupin neodvozujeme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "silur-birkenia-scotland",
+                    "silur-birkenia-anaspids"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení i ekologické návyky nebyly přímo fosilně zdokumentovány."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "silur-birkenia-scotland",
+          "silur-birkenia-anaspids"
+        ],
+        "note": {
+          "cs": "Délka kolem 10 cm odpovídá rozsahu fosilních nálezů; obvykle menší jedinci měli přibližně 2–10 cm."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.1,
+        "scope": "Délka kolem 10 cm odpovídá rozsahu fosilních nálezů; obvykle menší jedinci měli přibližně 2–10 cm."
+      }
+    },
+    {
+      "id": "entelognathus-primordialis",
+      "scientificName": "Entelognathus primordialis",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "silurian",
+      "diet": "unknown",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Placodermi",
+        "Entelognathus"
+      ],
+      "aliases": [
+        "entelognathus",
+        "entelognathus primordialis",
+        "silurská pancéřnatá ryba"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Entelognatus",
+      "group": "Entelognathus",
+      "image": {
+        "src": "images/entelognathus-primordialis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Entelognathus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní silur · přibližně před 419 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-entelognathus-nature",
+            "silur-entelognathus-ivpp"
+          ],
+          "note": {
+            "cs": "Časové určení je přibližné a vztahuje se k nálezům, nikoli ke všem jedincům druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Asie · Jün-nan, Čína"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "silur-entelognathus-nature",
+            "silur-entelognathus-ivpp"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Dochovaná část pancíře měří asi 11 cm; délka celého těla byla podle autorů zřejmě přes 20 cm. Porovnání 21 cm je orientační."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-entelognathus-nature",
+            "silur-entelognathus-ivpp"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Entelognathus",
+          "ageLabel": "Pozdní silur · přibližně před 419 mil. let",
+          "location": "Asie · Jün-nan, Čína",
+          "groupLabel": "Pancéřnaté čelistnaté ryby",
+          "cardSummary": "Obrněná ryba s překvapivě moderně stavěnými čelistmi.",
+          "summary": "Drobnější čelistnatý obratlovec měl kostěné štíty na hlavě a hrudi. Jeho fosilie ukázaly čelistní kosti podobné kostem mnohem pozdějších kostnatých ryb.",
+          "quizHint": "Na přední části těla má mohutný kostěný pancíř a čelisti.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Hlava krytá pevnými kostěnými deskami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-entelognathus-nature",
+                "silur-entelognathus-ivpp"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Přední část trupu obrněná dalšími velkými štíty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-entelognathus-nature",
+                "silur-entelognathus-ivpp"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čelistní kostěné okraje u úst, nikoli široký žabí zobák."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-entelognathus-nature",
+                "silur-entelognathus-ivpp"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Hlava krytá pevnými kostěnými deskami. Přední část trupu obrněná dalšími velkými štíty. Čelistní kostěné okraje u úst, nikoli široký žabí zobák. Barva v ilustraci není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "silur-entelognathus-nature",
+              "silur-entelognathus-ivpp"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Čelisti a naše evoluce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie Entelognathus z Číny odhalily horní a dolní čelistní kosti podobné kostem kostnatých ryb i pozdějších suchozemských obratlovců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-entelognathus-nature",
+                    "silur-entelognathus-ivpp"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Význam objevu roku 2013",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Publikace v Nature významně změnila pohled na vznik čelistí a vztahy dávných pancéřnatých ryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-entelognathus-nature",
+                    "silur-entelognathus-ivpp"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Pancíř vpředu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachovaly se trojrozměrné kostěné části hlavy i přední části trupu, nikoli kompletní měkké tělo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-entelognathus-nature",
+                    "silur-entelognathus-ivpp"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Velikost je odhad",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachovaný pancíř měřil asi 11 cm; celková délka živočicha mohla přesahovat 20 cm."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "silur-entelognathus-nature",
+                    "silur-entelognathus-ivpp"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Není přímý předek člověka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvíře představuje důležitou ranou větev čelistnatých obratlovců, ne doloženého přímého předka moderních savců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-entelognathus-nature",
+                    "silur-entelognathus-ivpp"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesná barva, potrava, tvar měkkých ploutví a detaily rozmnožování z fosilií přímo nevyplývají."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.21,
+        "confidence": "estimate",
+        "sourceIds": [
+          "silur-entelognathus-nature",
+          "silur-entelognathus-ivpp"
+        ],
+        "note": {
+          "cs": "Dochovaná část pancíře měří asi 11 cm; délka celého těla byla podle autorů zřejmě přes 20 cm. Porovnání 21 cm je orientační."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.21,
+        "scope": "Dochovaná část pancíře měří asi 11 cm; délka celého těla byla podle autorů zřejmě přes 20 cm. Porovnání 21 cm je orientační."
+      }
+    },
+    {
+      "id": "qilinyu-rostrata",
+      "scientificName": "Qilinyu rostrata",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "silurian",
+      "diet": "unknown",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Placodermi",
+        "Qilinyu"
+      ],
+      "aliases": [
+        "qilinyu",
+        "qilinyu rostrata",
+        "silurská pancéřnatá ryba"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Čilin-jü",
+      "group": "Qilinyu",
+      "image": {
+        "src": "images/qilinyu-rostrata.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Qilinyu."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní silur · přibližně před 423 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-qilinyu-science",
+            "silur-qilinyu-cas"
+          ],
+          "note": {
+            "cs": "Časové určení je přibližné a vztahuje se k nálezům, nikoli ke všem jedincům druhu."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Asie · Jün-nan, Čína"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "silur-qilinyu-science",
+            "silur-qilinyu-cas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Typový zachovaný exemplář má délku 12,6 cm, podle vědecké rekonstrukce byla celková délka přes 20 cm; 21 cm zde slouží jen k porovnání."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "silur-qilinyu-science",
+            "silur-qilinyu-cas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Qilinyu",
+          "ageLabel": "Pozdní silur · přibližně před 423 mil. let",
+          "location": "Asie · Jün-nan, Čína",
+          "groupLabel": "Pancéřnaté čelistnaté ryby",
+          "cardSummary": "Pancéřnatá ryba s protáhlým rypcem a čelistmi.",
+          "summary": "Silurská pancéřnatá ryba s protáhlým čenichem a kostěným štítem přední části těla. Její čelistní kosti pomáhají vysvětlit, jak se vyvinuly čelisti pozdějších obratlovců.",
+          "quizHint": "Má protáhlý čenich, obrněnou hlavu a výrazné prsní ploutve.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý úzký čenich vybíhající dopředu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-qilinyu-science",
+                "silur-qilinyu-cas"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velké propojené kostěné destičky na hlavě i trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-qilinyu-science",
+                "silur-qilinyu-cas"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Postranní prsní ploutve se šupinovým krytem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "silur-qilinyu-science",
+                "silur-qilinyu-cas"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý úzký čenich vybíhající dopředu. Velké propojené kostěné destičky na hlavě i trupu. Postranní prsní ploutve se šupinovým krytem. Barva v ilustraci není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "silur-qilinyu-science",
+              "silur-qilinyu-cas"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Ryba s dlouhým rypcem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie vykazují protaženou přední část hlavy a kostěný pancíř celého předního těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-qilinyu-science",
+                    "silur-qilinyu-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Jak vznikaly čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie z roku 2016 odhalila, že Qilinyu nesla čelistní kosti se znaky pancéřnatých i kostnatých ryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-qilinyu-science",
+                    "silur-qilinyu-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Ploutve jsou doložené",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na fosilii jsou zachované prsní ploutve pokryté drobnými šupinami; nejde tedy jen o volný odhad tvaru všech ploutví."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-qilinyu-science",
+                    "silur-qilinyu-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Čína před 423 miliony let",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Typový nález pochází ze souvrství Kuanti v provincii Jün-nan."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-qilinyu-science",
+                    "silur-qilinyu-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Odlišnost od Entelognathus",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Oba druhy byly pancéřnatí čelistnatí obratlovci, ale Qilinyu měla nápadně protažený čenich a vlastní uspořádání pancíře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "silur-qilinyu-science",
+                    "silur-qilinyu-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní doklady neumožňují bezpečně určit potravu, zbarvení a společenský život tohoto druhu."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.21,
+        "confidence": "estimate",
+        "sourceIds": [
+          "silur-qilinyu-science",
+          "silur-qilinyu-cas"
+        ],
+        "note": {
+          "cs": "Typový zachovaný exemplář má délku 12,6 cm, podle vědecké rekonstrukce byla celková délka přes 20 cm; 21 cm zde slouží jen k porovnání."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.21,
+        "scope": "Typový zachovaný exemplář má délku 12,6 cm, podle vědecké rekonstrukce byla celková délka přes 20 cm; 21 cm zde slouží jen k porovnání."
+      }
     }
   ],
   "periods": {
@@ -26175,6 +27587,7 @@
     "jurassic": "Jura",
     "cretaceous": "Křída",
     "cambrian": "Kambrium",
-    "ordovician": "Ordovik"
+    "ordovician": "Ordovik",
+    "silurian": "Silur"
   }
 }
