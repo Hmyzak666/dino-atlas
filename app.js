@@ -676,6 +676,16 @@
     quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, hintRevealed: false, tried: new Set() };
     renderQuiz();
   }
+  // When a question changes, prioritize the picture and choices on portrait screens.
+  // Leave landscape scrolling alone: there is usually not enough vertical space.
+  function scrollQuizToQuestion() {
+    requestAnimationFrame(() => {
+      if (currentRoute !== '#kviz' || $('quiz-view').hidden || window.innerWidth >= window.innerHeight) return;
+      const picture = $('quiz-content').querySelector('.quiz-picture');
+      if (!picture) return;
+      window.scrollTo(0, Math.max(0, window.scrollY + picture.getBoundingClientRect().top - 12));
+    });
+  }
   function renderQuiz() {
     if (!quiz) { beginQuiz(); return; }
     if (!quiz.questions.length) {
@@ -784,6 +794,7 @@
     });
     currentRoute = hash;
     detailSwipe = null;
+    if (hash === '#kviz') scrollQuizToQuestion();
     scheduleScrollControls();
   }
 
@@ -876,6 +887,7 @@
       quizFilters[quizCategory ? 'category' : 'period'] = value;
       beginQuiz();
       document.querySelector(`[${attribute}="${value}"]`)?.focus({ preventScroll: true });
+      scrollQuizToQuestion();
       return;
     }
     const image = event.target.closest('[data-image-viewer]');
@@ -919,12 +931,12 @@
       quiz.hintRevealed = false;
       quiz.tried.clear();
       renderQuiz();
-      $('quiz-title').scrollIntoView({ block: 'start' });
       $('quiz-content').querySelector('button')?.focus({ preventScroll: true });
+      scrollQuizToQuestion();
     }
     if (event.target.closest('#quiz-restart')) {
       beginQuiz();
-      $('quiz-title').scrollIntoView({ block: 'start' });
+      scrollQuizToQuestion();
     }
   });
   window.addEventListener('hashchange', route);
