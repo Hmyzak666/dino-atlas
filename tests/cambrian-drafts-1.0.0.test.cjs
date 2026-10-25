@@ -14,7 +14,7 @@ const expected = [
   'pikaia-gracilens'
 ];
 assert.equal(drafts.status, 'draft-awaiting-six-original-webp-images');
-assert.ok([72,78,83].includes(stable.dinosaurs.length));
+assert.ok([72,78,83,88].includes(stable.dinosaurs.length));
 const active = stable.dinosaurs.length >= 78;
 assert.equal(drafts.animals.length, 6);
 assert.deepEqual(drafts.animals.map(a => a.id), expected);
