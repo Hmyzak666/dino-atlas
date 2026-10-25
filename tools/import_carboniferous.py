@@ -22,6 +22,23 @@ EXPECTED_IDS=[
     "petrolacosaurus-kansensis","crassigyrinus-scoticus"
 ]
 
+ARTWORK=[
+    ("arthropleura-armata","Arthropleura Reconstruction.jpg","Prehistorica CM","CC BY 4.0"),
+    ("meganeura-monyi","Meganeura.png","Qohelet12","CC BY-SA 4.0"),
+    ("pulmonoscorpius-kirktonensis","Pulmonoscorpius kirktonensis.jpg","Prehistorica CM","CC BY 4.0"),
+    ("hylonomus-lyelli","Hylonomus lyelli - MUSE.jpg","Matteo De Stefano / MUSE","CC BY-SA 3.0"),
+    ("greererpeton-burkemorani","Greererpeton BW.jpg","Nobu Tamura","CC BY 2.5"),
+    ("edestus-heinrichi","Edestus recon.png","Entelognathus","CC BY-SA 4.0"),
+    ("petrolacosaurus-kansensis","Petrolacosaurus BW.jpg","Nobu Tamura","CC BY 2.5"),
+    ("crassigyrinus-scoticus","Crassygyrinus224.jpg","ДиБгд","CC BY 4.0")
+]
+LICENSE_URLS={
+    "CC BY 4.0":"https://creativecommons.org/licenses/by/4.0/",
+    "CC BY-SA 4.0":"https://creativecommons.org/licenses/by-sa/4.0/",
+    "CC BY-SA 3.0":"https://creativecommons.org/licenses/by-sa/3.0/",
+    "CC BY 2.5":"https://creativecommons.org/licenses/by/2.5/"
+}
+
 def main():
     if len(sys.argv)!=2 or Path(sys.argv[1]).name!=ARCHIVE_NAME:
         raise SystemExit("Usage: python3 tools/import_carboniferous.py "+ARCHIVE_NAME)
@@ -74,9 +91,27 @@ def main():
         if sid in db["sources"] and source!=db["sources"][sid]:
             raise SystemExit("Scientific citation collision: "+sid)
         db["sources"][sid]=source
+    artwork_by_id={a[0]:a for a in ARTWORK}
+    if set(artwork_by_id)!=set(EXPECTED_IDS):
+        raise SystemExit("All eight species must have distinct image attribution")
+    from urllib.parse import quote
     for animal in draft["animals"]:
+        aid=animal["id"]
+        _,title,author,license_name=artwork_by_id[aid]
+        source_url="https://commons.wikimedia.org/wiki/File:"+quote(title.replace(" ","_"))
+        source_id="carbon-art-"+aid
+        if source_id in db["sources"]:
+            raise SystemExit("Duplicate artistic source ID")
+        db["sources"][source_id]={
+            "title":author+" — "+title,
+            "shortTitle":author+" / "+license_name,
+            "url":source_url,
+            "kind":"Obrazový pramen; licence "+license_name+"; obrázek převedený do WebP a přizpůsobený velikosti 1152 × 768 s doplněním jednobarevných okrajů",
+            "accessedAt":"2026-10-25"
+        }
+        animal["image"]["sourceIds"]=[source_id]
         animal["image"]["status"]="working-reconstruction"
-        animal["image"]["note"]={"cs":"Pracovní rekonstrukce. Barva a některé měkké tkáně nejsou doložené fosiliemi; u nejistých skupin sledujte poznámky v odborném popisu."}
+        animal["image"]["note"]={"cs":"Obraz: "+author+"; licence "+license_name+" ("+LICENSE_URLS[license_name]+"); originál: "+source_url+". Úpravy: změna rozlišení, převod do WebP a doplnění jednobarevných okrajů. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."}
         db["dinosaurs"].append(animal)
     if len(db["dinosaurs"])!=104 or len({a["id"] for a in db["dinosaurs"]})!=104:
         raise SystemExit("The exact 104-animal checkpoint was not reached")
