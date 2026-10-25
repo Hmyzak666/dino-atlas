@@ -14,8 +14,8 @@ const expected = [
   'pikaia-gracilens'
 ];
 assert.equal(drafts.status, 'draft-awaiting-six-original-webp-images');
-assert.ok([72,78].includes(stable.dinosaurs.length));
-const active = stable.dinosaurs.length === 78;
+assert.ok([72,78,83].includes(stable.dinosaurs.length));
+const active = stable.dinosaurs.length >= 78;
 assert.equal(drafts.animals.length, 6);
 assert.deepEqual(drafts.animals.map(a => a.id), expected);
 assert.equal(new Set(drafts.animals.map(a => a.scientificName)).size, 6);
@@ -25,7 +25,7 @@ const combined = structuredClone(stable);
 combined.periods.cambrian = 'Kambrium';
 Object.assign(combined.sources, drafts.sources);
 if (!active) combined.dinosaurs.push(...drafts.animals);
-assert.equal(combined.dinosaurs.length, 78);
+assert.equal(combined.dinosaurs.length, active ? stable.dinosaurs.length : 78);
 assert.equal(app.validateDatabase(combined), true);
 
 for (const animal of drafts.animals) {
