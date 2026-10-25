@@ -31,3 +31,16 @@
 - Kredity karbonu: `docs/CARBONIFEROUS-ARTWORK-LICENSES.md`
 
 **Před merge do main:** stáhnout podepsané APK jako artifact z úspěšného běhu `Dino Atlas — kontroly a APK`, uživatel jej nainstaluje a vyzkouší. Chyby opravovat ve stejné pracovní větvi a zvýšit versionCode, pokud už byl kandidát nainstalován.
+
+## Stav po telefonním testu 25. 10. 2026 – vizuální vydání ještě NEODSOUHLASENO
+
+Uživatel potvrdil funkčnost 1.0.0 build 1000000 na telefonu, ale upozornil, že **většina nových prvohorních obrázků má rozmazané levé/pravé či horní/dolní okraje, bílé/nepřirozené pozadí a nesjednocený styl**. Tato zpětná vazba **blokuje sloučení do `main`**; dřívější formulace „čeká test na telefonu“ zde již neplatí. Podrobný audit 30 ze 40 kandidátů k výměně: `docs/VISUAL-REFRESH-1.0.0.md`.
+
+**Kvalitativní brána:** 
+- Nejprve vyrobit 2 **druhově přesné, samostatné, beztextové** testovací obrazy bez rozmazaných/umělých okrajů, neprezentovat koláž ani diagram jako hotovou ilustraci.
+- Vysoká priorita: silurští Eurypterus remipes a Acutiramus bohemicus musí mít **rozlišitelnou anatomii**: Eurypterus nemá obrovská lovecká klepítka, Acutiramus naopak ano.
+- Nevkládat přeznačené cizí druhy, AI halucinované údy ani zrcadlené části těla, neprovádět hromadné změny před vizuálním a vědeckým auditem první dvojice.
+- Ponechat všech 112 druhů, vědecké texty, kvíz, původní podpis i data oblíbených, a zachovat autorské licence/atribuce původních obrázků.
+- Po úspěšném obrazovém auditu zvýšit `versionCode` z **1000000** na **1000001** (protože build 1000000 už uživatel instaloval), znovu sestavit podepsané APK a otestovat aktualizaci na telefonu.
+- Dokud neprojde testovaný visual-polish kandidát, **nevydávat verzi 1.0.0 a nemergovat PR #4 do main**.
+
