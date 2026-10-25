@@ -24,3 +24,15 @@ Zapsané kandidátní soubory:
 - Potom pokračovat osmi druhy permu do celkových **112**, testovat aktualizační APK se zachováním certifikátu a teprve následně navrhnout sloučení do `main`.
 
 **Není správné** používat současných 96 jako údajných 104, nebo vydat osm draftů bez příslušných obrazů.
+
+
+## Licence a kvalitnější alternativy k chybně generovaným kolážím
+Pro obrazový audit byly nalezeny následující skutečně druhově označené otevřené rekonstrukce; **nejsou zatím součástí aplikace ani přeneseny do tohoto repozitáře**:
+- Pulmonoscorpius kirktonensis — **Prehistorica CM**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg), licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- Hylonomus lyelli — **Matteo De Stefano/MUSE**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hylonomus_lyelli_-_MUSE.jpg), licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); jde o fotografii muzejního modelu, ne o živé zvíře.
+- Greererpeton burkemorani — **Nobu Tamura**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Greererpeton_BW.jpg), k dispozici pod [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/); kresba na bílém pozadí má nižší rozlišení, nikoli fotorealistická rekonstrukce.
+- Edestus heinrichi — autor **Entelognathus**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edestus_recon.png), licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); upřednostnit správné protilehlé řezné zubní čepele a nepletu si je se spirálou Helicopriona.
+- Petrolacosaurus kansensis — **Nobu Tamura**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Petrolacosaurus_BW.jpg), dostupné pod [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/); nízkorozlišovací tužková kresba, ne foto.
+- Crassigyrinus scoticus — autor **ДиБгд**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crassygyrinus224.jpg), licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), inspirováno novější revizí lebky.
+
+Před použitím externího obrazu: (1) stáhnout skutečný soubor se stabilní checksum; (2) provést druhovou a anatomickou kontrolu; (3) zachovat jméno autora, odkaz na konkrétní zdroj, verzi licence a popis provedené změny při konverzi do WebP; (4) respektovat případné **ShareAlike** podmínky pro odvozený obraz; (5) neoznačovat externí práci jako vlastní AI ilustraci. Není-li zdroj vyhovující, obraz nadále nepřidávat do publikované databáze.
