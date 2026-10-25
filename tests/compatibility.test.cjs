@@ -22,7 +22,8 @@ for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
 assert.equal(config.android.certificateSha256, baseline.certificateSha256);
-assert.equal(config.version, '0.9.0');
+assert.equal(config.version, '1.0.0');
+assert.ok(config.versionCode > 90001, '1.0 must update over the installed 0.9.0 APK');
 assert.ok(config.versionCode > 80101);
 assert.ok(config.versionCode > baseline.versionCode, 'cleanup APK must update the installed build');
 const java = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
