@@ -1,0 +1,53 @@
+name: Import eight reviewed Carboniferous pictures
+
+on:
+  push:
+    branches:
+      - feature/paleozoic-1.0.0
+    paths:
+      - DinoAtlas_Karbon_8_images_GitHub.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import-carboniferous:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CARBONIFEROUS_SHA256: b81d8d88e52b88784b673fcd3964b6a5c94e71afa0ac43229eb1eeccc4196c4a
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/paleozoic-1.0.0
+          persist-credentials: true
+      - name: Install image verification library
+        run: |
+          python3 -m venv /tmp/dino-carbon-images
+          /tmp/dino-carbon-images/bin/pip install --disable-pip-version-check "Pillow==11.3.0"
+      - name: Verify exact ZIP, decode all eight images and activate exactly eight species
+        run: |
+          /tmp/dino-carbon-images/bin/python tools/import_carboniferous.py DinoAtlas_Karbon_8_images_GitHub.zip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Run data, license, TTS and compatibility checks for 104 animals
+        run: |
+          npm ci
+          npm test
+      - name: Verify phone UI, filters, quiz and galleries in Chromium
+        run: |
+          npx playwright install --with-deps chromium --only-shell
+          npm run test:ui
+      - name: Retire one-time import and completed image audit workflows
+        run: |
+          rm .github/workflows/import-carboniferous.yml
+          rm .github/workflows/audit-carboniferous.yml
+      - name: Commit verified changes to the feature branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Activate Carboniferous: 8 sourced animals, 8 attributed CC images (104 total)"
+          git push origin HEAD:feature/paleozoic-1.0.0
