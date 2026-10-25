@@ -6,7 +6,7 @@ const db = require('../dinosaurs.json');
 const byId = new Map(db.dinosaurs.map(a => [a.id, a]));
 
 assert.equal(app.validateDatabase(db), true);
-assert.ok([72,78].includes(db.dinosaurs.length), 'Only the original 72 or the exact Cambrian batch of 78 may be staged');
+assert.ok([72,78,83].includes(db.dinosaurs.length), 'Only the verified 72, 78, or 83 animal checkpoints may be staged');
 const original = db.dinosaurs.slice(0,72);
 assert.equal(original.length,72);
 assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile', 'arthropod'].map(category => [category, app.categoryAnimals(original, category).length])),
