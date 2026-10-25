@@ -3,9 +3,16 @@
   'use strict';
 
   const LANG = 'cs';
-  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', all: 'Vše' };
-  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec' };
-  const PERIODS = { triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída' };
+  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', fish: 'Ryby', 'early-tetrapod': 'Obojživelníci a raní čtyřnožci', synapsid: 'Synapsidi', 'other-reptile': 'Další plazi', 'other-invertebrate': 'Ostatní bezobratlí', all: 'Vše' };
+  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec', fish: 'Ryba / raný obratlovec', 'early-tetrapod': 'Raný čtyřnožec', synapsid: 'Synapsid', 'other-reptile': 'Plaz', 'other-invertebrate': 'Bezobratlý' };
+  const ERA_PERIODS = {
+    paleozoic: ['cambrian', 'ordovician', 'silurian', 'devonian', 'carboniferous', 'permian'],
+    mesozoic: ['triassic', 'jurassic', 'cretaceous']
+  };
+  const ERAS = { paleozoic: 'Prvohory', mesozoic: 'Druhohory' };
+  const PERIODS = { cambrian: 'Kambrium', ordovician: 'Ordovik', silurian: 'Silur', devonian: 'Devon', carboniferous: 'Karbon', permian: 'Perm', triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída' };
+  const periodInEra = (period, era) => !era || era === 'all' || ERA_PERIODS[era]?.includes(period);
+
   const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec', unknown: 'Nejistá potrava' };
   const CONFIDENCE = {
     evidence: ['🟢', 'Dobře doloženo'],
@@ -44,6 +51,7 @@
       const words = [dino.scientificName, copy(dino).displayName, ...(dino.aliases || [])].map(normalize);
       const matchesName = !query || words.some(word => word.includes(query) || compactName(word).includes(compactName(query)));
       return matchesName && (!state.category || state.category === 'all' || categoryOf(dino) === state.category)
+        && periodInEra(dino.period, state.era)
         && (state.period === 'all' || dino.period === state.period)
         && (state.diet === 'all' || dino.diet === state.diet)
         && (!state.favoritesOnly || state.favorites.has(dino.id));
@@ -215,8 +223,8 @@
   let voiceListener;
   let voiceTimer;
   let readTimer;
-  const state = { category: 'all', query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
-  const quizFilters = { category: 'all', period: 'all' };
+  const state = { category: 'all', query: '', era: 'all', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
+  const quizFilters = { category: 'all', era: 'all', period: 'all' };
   let comparisonHeight = 1.8;
 
 
@@ -426,13 +434,14 @@
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
 
     const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.' };
-    $('atlas-title').textContent = headings[state.category];
+    $('atlas-title').textContent = headings[state.category] || 'Poznej ' + (CATEGORIES[state.category] || 'pravěk') + '.';
     $('atlas-intro').textContent = state.category === 'pterosaur'
       ? 'Létající příbuzní dinosaurů s blanitými křídly.'
       : state.category === 'dinosaur' ? 'Objevuj podobu, způsob života a stopy ve fosiliích.'
       : state.category === 'marine-reptile' ? 'Obyvatelé pravěkých moří. Patří do různých skupin plazů a nejsou to dinosauři.'
       : state.category === 'arthropod' ? 'Pravěký hmyz, pavoukovci, korýši i příbuzní ostrorepů. Malí tvorové s velkým příběhem.'
-      : 'Dinosauři, ptakoještěři, mořští plazi i členovci. Objevuj, porovnávej a hraj.';
+      : state.category === 'all' ? 'Dinosauři, ptakoještěři, mořští plazi, členovci a další obyvatelé pravěku.'
+      : 'Objevuj podobu, život a fosilní doklady této skupiny pravěkých živočichů.';
     $('gallery-title').textContent = state.category === 'all' ? 'Prozkoumej atlas' : CATEGORIES[state.category];
   }
   function confidenceBadge(level) {
@@ -584,18 +593,45 @@
     const index = detailIds.indexOf(dino.id);
     const previous = byId.get(detailIds[index - 1]);
     const next = byId.get(detailIds[index + 1]);
-    return `${periodButtons('detail', detailFilter?.period || 'all')}<nav class="detail-browser" aria-label="Procházení vybraných zvířat">
+    return `${periodButtons('detail', detailFilter?.period || 'all', detailFilter?.era || 'all')}<nav class="detail-browser" aria-label="Procházení vybraných zvířat">
       <button type="button" class="button" data-detail-step="-1" ${previous ? `aria-label="Předchozí: ${escapeHtml(copy(previous).displayName)}"` : 'disabled'}><span aria-hidden="true">←</span>Předchozí</button>
       <span class="detail-position" aria-label="Zvíře ${index + 1} z ${detailIds.length}">${index + 1} / ${detailIds.length}</span>
       <button type="button" class="button" data-detail-step="1" ${next ? `aria-label="Další: ${escapeHtml(copy(next).displayName)}"` : 'disabled'}>Další<span aria-hidden="true">→</span></button>
     </nav>${detailIds.length > 1 ? '<p class="swipe-hint">Na telefonu můžeš přejít i tahem doleva nebo doprava.</p>' : ''}`;
   }
 
-  function periodButtons(context, selected) {
-    return `<div class="period-filters" role="group" aria-label="${context === 'detail' ? 'Období při procházení' : 'Období kvízu'}">${Object.entries({ ...PERIODS, all: 'Vše' }).map(([id, label]) => `<button type="button" data-${context}-period="${id}" aria-pressed="${selected === id}">${escapeHtml(label)}</button>`).join('')}</div>`;
+  function availableEras() {
+    return Object.keys(ERA_PERIODS).filter(era => dinosaurs.some(animal => periodInEra(animal.period, era)));
+  }
+  function availablePeriods(era) {
+    const effectiveEra = era === 'all' && availableEras().length === 1 ? availableEras()[0] : era;
+    return effectiveEra === 'all' ? [] : (ERA_PERIODS[effectiveEra] || []).filter(period => dinosaurs.some(animal => animal.period === period));
+  }
+  function eraButtons(context, selected) {
+    if (availableEras().length < 2) return '';
+    return `<div class="era-filters" role="group" aria-label="Geologická éra">${Object.entries({ ...ERAS, all: 'Vše' }).filter(([id]) => id === 'all' || availableEras().includes(id)).map(([id,label]) => `<button type="button" data-${context}-era="${id}" aria-pressed="${selected === id}">${escapeHtml(label)}</button>`).join('')}</div>`;
+  }
+  function periodButtons(context, selected, era = 'all') {
+    return `${eraButtons(context, era)}<div class="period-filters" role="group" aria-label="Geologické období">${[...availablePeriods(era).map(id => [id, PERIODS[id]]), ['all','Vše']].map(([id, label]) => `<button type="button" data-${context}-period="${id}" aria-pressed="${selected === id}">${escapeHtml(label)}</button>`).join('')}</div>`;
+  }
+  function syncAtlasTimeFilters() {
+    $('era-filters').innerHTML = eraButtons('atlas', state.era);
+    $('period-filters').innerHTML = [...availablePeriods(state.era).map(id => [id, PERIODS[id]]), ['all','Vše']]
+      .map(([id, label]) => `<button type="button" data-period="${id}" aria-pressed="${state.period === id}">${escapeHtml(label)}</button>`).join('');
+  }
+  function changeDetailEra(era) {
+    if (!detailFilter || (era !== 'all' && !availableEras().includes(era))) return;
+    const nextFilter = { ...detailFilter, era, period: 'all' };
+    const selected = filteredDinosaurs(dinosaurs, nextFilter);
+    if (!selected.length) { toast('V této éře nemáme zvíře odpovídající ostatním filtrům.'); return; }
+    detailFilter = nextFilter;
+    detailIds = selected.map(animal => animal.id);
+    history.replaceState(null, '', `#dinosaurus/${detailIds[0]}`);
+    route();
   }
   function changeDetailPeriod(period) {
     if (!detailFilter || !(period === 'all' || PERIODS[period])) return;
+    if (period !== 'all' && !availablePeriods(detailFilter.era || 'all').includes(period)) return;
     const nextFilter = { ...detailFilter, period };
     const selected = filteredDinosaurs(dinosaurs, nextFilter);
     if (!selected.length) { toast('V tomto období nemáme zvíře odpovídající ostatním filtrům. Zkus Vše nebo uprav filtry v atlasu.'); return; }
@@ -667,11 +703,11 @@
   }
 
   function syncQuizFilters() {
-    $('quiz-filters').innerHTML = `<div class="category-filters" role="group" aria-label="Kategorie kvízu">${Object.entries(CATEGORIES).map(([id, label]) => `<button type="button" data-quiz-category="${id}" aria-pressed="${quizFilters.category === id}">${label}</button>`).join('')}</div>${periodButtons('quiz', quizFilters.period)}`;
-    $('quiz-category').textContent = `Kvíz · ${CATEGORIES[quizFilters.category]} · ${PERIODS[quizFilters.period] || 'Všechna období'}`;
+    $('quiz-filters').innerHTML = `<div class="category-filters" role="group" aria-label="Kategorie kvízu">${Object.entries(CATEGORIES).filter(([id]) => id === 'all' || dinosaurs.some(animal => categoryOf(animal) === id)).map(([id, label]) => `<button type="button" data-quiz-category="${id}" aria-pressed="${quizFilters.category === id}">${label}</button>`).join('')}</div>${periodButtons('quiz', quizFilters.period, quizFilters.era)}`;
+    $('quiz-category').textContent = `Kvíz · ${CATEGORIES[quizFilters.category]} · ${PERIODS[quizFilters.period] || ERAS[quizFilters.era] || 'Všechna období'}`;
   }
   function beginQuiz() {
-    const questions = makeQuiz(dinosaurs.filter(animal => (quizFilters.category === 'all' || categoryOf(animal) === quizFilters.category) && (quizFilters.period === 'all' || animal.period === quizFilters.period)));
+    const questions = makeQuiz(dinosaurs.filter(animal => (quizFilters.category === 'all' || categoryOf(animal) === quizFilters.category) && periodInEra(animal.period, quizFilters.era) && (quizFilters.period === 'all' || animal.period === quizFilters.period)));
     syncQuizFilters();
     quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, hintRevealed: false, tried: new Set() };
     renderQuiz();
@@ -857,6 +893,14 @@
   });
   $('search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
   $('diet-filter').addEventListener('change', event => { state.diet = event.target.value; renderGallery(); });
+  $('era-filters').addEventListener('click', event => {
+    const button = event.target.closest('[data-atlas-era]');
+    if (!button) return;
+    state.era = button.dataset.atlasEra;
+    state.period = 'all';
+    syncAtlasTimeFilters();
+    renderGallery();
+  });
   $('period-filters').addEventListener('click', event => {
     const button = event.target.closest('[data-period]');
     if (!button) return;
@@ -866,7 +910,8 @@
   });
   $('favorites-filter').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; renderGallery(); });
   $('clear-filters').addEventListener('click', () => {
-    Object.assign(state, { query: '', period: 'all', diet: 'all', favoritesOnly: false });
+    Object.assign(state, { query: '', era: 'all', period: 'all', diet: 'all', favoritesOnly: false });
+    syncAtlasTimeFilters();
     $('search').value = '';
     $('diet-filter').value = 'all';
     document.querySelectorAll('[data-period]').forEach(item => item.setAttribute('aria-pressed', String(item.dataset.period === 'all')));
@@ -877,8 +922,18 @@
     if (visible.length) location.hash = `dinosaurus/${visible[Math.floor(Math.random() * visible.length)].id}`;
   });
   document.addEventListener('click', event => {
+    const detailEra = event.target.closest('[data-detail-era]');
+    if (detailEra) { changeDetailEra(detailEra.dataset.detailEra); return; }
     const period = event.target.closest('[data-detail-period]');
     if (period) { changeDetailPeriod(period.dataset.detailPeriod); return; }
+    const quizEra = event.target.closest('[data-quiz-era]');
+    if (quizEra) {
+      quizFilters.era = quizEra.dataset.quizEra;
+      quizFilters.period = 'all';
+      beginQuiz();
+      scrollQuizToQuestion();
+      return;
+    }
     const quizCategory = event.target.closest('[data-quiz-category]');
     const quizPeriod = event.target.closest('[data-quiz-period]');
     if (quizCategory || quizPeriod) {
@@ -956,10 +1011,13 @@
       database = await response.json();
       validateDatabase(database);
       Object.assign(PERIODS, database.periods || {});
-      $('period-filters').innerHTML = Object.entries({ ...PERIODS, all: 'Vše' }).map(([id, label]) => `<button type="button" data-period="${id}" aria-pressed="${state.period === id}">${escapeHtml(label)}</button>`).join('');
-      syncQuizFilters();
       dinosaurs = sortAnimals(database.dinosaurs);
+      syncAtlasTimeFilters();
+      syncQuizFilters();
       byId = new Map(dinosaurs.map(dino => [dino.id, dino]));
+      $('category-filters').innerHTML = Object.entries(CATEGORIES)
+        .filter(([id]) => id === 'all' || dinosaurs.some(animal => categoryOf(animal) === id))
+        .map(([id,label]) => `<button type="button" data-category="${id}" aria-pressed="${state.category === id}">${escapeHtml(label)}</button>`).join('');
       let saved = [];
       try { saved = JSON.parse(readStorage('dinoatlas-favorites', '[]')); } catch (_) {}
       state.favorites = new Set((Array.isArray(saved) ? saved : []).filter(id => byId.has(id)));
