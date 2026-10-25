@@ -35,7 +35,7 @@ for(const animal of draft.animals) {
    assert.equal(p.image.status,'working-reconstruction');
  }
  for(const sec of animal.translations.cs.sections)
-   assert.ok(app.narrationText(animal,sec.id).includes(sec.title));
+   assert.ok(app.narrationText(animal,sec.id).includes(app.pronunciationText(sec.title)));
 }
 assert.equal(draft.animals.filter(a=>a.category==='arthropod').length,2);
 assert.equal(draft.animals.filter(a=>a.category==='fish').length,3);
