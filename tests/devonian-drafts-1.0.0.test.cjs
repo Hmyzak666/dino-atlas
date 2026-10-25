@@ -10,8 +10,8 @@ const ids=['dunkleosteus-terrelli','tiktaalik-roseae','bothriolepis-canadensis',
 'cladoselache-fyleri','jaekelopterus-rhenaniae'];
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
-assert.ok([88,96].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
-const activated=db.dinosaurs.length===96;
+assert.ok([88,96,104].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
+const activated=db.dinosaurs.length>=96;
 for(const [period,count] of [['cambrian',6],['ordovician',5],['silurian',5]]){
  assert.equal(db.dinosaurs.filter(a=>a.period===period).length,count,'Preserve previous Paleozoic batches');
 }
@@ -19,9 +19,9 @@ const merged=structuredClone(db);
 merged.periods.devonian='Devon';
 Object.assign(merged.sources,draft.sources);
 if(!activated) merged.dinosaurs.push(...draft.animals);
-assert.equal(merged.dinosaurs.length,96);
+assert.equal(merged.dinosaurs.length,activated?db.dinosaurs.length:96);
 assert.equal(app.validateDatabase(merged),true);
-assert.equal(new Set(merged.dinosaurs.map(a=>a.id)).size,96);
+assert.equal(new Set(merged.dinosaurs.map(a=>a.id)).size,merged.dinosaurs.length);
 for(const animal of draft.animals){
  assert.equal(animal.period,'devonian');
  assert.equal(animal.translations.cs.sections.length,6,animal.id);
