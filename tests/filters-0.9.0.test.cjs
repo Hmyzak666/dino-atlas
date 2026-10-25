@@ -29,7 +29,19 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   await page.goBack();await page.waitForURL('**/#atlas');
   assert.equal(await page.locator('#search').inputValue(),'proto');
   assert.equal(await page.locator('[data-period="triassic"]').getAttribute('aria-pressed'),'true');
+  // Every portrait quiz question should bring both the picture and its choices into view.
+  async function checkQuizPosition() {
+   if(width>=900) return;
+   await page.waitForFunction(() => {
+    const picture=document.querySelector('.quiz-picture');
+    const choices=document.querySelector('.quiz-answers');
+    if(!picture||!choices) return false;
+    const image=picture.getBoundingClientRect(), answers=choices.getBoundingClientRect();
+    return image.top>=-2&&image.top<=35&&answers.bottom<=innerHeight+2;
+   });
+  }
   await page.locator('[data-nav="kviz"]').click();
+  await checkQuizPosition();
   assert.equal(await page.locator('[data-quiz-category="all"]').getAttribute('aria-pressed'),'true');
   for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
    await page.locator(`[data-quiz-category="${category}"]`).click();
@@ -39,6 +51,7 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
    const options=await page.locator('[data-answer]').evaluateAll(els=>els.map(el=>el.dataset.answer));
    assert.equal(options.length,3);assert.ok(options.every(id=>pool.some(a=>a.id===id)));
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+   await checkQuizPosition();
   }
   await page.locator('[data-quiz-category="arthropod"]').click();
   await page.locator('[data-quiz-period="cretaceous"]').click();
@@ -47,6 +60,8 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   await page.goBack();await page.waitForURL('**/#kviz');
   assert.equal(await page.locator('.quiz-picture img').getAttribute('src'),src);
   assert.match(await page.locator('#quiz-feedback').textContent(),/Ano!/);
+  await page.locator('#quiz-next').click();
+  await checkQuizPosition();
   await page.locator('[data-nav="atlas"]').click();
   assert.equal(await page.locator('[data-category="arthropod"]').getAttribute('aria-pressed'),'true');
   assert.equal(await page.locator('#search').inputValue(),'proto');
