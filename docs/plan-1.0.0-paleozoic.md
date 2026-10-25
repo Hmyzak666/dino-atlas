@@ -1,15 +1,17 @@
 # Dino Atlas 1.0.0 — prvohory (pracovní plán)
 
-> **Stav:** šest vědecky zdrojovaných kandidátních hesel kambria je nyní v `content-drafts/cambrian-six.json`; zatím se nezobrazují v aplikaci, protože chybí původní ilustrace. Pokyny ke všem šesti obrázkům jsou v `docs/image-prompts/1.0.0-cambrian.md`. Nevydávat tuto větev jako hotovou 1.0.0 bez 40 vědecky ověřených a zveřejněných hesel, 40 samostatných obrázků a zeleného CI.
+> **Stav 25. října 2026:** Přesně 24 ze 40 nových prvohorních druhů je již aktivovaných a prošlo automatickými testy. Pracovní verze má **96 živočichů a 96 obrázků**. Dokončena jsou období kambrium (6), ordovik (5), silur (5), devon (8). KARBON (8) má připravená česká hesla, zdroje a testy, ale jeho obrázky nejsou hotové ani importované. Po karbonu zbývá perm (8). Stabilní `main` zůstává 0.9.0, build 90001.
 
-## Aktuální ověřený postup — 25. října 2026
-- **Kambrium:** 6 druhů a 6 obrázků aktivovaných, zelený import a mobilní testy.
-- **Ordovik:** 5 druhů a 5 obrázků aktivovaných, zelený import a mobilní testy.
-- **Silur:** 5 druhů a 5 obrázků aktivovaných, zelený import a mobilní testy.
-- **Současný stav pracovní aplikace:** 88 živočichů / 88 obrázků, 16 ze 40 plánovaných prvohorních druhů.
-- **Devon:** připraveno osm obsahových draftů v `content-drafts/devonian-eight.json` a jejich regresní testy. Odborné požadavky a obrazový audit v `docs/image-prompts/1.0.0-devonian.md`. Ještě **nepublikováno**, protože obrazové rekonstrukce nesplnily anatomickou kontrolu.
-- **Stabilní `main`:** stále 0.9.0 build 90001, beze změn.
- 
+## Aktuální stav obsahových dávek
+- **Kambrium:** 6 druhů / 6 obrázků v aktivní pracovní databázi.
+- **Ordovik:** 5 druhů / 5 obrázků aktivováno.
+- **Silur:** 5 druhů / 5 obrázků aktivováno.
+- **Devon:** 8 druhů / 8 obrázků aktivováno (Dunkleosteus používá vědeckou rekonstrukci s uvedením autora a licence CC BY 4.0).
+- **Karbon:** 8 odborných draftů v `content-drafts/carboniferous-eight.json`; existuje izolovaná 1152×768 rekonstrukce Arthropleury a pracovní kompozice Meganeury, ale jsou **mimo aktivní databázi**. Dalších šest správných samostatných obrázků chybí.
+- **Perm:** 8 plánovaných druhů, zatím nepřipravených pro zveřejnění.
+- Importní nástroj `tools/import_carboniferous.py` kontroluje přesných osm obrázků a vyžaduje předem schválený SHA-256; **bez kompletní sady nelze spustit ani zveřejnit**.
+- **Cíl:** 112 hesel, 112 obrázků, úplné CI a test APK na telefonu před sloučením do `main`.
+
 ## Výchozí stav
 Navazuje na ověřené Dino Atlas 0.9.0 (72 živočichů) včetně posunu kvízu na výšku. První krok je model éra → období, samostatné filtry atlasu a kvízu a rozšiřitelné kategorie. Stabilní main a původních 72 hesel/obrázků zůstanou nedotčené až do schválené aktualizace.
 
