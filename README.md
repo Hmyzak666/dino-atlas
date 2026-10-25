@@ -2,7 +2,7 @@
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 
-Připravená verze **0.9.0, sestavení 90001** rozšiřuje atlas na **72 zvířat — 45 dinosaurů, 10 ptakoještěrů, 8 mořských plazů a 9 členovců**. Vychází z uživatelem ověřené verze 0.8.1 (80101). Původních 42 záznamů a obrázků je zachováno. Před sloučením do `main` je potřeba vyzkoušet podepsané APK na telefonu.
+**Uživatelem na telefonu ověřená verze 0.9.0, sestavení 90001**, rozšiřuje atlas na **72 zvířat — 45 dinosaurů, 10 ptakoještěrů, 8 mořských plazů a 9 členovců**. Navazuje na ověřenou 0.8.1 (80101). Všech 42 původních záznamů a obrázků je zachováno. Uživatel potvrdil správnou funkčnost nové verze i automatického posunu kvízu.
 
 Nová verze přidává nezávislé filtry kategorie a období v kvízu, přepínání období přímo v detailu a čitelné porovnání drobných členovců v centimetrech či milimetrech. Vědecké nejistoty rekonstrukcí a rozměrů jsou výslovně označené.
 ## Funkce
