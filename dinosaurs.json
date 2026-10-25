@@ -1402,6 +1402,76 @@
       "url": "https://doi.org/10.1016/j.cub.2024.05.026",
       "kind": "Ověřená muzejní databáze nebo recenzovaná vědecká práce",
       "accessedAt": "2026-10-25"
+    },
+    "isotelus-original": {
+      "title": "Rudkin et al. 2003: World's biggest trilobite, Isotelus rex",
+      "shortTitle": "Rudkin et al. 2003",
+      "url": "https://doi.org/10.1666/0022-3360(2003)077%3C0099:TWBTIR%3E2.0.CO;2",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "isotelus-museum": {
+      "title": "Manitoba Museum: Isotelus rex specimen",
+      "shortTitle": "Manitoba Museum",
+      "url": "https://manitobamuseum.ca/collections-research/manitoba-nature/palaeontology-geology/",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "asaphus-gsa": {
+      "title": "GSA 2022: Structure of asaphid trilobite eyes",
+      "shortTitle": "GSA 2022",
+      "url": "https://gsa.confex.com/gsa/2022AM/webprogram/Paper381674.html",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "asaphus-review": {
+      "title": "Ivantsov 2003: Asaphinae of Ladoga Glint",
+      "shortTitle": "Ivantsov 2003",
+      "url": "https://kirjandus.geoloogia.info/en/reference/6359",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "aegirocassis-nature": {
+      "title": "Van Roy, Daley & Briggs 2015: Aegirocassis",
+      "shortTitle": "Van Roy, Daley & Briggs 2015",
+      "url": "https://doi.org/10.1038/nature14256",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "aegirocassis-revision": {
+      "title": "2023 study: Radiodont frontal appendages, Fezouata",
+      "shortTitle": "2023 study",
+      "url": "https://doi.org/10.3389/fevo.2023.1214109",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "arandaspis-gov": {
+      "title": "Geoscience Australia: Arandaspis prionotolepis holotype",
+      "shortTitle": "Geoscience Australia",
+      "url": "https://www.ga.gov.au/bigobj/GA14368.pdf",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "arandaspis-original": {
+      "title": "Ritchie & Gilbert-Tomlinson 1977: Ordovician vertebrates",
+      "shortTitle": "Ritchie & Gilbert-Tomlinson 1977",
+      "url": "https://doi.org/10.1080/03115517708527770",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "endoceras-atlas": {
+      "title": "Atlas of Ordovician Life: Endoceras proteiforme",
+      "shortTitle": "Atlas of Ordovician Life",
+      "url": "https://www.ordovicianatlas.org/atlas/mollusca/cephalopoda/endocerida/endoceratidae/endoceras/endoceras-proteiforme/",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
+    },
+    "endoceras-monograph": {
+      "title": "McFarlan 1931: Ordovician Fauna — Endoceras proteiforme",
+      "shortTitle": "McFarlan 1931",
+      "url": "https://www.uky.edu/OtherOrgs/KPS/poky/files/pokych02-01-118.pdf",
+      "kind": "Vědecká práce nebo institucionální paleontologický materiál",
+      "accessedAt": "2026-10-25"
     }
   },
   "dinosaurs": [
@@ -24781,12 +24851,1330 @@
         "estimate": 0.055,
         "scope": "Maximální délka podle nálezů uváděných Royal Ontario Museum."
       }
+    },
+    {
+      "id": "isotelus-rex",
+      "scientificName": "Isotelus rex",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "ordovician",
+      "diet": "unknown",
+      "taxonomy": [
+        "Arthropoda",
+        "Trilobita",
+        "Asaphida",
+        "Asaphidae",
+        "Isotelus"
+      ],
+      "aliases": [
+        "isotelus",
+        "isotelus rex",
+        "obří trilobit"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Izotelus",
+      "group": "Isotelus",
+      "image": {
+        "src": "images/isotelus-rex.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Isotelus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Obraz a zbarvení jsou ilustrativní; nejisté části těla nejsou přímým fosilním dokladem."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní ordovik · zhruba před 445 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "isotelus-original",
+            "isotelus-museum"
+          ],
+          "note": {
+            "cs": "Rozmezí je orientační a vychází ze stratigrafie dokladů; není přesnou dobou života jediného jedince."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada · severní Manitoba"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "isotelus-original",
+            "isotelus-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Porovnání ukazuje přibližně 70 cm délky téměř úplného fosilního pancíře; neznamená to délku všech jedinců."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "isotelus-original",
+            "isotelus-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Isotelus",
+          "ageLabel": "Pozdní ordovik · zhruba před 445 mil. let",
+          "location": "Severní Amerika",
+          "groupLabel": "Trilobiti",
+          "cardSummary": "Obrovský mořský trilobit dlouhý přes 70 centimetrů.",
+          "summary": "Jeden z největších známých trilobitů měl široký zploštělý pancíř rozdělený do tří podélných částí. Největší téměř úplný nález ze severní Kanady přesahuje 70 centimetrů.",
+          "quizHint": "Velký oválný trilobit s článkovaným hřbetním pancířem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široký hlavový štít s očima po stranách."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "isotelus-original",
+                "isotelus-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Tři podélné oblasti těla a článkovaný střed trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "isotelus-original",
+                "isotelus-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velký oblý ocasní štít bez dlouhých ostnů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "isotelus-original",
+                "isotelus-museum"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široký hlavový štít s očima po stranách. Tři podélné oblasti těla a článkovaný střed trupu. Velký oblý ocasní štít bez dlouhých ostnů. Barva na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "isotelus-original",
+              "isotelus-museum"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Rekordní trilobit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Téměř úplný hřbetní pancíř druhu Isotelus rex měří přes 70 centimetrů. Je to mimořádný nález, nikoli běžná délka všech trilobitů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "isotelus-original",
+                    "isotelus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Tři části těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jako jiní trilobiti měl prostřední vyvýšenou osu a dvě boční části, na trupu viditelně dělené na články."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "isotelus-original",
+                    "isotelus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Mořské dno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zástupci rodu Isotelus žili v mělkých mořích; konkrétní aktivitu jednotlivých jedinců z otisku schránky přímo nepoznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "isotelus-original",
+                    "isotelus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Ochrana schránkou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tuhý hřbetní pancíř mohl chránit měkké části těla. Některé druhy rodu Isotelus se dokázaly stočit, ale u obřího exempláře konkrétní obranné chování nepozorujeme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "isotelus-original",
+                    "isotelus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Kanadský nález",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Typový jedinec pochází z pozdně ordovických vápenců u pobřeží Hudsonova zálivu poblíž Churchillu v Manitobě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "isotelus-original",
+                    "isotelus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme barvy těla, délku života ani přesnou potravu tohoto konkrétního druhu."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.7,
+        "confidence": "estimate",
+        "sourceIds": [
+          "isotelus-original",
+          "isotelus-museum"
+        ],
+        "note": {
+          "cs": "Porovnání ukazuje přibližně 70 cm délky téměř úplného fosilního pancíře; neznamená to délku všech jedinců."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.7,
+        "scope": "Porovnání ukazuje přibližně 70 cm délky téměř úplného fosilního pancíře; neznamená to délku všech jedinců."
+      }
+    },
+    {
+      "id": "asaphus-kowalewskii",
+      "scientificName": "Asaphus kowalewskii",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "ordovician",
+      "diet": "unknown",
+      "taxonomy": [
+        "Arthropoda",
+        "Trilobita",
+        "Asaphida",
+        "Asaphidae",
+        "Asaphus"
+      ],
+      "aliases": [
+        "asaphus",
+        "asaphus kowalewskii",
+        "trilobit s očima na stopkách"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Asafus",
+      "group": "Asaphus",
+      "image": {
+        "src": "images/asaphus-kowalewskii.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Asaphus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Obraz a zbarvení jsou ilustrativní; nejisté části těla nejsou přímým fosilním dokladem."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední ordovik · zhruba před 465 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "asaphus-gsa",
+            "asaphus-review"
+          ],
+          "note": {
+            "cs": "Rozmezí je orientační a vychází ze stratigrafie dokladů; není přesnou dobou života jediného jedince."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pobaltí · okolí Petrohradu, Rusko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "asaphus-gsa",
+            "asaphus-review"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Pracovní srovnání používá 8 cm, což je orientační velikost zástupců rodu Asaphus, nikoli přesně změřený typový jedinec druhu A. kowalewskii."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "asaphus-gsa",
+            "asaphus-review"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Asaphus",
+          "ageLabel": "Střední ordovik · zhruba před 465 mil. let",
+          "location": "Východní Evropa",
+          "groupLabel": "Trilobiti",
+          "cardSummary": "Trilobit s párem dlouhých očních stopek.",
+          "summary": "Trilobit s očima umístěnýma vysoko na neobvykle dlouhých tenkých stopkách. Ty mu mohly umožnit pozorovat okolí, i když se částečně zahrabal do mořského sedimentu.",
+          "quizHint": "Hledej dvě vysoké tenké stopky zakončené očima.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dvě nápadné vysoké oční stopky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "asaphus-gsa",
+                "asaphus-review"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Oválné článkované trilobití tělo."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "asaphus-gsa",
+                "asaphus-review"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Zaoblený hlavový a ocasní štít bez velikých rohů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "asaphus-gsa",
+                "asaphus-review"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dvě nápadné vysoké oční stopky. Oválné článkované trilobití tělo. Zaoblený hlavový a ocasní štít bez velikých rohů. Barva na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "asaphus-gsa",
+              "asaphus-review"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Oči na stopkách",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Oči stály na velmi dlouhých výběžcích hlavového štítu. Právě to odlišuje Asaphus kowalewskii od mnoha jiných trilobitů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "asaphus-gsa",
+                    "asaphus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Proč tak dlouhé?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna z hypotéz říká, že stopky umožňovaly sledovat okolí nad vrstvou sedimentu, ve které mohl trilobit odpočívat nebo se ukrývat."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "asaphus-gsa",
+                    "asaphus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Zkamenělé čočky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Trilobití oči měly složitou optickou stavbu s minerálními čočkami z kalcitu. U tohoto druhu se studují také jejich tvary."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "asaphus-gsa",
+                    "asaphus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzní v Baltice",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druh je znám z ordovických vrstev v okolí dnešního Petrohradu. Další trilobiti rodu Asaphus měli stopky různé délky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "asaphus-gsa",
+                    "asaphus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Pohyb po dně",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jako členovec měl pod pancířem článkované končetiny; přesný způsob hledání potravy u tohoto druhu není doložen."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "asaphus-gsa",
+                    "asaphus-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme zbarvení, přesnou skladbu potravy ani to, zda dlouhé oční stopky měly pouze jednu funkci."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.08,
+        "confidence": "estimate",
+        "sourceIds": [
+          "asaphus-gsa",
+          "asaphus-review"
+        ],
+        "note": {
+          "cs": "Pracovní srovnání používá 8 cm, což je orientační velikost zástupců rodu Asaphus, nikoli přesně změřený typový jedinec druhu A. kowalewskii."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.08,
+        "scope": "Pracovní srovnání používá 8 cm, což je orientační velikost zástupců rodu Asaphus, nikoli přesně změřený typový jedinec druhu A. kowalewskii."
+      }
+    },
+    {
+      "id": "aegirocassis-benmoulai",
+      "scientificName": "Aegirocassis benmoulai",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "ordovician",
+      "diet": "unknown",
+      "taxonomy": [
+        "Panarthropoda",
+        "Radiodonta",
+        "Hurdiidae",
+        "Aegirocassis"
+      ],
+      "aliases": [
+        "aegirocassis",
+        "aegirocassis benmoulae",
+        "aegirokasis"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Égirokasis",
+      "group": "Aegirocassis",
+      "image": {
+        "src": "images/aegirocassis-benmoulai.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Aegirocassis."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Obraz a zbarvení jsou ilustrativní; nejisté části těla nejsou přímým fosilním dokladem."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný ordovik · zhruba před 480 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "aegirocassis-nature",
+            "aegirocassis-revision"
+          ],
+          "note": {
+            "cs": "Rozmezí je orientační a vychází ze stratigrafie dokladů; není přesnou dobou života jediného jedince."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Maroko · Fezouata"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "aegirocassis-nature",
+            "aegirocassis-revision"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 2 m je orientační; některé publikované odhady uvádějí přes 2 m."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "aegirocassis-nature",
+            "aegirocassis-revision"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Aegirocassis",
+          "ageLabel": "Raný ordovik · zhruba před 480 mil. let",
+          "location": "Severní Afrika",
+          "groupLabel": "Radiodonti · kmenoví příbuzní členovců",
+          "cardSummary": "Dvoumětrový plavec, který filtroval plankton.",
+          "summary": "Velký mořský filtrátor, který překonal dva metry délky. Dvojice předních jemně ostnitých přívěsků zachytávala plankton, zatímco dvě řady plovacích laloků pomáhaly pohybu.",
+          "quizHint": "Má dva přední hřebenovité filtrační přívěsky a dvě řady postranních laloků.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velké široce zaoblené přední tělo s hlavovým štítem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "aegirocassis-nature",
+                "aegirocassis-revision"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvojice hřebenovitých přívěsků pro zachycování potravy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "aegirocassis-nature",
+                "aegirocassis-revision"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvě řady plovacích laloků po stranách dlouhého trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "aegirocassis-nature",
+                "aegirocassis-revision"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velké široce zaoblené přední tělo s hlavovým štítem. Dvojice hřebenovitých přívěsků pro zachycování potravy. Dvě řady plovacích laloků po stranách dlouhého trupu. Barva na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "aegirocassis-nature",
+              "aegirocassis-revision"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obr mezi filtrátory",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie dokládají živočicha dlouhého nejméně dva metry, což bylo v raném ordoviku mimořádné."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "aegirocassis-nature",
+                    "aegirocassis-revision"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Plankton místo velké kořisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jemné štětiny předních přívěsků tvořily filtr pro drobné organismy z vody. Nelovil jako dravý Anomalocaris."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "aegirocassis-nature",
+                    "aegirocassis-revision"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dvojité plovací laloky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na trupu měl dva soubory laloků. Jejich stavba pomohla paleontologům vysvětlovat původ končetin pozdějších členovců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "aegirocassis-nature",
+                    "aegirocassis-revision"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Moře na území Maroka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výborně zachované zkameněliny pocházejí z ordovických vrstev Fezouata v dnešním Maroku."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "aegirocassis-nature",
+                    "aegirocassis-revision"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Druhové jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V původním zveřejnění se vyskytovalo psaní benmoulae; nomenklatorická oprava stanovila benmoulai. V atlasu používáme opravený zápis."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "aegirocassis-nature",
+                    "aegirocassis-revision"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, způsob rozmnožování ani rychlost plavání tohoto filtrátora neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2,
+        "confidence": "estimate",
+        "sourceIds": [
+          "aegirocassis-nature",
+          "aegirocassis-revision"
+        ],
+        "note": {
+          "cs": "Délka kolem 2 m je orientační; některé publikované odhady uvádějí přes 2 m."
+        }
+      },
+      "lengthM": {
+        "estimate": 2,
+        "scope": "Délka kolem 2 m je orientační; některé publikované odhady uvádějí přes 2 m."
+      }
+    },
+    {
+      "id": "arandaspis-prionotolepis",
+      "scientificName": "Arandaspis prionotolepis",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "ordovician",
+      "diet": "unknown",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Pteraspidomorphi",
+        "Arandaspida",
+        "Arandaspis"
+      ],
+      "aliases": [
+        "arandaspis",
+        "arandaspis prionotolepis",
+        "bezčelistnatý obratlovec"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Arandaspis",
+      "group": "Arandaspis",
+      "image": {
+        "src": "images/arandaspis-prionotolepis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Arandaspis."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Obraz a zbarvení jsou ilustrativní; nejisté části těla nejsou přímým fosilním dokladem."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední ordovik · přibližně před 465–460 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "arandaspis-gov",
+            "arandaspis-original"
+          ],
+          "note": {
+            "cs": "Rozmezí je orientační a vychází ze stratigrafie dokladů; není přesnou dobou života jediného jedince."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Austrálie · Severní teritorium"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "arandaspis-gov",
+            "arandaspis-original"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačních 15 cm je převzatých z odborně odvozených rekonstrukcí; úplné tělo se nezachovalo."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "arandaspis-gov",
+            "arandaspis-original"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Arandaspis",
+          "ageLabel": "Střední ordovik · přibližně před 465–460 mil. let",
+          "location": "Austrálie",
+          "groupLabel": "Raní bezčelistnatí obratlovci",
+          "cardSummary": "Bezčelistnatý obratlovec s kostěným hlavovým štítem.",
+          "summary": "Dávný bezčelistnatý obratlovec měl hlavu a přední část těla chráněnou velkými hřbetními a břišními štíty. Jeho zadní polovina není úplně zachovaná, takže podoba ocasu zůstává rekonstrukcí.",
+          "quizHint": "Prohlédni si široký štít vpředu a zúžené tělo bez čelistí.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velké hřbetní a břišní pancéřové štíty vepředu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "arandaspis-gov",
+                "arandaspis-original"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široká plochá hlavová oblast bez čelistí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "arandaspis-gov",
+                "arandaspis-original"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Užší zadní část těla, jejíž přesná podoba je nejistá."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "arandaspis-gov",
+                "arandaspis-original"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velké hřbetní a břišní pancéřové štíty vepředu. Široká plochá hlavová oblast bez čelistí. Užší zadní část těla, jejíž přesná podoba je nejistá. Barva na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "arandaspis-gov",
+              "arandaspis-original"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obratlovec bez čelistí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Arandaspis patří mezi rané vyhynulé bezčelistnaté obratlovce. Není to moderní ryba s čelistmi ani s párovými ploutvemi."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "arandaspis-gov",
+                    "arandaspis-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Pancíř z destiček",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přední tělo kryly dvě hlavní tuhé desky a mezi nimi menší destičky. Jejich otisky patří k hlavním fosilním znakům."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "arandaspis-gov",
+                    "arandaspis-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Australské zkameněliny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Doklady pocházejí ze souvrství Stairway Sandstone v Amadeově pánvi v Severním teritoriu Austrálie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "arandaspis-gov",
+                    "arandaspis-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Co víme o zadní části",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zadní polovina těla není známa z úplného exempláře. Ocas na obrázku proto musí být výslovně označen jako rekonstrukce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "arandaspis-gov",
+                    "arandaspis-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Potrava a pohyb",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bez čelistí mohl získávat drobnou potravu z vody nebo ze dna. Přesný způsob krmení ani schopnosti plavání z fosilií přímo nevyplývají."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "arandaspis-gov",
+                    "arandaspis-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesný tvar ocasu, barvu a některé části měkké anatomie tohoto druhu neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.15,
+        "confidence": "estimate",
+        "sourceIds": [
+          "arandaspis-gov",
+          "arandaspis-original"
+        ],
+        "note": {
+          "cs": "Orientačních 15 cm je převzatých z odborně odvozených rekonstrukcí; úplné tělo se nezachovalo."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.15,
+        "scope": "Orientačních 15 cm je převzatých z odborně odvozených rekonstrukcí; úplné tělo se nezachovalo."
+      }
+    },
+    {
+      "id": "endoceras-proteiforme",
+      "scientificName": "Endoceras proteiforme",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "ordovician",
+      "diet": "carnivore",
+      "taxonomy": [
+        "Mollusca",
+        "Cephalopoda",
+        "Endocerida",
+        "Endoceratidae",
+        "Endoceras"
+      ],
+      "aliases": [
+        "endoceras",
+        "endoceras proteiforme",
+        "hlavonožec s dlouhou rovnou schránkou"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Endoceras",
+      "group": "Endoceras",
+      "image": {
+        "src": "images/endoceras-proteiforme.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Endoceras."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Obraz a zbarvení jsou ilustrativní; nejisté části těla nejsou přímým fosilním dokladem."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední až pozdní ordovik · přibližně před 455–445 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "endoceras-atlas",
+            "endoceras-monograph"
+          ],
+          "note": {
+            "cs": "Rozmezí je orientační a vychází ze stratigrafie dokladů; není přesnou dobou života jediného jedince."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · okolí dnešního Ohio a Kentucky"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "endoceras-atlas",
+            "endoceras-monograph"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Pro srovnání používáme 3,5 m jako orientační historický odhad délky velké schránky; úplná měkká anatomie není dochována."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "endoceras-atlas",
+            "endoceras-monograph"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Masožravec"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "endoceras-atlas",
+            "endoceras-monograph"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Endoceras",
+          "ageLabel": "Střední až pozdní ordovik · přibližně před 455–445 mil. let",
+          "location": "Severní Amerika",
+          "groupLabel": "Hlavonožci · endoceridi",
+          "cardSummary": "Velký hlavonožec s dlouhou rovnou komůrkovanou schránkou.",
+          "summary": "Velký vyhynulý hlavonožec obýval dlouhou téměř rovnou kuželovitou schránku s vnitřními komůrkami. Úzká živá část těla vyčnívala u širšího ústí; velikost a měkké části těla známe jen přibližně.",
+          "quizHint": "Hledej dlouhou přímou kuželovitou schránku s komůrkami.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhá téměř rovná kuželovitá schránka."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "endoceras-atlas",
+                "endoceras-monograph"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Komůrky uvnitř schránky oddělené přepážkami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "endoceras-atlas",
+                "endoceras-monograph"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Z širšího ústí vyčnívající měkké hlavonožčí tělo."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "endoceras-atlas",
+                "endoceras-monograph"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhá téměř rovná kuželovitá schránka. Komůrky uvnitř schránky oddělené přepážkami. Z širšího ústí vyčnívající měkké hlavonožčí tělo. Barva na obrázku není určovací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "endoceras-atlas",
+              "endoceras-monograph"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Schránka jako dlouhý kužel",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie zachycují téměř rovnou, zpravidla kruhovou schránku rozdělenou přepážkami do komůrek."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "endoceras-atlas",
+                    "endoceras-monograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Trubice v komůrkách",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velký sifon, položený mimo střed schránky, patří k důležitým znakům druhu Endoceras proteiforme."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "endoceras-atlas",
+                    "endoceras-monograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Kolik měřil?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Starší geologické popisy uvádějí u tohoto druhu velké schránky dlouhé zhruba tři až čtyři a půl metru. Jde o historické údaje, které nepředstavují délku každého živočicha."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "endoceras-atlas",
+                    "endoceras-monograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzný dnešních hlavonožců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Endoceras byl vyhynulý hlavonožec, nikoli mořský plaz ani ryba. Na rozdíl od mnoha dnešních chobotnic nesl nápadnou vnější schránku."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "endoceras-atlas",
+                    "endoceras-monograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Mořský lovec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vyhynulí endoceridi jsou považováni za masožravce. Z fosilních schránek ovšem neznáme přesný seznam kořisti ani strategii lovu konkrétního jedince."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "endoceras-atlas",
+                    "endoceras-monograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesný počet ramen, podobu očí a tělesné zbarvení Endoceras proteiforme nelze přímo prokázat na základě dochovaných schránek."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "endoceras-atlas",
+          "endoceras-monograph"
+        ],
+        "note": {
+          "cs": "Pro srovnání používáme 3,5 m jako orientační historický odhad délky velké schránky; úplná měkká anatomie není dochována."
+        }
+      },
+      "lengthM": {
+        "estimate": 3.5,
+        "scope": "Pro srovnání používáme 3,5 m jako orientační historický odhad délky velké schránky; úplná měkká anatomie není dochována."
+      }
     }
   ],
   "periods": {
     "triassic": "Trias",
     "jurassic": "Jura",
     "cretaceous": "Křída",
-    "cambrian": "Kambrium"
+    "cambrian": "Kambrium",
+    "ordovician": "Ordovik"
   }
 }
