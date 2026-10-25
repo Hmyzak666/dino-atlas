@@ -63,8 +63,8 @@ async function openAnimal(page,id) {
       page.on('request',r=>{if(!r.url().startsWith(base))errors.push('External request: '+r.url());});
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
-      assert.equal(await page.locator('#gallery .dino-card').count(),72);
-      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),['Trias','Jura','Křída','Vše']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),db.dinosaurs.length);
+      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),db.dinosaurs.length>72?['Vše']:['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
         const decoded=await page.evaluate(async sources=>Promise.all(sources.map(src=>new Promise((resolve,reject)=>{
@@ -73,7 +73,7 @@ async function openAnimal(page,id) {
           img.onerror=()=>reject(new Error('Image decoding failed: '+src));
           img.src=src;
         }))),db.dinosaurs.map(a=>a.image.src));
-        assert.equal(decoded.length,72);
+        assert.equal(decoded.length,db.dinosaurs.length);
         assert.ok(decoded.every(img=>img.width>0&&img.height>0),'All animal images must decode in the browser');
       }
       const names=await page.locator('.card-title-row h3').allTextContents();
@@ -287,6 +287,7 @@ async function openAnimal(page,id) {
         await page.getByRole('link',{name:'← Zpět do atlasu',exact:true}).click();
         await page.waitForURL('**/#atlas');
         await page.locator('[data-category="all"]').click();
+        if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
         await page.locator('[data-period="triassic"]').click();
         const triassicCount=db.dinosaurs.filter(animal=>animal.period==='triassic').length;
         assert.equal(await page.locator('#gallery .dino-card').count(),triassicCount);
