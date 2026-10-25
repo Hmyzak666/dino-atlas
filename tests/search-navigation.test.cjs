@@ -61,7 +61,7 @@ async function back(page) {
     await page.locator('#search').fill('brachiosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'brachiosaurus-altithorax');
-    assert.equal(await page.locator('.detail-position').textContent(), '8 / 72');
+    assert.equal(await page.locator('.detail-position').textContent(), `${app.sortAnimals(db.dinosaurs).findIndex(a=>a.id==='brachiosaurus-altithorax')+1} / ${db.dinosaurs.length}`);
     await step(page, 1, 'brontosaurus-excelsus');
     await step(page, -1, 'brachiosaurus-altithorax');
 
@@ -81,6 +81,7 @@ async function back(page) {
 
     // Keep category, period, and diet constraints while ignoring only the query.
     await page.locator('[data-category="dinosaur"]').click();
+    if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
     await page.locator('[data-period="jurassic"]').click();
     await page.locator('#diet-filter').selectOption('carnivore');
     await page.locator('#search').fill('ceratosaurus');
