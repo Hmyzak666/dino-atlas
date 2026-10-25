@@ -5,23 +5,25 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const baseline = require('./fixtures/verified-0.8.0.json');
 const config = require('../project.json');
-const approved = require('./fixtures/approved-0.8.1.json');
 const db = require('../dinosaurs.json');
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 
-// Only the explicitly requested UI/speech changes may differ from the confirmed baseline.
-assert.equal(approved.baselineVersion, baseline.version);
-assert.deepEqual(Object.keys(approved.assets).sort(), ['app.js', 'index.html', 'style.css']);
+// 0.9.0 is an authorized content/UI release, not a byte-identical cleanup.
+// Preserve original data semantically and original artwork byte-for-byte.
+const originals = require('./fixtures/original-0.8.1-records.json');
+assert.equal(originals.length, 42);
+for (const animal of originals) assert.deepEqual(db.dinosaurs.find(a => a.id === animal.id), animal, animal.id);
 for (const [name, expected] of Object.entries(baseline.assets)) {
-  assert.equal(digest(fs.readFileSync(path.join(root, name))), approved.assets[name] || expected, name + ' differs from the approved sources');
+  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), expected, name);
 }
-assert.deepEqual(db.dinosaurs.map(a => a.id).sort(), baseline.animalIds);
+assert.deepEqual(originals.map(a => a.id).sort(), baseline.animalIds);
 assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);
 for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
 assert.equal(config.android.certificateSha256, baseline.certificateSha256);
-assert.equal(config.version, approved.version);
+assert.equal(config.version, '0.9.0');
+assert.ok(config.versionCode > 80101);
 assert.ok(config.versionCode > baseline.versionCode, 'cleanup APK must update the installed build');
 const java = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
 assert.ok(java.includes('package ' + baseline.applicationId + ';'));

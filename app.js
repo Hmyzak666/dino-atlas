@@ -3,10 +3,10 @@
   'use strict';
 
   const LANG = 'cs';
-  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', all: 'Vše' };
-  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz' };
+  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', all: 'Vše' };
+  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec' };
   const PERIODS = { triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída' };
-  const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec' };
+  const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec', unknown: 'Nejistá potrava' };
   const CONFIDENCE = {
     evidence: ['🟢', 'Dobře doloženo'],
     estimate: ['🟡', 'Vědecký odhad / hypotéza'],
@@ -29,10 +29,14 @@
   function comparisonData(animal, humanHeight = 1.8) {
     const measure = animal.comparison;
     if (!measure || !Number.isFinite(measure.valueM) || measure.valueM <= 0 || !Number.isFinite(humanHeight) || humanHeight <= 0) return null;
-    const maximum = Math.max(measure.valueM, humanHeight);
-    return { animalPercent: measure.valueM / maximum * 100, humanPercent: humanHeight / maximum * 100,
-      ratio: measure.valueM / humanHeight, humanHeight, valueM: measure.valueM, kind: measure.kind };
+    const small = measure.valueM < 0.5;
+    const referenceM = small ? (measure.valueM < 0.02 ? 0.01 : 0.1) : humanHeight;
+    const maximum = Math.max(measure.valueM, referenceM);
+    return { animalPercent: measure.valueM / maximum * 100, humanPercent: referenceM / maximum * 100,
+      ratio: measure.valueM / referenceM, referenceM, small, humanHeight, valueM: measure.valueM, kind: measure.kind };
   }
+
+  const measureLabel = value => value < 0.01 ? `${numberLabel(value * 1000)} mm` : value < 1 ? `${numberLabel(value * 100)} cm` : `${numberLabel(value)} m`;
 
   function filteredDinosaurs(dinosaurs, state) {
     const query = normalize(state.query);
@@ -68,6 +72,8 @@
   function validateDatabase(db) {
     if (!db || db.schemaVersion !== 1 || !db.sources || !Array.isArray(db.dinosaurs) || !db.dinosaurs.length) throw new Error('Neplatná struktura databáze.');
     const ids = new Set();
+    const periods = db.periods || PERIODS;
+    for (const [id, label] of Object.entries(periods)) if (!/^[a-z][a-z0-9-]*$/.test(id) || typeof label !== 'string' || !label.trim()) throw new Error('Neplatné období.');
     const validateClaim = claim => {
       if (!CONFIDENCE[claim.confidence] || !Array.isArray(claim.sourceIds) || !localized(claim.text || claim.value)) throw new Error('Neplatný údaj v hesle.');
       if (!['unknown', 'pending'].includes(claim.confidence) && claim.sourceIds.length === 0) throw new Error('Doloženému údaji chybí zdroj.');
@@ -76,12 +82,14 @@
     for (const dino of db.dinosaurs) {
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(dino.id) || ids.has(dino.id)) throw new Error('Neplatné nebo opakované ID dinosaura.');
       ids.add(dino.id);
-      if (!PERIODS[dino.period] || !DIETS[dino.diet] || !dino.scientificName || !dino.translations?.[LANG]) throw new Error('Heslu chybí základní údaje.');
+      if (!periods[dino.period] || !DIETS[dino.diet] || !dino.scientificName || !dino.translations?.[LANG]) throw new Error('Heslu chybí základní údaje.');
       if (!Object.prototype.hasOwnProperty.call(CATEGORY_LABELS, categoryOf(dino))) throw new Error('Neznámá kategorie zvířete.');
       if (!Array.isArray(dino.taxonomy) || !dino.taxonomy.length) throw new Error('Chybí příbuzenské zařazení.');
       if (categoryOf(dino) === 'pterosaur' && (!dino.taxonomy.includes('Pterosauria') || dino.taxonomy.includes('Dinosauria'))) throw new Error('Ptakoještěr má nesprávné zařazení.');
       if (categoryOf(dino) === 'dinosaur' && (!dino.taxonomy.includes('Dinosauria') || dino.taxonomy.includes('Pterosauria'))) throw new Error('Dinosaurus má nesprávné zařazení.');
       if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
+      if (categoryOf(dino) === 'arthropod' && (!dino.taxonomy.includes('Arthropoda') || dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria', 'Chordata'].includes(group)))) throw new Error('Členovec má nesprávné zařazení.');
+      if (dino.speechName) speechNames.set(copy(dino).displayName, dino.speechName);
       const text = copy(dino);
       if (!text.displayName || !text.summary || !text.ageLabel || !text.location || !text.quizHint) throw new Error('Heslu chybí text.');
       if (!/^images\/[a-z0-9-]+\.(png|webp|jpe?g)$/.test(dino.image?.src || '')) throw new Error('Neplatná cesta k obrázku.');
@@ -120,7 +128,9 @@
     return true;
   }
 
+  const speechNames = new Map();
   function pronunciationText(value) {
+    for (const [written, spoken] of speechNames) value = String(value ?? '').replace(new RegExp('(?<![\\p{L}\\p{M}])' + written + '(?![\\p{L}\\p{M}])', 'giu'), spoken);
     // A narrow pronunciation hint for voices that read "jedince" with a hard d.
     // Apply only to spoken text; keep the displayed Czech spelling untouched.
     // Avoid a global di/ti/ni replacement: scientific names have different rules.
@@ -135,8 +145,8 @@
   }
 
   function speechMeasurements(value) {
-    const forms = { m: ['metr', 'metry', 'metrů', 'metru'], kg: ['kilogram', 'kilogramy', 'kilogramů', 'kilogramu'], t: ['tuna', 'tuny', 'tun', 'tuny'] };
-    return String(value).replace(/(\d+(?:[.,]\d+)?)(?:\s*[–−-]\s*(\d+(?:[.,]\d+)?))?\s*(kg|m|t)(?![\p{L}])/gu, (_, first, last, unit) => {
+    const forms = { mm: ['milimetr', 'milimetry', 'milimetrů', 'milimetru'], cm: ['centimetr', 'centimetry', 'centimetrů', 'centimetru'], m: ['metr', 'metry', 'metrů', 'metru'], kg: ['kilogram', 'kilogramy', 'kilogramů', 'kilogramu'], t: ['tuna', 'tuny', 'tun', 'tuny'] };
+    return String(value).replace(/(\d+(?:[.,]\d+)?)(?:\s*[–−-]\s*(\d+(?:[.,]\d+)?))?\s*(kg|mm|cm|m|t)(?![\p{L}])/gu, (_, first, last, unit) => {
       const amount = last || first;
       const number = Number(amount.replace(',', '.'));
       const form = /[.,]/.test(amount) ? 3 : number === 1 ? 0 : number >= 2 && number <= 4 ? 1 : 2;
@@ -147,7 +157,7 @@
 
   function narrationText(dino, sectionId = 'summary', humanHeight = 1.8) {
     const text = copy(dino);
-    if (sectionId === 'name') return pronunciationText(text.displayName);
+    if (sectionId === 'name') return pronunciationText(dino.speechName || text.displayName);
     if (sectionId === 'summary') {
       return pronunciationText(text.summary.startsWith(text.displayName) ? text.summary : `${text.displayName}. ${text.summary}`);
     }
@@ -167,6 +177,7 @@
     if (sectionId === 'comparison') {
       const data = comparisonData(dino, humanHeight);
       if (!data) return '';
+      if (data.small) return pronunciationText(speechMeasurements(`${text.displayName}. ${data.kind === 'wingspan' ? 'Rozpětí křídel' : 'Délka těla'} přibližně ${measureLabel(data.valueM)}. Porovnáváme s úsekem pravítka dlouhým ${measureLabel(data.referenceM)}. ${localized(dino.comparison.note)}`));
       return pronunciationText(speechMeasurements(`${text.displayName}. Jak velký byl? ${data.kind === 'wingspan' ? 'Rozpětí křídel' : 'Délka těla'} přibližně ${numberLabel(data.valueM)} m. Výška člověka pro porovnání ${numberLabel(humanHeight)} m. ${localized(dino.comparison.note)}`));
     }
     if (sectionId === 'contemporaries') {
@@ -190,6 +201,7 @@
   let galleryScroll = 0;
   let lastOpenedId = '';
   let detailIds = [];
+  let detailFilter = null;
   let detailSwipe = null;
   let suppressDetailClickUntil = 0;
   let scrollFrame = 0;
@@ -204,6 +216,7 @@
   let voiceTimer;
   let readTimer;
   const state = { category: 'all', query: '', period: 'all', diet: 'all', favoritesOnly: false, favorites: new Set() };
+  const quizFilters = { category: 'all', period: 'all' };
   let comparisonHeight = 1.8;
 
 
@@ -411,14 +424,15 @@
   }
   function syncCategory() {
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
-    $('quiz-category').textContent = state.category === 'all' ? 'Kvíz · Všechna pravěká zvířata' : `Kvíz · ${CATEGORIES[state.category]}`;
-    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.' };
+
+    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.' };
     $('atlas-title').textContent = headings[state.category];
     $('atlas-intro').textContent = state.category === 'pterosaur'
       ? 'Létající příbuzní dinosaurů s blanitými křídly.'
       : state.category === 'dinosaur' ? 'Objevuj podobu, způsob života a stopy ve fosiliích.'
       : state.category === 'marine-reptile' ? 'Obyvatelé pravěkých moří. Patří do různých skupin plazů a nejsou to dinosauři.'
-      : 'Dinosauři, ptakoještěři i mořští plazi. Objevuj, porovnávej a hraj.';
+      : state.category === 'arthropod' ? 'Pravěký hmyz, pavoukovci, korýši i příbuzní ostrorepů. Malí tvorové s velkým příběhem.'
+      : 'Dinosauři, ptakoještěři, mořští plazi i členovci. Objevuj, porovnávej a hraj.';
     $('gallery-title').textContent = state.category === 'all' ? 'Prozkoumej atlas' : CATEGORIES[state.category];
   }
   function confidenceBadge(level) {
@@ -555,20 +569,40 @@
     if (currentRoute.startsWith('#dinosaurus/') && detailIds.includes(dino.id)) return;
     // Searching locates the starting animal; browsing continues through the
     // category and other active filters without clearing the atlas query.
-    const selected = currentRoute === '#atlas' ? filteredDinosaurs(dinosaurs, { ...state, query: '' }) : categoryAnimals(dinosaurs, state.category);
-    const fallbackCategory = state.category === 'all' ? 'all' : categoryOf(dino);
-    detailIds = (selected.some(item => item.id === dino.id) ? selected : categoryAnimals(dinosaurs, fallbackCategory)).map(item => item.id);
+    const fromAtlas = currentRoute === '#atlas';
+    detailFilter = fromAtlas ? { ...state, query: '', favorites: new Set(state.favorites) }
+      : { ...state, ...(currentRoute === '#kviz' ? quizFilters : {}), query: '', diet: 'all', favoritesOnly: false };
+    let selected = filteredDinosaurs(dinosaurs, detailFilter);
+    if (!selected.some(item => item.id === dino.id)) {
+      detailFilter = { ...detailFilter, category: state.category === 'all' ? 'all' : categoryOf(dino), period: 'all', diet: 'all', favoritesOnly: false };
+      selected = filteredDinosaurs(dinosaurs, detailFilter);
+    }
+    detailIds = selected.map(item => item.id);
   }
 
   function detailNavigation(dino) {
     const index = detailIds.indexOf(dino.id);
     const previous = byId.get(detailIds[index - 1]);
     const next = byId.get(detailIds[index + 1]);
-    return `<nav class="detail-browser" aria-label="Procházení vybraných zvířat">
+    return `${periodButtons('detail', detailFilter?.period || 'all')}<nav class="detail-browser" aria-label="Procházení vybraných zvířat">
       <button type="button" class="button" data-detail-step="-1" ${previous ? `aria-label="Předchozí: ${escapeHtml(copy(previous).displayName)}"` : 'disabled'}><span aria-hidden="true">←</span>Předchozí</button>
       <span class="detail-position" aria-label="Zvíře ${index + 1} z ${detailIds.length}">${index + 1} / ${detailIds.length}</span>
       <button type="button" class="button" data-detail-step="1" ${next ? `aria-label="Další: ${escapeHtml(copy(next).displayName)}"` : 'disabled'}>Další<span aria-hidden="true">→</span></button>
     </nav>${detailIds.length > 1 ? '<p class="swipe-hint">Na telefonu můžeš přejít i tahem doleva nebo doprava.</p>' : ''}`;
+  }
+
+  function periodButtons(context, selected) {
+    return `<div class="period-filters" role="group" aria-label="${context === 'detail' ? 'Období při procházení' : 'Období kvízu'}">${Object.entries({ ...PERIODS, all: 'Vše' }).map(([id, label]) => `<button type="button" data-${context}-period="${id}" aria-pressed="${selected === id}">${escapeHtml(label)}</button>`).join('')}</div>`;
+  }
+  function changeDetailPeriod(period) {
+    if (!detailFilter || !(period === 'all' || PERIODS[period])) return;
+    const nextFilter = { ...detailFilter, period };
+    const selected = filteredDinosaurs(dinosaurs, nextFilter);
+    if (!selected.length) { toast('V tomto období nemáme zvíře odpovídající ostatním filtrům. Zkus Vše nebo uprav filtry v atlasu.'); return; }
+    detailFilter = nextFilter;
+    detailIds = selected.map(animal => animal.id);
+    history.replaceState(null, '', `#dinosaurus/${detailIds[0]}`);
+    route();
   }
 
   function stepDetail(direction) {
@@ -585,6 +619,7 @@
   function renderComparison(dino) {
     const data = comparisonData(dino, comparisonHeight);
     if (!data) return '';
+    if (data.small) return `<details class="detail-section size-section"><summary>Jak velký byl?</summary><div class="section-text">${readControls('comparison', 'Přečíst porovnání')}<p>Porovnej ${data.kind === 'wingspan' ? 'rozpětí křídel' : 'délku těla'} s úsekem pravítka. Oba proužky mají stejné měřítko; skutečná velikost na displeji závisí na zařízení.</p><figure class="size-chart"><div class="size-row"><div class="size-label"><strong>${escapeHtml(copy(dino).displayName)}</strong><span>Asi ${measureLabel(data.valueM)}</span></div><div class="size-track"><div class="size-bar animal-bar" style="width:${data.animalPercent}%"></div></div></div><div class="size-row"><div class="size-label"><strong>Úsek pravítka</strong><span>${measureLabel(data.referenceM)}</span></div><div class="size-track"><div class="size-bar human-bar" style="width:${data.humanPercent}%"></div></div></div></figure>${confidenceBadge(dino.comparison.confidence)}<p class="measurement-note">${escapeHtml(localized(dino.comparison.note))}</p></div></details>`;
     const metric = data.kind === 'wingspan' ? 'Rozpětí křídel' : 'Délka od hlavy po ocas';
     return `<details class="detail-section size-section"><summary>Jak velký byl?</summary><div class="section-text">
       ${readControls('comparison', 'Přečíst porovnání')}
@@ -631,15 +666,30 @@
       ${renderComparison(dino)}${sections}${renderContemporaries(dino)}`;
   }
 
+  function syncQuizFilters() {
+    $('quiz-filters').innerHTML = `<div class="category-filters" role="group" aria-label="Kategorie kvízu">${Object.entries(CATEGORIES).map(([id, label]) => `<button type="button" data-quiz-category="${id}" aria-pressed="${quizFilters.category === id}">${label}</button>`).join('')}</div>${periodButtons('quiz', quizFilters.period)}`;
+    $('quiz-category').textContent = `Kvíz · ${CATEGORIES[quizFilters.category]} · ${PERIODS[quizFilters.period] || 'Všechna období'}`;
+  }
   function beginQuiz() {
-    const questions = makeQuiz(categoryAnimals(dinosaurs, state.category));
+    const questions = makeQuiz(dinosaurs.filter(animal => (quizFilters.category === 'all' || categoryOf(animal) === quizFilters.category) && (quizFilters.period === 'all' || animal.period === quizFilters.period)));
+    syncQuizFilters();
     quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, hintRevealed: false, tried: new Set() };
     renderQuiz();
+  }
+  // When a question changes, prioritize the picture and choices on portrait screens.
+  // Leave landscape scrolling alone: there is usually not enough vertical space.
+  function scrollQuizToQuestion() {
+    requestAnimationFrame(() => {
+      if (currentRoute !== '#kviz' || $('quiz-view').hidden || window.innerWidth >= window.innerHeight) return;
+      const picture = $('quiz-content').querySelector('.quiz-picture');
+      if (!picture) return;
+      window.scrollTo(0, Math.max(0, window.scrollY + picture.getBoundingClientRect().top - 12));
+    });
   }
   function renderQuiz() {
     if (!quiz) { beginQuiz(); return; }
     if (!quiz.questions.length) {
-      $('quiz-content').innerHTML = '<p>Pro kvíz v této kategorii potřebujeme alespoň tři zvířata s obrázkem. Zkus přepnout na Vše.</p>';
+      $('quiz-content').innerHTML = '<p>Pro tuto kombinaci potřebujeme alespoň tři vhodná zvířata s obrázkem a rozlišitelnými odpověďmi. Zkus jiné období nebo kategorii Vše.</p>';
       return;
     }
     if (quiz.index >= quiz.questions.length) {
@@ -704,6 +754,7 @@
     const hash = (!location.hash || location.hash === '#main') ? '#atlas' : location.hash;
     if (hash !== currentRoute) stopNarration(false);
     if (currentRoute === '#atlas' && hash !== '#atlas') galleryScroll = window.scrollY;
+    document.querySelector('.category-wrap').hidden = hash === '#kviz';
     ['atlas-view', 'detail-view', 'quiz-view', 'not-found'].forEach(id => { $(id).hidden = true; });
     const detailMatch = hash.match(/^#dinosaurus\/([a-z0-9-]+)$/);
     let nav = 'atlas';
@@ -743,6 +794,7 @@
     });
     currentRoute = hash;
     detailSwipe = null;
+    if (hash === '#kviz') scrollQuizToQuestion();
     scheduleScrollControls();
   }
 
@@ -799,10 +851,8 @@
     state.category = button.dataset.category;
     saveStorage('dinoatlas-category', state.category);
     syncCategory();
-    quiz = null;
     galleryScroll = 0;
-    if (currentRoute === '#kviz') beginQuiz();
-    else if (currentRoute === '#atlas') renderGallery();
+    if (currentRoute === '#atlas') renderGallery();
     else location.hash = 'atlas';
   });
   $('search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
@@ -827,6 +877,19 @@
     if (visible.length) location.hash = `dinosaurus/${visible[Math.floor(Math.random() * visible.length)].id}`;
   });
   document.addEventListener('click', event => {
+    const period = event.target.closest('[data-detail-period]');
+    if (period) { changeDetailPeriod(period.dataset.detailPeriod); return; }
+    const quizCategory = event.target.closest('[data-quiz-category]');
+    const quizPeriod = event.target.closest('[data-quiz-period]');
+    if (quizCategory || quizPeriod) {
+      const attribute = quizCategory ? 'data-quiz-category' : 'data-quiz-period';
+      const value = (quizCategory || quizPeriod).getAttribute(attribute);
+      quizFilters[quizCategory ? 'category' : 'period'] = value;
+      beginQuiz();
+      document.querySelector(`[${attribute}="${value}"]`)?.focus({ preventScroll: true });
+      scrollQuizToQuestion();
+      return;
+    }
     const image = event.target.closest('[data-image-viewer]');
     if (image) { openPicture(image); return; }
     const step = event.target.closest('[data-detail-step]');
@@ -868,12 +931,12 @@
       quiz.hintRevealed = false;
       quiz.tried.clear();
       renderQuiz();
-      $('quiz-title').scrollIntoView({ block: 'start' });
       $('quiz-content').querySelector('button')?.focus({ preventScroll: true });
+      scrollQuizToQuestion();
     }
     if (event.target.closest('#quiz-restart')) {
       beginQuiz();
-      $('quiz-title').scrollIntoView({ block: 'start' });
+      scrollQuizToQuestion();
     }
   });
   window.addEventListener('hashchange', route);
@@ -892,6 +955,9 @@
       if (!response.ok) throw new Error(`Databáze se nenačetla (${response.status}).`);
       database = await response.json();
       validateDatabase(database);
+      Object.assign(PERIODS, database.periods || {});
+      $('period-filters').innerHTML = Object.entries({ ...PERIODS, all: 'Vše' }).map(([id, label]) => `<button type="button" data-period="${id}" aria-pressed="${state.period === id}">${escapeHtml(label)}</button>`).join('');
+      syncQuizFilters();
       dinosaurs = sortAnimals(database.dinosaurs);
       byId = new Map(dinosaurs.map(dino => [dino.id, dino]));
       let saved = [];

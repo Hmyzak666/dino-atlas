@@ -61,7 +61,7 @@ async function back(page) {
     await page.locator('#search').fill('brachiosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'brachiosaurus-altithorax');
-    assert.equal(await page.locator('.detail-position').textContent(), '4 / 42');
+    assert.equal(await page.locator('.detail-position').textContent(), '8 / 72');
     await step(page, 1, 'brontosaurus-excelsus');
     await step(page, -1, 'brachiosaurus-altithorax');
 
@@ -86,9 +86,10 @@ async function back(page) {
     await page.locator('#search').fill('ceratosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'ceratosaurus-nasicornis');
-    assert.equal(await page.locator('.detail-position').textContent(), '2 / 4');
+    assert.equal(await page.locator('.detail-position').textContent(), '3 / 6');
     await step(page, 1, 'dilophosaurus-wetherilli');
     await step(page, -1, 'ceratosaurus-nasicornis');
+    await step(page, -1, 'archaeopteryx-lithographica');
     await step(page, -1, 'allosaurus-fragilis');
     assert.equal(await page.locator('[data-detail-step="-1"]').isDisabled(), true);
     await back(page);
@@ -118,7 +119,7 @@ async function back(page) {
     await page.locator('[data-category="pterosaur"]').click();
     await page.locator('#search').fill('pterodactylus');
     await openResult(page, 'pterodactylus-antiquus');
-    assert.equal(await page.locator('.detail-position').textContent(), '4 / 6');
+    assert.equal(await page.locator('.detail-position').textContent(), '7 / 10');
     await step(page, 1, 'quetzalcoatlus-northropi');
     await back(page);
     assert.equal(await page.locator('#search').inputValue(), 'pterodactylus');

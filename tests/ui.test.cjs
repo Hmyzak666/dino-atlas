@@ -63,7 +63,7 @@ async function openAnimal(page,id) {
       page.on('request',r=>{if(!r.url().startsWith(base))errors.push('External request: '+r.url());});
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
-      assert.equal(await page.locator('#gallery .dino-card').count(),42);
+      assert.equal(await page.locator('#gallery .dino-card').count(),72);
       assert.deepEqual(await page.locator('#period-filters button').allTextContents(),['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
@@ -73,7 +73,7 @@ async function openAnimal(page,id) {
           img.onerror=()=>reject(new Error('Image decoding failed: '+src));
           img.src=src;
         }))),db.dinosaurs.map(a=>a.image.src));
-        assert.equal(decoded.length,42);
+        assert.equal(decoded.length,72);
         assert.ok(decoded.every(img=>img.width>0&&img.height>0),'All animal images must decode in the browser');
       }
       const names=await page.locator('.card-title-row h3').allTextContents();
@@ -243,8 +243,8 @@ async function openAnimal(page,id) {
       await page.waitForFunction(y=>Math.abs(scrollY-y)<5,galleryY);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       await page.locator('[data-category="marine-reptile"]').click();
-      assert.equal(await page.locator('#gallery .dino-card').count(),6);
-      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Plesiosaurus','Shonisaurus']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),8);
+      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Plesiosaurus','Shonisaurus','Tylosaurus']);
       await noOverflow(page);
 
       if(width===412) {
@@ -288,7 +288,8 @@ async function openAnimal(page,id) {
         await page.waitForURL('**/#atlas');
         await page.locator('[data-category="all"]').click();
         await page.locator('[data-period="triassic"]').click();
-        assert.equal(await page.locator('#gallery .dino-card').count(),11);
+        const triassicCount=db.dinosaurs.filter(animal=>animal.period==='triassic').length;
+        assert.equal(await page.locator('#gallery .dino-card').count(),triassicCount);
         await page.locator('#search').fill('nothosaurus');
         await page.locator('#card-nothosaurus-mirabilis').click();
         await page.waitForURL('**/#dinosaurus/nothosaurus-mirabilis');
@@ -298,7 +299,7 @@ async function openAnimal(page,id) {
         assert.match(facts,/Střední trias/);
         assert.match(facts,/Hmotnost:/);
         assert.match(facts,/3,2 metru/);
-        assert.match(await page.locator('.detail-position').textContent(),/\/ 11/);
+        assert.match(await page.locator('.detail-position').textContent(),new RegExp('/ '+triassicCount));
         await page.screenshot({path:path.join(artifacts,'nothosaurus-360.png')});
         await openAnimal(page,'eudimorphodon-ranzii');
         await page.locator('[data-read="facts"]').click();
