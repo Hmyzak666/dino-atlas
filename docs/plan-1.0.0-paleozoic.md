@@ -2,6 +2,14 @@
 
 > **Stav:** šest vědecky zdrojovaných kandidátních hesel kambria je nyní v `content-drafts/cambrian-six.json`; zatím se nezobrazují v aplikaci, protože chybí původní ilustrace. Pokyny ke všem šesti obrázkům jsou v `docs/image-prompts/1.0.0-cambrian.md`. Nevydávat tuto větev jako hotovou 1.0.0 bez 40 vědecky ověřených a zveřejněných hesel, 40 samostatných obrázků a zeleného CI.
 
+## Aktuální ověřený postup — 25. října 2026
+- **Kambrium:** 6 druhů a 6 obrázků aktivovaných, zelený import a mobilní testy.
+- **Ordovik:** 5 druhů a 5 obrázků aktivovaných, zelený import a mobilní testy.
+- **Silur:** 5 druhů a 5 obrázků aktivovaných, zelený import a mobilní testy.
+- **Současný stav pracovní aplikace:** 88 živočichů / 88 obrázků, 16 ze 40 plánovaných prvohorních druhů.
+- **Devon:** připraveno osm obsahových draftů v `content-drafts/devonian-eight.json` a jejich regresní testy. Odborné požadavky a obrazový audit v `docs/image-prompts/1.0.0-devonian.md`. Ještě **nepublikováno**, protože obrazové rekonstrukce nesplnily anatomickou kontrolu.
+- **Stabilní `main`:** stále 0.9.0 build 90001, beze změn.
+ 
 ## Výchozí stav
 Navazuje na ověřené Dino Atlas 0.9.0 (72 živočichů) včetně posunu kvízu na výšku. První krok je model éra → období, samostatné filtry atlasu a kvízu a rozšiřitelné kategorie. Stabilní main a původních 72 hesel/obrázků zůstanou nedotčené až do schválené aktualizace.
 
