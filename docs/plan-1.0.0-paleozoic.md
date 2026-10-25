@@ -7,9 +7,9 @@
 - **Ordovik:** 5 druhů / 5 obrázků aktivováno.
 - **Silur:** 5 druhů / 5 obrázků aktivováno.
 - **Devon:** 8 druhů / 8 obrázků aktivováno (Dunkleosteus používá vědeckou rekonstrukci s uvedením autora a licence CC BY 4.0).
-- **Karbon:** 8 odborných draftů v `content-drafts/carboniferous-eight.json`; existuje izolovaná 1152×768 rekonstrukce Arthropleury a pracovní kompozice Meganeury, ale jsou **mimo aktivní databázi**. Dalších šest správných samostatných obrázků chybí.
+- **Karbon:** 8 českých odborných draftů v `content-drafts/carboniferous-eight.json`. Kompletní sada **8 různých licencovaných obrazových předloh** již prošla kontrolou a osm WebP je připraveno v ověřeném ZIP `DinoAtlas_Karbon_8_images_GitHub.zip`; dosud **není nahrán ani aktivován**. Po správném importu 104 druhů. Některé záběry jsou odborné kresby, fotografie modelů či ilustrace a do finálního vydání se mohou ještě vizuálně sjednotit. Autoři a licence jsou v `docs/CARBONIFEROUS-ARTWORK-LICENSES.md`.
 - **Perm:** 8 plánovaných druhů, zatím nepřipravených pro zveřejnění.
-- Importní nástroj `tools/import_carboniferous.py` kontroluje přesných osm obrázků a vyžaduje předem schválený SHA-256; **bez kompletní sady nelze spustit ani zveřejnit**.
+- Importní nástroj `tools/import_carboniferous.py` kontroluje přesných osm obrázků, schválený SHA-256 (`b81d8d88e52b88784b673fcd3964b6a5c94e71afa0ac43229eb1eeccc4196c4a`) a uvádí původ obrázků. GitHub workflow `import-carboniferous.yml` spustí import **až po nahrání** ZIP do pracovní větve.
 - **Cíl:** 112 hesel, 112 obrázků, úplné CI a test APK na telefonu před sloučením do `main`.
 
 ## Výchozí stav
