@@ -33,6 +33,6 @@ const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
 for (const key of baseline.storageKeys) assert.ok(app.includes("'" + key + "'"), 'storage key changed: ' + key);
 const workflows = fs.readdirSync(path.join(root, '.github/workflows')).filter(f => /\.ya?ml$/.test(f));
 assert.ok(workflows.includes('android-apk.yml'));
-assert.ok(workflows.every(name=>['android-apk.yml','import-cambrian.yml','import-ordovician.yml','import-silurian.yml'].includes(name)), 'Unexpected active workflow');
+assert.ok(workflows.every(name=>['android-apk.yml','import-cambrian.yml','import-ordovician.yml','import-silurian.yml','import-devonian.yml'].includes(name)), 'Unexpected active workflow');
 assert.deepEqual(fs.readdirSync(path.join(root, 'images')).sort(), db.dinosaurs.map(a => path.basename(a.image.src)).sort());
 console.log('PASS: approved UI changes and confirmed database/image bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and only approved CI/import workflows.');
