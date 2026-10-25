@@ -1,5 +1,5 @@
 name: Carboniferous licensed image audit
-# Re-run after checking changed upstream Crassigyrinus bytes.
+# Re-run with pinned current Wikimedia Crassigyrinus image version.
 
 on:
   push:
