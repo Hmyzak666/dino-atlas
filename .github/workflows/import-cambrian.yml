@@ -29,6 +29,8 @@ jobs:
         run: |
           npm ci
           npm test
+      - name: Retire the one-time importer after successful verification
+        run: rm .github/workflows/import-cambrian.yml
       - name: Commit validated content to the 1.0 feature branch only
         run: |
           git config user.name "github-actions[bot]"
