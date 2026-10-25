@@ -33,6 +33,11 @@ for(const animal of draft.animals){
   const pub=db.dinosaurs.find(x=>x.id===animal.id);
   assert.ok(pub);
   assert.equal(pub.image.status,'working-reconstruction');
+  assert.equal(pub.image.sourceIds.length,1,'every published Carboniferous image needs attribution');
+  const artSource=db.sources[pub.image.sourceIds[0]];
+  assert.ok(artSource && artSource.kind.includes('licence CC'),'licensed source missing from database');
+  assert.ok(pub.image.note.cs.includes('creativecommons.org/licenses/'),'license must appear in app detail');
+  assert.ok(pub.image.note.cs.includes('Úpravy:'),'derivative changes must be disclosed');
  }
 }
 const get=id=>draft.animals.find(a=>a.id===id);
