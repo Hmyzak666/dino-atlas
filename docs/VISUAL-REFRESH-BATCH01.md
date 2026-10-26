@@ -44,3 +44,9 @@ Jednorázový GitHub Actions workflow `.github/workflows/import-visual-refresh-0
 Při jakémkoliv nesouladu kontrol se nic necommituje a původní instalace není změněná. Po zeleném sestavení lze stáhnout a otestovat **podepsanou aktualizaci 1.0.0 build 1000001** přímo přes instalaci 1000000 se zachováním oblíbených a nastavení.
 
 **Další plánované šarže:** další silurští živočichové, kteří vyžadují přesnější anatomické rekonstrukce, poté kambrium + ordovik a část karbonu/permu bez přirozeného pozadí. Neprovádět plošnou výměnu bez průběžného vizuálního auditu.
+
+
+## Automatický import proveden
+Importní workflow [40308476854](https://github.com/Hmyzak666/dino-atlas/actions/runs/40308476854) úspěšně vyměnil tři obrázky, uložil jejich původní verze do `docs/backups/visual-refresh-01/` a změnil `versionCode` na **1000001**. Původní archivační ZIP byl po importu odstraněn ze stromu projektu. Všech 112 původních ID se zachovalo.
+
+GitHub Actions bot odeslal commit `13f71175ad5540a8c05b62a029278cb454b8bf29` a jeho následný PR workflow byl označen `action_required` bez spuštěných jobs. Tento lidsky autorizovaný dokumentační commit vyžaduje nový standardní CI průchod a podpisový build na aktuální větvi. Nezaměňovat dokončený import se schváleným finálním APK.
