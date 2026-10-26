@@ -1,3 +1,5 @@
+> Vzhled dávky 03 uživatel následně schválil. Pokračování: [dávka 04 — ordovik](VISUAL-REFRESH-BATCH04.md).
+
 # Vizuální dávka 03 — Kambrium, kandidát 1.0.0 / 1000003
 
 26. října 2026. Výhradně větev `feature/paleozoic-1.0.0`. Výchozí commit `78bdb54c083796e7fcdf2e7395144113b59c3aa2`. Uživatel schválil vzhled předchozí trojice Acutiramus, Birkenia, Dunkleosteus a požádal o další dávku; samostatné potvrzení instalace buildu 1000002 není zaznamenáno.

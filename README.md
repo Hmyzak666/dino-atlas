@@ -1,3 +1,5 @@
+> **Aktuálně 26. 10. 2026 — dávka 04, kandidát 1000004:** Pět nových ordovických scén; předchozí kambrická dávka vizuálně schválená. Zachováno 112 druhů, nahrazeno 17 z 30 plánovaných obrazů, zbývá 13 (karbon 6, perm 7). Testy a podepsané APK 1000004 se ověřují, zatím nepotvrzené. [Předání dávky 04](docs/VISUAL-REFRESH-BATCH04.md). Neslučovat do main. Starší údaje níže jsou historie.
+
 # Dino Atlas
 
 > **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Lokální i GitHub testy prošly, podepsané APK 1000003 je hotové; čeká uživatelská kontrola dávky. [Aktuální předání](docs/VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
