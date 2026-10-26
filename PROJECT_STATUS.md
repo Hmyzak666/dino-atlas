@@ -1,5 +1,7 @@
 # Stav projektu Dino Atlas
 
+> **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Testy a sestavení této dávky probíhají. [Aktuální předání](docs/VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
+
 ## Aktuální kandidát 1.0.0 — 26. října 2026
 
 Větev `feature/paleozoic-1.0.0`, 112 druhů. Poslední uživatelem schválený build je **1000001** (Eurypterus, Entelognathus, Qilinyu). Kandidát **1000002** přidává jednotlivě zkontrolované rekonstrukce Acutiramus, Birkenia a Dunkleosteus. Zbývá **24 plánovaných obrazových oprav**; nejde o finální vydání. Obsah druhů a funkční kód zůstávají beze změny. Zálohováno všech 40 prvohorních obrázků ze schváleného výchozího stavu.

@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, '..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/visual-refresh-02/manifest.json');
 const accepted = require('../docs/visual-refresh-02.json');
+const nextBatch = require('../docs/visual-refresh-03.json');
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.equal(db.dinosaurs.length, 112);
 assert.deepEqual(db.dinosaurs.map(a => a.id).sort(), Object.keys(before.allActiveImageSha256).sort());
@@ -15,7 +16,7 @@ for (const [id, old] of Object.entries(before.images)) {
   assert.equal(sha(path.join(root, 'docs/backups/visual-refresh-02/images', id + '.webp')), old.sha256);
 }
 for (const animal of db.dinosaurs) {
-  assert.equal(sha(path.join(root, animal.image.src)), accepted[animal.id]?.sha256 || before.allActiveImageSha256[animal.id], animal.id);
+  assert.equal(sha(path.join(root, animal.image.src)), accepted[animal.id]?.sha256 || nextBatch[animal.id]?.sha256 || before.allActiveImageSha256[animal.id], animal.id);
   if (accepted[animal.id]) {
     assert.equal(animal.image.status, 'working-reconstruction');
     assert.ok(!animal.image.sourceIds?.length);
@@ -29,4 +30,4 @@ function canonical(value) {
 }
 const content = db.dinosaurs.map(({image, ...animal}) => animal);
 assert.equal(crypto.createHash('sha256').update(JSON.stringify(canonical(content))).digest('hex'), before.contentCanonicalSha256);
-console.log('PASS: exactly three reviewed replacements, 40 rollback images, all 112 IDs/texts/TTS and other artwork preserved.');
+console.log('PASS: batch 02 replacements preserved, 40 rollback images, all 112 IDs/texts/TTS and other artwork preserved.');

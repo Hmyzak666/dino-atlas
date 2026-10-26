@@ -1,5 +1,7 @@
 # Dino Atlas
 
+> **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Testy a sestavení této dávky probíhají. [Aktuální předání](docs/VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
+
 > **Pracovní 1.0.0, kandidát build 1000002:** 112 druhů, šest ze třiceti plánovaných obrazových náhrad vloženo (první tři schválené uživatelem). Nově Acutiramus, Birkenia a Dunkleosteus. Zbývá 24 oprav; nejde o finální vydání. Lokální i GitHub testy prošly a podepsané APK 1000002 je hotové; čeká kontrola této dávky na telefonu. [Stav dávky](docs/VISUAL-REFRESH-BATCH02.md). **Neslučovat do main.**
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
