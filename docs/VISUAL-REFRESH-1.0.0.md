@@ -1,5 +1,7 @@
 # Dino Atlas 1.0.0 — visual refresh po testování na telefonu
 
+**Aktualizace 26. 10. 2026:** Build 1000001 a první tři náhrady uživatel schválil. Dávka 02 doplňuje Acutiramus, Birkenia a Dunkleosteus, kandidát 1000002; 24 oprav stále zbývá. Viz [aktuální předání](VISUAL-REFRESH-BATCH02.md). Níže zůstává původní audit a historie.
+
 **Status 25. 10. 2026:** Uživatel nainstaloval podepsanou zkušební verzi **1.0.0 build 1000000** na telefon. Potvrdil, že funkce běží správně, ale **většina 40 nových prvohorních ilustrací má rozmazané okraje, nepřirozené bílé/šedé plochy či nesjednocený styl**. Neschválit zatím vydání, **neslučovat** pracovní větev do `main`. Schválený obsah 112 druhů, oblíbené, TTS a kvíz se **nemění**.
 
 ## Reálný obrazový audit

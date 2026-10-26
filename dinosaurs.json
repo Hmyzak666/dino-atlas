@@ -26989,9 +26989,9 @@
           "cs": "Pracovní realistická rekonstrukce: Acutiramus."
         },
         "status": "working-reconstruction",
-        "facing": "left",
+        "facing": "right",
         "note": {
-          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+          "cs": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz."
         }
       },
       "facts": [
@@ -27271,7 +27271,7 @@
         "status": "working-reconstruction",
         "facing": "right",
         "note": {
-          "cs": "Pracovní AI ilustrace. Rekonstruované zbarvení a některé měkké anatomické detaily nejsou fosilně doložené; vědecky nejisté prvky jsou vysvětlené v textu."
+          "cs": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz."
         }
       },
       "facts": [
@@ -28061,11 +28061,8 @@
         "status": "working-reconstruction",
         "facing": "left",
         "note": {
-          "cs": "Rekonstrukce: Russell K. Engelman (2024), CC BY 4.0. Zdroj Wikimedia Commons / Palaeontologia Electronica; převod JPEG na WebP a doplnění okrajů. Licence https://creativecommons.org/licenses/by/4.0/. Tělo za pancířem zůstává hypotetické."
-        },
-        "sourceIds": [
-          "devon-dunk-picture2024"
-        ]
+          "cs": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz."
+        }
       },
       "facts": [
         {

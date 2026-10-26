@@ -1,6 +1,7 @@
 # Dino Atlas
 
-> **Vývojová verze 1.0.0 (build 1000000):** Kompletní obsahová aktualizace prvohor přidává 40 živočichů. Pracovní atlas má 112 druhů a 112 obrázků. Průběžné testy prošly; **čeká ověření podepsaného APK na telefonu**. Do `main` nic neslučovat bez potvrzení. Detaily v [release checklistu](docs/RELEASE-1.0.0-CHECKLIST.md).\n\n
+> **Pracovní 1.0.0, kandidát build 1000002:** 112 druhů, šest ze třiceti plánovaných obrazových náhrad vloženo (první tři schválené uživatelem). Nově Acutiramus, Birkenia a Dunkleosteus. Zbývá 24 oprav; nejde o finální vydání. Lokální testy prošly, podepsané sestavení a telefonní kontrola této dávky čekají. [Stav dávky](docs/VISUAL-REFRESH-BATCH02.md). **Neslučovat do main.**
+
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 
 **Uživatelem na telefonu ověřená verze 0.9.0, sestavení 90001**, rozšiřuje atlas na **72 zvířat — 45 dinosaurů, 10 ptakoještěrů, 8 mořských plazů a 9 členovců**. Navazuje na ověřenou 0.8.1 (80101). Všech 42 původních záznamů a obrázků je zachováno. Uživatel potvrdil správnou funkčnost nové verze i automatického posunu kvízu.

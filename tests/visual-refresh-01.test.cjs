@@ -14,8 +14,8 @@ const expected={
 assert.equal(db.dinosaurs.length,112);
 assert.equal(new Set(db.dinosaurs.map(a=>a.id)).size,112);
 assert.equal(config.version,'1.0.0');
-assert.ok([1000000,1000001].includes(config.versionCode));
-const activated=config.versionCode===1000001;
+assert.ok(Number.isInteger(config.versionCode) && config.versionCode >= 1000000);
+const activated=config.versionCode>=1000001;
 for(const [id,[oldhash,newhash]] of Object.entries(expected)){
  const name=id+'.webp';
  const actual=sha(path.join(root,'images',name));
