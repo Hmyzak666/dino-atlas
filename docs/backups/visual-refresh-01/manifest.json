@@ -1,0 +1,17 @@
+{
+  "batch": "visual-refresh-01",
+  "versionCodeBefore": 1000000,
+  "versionCodeAfter": 1000001,
+  "originals": {
+    "eurypterus-remipes.webp": "09f6ccb10f9ed8eaa97b638197c012fbf7d7cb83181e54773ea9ed1e9f96df98",
+    "entelognathus-primordialis.webp": "08fbc8af481f203489d5f6b6dfa31675ba0a53edf9618630fe765024af21b390",
+    "qilinyu-rostrata.webp": "5aa96cbd0c39afebeac26e6c1ed0fc8b17917feb48c0d5f6154930cc30b6e261"
+  },
+  "replacements": {
+    "eurypterus-remipes.webp": "61622939bcb325ba71b895fa00879a295f1216a0573d53e4406d12191634be71",
+    "entelognathus-primordialis.webp": "1e88cefd5fd4d4ec5956d3b7089b01ca2cc6fcc56e31e783ab1d50ba18210f49",
+    "qilinyu-rostrata.webp": "26e8747af950ffa7bf673bc39ebd6d538936a8ccbf7ff3030a45e5c2c4d86f6a"
+  },
+  "source": "Three distinct original working AI illustrations, no third-party picture components",
+  "scientificLimitations": "See each animal image.note, original research claims remain unchanged."
+}
