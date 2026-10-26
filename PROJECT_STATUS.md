@@ -4,7 +4,7 @@
 
 Větev `feature/paleozoic-1.0.0`, 112 druhů. Poslední uživatelem schválený build je **1000001** (Eurypterus, Entelognathus, Qilinyu). Kandidát **1000002** přidává jednotlivě zkontrolované rekonstrukce Acutiramus, Birkenia a Dunkleosteus. Zbývá **24 plánovaných obrazových oprav**; nejde o finální vydání. Obsah druhů a funkční kód zůstávají beze změny. Zálohováno všech 40 prvohorních obrázků ze schváleného výchozího stavu.
 
-Lokálně prošly `npm test` a `npm run test:ui` (Chromium 153). Podepsané APK a zkouška nových obrázků na telefonu zatím čekají. Podrobnosti a další pořadí: [dávka 02](docs/VISUAL-REFRESH-BATCH02.md). **Neslučovat do main.** Starší stav níže je historický.
+Lokálně prošly `npm test` a `npm run test:ui` (Chromium 153). GitHub Actions 40325360063 úspěšně dokončil testy i podepsané APK 1000002 s původním certifikátem. Zkouška nových obrázků na telefonu zatím čeká. Podrobnosti a další pořadí: [dávka 02](docs/VISUAL-REFRESH-BATCH02.md). **Neslučovat do main.** Starší stav níže je historický.
 
 Aktualizováno 25. října 2026. **Telefonem ověřená finální verze 0.9.0, versionCode 90001**, připravená ke sloučení do `main` po výslovném souhlasu uživatele. Základ: 0.8.1 (80101), commit `7d419272a9d86dc1d4a44ac7591eb6a9b6dd7fee`. Uživatel potvrdil funkčnost 0.9.0 (90000) i následné opravy automatického posunu kvízu v 90001.
 

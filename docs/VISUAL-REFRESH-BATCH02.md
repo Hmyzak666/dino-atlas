@@ -29,7 +29,8 @@ Původní obrázek Dunkleosteus od Russell K. Engelman (2024), CC BY 4.0, zůst�
 - `visual-refresh-02.json`: SHA-256 tří přijatých nových WebP a rozměry.
 - `npm test`: prošel; ověřuje data, TTS cíle, kvízy, kompatibilitu, původní podpisový certifikát a sestavovací kontrolu. Nový regresní test hlídá přesně tři výměny a zálohy.
 - `npm run test:ui`: prošel lokálně v Chromium 153; šířky 320/360/412/900, zoom, návraty, dotykové procházení, oblíbené, filtry a ovládání TTS. Nejde o poslech skutečného českého hlasu na telefonu.
-- Podepsané APK: zatím čeká na GitHub Actions. Telefonní kontrola této dávky dosud neproběhla.
+- GitHub Actions [40325360063](https://github.com/Hmyzak666/dino-atlas/actions/runs/40325360063): testy dat a rozhraní i podepsané Android sestavení prošly. Ověřeno 112 druhů, přesná shoda zabalených souborů, applicationId a původní podpisový certifikát. Zdrojový commit `6fce1777956af24e210572fec3e08b27b1a90104`.
+- [APK 1.0.0 / 1000002 v archivu GitHub](https://github.com/Hmyzak666/dino-atlas/actions/runs/40325360063/artifacts/12651301264), 29 370 625 bajtů. Telefonní kontrola této dávky dosud neproběhla.
 
 ## Zbývající práce
 
