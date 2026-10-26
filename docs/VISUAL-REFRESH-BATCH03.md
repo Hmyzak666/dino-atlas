@@ -37,7 +37,7 @@ Použit vestavěný imagegen; žádná cizí ilustrace nebyla nahrána jako pře
 - `visual-refresh-03.json` obsahuje rozměry a SHA-256 nových šesti WebP.
 - Regresní test dávky 03 hlídá přesně šest výměn, zálohy a 106 nezměněných obrázků. Test dávky 02 dále hlídá neobrazová data všech 112 druhů; pro šest výslovně nových obrázků používá manifest dávky 03. První dvě schválené dávky zůstávají chráněné.
 - Lokální `npm test` i `npm run test:ui` prošly; Chromium 153, šířky 320/360/412/900, světlý/tmavý vzhled, zoom, procházení, filtry, oblíbené a ovládání TTS. Skutečný hlas telefonu nebyl touto automatickou kontrolou poslouchán.
-- GitHub Actions [40370487827](https://github.com/Hmyzak666/dino-atlas/actions/runs/40370487827) nad commitem `bf0dd5257bb15cc866e010fe122ea06ac5ad8da1`: testy dat prošly, příprava prohlížeče dosud běží. Podepsané APK 1000003 zatím čeká; netvrdit, že je sestavené.
+- GitHub Actions [40370487827](https://github.com/Hmyzak666/dino-atlas/actions/runs/40370487827) nad commitem `bf0dd5257bb15cc866e010fe122ea06ac5ad8da1`: testy dat, rozhraní i podepsané sestavení úspěšně dokončené. Ověřeno 112 druhů, shoda zabalených dat a všech obrázků, applicationId a původní podpis. [Archiv APK 1000003](https://github.com/Hmyzak666/dino-atlas/actions/runs/40370487827/artifacts/12672982009), samotné APK 30 411 009 bajtů. Dávka čeká na kontrolu uživatele na telefonu.
 
 ## Předání při přerušení
 

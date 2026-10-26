@@ -1,6 +1,6 @@
 # Dino Atlas 1.0.0 — visual refresh po testování na telefonu
 
-> **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Lokální testy dat i rozhraní prošly; sestavení na GitHubu probíhá. [Aktuální předání](VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
+> **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Lokální i GitHub testy prošly, podepsané APK 1000003 je hotové; čeká uživatelská kontrola dávky. [Aktuální předání](VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
 
 **Aktualizace 26. 10. 2026:** Build 1000001 a první tři náhrady uživatel schválil. Dávka 02 doplňuje Acutiramus, Birkenia a Dunkleosteus, kandidát 1000002; 24 oprav stále zbývá. Viz [aktuální předání](VISUAL-REFRESH-BATCH02.md). Níže zůstává původní audit a historie.
 
