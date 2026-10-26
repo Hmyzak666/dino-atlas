@@ -28,7 +28,7 @@ Použité pro slovní anatomická zadání, nikoli jako kopírované obrazové p
 
 Před výměnou uchováno pět originálů v `backups/visual-refresh-04/images/`; záložní manifest obsahuje původní obrazová metadata a SHA-256 všech 112 obrázků před dávkou. `visual-refresh-04.json` eviduje nové soubory a jejich hashe. Regresní test dávky 04 chrání pět záloh a 107 ostatních obrázků; test dávky 02 nadále chrání všechna neobrazová data 112 druhů. Předchozí schválené dávky jsou chráněné přesnými hashi. Aplikační kód, kvíz, české předčítání, oblíbené a texty se nemění.
 
-Stav ověření při uložení: lokální `npm test` prošel; testy rozhraní běží a podepsané APK 1000004 zatím není potvrzené. Nevydávat tento zápis za dokončené sestavení.
+Stav ověření při uložení: lokální `npm test` i `npm run test:ui` prošly (Chromium 153, 320/360/412/900 px, světlý/tmavý vzhled, navigace, oblíbené, kvíz, ovládání TTS). Skutečný hlas telefonu nebyl poslouchán. [GitHub Actions 40414396882](https://github.com/Hmyzak666/dino-atlas/actions/runs/40414396882) běží nad commitem `a3a497c7d1b581a9795338f248390c97ebcd61d3`; podepsané APK 1000004 zatím není potvrzené. Nevydávat tento zápis za dokončené sestavení.
 
 ## Pokračování po přerušení
 
