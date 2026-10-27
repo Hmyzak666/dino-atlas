@@ -21,3 +21,11 @@ Všechny tři předchozí aktivní obrazy zálohovány v `docs/backups/visual-re
 Lokální `npm test` prošel. Kontroly nově ověřují zálohy, 109 nezměněných obrazů a všechny neobrazové údaje. UI kontroly obou karet a obou zvířat v kvízu nyní očekávají společný poměr 3:2. Finální CI, podepsané APK a zkouška na telefonu zatím čekají.
 
 Další práce: sedm permských oprav (Dimetrodon, Inostrancevia, Scutosaurus, Mesosaurus, Diplocaulus, Helicoprion, Estemmenosuchus), dávky nejvýše 5 + 2, jednotlivé kontroly a zálohy. Neslučovat do main.
+
+## Potvrzené dokončení APK
+
+[CI 40557730838](https://github.com/Hmyzak666/dino-atlas/actions/runs/40557730838) na commitu `5528f0e3ee0b411611b26ad754beda967cee49be` dokončilo testy obsahu a mobilního rozhraní i podepsané APK. Ověřeno všech 112 druhů, přesné zdrojové assety, identita `cz.hmyzak.dinoatlas`, build 1000008 a původní podpisový certifikát `4008bd7e1dbf92662a5d2de90fa090e1cbb63a6b0020fd687a2927e711da522c` včetně APK podpisu v2.
+
+`Dino-Atlas-v1.0.0-build1000008.apk`, 33 757 441 bajtů, SHA-256 `a50d5c8702131cadd403f50c7296962464a61105c0f285636ff599ff08851665`. [ZIP artefakt](https://github.com/Hmyzak666/dino-atlas/actions/runs/40557730838/artifacts/12758101214).
+
+APK připravené ke stažení, zkouška instalace a výsledného zobrazení na telefonu zatím nepotvrzená. Čelní obrázek Edesta byl vybrán uživatelem, jeho přesná anatomická geometrie není tímto vědecky ověřena. Sedm permských náhrad stále čeká. Do main nic nesloučeno.
