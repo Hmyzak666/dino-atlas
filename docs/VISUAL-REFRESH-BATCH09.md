@@ -4,9 +4,23 @@
 
 ## Přesný stav
 
-Připraveny zálohy pěti aktivních originálů a jejich úplných obrazových metadat v `backups/visual-refresh-09/`. Manifest zaznamenává SHA-256 celé databáze a všech 112 aktivních obrazů. Žádný aktivní obraz, text ani funkce se v této přípravě nemění. Nové obrazy nebyly generovány. Poslední ověřené APK zůstává 1000008; nové APK se nesestavovalo.
+Uživatel schválil nainstalované APK 1000008 jako perfektní a výslovně povolil nové generování pro perm. Vloženo pět jednotlivě prohlédnutých scén, kandidát **1000009**. Zálohy původních obrazů a úplných obrazových metadat zůstávají v `backups/visual-refresh-09/`. Zachováno 112 druhů, veškeré neobrazové údaje, zdroje a 107 dalších obrazů.
 
-Uživatel dříve podmínil pokračování úprav nulovou dodatečnou spotřebou kreditů. Pokyn „Pokračuj“ neobsahuje výslovnou změnu tohoto omezení. Příprava pokračovala bez obrazového generování; před jeho spuštěním vyjasnit, zda se omezení vztahuje i na nové permské ilustrace. Nelze zaručit nulovou spotřebu generování.
+Použit vestavěný imagegen: pět nových scén a tři cílené opravy (Dimetrodon dvakrát kvůli oříznutému ocasu, Scutosaurus jednou kvůli páté noze). Žádná cizí ilustrace nebyla obrazovým vstupem. Prompty a editace: `image-prompts/visual-refresh-09.json`. Vybrané výstupy a SHA-256: `visual-refresh-09.json`. Export z 1536 × 1024 na 1152 × 768 WebP, Lanczos, quality 94; bez ořezu či změny proporcí.
+
+## Individuální vizuální kontrola
+
+- Dimetrodon: ve finálním výstupu celý ocas v záběru, čtyři končetiny, plachta bez příčných výrůstků. Obě předchozí varianty s uříznutým ocasem nepoužity.
+- Inostrancevia: čtyři končetiny, horní špičáky, celý ocas, bez srsti a vnějších kočičích uší. Kůže a přesné proporce měkkých tkání zůstávají rekonstrukcí.
+- Scutosaurus: po editaci čtyři končetiny; původní výstup s pátou nohou nepoužit. Robustní trup a tupé lícní výrůstky; postoj v šikmé projekci není přesné biomechanické ověření.
+- Mesosaurus: štíhlý čenich, dlouhý krk a ocas, čtyři končetiny, větší zadní plovací nohy. Překryvy prstů neumožňují jejich nezávislé úplné přepočítání.
+- Diplocaulus: oba postranní výběžky hlavy a celý ocas v záběru; vzdálená zadní končetina je zakrytá tělem. Povrch těla a prostředí hypotetické.
+
+Všechny scény mají souvislé prostředí bez rámečků a studiového pozadí. Jde o vizuálně zkontrolované pracovní rekonstrukce, nikoli odbornou vědeckou validaci. Uživatelské hodnocení této pětice dosud čeká.
+
+## Ověření
+
+`npm test` prošel. Nová kontrola dávky 09 ověřuje zálohy, všech 112 ID a neobrazové údaje včetně zdrojů, zachování 107 ostatních obrazů a jejich metadat. Starší testy mají výslovné výjimky pouze pro novou pětici, historické otisky nebyly přepsány. CI rozhraní a podepsané APK 1000009 zatím čekají; neoznačovat je za hotové.
 
 ## Rozsah a kontroly před generováním
 
@@ -30,4 +44,4 @@ Záznamy zdrojů v dinosaurs.json zachovat. Pokud bude stará ilustrace použita
 - Mesosaurus: https://pmc.ncbi.nlm.nih.gov/articles/PMC9484468/ — Verrière a Fröbisch 2022, anatomie a změny proporcí během růstu.
 - Diplocaulus: stávající institucionální a taxonomické zdroje v databázi; detailní kontrola fosilní předlohy zbývá.
 
-Po této dávce zbývají Helicoprion a Estemmenosuchus. Všech sedm náhrad je zatím nedokončených. Neslučovat do main.
+Po této dávce zbývají dvě náhrady: Helicoprion a Estemmenosuchus. První pětice čeká na hodnocení uživatele. Neslučovat do main.

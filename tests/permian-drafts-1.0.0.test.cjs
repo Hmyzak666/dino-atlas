@@ -52,11 +52,17 @@ for(const a of draft.animals) {
     assert.ok(published,a.id);
     assert.equal(published.image.src,a.image.src);
     assert.equal(published.image.status,'working-reconstruction');
+    const replaced = ['dimetrodon-grandis','inostrancevia-alexandri','scutosaurus-karpinskii','mesosaurus-tenuidens','diplocaulus-magnicornis'].includes(a.id);
+    if (replaced) {
+      assert.deepEqual(published.image.sourceIds, [], 'Independent AI reconstruction must not inherit old artwork credit');
+      assert.match(published.image.note.cs, /AI rekonstrukce/);
+    } else {
     assert.equal(published.image.sourceIds.length,1,'image requires single attributable source');
     const art=db.sources[published.image.sourceIds[0]];
     assert.ok(art && art.kind.includes('licence CC'),'Missing licence citation for '+a.id);
     assert.ok(published.image.note.cs.includes('creativecommons.org/licenses/'),'License URL missing from detail');
     assert.ok(published.image.note.cs.includes('Úpravy:'),'Image modifications must be declared');
+    }
  }
 }
 const full={query:'',era:'paleozoic',period:'permian',category:'all',diet:'all',favoritesOnly:false,favorites:new Set()};
