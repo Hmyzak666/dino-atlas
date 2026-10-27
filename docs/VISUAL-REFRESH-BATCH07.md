@@ -19,3 +19,11 @@ Sedm permských oprav stále zbývá: Dimetrodon, Inostrancevia, Scutosaurus, Me
 ### Příprava CI prohlížeče
 
 První běh 40500014540 prošel obsahovými testy, ale dlouho čekal ve stahování/instalaci prohlížeče. Workflow nyní přednostně používá již instalovaný Google Chrome přes podporované DINO_BROWSER_PATH; když není dostupný, instalace Playwright prohlížeče má limit 180 sekund. Rozsah testů se neomezuje.
+
+## Potvrzený výstup 1000007
+
+[CI 40500576605](https://github.com/Hmyzak666/dino-atlas/actions/runs/40500576605) na commitu `d16a546ea9c801ae7fa18ed1212de656117dfd49` úspěšně dokončilo všechny testy i podepsané sestavení. Prošly nové kontroly obou poměrů karet a karbonského kvízu, šířky 320/360/412/900, zoom, světlý/tmavý vzhled, čtení přes testovací bridge, filtry, gesta, návraty a oblíbené. Skutečný hlas telefonu nebyl poslouchán.
+
+CI ověřilo přesný obsah APK, 112 druhů, identitu `cz.hmyzak.dinoatlas`, build 1000007 a původní podpisový certifikát `4008bd7e1dbf92662a5d2de90fa090e1cbb63a6b0020fd687a2927e711da522c` včetně podpisu v2.
+
+APK `Dino-Atlas-v1.0.0-build1000007.apk`: 35 006 721 bajtů; SHA-256 `367a85a106b8349e3de85cdc40d7e466418e3b962a673bb10c0031743bba5d54`. [ZIP artefakt](https://github.com/Hmyzak666/dino-atlas/actions/runs/40500576605/artifacts/12733050677). Čeká instalace a vizuální hodnocení uživatele. Sedm permských náhrad stále neprovedeno. Do main nic nesloučeno.
