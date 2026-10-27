@@ -15,3 +15,7 @@ Před výměnou záloha Edesta i metadat v `docs/backups/visual-refresh-07/`; ma
 Lokální `npm test` prošel. Testy UI doplněny o oba poměry v kartách na 320/360/412/900 px a oba obrazy v karbonském kvízu. Lokální stažení prohlížeče selhalo poškozeným archivem; výsledek UI a podepsané APK dosud nepotvrzený, ověřit v CI. Telefon neotestován.
 
 Sedm permských oprav stále zbývá: Dimetrodon, Inostrancevia, Scutosaurus, Mesosaurus, Diplocaulus, Helicoprion, Estemmenosuchus. Dávky maximálně 5 + 2, jednotlivá vizuální kontrola, před výměnou záloha.
+
+### Příprava CI prohlížeče
+
+První běh 40500014540 prošel obsahovými testy, ale dlouho čekal ve stahování/instalaci prohlížeče. Workflow nyní přednostně používá již instalovaný Google Chrome přes podporované DINO_BROWSER_PATH; když není dostupný, instalace Playwright prohlížeče má limit 180 sekund. Rozsah testů se neomezuje.
