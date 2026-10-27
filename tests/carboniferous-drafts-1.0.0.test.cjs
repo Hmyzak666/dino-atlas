@@ -4,6 +4,7 @@ const path=require('node:path');
 const app=require('../app.js');
 const db=require('../dinosaurs.json');
 const draft=require('../content-drafts/carboniferous-eight.json');
+const refreshed=require('../docs/visual-refresh-05.json');
 const expected=['arthropleura-armata','meganeura-monyi','pulmonoscorpius-kirktonensis','hylonomus-lyelli','greererpeton-burkemorani','edestus-heinrichi','petrolacosaurus-kansensis','crassigyrinus-scoticus'];
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),expected);
@@ -33,11 +34,16 @@ for(const animal of draft.animals){
   const pub=db.dinosaurs.find(x=>x.id===animal.id);
   assert.ok(pub);
   assert.equal(pub.image.status,'working-reconstruction');
+  if(refreshed[animal.id]) {
+   assert.deepEqual(pub.image.sourceIds,[]);
+   assert.ok(pub.image.note.cs.includes('původní AI rekonstrukce'));
+  } else {
   assert.equal(pub.image.sourceIds.length,1,'every published Carboniferous image needs attribution');
   const artSource=db.sources[pub.image.sourceIds[0]];
   assert.ok(artSource && artSource.kind.includes('licence CC'),'licensed source missing from database');
   assert.ok(pub.image.note.cs.includes('creativecommons.org/licenses/'),'license must appear in app detail');
   assert.ok(pub.image.note.cs.includes('Úpravy:'),'derivative changes must be disclosed');
+  }
  }
 }
 const get=id=>draft.animals.find(a=>a.id===id);

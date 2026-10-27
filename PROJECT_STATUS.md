@@ -1,3 +1,5 @@
+> **Aktuálně 27. 10. 2026 — dávka 05 / 1000005:** Vloženo pět karbonských rekonstrukcí, celkem 22 z 30 náhrad. Edestus odmítnut, zůstává původní; zbývá osm oprav (Edestus + perm 7). Lokální testy prošly, podepsané APK zatím nepotvrzené. [Předání](docs/VISUAL-REFRESH-BATCH05.md). Neslučovat do main. Starší údaje níže jsou historie.
+
 > **Aktuálně 26. 10. 2026 — dávka 04, kandidát 1000004:** Pět nových ordovických scén; předchozí kambrická dávka vizuálně schválená. Zachováno 112 druhů, nahrazeno 17 z 30 plánovaných obrazů, zbývá 13 (karbon 6, perm 7). Lokální i GitHub testy prošly; podepsané APK 1000004 je hotové a ověřené. Čeká uživatelská kontrola nové dávky. [Předání dávky 04](docs/VISUAL-REFRESH-BATCH04.md). Neslučovat do main. Starší údaje níže jsou historie.
 
 # Stav projektu Dino Atlas
