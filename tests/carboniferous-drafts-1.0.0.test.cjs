@@ -34,7 +34,7 @@ for(const animal of draft.animals){
   const pub=db.dinosaurs.find(x=>x.id===animal.id);
   assert.ok(pub);
   assert.equal(pub.image.status,'working-reconstruction');
-  if(refreshed[animal.id]) {
+  if(refreshed[animal.id] || animal.id==='edestus-heinrichi') {
    assert.deepEqual(pub.image.sourceIds,[]);
    assert.ok(pub.image.note.cs.includes('původní AI rekonstrukce'));
   } else {

@@ -9,6 +9,7 @@ const accepted = require('../docs/visual-refresh-03.json');
 const ids = ['anomalocaris-canadensis', 'opabinia-regalis', 'hallucigenia-sparsa', 'marrella-splendens', 'wiwaxia-corrugata', 'pikaia-gracilens'];
 const ordovicianBatch = require('../docs/visual-refresh-04.json');
 const carbonBatch = require('../docs/visual-refresh-05.json');
+const crops = require('../docs/visual-refresh-06.json');
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.deepEqual(Object.keys(accepted).sort(), ids.sort());
 assert.deepEqual(Object.keys(before.images).sort(), ids.sort());
@@ -17,7 +18,7 @@ assert.deepEqual(db.dinosaurs.map(a=>a.id).sort(), Object.keys(before.allActiveI
 for (const a of db.dinosaurs) {
   const old = before.allActiveImageSha256[a.id];
   const actual = sha(path.join(root, a.image.src));
-  assert.equal(actual, accepted[a.id]?.sha256 || ordovicianBatch[a.id]?.sha256 || carbonBatch[a.id]?.sha256 || old, a.id);
+  assert.equal(actual, accepted[a.id]?.sha256 || ordovicianBatch[a.id]?.sha256 || carbonBatch[a.id]?.sha256 || crops[a.id]?.sha256 || old, a.id);
   if (accepted[a.id]) {
     assert.notEqual(actual, old);
     assert.equal(a.period, 'cambrian');
