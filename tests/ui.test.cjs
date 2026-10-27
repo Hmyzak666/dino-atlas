@@ -64,6 +64,13 @@ async function openAnimal(page,id) {
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
       assert.equal(await page.locator('#gallery .dino-card').count(),db.dinosaurs.length);
+      for (const [id, ratio] of [['pulmonoscorpius-kirktonensis',1036/752],['arthropleura-armata',996/752]]) {
+        const frame = page.locator('.card-picture').filter({has:page.locator('img[src="images/'+id+'.webp"]')});
+        await frame.scrollIntoViewIfNeeded();
+        const box = await frame.boundingBox();
+        assert.ok(Math.abs(box.width/box.height-ratio)<0.005, id+' frame must fit the complete approved crop without side bars');
+      }
+      await page.evaluate(()=>scrollTo(0,0));
       assert.deepEqual(await page.locator('#period-filters button').allTextContents(),db.dinosaurs.length>72?['Vše']:['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
@@ -276,6 +283,23 @@ async function openAnimal(page,id) {
           await page.locator('#quiz-next').click();
         }
         assert.match(await page.locator('.score').textContent(),/5 z 5/);
+        await page.locator('[data-quiz-category="arthropod"]').click();
+        await page.locator('[data-quiz-era="paleozoic"]').click();
+        await page.locator('[data-quiz-period="carboniferous"]').click();
+        const croppedSeen = new Set();
+        for (let i=0;i<3;i++) {
+          const src = await page.locator('.quiz-picture img').getAttribute('src');
+          const id = src.match(/images\/(.+)\.webp/)[1];
+          const ratios = {'pulmonoscorpius-kirktonensis':1036/752,'arthropleura-armata':996/752};
+          if (ratios[id]) {
+            croppedSeen.add(id);
+            const box = await page.locator('.quiz-picture').boundingBox();
+            assert.ok(Math.abs(box.width/box.height-ratios[id])<0.01,'Quiz frame fits '+id);
+          }
+          await page.locator('[data-answer="'+id+'"]').click();
+          await page.locator('#quiz-next').click();
+        }
+        assert.equal(croppedSeen.size,2,'Both approved crops exercised in the quiz');
       }
 
       for(const id of ['rhamphorhynchus-muensteri','liopleurodon-ferox','ceratosaurus-nasicornis','eoraptor-lunensis','herrerasaurus-ischigualastensis','eodromaeus-murphi','saturnalia-tupiniquim','riojasaurus-incertus','eudimorphodon-ranzii','peteinosaurus-zambellii','nothosaurus-mirabilis','shonisaurus-popularis']) {

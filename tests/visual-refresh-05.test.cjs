@@ -7,7 +7,7 @@ const db = require('../dinosaurs.json');
 const before = require('../docs/backups/visual-refresh-05/manifest.json');
 const accepted = require('../docs/visual-refresh-05.json');
 const ids = ["meganeura-monyi", "hylonomus-lyelli", "greererpeton-burkemorani", "petrolacosaurus-kansensis", "crassigyrinus-scoticus"];
-const crops = require('../docs/visual-refresh-06.json');
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json')};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.deepEqual(Object.keys(accepted).sort(), ids.sort());
 assert.deepEqual(Object.keys(before.images).sort(), [...ids, "edestus-heinrichi"].sort());

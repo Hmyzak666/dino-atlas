@@ -9,7 +9,7 @@ const accepted = require('../docs/visual-refresh-02.json');
 const nextBatch = require('../docs/visual-refresh-03.json');
 const ordovicianBatch = require('../docs/visual-refresh-04.json');
 const carbonBatch = require('../docs/visual-refresh-05.json');
-const crops = require('../docs/visual-refresh-06.json');
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json')};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.equal(db.dinosaurs.length, 112);
 assert.deepEqual(db.dinosaurs.map(a => a.id).sort(), Object.keys(before.allActiveImageSha256).sort());

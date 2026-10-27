@@ -6,7 +6,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node tests/content.test.cjs && node tests/release-0.9.0.test.cjs && node tests/eras-1.0.0.test.cjs && node tests/cambrian-drafts-1.0.0.test.cjs && node tests/ordovician-drafts-1.0.0.test.cjs && node tests/silurian-drafts-1.0.0.test.cjs && node tests/devonian-drafts-1.0.0.test.cjs && node tests/carboniferous-drafts-1.0.0.test.cjs && node tests/permian-drafts-1.0.0.test.cjs && node tests/visual-refresh-01.test.cjs && node tests/visual-refresh-02.test.cjs && node tests/visual-refresh-03.test.cjs && node tests/visual-refresh-04.test.cjs && node tests/visual-refresh-05.test.cjs && node tests/search.test.cjs && node tests/compatibility.test.cjs && python3 -m unittest discover -s tests -p 'test_*.py' && python3 build_android.py --check",
+    "test": "node tests/content.test.cjs && node tests/release-0.9.0.test.cjs && node tests/eras-1.0.0.test.cjs && node tests/cambrian-drafts-1.0.0.test.cjs && node tests/ordovician-drafts-1.0.0.test.cjs && node tests/silurian-drafts-1.0.0.test.cjs && node tests/devonian-drafts-1.0.0.test.cjs && node tests/carboniferous-drafts-1.0.0.test.cjs && node tests/permian-drafts-1.0.0.test.cjs && node tests/visual-refresh-01.test.cjs && node tests/visual-refresh-02.test.cjs && node tests/visual-refresh-03.test.cjs && node tests/visual-refresh-04.test.cjs && node tests/visual-refresh-05.test.cjs && node tests/visual-refresh-07.test.cjs && node tests/search.test.cjs && node tests/compatibility.test.cjs && python3 -m unittest discover -s tests -p 'test_*.py' && python3 build_android.py --check",
     "test:ui": "node tests/search-navigation.test.cjs && node tests/ui.test.cjs && node tests/filters-0.9.0.test.cjs"
   },
   "devDependencies": {

@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const crypto = require('node:crypto');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const db = require('../dinosaurs.json');
+const before = require('../docs/backups/visual-refresh-07/manifest.json');
+const after = require('../docs/visual-refresh-07.json');
+const sha = name => crypto.createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex');
+assert.equal(db.dinosaurs.length,112);
+assert.equal(sha('dinosaurs.json'),before.databaseSha256,'All text, narration and image credits stay identical');
+assert.deepEqual(Object.keys(after),['edestus-heinrichi']);
+for (const animal of db.dinosaurs) assert.equal(sha(animal.image.src),after[animal.id]?.sha256 || before.allActiveImageSha256[animal.id],animal.id);
+assert.equal(sha('docs/backups/visual-refresh-07/images/edestus-heinrichi.webp'),before.allActiveImageSha256['edestus-heinrichi']);
+console.log('PASS: batch 07 Edestus backed up; 111 other images and complete database unchanged.');
