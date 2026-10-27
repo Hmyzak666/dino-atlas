@@ -541,20 +541,12 @@
     });
     $('favorites-count').textContent = state.favorites.size;
   }
-  // Preserve the complete approved crops without letterboxing in 3:2 frames.
-  function imageFrameStyle(dino) {
-    const ratios = {
-      'pulmonoscorpius-kirktonensis': '1036 / 752',
-      'arthropleura-armata': '996 / 752'
-    };
-    return ratios[dino.id] ? '--picture-ratio: ' + ratios[dino.id] : '';
-  }
   function renderGallery() {
     const visible = filteredDinosaurs(dinosaurs, state);
     $('gallery').innerHTML = visible.map((dino, index) => {
       const text = copy(dino);
       return `<article class="dino-card">
-          <div class="card-picture" style="${imageFrameStyle(dino)}"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024" ${index > 1 ? 'loading="lazy"' : ''} decoding="async"></div>
+          <div class="card-picture"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024" ${index > 1 ? 'loading="lazy"' : ''} decoding="async"></div>
           <div class="card-body"><div class="card-title-row"><h3><a class="card-link" id="card-${dino.id}" href="#dinosaurus/${dino.id}">${escapeHtml(text.displayName)}</a></h3>${favoriteButton(dino, 'card-favorite')}</div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p>
           <div class="card-meta"><span class="period-tag">${PERIODS[dino.period]}</span><span class="animal-kind">${CATEGORY_LABELS[categoryOf(dino)]}</span><span>${escapeHtml(text.ageLabel)}</span></div>
           <p class="card-location">${escapeHtml(text.location)}</p><p class="card-summary">${escapeHtml(text.cardSummary)}</p><span class="card-open">Prozkoumat →</span></div>
@@ -743,7 +735,7 @@
     const question = quiz.questions[quiz.index];
     const dino = byId.get(question.answerId);
     $('quiz-content').innerHTML = `<p class="quiz-progress-label">Otázka ${quiz.index + 1} z ${quiz.questions.length} · Bez časového limitu</p><progress class="quiz-progress" max="${quiz.questions.length}" value="${quiz.index}" aria-label="Dokončené otázky"></progress>
-      <div class="quiz-picture" style="${imageFrameStyle(dino)}"><img data-image-viewer src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce pravěkého zvířete. Vyber jeho jméno z možností pod obrázkem.">${imageZoomButton()}</div>
+      <div class="quiz-picture"><img data-image-viewer src="${escapeHtml(dino.image.src)}" width="1536" height="1024" alt="Pracovní rekonstrukce pravěkého zvířete. Vyber jeho jméno z možností pod obrázkem.">${imageZoomButton()}</div>
       <button id="quiz-hint" type="button" class="button button-quiet hint-button" aria-expanded="${quiz.hintRevealed}" aria-controls="quiz-hint-text">${quiz.hintRevealed ? 'Skrýt nápovědu' : 'Potřebuji nápovědu'}</button><p id="quiz-hint-text" class="hint-text" ${quiz.hintRevealed ? '' : 'hidden'}>${escapeHtml(copy(dino).quizHint)}</p>
       <div class="quiz-answers" role="group" aria-label="Vyber jméno zvířete">${question.optionIds.map((id, index) => `<button type="button" class="quiz-answer" data-answer="${id}"><span class="answer-letter" aria-hidden="true">${String.fromCharCode(65 + index)}</span><span class="answer-name">${escapeHtml(copy(byId.get(id)).displayName)}</span></button>`).join('')}</div>
       <div class="quiz-feedback" id="quiz-feedback" role="status" aria-live="polite" aria-atomic="true"></div>

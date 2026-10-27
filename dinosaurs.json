@@ -30205,7 +30205,7 @@
         "status": "working-reconstruction",
         "facing": "right",
         "note": {
-          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Arthropleura_Reconstruction.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; nyní bezeztrátový ořez pouze přidaných světlých okrajů, bez změny obsahu a proporcí původního obrazu. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
+          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Arthropleura_Reconstruction.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
         },
         "sourceIds": [
           "carbon-art-arthropleura-armata"
@@ -30713,7 +30713,7 @@
         "status": "working-reconstruction",
         "facing": "left",
         "note": {
-          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; nyní bezeztrátový ořez pouze přidaných světlých okrajů, bez změny obsahu a proporcí původního obrazu. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
+          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
         },
         "sourceIds": [
           "carbon-art-pulmonoscorpius-kirktonensis"
@@ -31506,7 +31506,7 @@
         "status": "working-reconstruction",
         "facing": "right",
         "note": {
-          "cs": "Nová původní AI rekonstrukce (2026). Dvě protilehlé středové zubní čepele podle fosilních podkladů; tvar těla a ploutví, zbarvení a měkké tkáně jsou nejistou rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz."
+          "cs": "Nová původní AI rekonstrukce (2026). Čelní pohled zdůrazňuje dvě protilehlé středové zubní čepele. Jejich přesná geometrie a zobrazení jednotlivých korunek nejsou vědecky ověřené; tvar těla a ploutví, zbarvení a měkké tkáně jsou nejistou rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz."
         },
         "sourceIds": []
       },
