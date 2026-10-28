@@ -1,0 +1,995 @@
+{
+  "date": "2026-10-28",
+  "baseCommit": "23b53a0d888a38c73644c126f509c16a8a366c75",
+  "branch": "feature/paleozoic-1.0.0",
+  "scope": "Read-only source availability check. No image generation, replacement, enlargement, runtime edit or APK build.",
+  "counts": {
+    "larger_source_matched": 31,
+    "smaller_collage_panel": 7,
+    "larger_commons_original": 2
+  },
+  "records": [
+    {
+      "id": "anomalocaris-canadensis",
+      "name": "Anomalocaris canadensis",
+      "activeSha256": "b541105aa9fa73bdd508a93da80a1165be57ddad4f0de57ba977358a7605e257",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Anomalocaris with delicate branched endites.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "b19cc7609e0b12e8e77a2068d9c5f216ad995d562cc47e5c637bddff0136206e",
+      "thumbnailRmse": 0.7736,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.14,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_be9b15c58fb881919f13a2e31ad494b8",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "opabinia-regalis",
+      "name": "Opabinia regalis",
+      "activeSha256": "5c2d0f3fe60a330c55b971d42b8ea80782724ee7355ff3e30b498fa6ce41f9d3",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Five-eyed Opabinia in motion.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "af2926d1d652344154230fefe5f619cd284410db908ca4c6c1f72633ebf80a72",
+      "thumbnailRmse": 0.7942,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.2138,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_c867736ca9288191a778d5b7bc6cd46e",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "hallucigenia-sparsa",
+      "name": "Hallucigenia sparsa",
+      "activeSha256": "d8a0a8519633ad8793b1f542d489dc393778388541426c021a91f4e242646789",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Hallucigenia with seven paired dorsal spines.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "421a060b11cd10d934dd840eb6836e0e02cf94a3213f98b00a4dee47483813f3",
+      "thumbnailRmse": 0.8278,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.4137,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_df4ad1de02d08191980b4bcc26bc577c",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "marrella-splendens",
+      "name": "Marrella splendens",
+      "activeSha256": "2a56c69487faa8fce78c9b29129bf3acc7f60edf1a7e08b61792e2e81db153f2",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Marrella splendens over the Cambrian seabed.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "2f1296157dae9b84fd45ec622b087e3f1de7a890a48c06a8c63c21f12419f38b",
+      "thumbnailRmse": 0.8297,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.3936,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_d261057a48e88191a924f81ccc90d482",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "wiwaxia-corrugata",
+      "name": "Wiwaxia corrugata",
+      "activeSha256": "7b4aae098d618fa2bd72e9d5341e79c8d0249a3617cba1415347f336b2de8215",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Wiwaxia's paired dorsal spine rows.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "abce6ef04d4320d6aca5c1a737b7788d58fc65c3fc0a8e3fc6c48d03489d2dbf",
+      "thumbnailRmse": 0.9623,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 3.1993,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_88764b633e248191bf6394f84ceb7764",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "pikaia-gracilens",
+      "name": "Pikaia gracilens",
+      "activeSha256": "2f8ca2e5ea4e66d3b67cd0fd0d28fa728d3ac8d4906f50921720a411c55a4660",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Pikaia gracilens above the Cambrian seafloor.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "a0091505f93bc9a47c2cbfe764dfcce2e618ad30f26cffce22614391fe24ff39",
+      "thumbnailRmse": 0.827,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.5459,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_24e8a5a821e08191afccef1df9ab276a",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "isotelus-rex",
+      "name": "Isotelus rex",
+      "activeSha256": "f1eb8baec5ac2df3bfecb69f2ee9074520ae62be434dde69b275d6084adc98ef",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Isotelus rex in Ordovician shallows.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "4b31446ed3356bc32daac9dc4cfa946cfbbe20117ffc436532215f0c64bfbbff",
+      "thumbnailRmse": 0.9539,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 3.5158,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_f441a8269d4c8191b40938eed71053cf",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "asaphus-kowalewskii",
+      "name": "Asaphus kowalewskii",
+      "activeSha256": "883d601c6b32b091ae2d4ca604609bdd1e0bcd321b1755c75f6e1a1127225424",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Eyestalked Asaphus on the Ordovician Seafloor.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "c4faebd85655de1331e64d70679ba2e397725f93cc52fee82156aed5ef15d4c4",
+      "thumbnailRmse": 0.8809,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.9557,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_904b247bc32481919541aa8cde937b84",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "aegirocassis-benmoulai",
+      "name": "Aegirocassis benmoulai",
+      "activeSha256": "7e9d965fbf051fd8bd8083dc5ceec5cbd2adf6f4719f0ce7cd2f192e314bddcf",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Aegirocassis with corrected double flap rows.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "b0ed4c69e0bca0721b8290bcaf73a2b73de7b94c02dd98e64edf71033ee3494c",
+      "thumbnailRmse": 0.9006,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.7911,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_c944f5dd6be081919fc49ce7ed5ecb38",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "arandaspis-prionotolepis",
+      "name": "Arandaspis prionotolepis",
+      "activeSha256": "85b2c24fb1daecb17391662e8df670ed7afbbc73480c66dc2b949d11472ce51e",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Arandaspis in Ordovician shallow seas.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "2ab8fa7af72ac69b3c31d9cf89dec0771a173dbc06ea3072cbcb0fbd7c84c9c8",
+      "thumbnailRmse": 0.8872,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 3.3211,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_8e85c5ad2a78819193809a73a0000850",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "endoceras-proteiforme",
+      "name": "Endoceras proteiforme",
+      "activeSha256": "2674a2f33ce2d81b28322a914e057e459a46ab104f4a2d58999ea140a9c12dcf",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Endoceras in the Ordovician Sea.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "8d65e8d849c9da1082a72449410e287555c2d4311022df21c043e9122cd09e43",
+      "thumbnailRmse": 0.8717,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.7591,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_fc44bde9a9fc8191b56a3e5eb339dad8",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "eurypterus-remipes",
+      "name": "Eurypterus remipes",
+      "activeSha256": "61622939bcb325ba71b895fa00879a295f1216a0573d53e4406d12191634be71",
+      "credits": "Vlastní pracovní digitální rekonstrukce, bez rozmazaných okrajů. Doloženy jsou plovací veslovité končetiny, krátké klepítkovité části úst, článkovaný trup a ocasní hrot. Barva a prostředí jsou ilustrativní.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "image-gen-1(2).png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "e84fe888fd2c155428c1857ebad5f15ee68488db20c4966edfb8e6ccf19f9499",
+      "thumbnailRmse": 1.4422,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 4.4717,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_c56b01c6c33081918958bbc13ad327b2",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "acutiramus-bohemicus",
+      "name": "Acutiramus bohemicus",
+      "activeSha256": "e3d08b0ac7faaff4d406042944d4e67b1193885dc4a0a87b1c5988ccf35b3aaf",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Horseshoe crab on sandy seabed.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "76968b90f551e803645030b14f8544367ac36cac030769eda748609392cd165c",
+      "thumbnailRmse": 0.9352,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.849,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_910ab5fda3d08191823f209b55dfcf76",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "birkenia-elegans",
+      "name": "Birkenia elegans",
+      "activeSha256": "30a92a65e378a082c317a6f0927765881497f31264d3f15e6a3a076b551cbb5a",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Birkenia elegans, downward-sweeping tail.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "661b463aa52cfb260f57a5fd1150419767a2f0b3bd76cfbd455e08a2405ee91b",
+      "thumbnailRmse": 0.9308,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.9986,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_f55942199bd88191b8baab2d92277b37",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "entelognathus-primordialis",
+      "name": "Entelognathus primordialis",
+      "activeSha256": "1e88cefd5fd4d4ec5956d3b7089b01ca2cc6fcc56e31e783ab1d50ba18210f49",
+      "credits": "Vlastní pracovní digitální rekonstrukce. Fosilie dokládají pancíř a čelistní kosti, novější nálezy i šupiny; přesné proporce trupu, ocasní ploutve a zbarvení jsou částečně hypotetické.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "image-gen-4(1).png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "b061af057660a5037fc893dbf36153c5910145d24be3214302830af1608c8a33",
+      "thumbnailRmse": 1.2305,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 4.0918,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_3ef8b84d18108191a266955a40c08321",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "qilinyu-rostrata",
+      "name": "Qilinyu rostrata",
+      "activeSha256": "26e8747af950ffa7bf673bc39ebd6d538936a8ccbf7ff3030a45e5c2c4d86f6a",
+      "credits": "Vlastní pracovní digitální rekonstrukce. Doložen je protáhlý rypec, kostěný přední pancíř a prsní ploutve, podoba zadního trupu, ocasu a zbarvení jsou rekonstruované.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "image-gen-5.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "da5e322be1c9770e17131d79e6b3652658b4d0c75b5fb7f9d2cea6d8e62e774a",
+      "thumbnailRmse": 1.2586,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 4.2976,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_ef508d179ea481918f1293add5d24eff",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "dunkleosteus-terrelli",
+      "name": "Dunkleosteus terrelli",
+      "activeSha256": "9697a5b6eaff1e73777de35cff9bb1745f24c31357b0c24a8f6d57e6d2dae786",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Toothless Dunkleosteus with bony shearing blades.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "5e948ea40ed2611dda8c344062825785d98c7a23fb74015b4426068fe09236b0",
+      "thumbnailRmse": 0.7653,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.0161,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_115a645247588191bfc1067eea527653",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "tiktaalik-roseae",
+      "name": "Tiktaalik roseae",
+      "activeSha256": "8c09ffcbd7bbe240c71ab5f34d46d904416828b8bde95a9ed4ebdac5d03771c7",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Four Prehistoric Fish Underwater.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "af3f9fae8562389d76e2e09a2c08086a0dfe33e35941ed31ad88f4bc9ce003fb",
+      "panelApproxBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_94238811e1748191a554fb8446ae62be",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "bothriolepis-canadensis",
+      "name": "Bothriolepis canadensis",
+      "activeSha256": "d6b170e64032e09c9fcadd94f603bcf638408e72304f2a79c31bc92638e8c193",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Four Prehistoric Fish Underwater.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "af3f9fae8562389d76e2e09a2c08086a0dfe33e35941ed31ad88f4bc9ce003fb",
+      "panelApproxBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_94238811e1748191a554fb8446ae62be",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "eusthenopteron-foordi",
+      "name": "Eusthenopteron foordi",
+      "activeSha256": "2d53577c9296caabea73eb9c4319b6c99ab424d95edd8013a9e79eeaebe77a9b",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Four Prehistoric Fish Underwater.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "af3f9fae8562389d76e2e09a2c08086a0dfe33e35941ed31ad88f4bc9ce003fb",
+      "panelApproxBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_94238811e1748191a554fb8446ae62be",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "ichthyostega-stensioei",
+      "name": "Ichthyostega stensioei",
+      "activeSha256": "1f9878035cf3a35c3c73cdc82688a4d4862e2052b7968fc47cc4a8634e1dc00e",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Prehistoric Aquatic Life Quartet.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "ad58955e9462ef0fb25e2557119f09432b000ba7571484d7099b63345fb6d016",
+      "panelApproxBox": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_6f7ed1dfe95881918d19b42592f1e9c8",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "acanthostega-gunnari",
+      "name": "Acanthostega gunnari",
+      "activeSha256": "8ed8e2d591b99732e5ba1068ffcfd9afdd8c5b772f240ad88b8577cef35b7dc0",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Prehistoric Aquatic Life Quartet.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "ad58955e9462ef0fb25e2557119f09432b000ba7571484d7099b63345fb6d016",
+      "panelApproxBox": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_6f7ed1dfe95881918d19b42592f1e9c8",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "cladoselache-fyleri",
+      "name": "Cladoselache fyleri",
+      "activeSha256": "bfb37655cf13f6dc50b58b54b3dd4f7f454501c033e16f1c7782fe1c121c23cb",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Prehistoric Aquatic Life Quartet.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "ad58955e9462ef0fb25e2557119f09432b000ba7571484d7099b63345fb6d016",
+      "panelApproxBox": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_6f7ed1dfe95881918d19b42592f1e9c8",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "jaekelopterus-rhenaniae",
+      "name": "Jaekelopterus rhenaniae",
+      "activeSha256": "7b552a870e496aeb95985808cb9ec32eb1ae81d83a229f068fe5d0d1a64c6c23",
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "smaller_collage_panel",
+      "sourceFile": "Prehistoric Aquatic Life Quartet.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "ad58955e9462ef0fb25e2557119f09432b000ba7571484d7099b63345fb6d016",
+      "panelApproxBox": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "panelMaximumSize": [
+        768,
+        512
+      ],
+      "libraryFileId": "libfile_6f7ed1dfe95881918d19b42592f1e9c8",
+      "verification": "Visual composition match; panel boundary approximate, not a larger standalone original."
+    },
+    {
+      "id": "arthropleura-armata",
+      "name": "Arthropleura armata",
+      "activeSha256": "39fab4ef04885a6682ab7e1400c8e10545a10231b23a293d98dc5b4576b91ab5",
+      "credits": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Arthropleura_Reconstruction.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_commons_original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthropleura_Reconstruction.jpg",
+      "sourceSize": [
+        4200,
+        3170
+      ],
+      "author": "Prehistorica CM",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "verification": "Commons original metadata and project source attribution; native aspect ratio differs from 3:2; do not crop limbs or remove signatures.",
+      "downloadVerified": false,
+      "downloadLimitation": "Direct original download returned HTTP 403; dimensions and licensing verified on Commons file page. Original not decoded locally in this check."
+    },
+    {
+      "id": "meganeura-monyi",
+      "name": "Meganeura monyi",
+      "activeSha256": "368443c13f98acd332e3ea6fa1449d6e5ef9229ef7916a27839ce90ae2b66ebe",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Meganeura Griffinfly on an Ancient Lycopsid.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "03d97396f9145327d071cb53f77b7a2a9da960fd325a1abf7145099dd7a91479",
+      "thumbnailRmse": 1.15,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 4.6064,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_d097edd0614c81919a12ca107c41c558",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "pulmonoscorpius-kirktonensis",
+      "name": "Pulmonoscorpius kirktonensis",
+      "activeSha256": "67289c2c470ea4ab31fd87fa986fa3755269ff856504288e7fb9ef8d1be4e7b9",
+      "credits": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_commons_original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg",
+      "sourceSize": [
+        5140,
+        3730
+      ],
+      "author": "Prehistorica CM",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "verification": "Commons original metadata and project source attribution; native aspect ratio differs from 3:2; do not crop limbs or remove signatures.",
+      "downloadVerified": false,
+      "downloadLimitation": "Direct original download returned HTTP 403; dimensions and licensing verified on Commons file page. Original not decoded locally in this check."
+    },
+    {
+      "id": "hylonomus-lyelli",
+      "name": "Hylonomus lyelli",
+      "activeSha256": "1351876bda29b79e524d29f79afdd8f620f633995dbbd2ba1955d3f507135b63",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Hylonomus with Seamless Scaled Head.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "ab5630db947cd24330d24dd18017d6c88e9313e10cb1d8ab861770356077b7f0",
+      "thumbnailRmse": 1.0886,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 3.5207,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_434ba31c0ab08191a899a4391604ef87",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "greererpeton-burkemorani",
+      "name": "Greererpeton burkemorani",
+      "activeSha256": "ed637d18cacd947f8edff45360658b6740d9e6b4db77eb7bfc972d71da4b8e19",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Five-toed creature in sediment.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "6b470e9aa7294f9d6a2b903e73f327b7cf1f4366a880d9c3a3eeb7177cf04a41",
+      "thumbnailRmse": 0.9346,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.6866,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_5e86ca994ad88191890d389fd105f9b1",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "edestus-heinrichi",
+      "name": "Edestus heinrichi",
+      "activeSha256": "2ce213ff170247f9b729f47c5517444db92b9df2a58332cee5a509e96ba2eabc",
+      "credits": "Nová původní AI rekonstrukce (2026). Čelní pohled zdůrazňuje dvě protilehlé středové zubní čepele. Jejich přesná geometrie a zobrazení jednotlivých korunek nejsou vědecky ověřené; tvar těla a ploutví, zbarvení a měkké tkáně jsou nejistou rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-d6ec8ef1-be4d-4515-b5de-5f98ac95a8c2.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "76981e25f51903fa82f607ea641db107c118fe3ef6255e788da7f38359cfdb56",
+      "thumbnailRmse": 0.7988,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.2813,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "petrolacosaurus-kansensis",
+      "name": "Petrolacosaurus kansensis",
+      "activeSha256": "c86633e701ab5ee044383d90d53ba017353973ccbd2dd492bd81df720901271b",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Scaled reptile with a flawless cheek.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "c47d85283f04ce504366eafc3d40e6342e85fcb68c2489c423bd2fb4a545950a",
+      "thumbnailRmse": 1.175,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 3.6373,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_2ffc322a71a08191a1dac3048111d823",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "crassigyrinus-scoticus",
+      "name": "Crassigyrinus scoticus",
+      "activeSha256": "ad21013b46e0517d2299ca8b0d5eae03d3fc9833bbe6102b35c138dc1879b47f",
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "Five-toed Crassigyrinus in a swamp.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "f1382e056301c4d2f8dc989013152da8b63033aaaea67018fe137452906b557c",
+      "thumbnailRmse": 0.8891,
+      "sourceHashMatchesManifest": null,
+      "fullSizeRmse": 2.7087,
+      "exactReexportQ94M6": false,
+      "libraryFileId": "libfile_9d29823a97e081919f321edc0ae4a5a7",
+      "verification": "Content match after downsampling; thumbnail RGB RMSE < 1.45 / 255, full-image RMSE recorded. Not a byte-identical re-export.",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "dimetrodon-grandis",
+      "name": "Dimetrodon grandis",
+      "activeSha256": "9d45a292e908b1da852284a6c065fd41b218f919c7b967be998f663a338f7824",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-bca95e5a-43ad-405f-9e4c-6955a29625e6.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "f5f623a553621a42a0c12b033efba27127babd986bf9ae1c334cef79d3fe5205",
+      "thumbnailRmse": 1.3139,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 4.5796,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "edaphosaurus-pogonias",
+      "name": "Edaphosaurus pogonias",
+      "activeSha256": "50a3d3228c7795ba5ac3f82eb7bcce751064f72bee1a692889b16e0e623e6f3f",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-350a1289-01d9-412f-97c6-07c67a6b1a3b.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "be843fdc9ef754106e5703a6468cd5d85807be4d18ae058e5239062c85b3bdeb",
+      "thumbnailRmse": 0.9344,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 3.5328,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "inostrancevia-alexandri",
+      "name": "Inostrancevia alexandri",
+      "activeSha256": "6801ac485f4e1537d4885182f1c46fd47c0e4fb19f16e9d854f032f69a58a1ff",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-cf5d5cac-c9c6-47f2-8057-d056e2b47247.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "115de1e90d55809c1df05ed9e6c82eaa0dfee36daa761342278816d3877ec21b",
+      "thumbnailRmse": 0.8613,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 3.4255,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "scutosaurus-karpinskii",
+      "name": "Scutosaurus karpinskii",
+      "activeSha256": "832d30f901b61b485915372ad7ea60789e049b0bc161d13e2ae906d0dca8537e",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-860b45e0-1d44-49e7-a059-5ac2001b0d0a.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "0388cfd5bcd213fd5d45e9a152cf4307f43af2138e2c4e46e742074e20ccded1",
+      "thumbnailRmse": 0.8369,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 2.8133,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "mesosaurus-tenuidens",
+      "name": "Mesosaurus tenuidens",
+      "activeSha256": "ff4ab64df608db20821810eb8fdc03eb4459f461d2b4be1183b2d80282999c3b",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-ebcb3f6b-422c-4a49-95bf-ecbaa538fc19.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "98bf187eab09ce55e40a1570ad8667b6bbf6e93747ecfb296cb80f550b9e62f6",
+      "thumbnailRmse": 0.9038,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 3.2908,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "diplocaulus-magnicornis",
+      "name": "Diplocaulus magnicornis",
+      "activeSha256": "236bb944a8379e99fbd0d68b9de44d38e58c37bb06e907fe12af785a44729ca5",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-8fdc9cc7-6997-48a8-985a-5a813008fc29.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "b13064e714245a5dd163ebf70c04663542f3151f979ae219a5e87bd7c682023f",
+      "thumbnailRmse": 0.9519,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 3.567,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "helicoprion-bessonowi",
+      "name": "Helicoprion bessonowi",
+      "activeSha256": "a775d12a24769f0d2788e53151721de03dac1013e08dfc245480bee1e3513124",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze. Zubní spirála je rekonstruována uvnitř dolní čelisti, viditelná je pouze část korunek; jejich přesná geometrie nebyla vědecky ověřena. Celkový tvar těla a ploutví je hypotetický, nikoli doložený kompletní kostrou tohoto druhu.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-2db91413-b3fb-4405-87fe-28334be8084e.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "bca6e6e22f5c0897017cba2fd7c6bc3a013b0ec0228a33009359aa35dd443b84",
+      "thumbnailRmse": 0.7654,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 2.3831,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    },
+    {
+      "id": "estemmenosuchus-uralensis",
+      "name": "Estemmenosuchus uralensis",
+      "activeSha256": "89318c898b2b72f9c3d297fe523ffff4b7cca9620b6c4024cdd0b9771ba083e8",
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "activeSize": [
+        1152,
+        768
+      ],
+      "status": "larger_source_matched",
+      "sourceFile": "exec-50d13bfb-8c9b-4f8e-ae74-db3aa1cd5d5e.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSha256": "156ce291cf3307716018b41714d203b09e62dd30ab1ce761bf3a6479221f249a",
+      "thumbnailRmse": 0.8595,
+      "sourceHashMatchesManifest": true,
+      "fullSizeRmse": 2.9999,
+      "exactReexportQ94M6": true,
+      "verification": "Exact active WebP reproduced from source (Lanczos, quality 94, method 6).",
+      "largerSourceIsAnatomicalApproval": false
+    }
+  ]
+}

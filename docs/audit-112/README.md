@@ -8,6 +8,8 @@ Výchozí commit `29158c3`, pouze `feature/paleozoic-1.0.0`. Build 1000010 uživ
 
 Reprodukce: `python scripts/audit/build_image_audit.py /tmp/Dino-Atlas-audit-112.pdf` (Pillow a ReportLab). Bez argumentu skript obnoví jen auditní JSON a Markdown; aktivní soubory pouze čte.
 
+> **Doplnění po auditu:** Vyšší rozlišení samo o sobě není vizuální vada. 72 obrazů 1536 × 1024 zachovat; původní počty níže zahrnují odchylku od tehdy požadovaného přesného rozměru. [Kontrola větších předloh zbývajících 40 obrazů](HIGHER-RESOLUTION-SOURCES.md) doložila 31 shodných větších PNG, 2 větší originály metadaty Commons a 7 menších polí koláží. Žádný obraz nebyl změněn.
+
 ## Výsledky
 
 - Bez problémů: **24**
