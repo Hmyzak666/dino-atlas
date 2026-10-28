@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/visual-refresh-07/manifest.json');
 const after = require('../docs/visual-refresh-07.json');
-const next = {...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json')};
+const next = {...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json')};
 const sha = name => crypto.createHash('sha256').update(fs.readFileSync(path.join(root,name))).digest('hex');
 assert.equal(db.dinosaurs.length,112);
 assert.equal(sha('dinosaurs.json'),next.databaseSha256,'Only documented batches 08 and 09 image metadata may change');

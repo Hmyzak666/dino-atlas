@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/visual-refresh-10/manifest.json');
 const after = require('../docs/visual-refresh-10.json');
-const next = require('../docs/anatomy-01.json');
+const next = {...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json')};
 const ids = ['edaphosaurus-pogonias','helicoprion-bessonowi','estemmenosuchus-uralensis'];
 const sha = b => crypto.createHash('sha256').update(b).digest('hex');
 const fileSha = p => sha(fs.readFileSync(path.join(root,p)));
