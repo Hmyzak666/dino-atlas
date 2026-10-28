@@ -31,6 +31,14 @@ Vizuální kontrola neznamená odbornou vědeckou validaci. Nová trojice čeká
 
 Lokální `npm test` prošel. Nové kontroly chrání tři zálohy, všechny neobrazové údaje a zdroje i 109 ostatních obrazů. Starší testy mají výslovné výjimky pro dávku 10; historické otisky se nepřepisují. Test dávky 09 pro historické porovnání obnovuje metadata poslední trojice z nové zálohy, takže nevypíná kontrolu ostatního obsahu.
 
-Finální CI mobilního rozhraní a podepsané APK 1000010 zatím nepotvrzené. Poslední dodané a uživatelem schválené APK je 1000009. Po úspěšném sestavení zkontrolovat původní certifikát a předat APK. Na telefonu ověřit aktualizaci bez odinstalace, zachování oblíbených, český hlas, kvíz a novou trojici.
+Finální CI mobilního rozhraní i podepsané APK 1000010 prošly. APK 1000010 připravené ke stažení; poslední uživatelem schválené APK je 1000009. Na telefonu ověřit aktualizaci bez odinstalace, zachování oblíbených, český hlas, kvíz a novou trojici.
 
 Všechny dosud požadované obrazové náhrady jsou vložené; žádný další druh není v seznamu čekajících náhrad. Celé vydání 1.0.0 však není finálně schválené. Sloučení do main zůstává výslovně zakázané i po úspěšných testech.
+
+## Potvrzené dokončení — 28. října 2026
+
+[CI 40609512117](https://github.com/Hmyzak666/dino-atlas/actions/runs/40609512117) na zdroji `22a5cd466702d82e8f84e27c4fa2e3dd6e76c4c1`: databáze, kompatibilita, mobilní rozhraní i podepsaný Android build úspěšné. Ověřeno všech 112 druhů, přesné zdrojové assety, identita `cz.hmyzak.dinoatlas`, build 1000010 a původní podpisový certifikát `4008bd7e1dbf92662a5d2de90fa090e1cbb63a6b0020fd687a2927e711da522c`.
+
+`Dino-Atlas-v1.0.0-build1000010.apk`, 36 444 417 bajtů; SHA-256 `048762ae80371f5ea652c92cea56f0832a59b201a98a57be409dda956681956d`. [ZIP artefakt](https://github.com/Hmyzak666/dino-atlas/actions/runs/40609512117/artifacts/12782183912). Stažená databáze, všech 112 obrázků a app.js/style.css navíc porovnány po bajtech se zdrojovým checkpointem.
+
+APK připravené ke stažení. Uživatelská instalace a hodnocení poslední trojice dosud nepotvrzené. Všechny požadované náhrady jsou implementované, ale celé vydání není označené za uživatelsky schválené ani odborně vědecky validované. Do main nic nesloučeno.

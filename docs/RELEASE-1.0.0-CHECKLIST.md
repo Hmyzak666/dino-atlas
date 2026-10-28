@@ -5,7 +5,7 @@ Poslední uživatelem schválený build: **1000009**. Všechny požadované obra
 - [x] Zachováno 112 druhů, texty, české předčítání, kvíz, oblíbené, úložiště a nativní kód.
 - [x] Před výměnou zálohovány všechny tři originály a kredity.
 - [x] Lokální obsahové a regresní testy prošly.
-- [ ] Finální CI mobilního rozhraní a podepsané APK 1000010 potvrzené.
+- [x] Finální CI mobilního rozhraní a podepsané APK 1000010 potvrzené; původní podpis ověřen (40609512117).
 - [ ] Nové APK instalované přes 1000009 a otestované uživatelem.
 - [ ] Poslední trojice vizuálně schválená uživatelem.
 
