@@ -1,0 +1,18 @@
+# Bothriolepis — náhled 01
+
+29. 10. 2026. Uživatel autorizoval zařadit Cladoselache a pokračovat náhledem Bothriolepise. Jeden edit vestavěným imagegen, bez integrace tohoto náhledu a bez dalších automatických variant.
+
+Výstup exec-eaf88764-726a-439c-be9b-b422543f500c.png, PNG 1536 × 1024, SHA-256 c47d403062cce7cf44efcfa019bf9d27461102fe19d4f386a3f8e8a6df6d310c. Náhled zobrazen uživateli v chatu. Vstupem byl původní aktivní AI obrázek images/bothriolepis-canadensis.webp; nebyla použita cizí ilustrace.
+
+## Kontrola: rozpracováno
+
+Oči přesunuty na vrch hlavového pancíře, výrazné boční oko odstraněno. Celý živočich v záběru, bez viditelné koláže či rámečku. Nepovažovat za anatomicky dokončené: společný orbitální otvor není jasně vyznačen; hlava stále příliš velká a zaoblená; středový hřeben pancíře je příliš vysoký a trojúhelníkový, takže působí jako další hřbetní ploutev. Hřbetní ploutev na měkké části je stále trojúhelníková místo přibližně čtvercové. Poloha a klouby prsních přívěsků vyžadují další kontrolu. Náhled řeší polohu očí, nikoli celé vědecké schválení. Přesné barvy, měkké tkáně a okolní vegetace jsou hypotetické.
+
+## Vědecké podklady
+
+- Béchard et al. (2014), The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery, https://doi.org/10.26879/417 ; https://palaeo-electronica.org/content/2014/647-3d-bothriolepis . Studie přímo tohoto druhu: 3D pancíř, omezený pohyb přívěsků, dlouhá zadní část, jediná hřbetní ploutev, bez pánevních a řitní ploutve. Neoznačovat žraločí siluetu původního obrazu za doloženou anatomii.
+- Dupret et al. (2023), https://doi.org/10.1371/journal.pone.0280208 — srovnávací anatomie rodu a orbitální otvor v hlavovém štítu; hlavním studovaným druhem je B. dairbhrensis, nejde o přímý důkaz všech proporcí B. canadensis.
+
+## Přesné zadání
+
+Use case: precise-object-edit. Review candidate paleoart Bothriolepis canadensis for Dino Atlas. Input is an anatomically flawed AI image to EDIT, not a scientific reference. Preserve its photorealistic underwater look, brown-ochre tones, complete animal viewed from above and in front three-quarter with head right and tail left, softly lit sediment and sparse algae background. Correct anatomy based on Bechard et al 2014 doi:10.26879/417. Head is short and broad at the front of a box-shaped thoracic armor with high posterior median ridge, NOT a turtle shell or a huge rounded armored shark head. Remove the large lateral eye and face-like nostrils. Exactly two small eyes close together within the shared orbital region on the TOP of the head shield, visibly directed upward, never on the vertical cheek surfaces. Both eyes should read clearly from the elevated viewpoint. Small subterminal/ventral mouth, no teeth or lip-like smile. One pair of narrow armored pectoral appendages, each two main jointed segments, extending diagonally outward and back rather than crab legs reaching forward; no extra legs or toes. Beyond the short rigid trunk armor, a LONG slender scaleless flexible rear body, ending in an elongated asymmetrical heterocercal tail, not a tall symmetrical shark crescent. Exactly ONE modest approximately square dorsal fin near mid-total-length on the flexible rear body; no anal or pelvic fins. Distinguish the rigid armor ridge from a membranous fin. Granular bony armor rather than hexagonal turtle scutes. Keep entire tail and appendages within frame with margins. Landscape 3:2, 1536x1024, detailed natural edges, no frame, no labels, no collage. Reconstruction colors and fine soft tissues are hypothetical; prioritize anatomical readability.
