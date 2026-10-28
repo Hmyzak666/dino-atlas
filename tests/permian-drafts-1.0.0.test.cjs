@@ -52,7 +52,7 @@ for(const a of draft.animals) {
     assert.ok(published,a.id);
     assert.equal(published.image.src,a.image.src);
     assert.equal(published.image.status,'working-reconstruction');
-    const replaced = ['dimetrodon-grandis','inostrancevia-alexandri','scutosaurus-karpinskii','mesosaurus-tenuidens','diplocaulus-magnicornis'].includes(a.id);
+    const replaced = ['dimetrodon-grandis','inostrancevia-alexandri','scutosaurus-karpinskii','mesosaurus-tenuidens','diplocaulus-magnicornis','edaphosaurus-pogonias','helicoprion-bessonowi','estemmenosuchus-uralensis'].includes(a.id);
     if (replaced) {
       assert.deepEqual(published.image.sourceIds, [], 'Independent AI reconstruction must not inherit old artwork credit');
       assert.match(published.image.note.cs, /AI rekonstrukce/);

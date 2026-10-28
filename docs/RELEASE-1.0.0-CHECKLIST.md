@@ -1,3 +1,20 @@
+# Aktuální kandidát 1.0.0 — build 1000010
+
+Poslední uživatelem schválený build: **1000009**. Všechny požadované obrazové náhrady jsou nyní vložené, včetně dodatečně vyžádaného Edaphosaura. Poslední trojice čeká na hodnocení uživatele. [Přesný stav dávky 10](VISUAL-REFRESH-BATCH10.md).
+
+- [x] Zachováno 112 druhů, texty, české předčítání, kvíz, oblíbené, úložiště a nativní kód.
+- [x] Před výměnou zálohovány všechny tři originály a kredity.
+- [x] Lokální obsahové a regresní testy prošly.
+- [ ] Finální CI mobilního rozhraní a podepsané APK 1000010 potvrzené.
+- [ ] Nové APK instalované přes 1000009 a otestované uživatelem.
+- [ ] Poslední trojice vizuálně schválená uživatelem.
+
+**Neslučovat do main.** Žádný úspěšný test ani schválení obrázků sám o sobě nemění tento pokyn. Nejisté rekonstrukce nejsou označené za vědecky potvrzené.
+
+---
+
+Následující text je historické předání buildu 1000000 a první zpětná vazba; jeho čísla sestavení a tehdejší čekající kroky jsou překonané výše uvedeným stavem.
+
 # Dino Atlas 1.0.0 – předání finálního kandidáta k testu
 
 **Stav:** Obsah první generace prvohor dokončen v pracovní větvi `feature/paleozoic-1.0.0`. Verze **1.0.0 (build 1000000)** je kandidátem k instalaci a mobilnímu testu, **nikoli dosud schváleným vydáním**.

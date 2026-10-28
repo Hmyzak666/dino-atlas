@@ -1,0 +1,24 @@
+{
+  "edaphosaurus-pogonias": {
+    "sha256": "50a3d3228c7795ba5ac3f82eb7bcce751064f72bee1a692889b16e0e623e6f3f",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-350a1289-01d9-412f-97c6-07c67a6b1a3b.png",
+    "sourceSha256": "be843fdc9ef754106e5703a6468cd5d85807be4d18ae058e5239062c85b3bdeb"
+  },
+  "helicoprion-bessonowi": {
+    "sha256": "a775d12a24769f0d2788e53151721de03dac1013e08dfc245480bee1e3513124",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-2db91413-b3fb-4405-87fe-28334be8084e.png",
+    "sourceSha256": "bca6e6e22f5c0897017cba2fd7c6bc3a013b0ec0228a33009359aa35dd443b84"
+  },
+  "estemmenosuchus-uralensis": {
+    "sha256": "89318c898b2b72f9c3d297fe523ffff4b7cca9620b6c4024cdd0b9771ba083e8",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-50d13bfb-8c9b-4f8e-ae74-db3aa1cd5d5e.png",
+    "sourceSha256": "156ce291cf3307716018b41714d203b09e62dd30ab1ce761bf3a6479221f249a"
+  },
+  "databaseSha256": "9e24f22645712a9dfd5b175216933ca12317ad80fbd57529324207d46b953d24"
+}

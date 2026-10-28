@@ -9,7 +9,7 @@ const accepted = require('../docs/visual-refresh-03.json');
 const ids = ['anomalocaris-canadensis', 'opabinia-regalis', 'hallucigenia-sparsa', 'marrella-splendens', 'wiwaxia-corrugata', 'pikaia-gracilens'];
 const ordovicianBatch = require('../docs/visual-refresh-04.json');
 const carbonBatch = require('../docs/visual-refresh-05.json');
-const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json')};
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json')};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.deepEqual(Object.keys(accepted).sort(), ids.sort());
 assert.deepEqual(Object.keys(before.images).sort(), ids.sort());
