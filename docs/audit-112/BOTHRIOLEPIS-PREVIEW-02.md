@@ -1,0 +1,19 @@
+# Bothriolepis — náhled 02
+
+29. 10. 2026. Základ 682f97f821422c75cf773f28b3975fe0407656f8, pouze feature/paleozoic-1.0.0. Uživatel schválil barevnost a prostředí předchozího náhledu pro další doladění. Jeden cílený edit vestavěným imagegen, žádná automatická série.
+
+Výstup exec-3eeba615-8cf7-4bf6-8692-fd05eb8ff6fe.png, PNG 1536 × 1024, SHA-256 c238c99a07e4918aeacc7f361fe1c70cf7e00eec0e4d24b3d3e99bbc34aebf8e. Vstupem náhled 01 exec-eaf88764-726a-439c-be9b-b422543f500c.png. Zobrazen uživateli v chatu, nikoli vložen do aplikace.
+
+## Kontrola náhledu
+
+Vysoká trojúhelníková plachta na pancíři odstraněna, nahrazena nízkým podélným hřebenem. Viditelná jediná membránová hřbetní ploutev na zadní části má nyní přibližně hranatý obrys. Dvě oči na horní straně hlavového štítu ve společné ohraničené prohlubni; zjevné boční oko původního aktivního obrazu chybí. Hlava je nižší než u náhledu 01. Celá silueta v rámu, bez koláže a rámečku, podobná schválená hnědookrová barevnost a prostředí.
+
+Nejde o vědecky certifikovanou rekonstrukci. Přesné švy pancíře, proporce hlavového štítu a úhly či pohyblivost dvoudílných prsních přívěsků nejsou tímto pohledem nezávisle ověřené. Přívěsky jsou stále výrazně roztažené do stran; neoznačovat jejich orientaci za kvantitativně ověřenou podle 3D studie. Barvy a konkrétní vegetace jsou hypotetické. Podklady: Béchard et al. 2014, https://doi.org/10.26879/417 ; podrobnosti a předchozí nedostatky v [náhledu 01](BOTHRIOLEPIS-PREVIEW-01.md).
+
+## Stav
+
+Čeká uživatelský výběr této druhé verze. Aktivní Bothriolepis, všechna ostatní data a obrázky beze změny v tomto kroku. Cladoselache zůstává jedinou integrovanou anatomickou opravou z této série. Před případnou integrací Bothriolepise povinná záloha WebP, metadat a kreditů. UI/CI z předchozího předání nadále neověřené, nové APK nevzniklo; poslední dodané 1000010 neobsahuje nového Cladoselache. Do main neslučovat.
+
+## Přesné zadání
+
+Use case: precise-object-edit. EDIT TARGET is this draft Bothriolepis canadensis paleoart. Produce one corrected landscape 1536x1024 review image. Preserve the approved earthy ochre/brown colors, underwater sediment scene, natural light, photorealistic texture, framing and right-facing full-body three-quarter view. Make the following anatomical corrections clearly visible, based on Bechard et al 2014 doi:10.26879/417. (1) REMOVE the tall triangular fin-like sail projecting from the rigid armored back near the image center. Replace it with a LOW broad integrated bony longitudinal median ridge, a gentle peaked roof continuous with the armor, never a free standing triangle or separate fin. (2) The ONLY membranous dorsal fin, farther left on the soft rear body, should be approximately square/trapezoidal with a fairly level top and rounded corners, not a swept shark triangle. Preserve the long scaleless tapering rear body and asymmetrical caudal fin; no anal or pelvic fins. (3) Make the head shield SHORTER and LOWER, a small oblique flattened front cap on a larger box-shaped trunk armor, not a bulbous helmet/turtle head. The two eyes remain small on the DORSAL head surface, close together inside one clearly defined shallow shared transverse orbital opening across the skull roof. Do not put eyes in separate holes on the vertical cheek. Surround the orbital opening with continuous bony rim, without adding a third eye. Mouth small on lower/front underside, closed or barely visible, no human lips. (4) Preserve exactly one pair of narrow two-segment armored pectoral appendages but sweep them gently sideways and BACK TOWARD THE TAIL, not forwards like crawling legs. They attach to trunk armor just behind the head, not to the snout. No additional limbs, no digits. Keep all body extremities within frame with margins, and preserve the water/ground lighting and image style. No text, labels, collage or border. This is a scientifically informed review reconstruction; colors and fine soft tissues are hypothetical.

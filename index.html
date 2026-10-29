@@ -11,8 +11,8 @@
       document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
     } catch (_) {}
   </script>
-  <link rel="stylesheet" href="./style.css?v=0.9.0-90001">
-  <script src="./app.js?v=0.9.0-90001" defer></script>
+  <link rel="stylesheet" href="./style.css?v=1.0.0-1000000">
+  <script src="./app.js?v=1.0.0-1000000" defer></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Přejít na obsah</a>
@@ -52,6 +52,7 @@
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
         <input id="search" type="search" placeholder="Koho hledáš?" autocomplete="off" spellcheck="false" aria-label="Najdi pravěké zvíře podle názvu">
       </label>
+      <div id="era-filters" aria-label="Geologická éra"></div>
       <div id="period-filters" class="period-filters" role="group" aria-label="Geologické období">
         <button type="button" data-period="triassic" aria-pressed="false">Trias</button>
         <button type="button" data-period="jurassic" aria-pressed="false">Jura</button>
@@ -79,7 +80,7 @@
     <section id="not-found" class="page empty-state" hidden><h1>Tohle heslo tu zatím není.</h1><p>Vrať se do atlasu a vyber jiné zvíře.</p><a class="button button-primary" href="#atlas">Zpět do atlasu</a></section>
   </main>
 
-  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 0.9.0</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
+  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 1.0.0</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
   <div id="scroll-controls" class="scroll-controls" role="group" aria-label="Rychlý posun stránky" hidden>
     <button id="scroll-up" type="button" data-scroll="up" aria-label="Na začátek stránky" title="Na začátek stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7"/></svg></button>
     <button id="scroll-down" type="button" data-scroll="down" aria-label="Na konec stránky" title="Na konec stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg></button>

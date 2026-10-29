@@ -1,0 +1,11 @@
+{
+  "mecochirus-longimanatus": {
+    "sha256": "1a4219083493f4b2be1a8935b08dafc69ebf06ab7cf623b0981673b109d8e47a",
+    "width": 1536,
+    "height": 1024,
+    "generatedSource": "exec-6f421d26-7b04-4a93-ac25-e6c5937f4049.png",
+    "sourceSha256": "e7433782d6793f3e74f694ace775b3fd33d2b9f2ccb5212d9a38fd0fbc54b740",
+    "approved": true
+  },
+  "databaseSha256": "9e24f22645712a9dfd5b175216933ca12317ad80fbd57529324207d46b953d24"
+}

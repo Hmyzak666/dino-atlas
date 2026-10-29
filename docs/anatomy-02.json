@@ -1,0 +1,11 @@
+{
+  "bothriolepis-canadensis": {
+    "sha256": "0fc5b280f2c123fc730fb81fa4d76a0852c37e13f780ed3134adfa6bdfe1178e",
+    "width": 1536,
+    "height": 1024,
+    "generatedSource": "exec-3eeba615-8cf7-4bf6-8692-fd05eb8ff6fe.png",
+    "sourceSha256": "c238c99a07e4918aeacc7f361fe1c70cf7e00eec0e4d24b3d3e99bbc34aebf8e",
+    "approved": true
+  },
+  "databaseSha256": "9e24f22645712a9dfd5b175216933ca12317ad80fbd57529324207d46b953d24"
+}

@@ -63,8 +63,15 @@ async function openAnimal(page,id) {
       page.on('request',r=>{if(!r.url().startsWith(base))errors.push('External request: '+r.url());});
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
-      assert.equal(await page.locator('#gallery .dino-card').count(),72);
-      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),['Trias','Jura','Křída','Vše']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),db.dinosaurs.length);
+      for (const [id, ratio] of [['pulmonoscorpius-kirktonensis',3/2],['arthropleura-armata',3/2]]) {
+        const frame = page.locator('.card-picture').filter({has:page.locator('img[src="images/'+id+'.webp"]')});
+        await frame.scrollIntoViewIfNeeded();
+        const box = await frame.boundingBox();
+        assert.ok(Math.abs(box.width/box.height-ratio)<0.005, id+' frame must use the same 3:2 frame as other images');
+      }
+      await page.evaluate(()=>scrollTo(0,0));
+      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),db.dinosaurs.length>72?['Vše']:['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
         const decoded=await page.evaluate(async sources=>Promise.all(sources.map(src=>new Promise((resolve,reject)=>{
@@ -73,7 +80,7 @@ async function openAnimal(page,id) {
           img.onerror=()=>reject(new Error('Image decoding failed: '+src));
           img.src=src;
         }))),db.dinosaurs.map(a=>a.image.src));
-        assert.equal(decoded.length,72);
+        assert.equal(decoded.length,db.dinosaurs.length);
         assert.ok(decoded.every(img=>img.width>0&&img.height>0),'All animal images must decode in the browser');
       }
       const names=await page.locator('.card-title-row h3').allTextContents();
@@ -276,6 +283,23 @@ async function openAnimal(page,id) {
           await page.locator('#quiz-next').click();
         }
         assert.match(await page.locator('.score').textContent(),/5 z 5/);
+        await page.locator('[data-quiz-category="arthropod"]').click();
+        await page.locator('[data-quiz-era="paleozoic"]').click();
+        await page.locator('[data-quiz-period="carboniferous"]').click();
+        const croppedSeen = new Set();
+        for (let i=0;i<3;i++) {
+          const src = await page.locator('.quiz-picture img').getAttribute('src');
+          const id = src.match(/images\/(.+)\.webp/)[1];
+          const ratios = {'pulmonoscorpius-kirktonensis':3/2,'arthropleura-armata':3/2};
+          if (ratios[id]) {
+            croppedSeen.add(id);
+            const box = await page.locator('.quiz-picture').boundingBox();
+            assert.ok(Math.abs(box.width/box.height-ratios[id])<0.01,'Quiz frame fits '+id);
+          }
+          await page.locator('[data-answer="'+id+'"]').click();
+          await page.locator('#quiz-next').click();
+        }
+        assert.equal(croppedSeen.size,2,'Both approved crops exercised in the quiz');
       }
 
       for(const id of ['rhamphorhynchus-muensteri','liopleurodon-ferox','ceratosaurus-nasicornis','eoraptor-lunensis','herrerasaurus-ischigualastensis','eodromaeus-murphi','saturnalia-tupiniquim','riojasaurus-incertus','eudimorphodon-ranzii','peteinosaurus-zambellii','nothosaurus-mirabilis','shonisaurus-popularis']) {
@@ -287,6 +311,7 @@ async function openAnimal(page,id) {
         await page.getByRole('link',{name:'← Zpět do atlasu',exact:true}).click();
         await page.waitForURL('**/#atlas');
         await page.locator('[data-category="all"]').click();
+        if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
         await page.locator('[data-period="triassic"]').click();
         const triassicCount=db.dinosaurs.filter(animal=>animal.period==='triassic').length;
         assert.equal(await page.locator('#gallery .dino-card').count(),triassicCount);

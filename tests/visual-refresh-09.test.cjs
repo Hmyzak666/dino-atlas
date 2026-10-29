@@ -1,0 +1,35 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const crypto = require('node:crypto');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const db = require('../dinosaurs.json');
+const before = require('../docs/backups/visual-refresh-09/manifest.json');
+const after = require('../docs/visual-refresh-09.json');
+const next = {...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json')};
+const nextBefore = require('../docs/backups/visual-refresh-10/manifest.json');
+const ids = ['dimetrodon-grandis','inostrancevia-alexandri','scutosaurus-karpinskii','mesosaurus-tenuidens','diplocaulus-magnicornis'];
+const sha = b => crypto.createHash('sha256').update(b).digest('hex');
+const fileSha = p => sha(fs.readFileSync(path.join(root,p)));
+const canon = v => Array.isArray(v) ? v.map(canon) : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map(k=>[k,canon(v[k])])) : v;
+assert.deepEqual(Object.keys(after).filter(k=>k!=='databaseSha256').sort(), [...ids].sort());
+assert.equal(db.dinosaurs.length,112);
+assert.equal(fileSha('dinosaurs.json'),next.databaseSha256);
+const normalized = {...db,dinosaurs:db.dinosaurs.map(a=>nextBefore.imageMetadata[a.id]?{...a,image:nextBefore.imageMetadata[a.id]}:a).map(a=>ids.includes(a.id)?Object.fromEntries(Object.entries(a).filter(([k])=>k!=='image')):a)};
+assert.equal(sha(JSON.stringify(canon(normalized))),before.canonicalDataWithoutSelectedImagesSha256,'All texts, narration, sources and 107 other image metadata records must remain unchanged');
+for (const a of db.dinosaurs) {
+  assert.equal(fileSha(a.image.src),next[a.id]?.sha256 || after[a.id]?.sha256 || before.allActiveImageSha256[a.id],a.id);
+  if (!ids.includes(a.id)) continue;
+  assert.equal(fileSha('docs/backups/visual-refresh-09/images/'+a.id+'.webp'),before.allActiveImageSha256[a.id]);
+  assert.notEqual(after[a.id].sha256,before.allActiveImageSha256[a.id]);
+  const {note,sourceIds,...metadata}=a.image;
+  const {note:oldNote,sourceIds:oldSources,...oldMetadata}=before.imageMetadata[a.id];
+  assert.deepEqual(metadata,oldMetadata);
+  assert.deepEqual(sourceIds,[]);
+  assert.ok(oldSources.length);
+  for (const source of oldSources) assert.ok(db.sources[source], 'Preserve old licence sources');
+  assert.match(note.cs,/hypotetické/);
+  assert.equal(after[a.id].width,1152);
+  assert.equal(after[a.id].height,768);
+}
+console.log('PASS: five Permian replacements and backups; 107 other images, all texts, narration and sources preserved.');

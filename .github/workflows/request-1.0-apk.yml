@@ -1,0 +1,52 @@
+name: Request signed Dino Atlas 1.0.0 phone-test APK
+# Re-run after full 112-species content validation, release metadata and test allowlist.
+
+on:
+  push:
+    branches:
+      - feature/paleozoic-1.0.0
+    paths:
+      - .github/workflows/request-1.0-apk.yml
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  request:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm requested release candidate and complete offline content
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('project.json').read_text())
+          d=json.loads(Path('dinosaurs.json').read_text())
+          assert (p['version'],p['versionCode'])==('1.0.0',1000000)
+          assert len(d['dinosaurs'])==112
+          assert sum(x['period']=='permian' for x in d['dinosaurs'])==8
+          for a in d['dinosaurs']:
+              assert (Path('images') / (a['id']+'.webp')).is_file()
+          print('Verified 1.0.0 build 1000000 with 112 local images.')
+          PY
+      - name: Request existing official workflow in signed dispatch mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          status=$(curl -sS -o /tmp/dispatch-response -w '%{http_code}' \
+            -X POST "https://api.github.com/repos/$REPO/actions/workflows/android-apk.yml/dispatches" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -d '{"ref":"feature/paleozoic-1.0.0"}')
+          if [ "$status" != "204" ]; then
+            cat /tmp/dispatch-response
+            echo "Workflow dispatch failed with HTTP $status"
+            exit 1
+          fi
+          echo "Official signed Android workflow triggered for feature/paleozoic-1.0.0."
