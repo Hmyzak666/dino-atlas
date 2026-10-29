@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, '..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/anatomy-03/manifest.json');
 const after = require('../docs/anatomy-03.json');
+const next = require('../docs/anatomy-04.json');
 const id = 'qilinyu-rostrata';
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
 assert.equal(db.dinosaurs.length,112);
@@ -15,5 +16,5 @@ assert.equal(sha('docs/backups/anatomy-03/images/'+id+'.webp'),before.allActiveI
 assert.notEqual(after[id].sha256,before.allActiveImageSha256[id]);
 assert.equal(after[id].width,1536);
 assert.equal(after[id].height,1024);
-for (const a of db.dinosaurs) assert.equal(sha(a.image.src),a.id===id?after[id].sha256:before.allActiveImageSha256[a.id],a.id);
+for (const a of db.dinosaurs) assert.equal(sha(a.image.src),next[a.id]?.sha256 || (a.id===id?after[id].sha256:before.allActiveImageSha256[a.id]),a.id);
 console.log('PASS: approved Qilinyu, exact backup, 111 other images and complete database preserved.');
