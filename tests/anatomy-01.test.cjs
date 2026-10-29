@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/anatomy-01/manifest.json');
 const after = require('../docs/anatomy-01.json');
-const next = require('../docs/anatomy-02.json');
+const next = {...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json')};
 const id = 'cladoselache-fyleri';
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
 assert.equal(db.dinosaurs.length,112);

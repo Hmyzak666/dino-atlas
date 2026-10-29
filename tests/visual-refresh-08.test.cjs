@@ -6,7 +6,7 @@ const root = path.resolve(__dirname,'..');
 const db = require('../dinosaurs.json');
 const before = require('../docs/backups/visual-refresh-08/manifest.json');
 const after = require('../docs/visual-refresh-08.json');
-const next = {...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json')};
+const next = {...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json')};
 const sha = b => crypto.createHash('sha256').update(b).digest('hex');
 const fileSha = p => sha(fs.readFileSync(path.join(root,p)));
 const canon = v => Array.isArray(v) ? v.map(canon) : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map(k=>[k,canon(v[k])])) : v;

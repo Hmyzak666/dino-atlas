@@ -19,7 +19,7 @@ const activated=config.versionCode>=1000001;
 for(const [id,[oldhash,newhash]] of Object.entries(expected)){
  const name=id+'.webp';
  const actual=sha(path.join(root,'images',name));
- assert.equal(actual,activated?newhash:oldhash,'Unexpected image for '+id);
+ assert.equal(actual,activated?(require('../docs/anatomy-03.json')[id]?.sha256 || newhash):oldhash,'Unexpected image for '+id);
  const animal=db.dinosaurs.find(a=>a.id===id);
  assert.ok(animal);
  assert.equal(animal.period,'silurian');
