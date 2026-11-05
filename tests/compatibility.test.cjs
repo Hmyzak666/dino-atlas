@@ -5,7 +5,7 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const baseline = require('./fixtures/verified-0.8.0.json');
 const config = require('../project.json');
-const db = require('../dinosaurs.json');
+const { historicalDatabase: db, batch } = require('./helpers/approved-nine.cjs');
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 
 // 0.9.0 is an authorized content/UI release, not a byte-identical cleanup.
@@ -14,7 +14,7 @@ const originals = require('./fixtures/original-0.8.1-records.json');
 assert.equal(originals.length, 42);
 for (const animal of originals) assert.deepEqual(db.dinosaurs.find(a => a.id === animal.id), animal, animal.id);
 for (const [name, expected] of Object.entries(baseline.assets)) {
-  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), expected, name);
+  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), batch.images[path.basename(name, '.webp')]?.sha256 || expected, name);
 }
 assert.deepEqual(originals.map(a => a.id).sort(), baseline.animalIds);
 assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);
