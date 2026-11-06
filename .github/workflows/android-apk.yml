@@ -36,6 +36,14 @@ jobs:
           DINO_QA_DIR: ${{ runner.temp }}/dino-atlas-qa
         run: npm run test:ui
 
+      - name: Save mobile UI verification screenshots
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: Dino-Atlas-UI-checks
+          path: ${{ runner.temp }}/dino-atlas-qa/
+          retention-days: 7
+
   apk:
     name: Sestavit a ověřit Android
     needs: verify

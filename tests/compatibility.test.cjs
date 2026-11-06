@@ -14,7 +14,7 @@ const originals = require('./fixtures/original-0.8.1-records.json');
 assert.equal(originals.length, 42);
 for (const animal of originals) assert.deepEqual(db.dinosaurs.find(a => a.id === animal.id), animal, animal.id);
 for (const [name, expected] of Object.entries(baseline.assets)) {
-  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), batch.images[path.basename(name, '.webp')]?.sha256 || expected, name);
+  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), require('../docs/approved-three-2026-11-06.json').images[path.basename(name, '.webp')]?.sha256 || batch.images[path.basename(name, '.webp')]?.sha256 || expected, name);
 }
 assert.deepEqual(originals.map(a => a.id).sort(), baseline.animalIds);
 assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);

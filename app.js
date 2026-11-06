@@ -556,6 +556,7 @@
     $('empty-state').hidden = visible.length !== 0;
     $('random-button').disabled = visible.length === 0;
     $('favorites-filter').setAttribute('aria-pressed', String(state.favoritesOnly));
+    $('clear-search').hidden = !state.query;
     updateFavoriteButtons();
     scheduleScrollControls();
   }
@@ -567,7 +568,10 @@
       const maximum = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
       const editing = document.activeElement?.matches('input, textarea, select, [contenteditable="true"]');
       const supported = currentRoute === '#atlas' || currentRoute.startsWith('#dinosaurus/');
-      $('scroll-controls').hidden = !supported || maximum < 100 || window.scrollY < 120 || editing;
+      const inDetail = currentRoute.startsWith('#dinosaurus/');
+      $('detail-atlas').hidden = !inDetail;
+      $('scroll-controls').classList.toggle('in-detail', inDetail);
+      $('scroll-controls').hidden = !supported || editing || (!inDetail && (maximum < 100 || window.scrollY < 120));
       $('scroll-up').disabled = window.scrollY <= 8;
       $('scroll-down').disabled = window.scrollY >= maximum - 8;
     });
@@ -891,6 +895,12 @@
     if (currentRoute === '#atlas') renderGallery();
     else location.hash = 'atlas';
   });
+  $('clear-search').addEventListener('click', () => {
+    state.query = '';
+    $('search').value = '';
+    $('search').focus();
+    renderGallery();
+  });
   $('search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
   $('diet-filter').addEventListener('change', event => { state.diet = event.target.value; renderGallery(); });
   $('era-filters').addEventListener('click', event => {
@@ -910,8 +920,11 @@
   });
   $('favorites-filter').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; renderGallery(); });
   $('clear-filters').addEventListener('click', () => {
-    Object.assign(state, { query: '', era: 'all', period: 'all', diet: 'all', favoritesOnly: false });
+    Object.assign(state, { category: 'all', query: '', era: 'all', period: 'all', diet: 'all', favoritesOnly: false });
+    saveStorage('dinoatlas-category', 'all');
+    syncCategory();
     syncAtlasTimeFilters();
+    galleryScroll = 0;
     $('search').value = '';
     $('diet-filter').value = 'all';
     document.querySelectorAll('[data-period]').forEach(item => item.setAttribute('aria-pressed', String(item.dataset.period === 'all')));
