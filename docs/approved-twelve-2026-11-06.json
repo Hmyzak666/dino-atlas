@@ -1,0 +1,502 @@
+{
+  "baseCommit": "e1b0045d336f3d040a8714112f4c19f613836f29",
+  "beforeDatabaseSha256": "3a544a1b80501aaed462632c9b275207768101055d18d247816411e5b20cb82d",
+  "images": {
+    "allosaurus-fragilis": {
+      "approved": true,
+      "sourceFile": "exec-18cc1090-8be8-470c-ae29-ba808321eaa4.png",
+      "sourceSha256": "c62d7004ca77b43db9133cb92f9573dc6a25840013727bba77b74b6a55cdb6fa",
+      "sha256": "ed2c5dba663cb2b1366f00b7a2a795e4765105fe6c50d2e6e088f96d092f0598",
+      "previousImageMetadata": {
+        "src": "images/allosaurus-fragilis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Allosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce A. fragilis. Barvy, měkké tkáně a podoba zavřených úst jsou ilustrativní; drobné výběžky hlavy nejsou býčí rohy."
+        },
+        "facing": "right"
+      },
+      "imageMetadata": {
+        "src": "images/allosaurus-fragilis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Allosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce A. fragilis. Barvy, měkké tkáně a podoba zavřených úst jsou ilustrativní; drobné výběžky hlavy nejsou býčí rohy."
+        },
+        "facing": "left"
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "iguanodon-bernissartensis": {
+      "approved": true,
+      "sourceFile": "exec-fce2e174-443b-4161-aef0-8968b72c9d9d.png",
+      "sourceSha256": "7a08018c89f79c55e89160bcc89dde9e16742a4015b274a119c8fc64c32ab35a",
+      "sha256": "454fe256831b653a90814add2b46838b5802272ad8e00e1c0413a0169a10b5f4",
+      "previousImageMetadata": {
+        "src": "images/iguanodon-bernissartensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Iguanodon."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce I. bernissartensis. Zbarvení a měkké tkáně jsou ilustrativní. Palcový bodec patří na ruku, nikoli na nos."
+        },
+        "facing": "right"
+      },
+      "imageMetadata": {
+        "src": "images/iguanodon-bernissartensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Iguanodon."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce I. bernissartensis. Zbarvení a měkké tkáně jsou ilustrativní. Palcový bodec patří na ruku, nikoli na nos."
+        },
+        "facing": "right"
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "carnotaurus-sastrei": {
+      "approved": true,
+      "sourceFile": "exec-12d9808d-3740-4825-9c33-dd643a3909db.png",
+      "sourceSha256": "c9e20eb92b6dce58408d6fde774b55c941a6230a351c1ec247c0f11bd10fb750",
+      "sha256": "d97e00a84bbcd82e24b7d32eb9904544917aa27f6b9a745656dc2d9ce893695e",
+      "previousImageMetadata": {
+        "src": "images/carnotaurus-sastrei.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Carnotaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce C. sastrei. Šupinatý pokryv je doložen, ale zbarvení a přesná měkká podoba rohů jsou ilustrativní. Ocas a části nohou jsou doplněné podle příbuzných."
+        },
+        "facing": "right"
+      },
+      "imageMetadata": {
+        "src": "images/carnotaurus-sastrei.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Carnotaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce C. sastrei. Šupinatý pokryv je doložen, ale zbarvení a přesná měkká podoba rohů jsou ilustrativní. Ocas a části nohou jsou doplněné podle příbuzných."
+        },
+        "facing": "left"
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "pachycephalosaurus-wyomingensis": {
+      "approved": true,
+      "sourceFile": "exec-a919e6f7-85b2-4380-b81f-e62c402eaa57.png",
+      "sourceSha256": "5a3f3807226fd8330f41386fd354fd97dc974546f035658c79ea3e63eee63770",
+      "sha256": "ae84a2a39f9ac5cb744bd99a38d3e7ae236d8e2eb603b7828b9fda1f89c2d52a",
+      "previousImageMetadata": {
+        "src": "images/pachycephalosaurus-wyomingensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pachycephalosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. wyomingensis. Kostěná kopule je doložena; její měkký kryt, barvy i další podrobnosti těla jsou rekonstrukcí."
+        },
+        "facing": "right"
+      },
+      "imageMetadata": {
+        "src": "images/pachycephalosaurus-wyomingensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pachycephalosaurus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. wyomingensis. Kostěná kopule je doložena; její měkký kryt, barvy i další podrobnosti těla jsou rekonstrukcí."
+        },
+        "facing": "right"
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "pterodactylus-antiquus": {
+      "approved": true,
+      "sourceFile": "exec-91fb5d21-f4aa-42f2-99bb-4ab801fa1e63.png",
+      "sourceSha256": "41173b9961ca27f815cb3479b71a40ecefd9d886e190ec46115e106e55d445db",
+      "sha256": "7ef088ba861405f08fcfc8b75a6a6e72498d8fc5733028866dbed2ca8a315d83",
+      "previousImageMetadata": {
+        "src": "images/pterodactylus-antiquus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pterodactylus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. antiquus. Zuby a krátký ocas patří k doložené anatomii; barvy, měkké tkáně a hustotu tělního pokryvu rekonstruujeme."
+        },
+        "facing": "right"
+      },
+      "imageMetadata": {
+        "src": "images/pterodactylus-antiquus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Pterodactylus."
+        },
+        "status": "working-reconstruction",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce P. antiquus. Zuby a krátký ocas patří k doložené anatomii; barvy, měkké tkáně a hustotu tělního pokryvu rekonstruujeme."
+        },
+        "facing": "left"
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "ceratosaurus-nasicornis": {
+      "approved": true,
+      "sourceFile": "exec-106514cd-6adc-49ea-8c5d-aaab5b3a353b.png",
+      "sourceSha256": "5c21c86eb1fb3a7da9cd8eaeff9ba7d02a6b9e0b98c261f9082b66da54d564b2",
+      "sha256": "d89e5e7a13e62f05d3b561d00ed565d618a40e978065e6f98083419dc3e9c52a",
+      "previousImageMetadata": {
+        "src": "images/ceratosaurus-nasicornis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Ceratosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce C. nasicornis. Nosní roh a drobné hřbetní destičky vycházejí z nálezů; jejich měkký kryt a barvy jsou ilustrativní."
+        }
+      },
+      "imageMetadata": {
+        "src": "images/ceratosaurus-nasicornis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Ceratosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce C. nasicornis. Nosní roh a drobné hřbetní destičky vycházejí z nálezů; jejich měkký kryt a barvy jsou ilustrativní."
+        }
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "eudimorphodon-ranzii": {
+      "approved": true,
+      "sourceFile": "exec-1cd39765-ca5b-44ab-b5ff-fe402e8ce746.png",
+      "sourceSha256": "9712f7c16d7c4fb5228a9a6283b0afaef46fd6e60af3439afccdb62e97154014",
+      "sha256": "8479f43baf100c58731bc4fe957af0d0901afa2e2ecc3e8a58d148a10d34bd31",
+      "previousImageMetadata": {
+        "src": "images/eudimorphodon-ranzii.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Eudimorphodon."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce E. ranzii. Chybějící části ocasu, blány, tělní pokryv a barvy jsou doplněné. Kosočtverečný ocasní list není u druhu doložen."
+        }
+      },
+      "imageMetadata": {
+        "src": "images/eudimorphodon-ranzii.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Eudimorphodon."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce E. ranzii. Chybějící části ocasu, blány, tělní pokryv a barvy jsou doplněné. Kosočtverečný ocasní list není u druhu doložen."
+        }
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "kentrosaurus-aethiopicus": {
+      "approved": true,
+      "sourceFile": "exec-4ecadcbc-4671-41e2-8bdc-15f5bd9b46c1.png",
+      "sourceSha256": "83a5a74972c94752069f0abed952cee166709a9f721b5188b2111926076818fe",
+      "sha256": "bff675f8e1aa0a2f52c06646ef043853b174ebe901d6840ee3facd8997e1b441",
+      "previousImageMetadata": {
+        "src": "images/kentrosaurus-aethiopicus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Kentrosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce druhu Kentrosaurus aethiopicus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail."
+        }
+      },
+      "imageMetadata": {
+        "src": "images/kentrosaurus-aethiopicus.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Kentrosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce druhu Kentrosaurus aethiopicus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail."
+        }
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "styracosaurus-albertensis": {
+      "approved": true,
+      "sourceFile": "exec-d377a25f-795d-4565-aeb5-eae1b59278b2.png",
+      "sourceSha256": "3dacc6446ef971351554a5ae90c39117d7b48376e4b5c498ddfedd69ce07a248",
+      "sha256": "a704df353b6dd73347e856ba9668b7a873b4063eb001cf083742e8caf033d10d",
+      "previousImageMetadata": {
+        "src": "images/styracosaurus-albertensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Styracosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce druhu Styracosaurus albertensis. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail."
+        }
+      },
+      "imageMetadata": {
+        "src": "images/styracosaurus-albertensis.webp",
+        "alt": {
+          "cs": "Pracovní realistická rekonstrukce: Styracosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce druhu Styracosaurus albertensis. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail."
+        }
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "jaekelopterus-rhenaniae": {
+      "approved": true,
+      "sourceFile": "exec-a4748172-69c6-480a-a1ec-c0bbaaefe025.png",
+      "sourceSha256": "09a930ed1ad9dcf86e3e569bc8a2586ad88df6d6ed5999897b44067fa78bcebc",
+      "sha256": "fd5afff0dc88f0b6775509ce9fa8461bcaf95ba2177eafb695c748068af30b5e",
+      "previousImageMetadata": {
+        "src": "images/jaekelopterus-rhenaniae.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Jaekelopterus"
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené."
+        }
+      },
+      "imageMetadata": {
+        "src": "images/jaekelopterus-rhenaniae.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Jaekelopterus"
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené."
+        }
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "pulmonoscorpius-kirktonensis": {
+      "approved": true,
+      "sourceFile": "exec-ef944531-e165-4f2c-b2a4-f2eed7fcddb3.png",
+      "sourceSha256": "9812b80e4931a1922d8d349f65783a4b8a64c8f7bbb639c68de05aa343307bfe",
+      "sha256": "83d59e0031a415838d91bf1a492ddd96969eb5311306dbace2724e2bcb45a32c",
+      "previousImageMetadata": {
+        "src": "images/pulmonoscorpius-kirktonensis.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Pulmonoscorpius."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
+        },
+        "sourceIds": [
+          "carbon-art-pulmonoscorpius-kirktonensis"
+        ]
+      },
+      "imageMetadata": {
+        "src": "images/pulmonoscorpius-kirktonensis.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Pulmonoscorpius."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Nová původní AI rekonstrukce vytvořená pro Dino Atlas (2026). Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní licencovaný obraz a jeho autorské údaje zůstávají zachované v historii projektu."
+        },
+        "sourceIds": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    },
+    "edaphosaurus-pogonias": {
+      "approved": true,
+      "sourceFile": "exec-53200ba2-c9da-418b-9de3-53260cd8a542.png",
+      "sourceSha256": "5961e2e10f8e9a22e12c324c2f44718093b0c0f1d86c5fa5bc364a9a3dec7cc9",
+      "sha256": "45ff0fb3fb9c38b8fb03b87e00e8c11cb50598809ba126542c8d3a6d48984381",
+      "previousImageMetadata": {
+        "src": "images/edaphosaurus-pogonias.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Edaphosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze."
+        },
+        "sourceIds": []
+      },
+      "imageMetadata": {
+        "src": "images/edaphosaurus-pogonias.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Edaphosaurus."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze."
+        },
+        "sourceIds": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "quality": 94
+    }
+  },
+  "allActiveImageSha256": {
+    "triceratops-horridus": "e426d0cb0e34fdeadc6f6950c50b09b6fe12e0f1331fdf0cabb3dd92f5bf1629",
+    "tyrannosaurus-rex": "46aa9338c1e2517af453324c79dca23803be35e225090d717af0e61f75bfebaf",
+    "stegosaurus-stenops": "1b59fedf3b188e7a5b72c67252491d2c0aee3c3f0aeab84af38cbc76b6f009b1",
+    "diplodocus-carnegii": "1142f58b92e38f313b526edf82742590edb2fc2f9fd2add550e308ec26e496ab",
+    "ankylosaurus-magniventris": "a25bb08edb149cb461c32c34796cad021a4cbf7dc7e292f436c2c3bcc565993f",
+    "coelophysis-bauri": "bcfd4198eb0312beda216eb54419f9591216b8105134409bbd0c4434f0b58bb0",
+    "velociraptor-mongoliensis": "bd3d6949476c599eb57f4fc7057b38958a358f02c9cff6675b14bdf3c1d7f4e3",
+    "parasaurolophus-walkeri": "bfc450fbea5c8effc1b762d0f2353fce973a177424172cb789526fcf64c933b9",
+    "brachiosaurus-altithorax": "827b0693c4d32df29d5c41c8ed17b10c0e68704de6cb41cc202bf1bfe7aef60a",
+    "spinosaurus-aegyptiacus": "7e478abb0c0ecd29cfd54440c7a11509e8f72b44bed25a12b5ced961fee36875",
+    "allosaurus-fragilis": "a7461ac561d1dbba9b2c89fe4d08838289288155ff12c31849069ed392e5f2c2",
+    "iguanodon-bernissartensis": "18778297b4ff9a71c6d338910ac930ea12b56679528761b3f02e34ad4f9e76ce",
+    "carnotaurus-sastrei": "76ecf611fcc598cb6c87e19de20e71d84bbc8282d4f463deec3380f78df93ba1",
+    "pachycephalosaurus-wyomingensis": "d6dc938c4fa118d69a9d2c6fe766439a91aaab58ac07b146960c567e9df715c1",
+    "therizinosaurus-cheloniformis": "a84c29956ecfbf085afa4ec35eaa7ea328c8991bf662de0d4c1daf978adff52a",
+    "pterodactylus-antiquus": "f1b9317f819b463efa9494c1007b2336c72e5cde6d874250bd103dd7351b0a2c",
+    "pteranodon-longiceps": "4ffa17bdc70dce4219be70f7a7145751de9183118e58c128982cde037989f4c5",
+    "quetzalcoatlus-northropi": "3248c4d977e7b7c672823a9e599035687c2cd7c05c8e7838add3ae31e1ed1c7b",
+    "dilophosaurus-wetherilli": "dd65f3d5e4041432e9f120e8341540b4f5069ab1c79e54bf05ed90a0e6fe435d",
+    "deinonychus-antirrhopus": "d58a8be46666e8a8ec97e77bfee7d1724947484ff2c6a257732bc105234bf19e",
+    "edmontosaurus-annectens": "afe3de254db546dffc074dbd4504007732ddf48395ff92c8dc728f8fff190bae",
+    "protoceratops-andrewsi": "14bd683559f7a5fba3247c175266079949c13d75c550d8f75383148c466a2766",
+    "plateosaurus-trossingensis": "13f9694acbcc5f9158a66465f44670ab75a286c7e2a639341a39fb3a7b337db2",
+    "mosasaurus-hoffmanni": "ee0b309feddf9511680fa937ae6cd196d8a6f58b00b5973248d66b6cb8e34a1a",
+    "plesiosaurus-dolichodeirus": "70ac945ce92834b5a0dee3697148bc8e8e9b073ad7450937665980251d919294",
+    "ichthyosaurus-communis": "23e3095a532d56dc9ab7ef5bd12bd2045bf2c59a90f961cfb22316fb07ccfb84",
+    "apatosaurus-louisae": "07e960e4f5dad67a2c0d65ceb36b45afe5a4f75b7a44547a6ac8b1e61783e0e3",
+    "brontosaurus-excelsus": "ec1d6c9bf369fbc5857719aaedf32aaffc5e457a073c5b27d0ebbccd7d6607b6",
+    "camarasaurus-lentus": "eb980889354da30d2116ce45abdd26a9553f14b6866d930e19f0bd7c96a22aef",
+    "ceratosaurus-nasicornis": "f5dbfa77bac012fb28afadd152d6cf3efe6aff167a697cfda538d157d07df1e5",
+    "megalosaurus-bucklandii": "147f2137cb111a5d005a3cd9aebacf4688a7b538bd1d70746ea79a9be0726382",
+    "liopleurodon-ferox": "803f52bf716de0ab10f01e8c131b48d70371ae354722c6ef35bd9ea51fce9c1d",
+    "rhamphorhynchus-muensteri": "41fa3bf181397db8806f549acfc535c5264753b127761d268291cab84b02d0c7",
+    "eoraptor-lunensis": "3c70c59f56a463c793bd7d953208ce9c3159345bacb489d7e364a1732b15d92f",
+    "herrerasaurus-ischigualastensis": "edbf18de34e5ad0326d36a740af7521c2597ccd5628a71df748b9eb9fbf1c317",
+    "eodromaeus-murphi": "6d2e8f5da78e0f669720f866464998aeb7b7462bf4145543a671e396c319373e",
+    "saturnalia-tupiniquim": "0586014921f34d9e188c7081b1948a282446bc041b2dfde81baa65f7fdb858e8",
+    "riojasaurus-incertus": "bdcdc1166bf827755129559f81263340a28604f9a04fce6e4d846167196d2060",
+    "eudimorphodon-ranzii": "a258af924d857fa301c50dbc93303386505e73f5c4b02901e6c4a42b9ecf4658",
+    "peteinosaurus-zambellii": "91603dc1124e966f0b9c00e8947aaaf70d4dc00766df6804f4291ef2215be35d",
+    "nothosaurus-mirabilis": "5f6c0e60350f76bc6d3289b0829c57e231862c2f92c6836e2411dbb6afc842f2",
+    "shonisaurus-popularis": "66a2f10d2ed48a4f999af9f167c3f03d08c6adfc41ecb672d59e8c446f1b0ab7",
+    "gigatitan-vulgaris": "e8f85d7ed95ca4839a76cac3a27f4ccdcd5e9473efcbf642c5089e53c3934895",
+    "protobuthus-ziliolii": "32f0f2a0c4960902ae48a70f1ad4ceef9720544b99ce4eb7804d718dcdd85559",
+    "austrolimulus-fletcheri": "b3a9d136a881d5169d0aca9746ffc42b217024130b9465c10b9018e2b9888bdd",
+    "cymatophlebia-longialata": "cc4c5ca06a0c7365500c6277f7fec756bfce98e05ca61eb421129526ead6bc53",
+    "mecochirus-longimanatus": "1a4219083493f4b2be1a8935b08dafc69ebf06ab7cf623b0981673b109d8e47a",
+    "pseudopulex-jurassicus": "6bb5654b88ce3b9808fd5496142cf5e1af17d87f67cb3a6b6671fab4da7d87b0",
+    "santanmantis-axelrodi": "036d4a9f9a5b85b04f0f4a85a55ed019a1422a09826e91e3eea5f70bda4e2979",
+    "chimerarachne-yingi": "dee801820e2e9d319a4e2f4cf7fc8359eac6ca61f04dc3660ba4980b99933d1e",
+    "vulcanidris-cratensis": "e67a3973fb9e3314737f8bc583a5d7a13da2f0ffe2553dd2b1238c88280f8782",
+    "kentrosaurus-aethiopicus": "bd478243620289d10d63bf7c30ceb9aa2ae705a64c632a012a9a52ee096b9cb4",
+    "styracosaurus-albertensis": "1dbc490be904ea5359851a76f11a4459d331984eea346f42db89c6ccb9923a70",
+    "pyroraptor-olympius": "4135fabfdcc554a8cbe463c535e2002f8d7ccf1e7684482fbeed4aff5a16389f",
+    "liliensternus-liliensterni": "6740932c8ae122a299ecc9321f5da27981e66a1e49f5715efe5c982c39b109b8",
+    "chindesaurus-bryansmalli": "58276d739077f1c7b4b26b71f18ec4d25624709c069afef5cac3902b2a28dc03",
+    "preondactylus-buffarinii": "220659909cc2de6937bd7d91b0bbb784b73bef90c31c2e9af98a3cf2ff459ffc",
+    "torvosaurus-tanneri": "6f9463dd998535932905bb81fbf8edf9f9a1c505b93c9cbbfdf3331772fcba4b",
+    "camptosaurus-dispar": "abc0531ca691af59e43b56b000419ef3006d95a918fb0380a9a76c183f5b1d0f",
+    "mamenchisaurus-hochuanensis": "151b62da6f4faf71c40cb83b07a54ee770c32ae4c0911e0a55317faa3e62b652",
+    "archaeopteryx-lithographica": "c6d2d64c9d1dad2e6f7cd24d3491d40ee2041f1b79c6dc04bda5d95192c421de",
+    "dimorphodon-macronyx": "edcd08115c0856464d926a0d32560b1b311f842a5699b7ec7f6fb56e13ac80f9",
+    "anurognathus-ammoni": "b31a577ba4f7b5f0c15ca523dab43ec0273234e314f580829936f3c530a89f4b",
+    "ophthalmosaurus-icenicus": "bc680b322d25884354df041646085e77f9eaa2653757071cd511aaca8a1e7baa",
+    "deinocheirus-mirificus": "86b9dbb8918c513a0abf5b6cdb0290f70c94df2a4ece50e0bc0a3ff00862f5c2",
+    "microraptor-gui": "cf16c1a75d332fc6747aef5b30a5726adbb688d3811f3029b4600ef4011ab058",
+    "oviraptor-philoceratops": "1b9a0a48d5daaa7c0be7d0a5630d616a637c35175dd4094c682cd8f016617e49",
+    "pachyrhinosaurus-canadensis": "7d0b692731db3b4abe02977dce440dd1b820ec8174af45ec71590477fd224bc6",
+    "argentinosaurus-huinculensis": "4cda5b0bf2b9454bd693fb622ccbd0a66715ee1bdfb8aee396ed3fb405a764ee",
+    "psittacosaurus-mongoliensis": "516e6ff366f8926e7a3a44d3c16fbb2ab0d89fbde36ddbe5b1318d76c48d024f",
+    "tapejara-wellnhoferi": "e8d21bdbcbe3bf121a78e07e0d9375ce9da1bacb931f77c47f67471e37f95a0a",
+    "tylosaurus-proriger": "b6a719ded12eaf53c1b7b615df3da744bae07287925dd7caa3e2adbf43c6a20c",
+    "anomalocaris-canadensis": "b541105aa9fa73bdd508a93da80a1165be57ddad4f0de57ba977358a7605e257",
+    "opabinia-regalis": "5c2d0f3fe60a330c55b971d42b8ea80782724ee7355ff3e30b498fa6ce41f9d3",
+    "hallucigenia-sparsa": "d8a0a8519633ad8793b1f542d489dc393778388541426c021a91f4e242646789",
+    "marrella-splendens": "2a56c69487faa8fce78c9b29129bf3acc7f60edf1a7e08b61792e2e81db153f2",
+    "wiwaxia-corrugata": "7b4aae098d618fa2bd72e9d5341e79c8d0249a3617cba1415347f336b2de8215",
+    "pikaia-gracilens": "2f8ca2e5ea4e66d3b67cd0fd0d28fa728d3ac8d4906f50921720a411c55a4660",
+    "isotelus-rex": "f1eb8baec5ac2df3bfecb69f2ee9074520ae62be434dde69b275d6084adc98ef",
+    "asaphus-kowalewskii": "883d601c6b32b091ae2d4ca604609bdd1e0bcd321b1755c75f6e1a1127225424",
+    "aegirocassis-benmoulai": "7e9d965fbf051fd8bd8083dc5ceec5cbd2adf6f4719f0ce7cd2f192e314bddcf",
+    "arandaspis-prionotolepis": "85b2c24fb1daecb17391662e8df670ed7afbbc73480c66dc2b949d11472ce51e",
+    "endoceras-proteiforme": "2674a2f33ce2d81b28322a914e057e459a46ab104f4a2d58999ea140a9c12dcf",
+    "eurypterus-remipes": "61622939bcb325ba71b895fa00879a295f1216a0573d53e4406d12191634be71",
+    "acutiramus-bohemicus": "e3d08b0ac7faaff4d406042944d4e67b1193885dc4a0a87b1c5988ccf35b3aaf",
+    "birkenia-elegans": "30a92a65e378a082c317a6f0927765881497f31264d3f15e6a3a076b551cbb5a",
+    "entelognathus-primordialis": "1e88cefd5fd4d4ec5956d3b7089b01ca2cc6fcc56e31e783ab1d50ba18210f49",
+    "qilinyu-rostrata": "edfdf9921907fa1fdf983deec00b927e237488c2692fabba9c76ac01bc4f1f07",
+    "dunkleosteus-terrelli": "9697a5b6eaff1e73777de35cff9bb1745f24c31357b0c24a8f6d57e6d2dae786",
+    "tiktaalik-roseae": "8c09ffcbd7bbe240c71ab5f34d46d904416828b8bde95a9ed4ebdac5d03771c7",
+    "bothriolepis-canadensis": "0fc5b280f2c123fc730fb81fa4d76a0852c37e13f780ed3134adfa6bdfe1178e",
+    "eusthenopteron-foordi": "2d53577c9296caabea73eb9c4319b6c99ab424d95edd8013a9e79eeaebe77a9b",
+    "ichthyostega-stensioei": "4036468e6b0d7c7b149ed456e75473db3cfe8058a5cdaeaf10945e6f1fbb3593",
+    "acanthostega-gunnari": "8ed8e2d591b99732e5ba1068ffcfd9afdd8c5b772f240ad88b8577cef35b7dc0",
+    "cladoselache-fyleri": "d54e1b3a24b5aac6348d63525bcd4a8941913805c4a23f318a8c68028eda4a2c",
+    "jaekelopterus-rhenaniae": "7b552a870e496aeb95985808cb9ec32eb1ae81d83a229f068fe5d0d1a64c6c23",
+    "arthropleura-armata": "39fab4ef04885a6682ab7e1400c8e10545a10231b23a293d98dc5b4576b91ab5",
+    "meganeura-monyi": "368443c13f98acd332e3ea6fa1449d6e5ef9229ef7916a27839ce90ae2b66ebe",
+    "pulmonoscorpius-kirktonensis": "67289c2c470ea4ab31fd87fa986fa3755269ff856504288e7fb9ef8d1be4e7b9",
+    "hylonomus-lyelli": "1351876bda29b79e524d29f79afdd8f620f633995dbbd2ba1955d3f507135b63",
+    "greererpeton-burkemorani": "ed637d18cacd947f8edff45360658b6740d9e6b4db77eb7bfc972d71da4b8e19",
+    "edestus-heinrichi": "1fe63d15679667afef47befa95a9ce1e9b342dcff1a7c8720e07e1041277a718",
+    "petrolacosaurus-kansensis": "c86633e701ab5ee044383d90d53ba017353973ccbd2dd492bd81df720901271b",
+    "crassigyrinus-scoticus": "ad21013b46e0517d2299ca8b0d5eae03d3fc9833bbe6102b35c138dc1879b47f",
+    "dimetrodon-grandis": "9d45a292e908b1da852284a6c065fd41b218f919c7b967be998f663a338f7824",
+    "edaphosaurus-pogonias": "50a3d3228c7795ba5ac3f82eb7bcce751064f72bee1a692889b16e0e623e6f3f",
+    "inostrancevia-alexandri": "6801ac485f4e1537d4885182f1c46fd47c0e4fb19f16e9d854f032f69a58a1ff",
+    "scutosaurus-karpinskii": "832d30f901b61b485915372ad7ea60789e049b0bc161d13e2ae906d0dca8537e",
+    "mesosaurus-tenuidens": "ff4ab64df608db20821810eb8fdc03eb4459f461d2b4be1183b2d80282999c3b",
+    "diplocaulus-magnicornis": "236bb944a8379e99fbd0d68b9de44d38e58c37bb06e907fe12af785a44729ca5",
+    "helicoprion-bessonowi": "a775d12a24769f0d2788e53151721de03dac1013e08dfc245480bee1e3513124",
+    "estemmenosuchus-uralensis": "89318c898b2b72f9c3d297fe523ffff4b7cca9620b6c4024cdd0b9771ba083e8"
+  },
+  "deferred": {
+    "baryonyx-walkeri": "Approved illustration retained separately: species is not in the existing 112-animal atlas."
+  },
+  "databaseSha256": "24e26335404992b27fb718aa3e83c068778f84e9e5db60322b5901cfc5a276d0"
+}

@@ -1,0 +1,3660 @@
+{
+  "date": "2026-10-28",
+  "branch": "feature/paleozoic-1.0.0",
+  "baseCommit": "29158c34d2f7f77994b9909834dcbe87e31c9a89",
+  "scope": "Redakční vizuální audit všech 112 obrazů a anatomický screening. Není nezávislou odbornou certifikací všech detailů. Cílená nová rešerše podezřelých znaků, u ostatních návaznost na citované podklady projektu.",
+  "counts": {
+    "Výrazná vizuální odchylka": 18,
+    "Drobná vizuální odchylka": 63,
+    "Anatomická chyba": 7,
+    "Bez problémů": 24
+  },
+  "records": [
+    {
+      "index": 0,
+      "id": "triceratops-horridus",
+      "name": "Triceratops horridus",
+      "period": "cretaceous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Světlá lomová stěna, ploché béžové světlo; výrazně odlišná starší série.",
+      "anatomy": "Tři rohy, límec i čtyři nohy jsou čitelné; délka rohů závisí na věku.",
+      "environment": "Suchý lom nevystihuje typickou vegetovanou nivu Hell Creek; samotná skála není důkaz chyby.",
+      "image": "images/triceratops-horridus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "ea06b81b8d6893c4e706d9999f87bcd8e8bf4bcd577517ff31305348742c8125",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Triceratops",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Scannella a kol.: Evolutionary trends in Triceratops from the Hell Creek Formation, Montana",
+          "url": "https://doi.org/10.1073/pnas.1313334111",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce T. horridus. Zbarvení a měkké tkáně jsou ilustrativní; přesný tvar rohů se měnil i s růstem.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 1,
+      "id": "tyrannosaurus-rex",
+      "name": "Tyrannosaurus rex",
+      "period": "cretaceous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Stejný typ světlé skalní stěny jako Triceratops; málo hloubky prostředí.",
+      "anatomy": "Hluboká hlava, krátké dvouprsté ruce a vyvažující ocas; barva a rozsah šupin nejsou kompletně doloženy.",
+      "environment": "Pro Hell Creek vhodnější pestřejší niva; současná scéna je příliš obecná.",
+      "image": "images/tyrannosaurus-rex.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "1c016f120505238a947d510e9625e30fccdd94b0e29fce559bde6fa8a2a6f466",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Tyrannosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zakrytí zubů při zavřené tlamě vychází z hypotézy podpořené studií Cullen a kol. 2023; měkké tkáně a zbarvení nejsou přímo známé v této podobě.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 2,
+      "id": "stegosaurus-stenops",
+      "name": "Stegosaurus stenops",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Béžové lomové pozadí opakuje starší sérii.",
+      "anatomy": "Pláty a ocasní obrana přítomné; překryv neumožňuje spolehlivě kontrolovat každý trn.",
+      "environment": "Morrison: nivy, sezónní řeky a vegetace; skalní kulisa sama lokalitu nedokládá.",
+      "image": "images/stegosaurus-stenops.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "1b59fedf3b188e7a5b72c67252491d2c0aee3c3f0aeab84af38cbc76b6f009b1",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Stegosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum: Weight of the world’s most complete Stegosaurus revealed",
+          "url": "https://www.nhm.ac.uk/discover/news/2015/march/weight-of-the-worlds-most-complete-stegosaurus-revealed.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce S. stenops. Funkce plátů, jejich zbarvení a rozsah rohovinového krytu jsou nejisté; ilustrace není přesným portrétem jedince Sophie.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 3,
+      "id": "diplodocus-carnegii",
+      "name": "Diplodocus carnegii",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Světlý skalní kaňon a téměř jednobarevná paleta vybočují ze zelenější série.",
+      "anatomy": "Dlouhý krk i bičovitý ocas odpovídají základní stavbě; detaily prstů jsou málo čitelné.",
+      "environment": "Morrison; říční vegetace by byla informativnější než dominantní stěna.",
+      "image": "images/diplodocus-carnegii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "2ee2a8ad6399810ee5b591dbf7990f273ab71403f4a648b7d8bb074f435e4e4d",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Dippy — Diplodocus carnegii",
+          "url": "https://www.nhm.ac.uk/discover/dippy.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Carnegie Museum of Natural History: 125 years since the discovery of Dippy",
+          "url": "https://carnegiemnh.org/press/celebrate-125-years-since-the-discovery-of-dippy-with-carnegie-museum-of-natural-history/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Přesná poloha krku, měkké tkáně, zbarvení a detaily chování jsou součástí rekonstrukce; prostředí obrázku je neutrální kulisa.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 4,
+      "id": "ankylosaurus-magniventris",
+      "name": "Ankylosaurus magniventris",
+      "period": "cretaceous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Opakovaná světlá lomová stěna; zvíře ostré, ale scéna působí jako výstavní model.",
+      "anatomy": "Kyj, široký trup a pancíř přítomné; přesné rozložení osteodermů je zčásti rekonstrukce.",
+      "environment": "Hell Creek; suché skalní pozadí není reprezentativní ukázka celé ekologie.",
+      "image": "images/ankylosaurus-magniventris.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "1a7a3b9cd24f6c57f1b1ad79b9cf42de4b27e8c655a261b6a5ce903a58840adf",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Ankylosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Arbour a Mallon: Unusual cranial and postcranial anatomy in Ankylosaurus magniventris",
+          "url": "https://doi.org/10.1139/facets-2017-0063",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Přesné rozmístění pancíře je hypotetické. Ocasní kyj je rozšířený a zploštělý kostěný útvar, ne kulatá koule s ostny.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 5,
+      "id": "coelophysis-bauri",
+      "name": "Coelophysis bauri",
+      "period": "triassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Plochá béžová skalní stěna místo prostorově bohatší krajiny.",
+      "anatomy": "Štíhlá dvounohá silueta a dlouhý ocas bez zjevné zásadní chyby.",
+      "environment": "Sezónní říční krajina Ghost Ranch; zde není konkrétní biotop dobře vyjádřen.",
+      "image": "images/coelophysis-bauri.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "58b50c7b2bb47b10982dad76af01e0d77bce0a7b7fac633050b35ee705d926f6",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "American Museum of Natural History: Coelophysis",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/263-coelophysis",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Bugos a McDavid: Immature skulls of Coelophysis bauri from Ghost Ranch, New Mexico",
+          "url": "https://www.app.pan.pl/archive/published/app69/app010852023.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce C. bauri. Zbarvení a jemný pokryv těla jsou spekulativní; ilustrace nedokládá přítomnost peří ani úplný charakter kůže tohoto druhu.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 6,
+      "id": "velociraptor-mongoliensis",
+      "name": "Velociraptor mongoliensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Skalní kulisa opakuje starší sérii, ocas je těsně u levého okraje.",
+      "anatomy": "Opeření a zdvižené srpovité drápy jsou vhodné; konkrétní barevný vzor je hypotetický.",
+      "environment": "Suché prostředí Djadokhta je přijatelné; kaňon a jednotlivé rostliny nejsou lokalitně doložené.",
+      "image": "images/velociraptor-mongoliensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "bd3d6949476c599eb57f4fc7057b38958a358f02c9cff6675b14bdf3c1d7f4e3",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "American Museum of Natural History: Velociraptor mongoliensis — OLogy card",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/018-velociraptor-mongoliensis",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Dashzeveg a kol.: New Stratigraphic Subdivision, Depositional Environment, and Age Estimate for the Upper Cretaceous Djadokhta Formation, Southern Ulan Nur Basin, Mongolia",
+          "url": "https://digitalcommons.unl.edu/geosciencefacpub/209/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Úpony letek na předloktí jsou doložené; rozsah tělního opeření odvozujeme i z příbuzných. Zbarvení, přesný obrys peří a krajina jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 7,
+      "id": "parasaurolophus-walkeri",
+      "name": "Parasaurolophus walkeri",
+      "period": "cretaceous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Výrazně světlá, generická skalní stěna a málo vegetace.",
+      "anatomy": "Dlouhý dozadu směřující hřeben a čtyřnohý postoj jsou přijatelné.",
+      "environment": "Dinosaur Park: vhodnější vegetovaná záplavová krajina; tento skalní portrét je málo specifický.",
+      "image": "images/parasaurolophus-walkeri.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "91923eeff63f587d71c84a579c0a41455a450a594545462ad429019f87d40276",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Parasaurolophus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Gates, Evans a Sertich: Description and rediagnosis of the crested hadrosaurid (Ornithopoda) dinosaur Parasaurolophus cyrtocristatus on the basis of new cranial remains",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7842145/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce P. walkeri. Dlouhý kostěný hřeben vychází z fosilií; barvy, měkké tkáně a okolní krajina jsou ilustrativní. Přesnou podobu živého zvířete neznáme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 8,
+      "id": "brachiosaurus-altithorax",
+      "name": "Brachiosaurus altithorax",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Dominantní béžové skály a vybledlá paleta vybočují ze zbytku atlasu.",
+      "anatomy": "Vysoká ramena a dlouhé přední nohy jsou přítomné; lebku neposuzovat jako jistou kopii Giraffatitana.",
+      "environment": "Morrison; rekonstrukce prostředí nemá vycházet jen z dnešního vzhledu naleziště.",
+      "image": "images/brachiosaurus-altithorax.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "7d85389f36d98db42bd352eea79af6c48df843f0ec8aac99073915902209218d",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Brachiosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Taylor: A re-evaluation of Brachiosaurus altithorax Riggs 1903 and its generic separation from Giraffatitan brancai",
+          "url": "https://www.miketaylor.org.uk/dino/pubs/taylor2009/Taylor2009-brachiosaurus-and-giraffatitan.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Kostra není úplná; část proporcí a měkkých tkání je doplněna srovnáním s příbuznými. Zbarvení, poloha krku a okolní krajina jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 9,
+      "id": "spinosaurus-aegyptiacus",
+      "name": "Spinosaurus aegyptiacus",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Béžové skály a velmi těsné levé zakončení ocasu; kompozice působí stísněně.",
+      "anatomy": "Vysoký ocas, plachta a protáhlé čelisti jsou přítomné. Způsob plavání zůstává diskutovaný.",
+      "environment": "Voda u břehu je vhodná; dominantní suchý kaňon opakuje jiné scény.",
+      "image": "images/spinosaurus-aegyptiacus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "7e478abb0c0ecd29cfd54440c7a11509e8f72b44bed25a12b5ced961fee36875",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Spinosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Ibrahim a kol.: Semiaquatic adaptations in a giant predatory dinosaur",
+          "url": "https://doi.org/10.1126/science.1258750",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce S. aegyptiacus. Tělo doplňuje neúplné nálezy; přesné proporce, měkké tkáně a obrys plachty jsou rekonstrukcí. Barvy jsou ilustrativní. Dvounohý postoj není dokladem přesného způsobu chůze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 10,
+      "id": "allosaurus-fragilis",
+      "name": "Allosaurus fragilis",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Řeka, kapradiny a jehličnany opakují základní šablonu; ocas téměř na hraně.",
+      "anatomy": "Nadočnicové výběžky a tříprsté ruce čitelné; neviditelné detaily neposuzovány jako chybějící.",
+      "environment": "Vegetovaná niva odpovídá obecnému prostředí Morrisonu; přesný horský horizont je ilustrativní.",
+      "image": "images/allosaurus-fragilis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "a7461ac561d1dbba9b2c89fe4d08838289288155ff12c31849069ed392e5f2c2",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum of Utah: Allosaurus fragilis",
+          "url": "https://nhmu.utah.edu/allosaurus-fragilis",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum: Allosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce A. fragilis. Barvy, měkké tkáně a podoba zavřených úst jsou ilustrativní; drobné výběžky hlavy nejsou býčí rohy.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 11,
+      "id": "iguanodon-bernissartensis",
+      "name": "Iguanodon bernissartensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobné říční pozadí jako další býložravci.",
+      "anatomy": "Palcový bodec je vidět; ruka působí volně rozevřená, přesné postavení prstů zaslouží detailní kontrolu.",
+      "environment": "Nízká vegetovaná mokřadní krajina je přijatelná, konkrétní vegetace neurčená.",
+      "image": "images/iguanodon-bernissartensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "18778297b4ff9a71c6d338910ac930ea12b56679528761b3f02e34ad4f9e76ce",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Institute of Natural Sciences: Iguanodon bernissartensis",
+          "url": "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum: The discovery of Iguanodon",
+          "url": "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce I. bernissartensis. Zbarvení a měkké tkáně jsou ilustrativní. Palcový bodec patří na ruku, nikoli na nos.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 12,
+      "id": "carnotaurus-sastrei",
+      "name": "Carnotaurus sastrei",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaná říční scenérie a hnědě skvrnitá paleta.",
+      "anatomy": "Rohy a velmi malé ruce přítomné; přesnou orientaci redukovaných prstů nelze z obrazu ověřit.",
+      "environment": "Suchozemské prostředí je obecně možné; nejde o doloženou fotografickou podobu La Colonia.",
+      "image": "images/carnotaurus-sastrei.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "76ecf611fcc598cb6c87e19de20e71d84bbc8282d4f463deec3380f78df93ba1",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Carnotaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Hendrickx a Bell: The scaly skin of Carnotaurus sastrei",
+          "url": "https://doi.org/10.1016/j.cretres.2021.104994",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce C. sastrei. Šupinatý pokryv je doložen, ale zbarvení a přesná měkká podoba rohů jsou ilustrativní. Ocas a části nohou jsou doplněné podle příbuzných.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 13,
+      "id": "pachycephalosaurus-wyomingensis",
+      "name": "Pachycephalosaurus wyomingensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční břeh, jehličnany a kapradiny jsou generické.",
+      "anatomy": "Kopule a uzly přítomné; postkraniální silueta je zčásti srovnávací rekonstrukce.",
+      "environment": "Vegetovaná niva je obecně vhodná pro pozdně křídovou Severní Ameriku.",
+      "image": "images/pachycephalosaurus-wyomingensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "d6dc938c4fa118d69a9d2c6fe766439a91aaab58ac07b146960c567e9df715c1",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Pachycephalosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "North Dakota Geological Survey: Dinosaurs, Sharks, and Woolly Mammoths",
+          "url": "https://www.dmr.nd.gov/dmr/sites/www/files/documents/paleontology/pdfs/articles-and-publications/Hoganson_Dino_Shark_Woolly_sm.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce P. wyomingensis. Kostěná kopule je doložena; její měkký kryt, barvy i další podrobnosti těla jsou rekonstrukcí.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 14,
+      "id": "therizinosaurus-cheloniformis",
+      "name": "Therizinosaurus cheloniformis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Teplé večerní světlo se odlišuje od převážně polední série, ale není závadou samo o sobě.",
+      "anatomy": "Tři velké drápy na ruce čitelné; hlava, trup i opeření jsou zčásti odvozené z příbuzných.",
+      "environment": "Říční vegetace je přijatelná; přesné rostlinné druhy nejsou ověřitelné.",
+      "image": "images/therizinosaurus-cheloniformis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "a84c29956ecfbf085afa4ec35eaa7ea328c8991bf662de0d4c1daf978adff52a",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Therizinosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce T. cheloniformis. Hlava, celková stavba těla a opeření se z velké části odvozují z příbuzných. Dlouhé drápy jsou doložené, jejich přesný rohovinový obal a funkce nejisté.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 15,
+      "id": "pterodactylus-antiquus",
+      "name": "Pterodactylus antiquus",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Křídlo končí mimo pravý okraj; chybí bezpečný prostor kolem celé siluety.",
+      "anatomy": "Krátký ocas a nízký hřeben jsou přijatelné; ořez znemožňuje úplnou kontrolu křídla.",
+      "environment": "Pobřeží a ostrovy odpovídají obecnému prostředí solnhofenského souostroví.",
+      "image": "images/pterodactylus-antiquus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "f1b9317f819b463efa9494c1007b2336c72e5cde6d874250bd103dd7351b0a2c",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Bennett: New information on body size and cranial display structures of Pterodactylus antiquus, with a revision of the genus",
+          "url": "https://doi.org/10.1007/s12542-012-0159-8",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "American Museum of Natural History: What Is a Pterosaur?",
+          "url": "https://www.amnh.org/explore/news-blogs/what-is-a-pterosaur",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce P. antiquus. Zuby a krátký ocas patří k doložené anatomii; barvy, měkké tkáně a hustotu tělního pokryvu rekonstruujeme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 16,
+      "id": "pteranodon-longiceps",
+      "name": "Pteranodon longiceps",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dobře čitelná letová silueta, celé rozpětí, čisté souvislé pozadí.",
+      "anatomy": "Bezzubý zobák a zadní hřeben odpovídají rodu; velikost hřebene závisí na jedinci.",
+      "environment": "Otevřené moře je vhodné; konkrétní pobřeží je ilustrativní.",
+      "image": "images/pteranodon-longiceps.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "4ffa17bdc70dce4219be70f7a7145751de9183118e58c128982cde037989f4c5",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "American Museum of Natural History: Pteranodon longiceps",
+          "url": "https://www.amnh.org/explore/news-blogs/pteranodon-longiceps",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "American Museum of Natural History: Pteranodon longiceps — OLogy",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce P. longiceps s výrazným zadním hřebenem. Zbarvení, měkké tkáně a letová poloha jsou ilustrativní; hřebeny a velikosti jedinců se lišily.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 17,
+      "id": "quetzalcoatlus-northropi",
+      "name": "Quetzalcoatlus northropi",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční kulisa podobná velkým dinosaurům.",
+      "anatomy": "Čtyřnohý postoj odpovídá rekonstrukci; hlava a krk Q. northropi se doplňují z příbuzných, nejsou kompletně známé.",
+      "environment": "Vnitrozemská říční krajina je přijatelná, nikoli nutně mořské pobřeží.",
+      "image": "images/quetzalcoatlus-northropi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "3248c4d977e7b7c672823a9e599035687c2cd7c05c8e7838add3ae31e1ed1c7b",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "University of Texas at Austin: World’s Largest Pterosaur Leaped Aloft to Fly",
+          "url": "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Padian a kol.: Functional morphology of Quetzalcoatlus",
+          "url": "https://doi.org/10.1080/02724634.2020.1780247",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce Q. northropi. Krk, hlava a celkové proporce využívají srovnání s Q. lawsoni a dalšími azhdarchidy; barvy a tělní pokryv jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 18,
+      "id": "dilophosaurus-wetherilli",
+      "name": "Dilophosaurus wetherilli",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Standardní lesní říční kulisa; dobrá ostrost.",
+      "anatomy": "Dvojice hřebenů bez filmového krčního límce; drobnosti rukou nejsou celé rozlišitelné.",
+      "environment": "Říční krajina je přijatelná pro souvrství Kayenta; konkrétní horizont je volná rekonstrukce.",
+      "image": "images/dilophosaurus-wetherilli.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "dd65f3d5e4041432e9f120e8341540b4f5069ab1c79e54bf05ed90a0e6fe435d",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Dilophosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "University of Texas: Famous Jurassic Park Dinosaur is Less Lizard, More Bird",
+          "url": "https://news.utexas.edu/2020/07/07/famous-jurassic-park-dinosaur-is-less-lizard-more-bird/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Dva kostěné hřebeny vycházejí z lebek. Barvy i rozsah měkkých tkání jsou ilustrativní; podoba kůže není tímto obrázkem doložena.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 19,
+      "id": "deinonychus-antirrhopus",
+      "name": "Deinonychus antirrhopus",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaný břeh s kapradinami, jehličnany a kmeny.",
+      "anatomy": "Opeření je fylogenetický odhad; velký dráp a zpevněný ocas jsou rozpoznatelné.",
+      "environment": "Vegetované suchozemské prostředí přijatelné; přesné rostliny nejsou určitelné.",
+      "image": "images/deinonychus-antirrhopus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "d58a8be46666e8a8ec97e77bfee7d1724947484ff2c6a257732bc105234bf19e",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Deinonychus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/deinonychus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Ostrom: Osteology of Deinonychus antirrhopus",
+          "url": "https://elischolar.library.yale.edu/peabody_museum_natural_history_bulletin/30/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Opeření je velmi pravděpodobné podle příbuzných, ale přímé otisky peří tohoto druhu zatím neznáme. Barvy jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 20,
+      "id": "edmontosaurus-annectens",
+      "name": "Edmontosaurus annectens",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobné pozadí i barva těla jako u dalších býložravců.",
+      "anatomy": "Zobák, čtyři končetiny a měkký hřbetní lem přítomné; prsty částečně splývají.",
+      "environment": "Niva s vodou je vhodná; horský horizont je pouze výtvarná kulisa.",
+      "image": "images/edmontosaurus-annectens.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "afe3de254db546dffc074dbd4504007732ddf48395ff92c8dc728f8fff190bae",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Campione a Evans: Cranial Growth and Variation in Edmontosaurs",
+          "url": "https://doi.org/10.1371/journal.pone.0025186",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "University of Chicago: Paleontologists unveil duck-billed dinosaur mummies",
+          "url": "https://news.uchicago.edu/story/uchicago-paleontologists-unveil-duck-billed-dinosaur-mummies",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Šupiny, hřbetní měkký hřeben a zakončení prstů zohledňují nálezy popsané v roce 2025. Barvy, úplný obrys a individuální rozdíly jsou rekonstrukcí.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 21,
+      "id": "protoceratops-andrewsi",
+      "name": "Protoceratops andrewsi",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Suchá červenohnědá krajina příjemně odlišuje druh, tělo není uříznuté.",
+      "anatomy": "Límec, zobák a absence velkých nadočnicových rohů odpovídají základním znakům.",
+      "environment": "Suchá krajina Djadokhta je vhodná; terén není konkrétní doložená lokalita.",
+      "image": "images/protoceratops-andrewsi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "14bd683559f7a5fba3247c175266079949c13d75c550d8f75383148c466a2766",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Maiorino a kol.: Males Resemble Females — Re-Evaluating Sexual Dimorphism in Protoceratops andrewsi",
+          "url": "https://doi.org/10.1371/journal.pone.0126464",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zobák a kostěný límec vycházejí z lebek; tvar i proporce se měnily s růstem. Zbarvení, kůže a měkké okraje jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 22,
+      "id": "plateosaurus-trossingensis",
+      "name": "Plateosaurus trossingensis",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaný říční břeh, přirozené světlo a ostrá silueta.",
+      "anatomy": "Dvounohý postoj, drobná hlava a krátké ruce přijatelné; palec ne všude čitelný.",
+      "environment": "Sezónní kontinentální prostředí přijatelné, nikoli důkaz trvale vlhkého biotopu.",
+      "image": "images/plateosaurus-trossingensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "13f9694acbcc5f9158a66465f44670ab75a286c7e2a639341a39fb3a7b337db2",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Plateosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/plateosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Staatliches Museum für Naturkunde Stuttgart: Plateosaurus trossingensis and the dino mania in Württemberg",
+          "url": "https://www.naturkundemuseum-bw.de/en/research/science-blog/plateosaurus-trossingensis-and-the-dino-mania-in-wuerttemberg",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Dvounohý postoj vychází z biomechanických studií; dlaň nelze libovolně otočit k zemi. Barvy a měkké tkáně jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 23,
+      "id": "mosasaurus-hoffmanni",
+      "name": "Mosasaurus hoffmanni",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Podobné modré moře a světelné paprsky jako Tylosaurus.",
+      "anatomy": "Čtyři ploutve a robustní hlava; ocasní laloky jsou odvozené i z příbuzných, nikoli úplně zachované u tohoto druhu.",
+      "environment": "Mořská scéna vhodná; přesné složení útesu není ověřené.",
+      "image": "images/mosasaurus-hoffmanni.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "ee0b309feddf9511680fa937ae6cd196d8a6f58b00b5973248d66b6cb8e34a1a",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: What is a mosasaur?",
+          "url": "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Muséum national d’Histoire naturelle: Mosasaurus hoffmanni, holotype MNHN.F.CTE222",
+          "url": "https://science.mnhn.fr/institution/mnhn/collection/f/item/cte222",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Ocasní ploutev je doplněna podle přímých dokladů u příbuzných mosasaurů, zejména rodu Prognathodon. Přesný obrys a barvy M. hoffmanni neznáme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 24,
+      "id": "plesiosaurus-dolichodeirus",
+      "name": "Plesiosaurus dolichodeirus",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Souvislá podvodní scéna, čtyři ploutve čitelné, bez zjevného ořezu.",
+      "anatomy": "Malá hlava a dlouhý krk přijatelné; extrémní labutí prohnutí není vynucené.",
+      "environment": "Mořské prostředí vhodné; detaily bentosu jsou ilustrativní.",
+      "image": "images/plesiosaurus-dolichodeirus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "70ac945ce92834b5a0dee3697148bc8e8e9b073ad7450937665980251d919294",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: What is a plesiosaur?",
+          "url": "https://www.nhm.ac.uk/discover/what-is-a-plesiosaur.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Geological Society: Plesiosaurus dolichodeirus and Mary Anning",
+          "url": "https://www.geolsoc.org.uk/the-library/online-exhibitions/mary-anning-and-the-geological-society/reconstruction-of-life/plesiosaurus-dolichodeirus/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Čtyři ploutve a dlouhý krk vycházejí z koster. Barvy a měkké části jsou ilustrativní; přesnou souhru ploutví při plavání modelujeme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 25,
+      "id": "ichthyosaurus-communis",
+      "name": "Ichthyosaurus communis",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Ostrá celá silueta v jednotném podvodním světle.",
+      "anatomy": "Čtyři pádlovité končetiny, hřbetní a ocasní ploutev přijatelné; konkrétní barva neznámá.",
+      "environment": "Mořská scéna vhodná, bez zjevného časového anachronismu.",
+      "image": "images/ichthyosaurus-communis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "23e3095a532d56dc9ab7ef5bd12bd2045bf2c59a90f961cfb22316fb07ccfb84",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: What is an ichthyosaur?",
+          "url": "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Massare a Lomax: A taxonomic reassessment of Ichthyosaurus communis and I. intermedius",
+          "url": "https://doi.org/10.1080/14772019.2017.1291116",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Kostra určuje základní proporce; měkký obrys ploutví a hladké tělo doplňujeme také podle příbuzných rybosaurů. Přesné barvy I. communis neznáme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 26,
+      "id": "apatosaurus-louisae",
+      "name": "Apatosaurus louisae",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobný břeh, postoj a barva jako Brontosaurus; snižuje rozlišitelnost.",
+      "anatomy": "Mohutný krk a dlouhý ocas přijatelné; drobná anatomie chodidel nerozlišitelná.",
+      "environment": "Morrison: niva s jehličnany a kapradinami je vhodná, horské pozadí není doložené.",
+      "image": "images/apatosaurus-louisae.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "07e960e4f5dad67a2c0d65ceb36b45afe5a4f75b7a44547a6ac8b1e61783e0e3",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NPS: Apatosaurus louisae",
+          "url": "https://www.nps.gov/dino/learn/nature/apatosaurus-louisae.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum: Apatosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/apatosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce A. louisae. Malá protáhlá hlava vychází z fosilních nálezů; poloha krku, barvy a měkké tkáně jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 27,
+      "id": "brontosaurus-excelsus",
+      "name": "Brontosaurus excelsus",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobná kompozice Apatosaurovi a Camarasaurovi.",
+      "anatomy": "Robustní trup a dlouhý ocas přijatelné; přesné měkké tkáně a barva jsou hypotéza.",
+      "environment": "Říční niva přijatelná; nerozlišovat druhy jen jinou barvou stejných kulis.",
+      "image": "images/brontosaurus-excelsus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "ec1d6c9bf369fbc5857719aaedf32aaffc5e457a073c5b27d0ebbccd7d6607b6",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Yale: From fossils to fame — Brontosaurus excelsus",
+          "url": "https://your.yale.edu/youryale/2025-02-24-from-fossils-to-fame",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Yale: Strike a pose — dinosaur skeletons get a new look",
+          "url": "https://news.yale.edu/2022/11/11/strike-pose-yales-iconic-dinosaur-skeletons-get-new-look",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce B. excelsus. Hlava a měkké tkáně jsou doplněné podle příbuzných; přesné barvy a držení krku neznáme.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 28,
+      "id": "camarasaurus-lentus",
+      "name": "Camarasaurus lentus",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaná sauropodní scéna na říčním břehu.",
+      "anatomy": "Kratší vysoká hlava pomáhá odlišení od diplodokidů; detaily prstů nejsou spolehlivě čitelné.",
+      "environment": "Vegetovaná niva Morrisonu přijatelná; moderně působící hory nejsou důkazem tehdejšího reliéfu.",
+      "image": "images/camarasaurus-lentus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "eb980889354da30d2116ce45abdd26a9553f14b6866d930e19f0bd7c96a22aef",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NPS: Camarasaurus lentus",
+          "url": "https://home.nps.gov/dino/learn/nature/camarasaurus-lentus.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum: Camarasaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/camarasaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce C. lentus. Vysoká lebka a celková kostra jsou dobře doložené; zbarvení, měkké tkáně a poloha krku jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 29,
+      "id": "ceratosaurus-nasicornis",
+      "name": "Ceratosaurus nasicornis",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Ocas zasahuje do pravého okraje a jeho konec není celý vidět.",
+      "anatomy": "Nosní roh a hřbetní osteodermy přítomné; počet prstů kvůli překryvu nehodnotit jako potvrzenou chybu.",
+      "environment": "Říční prostředí Morrisonu přijatelné, generické skalní pozadí.",
+      "image": "images/ceratosaurus-nasicornis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "f5dbfa77bac012fb28afadd152d6cf3efe6aff167a697cfda538d157d07df1e5",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Ceratosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/ceratosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NPS: Ceratosaurus",
+          "url": "https://home.nps.gov/dino/learn/nature/ceratosaurus.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce C. nasicornis. Nosní roh a drobné hřbetní destičky vycházejí z nálezů; jejich měkký kryt a barvy jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 30,
+      "id": "megalosaurus-bucklandii",
+      "name": "Megalosaurus bucklandii",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generický břeh s jehličnany, velmi těsný konec ocasu.",
+      "anatomy": "Celá hlava a značná část siluety jsou rekonstrukcí neúplně známého druhu.",
+      "environment": "Kontinentální pobřežní krajina obecně možná; konkrétní les a hory nejsou doložené.",
+      "image": "images/megalosaurus-bucklandii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "147f2137cb111a5d005a3cd9aebacf4688a7b538bd1d70746ea79a9be0726382",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Megalosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/megalosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Oxford University Museum of Natural History: 200 years of Megalosaurus",
+          "url": "https://oumnh.web.ox.ac.uk/sitefiles/oumnh-megalosaurus-200-press.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce M. bucklandii. Celé tělo není známé; chybějící části, měkké tkáně a pokryv těla jsou doplněné podle příbuzných. Barvy jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 31,
+      "id": "liopleurodon-ferox",
+      "name": "Liopleurodon ferox",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dobře oddělená silueta a čitelné čtyři ploutve.",
+      "anatomy": "Velká hlava, krátký krk a mohutný trup přijatelné; bez měřítka nelze ověřit velikost.",
+      "environment": "Mořské prostředí odpovídá nálezům; dno je výtvarná rekonstrukce.",
+      "image": "images/liopleurodon-ferox.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "803f52bf716de0ab10f01e8c131b48d70371ae354722c6ef35bd9ea51fce9c1d",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Bartlett a kol.: Re-evaluating body size in the Middle Jurassic pliosaur Liopleurodon ferox",
+          "url": "https://doi.org/10.1080/02724634.2026.2691149",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "University of Portsmouth: Jurassic sea monster was smaller than once thought, but no less formidable",
+          "url": "https://www.port.ac.uk/news-events-and-blogs/news/jurassic-sea-monster-was-smaller-than-once-thought-but-no-less-formidable",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce L. ferox. Velká hlava, krátký krk a čtyři ploutve vycházejí z koster; přesný obrys, měkké tkáně a zbarvení jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 32,
+      "id": "rhamphorhynchus-muensteri",
+      "name": "Rhamphorhynchus muensteri",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Čitelný dlouhý ocas s koncovým listem a celá křídla.",
+      "anatomy": "Zuby, dlouhý ocas a koncová blána odpovídají zachovaným znakům; barva je hypotéza.",
+      "environment": "Pobřežní scéna vhodná pro solnhofenskou oblast.",
+      "image": "images/rhamphorhynchus-muensteri.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "41fa3bf181397db8806f549acfc535c5264753b127761d268291cab84b02d0c7",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Hone a McDavid: A giant specimen of Rhamphorhynchus muensteri",
+          "url": "https://doi.org/10.7717/peerj.18587",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Jagielska a kol.: New soft tissue data of pterosaur tail vane",
+          "url": "https://elifesciences.org/articles/100673",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce R. muensteri. Dlouhý ocas a měkký list jsou doložené; tvar listu se s růstem měnil. Barvy a podoba tělního pokryvu jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 33,
+      "id": "eoraptor-lunensis",
+      "name": "Eoraptor lunensis",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Stejný vzorec říčního břehu jako u ostatních triasových dinosaurů.",
+      "anatomy": "Lehká dvounohá silueta; tři viditelné prsty samy nevylučují drobné redukované prsty.",
+      "environment": "Sezónní niva Ischigualasto přijatelná, hustota zeleně není konkrétně doložená.",
+      "image": "images/eoraptor-lunensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "3c70c59f56a463c793bd7d953208ce9c3159345bacb489d7e364a1732b15d92f",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Sereno a kol.: Osteology of Eoraptor lunensis",
+          "url": "https://doi.org/10.1080/02724634.2013.820113",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Bronzati a kol.: Skull remains of Saturnalia tupiniquim and feeding behaviour",
+          "url": "https://doi.org/10.1371/journal.pone.0221387",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce E. lunensis. Barvy, pokryv těla a měkké tkáně jsou ilustrativní; drobní raní dinosauři si byli navenek podobní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 34,
+      "id": "herrerasaurus-ischigualastensis",
+      "name": "Herrerasaurus ischigualastensis",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaná hnědá paleta a říční krajina.",
+      "anatomy": "Silné ruce, dlouhá hlava a dvounohý postoj přijatelné.",
+      "environment": "Niva Ischigualasto obecně vhodná; podrobnosti jehličnanů jsou spekulativní.",
+      "image": "images/herrerasaurus-ischigualastensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "edbf18de34e5ad0326d36a740af7521c2597ccd5628a71df748b9eb9fbf1c317",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Herrerasaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/herrerasaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Sereno a Novas: The complete skull and skeleton of an early dinosaur",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17789086/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce H. ischigualastensis. Celkový tvar vychází z koster; barvy, kůže a podoba měkkých tkání jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 35,
+      "id": "eodromaeus-murphi",
+      "name": "Eodromaeus murphi",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční břeh podobný Eoraptorovi a Herrerasaurovi.",
+      "anatomy": "Štíhlý krk, úzká hlava a dlouhé zadní nohy odpovídají základním proporcím.",
+      "environment": "Sezónní říční prostředí Ischigualasto přijatelné.",
+      "image": "images/eodromaeus-murphi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "6d2e8f5da78e0f669720f866464998aeb7b7462bf4145543a671e396c319373e",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Martínez a kol.: A Basal Dinosaur from the Dawn of the Dinosaur Era in Southwestern Pangaea",
+          "url": "https://doi.org/10.1126/science.1198467",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "University of Chicago: New predator dawn runner discovered in early dinosaur graveyard",
+          "url": "https://news.uchicago.edu/story/new-predator-dawn-runner-discovered-early-dinosaur-graveyard",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce E. murphi. Barvy, kůže a další měkké tkáně jsou doplněné; zbarvení není poznávacím znakem skutečného druhu.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 36,
+      "id": "saturnalia-tupiniquim",
+      "name": "Saturnalia tupiniquim",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generický říční les, barevně téměř shodný s dalšími malými dinosaury.",
+      "anatomy": "Drobná hlava a prodloužený krk přijatelné; úplná podoba rukou není ověřitelná.",
+      "environment": "Kontinentální prostředí Brazílie; přesná vegetační skladba zde není doložená.",
+      "image": "images/saturnalia-tupiniquim.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "0586014921f34d9e188c7081b1948a282446bc041b2dfde81baa65f7fdb858e8",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Langer a kol.: A sauropodomorph dinosaur from the Upper Triassic of southern Brazil",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1251805000800257",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Bronzati a kol.: Skull remains of Saturnalia tupiniquim and feeding behaviour",
+          "url": "https://doi.org/10.1371/journal.pone.0221387",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce S. tupiniquim. Malá hlava a štíhlá stavba vycházejí z koster; barvy, kůže a měkké tkáně jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 37,
+      "id": "riojasaurus-incertus",
+      "name": "Riojasaurus incertus",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generická říční scéna, dobrá ostrost a úplnost hlavní siluety.",
+      "anatomy": "Zobrazený dvounohý postoj vyžaduje opatrnost; bez biomechanického rozboru jej neoznačuji za prokázanou chybu.",
+      "environment": "Sezónní kontinentální prostředí Los Colorados obecně přijatelné.",
+      "image": "images/riojasaurus-incertus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "bdcdc1166bf827755129559f81263340a28604f9a04fce6e4d846167196d2060",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Natural History Museum: Riojasaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/riojasaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Bonaparte a Pumares: Notes on the first skull and jaws of Riojasaurus incertus",
+          "url": "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Bonaparte%26amp%3BPumares%25201995.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce R. incertus. Postoj, měkké tkáně a barvy jsou ilustrativní. Přesné možnosti dvounohého a čtyřnohého pohybu jsou diskutované.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 38,
+      "id": "eudimorphodon-ranzii",
+      "name": "Eudimorphodon ranzii",
+      "period": "triassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Dlouhý ocas je uříznutý pravou hranou obrazu.",
+      "anatomy": "Křídla a zuby přítomné; vícehroté korunky nelze z tohoto měřítka ověřit, konec ocasu je navíc hypotetický.",
+      "environment": "Pobřeží a ostrovy jsou přijatelná rekonstrukce triasové oblasti nálezů.",
+      "image": "images/eudimorphodon-ranzii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "a258af924d857fa301c50dbc93303386505e73f5c4b02901e6c4a42b9ecf4658",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Dalla Vecchia: A review of the Triassic pterosaurs diversity",
+          "url": "https://dipbsf.uninsubria.it/paleo/dvecchia.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Unwin: Eudimorphodon and the early history of pterosaurs",
+          "url": "https://dipbsf.uninsubria.it/paleo/Unwin.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce E. ranzii. Chybějící části ocasu, blány, tělní pokryv a barvy jsou doplněné. Kosočtverečný ocasní list není u druhu doložen.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 39,
+      "id": "peteinosaurus-zambellii",
+      "name": "Peteinosaurus zambellii",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Celé křídlo a ocas mají dostatek prostoru, přirozená pobřežní scéna.",
+      "anatomy": "Malá hlava je zčásti rekonstrukce; dlouhý ocas a křídla jsou přijatelné.",
+      "environment": "Pobřežní prostředí obecně vhodné; přesné chování neznámé.",
+      "image": "images/peteinosaurus-zambellii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "91603dc1124e966f0b9c00e8947aaaf70d4dc00766df6804f4291ef2215be35d",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "National Dinosaur Museum: Peteinosaurus, one of the first flyers",
+          "url": "https://nationaldinosaurmuseum.com.au/blog/peteinosaurus-one-of-the-first-flyers-of-the-dinosaur-age/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Dalla Vecchia: A review of the Triassic pterosaurs diversity",
+          "url": "https://dipbsf.uninsubria.it/paleo/dvecchia.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce P. zambellii. Úplnou lebku neznáme; hlava, pokryv těla, ocasní měkké tkáně a barvy jsou doplněné.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 40,
+      "id": "nothosaurus-mirabilis",
+      "name": "Nothosaurus mirabilis",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Přehledná podvodní silueta, dlouhý ocas i krk čitelné.",
+      "anatomy": "Čtyři končetiny s prsty; plovací blány a měkký obrys jsou rekonstrukce.",
+      "environment": "Mělké pobřežní moře vhodné; konkrétní rostliny nejsou určeny.",
+      "image": "images/nothosaurus-mirabilis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "5f6c0e60350f76bc6d3289b0829c57e231862c2f92c6836e2411dbb6afc842f2",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Klein, Eggmaier a Hagdorn: The redescription of the holotype of Nothosaurus mirabilis",
+          "url": "https://doi.org/10.7717/peerj.13818",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Laboury a kol.: High phenotypic plasticity at the dawn of the eosauropterygian radiation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10476616/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce N. mirabilis. Plovací blány, kůže, barvy a pohybová poloha jsou doplněné. Končetiny mají prsty; nejde o plesiosauří ploutve.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 41,
+      "id": "shonisaurus-popularis",
+      "name": "Shonisaurus popularis",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Celá postava v moři, bez zjevného zdvojení ploutví.",
+      "anatomy": "Dlouhý čenich a čtyři ploutve přijatelné; tvar hřbetu a ocasní blány je nejistý.",
+      "environment": "Mořské prostředí vhodné; nelze odvozovat chování z jediné scény.",
+      "image": "images/shonisaurus-popularis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "66a2f10d2ed48a4f999af9f167c3f03d08c6adfc41ecb672d59e8c446f1b0ab7",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Kelley a kol.: Grouping behavior in a Triassic marine apex predator",
+          "url": "https://doi.org/10.1016/j.cub.2022.11.005",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum of Utah: Whale-Sized Marine Reptiles Gathered to Give Birth",
+          "url": "https://nhmu.utah.edu/articles/whale-sized-marine-reptiles-gathered-give-birth",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce S. popularis. Barvy a přesný tvar ocasní ploutve i hřbetních měkkých tkání jsou nejisté. Jde o ryboještěra, nikoli savce.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 42,
+      "id": "gigatitan-vulgaris",
+      "name": "Gigatitan vulgaris",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Makrofotografický dojem, ostrý hmyz, přirozeně rozostřené pozadí.",
+      "anatomy": "Čtyři křídla a uchopovací přední nohy přítomné; přesná žilnatina není ověřena.",
+      "environment": "Suchozemská vegetace vhodná; konkrétní rostlinný druh neurčitelný.",
+      "image": "images/gigatitan-vulgaris.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "e8f85d7ed95ca4839a76cac3a27f4ccdcd5e9473efcbf642c5089e53c3934895",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Sound vs. light: wing-based communication in Carboniferous insects",
+          "url": "https://doi.org/10.1038/s42003-021-02281-0",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "A new titanopteran Magnatitan jongheoni",
+          "url": "https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-titanopteran-magnatitan-jongheoni-n-gen-n-sp-from-southwestern-korean-peninsula/1DCAB5685FAFFED4BD702B3936B0957E",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Gigatitan vulgaris. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 43,
+      "id": "protobuthus-ziliolii",
+      "name": "Protobuthus ziliolii",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Ostré klepeta a článkovaný ocas, bez zjevného umělého rámu.",
+      "anatomy": "Základní štíří plán přijatelný; překryté nohy vyžadují opatrnost při počítání.",
+      "environment": "Suchozemské prostředí přijatelné; mikrolokalita není známá.",
+      "image": "images/protobuthus-ziliolii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "32f0f2a0c4960902ae48a70f1ad4ceef9720544b99ce4eb7804d718dcdd85559",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Viaretti et al. 2023: A new Mesozoic scorpion from the Besano Formation",
+          "url": "https://doi.org/10.1007/s12542-023-00659-5",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Museo di Storia Naturale Milano: first Italian Triassic scorpion",
+          "url": "https://www.comune.milano.it/en/w/museo-di-storia-naturale.-scoperto-da-un-team-di-ricercatori-il-primo-scorpione-triassico-italiano",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Protobuthus ziliolii. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 44,
+      "id": "austrolimulus-fletcheri",
+      "name": "Austrolimulus fletcheri",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Čitelný štít i dlouhý telson, celistvá scéna.",
+      "anatomy": "Boční trny a menší zadní štít odpovídají základním znakům; spodní končetiny jsou skryté.",
+      "environment": "Pobřežní až kontinentální vodní prostředí nelze určit jen podle barvy vody.",
+      "image": "images/austrolimulus-fletcheri.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "b3a9d136a881d5169d0aca9746ffc42b217024130b9465c10b9018e2b9888bdd",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Lamsdell 2020: The phylogeny and systematics of Xiphosura",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7720731/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Riek 1968: Re-examination of two arthropod species from the Triassic of Brookvale",
+          "url": "https://doi.org/10.3853/j.0067-1975.27.1968.451",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Austrolimulus fletcheri. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 45,
+      "id": "cymatophlebia-longialata",
+      "name": "Cymatophlebia longialata",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dobře vyřešené makro, čtyři křídla bez ořezu.",
+      "anatomy": "Velké oči, dlouhý zadeček a křídla čitelné; jemná žilnatina není druhově ověřena.",
+      "environment": "Hmyz na vegetaci u vody je možný; nález v mořském sedimentu nedokládá život pod vodou.",
+      "image": "images/cymatophlebia-longialata.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "cc4c5ca06a0c7365500c6277f7fec756bfce98e05ca61eb421129526ead6bc53",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Field Museum: Cymatophlebia longialata, specimen P2002",
+          "url": "https://collections-geology.fieldmuseum.org/catalogue/2277183",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Jurassic-Cretaceous Odonata: type species and stratigraphy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8868627/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Cymatophlebia longialata. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 46,
+      "id": "mecochirus-longimanatus",
+      "name": "Mecochirus longimanatus",
+      "period": "jurassic",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Ostrá a úplná silueta; výtvarně použitelná.",
+      "anatomy": "První pár končetin končí pravými dvouprstými klepety. Mecochiridi mají subchelátní zakončení s jedním zahnutým pohyblivým prstem; silný kandidát opravy.",
+      "environment": "Mořské dno vhodné; rostliny a mikrohabitat ilustrativní.",
+      "image": "images/mecochirus-longimanatus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "d271a1ec2c448b56cd5535fdbc18da5b99422c56c368cd3c07c6921d5aa5f221",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Mecochiridi: revize 2025",
+          "url": "https://www.cambridge.org/core/journals/journal-of-paleontology/article/resurrection-of-eumorphia-von-meyer-1847-and-some-taxonomical-considerations-of-other-mecochirid-lobsters-crustacea-decapoda-mecochiridae/64789719CCC13A0863CA83DC0C0DC69C",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Smithsonian: Mecochirus longimanatus",
+          "url": "https://www.si.edu/object/nmnhpaleobiology_3218448",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Val Sanagra Museum: morphology of Mecochirus; displayed specimen is M. germari",
+          "url": "https://valsanagra.it/en/inventory/mecochiro-2/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Mecochirus longimanatus. Dlouhé přední končetiny nejsou vybavené mohutnými humřími klepety; barva je ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 47,
+      "id": "pseudopulex-jurassicus",
+      "name": "Pseudopulex jurassicus",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Čitelný drobný členovec, přirozená hloubka ostrosti.",
+      "anatomy": "Bezkřídlost, šest nohou a dlouhé bodavé ústní ústrojí přijatelné; hostitel ani barva nejsou známy.",
+      "environment": "Suchozemský podklad je možný, konkrétní hostitelské prostředí není doložené.",
+      "image": "images/pseudopulex-jurassicus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "6bb5654b88ce3b9808fd5496142cf5e1af17d87f67cb3a6b6671fab4da7d87b0",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Gao et al. 2012: Mid-Mesozoic flea-like ectoparasites",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.012",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Poinar 2012: Palaeontology: The 165-Million-Year Itch",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0960982212002710",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Pseudopulex jurassicus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 48,
+      "id": "santanmantis-axelrodi",
+      "name": "Santanmantis axelrodi",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Přesvědčivá makrofotografie, souvislé pozadí.",
+      "anatomy": "Krátká předohruď a lapací nohy přítomné; přesné ostny na středních nohách nelze potvrdit.",
+      "environment": "Suchozemská vegetace oblasti Crato je přijatelná; pozadí není lokalitní rekonstrukce.",
+      "image": "images/santanmantis-axelrodi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "036d4a9f9a5b85b04f0f4a85a55ed019a1422a09826e91e3eea5f70bda4e2979",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Hörnig et al. 2017: Early mantodean predatory behaviour",
+          "url": "https://doi.org/10.7717/peerj.3605",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Brannoch and Svenson 2017: Response; disputed middle-leg hunting interpretation",
+          "url": "https://doi.org/10.7717/peerj.4046",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Santanmantis axelrodi. Způsob používání prostředních nohou při lovu je sporný; zobrazen je klidový postoj.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 49,
+      "id": "chimerarachne-yingi",
+      "name": "Chimerarachne yingi",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dlouhý bičovitý ocásek celý, dobré oddělení od kmene.",
+      "anatomy": "Pavoukovité tělo a ocásek bez bodce odpovídají; snovací orgány nejsou v tomto pohledu vidět.",
+      "environment": "Kmen v lesním prostředí je přijatelný pro jantarovou faunu; přesný strom neznámý.",
+      "image": "images/chimerarachne-yingi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "dee801820e2e9d319a4e2f4cf7fc8359eac6ca61f04dc3660ba4980b99933d1e",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Wang et al. 2018: Cretaceous arachnid Chimerarachne yingi illuminates spider origins",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29403075/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Huang et al. 2018: Origin of spiders and their spinning organs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29403076/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Chimerarachne yingi. Snovací orgány a ocásek jsou doložené; přesná barva, funkce hedvábí a lov nejsou známé.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 50,
+      "id": "vulcanidris-cratensis",
+      "name": "Vulcanidris cratensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaná říční kulisa i u makra; kusadla jsou názorná, ale sporně čitelná.",
+      "anatomy": "Ověřit svislou artikulaci kusadel a čelní výběžek. Z bočního pohledu nelze jejich mechaniku spolehlivě rozhodnout; zatím nejde o potvrzenou chybu.",
+      "environment": "Suchozemské Crato přijatelné; hustá jehličnatá kulisa není konkrétně doložená.",
+      "image": "images/vulcanidris-cratensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "e67a3973fb9e3314737f8bc583a5d7a13da2f0ffe2553dd2b1238c88280f8782",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Lepeco et al. 2025: Vulcanidris cratensis original description",
+          "url": "https://doi.org/10.1016/j.cub.2025.03.023",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "California Academy of Sciences AntWeb: Vulcanidris cratensis",
+          "url": "https://www.antweb.org/description.do?genus=vulcanidris&rank=species&species=cratensis&subfamily=haidomyrmecinae&subregionName=South+America",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Vulcanidris cratensis. Zobrazena okřídlená královna, nikoli neznámá dělnice. Barvy jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 51,
+      "id": "kentrosaurus-aethiopicus",
+      "name": "Kentrosaurus aethiopicus",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Ocas a část jeho ostnů končí mimo levý okraj.",
+      "anatomy": "Přechod plátů v trny a ramenní trn čitelné; úplnou ocasní výzbroj ořez neumožňuje posoudit.",
+      "environment": "Vegetovaná kontinentální krajina přijatelná, přesný říční horský horizont spekulativní.",
+      "image": "images/kentrosaurus-aethiopicus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "bd478243620289d10d63bf7c30ceb9aa2ae705a64c632a012a9a52ee096b9cb4",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Kentrosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/kentrosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Universität Tübingen: Kentrosaurus aethiopicus skeleton",
+          "url": "https://www.emuseum.uni-tuebingen.de/objects/38745/kentrosaurus-aethiopicus-reptilia-dinosauria-stegosaurida",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Kentrosaurus aethiopicus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 52,
+      "id": "styracosaurus-albertensis",
+      "name": "Styracosaurus albertensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generický říční břeh a téměř shodná hnědá paleta ceratopsidů.",
+      "anatomy": "Nosní roh a dlouhé límcové ostny přítomné; přesná variabilita límce závisí na jedinci.",
+      "environment": "Vegetovaná niva Dinosaur Park obecně vhodná.",
+      "image": "images/styracosaurus-albertensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "1dbc490be904ea5359851a76f11a4459d331984eea346f42db89c6ccb9923a70",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Styracosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/styracosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Styracosaurus albertensis. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 53,
+      "id": "pyroraptor-olympius",
+      "name": "Pyroraptor olympius",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Les je odlišnější a zdařilý, ale ocas končí velmi těsně na pravé hraně.",
+      "anatomy": "Opeření a většina tělesné siluety jsou doplněné podle příbuzných; srpovitý dráp je viditelný.",
+      "environment": "Evropská ostrovní krajina s vegetací je možná; lesní mikrohabitat neznámý.",
+      "image": "images/pyroraptor-olympius.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "4135fabfdcc554a8cbe463c535e2002f8d7ccf1e7684482fbeed4aff5a16389f",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Pyroraptor; fragmentary material and uncertain reconstruction",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/pyroraptor.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Pyroraptor olympius. Peří i chybějící části kostry jsou doplněné podle příbuzných; barvy jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 54,
+      "id": "liliensternus-liliensterni",
+      "name": "Liliensternus liliensterni",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Opakovaná říční kulisa a hnědý malý teropod.",
+      "anatomy": "Hlava a případné náznaky hřebínku jsou nejisté; neprezentovat je jako diagnostický fosilní znak.",
+      "environment": "Kontinentální vegetované prostředí přijatelné; přesná krajina není doložená.",
+      "image": "images/liliensternus-liliensterni.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "6740932c8ae122a299ecc9321f5da27981e66a1e49f5715efe5c982c39b109b8",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Liliensternus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/liliensternus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Liliensternus liliensterni. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 55,
+      "id": "chindesaurus-bryansmalli",
+      "name": "Chindesaurus bryansmalli",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční scenérie nerozlišuje druh od podobných triasových zvířat.",
+      "anatomy": "Lebka není známá; konkrétní tvar hlavy je hypotéza, nikoli důvod automaticky jej označit za chybu.",
+      "environment": "Sezónní niva jihozápadu Severní Ameriky obecně vhodná.",
+      "image": "images/chindesaurus-bryansmalli.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "58276d739077f1c7b4b26b71f18ec4d25624709c069afef5cac3902b2a28dc03",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Marsh et al. 2019: Redescription of Chindesaurus bryansmalli",
+          "url": "https://doi.org/10.1080/02724634.2019.1645682",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NHM: Chindesaurus; older phylogenetic placement not adopted",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/chindesaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Chindesaurus bryansmalli. Lebku neznáme. Hlava i úplný obrys jsou konzervativně doplněné podle příbuzných.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 56,
+      "id": "preondactylus-buffarinii",
+      "name": "Preondactylus buffarinii",
+      "period": "triassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Celá letová silueta a dlouhý ocas, jednotné světlo.",
+      "anatomy": "Konec ocasu a měkká tkáň křídel jsou zčásti doplněné; nelze je vydávat za přesně zachované.",
+      "environment": "Pobřežní prostředí triasové oblasti nálezů přijatelné.",
+      "image": "images/preondactylus-buffarinii.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "220659909cc2de6937bd7d91b0bbb784b73bef90c31c2e9af98a3cf2ff459ffc",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Dalla Vecchia 2013: Triassic pterosaurs",
+          "url": "https://pubs.geoscienceworld.org/gsl/books/edited-volume/1745/chapter/107605296/Triassic-pterosaurs",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Holgado et al. 2015: Reappraisal of purported gastric pellet",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4641592/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Preondactylus buffarinii. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 57,
+      "id": "torvosaurus-tanneri",
+      "name": "Torvosaurus tanneri",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Konec ocasu mizí za pravým okrajem; příliš velká postava v rámečku.",
+      "anatomy": "Mohutná hlava a ruce přijatelné; ořez není anatomická chyba, ale kompoziční.",
+      "environment": "Morrison: niva přijatelná, opakovaný horský horizont je pouze ilustrativní.",
+      "image": "images/torvosaurus-tanneri.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "36a90340fb651ce83a23fc5e3b75850b999bef1be2f898597b1708e80bdc3774",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NPS: Torvosaurus tanneri",
+          "url": "https://www.nps.gov/dino/learn/nature/torvosaurus-tanneri.htm",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Smithsonian: Torvosaurus tanneri",
+          "url": "https://www.si.edu/object/torvosaurus-tanneri-galton-jensen-1979%3Anmnhpaleobiology_3451259",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Torvosaurus tanneri. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 58,
+      "id": "camptosaurus-dispar",
+      "name": "Camptosaurus dispar",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generický lesní břeh; podobná perspektiva dalším býložravcům.",
+      "anatomy": "Zobák, delší zadní končetiny a nižší předek přijatelné; ruce jsou drobné a překryté.",
+      "environment": "Vegetovaná niva Morrisonu vhodná.",
+      "image": "images/camptosaurus-dispar.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "abc0531ca691af59e43b56b000419ef3006d95a918fb0380a9a76c183f5b1d0f",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Smithsonian: Camptosaurus dispar",
+          "url": "https://www.si.edu/object/nmnhpaleobiology_3440955",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NHM: Camptosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/camptosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Camptosaurus dispar. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 59,
+      "id": "mamenchisaurus-hochuanensis",
+      "name": "Mamenchisaurus hochuanensis",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Ocas vychází z levého okraje, nelze vidět celou siluetu.",
+      "anatomy": "Mimořádně dlouhý krk je správný základní znak; úplnou délku ocasu obraz neukazuje.",
+      "environment": "Říční krajina přijatelná, vzdálené hory a přesné druhy stromů spekulativní.",
+      "image": "images/mamenchisaurus-hochuanensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "6dc61f61b49ab82fe245c2d14c72635047b1a9f8ec7464b8923578bab009dfd9",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "AMNH: Mamenchisaurus hochuanensis",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/340-mamenchisaurus-hochuanensis",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Cervical vertebrae of Xinjiangtitan; comparison with M. hochuanensis",
+          "url": "https://ivpp.cas.cn/sourcedb/zw/klt/kycg/gswxyj/202312/P020231012348195021163.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Mamenchisaurus hochuanensis. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 60,
+      "id": "archaeopteryx-lithographica",
+      "name": "Archaeopteryx lithographica",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Ocas má velmi malou rezervu u pravého okraje, prostředí opakuje pterosaury.",
+      "anatomy": "Opeřená křídla, zuby a dlouhý opeřený ocas přítomné; barva celé postavy není známá.",
+      "environment": "Ostrovní vegetace u laguny je přijatelná.",
+      "image": "images/archaeopteryx-lithographica.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "c6d2d64c9d1dad2e6f7cd24d3491d40ee2041f1b79c6dc04bda5d95192c421de",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: London specimen Archaeopteryx lithographica",
+          "url": "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Smithsonian: Archaeopteryx lithographica",
+          "url": "https://www.si.edu/object/archaeopteryx-lithographica-meyer%3Anmnhpaleobiology_3370799",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Archaeopteryx lithographica. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 61,
+      "id": "dimorphodon-macronyx",
+      "name": "Dimorphodon macronyx",
+      "period": "jurassic",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Dlouhý ocas je uříznutý pravou hranou.",
+      "anatomy": "Velká vysoká hlava a rozdílně velké zuby odpovídají základnímu plánu; měkký pokryv rekonstruován.",
+      "environment": "Pobřežní skalisko je možné, nikoli jediný doložený způsob života.",
+      "image": "images/dimorphodon-macronyx.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "edcd08115c0856464d926a0d32560b1b311f842a5699b7ec7f6fb56e13ac80f9",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "AMNH: Dimorphodon macronyx",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/356-dimorphodon-macronyx",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NHM: Mary Anning fossil discoveries",
+          "url": "https://www.nhm.ac.uk/discover/mary-anning-fossils.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Dimorphodon macronyx. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 62,
+      "id": "anurognathus-ammoni",
+      "name": "Anurognathus ammoni",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Teplé večerní světlo a velmi těsné konce křídel proti převážně denní sérii.",
+      "anatomy": "Krátká široká hlava a krátký ocas odpovídají; rozsah chlupovitého pokryvu je rekonstruovaný.",
+      "environment": "Vegetované okolí lagun je možné, přesný lesní vzhled není doložený.",
+      "image": "images/anurognathus-ammoni.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "b31a577ba4f7b5f0c15ca523dab43ec0273234e314f580829936f3c530a89f4b",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Bennett 2007: A second specimen of Anurognathus ammoni",
+          "url": "https://doi.org/10.1007/BF02990250",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Anurognathus ammoni. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 63,
+      "id": "ophthalmosaurus-icenicus",
+      "name": "Ophthalmosaurus icenicus",
+      "period": "jurassic",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Ostré oko a čtyři ploutve; souvislá mořská scéna.",
+      "anatomy": "Velké oči a úzký čenich jsou vhodné; měkké ploutve a barva rekonstruovány.",
+      "environment": "Mořské prostředí vhodné; bentos není taxonomicky ověřený.",
+      "image": "images/ophthalmosaurus-icenicus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "bc680b322d25884354df041646085e77f9eaa2653757071cd511aaca8a1e7baa",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Smithsonian: Ophthalmosaurus icenicus",
+          "url": "https://www.si.edu/object/nmnhpaleobiology_3426628",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Ophthalmosaurus icenicus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 64,
+      "id": "deinocheirus-mirificus",
+      "name": "Deinocheirus mirificus",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční krajina s trávovitým porostem opakuje další zvířata; vegetaci nelze určit na rod.",
+      "anatomy": "Široký zobák, vysoký hřbet a velké ruce přítomné; konkrétní opeření je srovnávací rekonstrukce.",
+      "environment": "Mokrá niva Nemegtu je přijatelná; porost nemá být označen za konkrétní moderní trávník.",
+      "image": "images/deinocheirus-mirificus.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "86b9dbb8918c513a0abf5b6cdb0290f70c94df2a4ece50e0bc0a3ff00862f5c2",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Lee et al. 2014: Resolving the enigmas of Deinocheirus mirificus",
+          "url": "https://doi.org/10.1038/nature13874",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NHM: Deinocheirus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/Deinocheirus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Deinocheirus mirificus. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 65,
+      "id": "microraptor-gui",
+      "name": "Microraptor gui",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dobře odlišené čtyři opeřené končetiny a lesklá tmavá barva.",
+      "anatomy": "Iridescence má fosilní oporu, přesný modrý odstín a celé rozmístění barev nikoli.",
+      "environment": "Lesní vegetace je vhodná; konkrétní jehličnan a poloha větve jsou ilustrativní.",
+      "image": "images/microraptor-gui.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "cf16c1a75d332fc6747aef5b30a5726adbb688d3811f3029b4600ef4011ab058",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Li et al. 2012: Reconstruction of Microraptor and iridescent plumage",
+          "url": "https://doi.org/10.1126/science.1213780",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "University of Texas: Microraptor reconstruction study",
+          "url": "https://www.jsg.utexas.edu/news/2012/03/dinosaur-feathers-evolved-to-attract-mates/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Microraptor gui. Tmavý lesklý šat podporují mikroskopické stopy pigmentu; přesné odstíny a celková barevnost jsou rekonstrukcí.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 66,
+      "id": "oviraptor-philoceratops",
+      "name": "Oviraptor philoceratops",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Suchá krajina odlišuje druh, čitelná hlava i ruce.",
+      "anatomy": "Krátký zobák a opeření přijatelné; přesný hlavový hřeben Oviraptora je nejistý.",
+      "environment": "Suché kontinentální prostředí Djadokhta přijatelné.",
+      "image": "images/oviraptor-philoceratops.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "1b9a0a48d5daaa7c0be7d0a5630d616a637c35175dd4094c682cd8f016617e49",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Oviraptor",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/oviraptor.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "AMNH: Oviraptor philoceratops",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/019-oviraptor-philoceratops",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Oviraptor philoceratops. Opeření doplněno podle příbuzných; tvar hřebene je konzervativní, nikoli přenesený z rodu Citipati.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 67,
+      "id": "pachyrhinosaurus-canadensis",
+      "name": "Pachyrhinosaurus canadensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Podobná hnědá silueta a říční les jako Styracosaurus.",
+      "anatomy": "Nosní hrbol a límec jsou dobře rozpoznatelné; keratinový povrch a zbarvení jsou hypotetické.",
+      "environment": "Vegetovaná niva přijatelné pozdně křídové prostředí.",
+      "image": "images/pachyrhinosaurus-canadensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "7d0b692731db3b4abe02977dce440dd1b820ec8174af45ec71590477fd224bc6",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Pachyrhinosaurus; genus overview",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/pachyrhinosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Pachyrhinosaurus canadensis. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 68,
+      "id": "argentinosaurus-huinculensis",
+      "name": "Argentinosaurus huinculensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generický říční břeh a šedohnědá sauropodní šablona.",
+      "anatomy": "Hlava, krk a velká část proporcí jsou odvozené z příbuzných; chybějící fosilie nelze nahrazovat tvrzením o přesnosti.",
+      "environment": "Kontinentální niva vhodná; přesný les a terén Huinculu nejsou ověřené.",
+      "image": "images/argentinosaurus-huinculensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "4cda5b0bf2b9454bd693fb622ccbd0a66715ee1bdfb8aee396ed3fb405a764ee",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "NHM: Argentinosaurus; older stratigraphic summary",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Maniel et al. 2026: Albian zircon U-Pb ages in Candeleros and Huincul formations",
+          "url": "https://doi.org/10.1016/j.gr.2026.06.020",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Argentinosaurus huinculensis. Neúplná kostra; hlava, krk, ocas a velká část tělesných proporcí vycházejí z příbuzných.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 69,
+      "id": "psittacosaurus-mongoliensis",
+      "name": "Psittacosaurus mongoliensis",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Říční břeh podobný dalším dinosaurům; kresba ostrá.",
+      "anatomy": "Zobák a krátké ruce přijatelné. Absence ocasních štětin není sama prokázaná chyba P. mongoliensis.",
+      "environment": "Kontinentální vegetovaná krajina je možná; konkrétní mikrohabitat nejistý.",
+      "image": "images/psittacosaurus-mongoliensis.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "516e6ff366f8926e7a3a44d3c16fbb2ab0d89fbde36ddbe5b1318d76c48d024f",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "AMNH: Psittacosaurus mongoliensis",
+          "url": "https://www.amnh.org/explore/ology/ology-cards/032-psittacosaurus-mongoliensis?view=modal",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NHM: Psittacosaurus",
+          "url": "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Psittacosaurus mongoliensis. Barvy a pokryv nepřebíráme jako jistotu z otisků jiného druhu psitakosaura.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 70,
+      "id": "tapejara-wellnhoferi",
+      "name": "Tapejara wellnhoferi",
+      "period": "cretaceous",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Celé zvíře se složenými křídly, přirozené světlo.",
+      "anatomy": "Krátký dolů zahnutý zobák a přední hřeben vhodné; úplný měkký obrys hřebene je odhad.",
+      "environment": "Pobřežní až lagunové prostředí oblasti Romualdo přijatelné.",
+      "image": "images/tapejara-wellnhoferi.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "e8d21bdbcbe3bf121a78e07e0d9375ce9da1bacb931f77c47f67471e37f95a0a",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Eck et al. 2011: Osteology of Tapejara wellnhoferi",
+          "url": "https://doi.org/10.1007/s13358-011-0024-5",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Tapejara wellnhoferi. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 71,
+      "id": "tylosaurus-proriger",
+      "name": "Tylosaurus proriger",
+      "period": "cretaceous",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Výborná čitelnost celé postavy; mořská kulisa téměř stejná jako Mosasaurus.",
+      "anatomy": "Zuby sahají téměř ke špičce čenichu; chybí dostatečně výrazný bezzubý přední výběžek. Pravděpodobná anatomická odchylka, jistota střední kvůli perspektivě.",
+      "environment": "Mořské prostředí vhodné; tato scéna sama nedokládá život těsně nad útesem.",
+      "image": "images/tylosaurus-proriger.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "WEBP",
+      "sha256": "75ae490d538d38df32716ddaf2015bba6ce52f7990aa6c82714929503075450f",
+      "formatPass": false,
+      "sources": [
+        {
+          "title": "Zietlow 2020: ontogeneze Tylosaura",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Zietlow et al. 2026: A gigantic new species of Tylosaurus; revision of T. proriger material",
+          "url": "https://doi.org/10.1206/0003-0090.482.1.1",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce druhu Tylosaurus proriger. Barvy a přesná podoba měkkých částí jsou ilustrativní. Doložené znaky a nejistoty vysvětluje detail.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 72,
+      "id": "anomalocaris-canadensis",
+      "name": "Anomalocaris canadensis",
+      "period": "cambrian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Celá ostrá postava, bez rámů a opakovaných rozmazaných pruhů.",
+      "anatomy": "Dva přední přívěsky, boční laloky a ocasní vějíř přítomné; ústní disk není dobře vidět.",
+      "environment": "Kambrické moře s houbami přijatelné; konkrétní druhy pozadí neurčené.",
+      "image": "images/anomalocaris-canadensis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "b541105aa9fa73bdd508a93da80a1165be57ddad4f0de57ba977358a7605e257",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Royal Ontario Museum: Anomalocaris canadensis",
+          "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 73,
+      "id": "opabinia-regalis",
+      "name": "Opabinia regalis",
+      "period": "cambrian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Celá postava i chobot; rozostřené pozadí působí přirozeně.",
+      "anatomy": "Při zvětšení je vidět všech pět očí. Nejde o chybějící oko; chobot a plovací laloky odpovídají.",
+      "environment": "Kambrické mořské dno přijatelné; odstín vody a barva těla jsou hypotetické.",
+      "image": "images/opabinia-regalis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "5c2d0f3fe60a330c55b971d42b8ea80782724ee7355ff3e30b498fa6ce41f9d3",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Royal Ontario Museum: Opabinia regalis",
+          "url": "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 74,
+      "id": "hallucigenia-sparsa",
+      "name": "Hallucigenia sparsa",
+      "period": "cambrian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Ostrá silueta s jemným makropozadím, bez ořezu.",
+      "anatomy": "Sedm párů hřbetních ostnů je rozpoznatelných. Nejjemnější přední lobopody se překrývají; nelze potvrdit jejich přesný počet.",
+      "environment": "Kambrické mořské dno s houbami je přijatelné.",
+      "image": "images/hallucigenia-sparsa.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "d8a0a8519633ad8793b1f542d489dc393778388541426c021a91f4e242646789",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Royal Ontario Museum: Hallucigenia sparsa",
+          "url": "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 75,
+      "id": "marrella-splendens",
+      "name": "Marrella splendens",
+      "period": "cambrian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Spodní pravé tykadlo dosahuje k hraně; jinak zdařilé makro.",
+      "anatomy": "Dva hlavní páry hlavových ostnů a mnoho noh přítomné; přesný počet 26 článků nelze z perspektivy bezpečně spočítat.",
+      "environment": "Kambrické moře vhodné; hustota organismů na dně ilustrativní.",
+      "image": "images/marrella-splendens.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "2a56c69487faa8fce78c9b29129bf3acc7f60edf1a7e08b61792e2e81db153f2",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Royal Ontario Museum: Marrella splendens",
+          "url": "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 76,
+      "id": "wiwaxia-corrugata",
+      "name": "Wiwaxia corrugata",
+      "period": "cambrian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Jasně čitelné destičky i ostny, celá silueta.",
+      "anatomy": "Oválný scleritom a dlouhé ostny přijatelné; spodní měkká část není přístupná kontrole.",
+      "environment": "Kambrické mořské dno vhodné.",
+      "image": "images/wiwaxia-corrugata.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "7b4aae098d618fa2bd72e9d5341e79c8d0249a3617cba1415347f336b2de8215",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Royal Ontario Museum: Wiwaxia corrugata",
+          "url": "https://burgess-shale.rom.on.ca/fossils/wiwaxia-corrugata/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 77,
+      "id": "pikaia-gracilens",
+      "name": "Pikaia gracilens",
+      "period": "cambrian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Jemný průsvitný povrch se hodí k malému měkkému živočichovi.",
+      "anatomy": "Hřbetně orientované přední výběžky odpovídají reinterpretaci Mussini a kol. 2024; nejde automaticky o obrácenou rekonstrukci. Průsvitnost je hypotéza.",
+      "environment": "Kambrické moře vhodné; světlo a sediment obecně ilustrativní.",
+      "image": "images/pikaia-gracilens.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "2f8ca2e5ea4e66d3b67cd0fd0d28fa728d3ac8d4906f50921720a411c55a4660",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Mussini a kol. 2024: nová orientace těla",
+          "url": "https://www.cell.com/article/S0960982224006699/pdf",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Royal Ontario Museum: Pikaia gracilens",
+          "url": "https://burgess-shale.rom.on.ca/fossils/pikaia-gracilens/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Mussini et al. 2024: New interpretation of Pikaia",
+          "url": "https://doi.org/10.1016/j.cub.2024.05.026",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 78,
+      "id": "isotelus-rex",
+      "name": "Isotelus rex",
+      "period": "ordovician",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Osa těla je málo kontrastní, takže trilobit působí téměř nerozděleně.",
+      "anatomy": "Tři podélné laloky jsou hůře čitelné; neoznačuji jejich úplnou absenci bez dalšího morfometrického porovnání.",
+      "environment": "Ordovické mořské dno přijatelné.",
+      "image": "images/isotelus-rex.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "f1eb8baec5ac2df3bfecb69f2ee9074520ae62be434dde69b275d6084adc98ef",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Rudkin et al. 2003: World's biggest trilobite, Isotelus rex",
+          "url": "https://doi.org/10.1666/0022-3360(2003)077%3C0099:TWBTIR%3E2.0.CO;2",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Manitoba Museum: Isotelus rex specimen",
+          "url": "https://manitobamuseum.ca/collections-research/manitoba-nature/palaeontology-geology/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 79,
+      "id": "asaphus-kowalewskii",
+      "name": "Asaphus kowalewskii",
+      "period": "ordovician",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Oční stopky i články dobře čitelné, celistvá scéna.",
+      "anatomy": "Vysoké oční stopky a trilobití štíty odpovídají; měkké spodní končetiny skryté.",
+      "environment": "Mořské dno je vhodné; hloubku a konkrétní sediment nelze potvrdit.",
+      "image": "images/asaphus-kowalewskii.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "883d601c6b32b091ae2d4ca604609bdd1e0bcd321b1755c75f6e1a1127225424",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "GSA 2022: Structure of asaphid trilobite eyes",
+          "url": "https://gsa.confex.com/gsa/2022AM/webprogram/Paper381674.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Ivantsov 2003: Asaphinae of Ladoga Glint",
+          "url": "https://kirjandus.geoloogia.info/en/reference/6359",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 80,
+      "id": "aegirocassis-benmoulai",
+      "name": "Aegirocassis benmoulai",
+      "period": "ordovician",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Filtrační přívěsky i boční laloky jsou názorné.",
+      "anatomy": "Dvě řady laloků a hřebenovité filtrační přívěsky přítomné; přesná barva je hypotetická.",
+      "environment": "Ordovické moře vhodné pro filtrujícího radiodonta.",
+      "image": "images/aegirocassis-benmoulai.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "7e9d965fbf051fd8bd8083dc5ceec5cbd2adf6f4719f0ce7cd2f192e314bddcf",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Van Roy, Daley & Briggs 2015: Aegirocassis",
+          "url": "https://doi.org/10.1038/nature14256",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "2023 study: Radiodont frontal appendages, Fezouata",
+          "url": "https://doi.org/10.3389/fevo.2023.1214109",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 81,
+      "id": "arandaspis-prionotolepis",
+      "name": "Arandaspis prionotolepis",
+      "period": "ordovician",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Přehledná pancéřovaná přední část a celá postava.",
+      "anatomy": "Bez zjevné čelisti či párových prsních ploutví; zadní část těla je zčásti hypotetická.",
+      "environment": "Mořské prostředí přijatelné.",
+      "image": "images/arandaspis-prionotolepis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "85b2c24fb1daecb17391662e8df670ed7afbbc73480c66dc2b949d11472ce51e",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Geoscience Australia: Arandaspis prionotolepis holotype",
+          "url": "https://www.ga.gov.au/bigobj/GA14368.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Ritchie & Gilbert-Tomlinson 1977: Ordovician vertebrates",
+          "url": "https://doi.org/10.1080/03115517708527770",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 82,
+      "id": "endoceras-proteiforme",
+      "name": "Endoceras proteiforme",
+      "period": "ordovician",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Rovná schránka i měkká část jsou v souvislé scéně.",
+      "anatomy": "Schránka má fosilní oporu; přesné uspořádání ramen, očí a ploutví měkkého těla je nejisté.",
+      "environment": "Ordovické moře vhodné; poloha při plavání je odhad.",
+      "image": "images/endoceras-proteiforme.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "2674a2f33ce2d81b28322a914e057e459a46ab104f4a2d58999ea140a9c12dcf",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Atlas of Ordovician Life: Endoceras proteiforme",
+          "url": "https://www.ordovicianatlas.org/atlas/mollusca/cephalopoda/endocerida/endoceratidae/endoceras/endoceras-proteiforme/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "McFarlan 1931: Ordovician Fauna — Endoceras proteiforme",
+          "url": "https://www.uky.edu/OtherOrgs/KPS/poky/files/pokych02-01-118.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 83,
+      "id": "eurypterus-remipes",
+      "name": "Eurypterus remipes",
+      "period": "silurian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Čitelná vesla i telson; žádná zjevná koláž.",
+      "anatomy": "Nejsou velké pterygotidní chelicery; drobné příústní končetiny se překrývají a nelze všechny spočítat.",
+      "environment": "Mělká vodní scéna přijatelná; salinitu ani faunu pozadí nelze spolehlivě určit.",
+      "image": "images/eurypterus-remipes.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "61622939bcb325ba71b895fa00879a295f1216a0573d53e4406d12191634be71",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "New York State Museum: Eurypterus remipes state fossil",
+          "url": "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NY State Museum: State Fossils and Eurypterus remipes",
+          "url": "https://nysm.nysed.gov/bibcite/reference/37041",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Vlastní pracovní digitální rekonstrukce, bez rozmazaných okrajů. Doloženy jsou plovací veslovité končetiny, krátké klepítkovité části úst, článkovaný trup a ocasní hrot. Barva a prostředí jsou ilustrativní.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 84,
+      "id": "acutiramus-bohemicus",
+      "name": "Acutiramus bohemicus",
+      "period": "silurian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Celé tělo, klepítka a vesla jsou dobře oddělené.",
+      "anatomy": "Velké chelicery a plovací končetiny odpovídají základním znakům; detaily zubů klepítek nejsou ověřeny.",
+      "environment": "Silurské moře vhodné; přesná sestava organismů pozadí je hypotetická.",
+      "image": "images/acutiramus-bohemicus.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "e3d08b0ac7faaff4d406042944d4e67b1193885dc4a0a87b1c5988ccf35b3aaf",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Chlupáč (1994): Pterygotid eurypterids of Bohemia",
+          "url": "https://www.arachnology.cz/literatura/pterygotid-eurypterids-arthropoda-chelicerata-in-the-silurian-and-devonian-of-bohemia.-2316.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Braddy et al. (2008): Giant claw reveals the largest ever arthropod",
+          "url": "https://doi.org/10.1098/rsbl.2007.0491",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 85,
+      "id": "birkenia-elegans",
+      "name": "Birkenia elegans",
+      "period": "silurian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Celá úzká silueta, jednotné podvodní světlo.",
+      "anatomy": "Bez zjevné čelisti a párových ploutví; spodní lalok ocasu a šupinový vzor vyžadují opatrné čtení perspektivy.",
+      "environment": "Vodní prostředí přijatelné; mořský vzhled kulisy není důkaz konkrétní salinity.",
+      "image": "images/birkenia-elegans.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "30a92a65e378a082c317a6f0927765881497f31264d3f15e6a3a076b551cbb5a",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Scottish Geology Trust: Silurian fossil fishes of Scotland",
+          "url": "https://geoguide.scottishgeologytrust.org/p/gcr16/gcr16_chapter2silurianfishscotland",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Blom (2012): Birkeniid anaspids and phylogenetic implications",
+          "url": "https://doi.org/10.1111/j.1475-4983.2012.01142.x",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 86,
+      "id": "entelognathus-primordialis",
+      "name": "Entelognathus primordialis",
+      "period": "silurian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Dobře vykreslený pancíř a souvislé prostředí.",
+      "anatomy": "Pancéřovaná hlava s čelistmi; zadní tělo a některé ploutve jsou hypotetické, nikoli kompletně doložené.",
+      "environment": "Silurská vodní scéna přijatelná; konkrétní útes není doložen.",
+      "image": "images/entelognathus-primordialis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "1e88cefd5fd4d4ec5956d3b7089b01ca2cc6fcc56e31e783ab1d50ba18210f49",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Zhu et al. (2013): A Silurian placoderm with osteichthyan-like marginal jaw bones",
+          "url": "https://doi.org/10.1038/nature12617",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "IVPP: Exceptionally preserved Entelognathus",
+          "url": "https://english.ivpp.cas.cn/rh/rp/202509/t20250902_1052190.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Vlastní pracovní digitální rekonstrukce. Fosilie dokládají pancíř a čelistní kosti, novější nálezy i šupiny; přesné proporce trupu, ocasní ploutve a zbarvení jsou částečně hypotetické.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 87,
+      "id": "qilinyu-rostrata",
+      "name": "Qilinyu rostrata",
+      "period": "silurian",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Ostrá scéna, ale nápadný mečovitý rypec mění charakter druhu.",
+      "anatomy": "Rypec je extrémně dlouhý a špičatý; studie popisuje mírně protažený delfínovitý profil a ventrální ústa. Zde navíc vystupují velké trojúhelníkové zuby. Silný kandidát opravy.",
+      "environment": "Silurské moře přijatelné, přesná fauna pozadí není určena.",
+      "image": "images/qilinyu-rostrata.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "26e8747af950ffa7bf673bc39ebd6d538936a8ccbf7ff3030a45e5c2c4d86f6a",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Zhu a kol. 2016: popis lebky",
+          "url": "https://www.sciencemagazinedigital.org/sciencemagazine/21_october_2016?pg=98",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Zhu et al. (2016): A Silurian maxillate placoderm illuminates jaw evolution",
+          "url": "https://doi.org/10.1126/science.aah3764",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Chinese Academy of Sciences: Qilinyu and jaw evolution",
+          "url": "https://www.eurekalert.org/news-releases/659466",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Vlastní pracovní digitální rekonstrukce. Doložen je protáhlý rypec, kostěný přední pancíř a prsní ploutve, podoba zadního trupu, ocasu a zbarvení jsou rekonstruované.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 88,
+      "id": "dunkleosteus-terrelli",
+      "name": "Dunkleosteus terrelli",
+      "period": "devonian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Ostrá robustní hlava a hluboký trup, bez neutrálního diagramového pozadí.",
+      "anatomy": "Kostní řezné hrany bez běžných oddělených zubů. Zadní proporce a ocas jsou hypotéza, novější odhady nejsou definitivní.",
+      "environment": "Mořské prostředí vhodné.",
+      "image": "images/dunkleosteus-terrelli.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "9697a5b6eaff1e73777de35cff9bb1745f24c31357b0c24a8f6d57e6d2dae786",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Engelman 2023: new body length estimates of Dunkleosteus",
+          "url": "https://doi.org/10.3390/d15030318",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Engelman 2024: Reconstructing Dunkleosteus terrelli",
+          "url": "https://doi.org/10.26879/1343",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení, měkké tkáně a nedochované části těla jsou ilustrativní; anatomické nejistoty vysvětluje detail. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 89,
+      "id": "tiktaalik-roseae",
+      "name": "Tiktaalik roseae",
+      "period": "devonian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Přirozeně mělká voda a široká hlava, celistvé prostředí.",
+      "anatomy": "Silné přední ploutve bez skutečných prstů přijatelné; měkký hřbetní obrys není kompletně fosilně doložen.",
+      "environment": "Mělké vodní prostředí vhodné; rostlinné pozadí je obecné.",
+      "image": "images/tiktaalik-roseae.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "8c09ffcbd7bbe240c71ab5f34d46d904416828b8bde95a9ed4ebdac5d03771c7",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Shubin et al. 2006: Tiktaalik forelimb and tetrapod limb origin",
+          "url": "https://doi.org/10.1038/nature04637",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "NASA Earth Observatory: Fishapod fossil from the Arctic",
+          "url": "https://science.nasa.gov/earth/earth-observatory/fishapod-fossil-found-in-the-arctic-6443/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 90,
+      "id": "bothriolepis-canadensis",
+      "name": "Bothriolepis canadensis",
+      "period": "devonian",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Dobrá ostrost, ale působí jako moderní obrněná ryba.",
+      "anatomy": "Oči jsou oddělené po stranách hlavy místo sdružené horní orbitální oblasti. Nutná revize lebky podle 3D rekonstrukce Béchard a kol. 2014.",
+      "environment": "Vodní dno je vhodné; generický mořský útes nedokládá estuární prostředí Miguashy.",
+      "image": "images/bothriolepis-canadensis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "d6b170e64032e09c9fcadd94f603bcf638408e72304f2a79c31bc92638e8c193",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Béchard a kol. 2014: 3D anatomie",
+          "url": "https://palaeo-electronica.org/content/2014/647-3d-bothriolepis",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "IUGS: Late Devonian fossil fish of Miguasha",
+          "url": "https://iugs-geoheritage.org/geoheritage_sites/the-late-devonian-fossil-fish-lagerstatte-of-miguasha/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "UNESCO: Miguasha National Park World Heritage",
+          "url": "https://whc.unesco.org/en/list/686",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 91,
+      "id": "eusthenopteron-foordi",
+      "name": "Eusthenopteron foordi",
+      "period": "devonian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Celé tělo i ploutve čitelné, přirozené podvodní světlo.",
+      "anatomy": "Lobovité párové ploutve a oddělené hřbetní ploutve přítomné; překryv u ocasu může opticky přidávat ploutev, chyba nepotvrzena.",
+      "environment": "Vodní prostředí vhodné, konkrétní salinita a rostliny nejisté.",
+      "image": "images/eusthenopteron-foordi.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "2d53577c9296caabea73eb9c4319b6c99ab424d95edd8013a9e79eeaebe77a9b",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "IUGS: Late Devonian fossil fish of Miguasha",
+          "url": "https://iugs-geoheritage.org/geoheritage_sites/the-late-devonian-fossil-fish-lagerstatte-of-miguasha/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "UNESCO: Miguasha National Park World Heritage",
+          "url": "https://whc.unesco.org/en/list/686",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 92,
+      "id": "ichthyostega-stensioei",
+      "name": "Ichthyostega stensioei",
+      "period": "devonian",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Příliš podobná barva, hlava a podvodní scéna Acanthosteze.",
+      "anatomy": "Viditelná zadní noha má podobu pětiprsté končetiny místo doložených sedmi prstů; rozlišení prstů částečně omezuje perspektiva, jistota střední.",
+      "environment": "Vodní prostředí možné; obraz nevystihuje odlišnou robustní stavbu a lokomoci tak dobře jako referenční kostra.",
+      "image": "images/ichthyostega-stensioei.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "1f9878035cf3a35c3c73cdc82688a4d4862e2052b7968fc47cc4a8634e1dc00e",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Přehled vývoje počtu prstů 2017",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5182414/",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Pierce et al. 2012: Ichthyostega limb mobility",
+          "url": "https://doi.org/10.1038/nature11124",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Coates & Clack 1990: Polydactyly in earliest tetrapod limbs",
+          "url": "https://doi.org/10.1038/347066a0",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 93,
+      "id": "acanthostega-gunnari",
+      "name": "Acanthostega gunnari",
+      "period": "devonian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dlouhé pavoukovitě roztažené prsty a velmi podobná scéna Ichthyosteze.",
+      "anatomy": "Osm předních prstů není jednoznačně čitelných; některé se mohou překrývat. Kontrola proti osmi prstům nutná před případnou opravou, chyba počtu zatím nepotvrzená.",
+      "environment": "Vodní prostředí odpovídá anatomii; přesná vegetace není ověřená.",
+      "image": "images/acanthostega-gunnari.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "8ed8e2d591b99732e5ba1068ffcfd9afdd8c5b772f240ad88b8577cef35b7dc0",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "J. A. Clack: Acanthostega",
+          "url": "https://tolweb.org/Acanthostega/15016",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Clack 2006: Acanthostega gunnari, Tree of Life",
+          "url": "https://tolweb.org/Acanthostega/15016",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Coates & Clack 1990: Polydactyly in earliest tetrapod limbs",
+          "url": "https://doi.org/10.1038/347066a0",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 94,
+      "id": "cladoselache-fyleri",
+      "name": "Cladoselache fyleri",
+      "period": "devonian",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Ostrá plná postava; problém není technická kvalita.",
+      "anatomy": "Na hřbetě jsou tři oddělené ploutvovité výběžky místo dvou; navíc podezřelá samostatná řitní ploutev. Priorita je odstranit anatomicky nepodložené ploutve, nikoli změnit barvu.",
+      "environment": "Devonské moře vhodné; přesné útesové společenstvo je ilustrativní.",
+      "image": "images/cladoselache-fyleri.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "bfb37655cf13f6dc50b58b54b3dd4f7f454501c033e16f1c7782fe1c121c23cb",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Frey a kol. 2023: srovnání kladoselachidů",
+          "url": "https://link.springer.com/article/10.1186/s13358-023-00266-6",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "University of Michigan: Cladoselache fyleri specimen",
+          "url": "https://umorf.ummp.lsa.umich.edu/wp/specimen-data/?Model_ID=1442",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Cleveland Museum: Cladoselache overview",
+          "url": "https://artsandculture.google.com/asset/cladoselache/TgEhKPdAa1i13A",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 95,
+      "id": "jaekelopterus-rhenaniae",
+      "name": "Jaekelopterus rhenaniae",
+      "period": "devonian",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Zadní konec těla zasahuje za okraj, úplný telson nelze posoudit.",
+      "anatomy": "Velké chelicery a veslovité končetiny přítomné; velikost celého zvířete je odhad z neúplných nálezů.",
+      "environment": "Vodní prostředí přijatelné; nelze potvrdit salinitu ani konkrétní mikrohabitat.",
+      "image": "images/jaekelopterus-rhenaniae.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "7b552a870e496aeb95985808cb9ec32eb1ae81d83a229f068fe5d0d1a64c6c23",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Braddy et al. 2008: Giant claw Jaekelopterus rhenaniae",
+          "url": "https://doi.org/10.1098/rsbl.2007.0491",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Pracovní AI rekonstrukce. Zbarvení a některé nezachované anatomické znaky jsou hypotetické a nemusí být fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 96,
+      "id": "arthropleura-armata",
+      "name": "Arthropleura armata",
+      "period": "carboniferous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Malířský styl, měkčí textura a oříznutý konec těla výrazně vybočují; dříve schválené vodorovné roztažení.",
+      "anatomy": "Mnoho článků a noh odpovídá základnímu plánu; druhové detaily hlavy nelze bezpečně ověřit. Schválenou ilustraci zatím zachovat.",
+      "environment": "Suchozemský vegetovaný podklad přijatelný; přesná flóra je neurčená.",
+      "image": "images/arthropleura-armata.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "39fab4ef04885a6682ab7e1400c8e10545a10231b23a293d98dc5b4576b91ab5",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Lhéritier et al. 2024: Arthropleura head anatomy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11463278/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum 2024: Arthropleura new head fossils",
+          "url": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Arthropleura_Reconstruction.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 97,
+      "id": "meganeura-monyi",
+      "name": "Meganeura monyi",
+      "period": "carboniferous",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Čtyři křídla dobře oddělená, ostrý makrozáběr.",
+      "anatomy": "Základní stavba griffinfly odpovídá; žilnatina a velikost bez měřítka nejsou ověřené.",
+      "environment": "Vlhký vegetovaný karbon je přijatelný; ne každý karbonský biotop byl prales.",
+      "image": "images/meganeura-monyi.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "368443c13f98acd332e3ea6fa1449d6e5ef9229ef7916a27839ce90ae2b66ebe",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "MNHN Paris: Meganeura monyi fossil wing and 70 cm span",
+          "url": "https://www.mnhn.fr/fr/meganeura-monyi-libellule-geante",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 98,
+      "id": "pulmonoscorpius-kirktonensis",
+      "name": "Pulmonoscorpius kirktonensis",
+      "period": "carboniferous",
+      "category": "Výrazná vizuální odchylka",
+      "severity": 2,
+      "visual": "Malířská textura a tmavší světlo výrazně vybočují; dříve schválené mírné vodorovné roztažení.",
+      "anatomy": "Klepeta a článkovaný ocas přítomné, nohy se překrývají. Schválenou ilustraci zatím zachovat.",
+      "environment": "Suchozemské prostředí přijatelné; konkrétní světelné podmínky jsou výtvarné.",
+      "image": "images/pulmonoscorpius-kirktonensis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "67289c2c470ea4ab31fd87fa986fa3755269ff856504288e7fb9ef8d1be4e7b9",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "National Museums Scotland: Pulmonoscorpius kirktonensis",
+          "url": "https://www.nms.ac.uk/collections/search/object?common-name=Scorpion&entry=605091&page=3&view=cards",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "JNCC Geological Conservation Review: East Kirkton Carboniferous scorpions",
+          "url": "https://data.jncc.gov.uk/data/6b9e4254-1fb9-41ef-acc4-caf6180a731c/gcr-v35-fossil-arthropods-c3.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 99,
+      "id": "hylonomus-lyelli",
+      "name": "Hylonomus lyelli",
+      "period": "carboniferous",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Souvislé lesní prostředí, ostrá štíhlá postava.",
+      "anatomy": "Čtyři končetiny a dlouhý ocas; přesné měkké tkáně a barevný vzor jsou rekonstrukce.",
+      "environment": "Vegetovaný karbonský podklad přijatelný pro živočicha známého z Joggins.",
+      "image": "images/hylonomus-lyelli.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "1351876bda29b79e524d29f79afdd8f620f633995dbbd2ba1955d3f507135b63",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Smithsonian NMNH: Hylonomus lyelli specimen",
+          "url": "https://www.si.edu/object/hylonomus-lyelli-dawson-1860%3Anmnhpaleobiology_3441092",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Carroll 1966: Joggins fossil Hylonomus actually a reptile",
+          "url": "https://doi.org/10.1111/j.1095-8312.1966.tb00952.x",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 100,
+      "id": "greererpeton-burkemorani",
+      "name": "Greererpeton burkemorani",
+      "period": "carboniferous",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Dlouhé tělo a krátké nohy dobře čitelné pod vodou.",
+      "anatomy": "Plochá hlava a protažený trup odpovídají; počet drobných prstů není bezpečně čitelný.",
+      "environment": "Vodní prostředí vhodné, mikrohabitat a rostliny obecně rekonstruované.",
+      "image": "images/greererpeton-burkemorani.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "ed637d18cacd947f8edff45360658b6740d9e6b4db77eb7bfc972d71da4b8e19",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Smithsonian NMNH: Greererpeton burkemorani",
+          "url": "https://www.si.edu/es/object/nmnhpaleobiology_3441105",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Smithson 1982: Cranial morphology Greererpeton burkemorani",
+          "url": "https://doi.org/10.1111/j.1096-3642.1982.tb01955.x",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 101,
+      "id": "edestus-heinrichi",
+      "name": "Edestus heinrichi",
+      "period": "carboniferous",
+      "category": "Anatomická chyba",
+      "severity": 3,
+      "visual": "Čelní pohled je působivý a uživatelem vybraný; kompozici lze zachovat.",
+      "anatomy": "Dvě středové čepele jsou správně umístěné, ale působí jako hustý zip drobných hrotů. E. heinrichi má velké trojúhelníkové korunky; pravděpodobná odchylka s ohledem na čelní perspektivu.",
+      "environment": "Moře až estuárium je vhodné; tělo a rozmístění ploutví jsou zčásti hypotetické.",
+      "image": "images/edestus-heinrichi.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "2ce213ff170247f9b729f47c5517444db92b9df2a58332cee5a509e96ba2eabc",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Tapanila a Pruitt 2019: korunky a čepele",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220958",
+          "scope": "Doplněná rešerše tohoto auditu: relevantní text nebo abstrakt."
+        },
+        {
+          "title": "Tapanila et al. 2020: Saws Scissors and Sharks, Edestus",
+          "url": "https://doi.org/10.1002/ar.24046",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Čelní pohled zdůrazňuje dvě protilehlé středové zubní čepele. Jejich přesná geometrie a zobrazení jednotlivých korunek nejsou vědecky ověřené; tvar těla a ploutví, zbarvení a měkké tkáně jsou nejistou rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 102,
+      "id": "petrolacosaurus-kansensis",
+      "name": "Petrolacosaurus kansensis",
+      "period": "carboniferous",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Dobře čitelný dlouhý krk a ocas, ostrá scéna.",
+      "anatomy": "Čtyři končetiny přítomné; spánkové otvory nejsou přes měkké tkáně přímo kontrolovatelné.",
+      "environment": "Suchozemský karbonský les je přijatelný; konkrétní rostlinná společenstva neurčena.",
+      "image": "images/petrolacosaurus-kansensis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "c86633e701ab5ee044383d90d53ba017353973ccbd2dd492bd81df720901271b",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Reisz 1977: Petrolacosaurus oldest known diapsid",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17778545/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Benton 1985: Classification and phylogeny of diapsid reptiles",
+          "url": "https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/5/537/files/2019/07/1985Classification.pdf",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 103,
+      "id": "crassigyrinus-scoticus",
+      "name": "Crassigyrinus scoticus",
+      "period": "carboniferous",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Velká hlava a malé končetiny se dobře odlišují od okolí.",
+      "anatomy": "Vodní robustní tělo a zakrnělé končetiny přijatelné; některé partie jsou doplněné podle rekonstrukce.",
+      "environment": "Vodní prostředí vhodné, konkrétní rostliny a průhlednost vody jsou hypotéza.",
+      "image": "images/crassigyrinus-scoticus.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "ad21013b46e0517d2299ca8b0d5eae03d3fc9833bbe6102b35c138dc1879b47f",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Porro et al. 2023: CT reconstructed skull of Crassigyrinus",
+          "url": "https://doi.org/10.1080/02724634.2023.2183134",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Natural History Museum 2023: Crassigyrinus skull",
+          "url": "https://www.nhm.ac.uk/discover/news/2023/may/crushed-scottish-fossils-reconstructed-reveal-ancient-predators-skull.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová původní AI rekonstrukce (2026). Zbarvení a měkké tkáně jsou ilustrativní; nejisté anatomické detaily zůstávají rekonstrukcí. Nejde o fotografii ani přímý fosilní důkaz.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 104,
+      "id": "dimetrodon-grandis",
+      "name": "Dimetrodon grandis",
+      "period": "permian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobný říční břeh a světlo jako Edaphosaurus; jinak zdařilý obraz.",
+      "anatomy": "Dlouhá hlava, plachta a rozkročené čtyři nohy přítomné; barva plachty a kožní kresba neznámé.",
+      "environment": "Permská niva s vhodnou nekvetoucí vegetací obecně přijatelná; přesné rostliny neurčeny.",
+      "image": "images/dimetrodon-grandis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "9d45a292e908b1da852284a6c065fd41b218f919c7b967be998f663a338f7824",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Smithsonian NMNH: Dimetrodon grandis fossil",
+          "url": "https://www.si.edu/object/nmnhpaleobiology_3451032",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Wikimedia Commons: Dimetrodon grandis reconstruction, DiBgd",
+          "url": "https://commons.wikimedia.org/wiki/File:Dimetrodon_grandis.jpg",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 105,
+      "id": "edaphosaurus-pogonias",
+      "name": "Edaphosaurus pogonias",
+      "period": "permian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Velmi podobná kompozice a krajina Dimetrodonovi; celé tělo nyní viditelné.",
+      "anatomy": "Malá hlava, objemný trup a příčné výběžky plachty druh dobře odlišují.",
+      "environment": "Permská vegetovaná niva přijatelná; konkrétní ekologie scény je rekonstrukce.",
+      "image": "images/edaphosaurus-pogonias.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "50a3d3228c7795ba5ac3f82eb7bcce751064f72bee1a692889b16e0e623e6f3f",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Scott Hartman: Edaphosaurus pogonias skeletal review",
+          "url": "https://www.skeletaldrawing.com/synapsids/edaphosaurus-pogonias/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Wikimedia Commons: EdaphosaurusDB by Dmitry Bogdanov",
+          "url": "https://commons.wikimedia.org/wiki/File:EdaphosaurusDB.jpg",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 106,
+      "id": "inostrancevia-alexandri",
+      "name": "Inostrancevia alexandri",
+      "period": "permian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Generická říční krajina s jehličnany a skalami, jinak kvalitní scéna.",
+      "anatomy": "Horní špičáky, dlouhá hlava a čtyři nohy přítomné; rozsah holé kůže či ochlupení není prokázaný.",
+      "environment": "Kontinentální permské prostředí přijatelné; konkrétní porost a reliéf Ruska nejsou ověřené.",
+      "image": "images/inostrancevia-alexandri.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "6801ac485f4e1537d4885182f1c46fd47c0e4fb19f16e9d854f032f69a58a1ff",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Kammerer et al. 2018: Russian gorgonopsians and Inostrancevia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5995105/",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Russian Academy of Sciences: Inostrancevia alexandri skeleton",
+          "url": "https://www.ras.ru/paleontological_museum/4fb59d87-7326-4117-89ce-b243795231f6.aspx",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 107,
+      "id": "scutosaurus-karpinskii",
+      "name": "Scutosaurus karpinskii",
+      "period": "permian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Dobrá ostrost, opakovaný říční břeh.",
+      "anatomy": "Čtyři nohy a hluboký trup jsou v pořádku. Postoj působí poněkud vzpřímeně; studie podporuje rozkročenější končetiny, perspektiva brání jistému verdiktu.",
+      "environment": "Permská niva přijatelná; neinterpretovat přesný les jako doloženou lokalitu.",
+      "image": "images/scutosaurus-karpinskii.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "832d30f901b61b485915372ad7ea60789e049b0bc161d13e2ae906d0dca8537e",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Romano et al. 2021: Scutosaurus 3D mass and restoration",
+          "url": "https://doi.org/10.3389/fevo.2021.692035",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Russian Academy of Sciences: Scutosaurus karpinskii fossils",
+          "url": "https://www.ras.ru/paleontological_museum/c50733f5-ef8b-4314-a8bc-b2c259cf27cb.aspx",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 108,
+      "id": "mesosaurus-tenuidens",
+      "name": "Mesosaurus tenuidens",
+      "period": "permian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Přehledná celá postava a jemné podvodní světlo.",
+      "anatomy": "Dlouhý čenich, čtyři končetiny a dlouhý ocas přítomné; jemné zuby a prsty se částečně překrývají.",
+      "environment": "Vodní prostředí vhodné; konkrétní salinita je předmětem rekonstrukce, ne barvy vody.",
+      "image": "images/mesosaurus-tenuidens.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "ff4ab64df608db20821810eb8fdc03eb4459f461d2b4be1183b2d80282999c3b",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Modesto 2006: Cranial skeleton of Mesosaurus tenuidens",
+          "url": "https://doi.org/10.1111/j.1096-3642.2006.00205.x",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Wikimedia Commons: Mesosaurus tenuidens illustration",
+          "url": "https://commons.wikimedia.org/wiki/File:MESOSAURUS.png",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 109,
+      "id": "diplocaulus-magnicornis",
+      "name": "Diplocaulus magnicornis",
+      "period": "permian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Široká hlava má dost prostoru, celá scéna působí jednotně.",
+      "anatomy": "Bumerangová lebka odpovídá; vzdálená zadní noha je zakrytá, nikoli prokazatelně chybějící.",
+      "environment": "Mělká kontinentální voda je přijatelná.",
+      "image": "images/diplocaulus-magnicornis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "236bb944a8379e99fbd0d68b9de44d38e58c37bb06e907fe12af785a44729ca5",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Smithsonian: Diplocaulus magnicornis specimen",
+          "url": "https://collections.si.edu/search/results.htm?fq=geo_age-system%3A%22Permian%22%26q=%22Diplocaulus+magnicornis%22",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Cope 1882 Diplocaulus magnicornis and taxon literature",
+          "url": "https://www.mindat.org/taxon-P81712.html",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 110,
+      "id": "helicoprion-bessonowi",
+      "name": "Helicoprion bessonowi",
+      "period": "permian",
+      "category": "Bez problémů",
+      "severity": 0,
+      "visual": "Souvislá mořská scéna, bez vnější kruhové pily.",
+      "anatomy": "Spirála je uvnitř dolní čelisti; jednotlivé zuby nejsou všechny vidět. Celková silueta a ploutve jsou hypotetické.",
+      "environment": "Mořské prostředí vhodné; přesná fauna dna není určena.",
+      "image": "images/helicoprion-bessonowi.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "a775d12a24769f0d2788e53151721de03dac1013e08dfc245480bee1e3513124",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Tapanila et al. 2013: Jaw CT and tooth whorl",
+          "url": "https://doi.org/10.1098/rsbl.2013.0057",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Tapanila et al. 2013: Helicoprion species tooth geometry",
+          "url": "https://doi.org/10.1666/12-156",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze. Zubní spirála je rekonstruována uvnitř dolní čelisti, viditelná je pouze část korunek; jejich přesná geometrie nebyla vědecky ověřena. Celkový tvar těla a ploutví je hypotetický, nikoli doložený kompletní kostrou tohoto druhu.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    },
+    {
+      "index": 111,
+      "id": "estemmenosuchus-uralensis",
+      "name": "Estemmenosuchus uralensis",
+      "period": "permian",
+      "category": "Drobná vizuální odchylka",
+      "severity": 1,
+      "visual": "Kvalitní postava, ale generické říční pozadí opakuje permské i druhohorní scény.",
+      "anatomy": "Jednodušší rohy a robustní lebka jsou přijatelné pro E. uralensis; nezaměňovat automaticky s výrazněji zdobeným E. mirabilis.",
+      "environment": "Permská kontinentální niva přijatelná; barva a přesný porost jsou rekonstrukce.",
+      "image": "images/estemmenosuchus-uralensis.webp",
+      "size": [
+        1152,
+        768
+      ],
+      "format": "WEBP",
+      "sha256": "89318c898b2b72f9c3d297fe523ffff4b7cca9620b6c4024cdd0b9771ba083e8",
+      "formatPass": true,
+      "sources": [
+        {
+          "title": "Paleofile: Estemmenosuchus uralensis taxon holotype",
+          "url": "https://www.paleofile.com/Theriodontia/Estemmenosuchus.asp",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        },
+        {
+          "title": "Wikimedia Commons: Estemmenosuchus uralensis restoration",
+          "url": "https://commons.wikimedia.org/wiki/File:Estemmenosuchus_uralensis.jpg",
+          "scope": "Podklad převzatý z databáze projektu; ne všechny celé studie byly znovu otevřeny."
+        }
+      ],
+      "credits": "Nová AI rekonstrukce vytvořená pro Dino Atlas podle paleontologických podkladů, bez použití původní licencované ilustrace jako obrazového vstupu. Vzhled byl jednotlivě zkontrolován; nejde o vědecky ověřenou podobu živého zvířete. Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní obraz a jeho autorské údaje jsou zachované v projektové záloze.",
+      "evidenceLimit": "Barevnost, osvětlení, měkké tkáně a konkrétní krajina jsou převážně hypotetické. Zakrytý znak není prokázaně chybějící."
+    }
+  ]
+}
