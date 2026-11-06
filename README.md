@@ -1,3 +1,5 @@
+> **6. 11. 2026 — kandidát 1000012:** Obnovena rozpracovaná integrace 12 schválených ilustrací, opraven jediný zaoblený rámeček vyhledávání a návratová šipka. Zachováno všech 112 druhů a 100 ostatních obrázků včetně devítky ze ZIPu. `npm test` prošel; lokální Chromium blokuje prostředí, mobilní testy a podepsané APK ověří GitHub Actions. [Podrobné předání](docs/release-1000012.md). Pouze `feature/paleozoic-1.0.0`, neslučovat do main. Starší záznamy níže jsou historie.
+
 > **Aktuálně 27. 10. 2026 — dávka 06 / 1000006:** Dva přesné ořezy (Pulmonoscorpius a Arthropleura) a nová rekonstrukce Edesta. 112 druhů zachováno. Zbývá sedm permských náhrad; lokální testy prošly, podepsané APK zatím nepotvrzené. [Předání](docs/VISUAL-REFRESH-BATCH06.md). Neslučovat do main. Starší údaje níže jsou historie.
 
 > **Aktuálně 27. 10. 2026 — dávka 05 / 1000005:** Vloženo pět karbonských rekonstrukcí, celkem 22 z 30 náhrad. Edestus odmítnut, zůstává původní; zbývá osm oprav (Edestus + perm 7). Lokální i GitHub testy prošly, podepsané APK 1000005 je hotové. Čeká hodnocení uživatele. [Předání](docs/VISUAL-REFRESH-BATCH05.md). Neslučovat do main. Starší údaje níže jsou historie.

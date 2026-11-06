@@ -8,7 +8,7 @@ const before = require('../docs/backups/visual-refresh-04/manifest.json');
 const accepted = require('../docs/visual-refresh-04.json');
 const ids = ["isotelus-rex", "asaphus-kowalewskii", "aegirocassis-benmoulai", "arandaspis-prionotolepis", "endoceras-proteiforme"];
 const carbonBatch = require('../docs/visual-refresh-05.json');
-const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images};
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.deepEqual(Object.keys(accepted).sort(), ids.sort());
 assert.deepEqual(Object.keys(before.images).sort(), ids.sort());

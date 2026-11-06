@@ -1,7 +1,8 @@
 const fs = require('node:fs');
 const batch = require('../../docs/approved-nine-2026-11-05.json');
 const later = require('../../docs/approved-three-2026-11-06.json');
-const previousImages = {...batch.images, ...later.images};
+const latest = require('../../docs/approved-twelve-2026-11-06.json');
+const previousImages = {...batch.images, ...later.images, ...latest.images};
 const current = require('../../dinosaurs.json');
 const historicalDatabase = structuredClone(current);
 for (const a of historicalDatabase.dinosaurs) {

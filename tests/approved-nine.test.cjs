@@ -13,7 +13,7 @@ assert.equal(sha(readHistoricalFile('dinosaurs.json')), batch.beforeDatabaseSha2
 for (const a of db.dinosaurs) {
   const accepted = batch.images[a.id];
   const bytes = fs.readFileSync(a.image.src);
-  assert.equal(sha(bytes), require('../docs/approved-three-2026-11-06.json').images[a.id]?.sha256 || accepted?.sha256 || batch.allActiveImageSha256[a.id], a.id);
+  assert.equal(sha(bytes), require('../docs/approved-twelve-2026-11-06.json').images[a.id]?.sha256 || require('../docs/approved-three-2026-11-06.json').images[a.id]?.sha256 || accepted?.sha256 || batch.allActiveImageSha256[a.id], a.id);
   if (!accepted) continue;
   assert.equal(accepted.approved, true);
   assert.deepEqual(a.image, {...accepted.previousImageMetadata, facing: accepted.facing});

@@ -5809,7 +5809,7 @@
         "note": {
           "cs": "Pracovní AI rekonstrukce A. fragilis. Barvy, měkké tkáně a podoba zavřených úst jsou ilustrativní; drobné výběžky hlavy nejsou býčí rohy."
         },
-        "facing": "right"
+        "facing": "left"
       },
       "facts": [
         {
@@ -6472,7 +6472,7 @@
         "note": {
           "cs": "Pracovní AI rekonstrukce C. sastrei. Šupinatý pokryv je doložen, ale zbarvení a přesná měkká podoba rohů jsou ilustrativní. Ocas a části nohou jsou doplněné podle příbuzných."
         },
-        "facing": "right"
+        "facing": "left"
       },
       "facts": [
         {
@@ -7449,7 +7449,7 @@
         "note": {
           "cs": "Pracovní AI rekonstrukce P. antiquus. Zuby a krátký ocas patří k doložené anatomii; barvy, měkké tkáně a hustotu tělního pokryvu rekonstruujeme."
         },
-        "facing": "right"
+        "facing": "left"
       },
       "facts": [
         {
@@ -30713,11 +30713,9 @@
         "status": "working-reconstruction",
         "facing": "left",
         "note": {
-          "cs": "Obraz: Prehistorica CM; licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); originál: https://commons.wikimedia.org/wiki/File:Pulmonoscorpius_kirktonensis.jpg. Úpravy: dřívější změna rozlišení a převod do WebP; odstranění přidaných světlých okrajů a následná změna rozměrů na 1152 × 768 (poměr 3:2, mírné vodorovné roztažení). Bez AI překreslení nebo doplnění pozadí. Jde o ilustraci nebo muzejní model, nikoli živého živočicha; zbarvení a některé anatomické znaky nejsou fosilně doložené."
+          "cs": "Nová původní AI rekonstrukce vytvořená pro Dino Atlas (2026). Zbarvení, měkké tkáně a detaily prostředí jsou hypotetické. Původní licencovaný obraz a jeho autorské údaje zůstávají zachované v historii projektu."
         },
-        "sourceIds": [
-          "carbon-art-pulmonoscorpius-kirktonensis"
-        ]
+        "sourceIds": []
       },
       "facts": [
         {

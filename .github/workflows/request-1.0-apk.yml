@@ -1,5 +1,5 @@
 name: Request signed Dino Atlas 1.0.0 phone-test APK
-# Build 1000011: final small-screen label fit after mobile screenshot review.
+# Build 1000012: 12 approved illustrations, single rounded search focus and direct back arrow.
 
 on:
   push:
@@ -25,12 +25,12 @@ jobs:
           from pathlib import Path
           p=json.loads(Path('project.json').read_text())
           d=json.loads(Path('dinosaurs.json').read_text())
-          assert (p['version'],p['versionCode'])==('1.0.0',1000011)
+          assert (p['version'],p['versionCode'])==('1.0.0',1000012)
           assert len(d['dinosaurs'])==112
           assert sum(x['period']=='permian' for x in d['dinosaurs'])==8
           for a in d['dinosaurs']:
               assert (Path('images') / (a['id']+'.webp')).is_file()
-          print('Verified 1.0.0 build 1000011 with 112 local images.')
+          print('Verified 1.0.0 build 1000012 with 112 local images.')
           PY
       - name: Request existing official workflow in signed dispatch mode
         env:

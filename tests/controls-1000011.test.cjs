@@ -31,7 +31,17 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   assert.equal(await page.locator('#favorites-count').textContent(),'1');
   assert.ok(await page.locator('.era-filters button').evaluateAll(buttons=>buttons.every(button=>button.scrollWidth<=button.clientWidth)), 'Era labels fit inside their buttons');
   const time=await page.locator('#period-filters').boundingBox(),groups=await page.locator('#category-filters').boundingBox();assert.ok(time.y+time.height<=groups.y);
+  const idleBorder=await page.locator('.search-input-wrap').evaluate(el=>getComputedStyle(el).borderColor);
   await page.locator('#search').fill('tyran');
+  assert.equal(await page.locator('#search').evaluate(el=>getComputedStyle(el).outlineStyle),'none');
+  await page.waitForFunction(idle=>getComputedStyle(document.querySelector('.search-input-wrap')).borderColor!==idle,idleBorder);
+  const focused=await page.locator('.search-input-wrap').evaluate(el=>({border:getComputedStyle(el).borderColor,shadow:getComputedStyle(el).boxShadow,radius:getComputedStyle(el).borderRadius}));
+  assert.notEqual(focused.border,idleBorder);
+  assert.equal(focused.shadow,'none'); assert.equal(focused.radius,'16px');
+  const focusDir=process.env.DINO_QA_DIR||path.join(root,'.qa');await fs.mkdir(focusDir,{recursive:true});
+  await page.screenshot({path:path.join(focusDir,`search-focus-${width}-${theme}.png`)});
+  assert.equal(await page.locator('#detail-atlas svg rect').count(),0);
+  assert.equal(await page.locator('#detail-atlas svg path').getAttribute('d'),'M20 12H4m7-7-7 7 7 7');
   const cross=await page.locator('#clear-search').boundingBox();assert.ok(cross.width>=48&&cross.height>=48);
   await page.locator('#clear-search').tap();
   assert.equal(await page.locator('.dino-card').count(),112);

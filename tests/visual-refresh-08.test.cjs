@@ -6,7 +6,7 @@ const root = path.resolve(__dirname,'..');
 const { historicalDatabase: db, readHistoricalFile } = require('./helpers/approved-nine.cjs');
 const before = require('../docs/backups/visual-refresh-08/manifest.json');
 const after = require('../docs/visual-refresh-08.json');
-const next = {...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images};
+const next = {...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images};
 const sha = b => crypto.createHash('sha256').update(b).digest('hex');
 const fileSha = p => sha(readHistoricalFile(path.join(root,p)));
 const canon = v => Array.isArray(v) ? v.map(canon) : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map(k=>[k,canon(v[k])])) : v;
