@@ -29,6 +29,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   assert.equal(await page.locator('#favorites-filter').getAttribute('aria-pressed'),'false');
   assert.equal(await page.evaluate(()=>localStorage.getItem('dinoatlas-category')),'all');
   assert.equal(await page.locator('#favorites-count').textContent(),'1');
+  assert.ok(await page.locator('.era-filters button').evaluateAll(buttons=>buttons.every(button=>button.scrollWidth<=button.clientWidth)), 'Era labels fit inside their buttons');
   const time=await page.locator('#period-filters').boundingBox(),groups=await page.locator('#category-filters').boundingBox();assert.ok(time.y+time.height<=groups.y);
   await page.locator('#search').fill('tyran');
   const cross=await page.locator('#clear-search').boundingBox();assert.ok(cross.width>=48&&cross.height>=48);

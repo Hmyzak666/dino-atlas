@@ -1,5 +1,5 @@
 name: Request signed Dino Atlas 1.0.0 phone-test APK
-# Re-run after full 112-species content validation, release metadata and test allowlist.
+# Build 1000011: final small-screen label fit after mobile screenshot review.
 
 on:
   push:
