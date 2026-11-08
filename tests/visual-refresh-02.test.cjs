@@ -3,13 +3,13 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
-const db = require('../dinosaurs.json');
+const db = require('./helpers/before-thirty.cjs').database;
 const before = require('../docs/backups/visual-refresh-02/manifest.json');
 const accepted = require('../docs/visual-refresh-02.json');
 const nextBatch = require('../docs/visual-refresh-03.json');
 const ordovicianBatch = require('../docs/visual-refresh-04.json');
 const carbonBatch = require('../docs/visual-refresh-05.json');
-const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images};
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images, ...require('../docs/approved-thirty-2026-11-08.json').images};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.equal(db.dinosaurs.length, 112);
 assert.deepEqual(db.dinosaurs.map(a => a.id).sort(), Object.keys(before.allActiveImageSha256).sort());
@@ -19,7 +19,7 @@ for (const [id, old] of Object.entries(before.images)) {
   assert.equal(sha(path.join(root, 'docs/backups/visual-refresh-02/images', id + '.webp')), old.sha256);
 }
 for (const animal of db.dinosaurs) {
-  assert.equal(sha(path.join(root, animal.image.src)), accepted[animal.id]?.sha256 || nextBatch[animal.id]?.sha256 || ordovicianBatch[animal.id]?.sha256 || carbonBatch[animal.id]?.sha256 || crops[animal.id]?.sha256 || before.allActiveImageSha256[animal.id], animal.id);
+  assert.equal(sha(path.join(root, animal.image.src)), require('./helpers/before-thirty.cjs').images[animal.id]?.sha256 || accepted[animal.id]?.sha256 || nextBatch[animal.id]?.sha256 || ordovicianBatch[animal.id]?.sha256 || carbonBatch[animal.id]?.sha256 || crops[animal.id]?.sha256 || before.allActiveImageSha256[animal.id], animal.id);
   if (accepted[animal.id]) {
     assert.equal(animal.image.status, 'working-reconstruction');
     assert.ok(!animal.image.sourceIds?.length);

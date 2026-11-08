@@ -1,0 +1,1477 @@
+{
+  "baseCommit": "bf62a3bc7e2c05a5699fc7c4cd2fca4879237a75",
+  "beforeDatabaseSha256": "24e26335404992b27fb718aa3e83c068778f84e9e5db60322b5901cfc5a276d0",
+  "images": {
+    "acanthostega-gunnari": {
+      "id": "acanthostega-gunnari",
+      "source": "exec-f65288aa-f2b7-4b1a-bb28-58e8a487510f.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "99ee72b81c16ba9e067eb88f8f983d084ef3dac1dc4fb180736d87a202dcc934",
+      "previousSha256": "8ed8e2d591b99732e5ba1068ffcfd9afdd8c5b772f240ad88b8577cef35b7dc0",
+      "approved": true
+    },
+    "acutiramus-bohemicus": {
+      "id": "acutiramus-bohemicus",
+      "source": "acutiramus-bohemicus.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "d1afc71b4552240418d98921ec94c383a969a1727c7ee1ce0711b81247d38890",
+      "previousSha256": "e3d08b0ac7faaff4d406042944d4e67b1193885dc4a0a87b1c5988ccf35b3aaf",
+      "approved": true
+    },
+    "aegirocassis-benmoulai": {
+      "id": "aegirocassis-benmoulai",
+      "source": "aegirocassis-benmoulai.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "ca8bccbc15014350f883517f7672e2c96d9de9bab69f5cd24eb168aa34d0da8b",
+      "previousSha256": "7e9d965fbf051fd8bd8083dc5ceec5cbd2adf6f4719f0ce7cd2f192e314bddcf",
+      "approved": true
+    },
+    "allosaurus-fragilis": {
+      "id": "allosaurus-fragilis",
+      "source": "allosaurus-fragilis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "ed2c5dba663cb2b1366f00b7a2a795e4765105fe6c50d2e6e088f96d092f0598",
+      "previousSha256": "ed2c5dba663cb2b1366f00b7a2a795e4765105fe6c50d2e6e088f96d092f0598",
+      "approved": true
+    },
+    "ankylosaurus-magniventris": {
+      "id": "ankylosaurus-magniventris",
+      "source": "exec-ec1ad42e-0f2e-4f5f-ad3e-63e3dd99a9fc.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "28e5f94020b6beac4c4bd18b5e8f07951046b5fc52ffc4924be29cd30b42b7cc",
+      "previousSha256": "a25bb08edb149cb461c32c34796cad021a4cbf7dc7e292f436c2c3bcc565993f",
+      "approved": true
+    },
+    "anomalocaris-canadensis": {
+      "id": "anomalocaris-canadensis",
+      "source": "anomalocaris-canadensis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "78affcc5f50d1f12c027777b935185a1fcb044ebed97c7c1a6352388fa298b23",
+      "previousSha256": "b541105aa9fa73bdd508a93da80a1165be57ddad4f0de57ba977358a7605e257",
+      "approved": true
+    },
+    "anurognathus-ammoni": {
+      "id": "anurognathus-ammoni",
+      "source": "exec-16657cbb-f9cb-4509-a1f9-4e0fe7bbffa2.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "af9928d7fc8aea5cca71bfd35d8414a75d6bd6cde9adb8fe37fafaf8a789b938",
+      "previousSha256": "b31a577ba4f7b5f0c15ca523dab43ec0273234e314f580829936f3c530a89f4b",
+      "approved": true
+    },
+    "apatosaurus-louisae": {
+      "id": "apatosaurus-louisae",
+      "source": "apatosaurus-louisae.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "07e960e4f5dad67a2c0d65ceb36b45afe5a4f75b7a44547a6ac8b1e61783e0e3",
+      "previousSha256": "07e960e4f5dad67a2c0d65ceb36b45afe5a4f75b7a44547a6ac8b1e61783e0e3",
+      "approved": true
+    },
+    "arandaspis-prionotolepis": {
+      "id": "arandaspis-prionotolepis",
+      "source": "arandaspis-prionotolepis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "1a352b62fd7ddde23f4619217f5f235705b6db823031c1d844ea9b649cf92cee",
+      "previousSha256": "85b2c24fb1daecb17391662e8df670ed7afbbc73480c66dc2b949d11472ce51e",
+      "approved": true
+    },
+    "archaeopteryx-lithographica": {
+      "id": "archaeopteryx-lithographica",
+      "source": "exec-dbc30793-bd52-4c64-8e7b-4f11e875335d.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "5719c7f0379f6bfe995d1ca818b74aee5984147071971e4a5379a11adebfcec3",
+      "previousSha256": "c6d2d64c9d1dad2e6f7cd24d3491d40ee2041f1b79c6dc04bda5d95192c421de",
+      "approved": true
+    },
+    "argentinosaurus-huinculensis": {
+      "id": "argentinosaurus-huinculensis",
+      "source": "argentinosaurus-huinculensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "4cda5b0bf2b9454bd693fb622ccbd0a66715ee1bdfb8aee396ed3fb405a764ee",
+      "previousSha256": "4cda5b0bf2b9454bd693fb622ccbd0a66715ee1bdfb8aee396ed3fb405a764ee",
+      "approved": true
+    },
+    "arthropleura-armata": {
+      "id": "arthropleura-armata",
+      "source": "exec-53992ef4-4e4c-488e-9607-9334ae74674d.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "2e50cb550ce9a72660f03cd8f3dafd7fe66b057ce59fd72acc37002aff00f8b2",
+      "previousSha256": "39fab4ef04885a6682ab7e1400c8e10545a10231b23a293d98dc5b4576b91ab5",
+      "approved": true
+    },
+    "asaphus-kowalewskii": {
+      "id": "asaphus-kowalewskii",
+      "source": "asaphus-kowalewskii.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "731f5af3450becf1cc27065c5707ed9e7c694ab37b5893dc1271dc512b81c019",
+      "previousSha256": "883d601c6b32b091ae2d4ca604609bdd1e0bcd321b1755c75f6e1a1127225424",
+      "approved": true
+    },
+    "austrolimulus-fletcheri": {
+      "id": "austrolimulus-fletcheri",
+      "source": "austrolimulus-fletcheri.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "b3a9d136a881d5169d0aca9746ffc42b217024130b9465c10b9018e2b9888bdd",
+      "previousSha256": "b3a9d136a881d5169d0aca9746ffc42b217024130b9465c10b9018e2b9888bdd",
+      "approved": true
+    },
+    "birkenia-elegans": {
+      "id": "birkenia-elegans",
+      "source": "birkenia-elegans.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "56850b9d6f37391eaa8190d33dfcc8ce6ade6a8fa40ed30ff9182100c75d5d79",
+      "previousSha256": "30a92a65e378a082c317a6f0927765881497f31264d3f15e6a3a076b551cbb5a",
+      "approved": true
+    },
+    "bothriolepis-canadensis": {
+      "id": "bothriolepis-canadensis",
+      "source": "exec-4b99fa5e-c9d1-4f13-a72f-8a74488d03af.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "d7020320b734e5967c1e5eadae3cd009077684056e8143d9d69f1b49ad7ee0bb",
+      "previousSha256": "0fc5b280f2c123fc730fb81fa4d76a0852c37e13f780ed3134adfa6bdfe1178e",
+      "approved": true
+    },
+    "brachiosaurus-altithorax": {
+      "id": "brachiosaurus-altithorax",
+      "source": "brachiosaurus-altithorax.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "827b0693c4d32df29d5c41c8ed17b10c0e68704de6cb41cc202bf1bfe7aef60a",
+      "previousSha256": "827b0693c4d32df29d5c41c8ed17b10c0e68704de6cb41cc202bf1bfe7aef60a",
+      "approved": true
+    },
+    "brontosaurus-excelsus": {
+      "id": "brontosaurus-excelsus",
+      "source": "exec-a9b1ebea-c5b8-4648-8ae1-6975f48bd44f.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "2a9f2e786f8685822f2b244fca1e9b0e928f10f45bedba9430bf15c78a07e703",
+      "previousSha256": "ec1d6c9bf369fbc5857719aaedf32aaffc5e457a073c5b27d0ebbccd7d6607b6",
+      "approved": true
+    },
+    "camarasaurus-lentus": {
+      "id": "camarasaurus-lentus",
+      "source": "camarasaurus-lentus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "eb980889354da30d2116ce45abdd26a9553f14b6866d930e19f0bd7c96a22aef",
+      "previousSha256": "eb980889354da30d2116ce45abdd26a9553f14b6866d930e19f0bd7c96a22aef",
+      "approved": true
+    },
+    "camptosaurus-dispar": {
+      "id": "camptosaurus-dispar",
+      "source": "camptosaurus-dispar.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "abc0531ca691af59e43b56b000419ef3006d95a918fb0380a9a76c183f5b1d0f",
+      "previousSha256": "abc0531ca691af59e43b56b000419ef3006d95a918fb0380a9a76c183f5b1d0f",
+      "approved": true
+    },
+    "carnotaurus-sastrei": {
+      "id": "carnotaurus-sastrei",
+      "source": "carnotaurus-sastrei.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "d97e00a84bbcd82e24b7d32eb9904544917aa27f6b9a745656dc2d9ce893695e",
+      "previousSha256": "d97e00a84bbcd82e24b7d32eb9904544917aa27f6b9a745656dc2d9ce893695e",
+      "approved": true
+    },
+    "ceratosaurus-nasicornis": {
+      "id": "ceratosaurus-nasicornis",
+      "source": "ceratosaurus-nasicornis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "d89e5e7a13e62f05d3b561d00ed565d618a40e978065e6f98083419dc3e9c52a",
+      "previousSha256": "d89e5e7a13e62f05d3b561d00ed565d618a40e978065e6f98083419dc3e9c52a",
+      "approved": true
+    },
+    "chimerarachne-yingi": {
+      "id": "chimerarachne-yingi",
+      "source": "chimerarachne-yingi.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "dee801820e2e9d319a4e2f4cf7fc8359eac6ca61f04dc3660ba4980b99933d1e",
+      "previousSha256": "dee801820e2e9d319a4e2f4cf7fc8359eac6ca61f04dc3660ba4980b99933d1e",
+      "approved": true
+    },
+    "chindesaurus-bryansmalli": {
+      "id": "chindesaurus-bryansmalli",
+      "source": "exec-dde654ef-d1e7-4d81-a311-c516b11e4441.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "65897e3f4d83c6c9b2c7f5e6a6035336a36ecc341df7b9635eefdc0645d117eb",
+      "previousSha256": "58276d739077f1c7b4b26b71f18ec4d25624709c069afef5cac3902b2a28dc03",
+      "approved": true
+    },
+    "cladoselache-fyleri": {
+      "id": "cladoselache-fyleri",
+      "source": "exec-8ef8af49-9683-419b-887f-f13ff20a10bd.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "1240b44fe3907e43c0b8754f7d9ef339b4a5631c9b6b4f5dfe84d34f289064f6",
+      "previousSha256": "d54e1b3a24b5aac6348d63525bcd4a8941913805c4a23f318a8c68028eda4a2c",
+      "approved": true
+    },
+    "coelophysis-bauri": {
+      "id": "coelophysis-bauri",
+      "source": "exec-c3499347-ac5f-4068-ad84-3fe2b4145e86.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "f36c0b76621b174aeb92b3ca6f8f934f65b824b581b393a07bb0b4740158c8af",
+      "previousSha256": "bcfd4198eb0312beda216eb54419f9591216b8105134409bbd0c4434f0b58bb0",
+      "approved": true
+    },
+    "crassigyrinus-scoticus": {
+      "id": "crassigyrinus-scoticus",
+      "source": "crassigyrinus-scoticus.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "05babc5f1e219f11aa234fd4c332f1c3da245e272ebbea4b15294d148c26d1d6",
+      "previousSha256": "ad21013b46e0517d2299ca8b0d5eae03d3fc9833bbe6102b35c138dc1879b47f",
+      "approved": true
+    },
+    "cymatophlebia-longialata": {
+      "id": "cymatophlebia-longialata",
+      "source": "cymatophlebia-longialata.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "cc4c5ca06a0c7365500c6277f7fec756bfce98e05ca61eb421129526ead6bc53",
+      "previousSha256": "cc4c5ca06a0c7365500c6277f7fec756bfce98e05ca61eb421129526ead6bc53",
+      "approved": true
+    },
+    "deinocheirus-mirificus": {
+      "id": "deinocheirus-mirificus",
+      "source": "deinocheirus-mirificus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "86b9dbb8918c513a0abf5b6cdb0290f70c94df2a4ece50e0bc0a3ff00862f5c2",
+      "previousSha256": "86b9dbb8918c513a0abf5b6cdb0290f70c94df2a4ece50e0bc0a3ff00862f5c2",
+      "approved": true
+    },
+    "deinonychus-antirrhopus": {
+      "id": "deinonychus-antirrhopus",
+      "source": "deinonychus-antirrhopus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "d58a8be46666e8a8ec97e77bfee7d1724947484ff2c6a257732bc105234bf19e",
+      "previousSha256": "d58a8be46666e8a8ec97e77bfee7d1724947484ff2c6a257732bc105234bf19e",
+      "approved": true
+    },
+    "dilophosaurus-wetherilli": {
+      "id": "dilophosaurus-wetherilli",
+      "source": "dilophosaurus-wetherilli.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "dd65f3d5e4041432e9f120e8341540b4f5069ab1c79e54bf05ed90a0e6fe435d",
+      "previousSha256": "dd65f3d5e4041432e9f120e8341540b4f5069ab1c79e54bf05ed90a0e6fe435d",
+      "approved": true
+    },
+    "dimetrodon-grandis": {
+      "id": "dimetrodon-grandis",
+      "source": "exec-26df6586-8f3d-47cf-b80e-532b7053fed6.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "a5d94cd47fab6f918f44107565aea0291874b4ca9fcb63ef63bde2c78db16778",
+      "previousSha256": "9d45a292e908b1da852284a6c065fd41b218f919c7b967be998f663a338f7824",
+      "approved": true
+    },
+    "dimorphodon-macronyx": {
+      "id": "dimorphodon-macronyx",
+      "source": "exec-b0131c15-a59b-40ce-93cd-f33f0fb76f22.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "955f1bd94f93849f3a48ef6b2ee36b6e768d01cc5f9413e1866e99a6c147503c",
+      "previousSha256": "edcd08115c0856464d926a0d32560b1b311f842a5699b7ec7f6fb56e13ac80f9",
+      "approved": true
+    },
+    "diplocaulus-magnicornis": {
+      "id": "diplocaulus-magnicornis",
+      "source": "diplocaulus-magnicornis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "d09935aaa55deb1a10248b515bc7434f389af3ce07e426aaa7f3a0f1cf434214",
+      "previousSha256": "236bb944a8379e99fbd0d68b9de44d38e58c37bb06e907fe12af785a44729ca5",
+      "approved": true
+    },
+    "diplodocus-carnegii": {
+      "id": "diplodocus-carnegii",
+      "source": "exec-688b06cb-187d-4d38-aad6-a59f9c82bdb8.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "38f5d88616bc3014a5d43dcbcafea641ffabca436eaead87af3383907c8a2c5e",
+      "previousSha256": "1142f58b92e38f313b526edf82742590edb2fc2f9fd2add550e308ec26e496ab",
+      "approved": true
+    },
+    "dunkleosteus-terrelli": {
+      "id": "dunkleosteus-terrelli",
+      "source": "dunkleosteus-terrelli.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "8225e6ab88ca23e84f4044e1087059b15b80d9dd42637334d4d81a2fef951878",
+      "previousSha256": "9697a5b6eaff1e73777de35cff9bb1745f24c31357b0c24a8f6d57e6d2dae786",
+      "approved": true
+    },
+    "edaphosaurus-pogonias": {
+      "id": "edaphosaurus-pogonias",
+      "source": "edaphosaurus-pogonias.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "45ff0fb3fb9c38b8fb03b87e00e8c11cb50598809ba126542c8d3a6d48984381",
+      "previousSha256": "45ff0fb3fb9c38b8fb03b87e00e8c11cb50598809ba126542c8d3a6d48984381",
+      "approved": true
+    },
+    "edestus-heinrichi": {
+      "id": "edestus-heinrichi",
+      "source": "exec-608af731-33f8-455e-8827-5ca678cd0367.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "67fa2de95e61bceba53c9222129c1a5fcd4d8998cd7a0085cf336c9caf1529ad",
+      "previousSha256": "1fe63d15679667afef47befa95a9ce1e9b342dcff1a7c8720e07e1041277a718",
+      "approved": true
+    },
+    "edmontosaurus-annectens": {
+      "id": "edmontosaurus-annectens",
+      "source": "edmontosaurus-annectens.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "afe3de254db546dffc074dbd4504007732ddf48395ff92c8dc728f8fff190bae",
+      "previousSha256": "afe3de254db546dffc074dbd4504007732ddf48395ff92c8dc728f8fff190bae",
+      "approved": true
+    },
+    "endoceras-proteiforme": {
+      "id": "endoceras-proteiforme",
+      "source": "endoceras-proteiforme.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "48e76c755f352a698ac09a91853341945cbe347be065d323554ce29f9b42c289",
+      "previousSha256": "2674a2f33ce2d81b28322a914e057e459a46ab104f4a2d58999ea140a9c12dcf",
+      "approved": true
+    },
+    "entelognathus-primordialis": {
+      "id": "entelognathus-primordialis",
+      "source": "entelognathus-primordialis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "4299eef127dbc383075d34a3d8171e2d44d1c7f61c2c0bc45e7ff9d72c2796d0",
+      "previousSha256": "1e88cefd5fd4d4ec5956d3b7089b01ca2cc6fcc56e31e783ab1d50ba18210f49",
+      "approved": true
+    },
+    "eodromaeus-murphi": {
+      "id": "eodromaeus-murphi",
+      "source": "exec-25374d20-8250-4d9c-9668-2118a419313c.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "2def2640e2fc9c4d43a1ba9a47a8b9c4984833408153e32a274517e8b5ad4e06",
+      "previousSha256": "6d2e8f5da78e0f669720f866464998aeb7b7462bf4145543a671e396c319373e",
+      "approved": true
+    },
+    "eoraptor-lunensis": {
+      "id": "eoraptor-lunensis",
+      "source": "eoraptor-lunensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "3c70c59f56a463c793bd7d953208ce9c3159345bacb489d7e364a1732b15d92f",
+      "previousSha256": "3c70c59f56a463c793bd7d953208ce9c3159345bacb489d7e364a1732b15d92f",
+      "approved": true
+    },
+    "estemmenosuchus-uralensis": {
+      "id": "estemmenosuchus-uralensis",
+      "source": "estemmenosuchus-uralensis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "048083433b59a22112b41e410113806b7b60e9a6956546870d20b7c91f409be9",
+      "previousSha256": "89318c898b2b72f9c3d297fe523ffff4b7cca9620b6c4024cdd0b9771ba083e8",
+      "approved": true
+    },
+    "eudimorphodon-ranzii": {
+      "id": "eudimorphodon-ranzii",
+      "source": "eudimorphodon-ranzii.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "8479f43baf100c58731bc4fe957af0d0901afa2e2ecc3e8a58d148a10d34bd31",
+      "previousSha256": "8479f43baf100c58731bc4fe957af0d0901afa2e2ecc3e8a58d148a10d34bd31",
+      "approved": true
+    },
+    "eurypterus-remipes": {
+      "id": "eurypterus-remipes",
+      "source": "exec-64c55de7-086f-4f7a-8522-eada15036314.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "5ee4143ac69b68946f4d337010a974ccc1bdc652a1fc91317eb7c411a7c8d4b3",
+      "previousSha256": "61622939bcb325ba71b895fa00879a295f1216a0573d53e4406d12191634be71",
+      "approved": true
+    },
+    "eusthenopteron-foordi": {
+      "id": "eusthenopteron-foordi",
+      "source": "exec-4ae4d187-fec8-4698-ae11-4a52470d3f85.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "9b8f13f00ed8e9b6608351419f2c1136fc0104d7aefbe5c570fff7231b115ee4",
+      "previousSha256": "2d53577c9296caabea73eb9c4319b6c99ab424d95edd8013a9e79eeaebe77a9b",
+      "approved": true
+    },
+    "gigatitan-vulgaris": {
+      "id": "gigatitan-vulgaris",
+      "source": "exec-3e30996c-0153-4bb9-b766-6b50cd7896d7.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "f0ad0a164d0af22e54b8fe545bdee56eb2ba21a432d57c7100fa3e01f46b100c",
+      "previousSha256": "e8f85d7ed95ca4839a76cac3a27f4ccdcd5e9473efcbf642c5089e53c3934895",
+      "approved": true
+    },
+    "greererpeton-burkemorani": {
+      "id": "greererpeton-burkemorani",
+      "source": "greererpeton-burkemorani.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "fcc67abec4fc4726e85c7bcb2160b7e244255577382df5379365107c47418435",
+      "previousSha256": "ed637d18cacd947f8edff45360658b6740d9e6b4db77eb7bfc972d71da4b8e19",
+      "approved": true
+    },
+    "hallucigenia-sparsa": {
+      "id": "hallucigenia-sparsa",
+      "source": "hallucigenia-sparsa.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "c198b3650e6ef4c452670ebf0904f718b8db5c0f7c81fe4c792a7b57314ebb8c",
+      "previousSha256": "d8a0a8519633ad8793b1f542d489dc393778388541426c021a91f4e242646789",
+      "approved": true
+    },
+    "helicoprion-bessonowi": {
+      "id": "helicoprion-bessonowi",
+      "source": "helicoprion-bessonowi.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "a66acb3c50fa529beafcb4a64c3095a9045d477b0bdab257e3dccfc9d9623907",
+      "previousSha256": "a775d12a24769f0d2788e53151721de03dac1013e08dfc245480bee1e3513124",
+      "approved": true
+    },
+    "herrerasaurus-ischigualastensis": {
+      "id": "herrerasaurus-ischigualastensis",
+      "source": "herrerasaurus-ischigualastensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "edbf18de34e5ad0326d36a740af7521c2597ccd5628a71df748b9eb9fbf1c317",
+      "previousSha256": "edbf18de34e5ad0326d36a740af7521c2597ccd5628a71df748b9eb9fbf1c317",
+      "approved": true
+    },
+    "hylonomus-lyelli": {
+      "id": "hylonomus-lyelli",
+      "source": "hylonomus-lyelli.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "185975cca6a0505d3128fe0c45cda3bc8f560117ce4f60f0721cb0aa09da36e9",
+      "previousSha256": "1351876bda29b79e524d29f79afdd8f620f633995dbbd2ba1955d3f507135b63",
+      "approved": true
+    },
+    "ichthyosaurus-communis": {
+      "id": "ichthyosaurus-communis",
+      "source": "ichthyosaurus-communis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "23e3095a532d56dc9ab7ef5bd12bd2045bf2c59a90f961cfb22316fb07ccfb84",
+      "previousSha256": "23e3095a532d56dc9ab7ef5bd12bd2045bf2c59a90f961cfb22316fb07ccfb84",
+      "approved": true
+    },
+    "ichthyostega-stensioei": {
+      "id": "ichthyostega-stensioei",
+      "source": "ichthyostega-stensioei.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "4036468e6b0d7c7b149ed456e75473db3cfe8058a5cdaeaf10945e6f1fbb3593",
+      "previousSha256": "4036468e6b0d7c7b149ed456e75473db3cfe8058a5cdaeaf10945e6f1fbb3593",
+      "approved": true
+    },
+    "iguanodon-bernissartensis": {
+      "id": "iguanodon-bernissartensis",
+      "source": "iguanodon-bernissartensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "454fe256831b653a90814add2b46838b5802272ad8e00e1c0413a0169a10b5f4",
+      "previousSha256": "454fe256831b653a90814add2b46838b5802272ad8e00e1c0413a0169a10b5f4",
+      "approved": true
+    },
+    "inostrancevia-alexandri": {
+      "id": "inostrancevia-alexandri",
+      "source": "inostrancevia-alexandri.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "778c3ff184ba33b917e325b4fc28ff2f60090af2fabe94d264a4c63ce287ce44",
+      "previousSha256": "6801ac485f4e1537d4885182f1c46fd47c0e4fb19f16e9d854f032f69a58a1ff",
+      "approved": true
+    },
+    "isotelus-rex": {
+      "id": "isotelus-rex",
+      "source": "exec-4a99889a-f543-4213-ab9f-f7dbcc6a878d.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "84e0bb4bc2a12cd420c009b6135357da88e195a9df82b345a12ea78ee33cfd89",
+      "previousSha256": "f1eb8baec5ac2df3bfecb69f2ee9074520ae62be434dde69b275d6084adc98ef",
+      "approved": true
+    },
+    "jaekelopterus-rhenaniae": {
+      "id": "jaekelopterus-rhenaniae",
+      "source": "exec-3a43d4b5-0623-4ebf-9249-00f5d493a88d.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "17fac3ce9337caf8168da6b4cd9b4ee958021f713d9bbdfa90f5adf0a4466ea6",
+      "previousSha256": "fd5afff0dc88f0b6775509ce9fa8461bcaf95ba2177eafb695c748068af30b5e",
+      "approved": true
+    },
+    "kentrosaurus-aethiopicus": {
+      "id": "kentrosaurus-aethiopicus",
+      "source": "kentrosaurus-aethiopicus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "bff675f8e1aa0a2f52c06646ef043853b174ebe901d6840ee3facd8997e1b441",
+      "previousSha256": "bff675f8e1aa0a2f52c06646ef043853b174ebe901d6840ee3facd8997e1b441",
+      "approved": true
+    },
+    "liliensternus-liliensterni": {
+      "id": "liliensternus-liliensterni",
+      "source": "liliensternus-liliensterni.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "6740932c8ae122a299ecc9321f5da27981e66a1e49f5715efe5c982c39b109b8",
+      "previousSha256": "6740932c8ae122a299ecc9321f5da27981e66a1e49f5715efe5c982c39b109b8",
+      "approved": true
+    },
+    "liopleurodon-ferox": {
+      "id": "liopleurodon-ferox",
+      "source": "liopleurodon-ferox.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "803f52bf716de0ab10f01e8c131b48d70371ae354722c6ef35bd9ea51fce9c1d",
+      "previousSha256": "803f52bf716de0ab10f01e8c131b48d70371ae354722c6ef35bd9ea51fce9c1d",
+      "approved": true
+    },
+    "mamenchisaurus-hochuanensis": {
+      "id": "mamenchisaurus-hochuanensis",
+      "source": "exec-747ec188-b654-4b08-b93f-1e063842d158.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "e9593f08ba67a2c2a65365b69fc7d8e75a1b691091e17806c07fd0fbe9d1e4c1",
+      "previousSha256": "151b62da6f4faf71c40cb83b07a54ee770c32ae4c0911e0a55317faa3e62b652",
+      "approved": true
+    },
+    "marrella-splendens": {
+      "id": "marrella-splendens",
+      "source": "exec-44041a76-7e76-4918-b06d-9238566f86f4.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "5873687cadf8a1c06f757f8e9442110d3d4ef44b84dd78dbc1aae70df7dd79ea",
+      "previousSha256": "2a56c69487faa8fce78c9b29129bf3acc7f60edf1a7e08b61792e2e81db153f2",
+      "approved": true
+    },
+    "mecochirus-longimanatus": {
+      "id": "mecochirus-longimanatus",
+      "source": "mecochirus-longimanatus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "1a4219083493f4b2be1a8935b08dafc69ebf06ab7cf623b0981673b109d8e47a",
+      "previousSha256": "1a4219083493f4b2be1a8935b08dafc69ebf06ab7cf623b0981673b109d8e47a",
+      "approved": true
+    },
+    "megalosaurus-bucklandii": {
+      "id": "megalosaurus-bucklandii",
+      "source": "exec-d67cc16f-ec3b-44b6-8e6e-9450b3a09bdb.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "c574666bd06399c8ee938c76ace4c38d956137765087477709868641d7af9a92",
+      "previousSha256": "147f2137cb111a5d005a3cd9aebacf4688a7b538bd1d70746ea79a9be0726382",
+      "approved": true
+    },
+    "meganeura-monyi": {
+      "id": "meganeura-monyi",
+      "source": "meganeura-monyi.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "74bea144f7c9e037909579d42e82244c7a83b0e6a0ad2536717fea83c5962abd",
+      "previousSha256": "368443c13f98acd332e3ea6fa1449d6e5ef9229ef7916a27839ce90ae2b66ebe",
+      "approved": true
+    },
+    "mesosaurus-tenuidens": {
+      "id": "mesosaurus-tenuidens",
+      "source": "mesosaurus-tenuidens.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "6b901489891b31c1d39018db9f0f3929a81ac189fa834242a27f6f079a36e5d1",
+      "previousSha256": "ff4ab64df608db20821810eb8fdc03eb4459f461d2b4be1183b2d80282999c3b",
+      "approved": true
+    },
+    "microraptor-gui": {
+      "id": "microraptor-gui",
+      "source": "microraptor-gui.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "cf16c1a75d332fc6747aef5b30a5726adbb688d3811f3029b4600ef4011ab058",
+      "previousSha256": "cf16c1a75d332fc6747aef5b30a5726adbb688d3811f3029b4600ef4011ab058",
+      "approved": true
+    },
+    "mosasaurus-hoffmanni": {
+      "id": "mosasaurus-hoffmanni",
+      "source": "mosasaurus-hoffmanni.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "ee0b309feddf9511680fa937ae6cd196d8a6f58b00b5973248d66b6cb8e34a1a",
+      "previousSha256": "ee0b309feddf9511680fa937ae6cd196d8a6f58b00b5973248d66b6cb8e34a1a",
+      "approved": true
+    },
+    "nothosaurus-mirabilis": {
+      "id": "nothosaurus-mirabilis",
+      "source": "nothosaurus-mirabilis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "5f6c0e60350f76bc6d3289b0829c57e231862c2f92c6836e2411dbb6afc842f2",
+      "previousSha256": "5f6c0e60350f76bc6d3289b0829c57e231862c2f92c6836e2411dbb6afc842f2",
+      "approved": true
+    },
+    "opabinia-regalis": {
+      "id": "opabinia-regalis",
+      "source": "opabinia-regalis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "75e67efc301e9ccd415aba878a79887716c0705e5b566115f1dfba2ec4c5fa28",
+      "previousSha256": "5c2d0f3fe60a330c55b971d42b8ea80782724ee7355ff3e30b498fa6ce41f9d3",
+      "approved": true
+    },
+    "ophthalmosaurus-icenicus": {
+      "id": "ophthalmosaurus-icenicus",
+      "source": "ophthalmosaurus-icenicus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "bc680b322d25884354df041646085e77f9eaa2653757071cd511aaca8a1e7baa",
+      "previousSha256": "bc680b322d25884354df041646085e77f9eaa2653757071cd511aaca8a1e7baa",
+      "approved": true
+    },
+    "oviraptor-philoceratops": {
+      "id": "oviraptor-philoceratops",
+      "source": "oviraptor-philoceratops.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "1b9a0a48d5daaa7c0be7d0a5630d616a637c35175dd4094c682cd8f016617e49",
+      "previousSha256": "1b9a0a48d5daaa7c0be7d0a5630d616a637c35175dd4094c682cd8f016617e49",
+      "approved": true
+    },
+    "pachycephalosaurus-wyomingensis": {
+      "id": "pachycephalosaurus-wyomingensis",
+      "source": "pachycephalosaurus-wyomingensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "ae84a2a39f9ac5cb744bd99a38d3e7ae236d8e2eb603b7828b9fda1f89c2d52a",
+      "previousSha256": "ae84a2a39f9ac5cb744bd99a38d3e7ae236d8e2eb603b7828b9fda1f89c2d52a",
+      "approved": true
+    },
+    "pachyrhinosaurus-canadensis": {
+      "id": "pachyrhinosaurus-canadensis",
+      "source": "pachyrhinosaurus-canadensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "7d0b692731db3b4abe02977dce440dd1b820ec8174af45ec71590477fd224bc6",
+      "previousSha256": "7d0b692731db3b4abe02977dce440dd1b820ec8174af45ec71590477fd224bc6",
+      "approved": true
+    },
+    "parasaurolophus-walkeri": {
+      "id": "parasaurolophus-walkeri",
+      "source": "exec-4736ec2c-f07f-4380-b56e-a6e8877d544e.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "54a5d4fb834d0ce87a19b90ec9ca1869d27790ab9ea4f5f1a3588baccae47c1c",
+      "previousSha256": "bfc450fbea5c8effc1b762d0f2353fce973a177424172cb789526fcf64c933b9",
+      "approved": true
+    },
+    "peteinosaurus-zambellii": {
+      "id": "peteinosaurus-zambellii",
+      "source": "peteinosaurus-zambellii.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "91603dc1124e966f0b9c00e8947aaaf70d4dc00766df6804f4291ef2215be35d",
+      "previousSha256": "91603dc1124e966f0b9c00e8947aaaf70d4dc00766df6804f4291ef2215be35d",
+      "approved": true
+    },
+    "petrolacosaurus-kansensis": {
+      "id": "petrolacosaurus-kansensis",
+      "source": "petrolacosaurus-kansensis.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "22437aaf2c4e9a33570a19f18393e62b05d5b8c2467f94dc81e9f7366ce7b258",
+      "previousSha256": "c86633e701ab5ee044383d90d53ba017353973ccbd2dd492bd81df720901271b",
+      "approved": true
+    },
+    "pikaia-gracilens": {
+      "id": "pikaia-gracilens",
+      "source": "pikaia-gracilens.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "20fa25175523dc3454d51cdd9e334c2d4c2e6aa9288c57377bddacc50efa1176",
+      "previousSha256": "2f8ca2e5ea4e66d3b67cd0fd0d28fa728d3ac8d4906f50921720a411c55a4660",
+      "approved": true
+    },
+    "plateosaurus-trossingensis": {
+      "id": "plateosaurus-trossingensis",
+      "source": "plateosaurus-trossingensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "13f9694acbcc5f9158a66465f44670ab75a286c7e2a639341a39fb3a7b337db2",
+      "previousSha256": "13f9694acbcc5f9158a66465f44670ab75a286c7e2a639341a39fb3a7b337db2",
+      "approved": true
+    },
+    "plesiosaurus-dolichodeirus": {
+      "id": "plesiosaurus-dolichodeirus",
+      "source": "plesiosaurus-dolichodeirus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "70ac945ce92834b5a0dee3697148bc8e8e9b073ad7450937665980251d919294",
+      "previousSha256": "70ac945ce92834b5a0dee3697148bc8e8e9b073ad7450937665980251d919294",
+      "approved": true
+    },
+    "preondactylus-buffarinii": {
+      "id": "preondactylus-buffarinii",
+      "source": "preondactylus-buffarinii.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "220659909cc2de6937bd7d91b0bbb784b73bef90c31c2e9af98a3cf2ff459ffc",
+      "previousSha256": "220659909cc2de6937bd7d91b0bbb784b73bef90c31c2e9af98a3cf2ff459ffc",
+      "approved": true
+    },
+    "protobuthus-ziliolii": {
+      "id": "protobuthus-ziliolii",
+      "source": "protobuthus-ziliolii.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "32f0f2a0c4960902ae48a70f1ad4ceef9720544b99ce4eb7804d718dcdd85559",
+      "previousSha256": "32f0f2a0c4960902ae48a70f1ad4ceef9720544b99ce4eb7804d718dcdd85559",
+      "approved": true
+    },
+    "protoceratops-andrewsi": {
+      "id": "protoceratops-andrewsi",
+      "source": "protoceratops-andrewsi.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "14bd683559f7a5fba3247c175266079949c13d75c550d8f75383148c466a2766",
+      "previousSha256": "14bd683559f7a5fba3247c175266079949c13d75c550d8f75383148c466a2766",
+      "approved": true
+    },
+    "pseudopulex-jurassicus": {
+      "id": "pseudopulex-jurassicus",
+      "source": "pseudopulex-jurassicus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "6bb5654b88ce3b9808fd5496142cf5e1af17d87f67cb3a6b6671fab4da7d87b0",
+      "previousSha256": "6bb5654b88ce3b9808fd5496142cf5e1af17d87f67cb3a6b6671fab4da7d87b0",
+      "approved": true
+    },
+    "psittacosaurus-mongoliensis": {
+      "id": "psittacosaurus-mongoliensis",
+      "source": "psittacosaurus-mongoliensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "516e6ff366f8926e7a3a44d3c16fbb2ab0d89fbde36ddbe5b1318d76c48d024f",
+      "previousSha256": "516e6ff366f8926e7a3a44d3c16fbb2ab0d89fbde36ddbe5b1318d76c48d024f",
+      "approved": true
+    },
+    "pteranodon-longiceps": {
+      "id": "pteranodon-longiceps",
+      "source": "pteranodon-longiceps.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "4ffa17bdc70dce4219be70f7a7145751de9183118e58c128982cde037989f4c5",
+      "previousSha256": "4ffa17bdc70dce4219be70f7a7145751de9183118e58c128982cde037989f4c5",
+      "approved": true
+    },
+    "pterodactylus-antiquus": {
+      "id": "pterodactylus-antiquus",
+      "source": "pterodactylus-antiquus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "7ef088ba861405f08fcfc8b75a6a6e72498d8fc5733028866dbed2ca8a315d83",
+      "previousSha256": "7ef088ba861405f08fcfc8b75a6a6e72498d8fc5733028866dbed2ca8a315d83",
+      "approved": true
+    },
+    "pulmonoscorpius-kirktonensis": {
+      "id": "pulmonoscorpius-kirktonensis",
+      "source": "pulmonoscorpius-kirktonensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "83d59e0031a415838d91bf1a492ddd96969eb5311306dbace2724e2bcb45a32c",
+      "previousSha256": "83d59e0031a415838d91bf1a492ddd96969eb5311306dbace2724e2bcb45a32c",
+      "approved": true
+    },
+    "pyroraptor-olympius": {
+      "id": "pyroraptor-olympius",
+      "source": "exec-10674a6d-bf78-43e5-af45-aa2017e76071.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "740b7a5046a60272711ca41d9e85d5173aa087a797033b22cbbb942db3072dff",
+      "previousSha256": "4135fabfdcc554a8cbe463c535e2002f8d7ccf1e7684482fbeed4aff5a16389f",
+      "approved": true
+    },
+    "qilinyu-rostrata": {
+      "id": "qilinyu-rostrata",
+      "source": "qilinyu-rostrata.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "edfdf9921907fa1fdf983deec00b927e237488c2692fabba9c76ac01bc4f1f07",
+      "previousSha256": "edfdf9921907fa1fdf983deec00b927e237488c2692fabba9c76ac01bc4f1f07",
+      "approved": true
+    },
+    "quetzalcoatlus-northropi": {
+      "id": "quetzalcoatlus-northropi",
+      "source": "quetzalcoatlus-northropi.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "3248c4d977e7b7c672823a9e599035687c2cd7c05c8e7838add3ae31e1ed1c7b",
+      "previousSha256": "3248c4d977e7b7c672823a9e599035687c2cd7c05c8e7838add3ae31e1ed1c7b",
+      "approved": true
+    },
+    "rhamphorhynchus-muensteri": {
+      "id": "rhamphorhynchus-muensteri",
+      "source": "rhamphorhynchus-muensteri.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "41fa3bf181397db8806f549acfc535c5264753b127761d268291cab84b02d0c7",
+      "previousSha256": "41fa3bf181397db8806f549acfc535c5264753b127761d268291cab84b02d0c7",
+      "approved": true
+    },
+    "riojasaurus-incertus": {
+      "id": "riojasaurus-incertus",
+      "source": "riojasaurus-incertus.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "bdcdc1166bf827755129559f81263340a28604f9a04fce6e4d846167196d2060",
+      "previousSha256": "bdcdc1166bf827755129559f81263340a28604f9a04fce6e4d846167196d2060",
+      "approved": true
+    },
+    "santanmantis-axelrodi": {
+      "id": "santanmantis-axelrodi",
+      "source": "santanmantis-axelrodi.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "036d4a9f9a5b85b04f0f4a85a55ed019a1422a09826e91e3eea5f70bda4e2979",
+      "previousSha256": "036d4a9f9a5b85b04f0f4a85a55ed019a1422a09826e91e3eea5f70bda4e2979",
+      "approved": true
+    },
+    "saturnalia-tupiniquim": {
+      "id": "saturnalia-tupiniquim",
+      "source": "saturnalia-tupiniquim.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "0586014921f34d9e188c7081b1948a282446bc041b2dfde81baa65f7fdb858e8",
+      "previousSha256": "0586014921f34d9e188c7081b1948a282446bc041b2dfde81baa65f7fdb858e8",
+      "approved": true
+    },
+    "scutosaurus-karpinskii": {
+      "id": "scutosaurus-karpinskii",
+      "source": "scutosaurus-karpinskii.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "ad7c74c2c40f463d0faa8eef979e51df4c14da44293f601d16f19594154891b5",
+      "previousSha256": "832d30f901b61b485915372ad7ea60789e049b0bc161d13e2ae906d0dca8537e",
+      "approved": true
+    },
+    "shonisaurus-popularis": {
+      "id": "shonisaurus-popularis",
+      "source": "shonisaurus-popularis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "66a2f10d2ed48a4f999af9f167c3f03d08c6adfc41ecb672d59e8c446f1b0ab7",
+      "previousSha256": "66a2f10d2ed48a4f999af9f167c3f03d08c6adfc41ecb672d59e8c446f1b0ab7",
+      "approved": true
+    },
+    "spinosaurus-aegyptiacus": {
+      "id": "spinosaurus-aegyptiacus",
+      "source": "exec-13af0cbf-e3c5-4f6b-97e5-c1157ed496e4.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "99fc31aea845573d7edc50709c878e3766260480d30ea8d75bde18d26ca3fe7a",
+      "previousSha256": "7e478abb0c0ecd29cfd54440c7a11509e8f72b44bed25a12b5ced961fee36875",
+      "approved": true
+    },
+    "stegosaurus-stenops": {
+      "id": "stegosaurus-stenops",
+      "source": "exec-bf6d5f02-8245-4690-b54c-037b2fe1cd08.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "953776a8175f53ce15b641bfff5a01f3e6f1e81bcc4875364bda4ff6aac6cf07",
+      "previousSha256": "1b59fedf3b188e7a5b72c67252491d2c0aee3c3f0aeab84af38cbc76b6f009b1",
+      "approved": true
+    },
+    "styracosaurus-albertensis": {
+      "id": "styracosaurus-albertensis",
+      "source": "styracosaurus-albertensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "a704df353b6dd73347e856ba9668b7a873b4063eb001cf083742e8caf033d10d",
+      "previousSha256": "a704df353b6dd73347e856ba9668b7a873b4063eb001cf083742e8caf033d10d",
+      "approved": true
+    },
+    "tapejara-wellnhoferi": {
+      "id": "tapejara-wellnhoferi",
+      "source": "tapejara-wellnhoferi.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "e8d21bdbcbe3bf121a78e07e0d9375ce9da1bacb931f77c47f67471e37f95a0a",
+      "previousSha256": "e8d21bdbcbe3bf121a78e07e0d9375ce9da1bacb931f77c47f67471e37f95a0a",
+      "approved": true
+    },
+    "therizinosaurus-cheloniformis": {
+      "id": "therizinosaurus-cheloniformis",
+      "source": "therizinosaurus-cheloniformis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "a84c29956ecfbf085afa4ec35eaa7ea328c8991bf662de0d4c1daf978adff52a",
+      "previousSha256": "a84c29956ecfbf085afa4ec35eaa7ea328c8991bf662de0d4c1daf978adff52a",
+      "approved": true
+    },
+    "tiktaalik-roseae": {
+      "id": "tiktaalik-roseae",
+      "source": "exec-16f6c4ce-4ce6-445e-9471-18ec6b25e9a0.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "2a64e1de37e721cb187e400c181ab78b12ed7e8740bb431477c526c6b705d350",
+      "previousSha256": "8c09ffcbd7bbe240c71ab5f34d46d904416828b8bde95a9ed4ebdac5d03771c7",
+      "approved": true
+    },
+    "torvosaurus-tanneri": {
+      "id": "torvosaurus-tanneri",
+      "source": "torvosaurus-tanneri.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "6f9463dd998535932905bb81fbf8edf9f9a1c505b93c9cbbfdf3331772fcba4b",
+      "previousSha256": "6f9463dd998535932905bb81fbf8edf9f9a1c505b93c9cbbfdf3331772fcba4b",
+      "approved": true
+    },
+    "triceratops-horridus": {
+      "id": "triceratops-horridus",
+      "source": "exec-ada48a21-0f8d-4a6b-99ca-204e45cb68ba.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "8496eba9fb4d32af976bdcb70f1ee06ed88000d30af5fb1b054e52a59d551ab0",
+      "previousSha256": "e426d0cb0e34fdeadc6f6950c50b09b6fe12e0f1331fdf0cabb3dd92f5bf1629",
+      "approved": true
+    },
+    "tylosaurus-proriger": {
+      "id": "tylosaurus-proriger",
+      "source": "tylosaurus-proriger.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "b6a719ded12eaf53c1b7b615df3da744bae07287925dd7caa3e2adbf43c6a20c",
+      "previousSha256": "b6a719ded12eaf53c1b7b615df3da744bae07287925dd7caa3e2adbf43c6a20c",
+      "approved": true
+    },
+    "tyrannosaurus-rex": {
+      "id": "tyrannosaurus-rex",
+      "source": "tyrannosaurus-rex.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "46aa9338c1e2517af453324c79dca23803be35e225090d717af0e61f75bfebaf",
+      "previousSha256": "46aa9338c1e2517af453324c79dca23803be35e225090d717af0e61f75bfebaf",
+      "approved": true
+    },
+    "velociraptor-mongoliensis": {
+      "id": "velociraptor-mongoliensis",
+      "source": "velociraptor-mongoliensis.webp",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "zachovano_beze_zmeny",
+      "upscaled": false,
+      "sha256": "bd3d6949476c599eb57f4fc7057b38958a358f02c9cff6675b14bdf3c1d7f4e3",
+      "previousSha256": "bd3d6949476c599eb57f4fc7057b38958a358f02c9cff6675b14bdf3c1d7f4e3",
+      "approved": true
+    },
+    "vulcanidris-cratensis": {
+      "id": "vulcanidris-cratensis",
+      "source": "exec-d53210bf-481e-4024-a013-bdd217fdd28b.png",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "action": "nova_schvalena_verze",
+      "upscaled": false,
+      "sha256": "07c519959083a23ac12ba9ca6fb0e11c6e7e1c89b8f564dff8b8872f43d43fa8",
+      "previousSha256": "e67a3973fb9e3314737f8bc583a5d7a13da2f0ffe2553dd2b1238c88280f8782",
+      "approved": true
+    },
+    "wiwaxia-corrugata": {
+      "id": "wiwaxia-corrugata",
+      "source": "wiwaxia-corrugata.webp",
+      "source_size": [
+        1152,
+        768
+      ],
+      "action": "zvetseno_Lanczos",
+      "upscaled": true,
+      "sha256": "b9f1ff4eac78b3e924ee78617b13ba908287513b067ae5cb4410ad32778adbe0",
+      "previousSha256": "7b4aae098d618fa2bd72e9d5341e79c8d0249a3617cba1415347f336b2de8215",
+      "approved": true
+    }
+  },
+  "facingChanges": {
+    "spinosaurus-aegyptiacus": {
+      "before": "right",
+      "after": "right"
+    },
+    "eurypterus-remipes": {
+      "before": "left",
+      "after": "right"
+    },
+    "cladoselache-fyleri": {
+      "before": "left",
+      "after": "right"
+    }
+  },
+  "databaseSha256": "402cdeec975b05fc2ad577c351b3bed31ad3c9bb33d1584072f55107bef36d7e"
+}

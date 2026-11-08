@@ -3,13 +3,13 @@ const fs = require('node:fs');
 const crypto = require('node:crypto');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const db = require('../dinosaurs.json');
+const db = require('./helpers/before-thirty.cjs').database;
 const before = require('../docs/backups/visual-refresh-03/manifest.json');
 const accepted = require('../docs/visual-refresh-03.json');
 const ids = ['anomalocaris-canadensis', 'opabinia-regalis', 'hallucigenia-sparsa', 'marrella-splendens', 'wiwaxia-corrugata', 'pikaia-gracilens'];
 const ordovicianBatch = require('../docs/visual-refresh-04.json');
 const carbonBatch = require('../docs/visual-refresh-05.json');
-const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images};
+const crops = {...require('../docs/visual-refresh-06.json'), ...require('../docs/visual-refresh-07.json'), ...require('../docs/visual-refresh-08.json'), ...require('../docs/visual-refresh-09.json'), ...require('../docs/visual-refresh-10.json'), ...require('../docs/anatomy-01.json'), ...require('../docs/anatomy-02.json'), ...require('../docs/anatomy-03.json'), ...require('../docs/anatomy-04.json'), ...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images, ...require('../docs/approved-thirty-2026-11-08.json').images};
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 assert.deepEqual(Object.keys(accepted).sort(), ids.sort());
 assert.deepEqual(Object.keys(before.images).sort(), ids.sort());
@@ -18,7 +18,7 @@ assert.deepEqual(db.dinosaurs.map(a=>a.id).sort(), Object.keys(before.allActiveI
 for (const a of db.dinosaurs) {
   const old = before.allActiveImageSha256[a.id];
   const actual = sha(path.join(root, a.image.src));
-  assert.equal(actual, accepted[a.id]?.sha256 || ordovicianBatch[a.id]?.sha256 || carbonBatch[a.id]?.sha256 || crops[a.id]?.sha256 || old, a.id);
+  assert.equal(actual, require('./helpers/before-thirty.cjs').images[a.id]?.sha256 || accepted[a.id]?.sha256 || ordovicianBatch[a.id]?.sha256 || carbonBatch[a.id]?.sha256 || crops[a.id]?.sha256 || old, a.id);
   if (accepted[a.id]) {
     assert.notEqual(actual, old);
     assert.equal(a.period, 'cambrian');
