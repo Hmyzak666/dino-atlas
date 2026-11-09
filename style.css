@@ -330,3 +330,40 @@ dialog.image-viewer[open] { display: block; }
 .scroll-controls.in-detail button { grid-column: 2; }
 
 .era-filters button { font-size: .9rem; padding: 8px 4px; }
+
+/* Search remains directly above the results, including narrow phones. */
+.search-reset-row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; align-items:center; margin:16px 0; }
+.search-reset-row .search-field { min-width:0; margin:0; }
+.search-reset-row #clear-filters { max-width:108px; padding:10px; }
+.search-reset-row .search-input-wrap { min-width:0; }
+.search-reset-row input { min-width:0; width:100%; }
+.scroll-controls { grid-template-columns:48px 48px; }
+#quick-search-open, .scroll-controls.in-detail #quick-search-open { grid-column:1; grid-row:2; }
+#scroll-up { grid-column:2; grid-row:1; }
+#scroll-down { grid-column:2; grid-row:2; }
+.scroll-controls.in-detail #detail-atlas { grid-row:1; }
+.atlas-dialog { color:#f7f4ec; background:#19382d; border:1px solid #769184; border-radius:20px; padding:16px; width:min(560px,calc(100% - 24px)); max-height:80dvh; overflow:auto; }
+.atlas-dialog::backdrop { background:#07130dcc; }
+.atlas-dialog header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.atlas-dialog h2 { color:inherit; margin:0; }
+.atlas-dialog button { color:inherit; background:#2a4b3e; min-height:48px; }
+.quick-input-wrap { display:flex; border:2px solid #769184; border-radius:16px; margin:14px 0; }
+.quick-input-wrap:focus-within { border-color:#b4d1bd; }
+.quick-input-wrap input { color:inherit; background:transparent; border:0; outline:none; min-width:0; width:100%; padding:12px; font-size:16px; }
+.quick-input-wrap input::-webkit-search-cancel-button { display:none; }
+#quick-clear { border:0; border-radius:14px; min-width:48px; font-size:2rem; }
+.quick-result { display:flex; justify-content:space-between; gap:8px; color:inherit; padding:14px 4px; border-bottom:1px solid #486759; min-height:48px; }
+@media(max-width:360px) { .search-reset-row .search-field > svg { display:none; } }
+
+.filter-choice { display:flex; min-width:0; gap:2px; }
+.filter-choice > button:first-child { flex:1; min-width:0; overflow-wrap:anywhere; }
+.filter-choice > .info-button { flex:none; width:36px; min-width:36px; padding:0; border-color:transparent; background:transparent; font-size:1.1rem; }
+#diet-options { display:grid; gap:8px; margin-top:16px; }
+#diet-options button { text-align:left; padding:12px; border:1px solid #769184; border-radius:12px; }
+#diet-options [aria-checked=true] { background:#b6d7a8; color:#10221c; font-weight:bold; }
+#knowledge-body h3 { color:#c8dfba; margin-bottom:6px; }
+#knowledge-body p { line-height:1.65; margin-top:0; }
+#knowledge-body details { overflow-wrap:anywhere; font-size:.85rem; }
+.knowledge-range { color:#c8dfba; margin-top:16px!important; }
+
+.search-reset-row #clear-filters { margin:0; }

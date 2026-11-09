@@ -277,7 +277,9 @@ public final class MainActivity extends Activity {
             new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8)));
     }
     private void goBackOrFinish() {
-        if (atlas.canGoBack()) atlas.goBack(); else finish();
+        atlas.evaluateJavascript("(function(){var d=document.querySelector('dialog[open]');if(d){d.close();return true;}return false;})()", result -> {
+            if (!"true".equals(result)) { if (atlas.canGoBack()) atlas.goBack(); else finish(); }
+        });
     }
     @Override public void onBackPressed() { goBackOrFinish(); }
     @Override protected void onSaveInstanceState(Bundle state) {

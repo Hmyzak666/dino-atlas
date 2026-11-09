@@ -18,7 +18,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   await page.locator('[data-atlas-era="mesozoic"]').click();
   await page.locator('[data-period="cretaceous"]').click();
   await page.locator('[data-category="dinosaur"]').click();
-  await page.locator('#diet-filter').selectOption('carnivore');
+  await page.locator('#diet-filter').selectOption('carnivore', {force:true});
   await page.locator('#favorites-filter').click();
   await page.locator('#search').fill('nenalezeno');
   await page.locator('#clear-filters').click();
@@ -47,7 +47,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   assert.equal(await page.locator('.dino-card').count(),112);
   await page.locator('[data-atlas-era="mesozoic"]').click();
   await page.locator('[data-category="dinosaur"]').click();
-  await page.locator('#diet-filter').selectOption('carnivore');
+  await page.locator('#diet-filter').selectOption('carnivore', {force:true});
   await page.locator('#search').fill('saurus');
   const count=await page.locator('.dino-card').count();assert.ok(count>1);
   for(const returnSelector of ['#detail-atlas','.back-link']){

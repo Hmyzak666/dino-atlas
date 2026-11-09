@@ -433,7 +433,7 @@
   function syncCategory() {
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
 
-    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.' };
+    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.', fish: 'Poznej ryby.', 'early-chordate': 'Poznej rané strunatce.', 'early-tetrapod': 'Poznej obojživelníky a rané čtyřnožce.', synapsid: 'Poznej synapsidy.', 'other-reptile': 'Poznej další plazy.', 'other-invertebrate': 'Poznej ostatní bezobratlé.' };
     $('atlas-title').textContent = headings[state.category] || 'Poznej ' + (CATEGORIES[state.category] || 'pravěk') + '.';
     $('atlas-intro').textContent = state.category === 'pterosaur'
       ? 'Létající příbuzní dinosaurů s blanitými křídly.'
@@ -557,6 +557,12 @@
     $('random-button').disabled = visible.length === 0;
     $('favorites-filter').setAttribute('aria-pressed', String(state.favoritesOnly));
     $('clear-search').hidden = !state.query;
+    syncDietDialog();
+    $('search').value = state.query;
+    $('quick-search').value = state.query;
+    $('quick-clear').hidden = !state.query;
+    $('quick-count').textContent = `Nalezeno: ${visible.length}`;
+    $('quick-results').innerHTML = visible.map(dino => `<a class="quick-result" href="#dinosaurus/${dino.id}">${escapeHtml(copy(dino).displayName)} <span>→</span></a>`).join('') || '<p>Zkus jiné hledání nebo vymaž filtry.</p>';
     updateFavoriteButtons();
     scheduleScrollControls();
   }
@@ -579,10 +585,11 @@
 
   function chooseDetailSequence(dino) {
     // Keep the opened list stable while browsing, including a favorites-only list.
-    if (currentRoute.startsWith('#dinosaurus/') && detailIds.includes(dino.id)) return;
+    if (!quickSelection && currentRoute.startsWith('#dinosaurus/') && detailIds.includes(dino.id)) return;
     // Searching locates the starting animal; browsing continues through the
     // category and other active filters without clearing the atlas query.
-    const fromAtlas = currentRoute === '#atlas';
+    const fromAtlas = quickSelection || currentRoute === '#atlas';
+    quickSelection = false;
     detailFilter = fromAtlas ? { ...state, query: '', favorites: new Set(state.favorites) }
       : { ...state, ...(currentRoute === '#kviz' ? quizFilters : {}), query: '', diet: 'all', favoritesOnly: false };
     let selected = filteredDinosaurs(dinosaurs, detailFilter);
@@ -788,9 +795,12 @@
     next.focus({ preventScroll: true });
   }
 
+  let quickReturn = false;
+  let quickSelection = false;
   function route() {
     if (!database) return;
     hidePicture(false);
+    if ($('quick-search-panel').open) $('quick-search-panel').close();
     const hash = (!location.hash || location.hash === '#main') ? '#atlas' : location.hash;
     if (hash !== currentRoute) stopNarration(false);
     if (currentRoute === '#atlas' && hash !== '#atlas') galleryScroll = window.scrollY;
@@ -803,7 +813,8 @@
       renderGallery();
       document.title = 'Dino Atlas — Objevuj pravěký svět';
       requestAnimationFrame(() => {
-        window.scrollTo(0, galleryScroll);
+        if (quickReturn) { $('search').scrollIntoView({block:'start'}); quickReturn = false; }
+        else window.scrollTo(0, galleryScroll);
         if (lastOpenedId) $(`card-${lastOpenedId}`)?.focus({ preventScroll: true });
       });
     } else if (hash === '#kviz') {
@@ -900,6 +911,85 @@
     $('search').value = '';
     $('search').focus();
     renderGallery();
+  });
+  function syncDietDialog() {
+    const options = [...$('diet-filter').options];
+    $('diet-open').textContent = `${options.find(option => option.value === state.diet).textContent} ▾`;
+    $('diet-options').innerHTML = options.map(option => `<button type="button" role="radio" aria-checked="${option.value === state.diet}" data-diet="${option.value}">${option.value === state.diet ? '✓ ' : ''}${escapeHtml(option.textContent)}</button>`).join('');
+  }
+  $('diet-open').addEventListener('click', () => { syncDietDialog(); $('diet-dialog').showModal(); $('diet-options').querySelector('[aria-checked="true"]').focus(); });
+  $('diet-options').addEventListener('click', event => {
+    const button = event.target.closest('[data-diet]');
+    if (!button) return;
+    $('diet-filter').value = button.dataset.diet;
+    $('diet-filter').dispatchEvent(new Event('change'));
+    $('diet-dialog').close();
+  });
+  $('diet-options').addEventListener('keydown', event => {
+    if (!['ArrowDown','ArrowUp','ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
+    event.preventDefault();
+    const buttons = [...$('diet-options').children];
+    let index = buttons.indexOf(document.activeElement);
+    index = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1 : (index + (['ArrowDown','ArrowRight'].includes(event.key) ? 1 : -1) + buttons.length) % buttons.length;
+    buttons[index].focus();
+  });
+  for (const id of ['diet-dialog', 'knowledge-dialog']) {
+    const dialog = $(id);
+    dialog.querySelector('[data-close-dialog]').addEventListener('click', () => dialog.close());
+  }
+  function decorateInfoButtons() {
+    document.querySelectorAll('[data-category], [data-period], [data-atlas-era], [data-detail-era], [data-detail-period], [data-quiz-era], [data-quiz-period], [data-quiz-category]').forEach(button => {
+      if (button.parentElement.classList.contains('filter-choice')) return;
+      const id = Object.values(button.dataset)[0];
+      if (!window.DINO_KNOWLEDGE?.[id]) return;
+      const wrapper = document.createElement('span');
+      wrapper.className = 'filter-choice';
+      button.replaceWith(wrapper);
+      wrapper.append(button);
+      const info = document.createElement('button');
+      info.type = 'button'; info.className = 'info-button'; info.dataset.info = id;
+      info.textContent = 'ⓘ'; info.setAttribute('aria-label', `Informace: ${button.textContent}`); info.setAttribute('aria-haspopup', 'dialog');
+      wrapper.append(info);
+    });
+  }
+  new MutationObserver(decorateInfoButtons).observe($('main'), {childList:true, subtree:true});
+  document.addEventListener('click', event => {
+    const button = event.target.closest('[data-info]');
+    if (!button) return;
+    const entry = window.DINO_KNOWLEDGE[button.dataset.info];
+    $('knowledge-title').textContent = entry.title;
+    $('knowledge-body').innerHTML = `<p class="knowledge-range">${escapeHtml(entry.range)}</p>` + entry.sections.map(([title, text]) => `<h3>${escapeHtml(title)}</h3><p>${escapeHtml(text)}</p>`).join('') + `<details><summary>Zdroje</summary>${entry.sources.map(source => `<p>${escapeHtml(source)}</p>`).join('')}<p>Text je dostupný i bez internetu. Časové hranice jsou zaokrouhlené odhady.</p></details>`;
+    $('knowledge-dialog').showModal();
+  });
+  function fitDialogs() {
+    const viewport = window.visualViewport;
+    document.querySelectorAll('.atlas-dialog').forEach(dialog => {
+      dialog.style.maxHeight = `${Math.max(120, (viewport?.height || innerHeight) - 24)}px`;
+      dialog.style.top = `${(viewport?.offsetTop || 0) + 12}px`;
+      dialog.style.bottom = 'auto'; dialog.style.marginTop = '0';
+    });
+  }
+  window.visualViewport?.addEventListener('resize', fitDialogs);
+  window.visualViewport?.addEventListener('scroll', fitDialogs);
+  window.addEventListener('resize', fitDialogs);
+  fitDialogs();
+  $('quick-search-open').addEventListener('click', () => {
+    renderGallery();
+    $('quick-search-panel').showModal();
+    $('quick-search').focus();
+  });
+  $('quick-search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
+  $('quick-clear').addEventListener('click', () => { state.query = ''; renderGallery(); $('quick-search').focus(); });
+  $('quick-reset').addEventListener('click', () => $('clear-filters').click());
+  $('quick-search-panel').querySelector('[data-close-dialog]').addEventListener('click', () => $('quick-search-panel').close());
+  $('quick-results').addEventListener('click', event => {
+    if (!event.target.closest('a')) return;
+    $('quick-search-panel').close();
+    detailIds = [];
+    quickSelection = true;
+    if (event.target.closest('a').hash === location.hash) route();
+    galleryScroll = 0;
+    quickReturn = true;
   });
   $('search').addEventListener('input', event => { state.query = event.target.value; renderGallery(); });
   $('diet-filter').addEventListener('change', event => { state.diet = event.target.value; renderGallery(); });

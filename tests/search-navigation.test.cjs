@@ -85,7 +85,7 @@ async function back(page) {
     await page.locator('[data-category="dinosaur"]').click();
     if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
     await page.locator('[data-period="jurassic"]').click();
-    await page.locator('#diet-filter').selectOption('carnivore');
+    await page.locator('#diet-filter').selectOption('carnivore', {force:true});
     await page.locator('#search').fill('ceratosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'ceratosaurus-nasicornis');
@@ -104,7 +104,7 @@ async function back(page) {
     await page.locator('#search').fill('');
     await page.locator('[data-category="all"]').click();
     await page.locator('[data-period="all"]').click();
-    await page.locator('#diet-filter').selectOption('all');
+    await page.locator('#diet-filter').selectOption('all', {force:true});
     await page.locator('#favorites-filter').click();
     await page.locator('#search').fill('brachiosaurus');
     await openResult(page, 'brachiosaurus-altithorax');

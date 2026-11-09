@@ -10,7 +10,9 @@ assert.deepEqual(Object.keys(batch.images).sort(), db.dinosaurs.map(a=>a.id).sor
 const counts = {};
 for (const a of db.dinosaurs) {
  const item=batch.images[a.id], b=fs.readFileSync(a.image.src);
- assert.equal(sha(b),item.sha256,a.id);
+ const latest=require('../docs/approved-eight-2026-11-09.json')[a.id];
+ if(latest) assert.equal(latest.previousSha256,item.sha256,a.id);
+ assert.equal(sha(b),latest?.sha256 || item.sha256,a.id);
  assert.equal(b.toString('ascii',0,4),'RIFF');
  assert.equal(b.toString('ascii',8,12),'WEBP');
  let dimensions;

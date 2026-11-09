@@ -11,4 +11,4 @@ const imageJSON = image => JSON.stringify(image, null, 2).replace(/\n/g, '\n    
 for (const a of require('../../dinosaurs.json').dinosaurs) {
   if (batch.facingChanges[a.id]) text = text.replace(imageJSON(a.image), imageJSON({...a.image, facing:batch.facingChanges[a.id].before}));
 }
-module.exports = {database, text, images: batch.images};
+module.exports = {database, text, images: {...batch.images, ...require('../../docs/approved-eight-2026-11-09.json')}};

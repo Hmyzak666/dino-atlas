@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 const { historicalDatabase: db, readHistoricalFile } = require('./helpers/approved-nine.cjs');
 const before = require('../docs/backups/anatomy-04/manifest.json');
 const after = require('../docs/anatomy-04.json');
-const next = {...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images, ...require('../docs/approved-thirty-2026-11-08.json').images};
+const next = {...require('../docs/approved-nine-2026-11-05.json').images, ...require('../docs/approved-three-2026-11-06.json').images, ...require('../docs/approved-twelve-2026-11-06.json').images, ...require('../docs/approved-thirty-2026-11-08.json').images, ...require('../docs/approved-eight-2026-11-09.json')};
 const id = 'mecochirus-longimanatus';
 const sha = p => crypto.createHash('sha256').update(readHistoricalFile(path.join(root,p))).digest('hex');
 assert.equal(db.dinosaurs.length,112);

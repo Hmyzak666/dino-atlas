@@ -17,7 +17,10 @@ for (const [name, expected] of Object.entries(baseline.assets)) {
   if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), require('./helpers/before-thirty.cjs').images[path.basename(name, '.webp')]?.sha256 || require('../docs/approved-twelve-2026-11-06.json').images[path.basename(name, '.webp')]?.sha256 || require('../docs/approved-three-2026-11-06.json').images[path.basename(name, '.webp')]?.sha256 || batch.images[path.basename(name, '.webp')]?.sha256 || expected, name);
 }
 assert.deepEqual(originals.map(a => a.id).sort(), baseline.animalIds);
-assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);
+// Only the Android Back handler changes: close an open dialog before navigation.
+const nativeSource = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
+const historicalNative = nativeSource.replace(/        atlas\.evaluateJavascript\("\(function\(\)\{var d=document\.querySelector\('dialog\[open\]'\);[\s\S]*?        \}\);/, '        if (atlas.canGoBack()) atlas.goBack(); else finish();');
+assert.equal(digest(historicalNative), baseline.nativeSourceSha256);
 for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
