@@ -29,7 +29,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
  await page.locator('#quick-search-open').click();await page.locator('#quick-results a').first().click();await page.locator('#detail-title').waitFor();assert.equal(await page.locator('#quick-search-panel').isVisible(),false);
  await page.locator('#detail-atlas').click();await page.locator('#gallery').waitFor();assert.equal(await page.locator('#search').inputValue(),'dimetrodon');assert.equal(await page.locator('.dino-card').count(),1);
  await page.evaluate(()=>window.scrollTo(0,400));await page.locator('#quick-search-open').click();await page.locator('#quick-reset').click();assert.equal(await page.locator('#quick-results a').count(),112);assert.equal(await page.locator('#search').inputValue(),'');
- await page.setViewportSize({width,height:350});const panel=await page.locator('#quick-search-panel').boundingBox();assert.ok(panel.y>=0&&panel.y+panel.height<=351);
+ await page.setViewportSize({width,height:350});await page.waitForFunction(()=>{const r=document.querySelector('#quick-search-panel').getBoundingClientRect();return r.y>=0&&r.bottom<=351;});const panel=await page.locator('#quick-search-panel').boundingBox();assert.ok(panel.y>=0&&panel.y+panel.height<=351);
  await page.locator('#quick-search-panel [data-close-dialog]').click();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  assert.deepEqual(errors,[]);await context.close();
  }

@@ -367,3 +367,11 @@ dialog.image-viewer[open] { display: block; }
 .knowledge-range { color:#c8dfba; margin-top:16px!important; }
 
 .search-reset-row #clear-filters { margin:0; }
+
+.atlas-dialog { box-sizing:border-box; max-height:calc(100dvh - 24px); }
+.atlas-dialog header { position:sticky; top:-16px; background:#19382d; z-index:1; padding-block:8px; }
+.filter-choice > .info-button { width:44px; min-width:44px; min-height:48px; }
+.era-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.era-filters > button:last-child { grid-column:1 / -1; }
+.period-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+@media(min-width:600px) { .period-filters { grid-template-columns:repeat(4,minmax(0,1fr)); } }
