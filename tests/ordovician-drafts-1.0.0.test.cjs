@@ -1,0 +1,50 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const app=require('../app.js');
+const db=require('../dinosaurs.json');
+const drafts=require('../content-drafts/ordovician-five.json');
+const old=require('../content-drafts/cambrian-six.json');
+const ids=['isotelus-rex','asaphus-kowalewskii','aegirocassis-benmoulai','arandaspis-prionotolepis','endoceras-proteiforme'];
+assert.equal(drafts.status,'draft-awaiting-five-original-webp-images');
+assert.deepEqual(drafts.animals.map(x=>x.id),ids);
+assert.ok([78,83,88,96,104,112].includes(db.dinosaurs.length),'Ordovician batch is either not active (78), or fully imported (83)');
+const active=db.dinosaurs.length>=83;
+assert.equal(db.dinosaurs.filter(x=>x.period==='cambrian').length,6,'Cambrian six must be preserved intact');
+for(const a of old.animals) assert.ok(db.dinosaurs.some(b=>b.id===a.id));
+assert.equal(db.dinosaurs.filter(x=>x.period==='ordovician').length,active?5:0);
+const fake=structuredClone(db);
+fake.periods.ordovician='Ordovik';
+Object.assign(fake.sources,drafts.sources);
+if(!active) fake.dinosaurs.push(...drafts.animals);
+assert.equal(fake.dinosaurs.length,active?db.dinosaurs.length:83);
+assert.equal(app.validateDatabase(fake),true);
+for(const a of drafts.animals){
+ assert.equal(a.period,'ordovician');
+ assert.equal(a.image.status,'awaiting-original-image');
+ assert.equal(a.facts.some(f=>f.label.cs==='Hmotnost'),true);
+ assert.equal(a.translations.cs.recognition.length,3);
+ assert.equal(a.translations.cs.sections.length,6);
+ assert.equal(a.quizEnabled,true);
+ assert.ok(app.narrationText(a,'name'));
+ for(const section of a.translations.cs.sections) assert.ok(app.narrationText(a,section.id).includes(section.title));
+ assert.equal(fs.existsSync(path.resolve(__dirname,'..',a.image.src)),active);
+ if(active){
+   const published=db.dinosaurs.find(item=>item.id===a.id);
+   assert.ok(published,'No missing animals in complete batch');
+   assert.equal(published.image.status,'working-reconstruction');
+   assert.equal(published.image.src,a.image.src);
+ }
+}
+assert.equal(drafts.animals.find(a=>a.id==='arandaspis-prionotolepis').category,'fish');
+assert.equal(drafts.animals.find(a=>a.id==='aegirocassis-benmoulai').category,'other-invertebrate');
+assert.equal(drafts.animals.find(a=>a.id==='endoceras-proteiforme').taxonomy[0],'Mollusca');
+assert.equal(drafts.animals.filter(a=>a.category==='arthropod').length,2);
+assert.equal(drafts.animals.find(a=>a.id==='aegirocassis-benmoulai').scientificName,'Aegirocassis benmoulai');
+const state={query:'',period:'ordovician',era:'paleozoic',diet:'all',favoritesOnly:false,favorites:new Set(),category:'all'};
+assert.equal(app.filteredDinosaurs(fake.dinosaurs,state).length,5);
+assert.equal(app.filteredDinosaurs(fake.dinosaurs,{...state,category:'fish'}).length,1);
+assert.equal(app.filteredDinosaurs(fake.dinosaurs,{...state,category:'arthropod'}).length,2);
+assert.equal(app.makeQuiz(drafts.animals).length,5);
+assert.equal(new Set(fake.dinosaurs.map(a=>a.id)).size,fake.dinosaurs.length);
+console.log('PASS: five Ordovician entries, taxonomy, era filter, narration, quiz; activation requires all five real WebP files.');

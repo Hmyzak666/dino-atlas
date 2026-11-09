@@ -11,8 +11,9 @@
       document.documentElement.dataset.theme = localStorage.getItem('dinoatlas-theme') === 'dark' ? 'dark' : 'light';
     } catch (_) {}
   </script>
-  <link rel="stylesheet" href="./style.css?v=0.9.0-90001">
-  <script src="./app.js?v=0.9.0-90001" defer></script>
+  <link rel="stylesheet" href="./style.css?v=1.0.0-1000014">
+  <script src="./knowledge.js" defer></script>
+  <script src="./app.js?v=1.0.0-1000014" defer></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Přejít na obsah</a>
@@ -30,6 +31,22 @@
     </nav>
   </header>
 
+
+  <main id="main" tabindex="-1">
+    <div id="load-state" class="load-state" role="status"><span class="eyebrow">Vítej v pravěku</span><p>Načítám atlas…</p></div>
+
+    <section id="atlas-view" class="page" aria-labelledby="atlas-title" hidden>
+      <div class="intro">
+        <h1 id="atlas-title">Objevuj pravěk.</h1>
+        <p id="atlas-intro">Dinosauři, ptakoještěři, mořští plazi i členovci. Objevuj, porovnávej a hraj.</p>
+      </div>
+      <div id="era-filters" aria-label="Geologická éra"></div>
+      <div id="period-filters" class="period-filters" role="group" aria-label="Geologické období">
+        <button type="button" data-period="triassic" aria-pressed="false">Trias</button>
+        <button type="button" data-period="jurassic" aria-pressed="false">Jura</button>
+        <button type="button" data-period="cretaceous" aria-pressed="false">Křída</button>
+        <button type="button" data-period="all" aria-pressed="true">Vše</button>
+      </div>
   <div class="category-wrap">
     <div id="category-filters" class="category-filters" role="group" aria-label="Vyber pravěká zvířata">
       <button type="button" data-category="dinosaur" aria-pressed="false">Dinosauři</button>
@@ -40,31 +57,21 @@
     </div>
   </div>
 
-  <main id="main" tabindex="-1">
-    <div id="load-state" class="load-state" role="status"><span class="eyebrow">Vítej v pravěku</span><p>Načítám atlas…</p></div>
-
-    <section id="atlas-view" class="page" aria-labelledby="atlas-title" hidden>
-      <div class="intro">
-        <h1 id="atlas-title">Objevuj pravěk.</h1>
-        <p id="atlas-intro">Dinosauři, ptakoještěři, mořští plazi i členovci. Objevuj, porovnávej a hraj.</p>
-      </div>
-      <label class="search-field" for="search">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
-        <input id="search" type="search" placeholder="Koho hledáš?" autocomplete="off" spellcheck="false" aria-label="Najdi pravěké zvíře podle názvu">
-      </label>
-      <div id="period-filters" class="period-filters" role="group" aria-label="Geologické období">
-        <button type="button" data-period="triassic" aria-pressed="false">Trias</button>
-        <button type="button" data-period="jurassic" aria-pressed="false">Jura</button>
-        <button type="button" data-period="cretaceous" aria-pressed="false">Křída</button>
-        <button type="button" data-period="all" aria-pressed="true">Vše</button>
-      </div>
       <div class="filter-toolbar">
-        <label class="diet-field" for="diet-filter"><span>Potrava</span><select id="diet-filter"><option value="all">Všechna</option><option value="herbivore">Býložravci</option><option value="carnivore">Masožravci</option><option value="omnivore">Všežravci</option><option value="unknown">Nejistá potrava</option></select></label>
+        <label class="diet-field" for="diet-filter"><span>Potrava</span><button id="diet-open" class="button" type="button" aria-haspopup="dialog">Všechna ▾</button><select id="diet-filter" hidden><option value="all">Všechna</option><option value="herbivore">Býložravci</option><option value="carnivore">Masožravci</option><option value="omnivore">Všežravci</option><option value="unknown">Nejistá potrava</option></select></label>
         <button id="favorites-filter" class="button button-quiet" type="button" aria-pressed="false">♡ Oblíbení <span id="favorites-count">0</span></button>
+      </div>
+      <div class="search-reset-row">
+      <div class="search-field">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <div class="search-input-wrap"><input id="search" type="search" placeholder="Koho hledáš?" autocomplete="off" spellcheck="false" aria-label="Najdi pravěké zvíře podle názvu">
+        <button id="clear-search" type="button" aria-label="Vymazat hledání" hidden><span aria-hidden="true">×</span></button></div>
+      </div>
+      <button id="clear-filters" class="button button-primary" type="button">Vymazat filtry</button>
       </div>
       <div class="section-heading"><div><h2 id="gallery-title">Prozkoumej atlas</h2><p id="result-count" role="status" aria-live="polite"></p></div><button id="random-button" class="button button-quiet" type="button" aria-label="Otevřít náhodné zvíře z vybraných výsledků">Náhodně ↗</button></div>
       <div id="gallery" class="gallery"></div>
-      <div id="empty-state" class="empty-state" hidden><h2>Tady zatím nikoho nenajdeme.</h2><p>Zkus jiné hledání nebo uprav filtry.</p><button id="clear-filters" class="button button-primary" type="button">Vymazat filtry</button></div>
+      <div id="empty-state" class="empty-state" hidden><h2>Tady zatím nikoho nenajdeme.</h2><p>Zkus jiné hledání nebo uprav filtry.</p></div>
       <a class="quiz-invitation" href="#kviz"><span class="quiz-invitation-icon" aria-hidden="true">?</span><span><strong>Poznáš je podle obrázku?</strong><span>Krátký kvíz, nápověda a něco nového k objevení.</span></span><span aria-hidden="true">→</span></a>
     </section>
 
@@ -79,11 +86,20 @@
     <section id="not-found" class="page empty-state" hidden><h1>Tohle heslo tu zatím není.</h1><p>Vrať se do atlasu a vyber jiné zvíře.</p><a class="button button-primary" href="#atlas">Zpět do atlasu</a></section>
   </main>
 
-  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 0.9.0</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
+  <footer class="site-footer"><p><strong>Dino Atlas</strong><span>Ukázková verze · 1.0.0</span></p><p>Pracovní AI rekonstrukce. Zbarvení je ilustrativní; nejisté znaky vysvětluje detail.</p></footer>
   <div id="scroll-controls" class="scroll-controls" role="group" aria-label="Rychlý posun stránky" hidden>
+    <a id="detail-atlas" href="#atlas" aria-label="Zpět do atlasu" title="Zpět do atlasu" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4m7-7-7 7 7 7"/></svg></a>
+    <button id="quick-search-open" type="button" aria-label="Rychlé vyhledávání" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></button>
     <button id="scroll-up" type="button" data-scroll="up" aria-label="Na začátek stránky" title="Na začátek stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7"/></svg></button>
     <button id="scroll-down" type="button" data-scroll="down" aria-label="Na konec stránky" title="Na konec stránky"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg></button>
   </div>
+  <dialog id="diet-dialog" class="atlas-dialog" aria-labelledby="diet-title"><header><h2 id="diet-title">Potrava</h2><button class="button" type="button" data-close-dialog>Zavřít ×</button></header><div id="diet-options" role="radiogroup" aria-label="Potrava"></div></dialog>
+  <dialog id="knowledge-dialog" class="atlas-dialog" aria-labelledby="knowledge-title"><header><h2 id="knowledge-title"></h2><button class="button" type="button" data-close-dialog>Zavřít ×</button></header><div id="knowledge-body"></div></dialog>
+  <dialog id="quick-search-panel" class="atlas-dialog" aria-labelledby="quick-search-title">
+    <header><h2 id="quick-search-title">Najdi zvíře</h2><button class="button" data-close-dialog type="button">Zavřít ×</button></header>
+    <div class="quick-input-wrap"><input id="quick-search" type="search" aria-label="Rychlé hledání zvířete" placeholder="Koho hledáš?" autocomplete="off"><button id="quick-clear" type="button" aria-label="Vymazat hledání">×</button></div>
+    <button id="quick-reset" class="button" type="button">Vymazat filtry</button><p id="quick-count" role="status"></p><div id="quick-results"></div>
+  </dialog>
   <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title" aria-describedby="image-viewer-hint">
     <div class="image-viewer-header"><h2 id="image-viewer-title">Obrázek</h2><button id="image-viewer-close" class="button" type="button" autofocus>Zavřít <span aria-hidden="true">×</span></button></div>
     <div id="image-viewer-stage" class="image-viewer-stage" tabindex="0" aria-label="Zvětšený obrázek. Přibliž dvěma prsty nebo tlačítky ve spodní části obrazovky."><img id="image-viewer-image" alt="" draggable="false"></div>

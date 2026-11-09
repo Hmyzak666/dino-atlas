@@ -1,0 +1,38 @@
+{
+  "anomalocaris-canadensis": {
+    "sha256": "b541105aa9fa73bdd508a93da80a1165be57ddad4f0de57ba977358a7605e257",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-9d363d58-75c0-44aa-908a-c6d527282bf4.png"
+  },
+  "opabinia-regalis": {
+    "sha256": "5c2d0f3fe60a330c55b971d42b8ea80782724ee7355ff3e30b498fa6ce41f9d3",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-9be0fe54-7d56-4018-846e-15f742c85993.png"
+  },
+  "hallucigenia-sparsa": {
+    "sha256": "d8a0a8519633ad8793b1f542d489dc393778388541426c021a91f4e242646789",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-06734d70-b066-405a-a9e9-4ac929502537.png"
+  },
+  "marrella-splendens": {
+    "sha256": "2a56c69487faa8fce78c9b29129bf3acc7f60edf1a7e08b61792e2e81db153f2",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-824d5bb3-0d9f-41c9-843f-6c334ad753ee.png"
+  },
+  "wiwaxia-corrugata": {
+    "sha256": "7b4aae098d618fa2bd72e9d5341e79c8d0249a3617cba1415347f336b2de8215",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-043bccad-3e59-4d38-978b-dc4386ad7660.png"
+  },
+  "pikaia-gracilens": {
+    "sha256": "2f8ca2e5ea4e66d3b67cd0fd0d28fa728d3ac8d4906f50921720a411c55a4660",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-a5507dca-0904-488f-a701-7387c6194996.png"
+  }
+}

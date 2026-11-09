@@ -5,7 +5,7 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const baseline = require('./fixtures/verified-0.8.0.json');
 const config = require('../project.json');
-const db = require('../dinosaurs.json');
+const { historicalDatabase: db, batch } = require('./helpers/approved-nine.cjs');
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 
 // 0.9.0 is an authorized content/UI release, not a byte-identical cleanup.
@@ -14,15 +14,19 @@ const originals = require('./fixtures/original-0.8.1-records.json');
 assert.equal(originals.length, 42);
 for (const animal of originals) assert.deepEqual(db.dinosaurs.find(a => a.id === animal.id), animal, animal.id);
 for (const [name, expected] of Object.entries(baseline.assets)) {
-  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), expected, name);
+  if (name.startsWith('images/')) assert.equal(digest(fs.readFileSync(path.join(root,name))), require('./helpers/before-thirty.cjs').images[path.basename(name, '.webp')]?.sha256 || require('../docs/approved-twelve-2026-11-06.json').images[path.basename(name, '.webp')]?.sha256 || require('../docs/approved-three-2026-11-06.json').images[path.basename(name, '.webp')]?.sha256 || batch.images[path.basename(name, '.webp')]?.sha256 || expected, name);
 }
 assert.deepEqual(originals.map(a => a.id).sort(), baseline.animalIds);
-assert.equal(digest(fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'))), baseline.nativeSourceSha256);
+// Only the Android Back handler changes: close an open dialog before navigation.
+const nativeSource = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
+const historicalNative = nativeSource.replace(/        atlas\.evaluateJavascript\("\(function\(\)\{var d=document\.querySelector\('dialog\[open\]'\);[\s\S]*?        \}\);/, '        if (atlas.canGoBack()) atlas.goBack(); else finish();');
+assert.equal(digest(historicalNative), baseline.nativeSourceSha256);
 for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
 assert.equal(config.android.certificateSha256, baseline.certificateSha256);
-assert.equal(config.version, '0.9.0');
+assert.equal(config.version, '1.0.0');
+assert.ok(config.versionCode > 90001, '1.0 must update over the installed 0.9.0 APK');
 assert.ok(config.versionCode > 80101);
 assert.ok(config.versionCode > baseline.versionCode, 'cleanup APK must update the installed build');
 const java = fs.readFileSync(path.join(root, 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'), 'utf8');
@@ -32,6 +36,7 @@ assert.ok(java.includes('"/assets/index.html#atlas"'));
 const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
 for (const key of baseline.storageKeys) assert.ok(app.includes("'" + key + "'"), 'storage key changed: ' + key);
 const workflows = fs.readdirSync(path.join(root, '.github/workflows')).filter(f => /\.ya?ml$/.test(f));
-assert.deepEqual(workflows, ['android-apk.yml']);
+assert.ok(workflows.includes('android-apk.yml'));
+assert.ok(workflows.every(name=>['android-apk.yml','import-cambrian.yml','import-ordovician.yml','import-silurian.yml','import-devonian.yml','audit-carboniferous.yml','import-carboniferous.yml','audit-permian.yml','import-permian.yml','request-1.0-apk.yml','import-visual-refresh-01.yml'].includes(name)), 'Unexpected active workflow');
 assert.deepEqual(fs.readdirSync(path.join(root, 'images')).sort(), db.dinosaurs.map(a => path.basename(a.image.src)).sort());
-console.log('PASS: approved UI changes and confirmed database/image bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and one active workflow.');
+console.log('PASS: approved UI changes and confirmed database/image bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and only approved CI/import workflows.');

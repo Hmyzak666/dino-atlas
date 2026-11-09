@@ -1,0 +1,2272 @@
+{
+  "status": "draft-awaiting-eight-original-webp-images",
+  "period": "permian",
+  "reviewedAt": "2026-10-25",
+  "explanation": "Přesně osm vědecky zdrojovaných druhů pro závěrečnou obsahovou dávku. Neaktivovat bez osmi ověřených správných obrázků, autorů/licencí, regrese původních 104 záznamů a mobilních testů.",
+  "sources": {
+    "perm-dimetrodon-smithsonian": {
+      "title": "Smithsonian NMNH: Dimetrodon grandis fossil",
+      "shortTitle": "Smithsonian NMNH",
+      "url": "https://www.si.edu/object/nmnhpaleobiology_3451032",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-dimetrodon-image": {
+      "title": "Wikimedia Commons: Dimetrodon grandis reconstruction, DiBgd",
+      "shortTitle": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Dimetrodon_grandis.jpg",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-edaphosaurus-hartman": {
+      "title": "Scott Hartman: Edaphosaurus pogonias skeletal review",
+      "shortTitle": "Scott Hartman",
+      "url": "https://www.skeletaldrawing.com/synapsids/edaphosaurus-pogonias/",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-edaphosaurus-commons": {
+      "title": "Wikimedia Commons: EdaphosaurusDB by Dmitry Bogdanov",
+      "shortTitle": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:EdaphosaurusDB.jpg",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-inostrancevia-study": {
+      "title": "Kammerer et al. 2018: Russian gorgonopsians and Inostrancevia",
+      "shortTitle": "Kammerer et al. 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5995105/",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-inostrancevia-museum": {
+      "title": "Russian Academy of Sciences: Inostrancevia alexandri skeleton",
+      "shortTitle": "Russian Academy of Sciences",
+      "url": "https://www.ras.ru/paleontological_museum/4fb59d87-7326-4117-89ce-b243795231f6.aspx",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-scutosaurus-study": {
+      "title": "Romano et al. 2021: Scutosaurus 3D mass and restoration",
+      "shortTitle": "Romano et al. 2021",
+      "url": "https://doi.org/10.3389/fevo.2021.692035",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-scutosaurus-museum": {
+      "title": "Russian Academy of Sciences: Scutosaurus karpinskii fossils",
+      "shortTitle": "Russian Academy of Sciences",
+      "url": "https://www.ras.ru/paleontological_museum/c50733f5-ef8b-4314-a8bc-b2c259cf27cb.aspx",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-mesosaurus-study": {
+      "title": "Modesto 2006: Cranial skeleton of Mesosaurus tenuidens",
+      "shortTitle": "Modesto 2006",
+      "url": "https://doi.org/10.1111/j.1096-3642.2006.00205.x",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-mesosaurus-geology": {
+      "title": "Wikimedia Commons: Mesosaurus tenuidens illustration",
+      "shortTitle": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MESOSAURUS.png",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-diplocaulus-smithsonian": {
+      "title": "Smithsonian: Diplocaulus magnicornis specimen",
+      "shortTitle": "Smithsonian",
+      "url": "https://collections.si.edu/search/results.htm?fq=geo_age-system%3A%22Permian%22%26q=%22Diplocaulus+magnicornis%22",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-diplocaulus-original": {
+      "title": "Cope 1882 Diplocaulus magnicornis and taxon literature",
+      "shortTitle": "Cope 1882 Diplocaulus magnicornis and taxon literature",
+      "url": "https://www.mindat.org/taxon-P81712.html",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-helicoprion-ct2013": {
+      "title": "Tapanila et al. 2013: Jaw CT and tooth whorl",
+      "shortTitle": "Tapanila et al. 2013",
+      "url": "https://doi.org/10.1098/rsbl.2013.0057",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-helicoprion-tooth": {
+      "title": "Tapanila et al. 2013: Helicoprion species tooth geometry",
+      "shortTitle": "Tapanila et al. 2013",
+      "url": "https://doi.org/10.1666/12-156",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-helicoprion-tokyo": {
+      "title": "University of Tokyo: Helicoprion bessonowi fossil",
+      "shortTitle": "University of Tokyo",
+      "url": "https://www.um.u-tokyo.ac.jp/UMUTopenlab/en/library/b_16.html",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-estemmenosuchus-paleofile": {
+      "title": "Paleofile: Estemmenosuchus uralensis taxon holotype",
+      "shortTitle": "Paleofile",
+      "url": "https://www.paleofile.com/Theriodontia/Estemmenosuchus.asp",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    },
+    "perm-estemmenosuchus-image": {
+      "title": "Wikimedia Commons: Estemmenosuchus uralensis restoration",
+      "shortTitle": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Estemmenosuchus_uralensis.jpg",
+      "kind": "Institucionální paleontologický pramen, odborná práce nebo historické druhově identifikované dílo",
+      "accessedAt": "2026-10-25"
+    }
+  },
+  "animals": [
+    {
+      "id": "dimetrodon-grandis",
+      "scientificName": "Dimetrodon grandis",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "permian",
+      "diet": "carnivore",
+      "group": "Dimetrodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Synapsida",
+        "Sphenacodontidae",
+        "Dimetrodon"
+      ],
+      "aliases": [
+        "dimetrodon",
+        "dimetrodon grandis",
+        "ještěr s plachtou"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Dimetrodon",
+      "image": {
+        "src": "images/dimetrodon-grandis.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Dimetrodon."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný perm · asi před 295–272 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-dimetrodon-smithsonian",
+            "perm-dimetrodon-image"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Texas a Oklahoma"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-dimetrodon-smithsonian",
+            "perm-dimetrodon-image"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 3 m je orientační rekonstrukce velkých jedinců, nikoli přesně změřený celý typový exemplář."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-dimetrodon-smithsonian",
+            "perm-dimetrodon-image"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-dimetrodon-smithsonian",
+            "perm-dimetrodon-image"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Dimetrodon",
+          "ageLabel": "Raný perm · asi před 295–272 miliony let",
+          "location": "Severní Amerika · Texas a Oklahoma",
+          "groupLabel": "Raní synapsidi · sfenakodonti",
+          "cardSummary": "Dravý synapsid s vysokou hřbetní plachtou, nikoli dinosaurus.",
+          "summary": "Příbuzný vývojové linie vedoucí k savcům měl mohutné čelisti, různě velké špičaté zuby a vysoké trnové výběžky obratlů nesoucí kožní plachtu.",
+          "quizHint": "Vysoká plachta na zádech, čtyři rozložené končetiny a dlouhá dravá tlama.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoká hřbetní plachta podepřená kostními výběžky obratlů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-dimetrodon-smithsonian",
+                "perm-dimetrodon-image"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Poměrně dlouhá lebka se zuby různé velikosti."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-dimetrodon-smithsonian",
+                "perm-dimetrodon-image"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři krátké do stran postavené končetiny a dlouhý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-dimetrodon-smithsonian",
+                "perm-dimetrodon-image"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoká hřbetní plachta podepřená kostními výběžky obratlů. Poměrně dlouhá lebka se zuby různé velikosti. Čtyři krátké do stran postavené končetiny a dlouhý ocas. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-dimetrodon-smithsonian",
+              "perm-dimetrodon-image"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Není to dinosaurus",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dimetrodon žil desítky milionů let před dinosaury a patřil mezi synapsidy, tedy širší větev vývoje, z níž vzešli savci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-dimetrodon-smithsonian",
+                    "perm-dimetrodon-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "K čemu sloužila plachta?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Prodloužené výběžky obratlů nesly kožní plachtu. Funkce pro termoregulaci, rozpoznávání nebo předvádění je předmětem hypotéz, nikoli přímým fosilním důkazem."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-dimetrodon-smithsonian",
+                    "perm-dimetrodon-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dva typy zubů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rodové jméno odkazuje na výrazně rozdílné zuby. Přední a zadní zuby nesly různou podobu a podílely se na uchopování a porcování kořisti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-dimetrodon-smithsonian",
+                    "perm-dimetrodon-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Pevná lebka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie zahrnují lebky, zuby, obratle s vysokými trny a části končetin, díky kterým je anatomie lépe známá než u mnoha současníků."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-dimetrodon-smithsonian",
+                    "perm-dimetrodon-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Močály raného permu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie z Texasu a okolí dokumentují masožravého suchozemského živočicha v permských krajinách s vodními toky a nížinami."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-dimetrodon-smithsonian",
+                    "perm-dimetrodon-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Barva plachty, její případné vzory, sociální chování a přesná rychlost pohybu nebyly doloženy."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-dimetrodon-smithsonian",
+          "perm-dimetrodon-image"
+        ],
+        "note": {
+          "cs": "Délka kolem 3 m je orientační rekonstrukce velkých jedinců, nikoli přesně změřený celý typový exemplář."
+        }
+      },
+      "lengthM": {
+        "estimate": 3,
+        "scope": "Délka kolem 3 m je orientační rekonstrukce velkých jedinců, nikoli přesně změřený celý typový exemplář."
+      }
+    },
+    {
+      "id": "edaphosaurus-pogonias",
+      "scientificName": "Edaphosaurus pogonias",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "permian",
+      "diet": "herbivore",
+      "group": "Edaphosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Synapsida",
+        "Edaphosauridae",
+        "Edaphosaurus"
+      ],
+      "aliases": [
+        "edaphosaurus",
+        "edaphosaurus pogonias",
+        "edafosaurus"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Edafosaurus",
+      "image": {
+        "src": "images/edaphosaurus-pogonias.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Edaphosaurus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon až raný perm · přibližně před 300–280 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-edaphosaurus-hartman",
+            "perm-edaphosaurus-commons"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Texas"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-edaphosaurus-hartman",
+            "perm-edaphosaurus-commons"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Rekonstrukce E. pogonias uvádí přibližně 3,5 m; jde o odhad podle kostry."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-edaphosaurus-hartman",
+            "perm-edaphosaurus-commons"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně převážně rostliny"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-edaphosaurus-hartman",
+            "perm-edaphosaurus-commons"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Edaphosaurus",
+          "ageLabel": "Pozdní karbon až raný perm · přibližně před 300–280 mil. let",
+          "location": "Severní Amerika · Texas",
+          "groupLabel": "Raní býložraví synapsidi",
+          "cardSummary": "Býložravý synapsid s hřbetní plachtou a příčnými výrůstky.",
+          "summary": "Robustní permský synapsid s malou hlavou, hlubším břichem a vysokou hřbetní plachtou. Na rozdíl od Dimetrodona měla její kostní podpěra krátké příčné výrůstky.",
+          "quizHint": "Podívej se na malou hlavu a plachtu s drobnými příčnými tyčinkami.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoká plachta s bočními kostěnými výběžky na každém delším hřbetním trnu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-edaphosaurus-hartman",
+                "perm-edaphosaurus-commons"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava na širokém těle s objemným břichem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-edaphosaurus-hartman",
+                "perm-edaphosaurus-commons"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři krátké končetiny a dlouhý nízký ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-edaphosaurus-hartman",
+                "perm-edaphosaurus-commons"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoká plachta s bočními kostěnými výběžky na každém delším hřbetním trnu. Malá hlava na širokém těle s objemným břichem. Čtyři krátké končetiny a dlouhý nízký ocas. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-edaphosaurus-hartman",
+              "perm-edaphosaurus-commons"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Plachta s příčnými tyčkami",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na prodloužených hřbetních obratlích byly krátké postranní kostní výrůstky, které ho odlišují od Dimetrodona."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-edaphosaurus-hartman",
+                    "perm-edaphosaurus-commons"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Edaphosaurus měla drobnější zuby a tělesné proporce, které podporují interpretaci převážně rostlinné potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-edaphosaurus-hartman",
+                    "perm-edaphosaurus-commons"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dávný příbuzný savců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "I přes vzhled plazů patřil mezi synapsidy a neměl blízký vztah k dinosaurům."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-edaphosaurus-hartman",
+                    "perm-edaphosaurus-commons"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "K čemu byla plachta?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Termoregulace a vizuální signalizace jsou diskutované funkce. Přesný účel ani skutečný tvar měkké kožní membrány není jistý."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-edaphosaurus-hartman",
+                    "perm-edaphosaurus-commons"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Kde žil",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní nálezy jsou známy z raného permu Severní Ameriky, včetně dnešního Texasu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-edaphosaurus-hartman",
+                    "perm-edaphosaurus-commons"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Barvy, podoba kůže, sociální struktura a denní aktivita se nedají určit ze samotných kostí."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-edaphosaurus-hartman",
+          "perm-edaphosaurus-commons"
+        ],
+        "note": {
+          "cs": "Rekonstrukce E. pogonias uvádí přibližně 3,5 m; jde o odhad podle kostry."
+        }
+      },
+      "lengthM": {
+        "estimate": 3.5,
+        "scope": "Rekonstrukce E. pogonias uvádí přibližně 3,5 m; jde o odhad podle kostry."
+      }
+    },
+    {
+      "id": "inostrancevia-alexandri",
+      "scientificName": "Inostrancevia alexandri",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "permian",
+      "diet": "carnivore",
+      "group": "Inostrancevia",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Synapsida",
+        "Therapsida",
+        "Gorgonopsia",
+        "Inostrancevia"
+      ],
+      "aliases": [
+        "inostrancevia",
+        "inostrancevia alexandri",
+        "inostrancevie",
+        "inostranzevia"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Inostrancevia",
+      "image": {
+        "src": "images/inostrancevia-alexandri.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Inostrancevia."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní perm · přibližně před 254–252 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-inostrancevia-study",
+            "perm-inostrancevia-museum"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · povodí Severní Dviny, Rusko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-inostrancevia-study",
+            "perm-inostrancevia-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 3 m je orientační velikost velkého gorgonopse odvozená ze známých koster; jedinci se lišili."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-inostrancevia-study",
+            "perm-inostrancevia-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-inostrancevia-study",
+            "perm-inostrancevia-museum"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Inostrancevia",
+          "ageLabel": "Pozdní perm · přibližně před 254–252 mil. let",
+          "location": "Evropa · povodí Severní Dviny, Rusko",
+          "groupLabel": "Terapsidi · gorgonopsi",
+          "cardSummary": "Velký permský dravý terapsid s mohutnými špičáky.",
+          "summary": "Velký pozdně permský gorgonops byl predátor s dlouhou lebkou a nápadnými horními špičáky. Patřil k savčí vývojové větvi, ale nebyl savcem ani dinosaurem.",
+          "quizHint": "Dlouhé horní špičáky, nízké čtyřnohé tělo a žádná hřbetní plachta.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlá lebka s výrazným párem prodloužených horních špičáků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-inostrancevia-study",
+                "perm-inostrancevia-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silný trup na čtyřech končetinách bez plachty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-inostrancevia-study",
+                "perm-inostrancevia-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas a velká čelist s řadou menších zubů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-inostrancevia-study",
+                "perm-inostrancevia-museum"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlá lebka s výrazným párem prodloužených horních špičáků. Silný trup na čtyřech končetinách bez plachty. Dlouhý ocas a velká čelist s řadou menších zubů. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-inostrancevia-study",
+              "perm-inostrancevia-museum"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Pozdně permský lovec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Gorgonopsové byli významní masožraví synapsidi, kteří žili dlouho před vznikem moderních savců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-inostrancevia-study",
+                    "perm-inostrancevia-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Velké špičáky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z lebky jsou doloženy dlouhé horní špičáky a další zuby, pravděpodobně používané při uchopení kořisti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-inostrancevia-study",
+                    "perm-inostrancevia-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Kostry ze Severní Dviny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkum ruské lokality Sokolki odkryl kostry a lebky Inostrancevia alexandri."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-inostrancevia-study",
+                    "perm-inostrancevia-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Není to tygr",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobnost špičáků s velkými šelmami neznamená, že Inostrancevia měla srst nebo stejné způsoby lovu. Tělesný pokryv neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-inostrancevia-study",
+                    "perm-inostrancevia-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Mezi savčími příbuznými",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřila mezi terapsidy. Přestože její vývojová větev zanikla, patřila do širší skupiny Synapsida."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-inostrancevia-study",
+                    "perm-inostrancevia-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Není doložena barva, přítomnost srsti ani konkrétní způsob života a rozmnožování."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-inostrancevia-study",
+          "perm-inostrancevia-museum"
+        ],
+        "note": {
+          "cs": "Přibližně 3 m je orientační velikost velkého gorgonopse odvozená ze známých koster; jedinci se lišili."
+        }
+      },
+      "lengthM": {
+        "estimate": 3,
+        "scope": "Přibližně 3 m je orientační velikost velkého gorgonopse odvozená ze známých koster; jedinci se lišili."
+      }
+    },
+    {
+      "id": "scutosaurus-karpinskii",
+      "scientificName": "Scutosaurus karpinskii",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "permian",
+      "diet": "herbivore",
+      "group": "Scutosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Parareptilia",
+        "Pareiasauria",
+        "Scutosaurus"
+      ],
+      "aliases": [
+        "scutosaurus",
+        "scutosaurus karpinskii",
+        "skutosaurus"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Skutosaurus",
+      "image": {
+        "src": "images/scutosaurus-karpinskii.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Scutosaurus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní perm · přibližně před 254–252 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-scutosaurus-study",
+            "perm-scutosaurus-museum"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · sever evropského Ruska"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-scutosaurus-study",
+            "perm-scutosaurus-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 3 metry je zjednodušená velikostní rekonstrukce; hmotnost ve vědeckých modelech závisí na objemu měkkých tkání."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-scutosaurus-study",
+            "perm-scutosaurus-museum"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně převážně rostliny"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-scutosaurus-study",
+            "perm-scutosaurus-museum"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Scutosaurus",
+          "ageLabel": "Pozdní perm · přibližně před 254–252 mil. let",
+          "location": "Evropa · sever evropského Ruska",
+          "groupLabel": "Parareptilie · pareiasauři",
+          "cardSummary": "Robustní býložravá parareptilie s kostěnými štítky.",
+          "summary": "Masivní suchozemský býložravec s širokým tělem, silnými končetinami a kostěnými výrůstky na hlavě. Vědecké 3D modely ukazují široký, robustní trup.",
+          "quizHint": "Široké krátkonohé tělo, štítky na kůži a hrbolatou lebku.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velký hluboký trup podepřený čtyřmi silnými nohami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-scutosaurus-study",
+                "perm-scutosaurus-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátká široká lebka s kostěnými hrboly a lícními výběžky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-scutosaurus-study",
+                "perm-scutosaurus-museum"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Nepravidelné kostěné štítky v kůži a poměrně kratší ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-scutosaurus-study",
+                "perm-scutosaurus-museum"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velký hluboký trup podepřený čtyřmi silnými nohami. Krátká široká lebka s kostěnými hrboly a lícními výběžky. Nepravidelné kostěné štítky v kůži a poměrně kratší ocas. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-scutosaurus-study",
+              "perm-scutosaurus-museum"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obrněný býložravec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Scutosaurus měla kostěné štítky v kůži a pevnou lebku. Zuby a tělesná stavba ukazují na rostlinnou potravu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-scutosaurus-study",
+                    "perm-scutosaurus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Kolik vážil?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Objemové modelování podle kostry dává ve studii z roku 2021 u průměrného modelu hmotnost asi 1,16 tuny; nejde o přesně změřenou hmotnost živého zvířete."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-scutosaurus-study",
+                    "perm-scutosaurus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Sokolki v Rusku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na nalezišti u Severní Dviny byly objeveny kostry více jedinců Scutosaurus karpinskii."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-scutosaurus-study",
+                    "perm-scutosaurus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Jiná větev než dinosauři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pareiasauři jsou vyhynulí amnioti obvykle řazení mezi parareptilie, nikoli dinosauři ani savci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-scutosaurus-study",
+                    "perm-scutosaurus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Mohutné končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie uchovávají velmi silné pažní a stehenní kosti, které podpíraly široký trup."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-scutosaurus-study",
+                    "perm-scutosaurus-museum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesná podoba barev, rozmnožování a funkce všech kožních štítků zůstává nejistá."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-scutosaurus-study",
+          "perm-scutosaurus-museum"
+        ],
+        "note": {
+          "cs": "Přibližně 3 metry je zjednodušená velikostní rekonstrukce; hmotnost ve vědeckých modelech závisí na objemu měkkých tkání."
+        }
+      },
+      "lengthM": {
+        "estimate": 3,
+        "scope": "Přibližně 3 metry je zjednodušená velikostní rekonstrukce; hmotnost ve vědeckých modelech závisí na objemu měkkých tkání."
+      }
+    },
+    {
+      "id": "mesosaurus-tenuidens",
+      "scientificName": "Mesosaurus tenuidens",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "permian",
+      "diet": "carnivore",
+      "group": "Mesosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Mesosauridae",
+        "Mesosaurus"
+      ],
+      "aliases": [
+        "mesosaurus",
+        "mesosaurus tenuidens",
+        "mezosaurus"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Mezosaurus",
+      "image": {
+        "src": "images/mesosaurus-tenuidens.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Mesosaurus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný perm · přibližně před 285–280 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-mesosaurus-study",
+            "perm-mesosaurus-geology"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Afrika a Jižní Amerika · Namibie, Brazílie a Uruguay"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-mesosaurus-study",
+            "perm-mesosaurus-geology"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 0,8 m je orientační velikost dospělce; známé exempláře se výrazně liší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-mesosaurus-study",
+            "perm-mesosaurus-geology"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-mesosaurus-study",
+            "perm-mesosaurus-geology"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Mesosaurus",
+          "ageLabel": "Raný perm · přibližně před 285–280 mil. let",
+          "location": "Afrika a Jižní Amerika · Namibie, Brazílie a Uruguay",
+          "groupLabel": "Raní vodní plazi · mesosauři",
+          "cardSummary": "Malý vodní plaz s dlouhým ocasem a mnoha tenkými zuby.",
+          "summary": "Jeden z raných vodních plazů měl protáhlý čenich, štíhlý trup a silný ocas. Jeho zkameněliny v Africe a Jižní Americe pomohly dokládat někdejší spojení kontinentů.",
+          "quizHint": "Štíhlé protáhlé tělo ve vodě, tenké zuby a dlouhý ocas.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Úzký podlouhlý čenich s mnoha tenkými jehlicovitými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-mesosaurus-study",
+                "perm-mesosaurus-geology"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Protáhlý nízký trup a čtyři končetiny přizpůsobené vodě."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-mesosaurus-study",
+                "perm-mesosaurus-geology"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas sloužící k plavání."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-mesosaurus-study",
+                "perm-mesosaurus-geology"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Úzký podlouhlý čenich s mnoha tenkými jehlicovitými zuby. Protáhlý nízký trup a čtyři končetiny přizpůsobené vodě. Dlouhý ocas sloužící k plavání. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-mesosaurus-study",
+              "perm-mesosaurus-geology"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Fosilie na dvou kontinentech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pozůstatky Mesosaurus tenuidens nacházíme v jižní Africe i v Jižní Americe. Toto rozšíření se stalo důležitým dokladem někdejšího spojení kontinentů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-mesosaurus-study",
+                    "perm-mesosaurus-geology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Co chytal zuby?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhé špičaté zuby nejspíš sloužily k zachytávání jednotlivé drobné pohyblivé kořisti. Starší hypotéza o jednoduchém filtrování planktonu byla zpochybněna."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-mesosaurus-study",
+                    "perm-mesosaurus-geology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Skutečný vodní plaz",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mesosaurus patřila mezi rané amnioty specializované na pohyb ve vodě, nikoli mezi ryby nebo mořské dinosaury."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-mesosaurus-study",
+                    "perm-mesosaurus-geology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Pohyb ve vodě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Prodloužené tělo a ocas jsou slučitelné s aktivním plaváním v mělkých vodních systémech."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-mesosaurus-study",
+                    "perm-mesosaurus-geology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Důkaz kontinentálního driftu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobné permské nálezy na dnešních vzdálených kontinentech podpořily model společné Gondwany."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-mesosaurus-study",
+                    "perm-mesosaurus-geology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Není bezpečně určené zbarvení, přesná slanost všech obývaných vod ani chování při rozmnožování."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.8,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-mesosaurus-study",
+          "perm-mesosaurus-geology"
+        ],
+        "note": {
+          "cs": "Přibližně 0,8 m je orientační velikost dospělce; známé exempláře se výrazně liší."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.8,
+        "scope": "Přibližně 0,8 m je orientační velikost dospělce; známé exempláře se výrazně liší."
+      }
+    },
+    {
+      "id": "diplocaulus-magnicornis",
+      "scientificName": "Diplocaulus magnicornis",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "permian",
+      "diet": "carnivore",
+      "group": "Diplocaulus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Tetrapoda",
+        "Nectridea",
+        "Diplocaulidae",
+        "Diplocaulus"
+      ],
+      "aliases": [
+        "diplocaulus",
+        "diplocaulus magnicornis",
+        "diplokaulus"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Diplokaulus",
+      "image": {
+        "src": "images/diplocaulus-magnicornis.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Diplocaulus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný perm · přibližně před 290–270 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-diplocaulus-smithsonian",
+            "perm-diplocaulus-original"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Texas, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-diplocaulus-smithsonian",
+            "perm-diplocaulus-original"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 1 m je orientační velikost větších rekonstrukcí, nikoli jeden úplný změřený nález."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-diplocaulus-smithsonian",
+            "perm-diplocaulus-original"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-diplocaulus-smithsonian",
+            "perm-diplocaulus-original"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Diplocaulus",
+          "ageLabel": "Raný perm · přibližně před 290–270 mil. let",
+          "location": "Severní Amerika · Texas, USA",
+          "groupLabel": "Vyhynulí drobní čtyřnožci · nektridi",
+          "cardSummary": "Vodní čtyřnožec s hlavou připomínající bumerang.",
+          "summary": "Permský nektrid s neobvykle rozšířenými zadními rohy lebky. Zploštělá hlava připomínala bumerang, zatímco trup zůstával protáhlý a vodní.",
+          "quizHint": "Nápadná široká bumerangová hlava se dvěma dlouhými rohy do stran.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Extrémně široká zploštělá lebka se dvěma zadními postranními rohy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-diplocaulus-smithsonian",
+                "perm-diplocaulus-original"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Protáhlý nízký trup se čtyřmi krátkými končetinami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-diplocaulus-smithsonian",
+                "perm-diplocaulus-original"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas a malé oči na horní straně hlavy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-diplocaulus-smithsonian",
+                "perm-diplocaulus-original"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Extrémně široká zploštělá lebka se dvěma zadními postranními rohy. Protáhlý nízký trup se čtyřmi krátkými končetinami. Dlouhý ocas a malé oči na horní straně hlavy. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-diplocaulus-smithsonian",
+              "perm-diplocaulus-original"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Hlava jako bumerang",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhé postranní výběžky lebky, tvořené zadními lebečními kostmi, dávají druhu jeho typický tvar."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-diplocaulus-smithsonian",
+                    "perm-diplocaulus-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Co dělaly hlavové rohy?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkumníci navrhli hydrodynamickou, obrannou nebo vizuální funkci. Přesný účel hlavového tvaru ale nebyl prokázán."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-diplocaulus-smithsonian",
+                    "perm-diplocaulus-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Voda a končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tělesná stavba naznačuje přinejmenším výrazně vodní způsob života; samotná přítomnost čtyř nohou neprokazuje dobrou chůzi na souši."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-diplocaulus-smithsonian",
+                    "perm-diplocaulus-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Nektřidní větev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Diplocaulus patřil do vymřelé skupiny čtyřnožců nazývaných nektridi. Nebyl to moderní mlok ani dinosaurus."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-diplocaulus-smithsonian",
+                    "perm-diplocaulus-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Druhové jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Správné vědecké jméno je Diplocaulus magnicornis, potvrzené paleontologickými sbírkami a původním popisem Copeho z roku 1882."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-diplocaulus-smithsonian",
+                    "perm-diplocaulus-original"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Barva, skutečná funkce kostěných rohů a přesné množství času trávené na souši zůstávají nejisté."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-diplocaulus-smithsonian",
+          "perm-diplocaulus-original"
+        ],
+        "note": {
+          "cs": "Délka kolem 1 m je orientační velikost větších rekonstrukcí, nikoli jeden úplný změřený nález."
+        }
+      },
+      "lengthM": {
+        "estimate": 1,
+        "scope": "Délka kolem 1 m je orientační velikost větších rekonstrukcí, nikoli jeden úplný změřený nález."
+      }
+    },
+    {
+      "id": "helicoprion-bessonowi",
+      "scientificName": "Helicoprion bessonowi",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "permian",
+      "diet": "carnivore",
+      "group": "Helicoprion",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Chondrichthyes",
+        "Euchondrocephali",
+        "Helicoprion"
+      ],
+      "aliases": [
+        "helicoprion",
+        "helicoprion bessonowi",
+        "helicoprion bessonovi"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Helikoprion",
+      "image": {
+        "src": "images/helicoprion-bessonowi.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Helicoprion."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný perm · přibližně před 290–270 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-helicoprion-ct2013",
+            "perm-helicoprion-tooth",
+            "perm-helicoprion-tokyo"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Euroasie a severní Tichomoří · uralská oblast"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-helicoprion-ct2013",
+            "perm-helicoprion-tooth",
+            "perm-helicoprion-tokyo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 4 m je ilustrativní odhad pro porovnání; známé jsou převážně zubní spirály a velikost celého těla je velmi nejistá."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-helicoprion-ct2013",
+            "perm-helicoprion-tooth",
+            "perm-helicoprion-tokyo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-helicoprion-ct2013",
+            "perm-helicoprion-tooth",
+            "perm-helicoprion-tokyo"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Helicoprion",
+          "ageLabel": "Raný perm · přibližně před 290–270 mil. let",
+          "location": "Euroasie a severní Tichomoří · uralská oblast",
+          "groupLabel": "Chrupavčité ryby · kmenoví celohlaví",
+          "cardSummary": "Paryba se spirálou zubů ukrytou v dolní čelisti.",
+          "summary": "Vyhynulý příbuzný dnešních chimér. Jeho nepřetržitě dorůstající řada zubů se stáčela do spirály uvnitř dolní čelisti, kde pravděpodobně krájela měkkou kořist.",
+          "quizHint": "Žralokovitá ryba, která má jedinou spirálu zubů uvnitř dolní čelisti, ne na nose.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Výrazná jediná zubní spirála v dolní čelisti uvnitř úst."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-helicoprion-ct2013",
+                "perm-helicoprion-tooth",
+                "perm-helicoprion-tokyo"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Proudnické tělo podobné parybě; přesné ploutve jsou hypotetické."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-helicoprion-ct2013",
+                "perm-helicoprion-tooth",
+                "perm-helicoprion-tokyo"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Hlava bez vnější kruhové pily vyčnívající před čenich."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-helicoprion-ct2013",
+                "perm-helicoprion-tooth",
+                "perm-helicoprion-tokyo"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Výrazná jediná zubní spirála v dolní čelisti uvnitř úst. Proudnické tělo podobné parybě; přesné ploutve jsou hypotetické. Hlava bez vnější kruhové pily vyčnívající před čenich. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-helicoprion-ct2013",
+              "perm-helicoprion-tooth",
+              "perm-helicoprion-tokyo"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Zubní spirála v čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Počítačová tomografie fosilií ukázala, že spirála byla uložena uvnitř dolní čelisti, nikoli na ocase, nose nebo hřbetě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-helicoprion-ct2013",
+                    "perm-helicoprion-tooth",
+                    "perm-helicoprion-tokyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Příbuzný chimér",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Anatomie čelisti řadí Helicoprion mezi dávné příbuzné celohlavých, tedy skupiny zahrnující dnešní chiméry."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-helicoprion-ct2013",
+                    "perm-helicoprion-tooth",
+                    "perm-helicoprion-tokyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Jak fungovaly zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Při sevření čelistí mohl zubní závit posouvat kořist dozadu a porcovat měkčí těla vodních živočichů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-helicoprion-ct2013",
+                    "perm-helicoprion-tooth",
+                    "perm-helicoprion-tokyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Druh bessonowi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druh H. bessonowi se od některých příbuzných druhů odlišuje úzkými, těsněji posazenými zuby s nižšími řeznými okraji."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-helicoprion-ct2013",
+                    "perm-helicoprion-tooth",
+                    "perm-helicoprion-tokyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Proč chybí celé tělo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Chrupavčitá kostra se špatně zachovávala. Zkameněliny často obsahují zuby a někdy okolní chrupavku, ale ne celé tělo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-helicoprion-ct2013",
+                    "perm-helicoprion-tooth",
+                    "perm-helicoprion-tokyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvar všech ploutví, reálná velikost konkrétního druhu, barvy a způsob rozmnožování jsou nejisté."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 4,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-helicoprion-ct2013",
+          "perm-helicoprion-tooth",
+          "perm-helicoprion-tokyo"
+        ],
+        "note": {
+          "cs": "Délka kolem 4 m je ilustrativní odhad pro porovnání; známé jsou převážně zubní spirály a velikost celého těla je velmi nejistá."
+        }
+      },
+      "lengthM": {
+        "estimate": 4,
+        "scope": "Délka kolem 4 m je ilustrativní odhad pro porovnání; známé jsou převážně zubní spirály a velikost celého těla je velmi nejistá."
+      }
+    },
+    {
+      "id": "estemmenosuchus-uralensis",
+      "scientificName": "Estemmenosuchus uralensis",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "permian",
+      "diet": "unknown",
+      "group": "Estemmenosuchus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Synapsida",
+        "Therapsida",
+        "Dinocephalia",
+        "Estemmenosuchus"
+      ],
+      "aliases": [
+        "estemmenosuchus",
+        "estemmenosuchus uralensis",
+        "estemmenosuchus uralensis"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Estemmenosuchus",
+      "image": {
+        "src": "images/estemmenosuchus-uralensis.webp",
+        "alt": {
+          "cs": "Rekonstrukce pravěkého živočicha Estemmenosuchus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz zatím není vložen; po obrazovém auditu bude uveden autor, licence a upozornění na rekonstrukci."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední perm · přibližně před 267–262 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-estemmenosuchus-paleofile",
+            "perm-estemmenosuchus-image"
+          ],
+          "note": {
+            "cs": "Datování nálezů, nikoli přesná doba života všech jedinců."
+          }
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · oblast Permu a Uralu, Rusko"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "perm-estemmenosuchus-paleofile",
+            "perm-estemmenosuchus-image"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližně 3 m je orientační rekonstrukce robustního terapsida, nikoli kompletní přesné měření jednoho exempláře."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "perm-estemmenosuchus-paleofile",
+            "perm-estemmenosuchus-image"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Nedostatečně doložená pro přesné číselné srovnání"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesný jídelníček neznáme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Estemmenosuchus",
+          "ageLabel": "Střední perm · přibližně před 267–262 mil. let",
+          "location": "Evropa · oblast Permu a Uralu, Rusko",
+          "groupLabel": "Terapsidi · dinocefalové",
+          "cardSummary": "Robustní terapsid s kostěnými rohy a výrůstky na lebce.",
+          "summary": "Dinocefalní terapsid známý podivnými kostěnými výrůstky na hlavě. Měl silný trup a relativně krátké nohy, ale jeho přesná potrava a funkce lebečních rohů nejsou jisté.",
+          "quizHint": "Podívej se na několik velkých tupých kostěných rohů vyrůstajících z lebky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Robustní široká lebka s nápadnými kostěnými hrboly a rohy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-estemmenosuchus-paleofile",
+                "perm-estemmenosuchus-image"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné tělo na čtyřech poměrně krátkých končetinách."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-estemmenosuchus-paleofile",
+                "perm-estemmenosuchus-image"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silnější krk a široká tlama bez vysoké hřbetní plachty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "perm-estemmenosuchus-paleofile",
+                "perm-estemmenosuchus-image"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Robustní široká lebka s nápadnými kostěnými hrboly a rohy. Mohutné tělo na čtyřech poměrně krátkých končetinách. Silnější krk a široká tlama bez vysoké hřbetní plachty. Barva ani pozadí rekonstrukce nejsou určovací znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "perm-estemmenosuchus-paleofile",
+              "perm-estemmenosuchus-image"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Podivné kostěné rohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lebka nesla mohutné výrůstky, které ji odlišovaly od většiny ostatních permských terapsidů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-estemmenosuchus-paleofile",
+                    "perm-estemmenosuchus-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Byl to savec?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi terapsidy, významné předchůdce savčího vývojového větvení, ale nebyl moderním savcem ani dinosaurem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-estemmenosuchus-paleofile",
+                    "perm-estemmenosuchus-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Kde byly fosilie nalezeny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkameněliny Estemmenosuchus uralensis jsou známé z oblasti Očjoru v Permském kraji Ruska."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "perm-estemmenosuchus-paleofile",
+                    "perm-estemmenosuchus-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Co jedl",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ze zubů a čelistí lze uvažovat o rostlinné či smíšené potravě. Bez přímých důkazů ale nelze konkrétní jídelníček tvrdit jako jistotu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-estemmenosuchus-paleofile",
+                    "perm-estemmenosuchus-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Co znamenaly rohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rohy mohly sloužit při signalizaci, soupeření či ochraně. Jejich přesná funkce není doložena."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "perm-estemmenosuchus-paleofile",
+                    "perm-estemmenosuchus-image"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jeho skutečné zbarvení, podoba měkkých tkání okolo rohů a chování ve skupině nejsou známé."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3,
+        "confidence": "estimate",
+        "sourceIds": [
+          "perm-estemmenosuchus-paleofile",
+          "perm-estemmenosuchus-image"
+        ],
+        "note": {
+          "cs": "Přibližně 3 m je orientační rekonstrukce robustního terapsida, nikoli kompletní přesné měření jednoho exempláře."
+        }
+      },
+      "lengthM": {
+        "estimate": 3,
+        "scope": "Přibližně 3 m je orientační rekonstrukce robustního terapsida, nikoli kompletní přesné měření jednoho exempláře."
+      }
+    }
+  ]
+}

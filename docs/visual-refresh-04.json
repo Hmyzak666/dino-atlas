@@ -1,0 +1,32 @@
+{
+  "isotelus-rex": {
+    "sha256": "f1eb8baec5ac2df3bfecb69f2ee9074520ae62be434dde69b275d6084adc98ef",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-4c60e0c7-4696-407c-b79d-03ba6598aecb.png"
+  },
+  "asaphus-kowalewskii": {
+    "sha256": "883d601c6b32b091ae2d4ca604609bdd1e0bcd321b1755c75f6e1a1127225424",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-ac09021b-2206-4bfe-9ad4-5ebf2fdb3c1c.png"
+  },
+  "aegirocassis-benmoulai": {
+    "sha256": "7e9d965fbf051fd8bd8083dc5ceec5cbd2adf6f4719f0ce7cd2f192e314bddcf",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-41f884f7-eb4b-48a8-9a0d-ae7857394355.png"
+  },
+  "arandaspis-prionotolepis": {
+    "sha256": "85b2c24fb1daecb17391662e8df670ed7afbbc73480c66dc2b949d11472ce51e",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-6826ee86-259c-4d10-b928-e37298bc08b3.png"
+  },
+  "endoceras-proteiforme": {
+    "sha256": "2674a2f33ce2d81b28322a914e057e459a46ab104f4a2d58999ea140a9c12dcf",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-24ec7ee1-85c3-469b-b049-aa625a1a3ede.png"
+  }
+}

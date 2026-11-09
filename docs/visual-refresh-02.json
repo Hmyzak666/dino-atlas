@@ -1,0 +1,20 @@
+{
+  "acutiramus-bohemicus": {
+    "sha256": "e3d08b0ac7faaff4d406042944d4e67b1193885dc4a0a87b1c5988ccf35b3aaf",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-9315b75a-a967-4580-ad0c-733040c50316.png"
+  },
+  "birkenia-elegans": {
+    "sha256": "30a92a65e378a082c317a6f0927765881497f31264d3f15e6a3a076b551cbb5a",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-0294f0fe-4680-4eff-94d0-518419fa7dfd.png"
+  },
+  "dunkleosteus-terrelli": {
+    "sha256": "9697a5b6eaff1e73777de35cff9bb1745f24c31357b0c24a8f6d57e6d2dae786",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-fe18de8b-e2d3-4a03-9d6d-e994e64267d1.png"
+  }
+}
