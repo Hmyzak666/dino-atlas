@@ -14,10 +14,11 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(`http://127.0.0.1:${server.address().port}/#atlas`);await page.locator('.dino-card').first().waitFor();
  assert.equal(await page.locator('.dino-card').count(),112);
+ const qa=process.env.DINO_QA_DIR||path.join(root,'.qa');await fs.mkdir(qa,{recursive:true});await page.screenshot({path:path.join(qa,`atlas-new-${width}.png`)});
  const box=await page.locator('#search').boundingBox(),reset=await page.locator('#clear-filters').boundingBox(),groups=await page.locator('#category-filters').boundingBox();
  assert.ok(box.y>groups.y+groups.height);assert.ok(box.x+box.width<=reset.x);assert.ok(Math.abs(box.y-reset.y)<20);
  await page.locator('#era-filters [data-info="paleozoic"]').click();
- assert.equal(await page.locator('#knowledge-dialog').isVisible(),true);assert.match(await page.locator('#knowledge-body').textContent(),/538,8/);
+ assert.equal(await page.locator('#knowledge-dialog').isVisible(),true);assert.match(await page.locator('#knowledge-body').textContent(),/538,8/);await page.screenshot({path:path.join(qa,`info-new-${width}.png`)});
  assert.equal(await page.locator('[data-atlas-era="all"]').getAttribute('aria-pressed'),'true');await page.keyboard.press('Escape');
  await page.locator('[data-category="synapsid"]').click();assert.equal(await page.locator('#atlas-title').textContent(),'Poznej synapsidy.');
  await page.locator('#category-filters [data-info="synapsid"]').click();assert.match(await page.locator('#knowledge-body').textContent(),/Dimetrodon nebyl dinosaurus/);await page.locator('#knowledge-dialog [data-close-dialog]').click();

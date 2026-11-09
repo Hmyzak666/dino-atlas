@@ -948,7 +948,7 @@
       wrapper.append(button);
       const info = document.createElement('button');
       info.type = 'button'; info.className = 'info-button'; info.dataset.info = id;
-      info.textContent = 'ⓘ'; info.setAttribute('aria-label', `Informace: ${button.textContent}`); info.setAttribute('aria-haspopup', 'dialog');
+      info.innerHTML = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 10v7M12 7v1"/></svg>'; info.setAttribute('aria-label', `Informace: ${button.textContent}`); info.setAttribute('aria-haspopup', 'dialog');
       wrapper.append(info);
     });
   }
