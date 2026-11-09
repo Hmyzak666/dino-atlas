@@ -26,7 +26,7 @@ def verify_apk(apk, root, version, code, build_tools, signed=True):
     if actual_permissions != expected_permissions:
         raise ValueError('APK permissions do not match the manifest.')
     db = json.loads((root/'dinosaurs.json').read_text())
-    names = ['index.html', 'style.css', 'app.js', 'dinosaurs.json'] + [a['image']['src'] for a in db['dinosaurs']]
+    names = ['index.html', 'style.css', 'app.js', 'knowledge.js', 'dinosaurs.json'] + [a['image']['src'] for a in db['dinosaurs']]
     with ZipFile(apk) as archive:
         if archive.testzip() is not None or 'classes.dex' not in archive.namelist():
             raise ValueError('Damaged APK or missing native bytecode.')
