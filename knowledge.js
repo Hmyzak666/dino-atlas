@@ -535,5 +535,90 @@ window.DINO_KNOWLEDGE = {
     "sources": [
       "https://www.nps.gov/articles/000/cambrian-period.htm"
     ]
-  }
+  },
+"tertiary": {
+  "title": "Třetihory",
+  "range": "Tradiční označení přibližně pro dobu před 66–2,6 milionu let",
+  "sections": [
+    [
+      "Období",
+      "Zahrnují paleogén a neogén. V současné formální stupnici patří do kenozoika."
+    ],
+    [
+      "Život",
+      "Rozrůznili se savci a ptáci. V mořích žili raní kytovci a později megalodon."
+    ]
+  ],
+  "sources": [
+    "https://stratigraphy.org/chart"
+  ]
+},
+"paleogene": {
+  "title": "Paleogén",
+  "range": "Přibližně před 66–23 miliony let",
+  "sections": [
+    [
+      "Členění",
+      "Paleocén, eocén a oligocén."
+    ],
+    [
+      "Život",
+      "Po konci křídy se rozšířily různé skupiny savců a ptáků."
+    ]
+  ],
+  "sources": [
+    "https://stratigraphy.org/chart"
+  ]
+},
+"neogene": {
+  "title": "Neogén",
+  "range": "Přibližně před 23–2,6 milionu let",
+  "sections": [
+    [
+      "Členění",
+      "Miocén a pliocén."
+    ],
+    [
+      "Prostředí",
+      "Podnebí a vegetace se měnily; na mnoha místech se rozšiřovala otevřená krajina."
+    ]
+  ],
+  "sources": [
+    "https://stratigraphy.org/chart"
+  ]
+},
+"mammal": {
+  "title": "Savci",
+  "range": "Mammalia",
+  "sections": [
+    [
+      "Společné znaky",
+      "Mláďata dostávají mateřské mléko; k této skupině patří i kytovci."
+    ],
+    [
+      "Rozmanitost",
+      "Savci žijí na souši i ve vodě. Ne každý vyhynulý savec byl dinosaurem."
+    ]
+  ],
+  "sources": [
+    "https://www.si.edu/spotlight/mammals"
+  ]
+},
+"bird": {
+  "title": "Ptáci",
+  "range": "Aves",
+  "sections": [
+    [
+      "Příbuznost",
+      "Ptáci patří do vývojové větve teropodních dinosaurů. V atlasu mají vlastní přehledovou skupinu."
+    ],
+    [
+      "Nelétaví obři",
+      "Gastornis a Phorusrhacos byli nelétaví ptáci s rozdílnou potravou a příbuzností."
+    ]
+  ],
+  "sources": [
+    "https://www.amnh.org/explore/news-blogs/gastornis-gigantea"
+  ]
+}
 };

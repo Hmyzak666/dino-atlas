@@ -25,7 +25,7 @@ for (const [name, expected] of Object.entries(baseline.nativeResources)) {
   assert.equal(digest(fs.readFileSync(path.join(root, name))), expected, 'native resource changed: ' + name);
 }
 assert.equal(config.android.certificateSha256, baseline.certificateSha256);
-assert.equal(config.version, '1.0.0');
+assert.equal(config.version, '1.1.0');
 assert.ok(config.versionCode > 90001, '1.0 must update over the installed 0.9.0 APK');
 assert.ok(config.versionCode > 80101);
 assert.ok(config.versionCode > baseline.versionCode, 'cleanup APK must update the installed build');
@@ -38,5 +38,5 @@ for (const key of baseline.storageKeys) assert.ok(app.includes("'" + key + "'"),
 const workflows = fs.readdirSync(path.join(root, '.github/workflows')).filter(f => /\.ya?ml$/.test(f));
 assert.ok(workflows.includes('android-apk.yml'));
 assert.ok(workflows.every(name=>['android-apk.yml','import-cambrian.yml','import-ordovician.yml','import-silurian.yml','import-devonian.yml','audit-carboniferous.yml','import-carboniferous.yml','audit-permian.yml','import-permian.yml','request-1.0-apk.yml','import-visual-refresh-01.yml'].includes(name)), 'Unexpected active workflow');
-assert.deepEqual(fs.readdirSync(path.join(root, 'images')).sort(), db.dinosaurs.map(a => path.basename(a.image.src)).sort());
+assert.deepEqual(fs.readdirSync(path.join(root, 'images')).sort(), require('../dinosaurs.json').dinosaurs.map(a => path.basename(a.image.src)).sort());
 console.log('PASS: approved UI changes and confirmed database/image bytes, all 42 animal IDs, unchanged native source, storage origin/keys, original signer, and only approved CI/import workflows.');

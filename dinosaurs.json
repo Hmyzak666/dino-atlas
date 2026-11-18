@@ -1997,6 +1997,66 @@
       "url": "https://commons.wikimedia.org/wiki/File:Estemmenosuchus_uralensis.jpg",
       "kind": "Obrazový zdroj Commons, licence CC BY-SA 3.0",
       "accessedAt": "2026-10-25"
+    },
+    "ceno-paraceratherium": {
+      "title": "Deng a kol. 2021 · obří nosorožci",
+      "shortTitle": "Deng a kol. 2021 · obří nosorožci",
+      "url": "https://www.nature.com/articles/s42003-021-02170-6",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-basilosaurus": {
+      "title": "Smithsonian Ocean · vývoj kytovců",
+      "shortTitle": "Smithsonian Ocean · vývoj kytovců",
+      "url": "https://ocean.si.edu/ocean-life/marine-mammals/whales",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-deinotherium": {
+      "title": "Huttunen · přehled deinotérií",
+      "shortTitle": "Huttunen · přehled deinotérií",
+      "url": "https://verlag.nhm-wien.ac.at/pdfs/103a_237250_huttunen.pdf",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-gastornis": {
+      "title": "Angst a kol. 2014 · potrava Gastornise",
+      "shortTitle": "Angst a kol. 2014 · potrava Gastornise",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24563098/",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-hyaenodon": {
+      "title": "Acta Palaeontologica Polonica · hyaenodonti",
+      "shortTitle": "Acta Palaeontologica Polonica · hyaenodonti",
+      "url": "https://www.app.pan.pl/archive/published/app64/app005812018.html",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-megalodon": {
+      "title": "Australian Museum · Otodus megalodon",
+      "shortTitle": "Australian Museum · Otodus megalodon",
+      "url": "https://australian.museum/learn/animals/fishes/otodus-megalodon/",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-phorusrhacos": {
+      "title": "Alvarenga a Höfling 2003 · Phorusrhacidae",
+      "shortTitle": "Alvarenga a Höfling 2003 · Phorusrhacidae",
+      "url": "https://doi.org/10.1590/S0031-10492003000400001",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-arsinoitherium": {
+      "title": "Royal Dublin Society · lebka Arsinoitheria",
+      "shortTitle": "Royal Dublin Society · lebka Arsinoitheria",
+      "url": "https://digitalarchive.rds.ie/items/show/6027",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-rhizosmilodon": {
+      "title": "Florida Museum · Rhizosmilodon fiteae",
+      "shortTitle": "Florida Museum · Rhizosmilodon fiteae",
+      "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/rhizosmilodon-fiteae/",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
+    },
+    "ceno-chalicotherium": {
+      "title": "NHM Wien · Chalicotherium",
+      "shortTitle": "NHM Wien · Chalicotherium",
+      "url": "https://www.nhm.at/en/press_/about_the_museum/museum",
+      "kind": "Muzejní přehled nebo odborná publikace; karta je vedena na úrovni rodu, není-li uvedeno jinak."
     }
   },
   "dinosaurs": [
@@ -34400,6 +34460,2309 @@
         "estimate": 3,
         "scope": "Přibližně 3 m je orientační rekonstrukce robustního terapsida, nikoli kompletní přesné měření jednoho exempláře."
       }
+    },
+    {
+      "id": "paraceratherium",
+      "scientificName": "Paraceratherium",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "paleogene",
+      "diet": "herbivore",
+      "group": "Paraceratherium",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Perissodactyla"
+      ],
+      "aliases": [
+        "paraceratherium",
+        "paraceratherium"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/paraceratherium.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Paraceratherium v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Oligocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-paraceratherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Asie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-paraceratherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-paraceratherium"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Paraceratherium",
+          "ageLabel": "Oligocén",
+          "location": "Asie",
+          "groupLabel": "Lichokopytníci · nosorožčí příbuzní",
+          "cardSummary": "Obrovský bezrohý příbuzný nosorožců s dlouhým krkem a vysokými končetinami.",
+          "summary": "Obrovský bezrohý příbuzný nosorožců s dlouhým krkem a vysokými končetinami.",
+          "quizHint": "Protáhlá hlava bez nosního rohu.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlá hlava bez nosního rohu."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-paraceratherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý krk."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-paraceratherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vysoké sloupovité končetiny."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-paraceratherium"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlá hlava bez nosního rohu. Dlouhý krk. Vysoké sloupovité končetiny. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-paraceratherium"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Příbuzný nosorožců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi lichokopytníky a příbuzné nosorožců, přesto neměl jejich typický roh."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-paraceratherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Obr mezi savci",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Řadil se mezi největší suchozemské savce. Odhady velikosti závisejí na druhu a rekonstrukci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-paraceratherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Potrava vysoko nad zemí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhý krk mu pravděpodobně umožňoval dosáhnout na listy a větve."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-paraceratherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Asijské nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Významné fosilie pocházejí například z Číny a Pákistánu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-paraceratherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Různé druhy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod zahrnuje více druhů. Nelze jim všem automaticky připsat rozměry jediného exempláře."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-paraceratherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basilosaurus",
+      "scientificName": "Basilosaurus",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "paleogene",
+      "diet": "carnivore",
+      "group": "Basilosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Cetacea"
+      ],
+      "aliases": [
+        "basilosaurus",
+        "basilosaurus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/basilosaurus.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Basilosaurus v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Eocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-basilosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Teplá moře; nálezy například v USA a Egyptě"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-basilosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-basilosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Basilosaurus",
+          "ageLabel": "Eocén",
+          "location": "Teplá moře; nálezy například v USA a Egyptě",
+          "groupLabel": "Kytovci",
+          "cardSummary": "Dávný plně vodní kytovec s mimořádně protáhlým tělem a drobnými zadními končetinami.",
+          "summary": "Dávný plně vodní kytovec s mimořádně protáhlým tělem a drobnými zadními končetinami.",
+          "quizHint": "Velmi protáhlý trup.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velmi protáhlý trup."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-basilosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Přední končetiny přeměněné v ploutve."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-basilosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Drobné zadní končetiny."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-basilosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velmi protáhlý trup. Přední končetiny přeměněné v ploutve. Drobné zadní končetiny. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-basilosaurus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Savec v moři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přestože jméno připomíná ještěra, Basilosaurus byl kytovec a savec."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-basilosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Malé zadní nohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zadní končetiny byly silně zmenšené a nemohly nést jeho tělo na souši."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-basilosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Život ve vodě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Šlo o plně vodního živočicha. Jeho předkové se do vody postupně vrátili ze souše."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-basilosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Dýchání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jako ostatní kytovci dýchal vzduch a musel se vracet k hladině."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-basilosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Příbuznost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil k raným kytovcům před rozrůzněním dnešních hlavních skupin."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-basilosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "deinotherium",
+      "scientificName": "Deinotherium",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "neogene",
+      "diet": "herbivore",
+      "group": "Deinotherium",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Proboscidea"
+      ],
+      "aliases": [
+        "deinotherium",
+        "deinotherium"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/deinotherium.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Deinotherium v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Neogén; rod přetrval i do čtvrtohor"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-deinotherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Afrika, Evropa a Asie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-deinotherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-deinotherium"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Deinotherium",
+          "ageLabel": "Neogén; rod přetrval i do čtvrtohor",
+          "location": "Afrika, Evropa a Asie",
+          "groupLabel": "Chobotnatci",
+          "cardSummary": "Velký chobotnatec s charakteristickými kly zahnutými dolů ze spodní čelisti.",
+          "summary": "Velký chobotnatec s charakteristickými kly zahnutými dolů ze spodní čelisti.",
+          "quizHint": "Dva dolů zahnuté spodní kly.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva dolů zahnuté spodní kly."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-deinotherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutný trup na čtyřech nohách."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-deinotherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Chobot."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-deinotherium"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva dolů zahnuté spodní kly. Mohutný trup na čtyřech nohách. Chobot. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-deinotherium"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Zvláštní kly",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kly vyrůstaly z dolní čelisti. Jejich přesné použití není zcela jisté."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-deinotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Chobotnatec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl příbuzným slonů, ale představoval samostatnou vyhynulou větev."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-deinotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby ukazují na zpracování rostlinné potravy, zejména měkčích částí vegetace."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-deinotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Rozšíření",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Deinotéria jsou doložena v Africe, Evropě i Asii."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-deinotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Rod a druh",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jednotlivé druhy žily v různých dobách a lišily se velikostí. Filtr ukazuje hlavní období této karty."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-deinotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gastornis",
+      "scientificName": "Gastornis",
+      "taxonRank": "genus",
+      "category": "bird",
+      "period": "paleogene",
+      "diet": "herbivore",
+      "group": "Gastornis",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Dinosauria",
+        "Aves",
+        "Gastornithidae"
+      ],
+      "aliases": [
+        "gastornis",
+        "gastornis"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/gastornis.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Gastornis v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Paleocén a eocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-gastornis"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-gastornis"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-gastornis"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Gastornis",
+          "ageLabel": "Paleocén a eocén",
+          "location": "Evropa",
+          "groupLabel": "Nelétaví ptáci · gastornitidi",
+          "cardSummary": "Mohutný nelétavý pták s velkým zobákem. Výzkum podporuje rostlinnou potravu.",
+          "summary": "Mohutný nelétavý pták s velkým zobákem. Výzkum podporuje rostlinnou potravu.",
+          "quizHint": "Hluboký mohutný zobák.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Hluboký mohutný zobák."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-gastornis"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá křídla."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-gastornis"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné zadní končetiny."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-gastornis"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Hluboký mohutný zobák. Malá křídla. Silné zadní končetiny. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-gastornis"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obří pták",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Gastornis byl nelétavý pták s mohutnou lebkou a redukovanými křídly."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-gastornis"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Co jedl",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Izotopové a anatomické důkazy podporují býložravost, nikoli dřívější představu vrcholového lovce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-gastornis"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Síla zobáku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silný zobák sám o sobě nedokazuje masožravost."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-gastornis"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkoumané fosilie pocházejí z paleocénních a eocénních lokalit ve Francii."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-gastornis"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Jména se mění",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Taxonomické vymezení rodu se reviduje. Tato karta neurčuje konkrétní druh podle obrázku."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-gastornis"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hyaenodon",
+      "scientificName": "Hyaenodon",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "paleogene",
+      "diet": "carnivore",
+      "group": "Hyaenodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Hyaenodonta"
+      ],
+      "aliases": [
+        "hyaenodon",
+        "hyaenodon"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/hyaenodon.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Hyaenodon v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Paleogén; některé druhy i v neogénu"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-hyaenodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie a Severní Amerika"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-hyaenodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-hyaenodon"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Hyaenodon",
+          "ageLabel": "Paleogén; některé druhy i v neogénu",
+          "location": "Eurasie a Severní Amerika",
+          "groupLabel": "Hyaenodonti",
+          "cardSummary": "Vyhynulý masožravý savec s protáhlou lebkou a řezavými stoličkami.",
+          "summary": "Vyhynulý masožravý savec s protáhlou lebkou a řezavými stoličkami.",
+          "quizHint": "Protáhlá lebka.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlá lebka."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-hyaenodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné čelisti s řezavými zuby."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-hyaenodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-hyaenodon"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlá lebka. Silné čelisti s řezavými zuby. Dlouhý ocas. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-hyaenodon"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Jméno mate",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hyaenodon nebyl hyena. Patřil mezi hyaenodonty, jinou větev masožravých savců."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-hyaenodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Řezavé zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Specializované zadní zuby pomáhaly porcovat živočišnou potravu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-hyaenodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Různá velikost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod zahrnoval více druhů, proto jediná hmotnost nepopisuje všechny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-hyaenodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Měnící se svět",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hyaenodonti žili v prostředích, která se během paleogénu výrazně proměňovala."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-hyaenodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Zkameněliny a chování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby a lebky vypovídají o potravních schopnostech, nikoli přesném způsobu každého lovu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-hyaenodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "megalodon",
+      "scientificName": "Otodus megalodon",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Otodus megalodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Chondrichthyes"
+      ],
+      "aliases": [
+        "megalodon",
+        "otodus megalodon"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/megalodon.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Megalodon v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén a pliocén · přibližně před 23–3,6 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-megalodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Moře různých částí světa"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-megalodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-megalodon"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Megalodon",
+          "ageLabel": "Miocén a pliocén · přibližně před 23–3,6 mil. let",
+          "location": "Moře různých částí světa",
+          "groupLabel": "Žraloci",
+          "cardSummary": "Obrovský vyhynulý žralok známý hlavně z velkých zubů a vzácně z obratlů.",
+          "summary": "Obrovský vyhynulý žralok známý hlavně z velkých zubů a vzácně z obratlů.",
+          "quizHint": "Velké trojúhelníkovité zuby.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velké trojúhelníkovité zuby."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-megalodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Žraločí tělo s párovými ploutvemi."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-megalodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silný ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-megalodon"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velké trojúhelníkovité zuby. Žraločí tělo s párovými ploutvemi. Silný ocas. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-megalodon"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obří zub",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno megalodon odkazuje na nápadnou velikost zubů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-megalodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Chrupavčitá kostra",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žraločí kostra je převážně chrupavčitá. Zuby se zachovávají mnohem častěji než celé tělo."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-megalodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Mořský predátor",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Živil se mořskými obratlovci včetně savců. Přesné složení potravy se měnilo."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-megalodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Nejisté rozměry",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Délka se odhaduje z neúplných fosilií a srovnání se žijícími žraloky. Modely dávají rozdílné výsledky."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-megalodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Vyhynulý druh",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Poslední spolehlivé nálezy pocházejí přibližně z doby před 3,6 milionu let."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-megalodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "phorusrhacos",
+      "scientificName": "Phorusrhacos",
+      "taxonRank": "genus",
+      "category": "bird",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Phorusrhacos",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Dinosauria",
+        "Aves",
+        "Phorusrhacidae"
+      ],
+      "aliases": [
+        "phorusrhacos",
+        "phorusrhacos"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/phorusrhacos.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Phorusrhacos v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-phorusrhacos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jižní Amerika · Patagonie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-phorusrhacos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-phorusrhacos"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Phorusrhacos",
+          "ageLabel": "Miocén",
+          "location": "Jižní Amerika · Patagonie",
+          "groupLabel": "Nelétaví ptáci · forusracidi",
+          "cardSummary": "Velký nelétavý dravý pták s vysokým zahnutým zobákem a dlouhými nohami.",
+          "summary": "Velký nelétavý dravý pták s vysokým zahnutým zobákem a dlouhými nohami.",
+          "quizHint": "Vysoká lebka se zahnutým zobákem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoká lebka se zahnutým zobákem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-phorusrhacos"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé silné nohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-phorusrhacos"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá křídla."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-phorusrhacos"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoká lebka se zahnutým zobákem. Dlouhé silné nohy. Malá křídla. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-phorusrhacos"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Dravý pták",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil k forusracidům, skupině převážně jihoamerických nelétavých ptáků."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-phorusrhacos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Velký zobák",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silný zobák představoval důležitou součást jeho predátorské výbavy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-phorusrhacos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Pohyb po zemi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nohy nesly tělo při pozemním pohybu; křídla nesloužila k letu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-phorusrhacos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Patagonské nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod je znám z miocénních usazenin Patagonie."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-phorusrhacos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Není Gastornis",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobnost velkých nelétavých ptáků neznamená stejnou potravu ani blízkou příbuznost."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-phorusrhacos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "arsinoitherium",
+      "scientificName": "Arsinoitherium",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "paleogene",
+      "diet": "herbivore",
+      "group": "Arsinoitherium",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Embrithopoda"
+      ],
+      "aliases": [
+        "arsinoitherium",
+        "arsinoitherium"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/arsinoitherium.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Arsinoitherium v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní eocén a oligocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-arsinoitherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Afrika · známé nálezy z egyptského Fajjúmu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-arsinoitherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-arsinoitherium"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Arsinoitherium",
+          "ageLabel": "Pozdní eocén a oligocén",
+          "location": "Afrika · známé nálezy z egyptského Fajjúmu",
+          "groupLabel": "Embritopodi",
+          "cardSummary": "Robustní býložravý savec se dvěma velkými párovými rohy na přední části lebky.",
+          "summary": "Robustní býložravý savec se dvěma velkými párovými rohy na přední části lebky.",
+          "quizHint": "Dva velké rohy vedle sebe.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva velké rohy vedle sebe."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-arsinoitherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Další menší lebeční výrůstky."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-arsinoitherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné čtyřnohé tělo."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-arsinoitherium"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva velké rohy vedle sebe. Další menší lebeční výrůstky. Mohutné čtyřnohé tělo. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-arsinoitherium"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Podobnost s nosorožcem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vzhledem připomínal nosorožce, ale patřil do jiné skupiny savců."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-arsinoitherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Párové rohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nápadné kostěné rohy ležely vedle sebe, nikoli v řadě jako u některých nosorožců."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-arsinoitherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Šlo o býložravého savce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-arsinoitherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Africké fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Proslulé nálezy pocházejí z Fajjúmu v Egyptě."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-arsinoitherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Dávná příbuznost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Řadí se k embritopodům v širší příbuzenské oblasti slonů a dalších afroterií."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-arsinoitherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rhizosmilodon",
+      "scientificName": "Rhizosmilodon",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Rhizosmilodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Felidae"
+      ],
+      "aliases": [
+        "rhizosmilodon",
+        "rhizosmilodon"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/rhizosmilodon.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Rhizosmilodon v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pliocén · přibližně před 5–4,5 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-rhizosmilodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Florida"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-rhizosmilodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Orientačně kolem 75 kg; odhad pro R. fiteae."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-rhizosmilodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-rhizosmilodon"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Rhizosmilodon",
+          "ageLabel": "Pliocén · přibližně před 5–4,5 mil. let",
+          "location": "Severní Amerika · Florida",
+          "groupLabel": "Šelmy · šavlozubé kočky",
+          "cardSummary": "Šavlozubá kočka z Floridy, menší než známý Smilodon. Doklady pocházejí zejména z čelistí a zubů.",
+          "summary": "Šavlozubá kočka z Floridy, menší než známý Smilodon. Doklady pocházejí zejména z čelistí a zubů.",
+          "quizHint": "Kočkovitý tělesný plán.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Kočkovitý tělesný plán."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-rhizosmilodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Prodloužené horní špičáky v rekonstrukci."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-rhizosmilodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Menší stavba než u velkých smilodonů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-rhizosmilodon"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Kočkovitý tělesný plán. Prodloužené horní špičáky v rekonstrukci. Menší stavba než u velkých smilodonů. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-rhizosmilodon"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Floridská kočka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie jsou známé z fosfátových nalezišť střední Floridy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-rhizosmilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi šavlozubé kočky; byl příbuzný smilodonům."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-rhizosmilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Velikost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Odhad hmotnosti kolem 75 kilogramů odpovídá zhruba středně velkému jaguárovi."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-rhizosmilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pravděpodobně lovil ze zálohy. Konkrétní lov nelze přímo pozorovat ve fosilním záznamu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-rhizosmilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Neúplná kostra",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z dochovaných čelistí nelze přesně odvodit všechny proporce těla ani délku šavlovitých špičáků."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-rhizosmilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chalicotherium",
+      "scientificName": "Chalicotherium",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "neogene",
+      "diet": "herbivore",
+      "group": "Chalicotherium",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Perissodactyla"
+      ],
+      "aliases": [
+        "chalicotherium",
+        "chalicotherium"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/chalicotherium.webp",
+        "alt": {
+          "cs": "Rekonstrukce živočicha Chalicotherium v pravěkém prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Barvy, měkké tkáně a prostředí jsou hypotetické; obrázek není vědeckým dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-chalicotherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "ceno-chalicotherium"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka není v této kartě číselně stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost není spolehlivě určena pro vyobrazeného jedince."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-chalicotherium"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Chalicotherium",
+          "ageLabel": "Miocén",
+          "location": "Eurasie",
+          "groupLabel": "Lichokopytníci · chalikotéria",
+          "cardSummary": "Neobvyklý lichokopytník s dlouhými předními končetinami a velkými drápy.",
+          "summary": "Neobvyklý lichokopytník s dlouhými předními končetinami a velkými drápy.",
+          "quizHint": "Přední končetiny delší než zadní.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Přední končetiny delší než zadní."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-chalicotherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velké drápy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-chalicotherium"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Hlava připomínající koně."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-chalicotherium"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Přední končetiny delší než zadní. Velké drápy. Hlava připomínající koně. Zbarvení ani pozadí nejsou určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-chalicotherium"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Zvláštní lichokopytník",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Navzdory drápům šlo o příbuzného koní a nosorožců, nikoli velkou opici."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-chalicotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Dlouhé paže",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Prodloužené přední končetiny vytvářely nápadně svažitou linii zad."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-chalicotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Drápy a rostliny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drápy pravděpodobně pomáhaly při získávání rostlinné potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-chalicotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Evropské fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie chalikotérií známe také ze střední Evropy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-chalicotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Srovnání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drápy samy o sobě nejsou důkazem masožravosti; vždy záleží na celé anatomii."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-chalicotherium"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, měkké tkáně a individuální chování neznáme. Rekonstrukce obsahuje výtvarné odhady."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "periods": {
@@ -34411,6 +36774,8 @@
     "silurian": "Silur",
     "devonian": "Devon",
     "carboniferous": "Karbon",
-    "permian": "Perm"
+    "permian": "Perm",
+    "paleogene": "Paleogén",
+    "neogene": "Neogén"
   }
 }

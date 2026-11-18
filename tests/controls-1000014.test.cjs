@@ -13,7 +13,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
  const context=await browser.newContext({viewport:{width,height:850},isMobile:true,hasTouch:true});
  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(`http://127.0.0.1:${server.address().port}/#atlas`);await page.locator('.dino-card').first().waitFor();
- assert.equal(await page.locator('.dino-card').count(),112);
+ assert.equal(await page.locator('.dino-card').count(),require('../dinosaurs.json').dinosaurs.length);
  const qa=process.env.DINO_QA_DIR||path.join(root,'.qa');await fs.mkdir(qa,{recursive:true});await page.screenshot({path:path.join(qa,`atlas-new-${width}.png`)});
  const box=await page.locator('#search').boundingBox(),reset=await page.locator('#clear-filters').boundingBox(),groups=await page.locator('#category-filters').boundingBox();
  assert.ok(box.y>groups.y+groups.height);assert.ok(box.x+box.width<=reset.x);assert.ok(Math.abs(box.y-reset.y)<20);
@@ -29,7 +29,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
  await page.locator('#quick-search').fill('dimetrodon');await page.locator('#quick-search-panel [data-close-dialog]').click();assert.equal(await page.locator('#search').inputValue(),'dimetrodon');assert.equal(await page.locator('#diet-filter').inputValue(),'carnivore');
  await page.locator('#quick-search-open').click();await page.locator('#quick-results a').first().click();await page.locator('#detail-title').waitFor();assert.equal(await page.locator('#quick-search-panel').isVisible(),false);
  await page.locator('#detail-atlas').click();await page.locator('#gallery').waitFor();assert.equal(await page.locator('#search').inputValue(),'dimetrodon');assert.equal(await page.locator('.dino-card').count(),1);
- await page.evaluate(()=>window.scrollTo(0,400));await page.locator('#quick-search-open').click();await page.locator('#quick-reset').click();assert.equal(await page.locator('#quick-results a').count(),112);assert.equal(await page.locator('#search').inputValue(),'');
+ await page.evaluate(()=>window.scrollTo(0,400));await page.locator('#quick-search-open').click();await page.locator('#quick-reset').click();assert.equal(await page.locator('#quick-results a').count(),require('../dinosaurs.json').dinosaurs.length);assert.equal(await page.locator('#search').inputValue(),'');
  await page.setViewportSize({width,height:350});await page.waitForFunction(()=>{const r=document.querySelector('#quick-search-panel').getBoundingClientRect();return r.y>=0&&r.bottom<=351;});const panel=await page.locator('#quick-search-panel').boundingBox();assert.ok(panel.y>=0&&panel.y+panel.height<=351);
  await page.locator('#quick-search-panel [data-close-dialog]').click();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  assert.deepEqual(errors,[]);await context.close();

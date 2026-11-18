@@ -10,8 +10,8 @@ const ids=['dimetrodon-grandis','edaphosaurus-pogonias','inostrancevia-alexandri
   'helicoprion-bessonowi','estemmenosuchus-uralensis'];
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
-assert.ok([104,112].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
-const active=db.dinosaurs.length===112;
+assert.ok([104,112,122].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
+const active=db.dinosaurs.length>=112;
 const originalCounts={cambrian:6,ordovician:5,silurian:5,devonian:8,carboniferous:8};
 for(const [era,n] of Object.entries(originalCounts))
   assert.equal(db.dinosaurs.filter(a=>a.period===era).length,n,'Preserve '+era+' complete batch');
@@ -21,8 +21,8 @@ const future=structuredClone(db);
 future.periods.permian='Perm';
 Object.assign(future.sources,draft.sources);
 if(!active) future.dinosaurs.push(...draft.animals);
-assert.equal(future.dinosaurs.length,112);
-assert.equal(new Set(future.dinosaurs.map(a=>a.id)).size,112);
+assert.equal(future.dinosaurs.length,active?db.dinosaurs.length:112);
+assert.equal(new Set(future.dinosaurs.map(a=>a.id)).size,active?db.dinosaurs.length:112);
 assert.equal(app.validateDatabase(future),true);
 const get=id=>draft.animals.find(a=>a.id===id);
 assert.equal(get('dimetrodon-grandis').category,'synapsid');

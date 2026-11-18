@@ -3,14 +3,16 @@
   'use strict';
 
   const LANG = 'cs';
-  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', fish: 'Ryby', 'early-chordate': 'Raní strunatci', 'early-tetrapod': 'Obojživelníci a raní čtyřnožci', synapsid: 'Synapsidi', 'other-reptile': 'Další plazi', 'other-invertebrate': 'Ostatní bezobratlí', all: 'Vše' };
-  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec', fish: 'Ryba', 'early-chordate': 'Raný strunatec', 'early-tetrapod': 'Raný čtyřnožec', synapsid: 'Synapsid', 'other-reptile': 'Plaz', 'other-invertebrate': 'Bezobratlý' };
+  const CATEGORIES = { dinosaur: 'Dinosauři', pterosaur: 'Ptakoještěři', 'marine-reptile': 'Mořští plazi', arthropod: 'Členovci', fish: 'Ryby', 'early-chordate': 'Raní strunatci', 'early-tetrapod': 'Obojživelníci a raní čtyřnožci', synapsid: 'Synapsidi', 'other-reptile': 'Další plazi', 'other-invertebrate': 'Ostatní bezobratlí', mammal: 'Savci', bird: 'Ptáci', all: 'Vše' };
+  const CATEGORY_LABELS = { dinosaur: 'Dinosaurus', pterosaur: 'Ptakoještěr', 'marine-reptile': 'Mořský plaz', arthropod: 'Členovec', fish: 'Ryba', 'early-chordate': 'Raný strunatec', 'early-tetrapod': 'Raný čtyřnožec', synapsid: 'Synapsid', 'other-reptile': 'Plaz', 'other-invertebrate': 'Bezobratlý', mammal: 'Savec', bird: 'Pták' };
   const ERA_PERIODS = {
     paleozoic: ['cambrian', 'ordovician', 'silurian', 'devonian', 'carboniferous', 'permian'],
-    mesozoic: ['triassic', 'jurassic', 'cretaceous']
+    mesozoic: ['triassic', 'jurassic', 'cretaceous'],
+    tertiary: ['paleogene', 'neogene'],
+    quaternary: ['quaternary']
   };
-  const ERAS = { paleozoic: 'Prvohory', mesozoic: 'Druhohory' };
-  const PERIODS = { cambrian: 'Kambrium', ordovician: 'Ordovik', silurian: 'Silur', devonian: 'Devon', carboniferous: 'Karbon', permian: 'Perm', triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída' };
+  const ERAS = { paleozoic: 'Prvohory', mesozoic: 'Druhohory', tertiary: 'Třetihory', quaternary: 'Čtvrtohory' };
+  const PERIODS = { cambrian: 'Kambrium', ordovician: 'Ordovik', silurian: 'Silur', devonian: 'Devon', carboniferous: 'Karbon', permian: 'Perm', triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída', paleogene: 'Paleogén', neogene: 'Neogén', quaternary: 'Čtvrtohory' };
   const periodInEra = (period, era) => !era || era === 'all' || ERA_PERIODS[era]?.includes(period);
 
   const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec', unknown: 'Nejistá potrava' };
@@ -97,6 +99,8 @@
       if (categoryOf(dino) === 'dinosaur' && (!dino.taxonomy.includes('Dinosauria') || dino.taxonomy.includes('Pterosauria'))) throw new Error('Dinosaurus má nesprávné zařazení.');
       if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
       if (categoryOf(dino) === 'arthropod' && (!dino.taxonomy.includes('Arthropoda') || dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria', 'Chordata'].includes(group)))) throw new Error('Členovec má nesprávné zařazení.');
+      if (categoryOf(dino) === 'mammal' && !dino.taxonomy.includes('Mammalia')) throw new Error('Savec má nesprávné zařazení.');
+      if (categoryOf(dino) === 'bird' && !dino.taxonomy.includes('Aves')) throw new Error('Pták má nesprávné zařazení.');
       if (dino.speechName) speechNames.set(copy(dino).displayName, dino.speechName);
       const text = copy(dino);
       if (!text.displayName || !text.summary || !text.ageLabel || !text.location || !text.quizHint) throw new Error('Heslu chybí text.');

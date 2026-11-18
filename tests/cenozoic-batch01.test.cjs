@@ -1,0 +1,33 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const crypto = require('node:crypto');
+const app = require('../app.js');
+const db = require('../dinosaurs.json');
+const before = require('../docs/backups/cenozoic-batch01/dinosaurs.json');
+const manifest = require('../docs/cenozoic-batch01.json');
+const sha = b => crypto.createHash('sha256').update(b).digest('hex');
+assert.equal(app.validateDatabase(db), true);
+assert.equal(db.dinosaurs.length, 122);
+assert.deepEqual(db.dinosaurs.slice(0,112), before.dinosaurs, 'All 112 existing records remain unchanged');
+for (const [id, source] of Object.entries(before.sources)) assert.deepEqual(db.sources[id],source);
+for (const a of before.dinosaurs) assert.equal(sha(fs.readFileSync(a.image.src)),manifest.originalImageSha256[a.id]);
+assert.equal(sha(fs.readFileSync('docs/backups/cenozoic-batch01/dinosaurs.json')), manifest.originalDatabaseSha256);
+assert.deepEqual(db.dinosaurs.slice(112).map(a=>a.id),manifest.animals.map(a=>a.id));
+const state={query:'',category:'all',era:'tertiary',period:'all',diet:'all',favoritesOnly:false,favorites:new Set()};
+assert.equal(app.filteredDinosaurs(db.dinosaurs,state).length,10);
+assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,category:'mammal'}).length,7);
+assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,category:'bird'}).length,2);
+assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,category:'fish'}).length,1);
+assert.equal(app.periodInEra('paleogene','tertiary'),true);
+assert.equal(app.periodInEra('neogene','mesozoic'),false);
+for (const item of manifest.animals) {
+ const a=db.dinosaurs.find(a=>a.id===item.id);
+ assert.equal(sha(fs.readFileSync(a.image.src)),item.imageSha256);
+ assert.equal(a.translations.cs.sections.length,6);
+ assert.equal(a.translations.cs.recognition.length,3);
+ assert.equal(app.filteredDinosaurs(db.dinosaurs,{...state,query:item.name}).length,1);
+}
+const broken=structuredClone(db);broken.dinosaurs.find(a=>a.category==='mammal').taxonomy=['Dinosauria'];
+assert.throws(()=>app.validateDatabase(broken),/Savec/);
+for (const q of app.makeQuiz(db.dinosaurs.slice(112),10)) assert.ok(q.optionIds.includes(q.answerId));
+console.log('PASS: 10 new animals, era/category/search/quiz, source and image provenance; all 112 originals preserved.');
