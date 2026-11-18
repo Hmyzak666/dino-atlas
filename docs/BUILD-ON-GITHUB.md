@@ -2,7 +2,7 @@
 
 Projekt má připravené workflow **Dino Atlas — kontroly a APK** (`android-apk.yml`). Podporuje ruční spuštění a výběr pracovní větve. Sestavení běží na GitHubu; Bazzite ani místní instalaci Android SDK k tomu nepotřebuješ.
 
-Spouštěj až po doplnění všech domluvených zvířat, pokud nechceš výslovně otestovat meziverzi. Zdrojová větev je `feature/paleozoic-1.0.0`; kvůli sestavení se nemusí slučovat do main.
+Všech 71 domluvených nových zvířat je vloženo: aktuální zdroje 1.1.0, build 1010007, celkem 183 zvířat. Sestavení lze nyní spustit. Zdrojová větev je `feature/paleozoic-1.0.0`; kvůli sestavení se nemusí slučovat do main.
 
 1. V prohlížeči telefonu se přihlas na GitHub jako vlastník repozitáře.
 2. Otevři https://github.com/Hmyzak666/dino-atlas/actions/workflows/android-apk.yml.

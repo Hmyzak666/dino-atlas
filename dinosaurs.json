@@ -2465,6 +2465,114 @@
       "shortTitle": "Australian Museum · Dromornis stirtoni",
       "url": "https://australian.museum/learn/australia-over-time/extinct-animals/dromornis-stirtoni/",
       "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-peltephilus": {
+      "title": "Vizcaíno a Fariña 1997 · potrava a pohyb Peltephila",
+      "shortTitle": "Vizcaíno a Fariña 1997 · potrava a pohyb Peltephila",
+      "url": "https://doi.org/10.1111/j.1502-3931.1997.tb00446.x",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-carcharodontosaurus": {
+      "title": "Natural History Museum · Carcharodontosaurus",
+      "shortTitle": "Natural History Museum · Carcharodontosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/carcharodontosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-giganotosaurus": {
+      "title": "Natural History Museum · Giganotosaurus",
+      "shortTitle": "Natural History Museum · Giganotosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/giganotosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-albertosaurus": {
+      "title": "Australian Museum · Albertosaurus sarcophagus",
+      "shortTitle": "Australian Museum · Albertosaurus sarcophagus",
+      "url": "https://australian.museum/learn/dinosaurs/fact-sheets/albertosaurus-sarcophagus/",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-albertosaurus-2": {
+      "title": "Natural History Museum · Albertosaurus",
+      "shortTitle": "Natural History Museum · Albertosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/albertosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-baryonyx": {
+      "title": "Natural History Museum · Baryonyx",
+      "shortTitle": "Natural History Museum · Baryonyx",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-baryonyx-2": {
+      "title": "Natural History Museum · potrava a objev Baryonyxe",
+      "shortTitle": "Natural History Museum · potrava a objev Baryonyxe",
+      "url": "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-suchomimus": {
+      "title": "Natural History Museum · Suchomimus",
+      "shortTitle": "Natural History Museum · Suchomimus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/suchomimus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-amargasaurus": {
+      "title": "Natural History Museum · Amargasaurus",
+      "shortTitle": "Natural History Museum · Amargasaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-amargasaurus-2": {
+      "title": "Cerda a kol. 2022 · histologie krčních výběžků Amargasaura",
+      "shortTitle": "Cerda a kol. 2022 · histologie krčních výběžků Amargasaura",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9119615/",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-shunosaurus": {
+      "title": "Natural History Museum · Shunosaurus",
+      "shortTitle": "Natural History Museum · Shunosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/shunosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-shunosaurus-2": {
+      "title": "Australian Museum · Shunosaurus lii",
+      "shortTitle": "Australian Museum · Shunosaurus lii",
+      "url": "https://australian.museum/learn/dinosaurs/fact-sheets/shunosaurus-lii/",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-euoplocephalus": {
+      "title": "Natural History Museum · Euoplocephalus",
+      "shortTitle": "Natural History Museum · Euoplocephalus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/euoplocephalus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-corythosaurus": {
+      "title": "Natural History Museum · Corythosaurus",
+      "shortTitle": "Natural History Museum · Corythosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/corythosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-corythosaurus-2": {
+      "title": "American Museum of Natural History · Corythosaurus",
+      "shortTitle": "American Museum of Natural History · Corythosaurus",
+      "url": "https://www.amnh.org/exhibitions/permanent/ornithischian-dinosaurs/corythosaurus",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-corythosaurus-3": {
+      "title": "Dudgeon a kol. 2026 · vnitřní stavba hřebenů lambeosaurinů",
+      "shortTitle": "Dudgeon a kol. 2026 · vnitřní stavba hřebenů lambeosaurinů",
+      "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.70125",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-lambeosaurus": {
+      "title": "Natural History Museum · Lambeosaurus",
+      "shortTitle": "Natural History Museum · Lambeosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/lambeosaurus.html",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-lambeosaurus-2": {
+      "title": "Dudgeon a kol. 2026 · vnitřní stavba hřebenů lambeosaurinů",
+      "shortTitle": "Dudgeon a kol. 2026 · vnitřní stavba hřebenů lambeosaurinů",
+      "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.70125",
+      "kind": "Muzejní nebo odborný podklad; číselné odhady se vztahují k uvedenému druhu."
     }
   },
   "dinosaurs": [
@@ -49125,6 +49233,2814 @@
               ]
             }
           ]
+        }
+      }
+    },
+    {
+      "id": "peltephilus",
+      "scientificName": "Peltephilus",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "neogene",
+      "diet": "herbivore",
+      "group": "Peltephilus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Xenarthra",
+        "Cingulata",
+        "Peltephilidae"
+      ],
+      "aliases": [
+        "peltephilus",
+        "peltephilus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/peltephilus.webp",
+        "alt": {
+          "cs": "Peltephilus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů. Tvar měkkotkáňového zakončení hlavových výčnělků je rekonstrukční."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén; karta připomíná časně miocenní nálezy z Patagonie"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-peltephilus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jižní Amerika, zejména Argentina"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-peltephilus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně rostlinná potrava, včetně podzemních částí rostlin."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-peltephilus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Peltephilus",
+          "ageLabel": "Miocén; karta připomíná časně miocenní nálezy z Patagonie",
+          "location": "Jižní Amerika, zejména Argentina",
+          "groupLabel": "Chudozubí · příbuzní pásovců",
+          "cardSummary": "Obrněný savec příbuzný pásovcům, s krátkým širokým čenichem a dvojicí výčnělků na hlavě.",
+          "summary": "Obrněný savec příbuzný pásovcům, s krátkým širokým čenichem a dvojicí výčnělků na hlavě.",
+          "quizHint": "Dva nápadné výčnělky na hlavě.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva nápadné výčnělky na hlavě."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-peltephilus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Nízké tělo chráněné kostěným brněním."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-peltephilus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké silné končetiny uzpůsobené hrabání."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-peltephilus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva nápadné výčnělky na hlavě. Nízké tělo chráněné kostěným brněním. Krátké silné končetiny uzpůsobené hrabání. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-peltephilus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obrněný savec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil k chudozubým savcům příbuzným pásovcům, nikoli k dinosaurům."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-peltephilus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Zvláštní hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krátký široký čenich a rohatý hlavový štít jej odlišují od běžného pásovce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-peltephilus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Hrabavé končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba končetin podporuje schopnost hrabat. Nepřipomíná rychlého vytrvalého lovce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-peltephilus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Změna výkladu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Starší představa masožravce byla zpochybněna rozborem chrupu, čelistí a končetin."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-peltephilus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Potrava jako odhad",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie druhu P. pumilus navrhuje tuhé rostlinné části z půdy. Přesný jídelníček celého rodu neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-peltephilus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carcharodontosaurus",
+      "scientificName": "Carcharodontosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Carcharodontosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Carcharodontosauridae"
+      ],
+      "aliases": [
+        "carcharodontosaurus",
+        "carcharodontosaurus",
+        "carcharodontosaurus saharicus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/carcharodontosaurus.webp",
+        "alt": {
+          "cs": "Carcharodontosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, přibližně před 99–94 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-carcharodontosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Afrika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-carcharodontosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 12,5 m; odhad rekonstrukce, nikoli měření úplné kostry."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-carcharodontosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-carcharodontosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Carcharodontosaurus",
+          "ageLabel": "Pozdní křída, přibližně před 99–94 miliony let",
+          "location": "Severní Afrika",
+          "groupLabel": "Teropodi · karcharodontosauridi",
+          "cardSummary": "Obří severoafrický teropod s dlouhou lebkou a zubatými zuby připomínajícími žraločí.",
+          "summary": "Obří severoafrický teropod s dlouhou lebkou a zubatými zuby připomínajícími žraločí.",
+          "quizHint": "Velká protáhlá hlava.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velká protáhlá hlava."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-carcharodontosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné zadní nohy a dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-carcharodontosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké přední končetiny pod hrudníkem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-carcharodontosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velká protáhlá hlava. Mohutné zadní nohy a dlouhý ocas. Krátké přední končetiny pod hrudníkem. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-carcharodontosaurus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Žraločí jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno připomíná rod žraloků Carcharodon kvůli podobnosti zubů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-carcharodontosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Řezavé zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby byly uzpůsobené k řezání masa. Neměl stejný způsob skusu jako tyranosaurus."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-carcharodontosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Africký domov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nálezy pocházejí ze severní Afriky, například z Maroka, Alžírska a Egypta."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-carcharodontosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzný obr",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Giganotosaurus patřil do stejné čeledi, žil však v Jižní Americe."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-carcharodontosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Nejistá kořist",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Živočišná potrava je dobře podložená; konkrétní druhy pravidelné kořisti neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-carcharodontosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 12.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-carcharodontosaurus"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 12,5 m; odhad rekonstrukce, nikoli měření úplné kostry."
+        }
+      }
+    },
+    {
+      "id": "giganotosaurus",
+      "scientificName": "Giganotosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Giganotosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Carcharodontosauridae"
+      ],
+      "aliases": [
+        "giganotosaurus",
+        "giganotosaurus",
+        "giganotosaurus carolinii"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/giganotosaurus.webp",
+        "alt": {
+          "cs": "Giganotosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, přibližně před 100–95 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-giganotosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Patagonie, Argentina"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-giganotosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 13 m. Neúplné pozůstatky omezují přesnost srovnání největších teropodů."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-giganotosaurus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-giganotosaurus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Giganotosaurus",
+          "ageLabel": "Pozdní křída, přibližně před 100–95 miliony let",
+          "location": "Patagonie, Argentina",
+          "groupLabel": "Teropodi · karcharodontosauridi",
+          "cardSummary": "Obrovský jihoamerický masožravý dinosaurus s dlouhou hlavou a čepelovitými zuby.",
+          "summary": "Obrovský jihoamerický masožravý dinosaurus s dlouhou hlavou a čepelovitými zuby.",
+          "quizHint": "Dlouhá velká hlava.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhá velká hlava."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-giganotosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvě mohutné zadní nohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-giganotosaurus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malé přední končetiny s drápy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-giganotosaurus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhá velká hlava. Dvě mohutné zadní nohy. Malé přední končetiny s drápy. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-giganotosaurus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Jižní obr",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno znamená přibližně obří jižní ještěr. Fosilie pocházejí z Argentiny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-giganotosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Řezavý chrup",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhé vroubkované zuby připomínaly čepele a pomáhaly oddělovat maso."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-giganotosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Objev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První známý jedinec byl objeven roku 1993. G. carolinii byl pojmenován roku 1995."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-giganotosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Velikost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úplná kostra zatím chybí. Žebříček největších dravých dinosaurů závisí na použité rekonstrukci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-giganotosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Lov ve skupině?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Společný lov velkých sauropodů zůstává hypotézou. Nelze jej vydávat za přímé pozorování."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-giganotosaurus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 13,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-giganotosaurus"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 13 m. Neúplné pozůstatky omezují přesnost srovnání největších teropodů."
+        }
+      }
+    },
+    {
+      "id": "albertosaurus",
+      "scientificName": "Albertosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Albertosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Tyrannosauridae",
+        "Albertosaurinae"
+      ],
+      "aliases": [
+        "albertosaurus",
+        "albertosaurus",
+        "albertosaurus sarcophagus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/albertosaurus.webp",
+        "alt": {
+          "cs": "Albertosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída; A. sarcophagus přibližně před 74–70 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-albertosaurus",
+            "ceno-albertosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada, zejména Alberta"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-albertosaurus",
+            "ceno-albertosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 9 m; někteří velcí jedinci přesahovali 10 m."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-albertosaurus",
+            "ceno-albertosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-albertosaurus",
+            "ceno-albertosaurus-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Albertosaurus",
+          "ageLabel": "Pozdní křída; A. sarcophagus přibližně před 74–70 miliony let",
+          "location": "Kanada, zejména Alberta",
+          "groupLabel": "Teropodi · tyranosauridi",
+          "cardSummary": "Lehčeji stavěný příbuzný tyranosaura s velkou hlavou a krátkýma dvouprstýma rukama.",
+          "summary": "Lehčeji stavěný příbuzný tyranosaura s velkou hlavou a krátkýma dvouprstýma rukama.",
+          "quizHint": "Velká hlava na krátkém krku.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velká hlava na krátkém krku."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-albertosaurus",
+                "ceno-albertosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké ruce se dvěma hlavními prsty."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-albertosaurus",
+                "ceno-albertosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé zadní končetiny a vyvažující ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-albertosaurus",
+                "ceno-albertosaurus-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velká hlava na krátkém krku. Krátké ruce se dvěma hlavními prsty. Dlouhé zadní končetiny a vyvažující ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-albertosaurus",
+              "ceno-albertosaurus-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Příbuzný tyranosaura",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil k tyranosauridům, býval však lehčeji stavěný než Tyrannosaurus rex."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-albertosaurus",
+                    "ceno-albertosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Dva prsty",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na krátkých předních končetinách měl dva hlavní funkční prsty."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-albertosaurus",
+                    "ceno-albertosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Albertské nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dobře doložené pozůstatky A. sarcophagus pocházejí z kanadské Alberty."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-albertosaurus",
+                    "ceno-albertosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Zubaté zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ostré zuby se zoubkovanými hranami pomáhaly zpracovávat živočišnou potravu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-albertosaurus",
+                    "ceno-albertosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Společný nález",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nahromadění více jedinců vyvolává otázky o společenském životě; samo neurčuje přesnou podobu lovu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-albertosaurus",
+                    "ceno-albertosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 9,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-albertosaurus",
+          "ceno-albertosaurus-2"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 9 m; někteří velcí jedinci přesahovali 10 m."
+        }
+      }
+    },
+    {
+      "id": "baryonyx",
+      "scientificName": "Baryonyx",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Baryonyx",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Spinosauridae",
+        "Baryonychinae"
+      ],
+      "aliases": [
+        "baryonyx",
+        "baryonyx",
+        "baryonyx walkeri"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/baryonyx.webp",
+        "alt": {
+          "cs": "Baryonyx v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída, přibližně před 125 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-baryonyx",
+            "ceno-baryonyx-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa; významný nález z anglického Surrey"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-baryonyx",
+            "ceno-baryonyx-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 10 m podle muzejního přehledu; rozměry jednotlivých rekonstrukcí se liší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-baryonyx",
+            "ceno-baryonyx-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-baryonyx",
+            "ceno-baryonyx-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Baryonyx",
+          "ageLabel": "Raná křída, přibližně před 125 miliony let",
+          "location": "Evropa; významný nález z anglického Surrey",
+          "groupLabel": "Teropodi · spinosauridi",
+          "cardSummary": "Spinosaurid s protáhlým krokodýlovitým čenichem a velkým drápem na ruce.",
+          "summary": "Spinosaurid s protáhlým krokodýlovitým čenichem a velkým drápem na ruce.",
+          "quizHint": "Dlouhý úzký čenich.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý úzký čenich."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-baryonyx",
+                "ceno-baryonyx-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velký zahnutý dráp na přední končetině."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-baryonyx",
+                "ceno-baryonyx-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvě zadní nohy a dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-baryonyx",
+                "ceno-baryonyx-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý úzký čenich. Velký zahnutý dráp na přední končetině. Dvě zadní nohy a dlouhý ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-baryonyx",
+              "ceno-baryonyx-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Těžký dráp",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno odkazuje na velký dráp prvního prstu ruky."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-baryonyx",
+                    "ceno-baryonyx-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Ryby na jídelníčku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V břišní oblasti významné kostry byly nalezeny rybí pozůstatky."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-baryonyx",
+                    "ceno-baryonyx-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Nejen ryby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nález také obsahoval kosti býložravého dinosaura. Nešlo proto nutně o výhradního rybožravce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-baryonyx",
+                    "ceno-baryonyx-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil ke spinosauridům podobně jako Suchomimus a Spinosaurus."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-baryonyx",
+                    "ceno-baryonyx-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Lov jako rekonstrukce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesný postup chytání ryb neznáme. Obrázek není záznamem konkrétní lovecké techniky."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-baryonyx",
+                    "ceno-baryonyx-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 10,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-baryonyx",
+          "ceno-baryonyx-2"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 10 m podle muzejního přehledu; rozměry jednotlivých rekonstrukcí se liší."
+        }
+      }
+    },
+    {
+      "id": "suchomimus",
+      "scientificName": "Suchomimus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Suchomimus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Theropoda",
+        "Spinosauridae",
+        "Baryonychinae"
+      ],
+      "aliases": [
+        "suchomimus",
+        "suchomimus",
+        "suchomimus tenerensis"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/suchomimus.webp",
+        "alt": {
+          "cs": "Suchomimus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída, přibližně před 125–112 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-suchomimus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Niger, Afrika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-suchomimus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 11 m podle muzejního přehledu; přesná délka vyobrazeného jedince není známa."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-suchomimus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-suchomimus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Suchomimus",
+          "ageLabel": "Raná křída, přibližně před 125–112 miliony let",
+          "location": "Niger, Afrika",
+          "groupLabel": "Teropodi · spinosauridi",
+          "cardSummary": "Velký africký spinosaurid s dlouhým úzkým čenichem a silnými drápatými předními končetinami.",
+          "summary": "Velký africký spinosaurid s dlouhým úzkým čenichem a silnými drápatými předními končetinami.",
+          "quizHint": "Protáhlý krokodýlovitý čenich.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlý krokodýlovitý čenich."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-suchomimus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné přední končetiny s drápy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-suchomimus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas a dvě zadní nohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-suchomimus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlý krokodýlovitý čenich. Silné přední končetiny s drápy. Dlouhý ocas a dvě zadní nohy. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-suchomimus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Krokodýlí napodobitel",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno Suchomimus připomíná podobnost jeho čenichu s krokodýlím."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-suchomimus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Spinosaurid",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl příbuzný Baryonyxovi a Spinosaurovi, ale šlo o samostatný rod."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-suchomimus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Africký domov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie pocházejí z Nigeru, nikoli z evropských nalezišť Baryonyxe."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-suchomimus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Živočišná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Do jídelníčku se obvykle zahrnují ryby. Přesné složení potravy nelze vyčíst ze samotného obrázku."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-suchomimus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Raná křída",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žil dlouho před koncem křídy a závěrečným vymíráním neptačích dinosaurů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-suchomimus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 11,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-suchomimus"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 11 m podle muzejního přehledu; přesná délka vyobrazeného jedince není známa."
+        }
+      }
+    },
+    {
+      "id": "amargasaurus",
+      "scientificName": "Amargasaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Amargasaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Dicraeosauridae"
+      ],
+      "aliases": [
+        "amargasaurus",
+        "amargasaurus",
+        "amargasaurus cazaui"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/amargasaurus.webp",
+        "alt": {
+          "cs": "Amargasaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů. Souvislý krční hřeben je hypotetická měkkotkáňová rekonstrukce podpořená histologií; přesný tvar není znám."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída; souvrství La Amarga"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-amargasaurus",
+            "ceno-amargasaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Argentina"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-amargasaurus",
+            "ceno-amargasaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 12 m podle muzejního přehledu; odhady rekonstrukcí se liší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-amargasaurus",
+            "ceno-amargasaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-amargasaurus",
+            "ceno-amargasaurus-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Amargasaurus",
+          "ageLabel": "Raná křída; souvrství La Amarga",
+          "location": "Argentina",
+          "groupLabel": "Sauropodi · dikreosauridi",
+          "cardSummary": "Býložravý sauropod s mimořádně dlouhými párovými výběžky krčních obratlů.",
+          "summary": "Býložravý sauropod s mimořádně dlouhými párovými výběžky krčních obratlů.",
+          "quizHint": "Nápadný vysoký hřeben nad krkem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Nápadný vysoký hřeben nad krkem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-amargasaurus",
+                "ceno-amargasaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava a dlouhý krk."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-amargasaurus",
+                "ceno-amargasaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři sloupovité nohy a dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-amargasaurus",
+                "ceno-amargasaurus-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Nápadný vysoký hřeben nad krkem. Malá hlava a dlouhý krk. Čtyři sloupovité nohy a dlouhý ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-amargasaurus",
+              "ceno-amargasaurus-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Párové výběžky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krční obratle nesly dlouhé rozdvojené trnové výběžky. Jejich kostěné části známe z fosilií."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-amargasaurus",
+                    "ceno-amargasaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Krční hřeben",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Histologická studie z roku 2022 podporuje spojení výběžků měkkými tkáněmi do hřebene."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-amargasaurus",
+                    "ceno-amargasaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rozsah nejistoty",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesný obrys ani zbarvení měkkotkáňového hřebene se nezachovaly."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-amargasaurus",
+                    "ceno-amargasaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Menší sauropod",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl mnohem menší než největší sauropodi, přesto představoval velkého čtyřnohého býložravce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-amargasaurus",
+                    "ceno-amargasaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Argentinské naleziště",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno souvisí s oblastí La Amarga v Argentině, odkud pochází důležitá kostra."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-amargasaurus",
+                    "ceno-amargasaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 12,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-amargasaurus",
+          "ceno-amargasaurus-2"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 12 m podle muzejního přehledu; odhady rekonstrukcí se liší."
+        }
+      }
+    },
+    {
+      "id": "shunosaurus",
+      "scientificName": "Shunosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "jurassic",
+      "diet": "herbivore",
+      "group": "Shunosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha",
+        "Sauropoda",
+        "Eusauropoda"
+      ],
+      "aliases": [
+        "shunosaurus",
+        "shunosaurus",
+        "shunosaurus lii"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/shunosaurus.webp",
+        "alt": {
+          "cs": "Shunosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů. Ocasní zakončení je na vybrané ilustraci malé a částečně hůře čitelné; určujícím podkladem je kosterní nález."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Jura; čínské nálezy ze souvrství dolní Shaximiao"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-shunosaurus",
+            "ceno-shunosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "S’-čchuan, Čína"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-shunosaurus",
+            "ceno-shunosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 10 m podle muzejního přehledu; nejde o přesnou délku všech jedinců."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-shunosaurus",
+            "ceno-shunosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-shunosaurus",
+            "ceno-shunosaurus-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Shunosaurus",
+          "ageLabel": "Jura; čínské nálezy ze souvrství dolní Shaximiao",
+          "location": "S’-čchuan, Čína",
+          "groupLabel": "Sauropodi · rané větve",
+          "cardSummary": "Čínský býložravý sauropod, známý neobvyklým kostěným rozšířením konce ocasu.",
+          "summary": "Čínský býložravý sauropod, známý neobvyklým kostěným rozšířením konce ocasu.",
+          "quizHint": "Malá hlava na protáhlém krku.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Malá hlava na protáhlém krku."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-shunosaurus",
+                "ceno-shunosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Robustní trup na čtyřech nohách."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-shunosaurus",
+                "ceno-shunosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas s kostěným kyjem na konci."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-shunosaurus",
+                "ceno-shunosaurus-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Malá hlava na protáhlém krku. Robustní trup na čtyřech nohách. Dlouhý ocas s kostěným kyjem na konci. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-shunosaurus",
+              "ceno-shunosaurus-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Čínský sauropod",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi ranější větve sauropodů a pochází z dnešní Číny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-shunosaurus",
+                    "ceno-shunosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Neobvyklý ocas",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Konec ocasu nesl kostěný kyj. Tím se odlišoval od mnoha známějších sauropodů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-shunosaurus",
+                    "ceno-shunosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby sloužily k získávání rostlinné potravy, například listů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-shunosaurus",
+                    "ceno-shunosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Možná obrana",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ocasní kyj se vykládá jako obranná struktura; přesné použití nelze přímo pozorovat."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-shunosaurus",
+                    "ceno-shunosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Časové zařazení",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné číselné datování čínských souvrství se v podkladech liší. Karta používá obecné období jura."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-shunosaurus",
+                    "ceno-shunosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 10,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-shunosaurus",
+          "ceno-shunosaurus-2"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 10 m podle muzejního přehledu; nejde o přesnou délku všech jedinců."
+        }
+      }
+    },
+    {
+      "id": "euoplocephalus",
+      "scientificName": "Euoplocephalus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Euoplocephalus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Ankylosauria",
+        "Ankylosauridae"
+      ],
+      "aliases": [
+        "euoplocephalus",
+        "euoplocephalus",
+        "euoplocephalus tutus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/euoplocephalus.webp",
+        "alt": {
+          "cs": "Euoplocephalus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-euoplocephalus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika, zejména Kanada"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-euoplocephalus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 7 m podle muzejního přehledu; hranice velikosti závisejí na přiřazení fosilií."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-euoplocephalus"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-euoplocephalus"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Euoplocephalus",
+          "ageLabel": "Pozdní křída",
+          "location": "Severní Amerika, zejména Kanada",
+          "groupLabel": "Obrnění dinosauři · ankylosauridi",
+          "cardSummary": "Nízký obrněný býložravec s kostěnými destičkami a mohutným kyjem na konci ocasu.",
+          "summary": "Nízký obrněný býložravec s kostěnými destičkami a mohutným kyjem na konci ocasu.",
+          "quizHint": "Široké nízké tělo s kostěným brněním.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široké nízké tělo s kostěným brněním."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-euoplocephalus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava blízko země."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-euoplocephalus"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ocas zakončený kostěným kyjem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-euoplocephalus"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široké nízké tělo s kostěným brněním. Malá hlava blízko země. Ocas zakončený kostěným kyjem. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-euoplocephalus"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Ankylosaurid",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil k obrněným ptakopánvým dinosaurům a chodil po čtyřech."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-euoplocephalus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Brnění",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostěné destičky a výčnělky pomáhaly chránit tělo."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-euoplocephalus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Ocasní kyj",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozšířený kostěný konec ocasu se vykládá jako obranná zbraň."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-euoplocephalus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zobák a drobné zuby sloužily ke zpracování rostlin."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-euoplocephalus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Jiný rod",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobnost s Ankylosaurem neznamená totožný rod; rozlišení vyžaduje znaky fosilií."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-euoplocephalus"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 7,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-euoplocephalus"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 7 m podle muzejního přehledu; hranice velikosti závisejí na přiřazení fosilií."
+        }
+      }
+    },
+    {
+      "id": "corythosaurus",
+      "scientificName": "Corythosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Corythosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "aliases": [
+        "corythosaurus",
+        "corythosaurus",
+        "corythosaurus casuarius"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/corythosaurus.webp",
+        "alt": {
+          "cs": "Corythosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, přibližně před 76–74 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-corythosaurus",
+            "ceno-corythosaurus-2",
+            "ceno-corythosaurus-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika; významné nálezy z Alberty"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-corythosaurus",
+            "ceno-corythosaurus-2",
+            "ceno-corythosaurus-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 10 m podle muzejního přehledu; jde o odhad velikosti velkého jedince."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-corythosaurus",
+            "ceno-corythosaurus-2",
+            "ceno-corythosaurus-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-corythosaurus",
+            "ceno-corythosaurus-2",
+            "ceno-corythosaurus-3"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Corythosaurus",
+          "ageLabel": "Pozdní křída, přibližně před 76–74 miliony let",
+          "location": "Severní Amerika; významné nálezy z Alberty",
+          "groupLabel": "Ornitopodi · hadrosauridi",
+          "cardSummary": "Býložravý hadrosaurid s nápadným přilbovitým hřebenem a širokým zobákem.",
+          "summary": "Býložravý hadrosaurid s nápadným přilbovitým hřebenem a širokým zobákem.",
+          "quizHint": "Vysoký zaoblený přilbovitý hřeben.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoký zaoblený přilbovitý hřeben."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-corythosaurus",
+                "ceno-corythosaurus-2",
+                "ceno-corythosaurus-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široký zobák v přední části hlavy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-corythosaurus",
+                "ceno-corythosaurus-2",
+                "ceno-corythosaurus-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné zadní končetiny a dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-corythosaurus",
+                "ceno-corythosaurus-2",
+                "ceno-corythosaurus-3"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoký zaoblený přilbovitý hřeben. Široký zobák v přední části hlavy. Silné zadní končetiny a dlouhý ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-corythosaurus",
+              "ceno-corythosaurus-2",
+              "ceno-corythosaurus-3"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Kachnozobý dinosaurus",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi hadrosauridy, skupinu býložravých ptakopánvých dinosaurů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-corythosaurus",
+                    "ceno-corythosaurus-2",
+                    "ceno-corythosaurus-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Dutý hřeben",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Uvnitř hřebene probíhaly složité nosní cesty. Nešlo jen o plnou kostěnou ozdobu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-corythosaurus",
+                    "ceno-corythosaurus-2",
+                    "ceno-corythosaurus-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Možná komunikace",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hřeben pravděpodobně sloužil k vizuálnímu rozpoznávání a ovlivňoval hlasové projevy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-corythosaurus",
+                    "ceno-corythosaurus-2",
+                    "ceno-corythosaurus-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Výjimečné fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U některých nálezů se zachovaly také otisky kůže a zkostnatělé šlachy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-corythosaurus",
+                    "ceno-corythosaurus-2",
+                    "ceno-corythosaurus-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Růst hřebene",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvar i vnitřní stavba hřebene se měnily během růstu. Mládě nevypadalo jako zmenšený dospělec."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-corythosaurus",
+                    "ceno-corythosaurus-2",
+                    "ceno-corythosaurus-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 10,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-corythosaurus",
+          "ceno-corythosaurus-2",
+          "ceno-corythosaurus-3"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 10 m podle muzejního přehledu; jde o odhad velikosti velkého jedince."
+        }
+      }
+    },
+    {
+      "id": "lambeosaurus",
+      "scientificName": "Lambeosaurus",
+      "taxonRank": "genus",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Lambeosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sauropsida",
+        "Dinosauria",
+        "Ornithischia",
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Lambeosaurinae"
+      ],
+      "aliases": [
+        "lambeosaurus",
+        "lambeosaurus",
+        "lambeosaurus lambei"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/lambeosaurus.webp",
+        "alt": {
+          "cs": "Lambeosaurus v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, přibližně před 76–74 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lambeosaurus",
+            "ceno-lambeosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada, zejména Alberta"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lambeosaurus",
+            "ceno-lambeosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 9 m podle muzejního přehledu; rozměry se liší podle druhu a věku."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lambeosaurus",
+            "ceno-lambeosaurus-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lambeosaurus",
+            "ceno-lambeosaurus-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Lambeosaurus",
+          "ageLabel": "Pozdní křída, přibližně před 76–74 miliony let",
+          "location": "Kanada, zejména Alberta",
+          "groupLabel": "Ornitopodi · hadrosauridi",
+          "cardSummary": "Hadrosaurid s vysokým kostěným hřebenem, u známého L. lambei připomínajícím sekeru.",
+          "summary": "Hadrosaurid s vysokým kostěným hřebenem, u známého L. lambei připomínajícím sekeru.",
+          "quizHint": "Vysoký hřeben s dozadu směřujícím výběžkem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vysoký hřeben s dozadu směřujícím výběžkem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lambeosaurus",
+                "ceno-lambeosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široký zobák."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lambeosaurus",
+                "ceno-lambeosaurus-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné zadní nohy a dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lambeosaurus",
+                "ceno-lambeosaurus-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vysoký hřeben s dozadu směřujícím výběžkem. Široký zobák. Mohutné zadní nohy a dlouhý ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-lambeosaurus",
+              "ceno-lambeosaurus-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Lambeův dinosaurus",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod byl pojmenován na počest paleontologa Lawrence Lambea."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lambeosaurus",
+                    "ceno-lambeosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Hřeben jako sekera",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U L. lambei bývá tvar dospělého hřebene přirovnáván k sekeře."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lambeosaurus",
+                    "ceno-lambeosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Nosní cesty",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dutý hřeben obsahoval složité smyčky nosních cest. Jejich uspořádání ukazují CT vyšetření."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lambeosaurus",
+                    "ceno-lambeosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl příbuzný Corythosaurovi, ale hřeben i jeho vnitřní stavba se lišily."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lambeosaurus",
+                    "ceno-lambeosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Růst a komunikace",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hřeben se měnil během dospívání. Pravděpodobně pomáhal při rozpoznávání a zvukové komunikaci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lambeosaurus",
+                    "ceno-lambeosaurus-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 9,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-lambeosaurus",
+          "ceno-lambeosaurus-2"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 9 m podle muzejního přehledu; rozměry se liší podle druhu a věku."
         }
       }
     }

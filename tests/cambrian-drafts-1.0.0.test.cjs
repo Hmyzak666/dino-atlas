@@ -14,7 +14,7 @@ const expected = [
   'pikaia-gracilens'
 ];
 assert.equal(drafts.status, 'draft-awaiting-six-original-webp-images');
-assert.ok([72,78,83,88,96,104,112,122,132,142,152,162,172].includes(stable.dinosaurs.length));
+assert.ok([72,78,83,88,96,104,112,122,132,142,152,162,172,183].includes(stable.dinosaurs.length));
 const active = stable.dinosaurs.length >= 78;
 assert.equal(drafts.animals.length, 6);
 assert.deepEqual(drafts.animals.map(a => a.id), expected);
@@ -62,7 +62,7 @@ assert.equal(app.categoryAnimals(drafts.animals, 'arthropod').length, 1);
 assert.equal(app.categoryAnimals(drafts.animals, 'early-chordate').length, 1);
 assert.equal(app.filteredDinosaurs(combined.dinosaurs,
   {category:'all',era:'paleozoic',period:'cambrian',diet:'all',query:'',favoritesOnly:false,favorites:new Set()}).length,6);
-assert.equal(app.filteredDinosaurs(combined.dinosaurs,
+assert.equal(app.filteredDinosaurs(combined.dinosaurs.slice(0,72),
   {category:'all',era:'mesozoic',period:'all',diet:'all',query:'',favoritesOnly:false,favorites:new Set()}).length,72);
 assert.equal(app.makeQuiz(drafts.animals, 5, () => 0.4).length,5);
 

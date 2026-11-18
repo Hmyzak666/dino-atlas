@@ -1,4 +1,4 @@
-> Aktuální zdroje: **1.1.0, build 1010006, 172 zvířat**. [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md). Sestavení se plánuje až po dokončení všech zvířat.
+> Aktuální zdroje: **1.1.0, build 1010007, 183 zvířat**. [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md). Všech 71 nových položek je vloženo; zdroje jsou připravené k sestavení.
 
 > Aktuální zdroje: **1.1.0, build 1010002, 132 zvířat**. [Stav a návod](docs/CENOZOIC-BATCH02.md). APK se připraví až po dokončení všech zvířat.
 
