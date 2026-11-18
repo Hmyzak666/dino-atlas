@@ -2195,6 +2195,96 @@
       "shortTitle": "Florida Museum · Aepycamelus major",
       "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/aepycamelus-major/",
       "kind": "Muzejní nebo odborný podklad; rodová karta nerozlišuje všechny druhy."
+    },
+    "ceno-mamut-srstnaty": {
+      "title": "Natural History Museum · mamuti",
+      "shortTitle": "Natural History Museum · mamuti",
+      "url": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-nosorozec-srstnaty": {
+      "title": "University of Padua · nosorožec srstnatý",
+      "shortTitle": "University of Padua · nosorožec srstnatý",
+      "url": "https://visitmnu.it/en/punto_di_interesse/the-woolly-rhinoceros/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-smilodon": {
+      "title": "Florida Museum · Smilodon fatalis a příbuzné druhy",
+      "shortTitle": "Florida Museum · Smilodon fatalis a příbuzné druhy",
+      "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-velejelen": {
+      "title": "Natural History Museum · velejelen",
+      "shortTitle": "Natural History Museum · velejelen",
+      "url": "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-glyptodon": {
+      "title": "Musée d’Histoire Naturelle de Lille · Glyptodon",
+      "shortTitle": "Musée d’Histoire Naturelle de Lille · Glyptodon",
+      "url": "https://mhn.lille.fr/en/node/1676",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-glyptodon-2": {
+      "title": "Zurita a kol. 2010 · ochranné struktury Glyptodona",
+      "shortTitle": "Zurita a kol. 2010 · ochranné struktury Glyptodona",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0753396910000029",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-glyptodon-3": {
+      "title": "Blanco a kol. 2009 · stavba ocasního brnění glyptodontů",
+      "shortTitle": "Blanco a kol. 2009 · stavba ocasního brnění glyptodontů",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2825778/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-lev-jeskynni": {
+      "title": "Yukon Beringia Interpretive Centre · jeskynní lvi",
+      "shortTitle": "Yukon Beringia Interpretive Centre · jeskynní lvi",
+      "url": "https://beringia.com/exhibit/ice-age-animals/beringian-lion",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-medved-jeskynni": {
+      "title": "SNSB · potrava medvěda jeskynního",
+      "shortTitle": "SNSB · potrava medvěda jeskynního",
+      "url": "https://zsm.snsb.de/vegetarische-hoehlenbaeren/?lang=en",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-medved-jeskynni-2": {
+      "title": "Meleg a kol. 2025 · potrava jeskynních medvědů",
+      "shortTitle": "Meleg a kol. 2025 · potrava jeskynních medvědů",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12767184/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-medved-jeskynni-3": {
+      "title": "Národní muzeum · fauna Barové jeskyně",
+      "shortTitle": "Národní muzeum · fauna Barové jeskyně",
+      "url": "https://publikace.nm.cz/periodicals/fiamnpsbhn/73-3-4/the-mammalian-fauna-of-barova-cave-moravian-karst-the-czech-republic",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-bootherium": {
+      "title": "Illinois State Museum · pravěcí pižmoni",
+      "shortTitle": "Illinois State Museum · pravěcí pižmoni",
+      "url": "https://exhibits.museum.state.il.us/exhibits/larson/muskox.html",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-bootherium-2": {
+      "title": "McDonald a Ray 1989 · revize severoamerických pižmoňů",
+      "shortTitle": "McDonald a Ray 1989 · revize severoamerických pižmoňů",
+      "url": "https://repository.si.edu/items/01c6d2a8-53c4-4305-b743-6ee2651bf314",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-diprotodon": {
+      "title": "Australian Museum · Diprotodon optatum",
+      "shortTitle": "Australian Museum · Diprotodon optatum",
+      "url": "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
+    },
+    "ceno-thylacoleo": {
+      "title": "Australian Museum · Thylacoleo carnifex",
+      "shortTitle": "Australian Museum · Thylacoleo carnifex",
+      "url": "https://australian.museum/learn/animals/mammals/thylacoleo-carnifex/",
+      "kind": "Muzejní nebo odborný podklad; odhady se vztahují k uvedenému druhu."
     }
   },
   "dinosaurs": [
@@ -41588,6 +41678,2420 @@
               ]
             }
           ]
+        }
+      }
+    },
+    {
+      "id": "mamut-srstnaty",
+      "scientificName": "Mammuthus primigenius",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Mammuthus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Proboscidea",
+        "Elephantidae"
+      ],
+      "aliases": [
+        "mamut srstnatý",
+        "mammuthus primigenius"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/mamut-srstnaty.webp",
+        "alt": {
+          "cs": "Mamut srstnatý v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén až holocén; poslední ostrovní populace asi před 4 000 lety"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-mamut-srstnaty"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie a Severní Amerika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-mamut-srstnaty"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-mamut-srstnaty"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Mamut srstnatý",
+          "ageLabel": "Pleistocén až holocén; poslední ostrovní populace asi před 4 000 lety",
+          "location": "Eurasie a Severní Amerika",
+          "groupLabel": "Chobotnatci · slonovití",
+          "cardSummary": "Srstnatý slon doby ledové s dlouhými zakřivenými kly, malýma ušima a hřbetem svažujícím se k ocasu.",
+          "summary": "Srstnatý slon doby ledové s dlouhými zakřivenými kly, malýma ušima a hřbetem svažujícím se k ocasu.",
+          "quizHint": "Dlouhé spirálovitě zahnuté kly.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhé spirálovitě zahnuté kly."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-mamut-srstnaty"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Hustá srst a malé uši."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-mamut-srstnaty"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vysoké plece a hřbet klesající k ocasu."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-mamut-srstnaty"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhé spirálovitě zahnuté kly. Hustá srst a malé uši. Vysoké plece a hřbet klesající k ocasu. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-mamut-srstnaty"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Sloní příbuzenstvo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mamut patřil mezi slonovité. Dnešní sloni jsou jeho příbuzní, nikoli potomci mamuta srstnatého."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-mamut-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Život v chladu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hustá srst, malé uši a krátký ocas pomáhaly omezovat ztráty tepla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-mamut-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Krajina s potravou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Obýval i bohatě zarostlou chladnou step. Trvale hluboký sníh by mu ztěžoval získávání rostlin."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-mamut-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Ne všichni mamuti byli srstnatí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod Mammuthus zahrnoval více druhů. Tato karta představuje pouze mamuta srstnatého."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-mamut-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Poslední ostrované",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na Wrangelově ostrově přežila malá populace asi do doby před 4 000 lety. Příčiny vymizení se stále zkoumají."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-mamut-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nosorozec-srstnaty",
+      "scientificName": "Coelodonta antiquitatis",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Coelodonta",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Perissodactyla",
+        "Rhinocerotidae"
+      ],
+      "aliases": [
+        "nosorožec srstnatý",
+        "coelodonta antiquitatis"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/nosorozec-srstnaty.webp",
+        "alt": {
+          "cs": "Nosorožec srstnatý v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-nosorozec-srstnaty"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-nosorozec-srstnaty"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-nosorozec-srstnaty"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Nosorožec srstnatý",
+          "ageLabel": "Pleistocén",
+          "location": "Eurasie",
+          "groupLabel": "Lichokopytníci · nosorožcovití",
+          "cardSummary": "Mohutný nosorožec doby ledové s hustou srstí a dvěma rohy, z nichž přední byl výrazně delší.",
+          "summary": "Mohutný nosorožec doby ledové s hustou srstí a dvěma rohy, z nichž přední byl výrazně delší.",
+          "quizHint": "Dva rohy za sebou na čenichu.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dva rohy za sebou na čenichu."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-nosorozec-srstnaty"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý přední roh."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-nosorozec-srstnaty"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Robustní trup pokrytý hustou srstí."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-nosorozec-srstnaty"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dva rohy za sebou na čenichu. Dlouhý přední roh. Robustní trup pokrytý hustou srstí. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-nosorozec-srstnaty"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Nosorožec doby ledové",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žil v Evropě i dalších částech Eurasie během pleistocénu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-nosorozec-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Hustý kožich",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Srst pomáhala chránit tělo před chladem. O jejím vzhledu vypovídají i zachovaná těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-nosorozec-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dva rohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rohy tvořil keratin, podobně jako naše nehty. Nešlo o kostěné parohy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-nosorozec-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Byl býložravcem. Mohutné tělo proto neznamená, že lovil jiná zvířata."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-nosorozec-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Zamrzlé pozůstatky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Sibiřský permafrost uchoval části těl, které obvyklá kostra nezachová, včetně srsti a dalších měkkých tkání."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-nosorozec-srstnaty"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smilodon",
+      "scientificName": "Smilodon",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Smilodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Carnivora",
+        "Felidae",
+        "Machairodontinae"
+      ],
+      "aliases": [
+        "smilodon",
+        "smilodon",
+        "šavlozubý tygr",
+        "smilodon fatalis"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/smilodon.webp",
+        "alt": {
+          "cs": "Smilodon v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén; stáří se liší podle druhu"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-smilodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní a Jižní Amerika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-smilodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-smilodon"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Smilodon",
+          "ageLabel": "Pleistocén; stáří se liší podle druhu",
+          "location": "Severní a Jižní Amerika",
+          "groupLabel": "Šelmy · šavlozubé kočkovité",
+          "cardSummary": "Šavlozubá kočkovitá šelma s dlouhými horními špičáky, silnými předními končetinami a krátkým ocasem.",
+          "summary": "Šavlozubá kočkovitá šelma s dlouhými horními špičáky, silnými předními končetinami a krátkým ocasem.",
+          "quizHint": "Velmi dlouhé horní špičáky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velmi dlouhé horní špičáky."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-smilodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutné přední končetiny."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-smilodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátký ocas a robustní kočičí tělo."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-smilodon"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velmi dlouhé horní špičáky. Mohutné přední končetiny. Krátký ocas a robustní kočičí tělo. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-smilodon"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Šavlozubá kočka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi kočkovité šelmy. Populární označení šavlozubý tygr není jeho zoologické jméno."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-smilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Více druhů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Běžně se rozlišují S. gracilis, S. fatalis a S. populator. Neměly totožnou velikost ani rozšíření."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-smilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Americký domov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod je známý z Amerik. Karta neoznačuje všechny americké nálezy automaticky za jediný druh."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-smilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Slavné nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rancho La Brea v dnešním Los Angeles poskytlo mnoho fosilií druhu S. fatalis."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-smilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Velikost není jediná",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Údaje o hmotnosti S. fatalis nelze bez dalšího přenášet na ostatní druhy rodu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-smilodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "velejelen",
+      "scientificName": "Megaloceros giganteus",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Megaloceros",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Artiodactyla",
+        "Cervidae"
+      ],
+      "aliases": [
+        "velejelen",
+        "megaloceros giganteus",
+        "jelen obrovský",
+        "irský los",
+        "megaloceros"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/velejelen.webp",
+        "alt": {
+          "cs": "Velejelen v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén až raný holocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-velejelen"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie, včetně Evropy a Ruska"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-velejelen"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-velejelen"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Velejelen",
+          "ageLabel": "Pleistocén až raný holocén",
+          "location": "Eurasie, včetně Evropy a Ruska",
+          "groupLabel": "Sudokopytníci · jelenovití",
+          "cardSummary": "Velký jelen s mohutným lopatovitým parožím samců. Přežil konec poslední doby ledové v části Eurasie.",
+          "summary": "Velký jelen s mohutným lopatovitým parožím samců. Přežil konec poslední doby ledové v části Eurasie.",
+          "quizHint": "Široké lopatovité paroží samce.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široké lopatovité paroží samce."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-velejelen"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé jelení nohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-velejelen"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silný krk a vysoké plece."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-velejelen"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široké lopatovité paroží samce. Dlouhé jelení nohy. Silný krk a vysoké plece. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-velejelen"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Paroží samců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozpětí mohlo dosahovat přibližně 3,5 metru. Jde o šířku paroží, nikoli délku těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-velejelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Příbuzný daňka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Genetické výzkumy ukazují blízkou příbuznost s dnešním daňkem."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-velejelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Každoroční obnova",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Samci paroží shazovali a znovu nechávali narůst. Jeho tvorba vyžadovala dostatek potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-velejelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Otevřená krajina",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vyhovovala mu mozaika travnatých ploch a řídkých lesů, ne pouze hustý prales."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-velejelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Přežil dobu ledovou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Poslední známé populace ve středním Rusku přežívaly přibližně do doby před 8 000 lety."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-velejelen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "glyptodon",
+      "scientificName": "Glyptodon",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Glyptodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Xenarthra",
+        "Cingulata",
+        "Glyptodontinae"
+      ],
+      "aliases": [
+        "glyptodon",
+        "glyptodon"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/glyptodon.webp",
+        "alt": {
+          "cs": "Glyptodon v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-glyptodon",
+            "ceno-glyptodon-2",
+            "ceno-glyptodon-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jižní Amerika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-glyptodon",
+            "ceno-glyptodon-2",
+            "ceno-glyptodon-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-glyptodon",
+            "ceno-glyptodon-2",
+            "ceno-glyptodon-3"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Glyptodon",
+          "ageLabel": "Pleistocén",
+          "location": "Jižní Amerika",
+          "groupLabel": "Chudozubí · obrnění příbuzní pásovců",
+          "cardSummary": "Obrněný býložravý příbuzný pásovců s velkým klenutým krunýřem a krátkými končetinami.",
+          "summary": "Obrněný býložravý příbuzný pásovců s velkým klenutým krunýřem a krátkými končetinami.",
+          "quizHint": "Velký vyklenutý krunýř z kostěných destiček.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velký vyklenutý krunýř z kostěných destiček."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-glyptodon",
+                "ceno-glyptodon-2",
+                "ceno-glyptodon-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava u země."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-glyptodon",
+                "ceno-glyptodon-2",
+                "ceno-glyptodon-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři krátké silné nohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-glyptodon",
+                "ceno-glyptodon-2",
+                "ceno-glyptodon-3"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velký vyklenutý krunýř z kostěných destiček. Malá hlava u země. Čtyři krátké silné nohy. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-glyptodon",
+              "ceno-glyptodon-2",
+              "ceno-glyptodon-3"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Příbuzný pásovců",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Glyptodon patřil mezi savce příbuzné dnešním pásovcům. Nebyl želvou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-glyptodon",
+                    "ceno-glyptodon-2",
+                    "ceno-glyptodon-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Kostěné brnění",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Trup chránil pevný krunýř složený z mnoha kostěných destiček."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-glyptodon",
+                    "ceno-glyptodon-2",
+                    "ceno-glyptodon-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rostlinná potrava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "I přes obrněné tělo se živil rostlinnou potravou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-glyptodon",
+                    "ceno-glyptodon-2",
+                    "ceno-glyptodon-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Jihoamerické nálezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rod známe z pleistocénu Jižní Ameriky. Samotné slovo glyptodont může označovat i širší skupinu příbuzných."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-glyptodon",
+                    "ceno-glyptodon-2",
+                    "ceno-glyptodon-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Ocas příbuzných",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Glyptodon neměl stejný mohutný koncový kyj jako Doedicurus. Stavba ocasního brnění se mezi rody lišila."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-glyptodon",
+                    "ceno-glyptodon-2",
+                    "ceno-glyptodon-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lev-jeskynni",
+      "scientificName": "Panthera spelaea",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Panthera",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Carnivora",
+        "Felidae",
+        "Panthera"
+      ],
+      "aliases": [
+        "lev jeskynní",
+        "panthera spelaea"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/lev-jeskynni.webp",
+        "alt": {
+          "cs": "Lev jeskynní v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lev-jeskynni"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Eurasie a Beringie"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lev-jeskynni"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-lev-jeskynni"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Lev jeskynní",
+          "ageLabel": "Pleistocén",
+          "location": "Eurasie a Beringie",
+          "groupLabel": "Šelmy · kočkovití",
+          "cardSummary": "Velká kočkovitá šelma doby ledové. Jeskynní malby naznačují, že samci neměli mohutnou hřívu dnešních lvů.",
+          "summary": "Velká kočkovitá šelma doby ledové. Jeskynní malby naznačují, že samci neměli mohutnou hřívu dnešních lvů.",
+          "quizHint": "Velké svalnaté kočičí tělo.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velké svalnaté kočičí tělo."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lev-jeskynni"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Lví hlava bez mohutné hřívy v rekonstrukci."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lev-jeskynni"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-lev-jeskynni"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velké svalnaté kočičí tělo. Lví hlava bez mohutné hřívy v rekonstrukci. Dlouhý ocas. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-lev-jeskynni"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Příbuzný dnešního lva",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jeskynní lvi tvořili geneticky odlišnou linii od předků dnešních afrických lvů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lev-jeskynni"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Široké rozšíření",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žili v Eurasii a zasahovali přes Beringii do dnešní Aljašky a Yukonu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lev-jeskynni"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Co ukazují malby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pravěké malby opakovaně zachycují lvy bez výrazné hřívy, dokonce i u zřejmě samčích jedinců."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lev-jeskynni"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Život ve skupině?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zda tvořili stejné smečky jako dnešní lvi, není spolehlivě doloženo. Příbuznost sama to nedokazuje."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lev-jeskynni"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Různí pravěcí lvi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lev americký jižně od pevninských ledovců se obvykle rozlišuje jako Panthera atrox."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-lev-jeskynni"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "medved-jeskynni",
+      "scientificName": "Ursus spelaeus",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Ursus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Carnivora",
+        "Ursidae"
+      ],
+      "aliases": [
+        "medvěd jeskynní",
+        "ursus spelaeus"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/medved-jeskynni.webp",
+        "alt": {
+          "cs": "Medvěd jeskynní v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-medved-jeskynni",
+            "ceno-medved-jeskynni-2",
+            "ceno-medved-jeskynni-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa; nálezy i z Moravského krasu"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-medved-jeskynni",
+            "ceno-medved-jeskynni-2",
+            "ceno-medved-jeskynni-3"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Převážně rostlinná potrava; skladba se lišila mezi jedinci a populacemi."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-medved-jeskynni",
+            "ceno-medved-jeskynni-2",
+            "ceno-medved-jeskynni-3"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Medvěd jeskynní",
+          "ageLabel": "Pleistocén",
+          "location": "Evropa; nálezy i z Moravského krasu",
+          "groupLabel": "Šelmy · medvědovití",
+          "cardSummary": "Mohutný pravěký medvěd s převážně rostlinnou potravou. Velké špičáky samy o sobě neznamenají masožravost.",
+          "summary": "Mohutný pravěký medvěd s převážně rostlinnou potravou. Velké špičáky samy o sobě neznamenají masožravost.",
+          "quizHint": "Mohutné medvědí tělo.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Mohutné medvědí tělo."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-medved-jeskynni",
+                "ceno-medved-jeskynni-2",
+                "ceno-medved-jeskynni-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velká hlava s vysokým čelem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-medved-jeskynni",
+                "ceno-medved-jeskynni-2",
+                "ceno-medved-jeskynni-3"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné končetiny a široké tlapy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-medved-jeskynni",
+                "ceno-medved-jeskynni-2",
+                "ceno-medved-jeskynni-3"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Mohutné medvědí tělo. Velká hlava s vysokým čelem. Silné končetiny a široké tlapy. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-medved-jeskynni",
+              "ceno-medved-jeskynni-2",
+              "ceno-medved-jeskynni-3"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Šelma, která jedla rostliny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil do řádu šelem, ale stavba čelistí a další důkazy ukazují převážně rostlinný jídelníček."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-medved-jeskynni",
+                    "ceno-medved-jeskynni-2",
+                    "ceno-medved-jeskynni-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Zuby jako vodítko",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vědci porovnávají tvar lebky, čelistí a zubů s medvědy, jejichž potravu známe."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-medved-jeskynni",
+                    "ceno-medved-jeskynni-2",
+                    "ceno-medved-jeskynni-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rozdílné jídelníčky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkum z roku 2025 ukázal mezi rumunskými jeskynními medvědy rozdíly ve výběru rostlinné potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-medved-jeskynni",
+                    "ceno-medved-jeskynni-2",
+                    "ceno-medved-jeskynni-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Nálezy u nás",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosti medvědů ze skupiny Ursus spelaeus byly popsány také z Barové jeskyně v Moravském krasu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-medved-jeskynni",
+                    "ceno-medved-jeskynni-2",
+                    "ceno-medved-jeskynni-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Není medvěd hnědý",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jeskynní a hnědí medvědi představovali odlišné vývojové linie. Dnešní jídelníček medvěda hnědého nelze automaticky přenést na jeskynního."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-medved-jeskynni",
+                    "ceno-medved-jeskynni-2",
+                    "ceno-medved-jeskynni-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bootherium",
+      "scientificName": "Bootherium bombifrons",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Bootherium",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Artiodactyla",
+        "Bovidae"
+      ],
+      "aliases": [
+        "bootherium",
+        "bootherium bombifrons",
+        "symbos",
+        "lesní pižmoň"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/bootherium.webp",
+        "alt": {
+          "cs": "Bootherium v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-bootherium",
+            "ceno-bootherium-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-bootherium",
+            "ceno-bootherium-2"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přesná délka vyobrazeného jedince není stanovena."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesná hmotnost vyobrazeného jedince není známa."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-bootherium",
+            "ceno-bootherium-2"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Bootherium",
+          "ageLabel": "Pleistocén",
+          "location": "Severní Amerika",
+          "groupLabel": "Sudokopytníci · turovití",
+          "cardSummary": "Vyhynulý severoamerický příbuzný pižmoňů, známý podle lebek a výrazných rohů.",
+          "summary": "Vyhynulý severoamerický příbuzný pižmoňů, známý podle lebek a výrazných rohů.",
+          "quizHint": "Turovitá hlava se zahnutými rohy.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Turovitá hlava se zahnutými rohy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-bootherium",
+                "ceno-bootherium-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silný krk a robustní trup."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-bootherium",
+                "ceno-bootherium-2"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Srstnaté tělo v rekonstrukci."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-bootherium",
+                "ceno-bootherium-2"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Turovitá hlava se zahnutými rohy. Silný krk a robustní trup. Srstnaté tělo v rekonstrukci. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-bootherium",
+              "ceno-bootherium-2"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Pravěký pižmoň",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi turovité savce. Nebyl totožný s dnešním pižmoněm Ovibos moschatus."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-bootherium",
+                    "ceno-bootherium-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Lesy i pláně",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bývá označován jako lesní pižmoň. Rekonstrukce prostředí počítají s lesnatou i otevřenější krajinou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-bootherium",
+                    "ceno-bootherium-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Severoamerické kosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jeho fosilie jsou známé z řady severoamerických lokalit, například ze středozápadu USA."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-bootherium",
+                    "ceno-bootherium-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Dva názvy pro různé lebky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lebky s mohutnějšími rohy bývaly označovány jako Symbos. Revize je spojila s Bootheriem jako rozdíly pohlaví."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-bootherium",
+                    "ceno-bootherium-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Vyhynulý příbuzný",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bootherium na konci pleistocénu vymizelo. Dnešní arktický pižmoň přežil."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-bootherium",
+                    "ceno-bootherium-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diprotodon",
+      "scientificName": "Diprotodon",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "herbivore",
+      "group": "Diprotodon",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Marsupialia",
+        "Diprotodontia",
+        "Diprotodontidae"
+      ],
+      "aliases": [
+        "diprotodon",
+        "diprotodon"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/diprotodon.webp",
+        "alt": {
+          "cs": "Diprotodon v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-diprotodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Austrálie"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-diprotodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Až přibližně 3,8 m od hlavy po ocas pro D. optatum; odhad velkého jedince."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-diprotodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Odhady velkých D. optatum dosahují přibližně 2,7 tuny."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-diprotodon"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-diprotodon"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Diprotodon",
+          "ageLabel": "Pleistocén",
+          "location": "Austrálie",
+          "groupLabel": "Vačnatci · diprotodontidi",
+          "cardSummary": "Obří býložravý vačnatec se soudkovitým tělem, velkou hlavou a sloupovitými končetinami.",
+          "summary": "Obří býložravý vačnatec se soudkovitým tělem, velkou hlavou a sloupovitými končetinami.",
+          "quizHint": "Mohutné břicho a velká hlava.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Mohutné břicho a velká hlava."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-diprotodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři silné sloupovité končetiny."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-diprotodon"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké, poměrně malé tlapy."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-diprotodon"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Mohutné břicho a velká hlava. Čtyři silné sloupovité končetiny. Krátké, poměrně malé tlapy. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-diprotodon"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obří vačnatec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Diprotodon optatum byl největším známým vačnatcem. Připomínal obřího vombata, ale patřil do vlastní čeledi."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-diprotodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Dvojice řezáků",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výrazné spodní řezáky směřovaly dopředu. Podle nich vzniklo jeho jméno."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-diprotodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Rostlinný jídelníček",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U jedné kostry z jezera Callabonna se v oblasti břicha zachovaly zbytky lebedy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-diprotodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Silné nohy, malé tlapy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba končetin nesla těžké tělo. Tlapy byly vzhledem k jeho velikosti překvapivě malé."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-diprotodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Australská krajina",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Obýval otevřené lesy, savany a polosuché pláně. Na zbarvení ani velikosti stád se z kostry přímo usuzovat nedá."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-diprotodon"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3.8,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-diprotodon"
+        ],
+        "note": {
+          "cs": "Až přibližně 3,8 m od hlavy po ocas pro D. optatum; odhad velkého jedince."
+        }
+      }
+    },
+    {
+      "id": "thylacoleo",
+      "scientificName": "Thylacoleo",
+      "taxonRank": "genus",
+      "category": "mammal",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Thylacoleo",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Mammalia",
+        "Marsupialia",
+        "Diprotodontia",
+        "Thylacoleonidae"
+      ],
+      "aliases": [
+        "thylacoleo",
+        "thylacoleo",
+        "vakolev",
+        "thylacoleo carnifex"
+      ],
+      "reviewedAt": "2026-11-18",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/thylacoleo.webp",
+        "alt": {
+          "cs": "Thylacoleo v rekonstrukci pravěkého prostředí."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dříve vytvořená a vybraná AI rekonstrukce. Zbarvení, měkké tkáně a prostředí jsou hypotetické; ilustrace není dokladem všech anatomických detailů."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pleistocén pro T. carnifex; rod zahrnoval i starší druhy"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-thylacoleo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Austrálie"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-thylacoleo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientačně kolem 1,5 m od hlavy po ocas pro T. carnifex."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-thylacoleo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Odhadem přibližně 90–160 kg pro T. carnifex."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-thylacoleo"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočišná potrava"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "ceno-thylacoleo"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Thylacoleo",
+          "ageLabel": "Pleistocén pro T. carnifex; rod zahrnoval i starší druhy",
+          "location": "Austrálie",
+          "groupLabel": "Vačnatci · vakolvi",
+          "cardSummary": "Masožravý vačnatec přezdívaný vakolev. Nejznámější T. carnifex měl silné přední končetiny a neobvyklé řezavé zuby.",
+          "summary": "Masožravý vačnatec přezdívaný vakolev. Nejznámější T. carnifex měl silné přední končetiny a neobvyklé řezavé zuby.",
+          "quizHint": "Krátká široká hlava.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Krátká široká hlava."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-thylacoleo"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné přední končetiny s velkým palcovým drápem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-thylacoleo"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Protáhlé tělo s dlouhým ocasem."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "ceno-thylacoleo"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Krátká široká hlava. Silné přední končetiny s velkým palcovým drápem. Protáhlé tělo s dlouhým ocasem. Barva ani pozadí nejsou spolehlivými určovacími znaky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "ceno-thylacoleo"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Vakolev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přezdívka neznamená, že byl kočkovitou šelmou. Patřil mezi vačnatce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-thylacoleo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Zuby jako čepele",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvětšené třetí třenové zuby vytvářely dlouhé řezavé hrany. Potravu zpracovával jinak než dnešní lev."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-thylacoleo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Palcový dráp",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvlášť velký dráp na přední končetině mohl pomáhat při uchopení a zpracování kořisti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-thylacoleo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Způsob lovu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silné přední končetiny a chrup podporují masožravost. Přesné lovecké chování je rekonstrukcí."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-thylacoleo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Rod a druh",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Karta ukazuje zejména pleistocénního T. carnifex. Odhady jeho velikosti neplatí automaticky pro celý rod."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "ceno-thylacoleo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení vyobrazeného jedince a jeho chování neznáme. Některé detaily ilustrace jsou výtvarným odhadem."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "ceno-thylacoleo"
+        ],
+        "note": {
+          "cs": "Orientačně kolem 1,5 m od hlavy po ocas pro T. carnifex."
         }
       }
     }
