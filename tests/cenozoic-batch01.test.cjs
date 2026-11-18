@@ -2,7 +2,9 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const crypto = require('node:crypto');
 const app = require('../app.js');
-const db = require('../dinosaurs.json');
+// Scope historical first-batch assertions to its original 122 entries.
+const current = require('../dinosaurs.json');
+const db = {...current, dinosaurs: current.dinosaurs.slice(0,122)};
 const before = require('../docs/backups/cenozoic-batch01/dinosaurs.json');
 const manifest = require('../docs/cenozoic-batch01.json');
 const sha = b => crypto.createHash('sha256').update(b).digest('hex');

@@ -620,5 +620,26 @@ window.DINO_KNOWLEDGE = {
   "sources": [
     "https://www.amnh.org/explore/news-blogs/gastornis-gigantea"
   ]
+},
+"quaternary": {
+  "title": "Čtvrtohory",
+  "range": "Přibližně od doby před 2,6 milionu let do současnosti",
+  "sections": [
+    [
+      "Členění",
+      "Zahrnují pleistocén a holocén. Jde o nejmladší období kenozoika."
+    ],
+    [
+      "Proměnlivé podnebí",
+      "Během pleistocénu se opakovaně střídaly doby ledové a teplejší meziledové doby. Ne všechna místa byla pokrytá ledem."
+    ],
+    [
+      "Život",
+      "Žili zde lidé i mnozí velcí savci, například mamuti a obří pozemní lenochodi."
+    ]
+  ],
+  "sources": [
+    "https://stratigraphy.org/chart"
+  ]
 }
 };

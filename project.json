@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "versionCode": 1010001,
+  "versionCode": 1010002,
   "android": {
     "platform": 35,
     "buildTools": "35.0.1",
