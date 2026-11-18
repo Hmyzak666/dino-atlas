@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — průběžný souhrn novinek
 
-**Rozpracováno, 18. 11. 2026.** Aktuální zdroje: build 1010005, **162 zvířat**, z toho 50 nových. Cíl po doplnění schváleného seznamu: 183 zvířat. APK této verze zatím nevzniklo. Změny jsou pouze v pracovní větvi `feature/paleozoic-1.0.0`.
+**Rozpracováno, 18. 11. 2026.** Aktuální zdroje: build 1010006, **172 zvířat**, z toho 60 nových. Cíl po doplnění schváleného seznamu: 183 zvířat. APK této verze zatím nevzniklo. Změny jsou pouze v pracovní větvi `feature/paleozoic-1.0.0`.
 
 ## Nový obsah
 
@@ -11,6 +11,7 @@
 | 3 | Amphicyon, Eohippus, Dorudon, Deinogalerix, Merycoidodon, Pelagornis, Teleoceras, Synthetoceras, Daeodon, Aepycamelus | 142 |
 | 4 | Mamut srstnatý, nosorožec srstnatý, Smilodon, velejelen, Glyptodon, lev jeskynní, medvěd jeskynní, Bootherium, Diprotodon, Thylacoleo | 152 |
 | 5 | Pratur, moa, pravlk, mastodont americký, bobr obrovský, Procoptodon, Doedicurus, Toxodon, Megalania, Macrauchenia | 162 |
+| 6 | Elasmotherium, medvěd krátkočelý, Titanoboa, Hyracodon, Moeritherium, Pakicetus, Enhydriodon, Sivatherium, Homotherium, Dromornis | 172 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
 
@@ -24,12 +25,14 @@ Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 ×
 
 ## Stav kontrol
 
-Obsahové a regresní kontroly prošly včetně zachování všech předchozích záznamů, obrazů a zdrojů. Podklady pro Android sestavení prošly kontrolou pro 162 zvířat a 162 obrázků. Vizuální UI a telefonní ověření čeká; místní Chromium blokuje prostředí. APK se bude sestavovat až po doplnění všech zvířat.
+Obsahové a regresní kontroly prošly včetně zachování všech předchozích záznamů, obrazů a zdrojů. Podklady pro Android sestavení prošly kontrolou pro 172 zvířat a 172 obrázků. Vizuální UI a telefonní ověření čeká; místní Chromium blokuje prostředí. APK se bude sestavovat až po doplnění všech zvířat.
 
 [První dávka a návod na PC](CENOZOIC-BATCH01.md) · [Druhá dávka](CENOZOIC-BATCH02.md).
 
 [Sestavení na GitHubu z telefonu](BUILD-ON-GITHUB.md) · [Třetí dávka](CENOZOIC-BATCH03.md).
 
-[Čtvrtá dávka](CENOZOIC-BATCH04.md). Z předání 71 nových položek zbývá 21.
+[Čtvrtá dávka](CENOZOIC-BATCH04.md). Z předání 71 nových položek zbývá 11.
 
 [Pátá dávka](CENOZOIC-BATCH05.md). Sestavení APK zůstává plánované po dokončení celého seznamu.
+
+[Šestá dávka](CENOZOIC-BATCH06.md). U Arctoda je vysvětlená proměnlivost potravy, u Titanoboy modelová nejistota velikosti a u Dromornise nejistota jídelníčku.

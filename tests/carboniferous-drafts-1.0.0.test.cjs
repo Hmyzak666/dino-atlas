@@ -9,7 +9,7 @@ const expected=['arthropleura-armata','meganeura-monyi','pulmonoscorpius-kirkton
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),expected);
 assert.equal(draft.animals.length,8);
-assert.ok([96,104,112,122,132,142,152,162].includes(db.dinosaurs.length));
+assert.ok([96,104,112,122,132,142,152,162,172].includes(db.dinosaurs.length));
 const active=db.dinosaurs.length>=104;
 assert.equal(db.dinosaurs.filter(a=>a.period==='devonian').length,8);
 assert.equal(db.dinosaurs.filter(a=>a.period==='carboniferous').length,active?8:0);
