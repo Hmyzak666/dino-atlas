@@ -1,0 +1,2269 @@
+{
+  "status": "draft-awaiting-eight-original-webp-images",
+  "period": "devonian",
+  "reviewedAt": "2026-10-25",
+  "explanation": "Drafty 8 vědecky podložených devonských druhů: nejsou ještě publikované v aktivní databázi; nejprve vytvořit samostatné obrázky a dokončit testy.",
+  "sources": {
+    "devon-dunk-size-2023": {
+      "title": "Engelman 2023: new body length estimates of Dunkleosteus",
+      "shortTitle": "Engelman 2023",
+      "url": "https://doi.org/10.3390/d15030318",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-dunk-body-2024": {
+      "title": "Engelman 2024: Reconstructing Dunkleosteus terrelli",
+      "shortTitle": "Engelman 2024",
+      "url": "https://doi.org/10.26879/1343",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-dunk-caution": {
+      "title": "Gayford et al. 2024: Body size proxies and Dunkleosteus",
+      "shortTitle": "Gayford et al. 2024",
+      "url": "https://doi.org/10.1002/ece3.70218",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-tik-nature": {
+      "title": "Shubin et al. 2006: Tiktaalik forelimb and tetrapod limb origin",
+      "shortTitle": "Shubin et al. 2006",
+      "url": "https://doi.org/10.1038/nature04637",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-tik-nasa": {
+      "title": "NASA Earth Observatory: Fishapod fossil from the Arctic",
+      "shortTitle": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/fishapod-fossil-found-in-the-arctic-6443/",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-tik-harvard": {
+      "title": "Harvard Gazette: Tiktaalik fossil and limb transition",
+      "shortTitle": "Harvard Gazette",
+      "url": "https://news.harvard.edu/gazette/story/2006/04/newly-found-species-fills-evolutionary-gap-between-fish-and-land-animals/",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-miguasha-iugs": {
+      "title": "IUGS: Late Devonian fossil fish of Miguasha",
+      "shortTitle": "IUGS",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/the-late-devonian-fossil-fish-lagerstatte-of-miguasha/",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-miguasha-unesco": {
+      "title": "UNESCO: Miguasha National Park World Heritage",
+      "shortTitle": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/686",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-eusthenopteron-quebec": {
+      "title": "Québec heritage registry: Eusthenopteron foordi specimen",
+      "shortTitle": "Québec heritage registry",
+      "url": "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93778&methode=consulter&type=bien",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-ichthyostega-nature": {
+      "title": "Pierce et al. 2012: Ichthyostega limb mobility",
+      "shortTitle": "Pierce et al. 2012",
+      "url": "https://doi.org/10.1038/nature11124",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-digits-nature": {
+      "title": "Coates & Clack 1990: Polydactyly in earliest tetrapod limbs",
+      "shortTitle": "Coates & Clack 1990",
+      "url": "https://doi.org/10.1038/347066a0",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-acanthostega-clack": {
+      "title": "Clack 2006: Acanthostega gunnari, Tree of Life",
+      "shortTitle": "Clack 2006",
+      "url": "https://tolweb.org/Acanthostega/15016",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-clado-michigan": {
+      "title": "University of Michigan: Cladoselache fyleri specimen",
+      "shortTitle": "University of Michigan",
+      "url": "https://umorf.ummp.lsa.umich.edu/wp/specimen-data/?Model_ID=1442",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-clado-cleveland": {
+      "title": "Cleveland Museum: Cladoselache overview",
+      "shortTitle": "Cleveland Museum",
+      "url": "https://artsandculture.google.com/asset/cladoselache/TgEhKPdAa1i13A",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-clado-name": {
+      "title": "Shark References: Cladoselache fyleri",
+      "shortTitle": "Shark References",
+      "url": "https://www.shark-references.com/species/view/Cladoselache-fyleri",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    },
+    "devon-jaek-braddy": {
+      "title": "Braddy et al. 2008: Giant claw Jaekelopterus rhenaniae",
+      "shortTitle": "Braddy et al. 2008",
+      "url": "https://doi.org/10.1098/rsbl.2007.0491",
+      "kind": "Recenzovaná paleontologická studie nebo institucionální fosilní sbírka",
+      "accessedAt": "2026-10-25"
+    }
+  },
+  "animals": [
+    {
+      "id": "dunkleosteus-terrelli",
+      "scientificName": "Dunkleosteus terrelli",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Dunkleosteus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Placodermi",
+        "Arthrodira",
+        "Dunkleosteus"
+      ],
+      "aliases": [
+        "dunkleosteus",
+        "dunkleosteus terrelli",
+        "dunkleostejus"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Dunkleosteus",
+      "image": {
+        "src": "images/dunkleosteus-terrelli.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Dunkleosteus"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 382–358 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-dunk-size-2023",
+            "devon-dunk-body-2024",
+            "devon-dunk-caution"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Ohio, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-dunk-size-2023",
+            "devon-dunk-body-2024",
+            "devon-dunk-caution"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Novější odhad typického dospělého jedince je přibližně 3,4 m, největších asi 4,1 m; starší údaje 5–10 m nejsou spolehlivě doložené."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-dunk-size-2023",
+            "devon-dunk-body-2024",
+            "devon-dunk-caution"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-dunk-size-2023",
+            "devon-dunk-body-2024",
+            "devon-dunk-caution"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Dunkleosteus",
+          "ageLabel": "Pozdní devon · přibližně před 382–358 mil. let",
+          "location": "Severní Amerika · Ohio, USA",
+          "groupLabel": "Pancéřnaté ryby · arthrodiři",
+          "cardSummary": "Mohutná pancéřnatá ryba s ostrými čelistními deskami.",
+          "summary": "Velký dravý čelistnatec se silným pancířem na hlavě a vpředu na trupu. Nepotřeboval samostatné zuby: potravu porcoval ostrými hranami kostěných čelistních desek. Zadní část těla je rekonstruovaná.",
+          "quizHint": "Velká obrněná hlava a ostré hrany čelistních desek, nikoli běžné zuby.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Robustní hlava uzavřená do kostěných pancéřových štítů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-dunk-size-2023",
+                "devon-dunk-body-2024",
+                "devon-dunk-caution"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ostré kostěné řezné hrany v čelistech místo řad oddělených zubů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-dunk-size-2023",
+                "devon-dunk-body-2024",
+                "devon-dunk-caution"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátké, hluboké tělo podle novější interpretace; zadní část není přímo zachována."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-dunk-size-2023",
+                "devon-dunk-body-2024",
+                "devon-dunk-caution"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Robustní hlava uzavřená do kostěných pancéřových štítů. Ostré kostěné řezné hrany v čelistech místo řad oddělených zubů. Krátké, hluboké tělo podle novější interpretace; zadní část není přímo zachována. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-dunk-size-2023",
+              "devon-dunk-body-2024",
+              "devon-dunk-caution"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Život dravce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silné čelisti s ostrými kostěnými deskami umožňovaly uchopovat a porcovat živočišnou kořist. Přesný jídelníček neznáme."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-dunk-size-2023",
+                    "devon-dunk-body-2024",
+                    "devon-dunk-caution"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Jak byl velký?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Metoda porovnávající proporce lebky v roce 2023 odhadla běžné velké jedince kolem 3,4 metru a největší asi na 4,1 metru. Dřívější odhady přes osm metrů jsou sporné."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-dunk-size-2023",
+                    "devon-dunk-body-2024",
+                    "devon-dunk-caution"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Pancíř a čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostěný pancíř chránil hlavu a přední trup; hranami dvou párů čelistních desek mohl kořist řezat bez samostatných zubů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-dunk-size-2023",
+                    "devon-dunk-body-2024",
+                    "devon-dunk-caution"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Tělo jako tuňák?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rekonstrukce z roku 2024 naznačuje hlubší a kratší trup, než býval kreslen. Tvar ploutví a ocasu je však převážně odvozen ze srovnání."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-dunk-size-2023",
+                    "devon-dunk-body-2024",
+                    "devon-dunk-caution"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Fosilie z Ohia",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dobře zachované pancéřové části známe z devonských mořských sedimentů dnešní Severní Ameriky, zvláště z Ohia."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-dunk-size-2023",
+                    "devon-dunk-body-2024",
+                    "devon-dunk-caution"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úplná zadní část těla, přesné zbarvení i skutečná rychlost plavání zůstávají nedoložené."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 3.4,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-dunk-size-2023",
+          "devon-dunk-body-2024",
+          "devon-dunk-caution"
+        ],
+        "note": {
+          "cs": "Novější odhad typického dospělého jedince je přibližně 3,4 m, největších asi 4,1 m; starší údaje 5–10 m nejsou spolehlivě doložené."
+        }
+      },
+      "lengthM": {
+        "estimate": 3.4,
+        "scope": "Novější odhad typického dospělého jedince je přibližně 3,4 m, největších asi 4,1 m; starší údaje 5–10 m nejsou spolehlivě doložené."
+      }
+    },
+    {
+      "id": "tiktaalik-roseae",
+      "scientificName": "Tiktaalik roseae",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Tiktaalik",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sarcopterygii",
+        "Tetrapodomorpha",
+        "Tiktaalik"
+      ],
+      "aliases": [
+        "tiktaalik",
+        "tiktaalik roseae",
+        "tiktaalik růžový"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Tiktaalik",
+      "image": {
+        "src": "images/tiktaalik-roseae.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Tiktaalik"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 375 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-tik-nature",
+            "devon-tik-nasa",
+            "devon-tik-harvard"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Ellesmerův ostrov, kanadská Arktida"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-tik-nature",
+            "devon-tik-nasa",
+            "devon-tik-harvard"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka přibližně 2–3 m je rekonstrukcí různě velkých nalezených jedinců; 2,5 m je ilustrativní velikost pro porovnání."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-tik-nature",
+            "devon-tik-nasa",
+            "devon-tik-harvard"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-tik-nature",
+            "devon-tik-nasa",
+            "devon-tik-harvard"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Tiktaalik",
+          "ageLabel": "Pozdní devon · přibližně před 375 mil. let",
+          "location": "Severní Amerika · Ellesmerův ostrov, kanadská Arktida",
+          "groupLabel": "Lalokoploutvé ryby · kmenoví čtyřnožci",
+          "cardSummary": "Ryba s krkem a silnými ploutvemi připomínajícími končetiny.",
+          "summary": "Přechodný typ lalokoploutvé ryby s plochou hlavou, ohebným krkem a párovými ploutvemi podepřenými kostmi připomínajícími rameno, loket a zápěstí. Neměl však prsty dnešních čtyřnožců.",
+          "quizHint": "Plochá krokodýlí hlava, krk a robustní párové ploutve bez prstů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široká zploštělá hlava s očima na horní straně."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-tik-nature",
+                "devon-tik-nasa",
+                "devon-tik-harvard"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krk oddělující hlavu od ramenního pletence."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-tik-nature",
+                "devon-tik-nasa",
+                "devon-tik-harvard"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silné přední ploutve schopné podpory těla, ale bez prstů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-tik-nature",
+                "devon-tik-nasa",
+                "devon-tik-harvard"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široká zploštělá hlava s očima na horní straně. Krk oddělující hlavu od ramenního pletence. Silné přední ploutve schopné podpory těla, ale bez prstů. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-tik-nature",
+              "devon-tik-nasa",
+              "devon-tik-harvard"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Z ploutví končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve předních ploutvích Tiktaalika byly kostěné články odpovídající částem budoucích končetin, včetně kloubů připomínajících zápěstí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-tik-nature",
+                    "devon-tik-nasa",
+                    "devon-tik-harvard"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Krk byl novinkou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tiktaalik dokázal hýbat hlavou vůči ramennímu pletenci výrazně samostatněji než většina ryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-tik-nature",
+                    "devon-tik-nasa",
+                    "devon-tik-harvard"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Neuměl chodit jako ještěrka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podpůrná funkce ploutví byla možná, ale chyběly skutečné prsty a plnohodnotné kráčivé končetiny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-tik-nature",
+                    "devon-tik-nasa",
+                    "devon-tik-harvard"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Voda na dnešní Arktidě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nálezy pocházejí z pozdně devonských usazenin Ellesmerova ostrova. Před 375 miliony let šlo o mnohem teplejší prostředí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-tik-nature",
+                    "devon-tik-nasa",
+                    "devon-tik-harvard"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Dýchání a pobřeží",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostra ukazuje přizpůsobení mělké vodě; přesný rozsah dýchání vzduchu a pobytu mimo vodu není jednoznačně změřitelný."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-tik-nature",
+                    "devon-tik-nasa",
+                    "devon-tik-harvard"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tiktaalik není prokázaným přímým předkem člověka; jde o blízkou ranou větev vývoje k čtyřnožcům."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-tik-nature",
+          "devon-tik-nasa",
+          "devon-tik-harvard"
+        ],
+        "note": {
+          "cs": "Délka přibližně 2–3 m je rekonstrukcí různě velkých nalezených jedinců; 2,5 m je ilustrativní velikost pro porovnání."
+        }
+      },
+      "lengthM": {
+        "estimate": 2.5,
+        "scope": "Délka přibližně 2–3 m je rekonstrukcí různě velkých nalezených jedinců; 2,5 m je ilustrativní velikost pro porovnání."
+      }
+    },
+    {
+      "id": "bothriolepis-canadensis",
+      "scientificName": "Bothriolepis canadensis",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "devonian",
+      "diet": "unknown",
+      "group": "Bothriolepis",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Placodermi",
+        "Antiarchi",
+        "Bothriolepis"
+      ],
+      "aliases": [
+        "bothriolepis",
+        "bothriolepis canadensis",
+        "pancéřnatá ryba s pancéřovými ploutvemi"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Botriolepis",
+      "image": {
+        "src": "images/bothriolepis-canadensis.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Bothriolepis"
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 375 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Miguasha, Québec, Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Pro názorné porovnání používáme 35 cm; druh je znám z různě velkých fosilií a jde o orientační délku."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesná potrava není známa"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Bothriolepis",
+          "ageLabel": "Pozdní devon · přibližně před 375 mil. let",
+          "location": "Severní Amerika · Miguasha, Québec, Kanada",
+          "groupLabel": "Pancéřnaté ryby · antiarchové",
+          "cardSummary": "Malá obrněná ryba se zvláštními kloubovými prsními přívěsky.",
+          "summary": "Devonský antiarch s těžkým štítem na hlavě a přední části trupu. Jeho prsní přívěsky byly kryté článkovanými destičkami; ryba mohla žít poblíž dna v ústích řek a lagun.",
+          "quizHint": "Hranatý pancíř vpředu a dva úzké článkované obrněné přívěsky po stranách.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Krabicovitý pancíř chránící přední část těla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dva párové článkované pancéřové prsní přívěsky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Užší zadní trup zakončený ocasní ploutví."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Krabicovitý pancíř chránící přední část těla. Dva párové článkované pancéřové prsní přívěsky. Užší zadní trup zakončený ocasní ploutví. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-miguasha-iugs",
+              "devon-miguasha-unesco"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Pancíř jako pevná krabice",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velké desky tvořily pevný štít okolo hlavy a předního trupu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Zvláštní prsní končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Prsní přívěsky tvořily kloubově spojené kostěné články; podoba se nepodobá otevřeným vějířovitým ploutvím většiny dnešních ryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Fosilie v Miguashe",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bothriolepis canadensis patří mezi dobře známé ryby souvrství Escuminac v Québecu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Potrava na dně?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dno a organické částice mohly představovat zdroj potravy, ale konkrétní způsob krmení je diskutovaný."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Dýchání a prostředí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některé závěry o dýchání se odvozují ze stavby pancíře a sedimentů; nelze jednoduše tvrdit, že žil trvale na souši."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné barvy, pravidelný rozsah pohybu a konkrétní potravu z těchto fosilií přímo nezjistíme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.35,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-miguasha-iugs",
+          "devon-miguasha-unesco"
+        ],
+        "note": {
+          "cs": "Pro názorné porovnání používáme 35 cm; druh je znám z různě velkých fosilií a jde o orientační délku."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.35,
+        "scope": "Pro názorné porovnání používáme 35 cm; druh je znám z různě velkých fosilií a jde o orientační délku."
+      }
+    },
+    {
+      "id": "eusthenopteron-foordi",
+      "scientificName": "Eusthenopteron foordi",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Eusthenopteron",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Sarcopterygii",
+        "Tetrapodomorpha",
+        "Tristichopteridae",
+        "Eusthenopteron"
+      ],
+      "aliases": [
+        "eusthenopteron",
+        "eusthenopteron foordi",
+        "lalokoploutvá ryba"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Eustenopteron",
+      "image": {
+        "src": "images/eusthenopteron-foordi.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Eusthenopteron"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 375 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco",
+            "devon-eusthenopteron-quebec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Miguasha, Québec, Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco",
+            "devon-eusthenopteron-quebec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Pro srovnání používáme přibližně půl metru; známé exempláře se velikostí lišily. Kompletní exemplář 26,5 cm je vystaven v Québecu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco",
+            "devon-eusthenopteron-quebec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-miguasha-iugs",
+            "devon-miguasha-unesco",
+            "devon-eusthenopteron-quebec"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Eusthenopteron",
+          "ageLabel": "Pozdní devon · přibližně před 375 mil. let",
+          "location": "Severní Amerika · Miguasha, Québec, Kanada",
+          "groupLabel": "Lalokoploutvé ryby · tetrapodomorfové",
+          "cardSummary": "Lalokoploutvá ryba s kostmi příbuznými budoucím končetinám.",
+          "summary": "Dobře známá devonská ryba s párovými masitými ploutvemi a vnitřními kostmi, které pomáhají vysvětlit původ končetin čtyřnožců. Zůstávala ale plně rybou, nikoli chodícím obojživelníkem.",
+          "quizHint": "Ryba s dlouhým tělem a nápadnými masitými párovými ploutvemi.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhé proudnicové tělo s šupinami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco",
+                "devon-eusthenopteron-quebec"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Masité lobovité prsní a břišní ploutve."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco",
+                "devon-eusthenopteron-quebec"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Výrazné oddělené hřbetní ploutve a delší ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-miguasha-iugs",
+                "devon-miguasha-unesco",
+                "devon-eusthenopteron-quebec"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhé proudnicové tělo s šupinami. Masité lobovité prsní a břišní ploutve. Výrazné oddělené hřbetní ploutve a delší ocas. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-miguasha-iugs",
+              "devon-miguasha-unesco",
+              "devon-eusthenopteron-quebec"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Ploutve s kostmi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosterní uspořádání masitých ploutví připomíná některé články předních a zadních končetin pozdějších čtyřnožců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco",
+                    "devon-eusthenopteron-quebec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Ryba, ne obojživelník",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Eusthenopteron plaval pomocí ploutví, neměl chodidla ani prsty a stále patřil mezi ryby."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco",
+                    "devon-eusthenopteron-quebec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Pohled do těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výjimečné fosilie z Miguashy uchovávají detaily vnitřní kostry, a proto má tento druh velký význam pro vývojovou anatomii."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco",
+                    "devon-eusthenopteron-quebec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Lov menších živočichů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba čelistí s ostrými zuby odpovídá masožravému způsobu života."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco",
+                    "devon-eusthenopteron-quebec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Kanadské naleziště",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie jsou známé z vrstvy Escuminac ve východním Québecu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-miguasha-iugs",
+                    "devon-miguasha-unesco",
+                    "devon-eusthenopteron-quebec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Není prokázané, že Eusthenopteron byl přímým předkem dnešních čtyřnožců, ani neznáme jeho přesné zbarvení."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-miguasha-iugs",
+          "devon-miguasha-unesco",
+          "devon-eusthenopteron-quebec"
+        ],
+        "note": {
+          "cs": "Pro srovnání používáme přibližně půl metru; známé exempláře se velikostí lišily. Kompletní exemplář 26,5 cm je vystaven v Québecu."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.5,
+        "scope": "Pro srovnání používáme přibližně půl metru; známé exempláře se velikostí lišily. Kompletní exemplář 26,5 cm je vystaven v Québecu."
+      }
+    },
+    {
+      "id": "ichthyostega-stensioei",
+      "scientificName": "Ichthyostega stensioei",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Ichthyostega",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Tetrapoda",
+        "Stem-Tetrapoda",
+        "Ichthyostega"
+      ],
+      "aliases": [
+        "ichthyostega",
+        "ichthyostega stensioei",
+        "raný čtyřnožec"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Ichtyostega",
+      "image": {
+        "src": "images/ichthyostega-stensioei.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Ichthyostega"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 365 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-ichthyostega-nature",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Grónsko · východní pobřeží"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-ichthyostega-nature",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližný metr délky je orientační celková rekonstrukce; kosti více jedinců se velikostí liší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-ichthyostega-nature",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-ichthyostega-nature",
+            "devon-digits-nature"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Ichthyostega",
+          "ageLabel": "Pozdní devon · přibližně před 365 mil. let",
+          "location": "Grónsko · východní pobřeží",
+          "groupLabel": "Raní čtyřnožci · kmenoví tetrapodi",
+          "cardSummary": "Raný čtyřnožec s robustními končetinami a silným ocasem.",
+          "summary": "Jeden z nejznámějších devonských čtyřnožců měl žebra, silný trup a končetiny s prsty. Studie kloubů však naznačuje, že neuměl chodit střídavými kroky jako dnešní mloci.",
+          "quizHint": "Robustní žebrované tělo, čtyři končetiny s prsty a silný ocas.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široká hlava a robustní žebra okolo trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-ichthyostega-nature",
+                "devon-digits-nature"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři končetiny s prsty; na zadních končetinách sedm prstů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-ichthyostega-nature",
+                "devon-digits-nature"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Silný bočně zploštělý ocas využitelný při plavání."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-ichthyostega-nature",
+                "devon-digits-nature"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široká hlava a robustní žebra okolo trupu. Čtyři končetiny s prsty; na zadních končetinách sedm prstů. Silný bočně zploštělý ocas využitelný při plavání. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-ichthyostega-nature",
+              "devon-digits-nature"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Prsty dříve než běžná chůze",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie odhalily sedm prstů na zadní končetině, nikoli dnešních pět."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-ichthyostega-nature",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Krok jako dnešní mlok?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Analýza trojrozměrné pohyblivosti kloubů z roku 2012 ukázala, že končetiny zřejmě nemohly vykonávat klasickou střídavou suchozemskou chůzi."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-ichthyostega-nature",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Těžká žebra",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ichthyostega měla silný hrudní koš a neobvykle robustní přední část těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-ichthyostega-nature",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Život mezi vodou a souší",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pravděpodobně dobře využívala vodu a mohla se pohybovat na mělkém dně či se pomalu posouvat po pevném podkladu. Přesný rozsah výletů na souš zůstává nejistý."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-ichthyostega-nature",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Grónské fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkameněliny pocházejí z pozdně devonských hornin východního Grónska."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-ichthyostega-nature",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, vzorce rozmnožování ani fyzické možnosti pohybu po dlouhé době mimo vodu neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-ichthyostega-nature",
+          "devon-digits-nature"
+        ],
+        "note": {
+          "cs": "Přibližný metr délky je orientační celková rekonstrukce; kosti více jedinců se velikostí liší."
+        }
+      },
+      "lengthM": {
+        "estimate": 1,
+        "scope": "Přibližný metr délky je orientační celková rekonstrukce; kosti více jedinců se velikostí liší."
+      }
+    },
+    {
+      "id": "acanthostega-gunnari",
+      "scientificName": "Acanthostega gunnari",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Acanthostega",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Tetrapoda",
+        "Stem-Tetrapoda",
+        "Acanthostega"
+      ],
+      "aliases": [
+        "acanthostega",
+        "acanthostega gunnari",
+        "osmprstý čtyřnožec"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Akantostega",
+      "image": {
+        "src": "images/acanthostega-gunnari.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Acanthostega"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 365–360 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-acanthostega-clack",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Grónsko · východní pobřeží"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-acanthostega-clack",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Tělo dlouhé kolem 60 cm odpovídá běžným orientačním rekonstrukcím; zachované fosilie různých jedinců se liší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-acanthostega-clack",
+            "devon-digits-nature"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-acanthostega-clack",
+            "devon-digits-nature"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Acanthostega",
+          "ageLabel": "Pozdní devon · přibližně před 365–360 mil. let",
+          "location": "Grónsko · východní pobřeží",
+          "groupLabel": "Raní vodní čtyřnožci",
+          "cardSummary": "Vodní raný čtyřnožec s osmi prsty na předních končetinách.",
+          "summary": "Acanthostega měla čtyři končetiny s prsty, ale také vnitřní žábry a široký ocas s paprsky ploutevního lemu. Ukazuje, že prsty se objevily ještě u zvířat převážně přizpůsobených vodě.",
+          "quizHint": "Dlouhé vodní tělo, ploutevní lem na ocasu a osm prstů na předních končetinách.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Přední končetiny s osmi prsty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-acanthostega-clack",
+                "devon-digits-nature"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas s ploutevními paprsky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-acanthostega-clack",
+                "devon-digits-nature"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široká plochá hlava na nízkém protáhlém těle."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-acanthostega-clack",
+                "devon-digits-nature"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Přední končetiny s osmi prsty. Dlouhý ocas s ploutevními paprsky. Široká plochá hlava na nízkém protáhlém těle. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-acanthostega-clack",
+              "devon-digits-nature"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Osm prstů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní přední končetiny měly osm prstů, nikoli obvyklých pět. Ukazuje to proměnlivost nejstarších čtyřnožců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-acanthostega-clack",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Žábry uvnitř těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba žaberních oblouků a ramenního pletence naznačuje, že dokázala dýchat ve vodě pomocí vnitřních žaber."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-acanthostega-clack",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Ocas jako ploutev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na ocase byla dlouhá ploutevní řasa podepřená paprsky, která ukazuje dobré přizpůsobení vodnímu prostředí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-acanthostega-clack",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Prsty neznamenají chůzi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Končetiny s prsty mohly sloužit k přidržování ve vegetaci nebo k pohybu v mělké vodě. Nejde o doklad běžné chůze po souši."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-acanthostega-clack",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Fosilie v Grónsku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbytky byly nalezeny ve východním Grónsku v pozdně devonských vrstvách."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-acanthostega-clack",
+                    "devon-digits-nature"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme přesné zbarvení, rozmnožování ani délku pobytu mimo vodní prostředí."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.6,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-acanthostega-clack",
+          "devon-digits-nature"
+        ],
+        "note": {
+          "cs": "Tělo dlouhé kolem 60 cm odpovídá běžným orientačním rekonstrukcím; zachované fosilie různých jedinců se liší."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.6,
+        "scope": "Tělo dlouhé kolem 60 cm odpovídá běžným orientačním rekonstrukcím; zachované fosilie různých jedinců se liší."
+      }
+    },
+    {
+      "id": "cladoselache-fyleri",
+      "scientificName": "Cladoselache fyleri",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Cladoselache",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Chondrichthyes",
+        "Cladoselachiformes",
+        "Cladoselachidae",
+        "Cladoselache"
+      ],
+      "aliases": [
+        "cladoselache",
+        "cladoselache fyleri",
+        "prastarý žralok"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Kladoselache",
+      "image": {
+        "src": "images/cladoselache-fyleri.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Cladoselache"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon · přibližně před 370–359 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-clado-michigan",
+            "devon-clado-cleveland",
+            "devon-clado-name"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika · Ohio, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-clado-michigan",
+            "devon-clado-cleveland",
+            "devon-clado-name"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Pro velikostní srovnání používáme 1,2 m; uváděné délky rodu bývají kolem 1–2 m a nelze je zobecnit na každý exemplář tohoto druhu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-clado-michigan",
+            "devon-clado-cleveland",
+            "devon-clado-name"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-clado-michigan",
+            "devon-clado-cleveland",
+            "devon-clado-name"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Cladoselache",
+          "ageLabel": "Pozdní devon · přibližně před 370–359 mil. let",
+          "location": "Severní Amerika · Ohio, USA",
+          "groupLabel": "Raní paryby · příbuzní žraloků",
+          "cardSummary": "Prastarý žralok s protáhlým tělem a nápadnými ploutvemi.",
+          "summary": "Devonská paryba příbuzná raným žralokům s proudnicovým tělem a ploutvemi. Některé fosilie uchovaly tak dobrý otisk, že lze sledovat tvar trupu i ploutví.",
+          "quizHint": "Žralokovité tělo, dlouhé prsní ploutve a nesouměrný ocas.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Proudnické tělo připomínající drobného žraloka."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-clado-michigan",
+                "devon-clado-cleveland",
+                "devon-clado-name"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velké párové prsní ploutve s podpůrnými paprsky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-clado-michigan",
+                "devon-clado-cleveland",
+                "devon-clado-name"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Výrazný nesouměrný ocas a jedna či dvě hřbetní ploutve."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-clado-michigan",
+                "devon-clado-cleveland",
+                "devon-clado-name"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Proudnické tělo připomínající drobného žraloka. Velké párové prsní ploutve s podpůrnými paprsky. Výrazný nesouměrný ocas a jedna či dvě hřbetní ploutve. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-clado-michigan",
+              "devon-clado-cleveland",
+              "devon-clado-name"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Starý příbuzný žraloků",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Cladoselache patřila mezi dávné chrupavčité ryby. Nebyla totožná s dnešními žraločími druhy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-clado-michigan",
+                    "devon-clado-cleveland",
+                    "devon-clado-name"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Výborné otisky těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie z devonských břidlic Ohia někdy zachovaly obrysy celého těla, včetně ploutví a trupu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-clado-michigan",
+                    "devon-clado-cleveland",
+                    "devon-clado-name"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Ostré zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drobnými ostrými zuby zachycovala vodní živočichy; obsah trávicí soustavy dalších exemplářů rodu prozrazuje rybí kořist."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-clado-michigan",
+                    "devon-clado-cleveland",
+                    "devon-clado-name"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Plavání v moři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Proudnické tělo odpovídá aktivnímu plavci. Konkrétní rychlost není přímo změřitelná z fosilie."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-clado-michigan",
+                    "devon-clado-cleveland",
+                    "devon-clado-name"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Druhové jméno fyleri",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno Cladoselache fyleri je doloženo i v odborných sbírkách a specializovaných přehledech fosilních paryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-clado-michigan",
+                    "devon-clado-cleveland",
+                    "devon-clado-name"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, rozmnožování ani úplné ekologické preference druhu neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1.2,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-clado-michigan",
+          "devon-clado-cleveland",
+          "devon-clado-name"
+        ],
+        "note": {
+          "cs": "Pro velikostní srovnání používáme 1,2 m; uváděné délky rodu bývají kolem 1–2 m a nelze je zobecnit na každý exemplář tohoto druhu."
+        }
+      },
+      "lengthM": {
+        "estimate": 1.2,
+        "scope": "Pro velikostní srovnání používáme 1,2 m; uváděné délky rodu bývají kolem 1–2 m a nelze je zobecnit na každý exemplář tohoto druhu."
+      }
+    },
+    {
+      "id": "jaekelopterus-rhenaniae",
+      "scientificName": "Jaekelopterus rhenaniae",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "devonian",
+      "diet": "carnivore",
+      "group": "Jaekelopterus",
+      "taxonomy": [
+        "Arthropoda",
+        "Chelicerata",
+        "Eurypterida",
+        "Pterygotidae",
+        "Jaekelopterus"
+      ],
+      "aliases": [
+        "jaekelopterus",
+        "jaekelopterus rhenaniae",
+        "obří mořský štír"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Jékelopterus",
+      "image": {
+        "src": "images/jaekelopterus-rhenaniae.webp",
+        "alt": {
+          "cs": "Pracovní vědecká rekonstrukce: Jaekelopterus"
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Pracovní vizuální rekonstrukce zatím bez schváleného obrazového souboru. Zbarvení a nezachované měkké části jsou nejisté."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný devon · přibližně před 395–390 mil. let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-jaek-braddy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa · Porýní, Německo"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "devon-jaek-braddy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Odhad asi 2,5 m je nepřímý výpočet z fosilního klepítka dlouhého 46 cm, nikoli délka změřeného úplného jedince."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-jaek-braddy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Neznámá; číselný odhad zde neuvádíme"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně menší živočichové"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "devon-jaek-braddy"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Jaekelopterus",
+          "ageLabel": "Raný devon · přibližně před 395–390 mil. let",
+          "location": "Evropa · Porýní, Německo",
+          "groupLabel": "Obří kyjonožci · eurypteridi",
+          "cardSummary": "Jeden z největších známých členovců všech dob.",
+          "summary": "Obrovský devonský kyjonožec známý zejména z mohutného klepítka. Odhad těla kolem 2,5 metru z něj dělá jednoho z největších známých členovců. Nešlo však o dnešního skutečného štíra.",
+          "quizHint": "Obří vodní členovec s dlouhými uchopovacími klepítky a párem plovacích vesel.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velká vpředu vyčnívající párová klepítka se zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-jaek-braddy"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé široké článkované tělo kryté štítem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-jaek-braddy"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Plovací veslovité končetiny a protáhlý ocasní oddíl."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "devon-jaek-braddy"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velká vpředu vyčnívající párová klepítka se zuby. Dlouhé široké článkované tělo kryté štítem. Plovací veslovité končetiny a protáhlý ocasní oddíl. Barva obrázku není rozpoznávací znak."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "devon-jaek-braddy"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obří klepítko",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie z Německa obsahuje klepítko dlouhé asi 46 centimetrů. Velikost těla se odhaduje pomocí proporcí příbuzných kyjonožců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-jaek-braddy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Odhad 2,5 metru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie z roku 2008 navrhla délku přibližně 2,5 m. Jde o vědecký odhad z neúplného materiálu, nikoli o kompletní kostru."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-jaek-braddy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dávný vodní klepítkatec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jaekelopterus byl příbuzný eurypteridů, nikoli škorpión dnešního typu. Chyběl mu typický jedový bodec skutečných štírů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-jaek-braddy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Pohyb a lov",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zploštělé tělo a velká klepítka dovolují uvažovat o vodním lovci; skutečnou rychlost a chování nedokážeme změřit."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "devon-jaek-braddy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Devonské Porýní",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nálezy pocházejí z raně devonských sedimentů okolí německého Willwerathu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "devon-jaek-braddy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, maximální délku celého druhu ani podobu běžné kořisti neznáme."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "devon-jaek-braddy"
+        ],
+        "note": {
+          "cs": "Odhad asi 2,5 m je nepřímý výpočet z fosilního klepítka dlouhého 46 cm, nikoli délka změřeného úplného jedince."
+        }
+      },
+      "lengthM": {
+        "estimate": 2.5,
+        "scope": "Odhad asi 2,5 m je nepřímý výpočet z fosilního klepítka dlouhého 46 cm, nikoli délka změřeného úplného jedince."
+      }
+    }
+  ]
+}

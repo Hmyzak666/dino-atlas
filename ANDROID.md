@@ -1,3 +1,9 @@
+> Aktuální zdroje: **1.1.0, build 1010007, 183 zvířat**. [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md). Všech 71 nových položek je vloženo; zdroje jsou připravené k sestavení.
+
+> Aktuální zdroje: **1.1.0, build 1010002, 132 zvířat**. [Stav a návod](docs/CENOZOIC-BATCH02.md). APK se připraví až po dokončení všech zvířat.
+
+> Aktuální pracovní verze: **1.1.0, build 1010001, 122 zvířat**. Sestavení na PC a přehled první desítky: [návod](docs/CENOZOIC-BATCH01.md). Starší verze níže jsou historické.
+
 # Sestavení Android aplikace
 
 Aktuální údaje čte sestavování z `project.json`. Aktuální verze používá **0.8.1, sestavení 80101**. Android obal je v `android/`, webové soubory v kořeni projektu. Gradle se nepoužívá.

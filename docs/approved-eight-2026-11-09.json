@@ -1,0 +1,59 @@
+{
+  "stegosaurus-stenops": {
+    "source": "exec-d1f3dcac-cf16-4bc1-a5ed-1d816b5aee24.png",
+    "sourceSha256": "2deef8e622a2b3f903fdc5b8e21d1867b818031032458953c089e94e8142e853",
+    "previousSha256": "953776a8175f53ce15b641bfff5a01f3e6f1e81bcc4875364bda4ff6aac6cf07",
+    "sha256": "60c904449611049e62f5ce4144d034dc059d4ef8a14651fec951d0324a655ed9",
+    "facing": "right"
+  },
+  "pulmonoscorpius-kirktonensis": {
+    "source": "exec-d4b67836-11ad-4d48-a4a2-0612afc5ce76.png",
+    "sourceSha256": "0c243891cd0afe60d9ecaae2f6c5c17b74971e620e4dce4344dcb2545eb43e25",
+    "previousSha256": "83d59e0031a415838d91bf1a492ddd96969eb5311306dbace2724e2bcb45a32c",
+    "sha256": "cab10c3251f94423dae3ce42042758dc2b6281a21b83cb1d33c703f9fcd410a7",
+    "facing": "left"
+  },
+  "protobuthus-ziliolii": {
+    "source": "exec-65aeaa6a-4ac7-4e44-90ca-711d3b789360.png",
+    "sourceSha256": "8b4d339876f9337132832893601e5a9ba669359fa22fbddee4a9fe1b67246f47",
+    "previousSha256": "32f0f2a0c4960902ae48a70f1ad4ceef9720544b99ce4eb7804d718dcdd85559",
+    "sha256": "fae1ccee85d40aaa46d3da71a157b9dcbf1938df462386b1c446e5910924243e",
+    "facing": "left"
+  },
+  "jaekelopterus-rhenaniae": {
+    "source": "exec-ffb4d81a-18e1-4972-808e-f24277d459df.png",
+    "sourceSha256": "e604ddd5e85494ed1f6ff6d629be33a2c1403755bd9ed5c73c851fa1cf5f08cd",
+    "previousSha256": "17fac3ce9337caf8168da6b4cd9b4ee958021f713d9bbdfa90f5adf0a4466ea6",
+    "sha256": "15b69fbec86a641aac94e81faa56a618690d1fff8bcd71af854947203f624b27",
+    "facing": "left"
+  },
+  "edestus-heinrichi": {
+    "source": "exec-2964b1cf-d76b-4f24-a0a1-360919f72783.png",
+    "sourceSha256": "aa6ea6e88ea65a50cb05a51bdaa25c4ffb4f7afd51f82e0867c90f10b2956a14",
+    "previousSha256": "67fa2de95e61bceba53c9222129c1a5fcd4d8998cd7a0085cf336c9caf1529ad",
+    "sha256": "25ee4d63a5fc08b6c6b860b3ebb84225a2fc96b999dbcb4ee5ba5e79c3bb92a6",
+    "facing": "left"
+  },
+  "helicoprion-bessonowi": {
+    "source": "exec-8ff32071-dff6-4c98-817e-a20a2777eda3.png",
+    "sourceSha256": "5a4c097f584c991b490116fc744174c3707a0fa76ffc1039a0a8f7eee3b9983d",
+    "previousSha256": "a66acb3c50fa529beafcb4a64c3095a9045d477b0bdab257e3dccfc9d9623907",
+    "sha256": "6bb77c4b6654b13e872bcac12a15ae2b425da7398a083e1cda56785f228f2396",
+    "facing": "right",
+    "transform": "mirror storage to preserve existing right-facing metadata; app displays approved left-facing composition"
+  },
+  "pterodactylus-antiquus": {
+    "source": "exec-c445a57a-0d7e-4404-8a32-b7119016a2c8.png",
+    "sourceSha256": "56f55be4c95a86c26573882808bda16dd2627e187403318883c19b584dbc5c86",
+    "previousSha256": "7ef088ba861405f08fcfc8b75a6a6e72498d8fc5733028866dbed2ca8a315d83",
+    "sha256": "9abb907314971a1964978ba21d39e1b8fc4c83e8fbac883a03b4b9aba66a4d49",
+    "facing": "left"
+  },
+  "arthropleura-armata": {
+    "source": "exec-e01fd42c-53c5-459d-b0b5-3a0893a04f5a.png",
+    "sourceSha256": "ae6c518f34f6f38089d20b01d20b7f6a32c6b6d71958bc6f44225392f9543ab4",
+    "previousSha256": "2e50cb550ce9a72660f03cd8f3dafd7fe66b057ce59fd72acc37002aff00f8b2",
+    "sha256": "cf6fc05e7bdad54db9151d99bacad45ef1ec90821317e053186e976fe6c64ebd",
+    "facing": "right"
+  }
+}

@@ -16,6 +16,7 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/#atlas`);
   await page.locator('.dino-card').first().waitFor();
+  if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
   await page.locator('[data-category="arthropod"]').click();
   assert.equal(await page.locator('.dino-card').count(),9);
   await page.locator('[data-period="triassic"]').click();
@@ -43,6 +44,7 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   await page.locator('[data-nav="kviz"]').click();
   await checkQuizPosition();
   assert.equal(await page.locator('[data-quiz-category="all"]').getAttribute('aria-pressed'),'true');
+  if(db.dinosaurs.length>72) await page.locator('[data-quiz-era="mesozoic"]').click();
   for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
    await page.locator(`[data-quiz-category="${category}"]`).click();
    await page.locator(`[data-quiz-period="${period}"]`).click();

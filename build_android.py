@@ -18,7 +18,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 ROOT = Path(__file__).resolve().parent
 ANDROID_NS = 'http://schemas.android.com/apk/res/android'
-WEB_FILES = ('index.html', 'style.css', 'app.js', 'dinosaurs.json')
+WEB_FILES = ('index.html', 'style.css', 'app.js', 'knowledge.js', 'dinosaurs.json')
 JAVA_PATH = 'android/src/cz/hmyzak/dinoatlas/MainActivity.java'
 
 

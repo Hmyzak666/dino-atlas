@@ -1,0 +1,33 @@
+{
+  "pulmonoscorpius-kirktonensis": {
+    "sha256": "ae19f50bde3e27a70acedc8d2ac707d51bfaefd1139673bad34e9d3e10ae4096",
+    "width": 1036,
+    "height": 752,
+    "cropBox": [
+      58,
+      8,
+      1094,
+      760
+    ],
+    "operation": "lossless crop only; no resize or regeneration"
+  },
+  "arthropleura-armata": {
+    "sha256": "e82d9718c4a60ff1aa628ac6be13cad0469e3d8b96ec2f94cd722207449333fa",
+    "width": 996,
+    "height": 752,
+    "cropBox": [
+      78,
+      8,
+      1074,
+      760
+    ],
+    "operation": "lossless crop only; no resize or regeneration"
+  },
+  "edestus-heinrichi": {
+    "sha256": "e0a9536f866750fe58309afb39a9d851b3efc0100ec301142ee9cb239a46ec1f",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-088c97bd-e516-4c89-8de3-e7441a77b529.png",
+    "operation": "original AI reconstruction"
+  }
+}
