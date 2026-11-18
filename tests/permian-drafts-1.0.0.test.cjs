@@ -10,7 +10,7 @@ const ids=['dimetrodon-grandis','edaphosaurus-pogonias','inostrancevia-alexandri
   'helicoprion-bessonowi','estemmenosuchus-uralensis'];
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
-assert.ok([104,112,122,132,142,152].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
+assert.ok([104,112,122,132,142,152,162].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
 const active=db.dinosaurs.length>=112;
 const originalCounts={cambrian:6,ordovician:5,silurian:5,devonian:8,carboniferous:8};
 for(const [era,n] of Object.entries(originalCounts))

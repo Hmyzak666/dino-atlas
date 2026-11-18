@@ -1,3 +1,5 @@
+> **18. 11. 2026 — 1.1.0, pátá desítka (1010005):** 162 zvířat; 50 ze 71 nových vloženo, 21 zbývá. Nově pratur až Macrauchenia, včetně moa a Megalanie. Všech předchozích 152 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; mobilní a telefonní testy čekají. [Dávka 05](docs/CENOZOIC-BATCH05.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Bez APK a bez sloučení do main.
+
 > **18. 11. 2026 — 1.1.0, čtvrtá desítka (1010004):** 152 zvířat; 40 z 71 nových vloženo, 31 zbývá. Nově mamut srstnatý až Thylacoleo. Všech předchozích 142 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; místní Chromium blokuje prostředí, UI testy čekají. [Dávka 04](docs/CENOZOIC-BATCH04.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Bez APK a bez sloučení do main.
 
 > **18. 11. 2026 — 1.1.0, třetí desítka (1010003):** 142 zvířat; 30 z 71 nových vloženo, 41 zbývá. Nově Amphicyon až Aepycamelus; všech předchozích 132 záznamů, obrázků a zdrojů zachováno. `npm test` PASS. APK se zatím nesestavuje. [Dávka 03](docs/CENOZOIC-BATCH03.md) · [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md). Pouze pracovní větev, bez sloučení do main.
