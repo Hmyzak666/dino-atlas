@@ -3,7 +3,9 @@ const fs=require('node:fs');
 const crypto=require('node:crypto');
 const vm=require('node:vm');
 const app=require('../app.js');
-const db=require('../dinosaurs.json');
+// Preserve the original second-batch checkpoint while later batches extend the atlas.
+const current=require('../dinosaurs.json');
+const db={...current,dinosaurs:current.dinosaurs.slice(0,132)};
 const batch=require('../docs/cenozoic-batch02.json');
 const sha=v=>crypto.createHash('sha256').update(v).digest('hex');
 assert.equal(app.validateDatabase(db),true);

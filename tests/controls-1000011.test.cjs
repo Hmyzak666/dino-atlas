@@ -22,7 +22,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   await page.locator('#favorites-filter').click();
   await page.locator('#search').fill('nenalezeno');
   await page.locator('#clear-filters').click();
-  assert.equal(await page.locator('.dino-card').count(),112);
+  assert.equal(await page.locator('.dino-card').count(),require('../dinosaurs.json').dinosaurs.length);
   assert.equal(await page.locator('#search').inputValue(),'');
   assert.equal(await page.locator('#diet-filter').inputValue(),'all');
   for(const selector of ['[data-atlas-era="all"]','[data-period="all"]','[data-category="all"]'])assert.equal(await page.locator(selector).getAttribute('aria-pressed'),'true');
@@ -44,7 +44,7 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
   assert.equal(await page.locator('#detail-atlas svg path').getAttribute('d'),'M20 12H4m7-7-7 7 7 7');
   const cross=await page.locator('#clear-search').boundingBox();assert.ok(cross.width>=48&&cross.height>=48);
   await page.locator('#clear-search').tap();
-  assert.equal(await page.locator('.dino-card').count(),112);
+  assert.equal(await page.locator('.dino-card').count(),require('../dinosaurs.json').dinosaurs.length);
   await page.locator('[data-atlas-era="mesozoic"]').click();
   await page.locator('[data-category="dinosaur"]').click();
   await page.locator('#diet-filter').selectOption('carnivore', {force:true});

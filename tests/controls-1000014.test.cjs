@@ -17,6 +17,9 @@ const server=http.createServer(async(req,res)=>{try{const f=path.join(root,new U
  const qa=process.env.DINO_QA_DIR||path.join(root,'.qa');await fs.mkdir(qa,{recursive:true});await page.screenshot({path:path.join(qa,`atlas-new-${width}.png`)});
  const box=await page.locator('#search').boundingBox(),reset=await page.locator('#clear-filters').boundingBox(),groups=await page.locator('#category-filters').boundingBox();
  assert.ok(box.y>groups.y+groups.height);assert.ok(box.x+box.width<=reset.x);assert.ok(Math.abs(box.y-reset.y)<20);
+ await page.locator('[data-category="mammal"]').click();assert.equal(await page.locator('#atlas-title').textContent(),'Poznej savce.');
+ await page.locator('[data-category="bird"]').click();assert.equal(await page.locator('#atlas-title').textContent(),'Poznej ptáky.');
+ await page.locator('#clear-filters').click();
  await page.locator('#era-filters [data-info="paleozoic"]').click();
  assert.equal(await page.locator('#knowledge-dialog').isVisible(),true);assert.match(await page.locator('#knowledge-body').textContent(),/538,8/);await page.screenshot({path:path.join(qa,`info-new-${width}.png`)});
  assert.equal(await page.locator('[data-atlas-era="all"]').getAttribute('aria-pressed'),'true');await page.keyboard.press('Escape');

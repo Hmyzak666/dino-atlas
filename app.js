@@ -437,7 +437,7 @@
   function syncCategory() {
     document.querySelectorAll('[data-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
 
-    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.', fish: 'Poznej ryby.', 'early-chordate': 'Poznej rané strunatce.', 'early-tetrapod': 'Poznej obojživelníky a rané čtyřnožce.', synapsid: 'Poznej synapsidy.', 'other-reptile': 'Poznej další plazy.', 'other-invertebrate': 'Poznej ostatní bezobratlé.' };
+    const headings = { all: 'Objevuj pravěk.', dinosaur: 'Poznej dinosaury.', pterosaur: 'Poznej ptakoještěry.', 'marine-reptile': 'Poznej mořské plazy.', arthropod: 'Poznej členovce.', fish: 'Poznej ryby.', 'early-chordate': 'Poznej rané strunatce.', 'early-tetrapod': 'Poznej obojživelníky a rané čtyřnožce.', synapsid: 'Poznej synapsidy.', 'other-reptile': 'Poznej další plazy.', 'other-invertebrate': 'Poznej ostatní bezobratlé.', mammal: 'Poznej savce.', bird: 'Poznej ptáky.' };
     $('atlas-title').textContent = headings[state.category] || 'Poznej ' + (CATEGORIES[state.category] || 'pravěk') + '.';
     $('atlas-intro').textContent = state.category === 'pterosaur'
       ? 'Létající příbuzní dinosaurů s blanitými křídly.'
