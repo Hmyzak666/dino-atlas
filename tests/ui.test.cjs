@@ -70,6 +70,26 @@ async function openAnimal(page,id) {
         const box = await frame.boundingBox();
         assert.ok(Math.abs(box.width/box.height-ratio)<0.005, id+' frame must use the same 3:2 frame as other images');
       }
+      if (width === 360) {
+        const batch = require('../docs/dinosaur-batch08.json');
+        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained]) {
+          const card = page.locator('#card-' + id);
+          const thumbnail = page.locator('#gallery img[src="images/' + id + '.webp"]');
+          await card.scrollIntoViewIfNeeded();
+          await thumbnail.evaluate(image => image.decode());
+          assert.equal(await thumbnail.evaluate(image => getComputedStyle(image).transform), 'none', id + ' gallery orientation');
+          await card.click();
+          const detail = page.locator('.detail-image img[src="images/' + id + '.webp"]');
+          await detail.waitFor({state: 'visible'});
+          const info = await detail.evaluate(async image => {
+            await image.decode();
+            return [image.naturalWidth, image.naturalHeight, getComputedStyle(image).transform];
+          });
+          assert.deepEqual(info, [1536, 1024, 'none'], id + ' detail');
+          await page.getByRole('link', {name:'← Zpět do atlasu', exact:true}).click();
+          await page.locator('#atlas-view').waitFor({state:'visible'});
+        }
+      }
       await page.evaluate(()=>scrollTo(0,0));
       assert.deepEqual(await page.locator('#period-filters button').allTextContents(),db.dinosaurs.length>72?['Vše']:['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
@@ -93,7 +113,10 @@ async function openAnimal(page,id) {
       const galleryY=await page.evaluate(()=>scrollY);
       await link.click();
       await page.waitForURL('**/#dinosaurus/brachiosaurus-altithorax');
-      await page.waitForFunction(()=>document.querySelector('#detail-title')?.getBoundingClientRect().top<180);
+      await page.waitForFunction(() => {
+        const title = document.querySelector('#detail-title');
+        return title?.textContent === 'Brachiosaurus' && title.getBoundingClientRect().top < 180;
+      });
       assert.equal(await page.locator('#detail-title').textContent(),'Brachiosaurus');
       assert.match(await page.locator('.detail-age').textContent(),/Jura.*150/);
       assert.equal(await page.locator('.detail-favorite').getAttribute('aria-pressed'),'true');

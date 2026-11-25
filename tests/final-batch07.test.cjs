@@ -2,10 +2,18 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const crypto=require('node:crypto');
 const app=require('../app.js');
-const db=require('../dinosaurs.json');
+const current=require('../dinosaurs.json');
 const batch=require('../docs/final-batch07.json');
+const db={...current,dinosaurs:current.dinosaurs.slice(0,batch.countAfter)};
+const revisions=require('../docs/dinosaur-batch08.json').replacements;
+function selectedHash(item) {
+ const replacement=revisions.find(entry=>entry.id===item.id);
+ if (!replacement) return item.imageSha256;
+ assert.equal(replacement.previousSha256,item.imageSha256,'Original selection '+item.id);
+ return replacement.sha256;
+}
 const sha=v=>crypto.createHash('sha256').update(v).digest('hex');
-assert.equal(app.validateDatabase(db),true);
+assert.equal(app.validateDatabase(current),true);
 assert.equal(db.dinosaurs.length,183);
 assert.equal(new Set(db.dinosaurs.map(a=>a.id)).size,183);
 const added=db.dinosaurs.slice(172);
@@ -19,7 +27,7 @@ for(const [id,hash] of Object.entries(batch.previous.sources))assert.equal(sha(J
 const state={query:'',category:'all',era:'all',period:'all',diet:'all',favoritesOnly:false,favorites:new Set()};
 for(const item of batch.animals){
  const a=added.find(a=>a.id===item.id);
- assert.equal(sha(fs.readFileSync(a.image.src)),item.imageSha256,'Selected image '+a.id);
+ assert.equal(sha(fs.readFileSync(a.image.src)),selectedHash(item),'Selected image '+a.id);
  assert.equal(a.image.facing,a.diet==='carnivore'?'left':'right');
  assert.equal(a.translations.cs.sections.length,6);
  assert.equal(a.translations.cs.recognition.length,3);
@@ -50,7 +58,7 @@ const manifests=[1,2,3,4,5,6].map(n=>require('../docs/cenozoic-batch0'+n+'.json'
 const allNew=[...manifests.flatMap(m=>m.animals),...batch.animals];
 assert.equal(allNew.length,71);
 assert.deepEqual(db.dinosaurs.slice(112).map(a=>a.id),allNew.map(a=>a.id));
-for(const item of allNew)assert.equal(sha(fs.readFileSync(db.dinosaurs.find(a=>a.id===item.id).image.src)),item.imageSha256);
+for(const item of allNew)assert.equal(sha(fs.readFileSync(db.dinosaurs.find(a=>a.id===item.id).image.src)),selectedHash(item));
 const quiz=app.makeQuiz(added,11);assert.equal(quiz.length,11);
 for(const q of quiz){assert.ok(q.optionIds.includes(q.answerId));assert.ok(q.optionIds.every(id=>added.some(a=>a.id===id)));}
-console.log('PASS: all 71 approved additions complete; 183 unique records/images, previous 172 preserved, exact selected art, search, filters, favorites, narration, comparison and quiz.');
+console.log('PASS: all 71 approved additions complete; 183 unique records/images, previous 172 preserved, art checked against the latest approved selection, search, filters, favorites, narration, comparison and quiz.');

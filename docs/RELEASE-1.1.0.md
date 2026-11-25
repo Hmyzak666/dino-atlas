@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**Obsah doplněn, 18. 11. 2026.** Aktuální zdroje: build 1010007, **183 zvířat**, z toho všech 71 nových ze schváleného předání. APK této verze zatím nevzniklo. Změny jsou pouze v pracovní větvi `feature/paleozoic-1.0.0`.
+**25. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **196 zvířat** pro verzi 1.1.0 (1010008). Po původních 71 přírůstcích přibylo dalších 13 dinosaurů.
 
 ## Nový obsah
 
@@ -12,7 +12,8 @@
 | 4 | Mamut srstnatý, nosorožec srstnatý, Smilodon, velejelen, Glyptodon, lev jeskynní, medvěd jeskynní, Bootherium, Diprotodon, Thylacoleo | 152 |
 | 5 | Pratur, moa, pravlk, mastodont americký, bobr obrovský, Procoptodon, Doedicurus, Toxodon, Megalania, Macrauchenia | 162 |
 | 6 | Elasmotherium, medvěd krátkočelý, Titanoboa, Hyracodon, Moeritherium, Pakicetus, Enhydriodon, Sivatherium, Homotherium, Dromornis | 172 |
-| 7 — poslední | Peltephilus, Carcharodontosaurus, Giganotosaurus, Albertosaurus, Baryonyx, Suchomimus, Amargasaurus, Shunosaurus, Euoplocephalus, Corythosaurus, Lambeosaurus | 183 |
+| 7 | Peltephilus, Carcharodontosaurus, Giganotosaurus, Albertosaurus, Baryonyx, Suchomimus, Amargasaurus, Shunosaurus, Euoplocephalus, Corythosaurus, Lambeosaurus | 183 |
+| 8 | Stenonychosaurus, Tenontosaurus, Scelidosaurus, Falcarius, Australovenator, Skorpiovenator, Saurolophus, Guanlong, Monolophosaurus, Marshosaurus, Borealopelta, Einiosaurus, Udanoceratops | 196 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
 
@@ -24,7 +25,13 @@ Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 ×
 - Informační texty nových skupin a období dostupné offline.
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
-## Stav kontrol
+Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly sestavení 1010008
+
+Kontrola balení pro Android ověřila 196 karet a 196 obrázků. V mobilním zobrazení prohlížeče prošlo všech 23 vybraných ilustrací otevřením z galerie do detailu. Všechny se načetly v rozlišení 1536 × 1024 a aplikace zachovala jejich vybraný směr.
+
+## Kontroly předchozího sestavení 1010007
 
 Obsahové a regresní kontroly prošly včetně zachování všech předchozích záznamů, obrazů a zdrojů. Podklady pro Android sestavení prošly kontrolou pro 183 zvířat a 183 obrázků. Vizuální UI a telefonní ověření čeká; místní Chromium blokuje prostředí. Všechna domluvená zvířata jsou vložena a zdroje připravené k sestavení APK.
 

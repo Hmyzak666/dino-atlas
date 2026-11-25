@@ -1,0 +1,109 @@
+{
+  "baseCommit": "d81e70377b14c385c3f6afa6e2c15d6544396d69",
+  "archive": "Dino-Atlas-23-vybranych-WebP.zip",
+  "archiveSha256": "a1a3a63760ca54fdfa3bbbbd08ac2f860df1577c83d23f69b74e940da68f48b3",
+  "previousCount": 183,
+  "countAfter": 196,
+  "added": [
+    {
+      "id": "stenonychosaurus",
+      "sha256": "a1db636ce3fe5d2137ef5f46836be75f7376f549c4b5a164376267a5a87a874a"
+    },
+    {
+      "id": "tenontosaurus",
+      "sha256": "51dd50adede1a0d844ecf4b80f58c73169f41d2dd012422efe4c947004d82169"
+    },
+    {
+      "id": "scelidosaurus",
+      "sha256": "67bcac6e1f33410ca404d0ff8e978038c23f170e442349d623a07daf25a83b31"
+    },
+    {
+      "id": "falcarius",
+      "sha256": "4e37dad009ca14dcfe71abad0e6600409e6db82fed0acdac55505f9cee11274b"
+    },
+    {
+      "id": "australovenator",
+      "sha256": "ed2b2e5a535b53ce70961724504dec52d32aa43282e8f5ef7ed5255298d496e9"
+    },
+    {
+      "id": "skorpiovenator",
+      "sha256": "1a1a9e0b1474ada4e949cf27558d401ac7adbf8645adf1b985d81cdb7f2c10ef"
+    },
+    {
+      "id": "saurolophus",
+      "sha256": "d3b16d68f13cc1c089230233fc4f2671593fad39e5c2d476a3f95db41d848ce1"
+    },
+    {
+      "id": "guanlong",
+      "sha256": "73e036ae85904fbbc8da00a57c5a759020029e6e09b089716c9393271eb5cfb4"
+    },
+    {
+      "id": "monolophosaurus",
+      "sha256": "de140562899b5a3d482af328742cbfb1230bc81c807edeb5d01ab9ad1e70e17a"
+    },
+    {
+      "id": "marshosaurus",
+      "sha256": "2b763673b37ee19566ddf857c0be5087ee868c4bb694f8df1b7571aa095b307b"
+    },
+    {
+      "id": "borealopelta",
+      "sha256": "1a055598dc7a8d48dad1dba8da5d6d5442bd96a60d7d093fdc35c9eea192da54"
+    },
+    {
+      "id": "einiosaurus",
+      "sha256": "83b14f38ab8f5135ba067dcf118dd640a2b8f649408c5fc89aae2b4f3d035d98"
+    },
+    {
+      "id": "udanoceratops",
+      "sha256": "dbd19a4ed3977ffebbfec82cd605903b05a03854b712c63b93e53ebafb141ae8"
+    }
+  ],
+  "replacements": [
+    {
+      "id": "baryonyx",
+      "sha256": "065cfd95a3598215580e92c29ca15199a8a31e0502610daac2c7b4e40524e808",
+      "previousSha256": "abc463312966082876d3362e0038dab4611ce71c08a0da7f501264e3a7f55eea"
+    },
+    {
+      "id": "corythosaurus",
+      "sha256": "0ec1ee9ba068c03070b09eefbf5866c6c3dcbd84cd10fce6cf01ab3947c40436",
+      "previousSha256": "87e68243c02fc29b7c816cffa58333e1be03686a39f7e82a78b5002cce486ead"
+    },
+    {
+      "id": "lambeosaurus",
+      "sha256": "6e8d0de1192ba8ab9cdb7f489c36a139d13ad1dbb170d35998c01ddf4de76ace",
+      "previousSha256": "a2e0d32570be9f9c5bdada0d33a95b06bc9d7ffc58585a72e74f16a44ebafab2"
+    },
+    {
+      "id": "euoplocephalus",
+      "sha256": "f91250dafbb4a6940ca3e11921f045cb238f9023f3bdda9da6895a1ab9a30dbb",
+      "previousSha256": "14bcbe8900ead497655baf86a37c2de600c2d1f742db65106a1ce2902e77bb37"
+    }
+  ],
+  "retained": [
+    {
+      "id": "albertosaurus",
+      "sha256": "82741acbc5f03a6dc8962461b352f2b46476957e58f784678340e962fc5ca1b6"
+    },
+    {
+      "id": "giganotosaurus",
+      "sha256": "b17252b0616d948dc0bf751f4dab10fec7e731c0ad4a120d776457ef45ff3c3e"
+    },
+    {
+      "id": "carcharodontosaurus",
+      "sha256": "acc8780ecc26c5254aa6501aaa27008d3e0cfdfb4dbfdabc4e1f98fc308fdff3"
+    },
+    {
+      "id": "suchomimus",
+      "sha256": "b644dd6279303758c92aa4303939dff5598211d23f6292ac426d200e2595809a"
+    },
+    {
+      "id": "amargasaurus",
+      "sha256": "860f4703cb293320cd502861cee423eb74b33c1c9ae66f29a28d4f159ebd919b"
+    },
+    {
+      "id": "shunosaurus",
+      "sha256": "72d5e65826a0455117b6b68e07cc8db8966c690e8c879eec6c25eaebd7dc3627"
+    }
+  ]
+}

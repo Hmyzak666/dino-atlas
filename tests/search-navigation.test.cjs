@@ -89,7 +89,8 @@ async function back(page) {
     await page.locator('#search').fill('ceratosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'ceratosaurus-nasicornis');
-    assert.equal(await page.locator('.detail-position').textContent(), '3 / 6');
+    const jurassicCarnivores = db.dinosaurs.filter(animal => (animal.category || 'dinosaur') === 'dinosaur' && animal.period === 'jurassic' && animal.diet === 'carnivore');
+    assert.equal(await page.locator('.detail-position').textContent(), '3 / ' + jurassicCarnivores.length);
     await step(page, 1, 'dilophosaurus-wetherilli');
     await step(page, -1, 'ceratosaurus-nasicornis');
     await step(page, -1, 'archaeopteryx-lithographica');
