@@ -15,7 +15,7 @@
   const PERIODS = { cambrian: 'Kambrium', ordovician: 'Ordovik', silurian: 'Silur', devonian: 'Devon', carboniferous: 'Karbon', permian: 'Perm', triassic: 'Trias', jurassic: 'Jura', cretaceous: 'Křída', paleogene: 'Paleogén', neogene: 'Neogén', quaternary: 'Čtvrtohory' };
   const periodInEra = (period, era) => !era || era === 'all' || ERA_PERIODS[era]?.includes(period);
 
-  const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec', unknown: 'Nejistá potrava' };
+  const DIETS = { herbivore: 'Býložravec', carnivore: 'Masožravec', omnivore: 'Všežravec', 'suspension-feeder': 'Filtrátor', other: 'Jiná potrava', unknown: 'Nejistá potrava' };
   const CONFIDENCE = {
     evidence: ['🟢', 'Dobře doloženo'],
     estimate: ['🟡', 'Vědecký odhad / hypotéza'],
@@ -31,7 +31,12 @@
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
   const compactName = value => normalize(value).replace(/ /g, '');
   const categoryOf = animal => animal.category || 'dinosaur';
-  const atlasImageClass = animal => (animal.image.facing || 'right') === (animal.diet === 'carnivore' ? 'left' : 'right') ? '' : 'image-flipped';
+  function atlasImageClass(animal) {
+    const facing = animal.image.facing || 'right';
+    if (facing === 'none') return '';
+    const direction = animal.diet === 'carnivore' ? 'left' : 'right';
+    return facing === direction ? '' : 'image-flipped';
+  }
   const categoryAnimals = (animals, category = 'all') => animals.filter(animal => category === 'all' || categoryOf(animal) === category);
   const numberLabel = value => new Intl.NumberFormat('cs-CZ', { maximumFractionDigits: 2 }).format(value);
 
@@ -97,7 +102,7 @@
       if (!Array.isArray(dino.taxonomy) || !dino.taxonomy.length) throw new Error('Chybí příbuzenské zařazení.');
       if (categoryOf(dino) === 'pterosaur' && (!dino.taxonomy.includes('Pterosauria') || dino.taxonomy.includes('Dinosauria'))) throw new Error('Ptakoještěr má nesprávné zařazení.');
       if (categoryOf(dino) === 'dinosaur' && (!dino.taxonomy.includes('Dinosauria') || dino.taxonomy.includes('Pterosauria'))) throw new Error('Dinosaurus má nesprávné zařazení.');
-      if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
+      if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria', 'Atopodentatidae'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
       if (categoryOf(dino) === 'arthropod' && (!dino.taxonomy.includes('Arthropoda') || dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria', 'Chordata'].includes(group)))) throw new Error('Členovec má nesprávné zařazení.');
       if (categoryOf(dino) === 'mammal' && !dino.taxonomy.includes('Mammalia')) throw new Error('Savec má nesprávné zařazení.');
       if (categoryOf(dino) === 'bird' && !dino.taxonomy.includes('Aves')) throw new Error('Pták má nesprávné zařazení.');
@@ -105,7 +110,7 @@
       const text = copy(dino);
       if (!text.displayName || !text.summary || !text.ageLabel || !text.location || !text.quizHint) throw new Error('Heslu chybí text.');
       if (!/^images\/[a-z0-9-]+\.(png|webp|jpe?g)$/.test(dino.image?.src || '')) throw new Error('Neplatná cesta k obrázku.');
-      if (dino.image.facing !== undefined && !['left', 'right'].includes(dino.image.facing)) throw new Error('Neplatný směr obrázku.');
+      if (dino.image.facing !== undefined && !['left', 'right', 'none'].includes(dino.image.facing)) throw new Error('Neplatný směr obrázku.');
       if (dino.quizLookalikeGroup !== undefined && !/^[a-z0-9-]+$/.test(dino.quizLookalikeGroup)) throw new Error('Neplatná skupina podobných zvířat.');
       if (!Array.isArray(dino.facts) || !Array.isArray(text.sections)) throw new Error('Heslu chybí fakta nebo sekce.');
       dino.facts.forEach(validateClaim);

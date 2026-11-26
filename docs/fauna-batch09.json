@@ -1,0 +1,246 @@
+{
+  "previousCount": 196,
+  "countAfter": 236,
+  "images": [
+    {
+      "id": "cretapsara-athanata",
+      "sourceFile": "Cretapsara fossil with delicate antennae.png",
+      "sourceSha256": "4fe7e84f8eb783bf32bb7729d6ba329bd5c640bda1a6db43a3fc9fe83879f704",
+      "sha256": "d472349f88b09a5d1341af38bf82a8a7d758bbc5e7d336d367237d9a1a126dd8"
+    },
+    {
+      "id": "pemphix-sueurii",
+      "sourceFile": "Pemphix sueurii in Muschelkalk Waters.png",
+      "sourceSha256": "26fbb23d45f08a1f034b176f452d883b57b9a8acca3f6f078f26efff165d26ba",
+      "sha256": "495c7382ce37de5d3b228116d3def83f8763f0b97aa3dc8fd3132cf38bb80a5f"
+    },
+    {
+      "id": "kalligramma-haeckeli",
+      "sourceFile": "Kalligramma haeckeli on a Jurassic conifer.png",
+      "sourceSha256": "655ac6329821902de4ece8bfa57e00f20444074618c7a403dc4ec6c8ebb5052b",
+      "sha256": "724d10f428b03019dc72d937d29fb84890c601950441af4d4e8e91e8088b28f2"
+    },
+    {
+      "id": "saurichthys-curionii",
+      "sourceFile": "Smooth-skinned Saurichthys in Triassic waters.png",
+      "sourceSha256": "5da18a3692a954df7c70de60b6421126cb84992050b618bdace99e19bc7ffdd4",
+      "sha256": "d7e4c9b0c22465a2cb8ead1c3bbda06d53c731e9f77842a39ce7b3b7cb871250"
+    },
+    {
+      "id": "dapedium-politum",
+      "sourceFile": "Armored Dapedium in Jurassic Seas.png",
+      "sourceSha256": "475156bde019d6207b3b48f214115273ba33ea8a5ce7e539bfb3043bca4e7f8b",
+      "sha256": "8d2212a5b6efbdaa68b698dbe055528da370f7bf28ae399b3abc1b0e5c790861"
+    },
+    {
+      "id": "xiphactinus-audax",
+      "sourceFile": "Xiphactinus patrols the Cretaceous depths.png",
+      "sourceSha256": "e50c651f14c5a27f09c7c2e3d89f46445f6e712f80b311f4c7e4a9fc0c45794f",
+      "sha256": "2e699d25e7f2f0686148549c22e1ef32eae079e93443e3ecef828053fc02c520"
+    },
+    {
+      "id": "mastodonsaurus-giganteus",
+      "sourceFile": "Mastodonsaurus Resting in Triassic Waters.png",
+      "sourceSha256": "d4805543ac7fd7fb9e8636e9a7207217d03b3a0d309d5992ed0c8dabb777a859",
+      "sha256": "2575a7870b4285c590e30d3cb32349cfce27ff9bace603b50649cdcd54ee0d59"
+    },
+    {
+      "id": "dactylioceras-commune",
+      "sourceFile": "Living Dactylioceras in Toarcian Waters.png",
+      "sourceSha256": "8d45502fffa6e86378c1b87113725f5b8590f99c1dc3cf01bf62718fafbfb919",
+      "sha256": "20b63d4980219dad5dcd6655e4f75cf841de2ea30c52e87ed9e3bce00b1a6a4c"
+    },
+    {
+      "id": "repenomamus-robustus",
+      "sourceFile": "Long-bodied Repenomamus in Jehol woodland.png",
+      "sourceSha256": "3a57738b35c27642d56f777910bee1d7670424bc1add6040ed48cef86bf06800",
+      "sha256": "7b985f0d87dc89f6e4b7717d14c05ac90dd0350aede6a158512b7858f19e4c6a"
+    },
+    {
+      "id": "confuciusornis-sanctus",
+      "sourceFile": "Confuciusornis by the Volcanic Lake.png",
+      "sourceSha256": "ab87a3be6928770ee62a7f7ec3283997c415f55a81579a67c71d384ec3a8aeca",
+      "sha256": "40621ea582cae595f7884c2aa48e2c75123ecc9917ba4808ad2e025144aa357e"
+    },
+    {
+      "id": "triamyxa-coprolithica",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "01-triamyxa-coprolithica.webp",
+      "sha256": "a809b5bcd7783af9a5d079bed243c2b84f90ca83bb083695ac5c25d0ee22d6f2"
+    },
+    {
+      "id": "encrinus-liliiformis",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "02-encrinus-liliiformis.webp",
+      "sha256": "72a56445715894601027fffdb2f6a8c6faed884de20fd94dd8eebd6f6cc6688b"
+    },
+    {
+      "id": "atopodentatus-unicus",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "03-atopodentatus-unicus.webp",
+      "sha256": "44937bb435ae94324cb4340396dd12af6b00a304b91c390a06bcd2e14545be03"
+    },
+    {
+      "id": "juracimbrophlebia-ginkgofolia",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "04-juracimbrophlebia-ginkgofolia.webp",
+      "sha256": "7927cefded195ae74833e517b1b9b3060af70588e0aa859b078ea9b2357ca53a"
+    },
+    {
+      "id": "mesolimulus-walchi",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "05-mesolimulus-walchi.webp",
+      "sha256": "2d980954b9946443335fe9403298caa1865b60851ca851b78a2ff5b0c4337c1f"
+    },
+    {
+      "id": "antrimpos-speciosus",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "06-antrimpos-speciosus.webp",
+      "sha256": "4584e217b584338e94179195389522aa309a119d7cf4d18765b8ca2b89decca7"
+    },
+    {
+      "id": "gryphaea-arcuata",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "07-gryphaea-arcuata.webp",
+      "sha256": "8dbc89857bd8fe56bd1f15ecc7cd14cf096cc1c5bcde423cf5fce0680e451266"
+    },
+    {
+      "id": "protoischnurus-axelrodorum",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "08-protoischnurus-axelrodorum.webp",
+      "sha256": "09756170d8b1e97d9c67ece194d3ae611b5cffc64dd4303902a9840b3aa7a9b7"
+    },
+    {
+      "id": "ceratomyrmex-ellenbergeri",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "09-ceratomyrmex-ellenbergeri.webp",
+      "sha256": "4577c71c375064df777d4f48465dbcf27daa6cd504c6b552c0949141400b4861"
+    },
+    {
+      "id": "hesperornis-regalis",
+      "archive": "Dino-Atlas-druhohory-02-10-WebP.zip",
+      "sourceFile": "10-hesperornis-regalis.webp",
+      "sha256": "93694034351a039153cfbc8397637c04d67fd2aa521dce7460daca5f668a7846"
+    },
+    {
+      "id": "ottoia-prolifica",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "01-ottoia-prolifica.webp",
+      "sha256": "37ef017648c0cb2feed002a50a2d073da6cf0be70248b3a27418b49caf4f09c2"
+    },
+    {
+      "id": "didymograptus-murchisoni",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "02-didymograptus-murchisoni.webp",
+      "sha256": "5574b12582661f345999085748e1697f8741c0b42d4f1210d5810baa35ef033e"
+    },
+    {
+      "id": "favosites-gothlandicus",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "03-favosites-gothlandicus.webp",
+      "sha256": "d16e5422515d072caf298da68f71e2b6fe76efb9c469c0e5080aad8bfb74a785"
+    },
+    {
+      "id": "mucrospirifer-mucronatus",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "04-mucrospirifer-mucronatus.webp",
+      "sha256": "ab8d626e3a824e171a343fb9d073c25c87a53a5d1109635da34b53764e11740e"
+    },
+    {
+      "id": "archimedes-wortheni",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "05-archimedes-wortheni.webp",
+      "sha256": "be53fc6af68c6e36263ee43c19707f9fe093b4ccb05e251c47c7c2c8846a9e8f"
+    },
+    {
+      "id": "ceratites-nodosus",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "06-ceratites-nodosus.webp",
+      "sha256": "ed97f06d38ef22962a9cdc5782b05b0d01856c72ab0378252d3bea5f2b46d718"
+    },
+    {
+      "id": "clypeus-ploti",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "07-clypeus-ploti.webp",
+      "sha256": "31fc85770f1d30b655f250f31bafdf19415b8d2c813a36979afcd99a7a48cb85"
+    },
+    {
+      "id": "ventriculites-chonoides",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "08-ventriculites-chonoides.webp",
+      "sha256": "279fedfa96c564ba6e859438e5d9864c386756b7dffee6bac5ce549ab2f97654"
+    },
+    {
+      "id": "eophyllium-messelensis",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "09-eophyllium-messelensis.webp",
+      "sha256": "617bb3afb2e1cc93fa47a1d02e3f4f5148d58ce8260d0ae367b68981ef9e9a70"
+    },
+    {
+      "id": "paradoryphoribius-chronocaribbeus",
+      "archive": "Dino-Atlas-03-deset-kmenu-10-WebP.zip",
+      "sourceFile": "10-paradoryphoribius-chronocaribbeus.webp",
+      "sha256": "599cf9017ed4037d66c8e4635662d314304dc7ac032ec5094e6dba7cb1922264"
+    },
+    {
+      "id": "meganeuropsis-permiana",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "01-meganeuropsis-permiana.webp",
+      "sha256": "f630444cfc03da71cf7a85dcab7dad7d4f7ed8c153d0c2dc25045511e7eb6e9c"
+    },
+    {
+      "id": "horridonia-horrida",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "02-horridonia-horrida.webp",
+      "sha256": "76e897c9874b1dd3ef8f94f5d742cf827f6b2a86b5d08bcef71b8af6338f0796"
+    },
+    {
+      "id": "deltoblastus-elevatus",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "03-deltoblastus-elevatus.webp",
+      "sha256": "9ec131d5c04df8e26262a52895c9ade8a2a59820d5a22164066935733f98ce8d"
+    },
+    {
+      "id": "eurydesma-cordatum",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "04-eurydesma-cordatum.webp",
+      "sha256": "869378e1d4b733df783278484b94ebbf47f3ce1a6a7077be40b72b0f8fa48f70"
+    },
+    {
+      "id": "acanthocladia-anceps",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "05-acanthocladia-anceps.webp",
+      "sha256": "90458ea195cc3de45bd3c1cf81c4613612cd1abee7bad2a5c3eac3ac45a54d6d"
+    },
+    {
+      "id": "pupilla-loessica",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "06-pupilla-loessica.webp",
+      "sha256": "bde0ff8b11eefe66908f856b118250d81f85180a448b185c830f26b7ac219686"
+    },
+    {
+      "id": "copris-pristinus",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "07-copris-pristinus.webp",
+      "sha256": "e24edf9a020d86b05ec7dbe586d7c41191afefb0db1b721bf4d56254a415fa49"
+    },
+    {
+      "id": "acropora-palmata",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "08-acropora-palmata.webp",
+      "sha256": "04edf20952d908fd5333a6c91f77941b76ad4260f2ac3652a6a7e42cba3753ee"
+    },
+    {
+      "id": "ditrupa-arietina",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "09-ditrupa-arietina.webp",
+      "sha256": "0287c670ad6bcc920171594af9f5f286d1b67f6abb2dcb212aeb4f5a33d0f31f"
+    },
+    {
+      "id": "panagrolaimus-kolymaensis",
+      "archive": "Dino-Atlas-04-perm-ctvrtohory-10-WebP.zip",
+      "sourceFile": "10-panagrolaimus-kolymaensis.webp",
+      "sha256": "05a142ed410b07addfaee2c445e62a0715b9ed4280a0e8dfdb88b773c5f8216a"
+    }
+  ]
+}

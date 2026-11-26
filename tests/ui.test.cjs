@@ -273,8 +273,8 @@ async function openAnimal(page,id) {
       await page.waitForFunction(y=>Math.abs(scrollY-y)<5,galleryY);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       await page.locator('[data-category="marine-reptile"]').click();
-      assert.equal(await page.locator('#gallery .dino-card').count(),8);
-      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Plesiosaurus','Shonisaurus','Tylosaurus']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),9);
+      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Atopodentatus','Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Plesiosaurus','Shonisaurus','Tylosaurus']);
       await noOverflow(page);
 
       if(width===412) {

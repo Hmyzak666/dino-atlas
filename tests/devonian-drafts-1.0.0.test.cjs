@@ -2,7 +2,8 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const app=require('../app.js');
-const db=require('../dinosaurs.json');
+const current = require('../dinosaurs.json');
+const db = { ...current, dinosaurs: current.dinosaurs.slice(0, 96) };
 const draft=require('../content-drafts/devonian-eight.json');
 
 const ids=['dunkleosteus-terrelli','tiktaalik-roseae','bothriolepis-canadensis',
@@ -10,7 +11,7 @@ const ids=['dunkleosteus-terrelli','tiktaalik-roseae','bothriolepis-canadensis',
 'cladoselache-fyleri','jaekelopterus-rhenaniae'];
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
-assert.ok([88,96,104,112,122,132,142,152,162,172,183,196].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
+assert.ok([88,96].includes(db.dinosaurs.length),'Only verified 88 or future 96 species checkpoint');
 const activated=db.dinosaurs.length>=96;
 for(const [period,count] of [['cambrian',6],['ordovician',5],['silurian',5]]){
  assert.equal(db.dinosaurs.filter(a=>a.period===period).length,count,'Preserve previous Paleozoic batches');

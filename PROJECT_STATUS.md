@@ -1,3 +1,5 @@
+> **26. 11. 2026 · Dino Atlas 1.1.0 (1010009)** obsahuje 236 zvířat a 236 ilustrací. Čtyři nové desítky zahrnují 32 bezobratlých a osm obratlovců. [Přehled druhů](docs/RELEASE-1.1.0.md)
+
 > **25. 11. 2026 · Dino Atlas 1.1.0 (1010008)** má 196 zvířat. Přibylo 13 dinosaurů s českými kartami. Novou ilustraci mají Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. [Přehled dávky](docs/RELEASE-1.1.0.md)
 
 > **18. 11. 2026 — 1.1.0, poslední dávka (1010007):** Všech 71 nových zvířat vloženo, celkem **183 zvířat a 183 obrázků**. Poslední sada: Peltephilus a deset dinosaurů až po Lambeosaura. Všech předchozích 172 záznamů, obrázků a zdrojů zachováno. [Poslední dávka](docs/FINAL-BATCH07.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Zdroje připravené k sestavení APK. Pouze pracovní větev. Starší údaje níže jsou historie.

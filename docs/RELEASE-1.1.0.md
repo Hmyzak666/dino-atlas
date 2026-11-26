@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**25. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **196 zvířat** pro verzi 1.1.0 (1010008). Po původních 71 přírůstcích přibylo dalších 13 dinosaurů.
+**26. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **236 zvířat** pro verzi 1.1.0 (1010009). Po 196 zvířatech v sestavení 1010008 přibyly čtyři desítky s českými kartami, včetně 32 bezobratlých. Nové druhy zasahují do všech 12 období atlasu.
 
 ## Nový obsah
 
@@ -14,11 +14,18 @@
 | 6 | Elasmotherium, medvěd krátkočelý, Titanoboa, Hyracodon, Moeritherium, Pakicetus, Enhydriodon, Sivatherium, Homotherium, Dromornis | 172 |
 | 7 | Peltephilus, Carcharodontosaurus, Giganotosaurus, Albertosaurus, Baryonyx, Suchomimus, Amargasaurus, Shunosaurus, Euoplocephalus, Corythosaurus, Lambeosaurus | 183 |
 | 8 | Stenonychosaurus, Tenontosaurus, Scelidosaurus, Falcarius, Australovenator, Skorpiovenator, Saurolophus, Guanlong, Monolophosaurus, Marshosaurus, Borealopelta, Einiosaurus, Udanoceratops | 196 |
+| 9a | Cretapsara, Pemphix, Kalligramma, Saurichthys, Dapedium, Xiphactinus, Mastodonsaurus, Dactylioceras, Repenomamus, Confuciusornis | 206 |
+| 9b | Triamyxa, Encrinus, Atopodentatus, Juracimbrophlebia, Mesolimulus, Antrimpos, Gryphaea, Protoischnurus, Ceratomyrmex, Hesperornis | 216 |
+| 9c | Ottoia, Didymograptus, Favosites, Mucrospirifer, Archimedes, Ceratites, Clypeus, Ventriculites, Eophyllium, Paradoryphoribius | 226 |
+| 9d | Meganeuropsis, Horridonia, Deltoblastus, Eurydesma, Acanthocladia, zrnovka sprašová, Copris pristinus, větevník dlanitý, Ditrupa, Panagrolaimus | 236 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
 
+Třicet obrázků je převzato z vybraných sad WebP. Prvních deset vychází z původních PNG. [Seznam souborů a kontrolních součtů](fauna-batch09.json).
+
 ## Filtry a srovnání
 
+- V nabídce potravy lze vybrat filtrátory. Další způsoby výživy, například požírání bakterií nebo trusu, spadají pod „Jiná potrava“.
 - Skupiny Savci a Ptáci.
 - Tradiční filtr Třetihory, členěný na paleogén a neogén.
 - Filtr Čtvrtohory s Megatheriem a dvaceti dalšími zvířaty; osm nových savců, moa a Megalania v páté dávce.
@@ -26,6 +33,10 @@ Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 ×
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010009
+
+Kontrola vstupů pro Android načetla 236 karet se samostatnými obrázky. Obsahové testy ověřily vyhledávání a kvíz pro všech 40 přírůstků a shodu obrázků s výběrem. V Chromiu prošly testy mobilního rozhraní včetně filtrů, navigace, čtení a zvětšení obrázku.
 
 ## Kontroly sestavení 1010008
 

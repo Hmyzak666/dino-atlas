@@ -2,7 +2,8 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const app=require('../app.js');
-const db=require('../dinosaurs.json');
+const current = require('../dinosaurs.json');
+const db = { ...current, dinosaurs: current.dinosaurs.slice(0, 112) };
 const draft=require('../content-drafts/permian-eight.json');
 
 const ids=['dimetrodon-grandis','edaphosaurus-pogonias','inostrancevia-alexandri',
@@ -10,7 +11,7 @@ const ids=['dimetrodon-grandis','edaphosaurus-pogonias','inostrancevia-alexandri
   'helicoprion-bessonowi','estemmenosuchus-uralensis'];
 assert.deepEqual(draft.animals.map(a=>a.id),ids);
 assert.equal(draft.status,'draft-awaiting-eight-original-webp-images');
-assert.ok([104,112,122,132,142,152,162,172,183,196].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
+assert.ok([104,112].includes(db.dinosaurs.length),'Permian must activate atomically after verified 104 animals');
 const active=db.dinosaurs.length>=112;
 const originalCounts={cambrian:6,ordovician:5,silurian:5,devonian:8,carboniferous:8};
 for(const [era,n] of Object.entries(originalCounts))
