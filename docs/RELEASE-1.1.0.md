@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**26. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **236 zvířat** pro verzi 1.1.0 (1010009). Po 196 zvířatech v sestavení 1010008 přibyly čtyři desítky s českými kartami, včetně 32 bezobratlých. Nové druhy zasahují do všech 12 období atlasu.
+**27. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **246 zvířat a 246 ilustrací** pro verzi 1.1.0 (1010010). K předchozím 236 zvířatům přibyl jeden dinosaurus z každého druhohorního období a sedm bezobratlých. Každý z těchto bezobratlých zastupuje kmen, který v daném období atlasu dosud chyběl.
 
 ## Nový obsah
 
@@ -18,10 +18,13 @@
 | 9b | Triamyxa, Encrinus, Atopodentatus, Juracimbrophlebia, Mesolimulus, Antrimpos, Gryphaea, Protoischnurus, Ceratomyrmex, Hesperornis | 216 |
 | 9c | Ottoia, Didymograptus, Favosites, Mucrospirifer, Archimedes, Ceratites, Clypeus, Ventriculites, Eophyllium, Paradoryphoribius | 226 |
 | 9d | Meganeuropsis, Horridonia, Deltoblastus, Eurydesma, Acanthocladia, zrnovka sprašová, Copris pristinus, větevník dlanitý, Ditrupa, Panagrolaimus | 236 |
+| 10 | Thecodontosaurus, Huayangosaurus, Sinosauropteryx, Vauxia, Constellaria, Pentamerus, Calceola, Esconites, Campanile, Clypeaster | 246 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
 
-Třicet obrázků je převzato z vybraných sad WebP. Prvních deset vychází z původních PNG. [Seznam souborů a kontrolních součtů](fauna-batch09.json).
+V dávce 10 je pro druh *Campanile giganteum* vybrána druhá ilustrace s upraveným rypcem a tykadly podle žijícího příbuzného. [Původ a kontrolní součty deseti ilustrací](fauna-batch10.json).
+
+V dávce 9 pochází třicet obrázků z vybraných sad WebP a prvních deset z původních PNG. [Původ a kontrolní součty předchozích čtyřiceti ilustrací](fauna-batch09.json).
 
 ## Filtry a srovnání
 
@@ -33,6 +36,10 @@ Třicet obrázků je převzato z vybraných sad WebP. Prvních deset vychází z
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010010
+
+Obsahové testy ověřily zařazení druhů, vyhledávání, kvíz a shodu všech deseti ilustrací se schváleným výběrem. V mobilním zobrazení Chromia se každá nová karta otevřela přes kombinaci filtrů a vědeckého jména. V detailu se načetl příslušný obrázek v rozlišení 1536 × 1024. Kontrola zdrojů pro Android našla všech 246 karet a obrázků.
 
 ## Kontroly zdrojů 1010009
 

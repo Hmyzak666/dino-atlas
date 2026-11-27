@@ -72,7 +72,8 @@ async function openAnimal(page,id) {
       }
       if (width === 360) {
         const batch = require('../docs/dinosaur-batch08.json');
-        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained]) {
+        const newFauna = require('../docs/fauna-batch10.json');
+        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...newFauna.images]) {
           const card = page.locator('#card-' + id);
           const thumbnail = page.locator('#gallery img[src="images/' + id + '.webp"]');
           await card.scrollIntoViewIfNeeded();

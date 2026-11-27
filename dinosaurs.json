@@ -3058,6 +3058,141 @@
       "title": "University of California, Davis · Potravní ekologie rodu Panagrolaimus",
       "shortTitle": "University of California, Davis · Potravní ekologie rodu Panagrolaimus",
       "url": "https://nemaplex.ucdavis.edu/Ecology/EcophysiologyParms/FeedingStrategiesResult.aspx?Genus=Panagrolaimus"
+    },
+    "fauna-thecodontosaurus-atlas": {
+      "title": "Natural History Museum · Thecodontosaurus",
+      "shortTitle": "Natural History Museum · Thecodontosaurus",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/thecodontosaurus.html"
+    },
+    "fauna-thecodontosaurus-bristol": {
+      "title": "University of Bristol · Nálezy na triasových ostrovech",
+      "shortTitle": "University of Bristol · Nálezy na triasových ostrovech",
+      "url": "https://www.bristol.ac.uk/earthsciences/research/palaeobiology/bristol-dinosaur-project/"
+    },
+    "fauna-thecodontosaurus-brain": {
+      "title": "University of Bristol · Pohyb a možná potrava rodu Thecodontosaurus",
+      "shortTitle": "University of Bristol · Pohyb a možná potrava rodu Thecodontosaurus",
+      "url": "https://www.bristol.ac.uk/news/2020/december/bristol-dinosaur.html"
+    },
+    "fauna-huayangosaurus-amnh": {
+      "title": "American Museum of Natural History · Huayangosaurus taibaii",
+      "shortTitle": "American Museum of Natural History · Huayangosaurus taibaii",
+      "url": "https://www.amnh.org/explore/ology/ology-cards/008-huayangosaurus-taibaii"
+    },
+    "fauna-huayangosaurus-australia": {
+      "title": "Australian Museum · Anatomie a naleziště huayangosaura",
+      "shortTitle": "Australian Museum · Anatomie a naleziště huayangosaura",
+      "url": "https://australian.museum/learn/dinosaurs/fact-sheets/huayangosaurus-taibaii/"
+    },
+    "fauna-sinosauropteryx-australia": {
+      "title": "Australian Museum · Sinosauropteryx prima",
+      "shortTitle": "Australian Museum · Sinosauropteryx prima",
+      "url": "https://australian.museum/learn/dinosaurs/fact-sheets/sinosauropteryx-prima/"
+    },
+    "fauna-sinosauropteryx-nhm": {
+      "title": "Natural History Museum · Sinosauropteryx",
+      "shortTitle": "Natural History Museum · Sinosauropteryx",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/sinosauropteryx.html"
+    },
+    "fauna-sinosauropteryx-color": {
+      "title": "Smithwick a kol. · Rekonstrukce pruhování sinosauropteryxe",
+      "shortTitle": "Smithwick a kol. · Rekonstrukce pruhování sinosauropteryxe",
+      "url": "https://research-information.bris.ac.uk/ws/files/135046946/1_s2.0_S0960982217311971_main.pdf"
+    },
+    "fauna-vauxia-rom": {
+      "title": "Royal Ontario Museum · Vauxia gracilenta z burgesských břidlic",
+      "shortTitle": "Royal Ontario Museum · Vauxia gracilenta z burgesských břidlic",
+      "url": "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/"
+    },
+    "fauna-constellaria-species": {
+      "title": "Atlas of Ordovician Life · Constellaria florida",
+      "shortTitle": "Atlas of Ordovician Life · Constellaria florida",
+      "url": "https://www.ordovicianatlas.org/atlas/bryozoa/stenolaemata/cystoporata/constellaria/constellaria-florida/"
+    },
+    "fauna-constellaria-kentucky": {
+      "title": "Kentucky Geological Survey · Hvězdicovitá kresba rodu Constellaria",
+      "shortTitle": "Kentucky Geological Survey · Hvězdicovitá kresba rodu Constellaria",
+      "url": "https://www.uky.edu/KGS/fossils/fossil-of-the-month_2022-10_Constellaria.php"
+    },
+    "fauna-constellaria-bryozoa": {
+      "title": "Paleontological Research Institution · Jak žijí mechovky",
+      "shortTitle": "Paleontological Research Institution · Jak žijí mechovky",
+      "url": "https://www.digitalatlasofancientlife.org/learn/bryozoa/"
+    },
+    "fauna-pentamerus-anticosti": {
+      "title": "Jin a Copper · Silurští ramenonožci z ostrova Anticosti",
+      "shortTitle": "Jin a Copper · Silurští ramenonožci z ostrova Anticosti",
+      "url": "https://kirjandus.geoloogia.info/en/reference/27949"
+    },
+    "fauna-pentamerus-shell": {
+      "title": "Jin a Copper · Popis druhu Pentamerus oblongus a řezy schránkou",
+      "shortTitle": "Jin a Copper · Popis druhu Pentamerus oblongus a řezy schránkou",
+      "url": "https://www.academia.edu/20175090/Late_Ordovician_and_Early_Silurian_pentamerid_brachiopods_of_Anticosti_Island_Qu%C3%A9bec_Canada"
+    },
+    "fauna-pentamerus-biology": {
+      "title": "Paleontological Research Institution · Stavba a výživa ramenonožců",
+      "shortTitle": "Paleontological Research Institution · Stavba a výživa ramenonožců",
+      "url": "https://www.digitalatlasofancientlife.org/learn/brachiopoda/"
+    },
+    "fauna-calceola-morava": {
+      "title": "Galle a Ficner · Calceola sandalina z Čelechovic na Moravě",
+      "shortTitle": "Galle a Ficner · Calceola sandalina z Čelechovic na Moravě",
+      "url": "https://hero.epa.gov/reference/7885498/"
+    },
+    "fauna-calceola-barrandien": {
+      "title": "Mergl · První nález Calceola sandalina v Barrandienu",
+      "shortTitle": "Mergl · První nález Calceola sandalina v Barrandienu",
+      "url": "https://doi.org/10.2478/fbgp-2014-0002"
+    },
+    "fauna-calceola-rugosa": {
+      "title": "Indiana University · Potrava a stavba drsnatých korálů",
+      "shortTitle": "Indiana University · Potrava a stavba drsnatých korálů",
+      "url": "https://paleo.indiana.edu/research/indiana-corals.html"
+    },
+    "fauna-esconites-eton": {
+      "title": "Eton College · Esconites zelus ve sbírce z Mazon Creek",
+      "shortTitle": "Eton College · Esconites zelus ve sbírce z Mazon Creek",
+      "url": "https://collections.etoncollege.com/museums/natural-history-museum/mazon-creek-fossils/"
+    },
+    "fauna-esconites-esconi": {
+      "title": "ESCONI · Štětiny a čelisti druhu Esconites zelus",
+      "shortTitle": "ESCONI · Štětiny a čelisti druhu Esconites zelus",
+      "url": "https://esconi.org/wp-content/uploads/2025/10/MazonCreekSlideDescriptions.pdf"
+    },
+    "fauna-esconites-creek": {
+      "title": "Clements a kol. · Uchování živočichů z Mazon Creek",
+      "shortTitle": "Clements a kol. · Uchování živočichů z Mazon Creek",
+      "url": "https://doi.org/10.1144/jgs2018-088"
+    },
+    "fauna-campanile-paris": {
+      "title": "Muséum national d’Histoire naturelle · Obří plž z Pařížské pánve",
+      "shortTitle": "Muséum national d’Histoire naturelle · Obří plž z Pařížské pánve",
+      "url": "https://www.mnhn.fr/fr/cerithe-de-lamarck"
+    },
+    "fauna-campanile-fleury": {
+      "title": "Courville a kol. · Eocenní plži z Fleury-la-Rivière",
+      "shortTitle": "Courville a kol. · Eocenní plži z Fleury-la-Rivière",
+      "url": "https://olivirv.myspecies.info/sites/olivirv.myspecies.info/files/Campanile%20et%20autres%20gasteropode%20-%20Courville%2C%20P_.pdf"
+    },
+    "fauna-campanile-living": {
+      "title": "Houbrick · Anatomie a způsob života žijícího druhu Campanile symbolicum",
+      "shortTitle": "Houbrick · Anatomie a způsob života žijícího druhu Campanile symbolicum",
+      "url": "https://repository.si.edu/server/api/core/bitstreams/cd884988-3505-4d8d-b38d-2e2d482bf1a4/content"
+    },
+    "fauna-clypeaster-greece": {
+      "title": "Řecká geologická společnost · Miocenní ježovky ve východním Středomoří",
+      "shortTitle": "Řecká geologická společnost · Miocenní ježovky ve východním Středomoří",
+      "url": "https://geolib.geo.auth.gr/index.php/bgsg/article/viewFile/4364/4186"
+    },
+    "fauna-clypeaster-crete": {
+      "title": "Řecká geologická společnost · Pět druhů rodu Clypeaster z Kréty, 2025",
+      "shortTitle": "Řecká geologická společnost · Pět druhů rodu Clypeaster z Kréty, 2025",
+      "url": "https://ege2025lesvos.gr/wp-content/uploads/2025/08/07_ABSTRACTS_151-200_NEW_18_08_2025_1.pdf"
+    },
+    "fauna-clypeaster-feeding": {
+      "title": "Telford a kol. · Jak získávají potravu žijící druhy rodu Clypeaster",
+      "shortTitle": "Telford a kol. · Jak získávají potravu žijící druhy rodu Clypeaster",
+      "url": "https://doi.org/10.2307/1541712"
     }
   },
   "dinosaurs": [
@@ -65557,6 +65692,2496 @@
               ]
             }
           ]
+        }
+      }
+    },
+    {
+      "id": "thecodontosaurus-antiquus",
+      "scientificName": "Thecodontosaurus antiquus",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "triassic",
+      "diet": "omnivore",
+      "group": "Thecodontosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Dinosauria",
+        "Saurischia",
+        "Sauropodomorpha"
+      ],
+      "aliases": [
+        "bristolský dinosaurus",
+        "tekodontosaurus",
+        "raný sauropodomorf"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/thecodontosaurus-antiquus.webp",
+        "alt": {
+          "cs": "Štíhlý dinosaurus jde po dvou mezi kapradinami na vápencovém ostrově. Hlavu má vpravo a dlouhý ocas vlevo."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Kosti dokládají proporce těla. Vzor šupin a zbarvení jsou výtvarnou volbou."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní trias"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-thecodontosaurus-bristol"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Okolí Bristolu v jihozápadní Anglii"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-thecodontosaurus-bristol"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Přibližně 2,5 m i s ocasem."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-thecodontosaurus-atlas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Zuby ukazují na převahu rostlin. Občasný lov drobné kořisti je možný."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-thecodontosaurus-brain",
+            "fauna-thecodontosaurus-atlas"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Thecodontosaurus",
+          "ageLabel": "Pozdní trias",
+          "location": "Okolí Bristolu v jihozápadní Anglii",
+          "groupLabel": "Dinosauři · raní sauropodomorfové",
+          "cardSummary": "Drobný příbuzný pozdějších dlouhokrkých obrů chodil po zadních nohách na ostrovech v okolí dnešního Bristolu.",
+          "summary": "Drobný příbuzný pozdějších dlouhokrkých obrů chodil po zadních nohách na ostrovech v okolí dnešního Bristolu. Vápencové pukliny jihozápadní Anglie uchovaly jeho kosti. Zuby napovídají, čím se živil, a dutiny uvnitř lebky prozrazují, jak při pohybu udržoval rovnováhu.",
+          "quizHint": "Přední končetiny jsou výrazně kratší než zadní.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Přední končetiny jsou výrazně kratší než zadní."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-thecodontosaurus-atlas",
+                "fauna-thecodontosaurus-bristol"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava sedí na štíhlém krku."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-thecodontosaurus-atlas"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Za lehkým trupem pokračuje dlouhý, postupně se zužující ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-thecodontosaurus-atlas",
+                "fauna-thecodontosaurus-bristol"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Přední končetiny jsou výrazně kratší než zadní. Malá hlava sedí na štíhlém krku."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-thecodontosaurus-atlas",
+              "fauna-thecodontosaurus-bristol"
+            ]
+          },
+          "sections": [
+            {
+              "id": "ostrovy",
+              "title": "Ostrovy u Bristolu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na konci triasu vyčnívaly vápencové kopce nad mořem. Dnešní anglické vnitrozemí tehdy vypadalo jako souostroví."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-bristol"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pukliny",
+              "title": "Kosti v puklinách",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Voda splavovala pozůstatky do dutin ve vápenci. Výplň těchto dutin tak uchovala kosti mladší než samotný okolní vápenec."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-bristol"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuznost",
+              "title": "Na počátku dlouhé vývojové větve",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patřil mezi sauropodomorfy. Do téže rozsáhlé skupiny patřili i mnohem pozdější obří sauropodi, například Diplodocus."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-brain",
+                    "fauna-thecodontosaurus-atlas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chrup",
+              "title": "Co napovídají zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvar zubů odpovídá hlavně zpracování rostlin. Někteří paleontologové počítají i s příležitostným lovem malých živočichů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-brain"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Chůze po dvou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zadní nohy při chůzi nesly tělo. Výsledky rozboru vnitřního ucha a mozkovny podporují představu pohyblivého dvounožce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-brain"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lebka",
+              "title": "Pohled dovnitř lebky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Počítačová tomografie ukázala dutiny, které kdysi vyplňoval mozek a vnitřní ucho. Jejich tvar vědci převedli do trojrozměrného modelu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-thecodontosaurus-brain"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna-thecodontosaurus-atlas"
+        ],
+        "note": {
+          "cs": "Orientační celková délka včetně ocasu."
+        }
+      }
+    },
+    {
+      "id": "huayangosaurus-taibaii",
+      "scientificName": "Huayangosaurus taibaii",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "jurassic",
+      "diet": "herbivore",
+      "group": "Huayangosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Dinosauria",
+        "Ornithischia",
+        "Thyreophora",
+        "Stegosauria",
+        "Huayangosauridae"
+      ],
+      "aliases": [
+        "huajangosaurus",
+        "stegosaur z Číny",
+        "stegosaur s ramenními trny"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/huayangosaurus-taibaii.webp",
+        "alt": {
+          "cs": "Čtyřnohý stegosaur s nízkými hřbetními deskami, trnem na rameni a ostny na ocase stojí u přesliček."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Kostěné desky a trny známe z fosilií. Barva jejich povrchu a kůže je ilustrativní."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední jura, přibližně před 165 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-huayangosaurus-australia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Ta-šan-pchu (Dashanpu) u města Zigong v čínské provincii S’-čchuan"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-huayangosaurus-australia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Přibližně 4 m od čenichu po konec ocasu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-huayangosaurus-amnh"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Muzejní odhad je přibližně 1,4 t."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-huayangosaurus-amnh"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostlinná potrava."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-huayangosaurus-australia"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Huayangosaurus",
+          "ageLabel": "Střední jura, přibližně před 165 miliony let",
+          "location": "Ta-šan-pchu (Dashanpu) u města Zigong v čínské provincii S’-čchuan",
+          "groupLabel": "Dinosauři · stegosauři",
+          "cardSummary": "Čínského stegosaura prozrazuje krátký čenich a dlouhý trn vystupující do strany z každého ramene.",
+          "summary": "Čínského stegosaura prozrazuje krátký čenich a dlouhý trn vystupující do strany z každého ramene. Na hřbetě nesl kostěné desky a na ocase dlouhé ostny. Zachoval si také znaky raných stegosaurů, které jeho známější příbuzní později ztratili.",
+          "quizHint": "Ze strany ramene vyrůstá mohutný trn.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Ze strany ramene vyrůstá mohutný trn."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-huayangosaurus-amnh"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na hřbetě stojí řady kostěných desek."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-huayangosaurus-amnh",
+                "fauna-huayangosaurus-australia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krátký čenich doplňují nápadné trny na konci ocasu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-huayangosaurus-amnh"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Ze strany ramene vyrůstá mohutný trn. Na hřbetě stojí řady kostěných desek."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-huayangosaurus-amnh",
+              "fauna-huayangosaurus-australia"
+            ]
+          },
+          "sections": [
+            {
+              "id": "naleziste",
+              "title": "Jurské naleziště",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosti pocházejí z lomu Dashanpu u Zigongu v S’-čchuanu. Nálezy odtud dokládají stegosaury už ve střední juře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-australia",
+                    "fauna-huayangosaurus-amnh"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nohy",
+              "title": "Výška předních nohou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přední nohy byly na stegosaura poměrně dlouhé. Trup proto nesl jinak než známější Stegosaurus s výrazně kratšími předními končetinami."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-australia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zuby",
+              "title": "Zuby až vpředu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V přední části horní čelisti měl ještě zuby. U pozdějších stegosaurů byla tato část bezzubá."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-amnh",
+                    "fauna-huayangosaurus-australia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hrbet",
+              "title": "Desky na hřbetě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V kostěných deskách zůstaly kanálky, kterými procházely cévy. Jejich stopy lze prozkoumat i po zániku měkkých tkání."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-australia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ramena",
+              "title": "Trny na ramenou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ramenní trn vyčníval do strany. Mohl chránit bok zvířete před útokem, jeho přesné použití však z kostí nevyčteme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-amnh"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ocas",
+              "title": "Trny na ocase",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ocas nesl vlastní výzbroj. Jeho dlouhé špičaté trny měly jiný tvar než plošší desky na hřbetě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-huayangosaurus-amnh"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 4,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna-huayangosaurus-amnh"
+        ],
+        "note": {
+          "cs": "Přibližná délka dospělého zvířete."
+        }
+      }
+    },
+    {
+      "id": "sinosauropteryx-prima",
+      "scientificName": "Sinosauropteryx prima",
+      "taxonRank": "species",
+      "category": "dinosaur",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Sinosauropteryx",
+      "taxonomy": [
+        "Chordata",
+        "Dinosauria",
+        "Theropoda",
+        "Coelurosauria"
+      ],
+      "aliases": [
+        "pruhovaný teropod",
+        "opeřený dinosaurus"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/sinosauropteryx-prima.webp",
+        "alt": {
+          "cs": "Drobný dvounohý dinosaurus s vláknitým peřím kráčí doleva podél jezera. Na dlouhém ocase se střídají světlé a rezavohnědé pruhy."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Rozmístění pigmentu dokládá pruhování ocasu. Přesné odstíny, oči a okolní krajinu ilustrace dotváří."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída, přibližně před 125 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-sinosauropteryx-australia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Provincie Liao-ning v severovýchodní Číně, okolí vesnice Sihetun"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-sinosauropteryx-australia"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Přibližně 1,1 m včetně velmi dlouhého ocasu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-sinosauropteryx-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Drobní obratlovci a nejspíš i hmyz."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-sinosauropteryx-australia",
+            "fauna-sinosauropteryx-nhm"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Sinosauropteryx",
+          "ageLabel": "Raná křída, přibližně před 125 miliony let",
+          "location": "Provincie Liao-ning v severovýchodní Číně, okolí vesnice Sihetun",
+          "groupLabel": "Dinosauři · draví teropodi",
+          "cardSummary": "Na mimořádně dlouhém ocase tohoto drobného teropoda se střídaly tmavší a světlejší pruhy.",
+          "summary": "Na mimořádně dlouhém ocase tohoto drobného teropoda se střídaly tmavší a světlejší pruhy. V jemnozrnných horninách severovýchodní Číny zůstala vedle kostry zachována i vlákna opeření. Díky nim lze zkoumat obrys těla i část barevného vzoru.",
+          "quizHint": "Ocas tvoří nápadně dlouhé, tenké pokračování trupu.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Ocas tvoří nápadně dlouhé, tenké pokračování trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-sinosauropteryx-australia",
+                "fauna-sinosauropteryx-color"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Obrys těla lemuje jednoduché vláknité peří."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-sinosauropteryx-australia"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na ocase se střídají tmavší a světlejší pásy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-sinosauropteryx-color"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Ocas tvoří nápadně dlouhé, tenké pokračování trupu. Obrys těla lemuje jednoduché vláknité peří."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-sinosauropteryx-australia",
+              "fauna-sinosauropteryx-color"
+            ]
+          },
+          "sections": [
+            {
+              "id": "nalezy",
+              "title": "Nález u vesnice Sihetun",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První známé zkameněliny našli v provincii Liao-ning. Vědeckého popisu se zvíře dočkalo v roce 1996."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-australia",
+                    "fauna-sinosauropteryx-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vlakna",
+              "title": "Peří v podobě vláken",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kolem kostry se zachovaly otisky jemných vláken. Tvarem připomínají chlupy a od širokých letek dnešních ptáků se snadno odliší."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-australia",
+                    "fauna-sinosauropteryx-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pasy",
+              "title": "Kresba na ocase",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V opeření ocasu se pravidelně střídají úseky se stopami pigmentu a úseky světlé. Podle jejich rozložení vědci zrekonstruovali pruhování."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-color"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ruce",
+              "title": "Krátké přední končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na každé ruce byly tři prsty. Přední končetiny byly mnohem kratší než dlouhé zadní nohy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-australia"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "korist",
+              "title": "Kořist malého lovce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čelisti nesly ostré zuby. Velikosti a stavbě tohoto teropoda odpovídá kořist velikosti ještěrky nebo drobného savce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-australia",
+                    "fauna-sinosauropteryx-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "maskovani",
+              "title": "Světlé břicho",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tmavší hřbet přecházel ve světlejší břicho. Modely osvětlení naznačují, že takové stínování pomáhalo skrýt obrys těla v otevřenější krajině."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-sinosauropteryx-color"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1.1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna-sinosauropteryx-nhm"
+        ],
+        "note": {
+          "cs": "Celková délka včetně ocasu podle Natural History Museum."
+        }
+      }
+    },
+    {
+      "id": "vauxia-gracilenta",
+      "scientificName": "Vauxia gracilenta",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "suspension-feeder",
+      "group": "Vauxia",
+      "taxonomy": [
+        "Porifera",
+        "Demospongiae",
+        "Vauxiidae"
+      ],
+      "aliases": [
+        "mořská houba",
+        "houbovec",
+        "kambrická houba"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/vauxia-gracilenta.webp",
+        "alt": {
+          "cs": "Okrová mořská houba vyrůstá ze společné báze do několika štíhlých dutých větví. Na jejich povrchu je jemná síť."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Zkameněliny dokládají tvar větví a síť vláken. Okrový odstín je ilustrativní."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední kambrium, asi před 505 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-vauxia-rom"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Burgesské břidlice v Britské Kolumbii v Kanadě"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-vauxia-rom"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Některé exempláře dosahují výšky až 8 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-vauxia-rom"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Drobné organické částice unášené vodou."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-vauxia-rom"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Vauxia",
+          "ageLabel": "Střední kambrium, asi před 505 miliony let",
+          "location": "Burgesské břidlice v Britské Kolumbii v Kanadě",
+          "groupLabel": "Houbovci · rohovité houby",
+          "cardSummary": "Drobná mořská houba měla duté větve. Každá končila otvorem, kterým odtékala přefiltrovaná voda.",
+          "summary": "Drobná mořská houba měla duté větve. Každá končila otvorem, kterým odtékala přefiltrovaná voda. Zkameněliny ukazují jednoduché nevětvené jedince i členitější tvary. Na povrchu větví je možné rozeznat síť vláken, která za života podpírala měkké tělo.",
+          "quizHint": "Štíhlé větve jsou duté a mírně se rozšiřují.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Štíhlé větve jsou duté a mírně se rozšiřují."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-vauxia-rom"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na konci každé větve je jeden zřetelný vyvrhovací otvor."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-vauxia-rom"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Stěnu těla vyztužuje síť vláken s mnohoúhelníkovými oky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-vauxia-rom"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Štíhlé větve jsou duté a mírně se rozšiřují. Na konci každé větve je jeden zřetelný vyvrhovací otvor."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-vauxia-rom"
+            ]
+          },
+          "sections": [
+            {
+              "id": "stavba",
+              "title": "Dutá větev",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Větví probíhala jediná centrální dutina. Na vrcholu ústila otvorem zvaným oskulum."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "voda",
+              "title": "Cesta vody",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Voda vstupovala drobnými póry ve stěně. Houba z ní při průchodu získávala potravu a vodu odváděla větším otvorem nahoře."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sit",
+              "title": "Dvě vrstvy vláken",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hustší povrchová vrstva překrývala pravidelnou vnitřní síť. V jejích okách lze rozeznat čtyři až šest stran."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tvar",
+              "title": "Proměnlivý počet větví",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některým jedincům stačila jediná trubice. U jiných se společná báze výše dělila do několika větví."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dno",
+              "title": "Život na jednom místě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vauxia trávila život přichycená ke dnu. Potravu k ní přinášela voda proudící kolem jejího těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy",
+              "title": "Různá hojnost v lomech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z několika nalezišť v kanadských Skalnatých horách pochází stejný rod. V Raymondově lomu se nachází častěji než v nedalekém Walcottově lomu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-vauxia-rom"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "constellaria-florida",
+      "scientificName": "Constellaria florida",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "ordovician",
+      "diet": "suspension-feeder",
+      "group": "Constellaria",
+      "taxonomy": [
+        "Bryozoa",
+        "Stenolaemata",
+        "Cystoporata",
+        "Constellariidae"
+      ],
+      "aliases": [
+        "mechovka",
+        "hvězdicovitá mechovka",
+        "ordovická mechovka"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/constellaria-florida.webp",
+        "alt": {
+          "cs": "Na zploštělých světlých větvích kolonie jsou mezi hustými póry patrné drobné hvězdicovité prohlubně."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Větvení a hvězdicovité útvary vycházejí z fosilií. Barvu živé kolonie neznáme."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní ordovik"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-constellaria-species",
+            "fauna-constellaria-kentucky"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Oblast Cincinnati na území dnešního Ohia, Indiany a Kentucky v USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-constellaria-species",
+            "fauna-constellaria-kentucky"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Větve kolonie jsou v průřezu silné přibližně 3–5 mm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-constellaria-species"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Drobné částice a plankton z okolní vody."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-constellaria-bryozoa"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Constellaria",
+          "ageLabel": "Pozdní ordovik",
+          "location": "Oblast Cincinnati na území dnešního Ohia, Indiany a Kentucky v USA",
+          "groupLabel": "Mechovky",
+          "cardSummary": "Na zploštělých větvích této mechovky vypadají drobné prohlubně jako hvězdičky. Kolem nich se tísnily stovky malých obyvatel kolonie.",
+          "summary": "Na zploštělých větvích této mechovky vypadají drobné prohlubně jako hvězdičky. Kolem nich se tísnily stovky malých obyvatel kolonie. Každý jedinec neboli zooid měl vlastní komůrku s ústím na povrchu větve. Několik milimetrů silná větev tak obsahovala mnoho menších živočichů.",
+          "quizHint": "Kolonie větví do vzpřímených, zploštělých výběžků.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Kolonie větví do vzpřímených, zploštělých výběžků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-constellaria-species"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Povrch větví nese hvězdicovité prohlubně."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-constellaria-species"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mezi paprsky každé hvězdičky probíhají řádky drobných otvorů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-constellaria-species"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Kolonie větví do vzpřímených, zploštělých výběžků. Povrch větví nese hvězdicovité prohlubně."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-constellaria-species"
+            ]
+          },
+          "sections": [
+            {
+              "id": "kolonie",
+              "title": "Mnoho živočichů pohromadě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Noví jedinci přibývali pučením a zůstávali součástí kolonie. Každý přitom obýval vlastní malý prostor v její společné kostře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-constellaria-bryozoa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hvezdy",
+              "title": "Kresba hvězdiček",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Od středu některých políček se rozbíhají mělké rýhy. Mezi nimi jsou vyvýšené části s ústími komůrek."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-constellaria-species"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "otvory",
+              "title": "Co je vidět pod lupou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hvězdička zaujímá mnohem větší plochu než otvor jednotlivé komůrky. Lupa odhalí oba vzory najednou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-constellaria-species",
+                    "fauna-constellaria-kentucky"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Potrava v proudu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jednotlivé mechovky vysunují kolem úst věnec obrvených chapadélek. Proud vody jim k němu přivádí drobnou potravu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-constellaria-bryozoa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vetve",
+              "title": "Co přečká pohřbení",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V ordovických horninách Kentucky jsou běžné zlomky větví. Hvězdicovitá kresba může umožnit určení rodu i na úlomku."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-constellaria-kentucky"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "indiana",
+              "title": "Doklad z Indiany",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vyobrazený sbírkový exemplář v Atlasu ordovického života pochází ze souvrství Kope v okrese Franklin v Indianě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-constellaria-species"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pentamerus-oblongus",
+      "scientificName": "Pentamerus oblongus",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "silurian",
+      "diet": "suspension-feeder",
+      "group": "Pentamerus",
+      "taxonomy": [
+        "Brachiopoda",
+        "Rhynchonellata",
+        "Pentamerida",
+        "Pentameridae"
+      ],
+      "aliases": [
+        "silurský ramenonožec",
+        "ramenonožec"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pentamerus-oblongus.webp",
+        "alt": {
+          "cs": "Tři vypouklé schránky vyčnívají z mořského dna. Nejbližší má hladký povrch a nápadně zahnutý vrchol."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Tvar schránek dokládají fosilie. Zbarvení a rozmístění skupinky na dně jsou rekonstruované."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný silur, llandovery"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-pentamerus-anticosti",
+            "fauna-pentamerus-shell"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Ostrov Anticosti v kanadském Québecu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-pentamerus-anticosti",
+            "fauna-pentamerus-shell"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Změřené schránky z Anticosti měly průměrnou délku 4,8 cm. Největší měřila 9,8 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-pentamerus-shell"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Drobné částice a plankton zachycené z vody."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-pentamerus-biology"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pentamerus",
+          "ageLabel": "Raný silur, llandovery",
+          "location": "Ostrov Anticosti v kanadském Québecu",
+          "groupLabel": "Ramenonožci · pentameridi",
+          "cardSummary": "Podlouhlá schránka tohoto ramenonožce má dvě silně vyklenuté misky. Zvenčí je téměř hladká, uvnitř skrývá soustavu přepážek.",
+          "summary": "Podlouhlá schránka tohoto ramenonožce má dvě silně vyklenuté misky. Zvenčí je téměř hladká, uvnitř skrývá soustavu přepážek. Na ostrově Anticosti našli paleontologové dost schránek, aby porovnali jejich tvary a velikosti. Vnitřní stavbu zkoumali v sérii příčných řezů.",
+          "quizHint": "Obě misky jsou nápadně vypouklé.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Obě misky jsou nápadně vypouklé."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-pentamerus-shell"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Podlouhlá schránka má hladký nebo jen slabě zřasený povrch."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-pentamerus-shell"
+              ]
+            },
+            {
+              "text": {
+                "cs": "U zúženého konce se zvedá zahnutý vrchol."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-pentamerus-shell"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Obě misky jsou nápadně vypouklé. Podlouhlá schránka má hladký nebo jen slabě zřasený povrch."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-pentamerus-shell"
+            ]
+          },
+          "sections": [
+            {
+              "id": "misky",
+              "title": "Horní a dolní miska",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna miska kryla hřbetní stranu těla, druhá břišní. Rovinu souměrnosti lze vést středem obou misek najednou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-pentamerus-biology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "uvnitr",
+              "title": "Skryté přepážky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Uvnitř schránky vybíhaly do dutiny tenké vápenité desky. Při určování rodu jsou důležité i tehdy, když povrch fosilie vypadá hladce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-pentamerus-shell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rezy",
+              "title": "Proč se dělají řezy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Série řezů jednou schránkou umožní sledovat, kde vnitřní přepážky začínají a jak daleko zasahují."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-pentamerus-shell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Chapadélka uvnitř",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ramenonožci nechávají mezi miskami proudit vodu. Pomocí obrvených chapadélek uvnitř schránky z ní vybírají potravu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-pentamerus-biology"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mereni",
+              "title": "Rozdíly ve velikosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V souboru z Anticosti dosahovala největší schránka délky téměř deseti centimetrů. To je přibližně dvojnásobek průměru tamních kusů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-pentamerus-shell"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ostrov",
+              "title": "Ostrov v zálivu svatého Vavřince",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na kanadském ostrově Anticosti vystupují vrstvy pravěkého moře. Část tamních nálezů tohoto druhu pochází ze souvrství Jupiter."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-pentamerus-anticosti",
+                    "fauna-pentamerus-shell"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.048,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna-pentamerus-shell"
+        ],
+        "note": {
+          "cs": "Průměrná délka schránek v popsaném souboru z ostrova Anticosti."
+        }
+      }
+    },
+    {
+      "id": "calceola-sandalina",
+      "scientificName": "Calceola sandalina",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "devonian",
+      "diet": "suspension-feeder",
+      "group": "Calceola",
+      "taxonomy": [
+        "Cnidaria",
+        "Anthozoa",
+        "Rugosa",
+        "Calceolidae"
+      ],
+      "aliases": [
+        "korál s víčkem",
+        "pantoflíčkový korál",
+        "korál z Čelechovic"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/calceola-sandalina.webp",
+        "alt": {
+          "cs": "Jediný korál leží na dně mezi články lilijic. Na širším konci jeho rohovité kostry je mírně pootevřené půlkruhové víčko."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Tvar kostry a jediného víčka dokládají nálezy. Podobu živé tkáně a její zbarvení ilustrace odhaduje."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední devon, v Čelechovicích počátek givetu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-calceola-morava"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Čelechovice na Hané na Moravě a další devonská naleziště včetně Barrandienu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-calceola-morava",
+            "fauna-calceola-barrandien"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Popsaný materiál z Barrandienu má délku koralitů až 28 mm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-calceola-barrandien"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Drobné částice potravy přinesené proudem vody."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-calceola-rugosa"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Calceola",
+          "ageLabel": "Střední devon, v Čelechovicích počátek givetu",
+          "location": "Čelechovice na Hané na Moravě a další devonská naleziště včetně Barrandienu",
+          "groupLabel": "Žahavci · koráli drsnatí",
+          "cardSummary": "V moři na území dnešní Moravy žil korál, který dokázal uzavřít svůj kalich jediným pevným víčkem.",
+          "summary": "V moři na území dnešní Moravy žil korál, který dokázal uzavřít svůj kalich jediným pevným víčkem. Jeden polyp obýval nízkou kostru ve tvaru střevíčku. Jedna strana kostry byla plošší a víčko přiléhalo k otvoru na širším konci.",
+          "quizHint": "Krátká kostra připomíná střevíček se zúženou špičkou.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Krátká kostra připomíná střevíček se zúženou špičkou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-calceola-morava",
+                "fauna-calceola-barrandien"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Otvor na širokém konci může zakrýt jediné víčko."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-calceola-morava",
+                "fauna-calceola-barrandien"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na povrchu kostry jsou patrné příčné přírůstky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-calceola-barrandien"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Krátká kostra připomíná střevíček se zúženou špičkou. Otvor na širokém konci může zakrýt jediné víčko."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-calceola-morava",
+              "fauna-calceola-barrandien"
+            ]
+          },
+          "sections": [
+            {
+              "id": "morava",
+              "title": "Moře na Hané",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čelechovické vápence uchovaly jedince různého stáří. Díky nim lze sledovat, jak se tvar korálu měnil během jeho života."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-calceola-morava"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kalich",
+              "title": "Obydlí jediného polypa",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V širším konci kostry se otevíral kalich pro měkké tělo jednoho polypa. Jeho tvar dobře ukazují i prázdné fosilní kostry."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-calceola-barrandien",
+                    "fauna-calceola-rugosa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vicko",
+              "title": "Jak zapadalo víčko",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Víčko mělo na jedné straně téměř rovnou hranu. Drobné výstupky a jamky u ní odpovídaly místům na okraji kalicha."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-calceola-barrandien"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Jak se měnil tvar",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mladé kusy z Čelechovic měly jednu stranu téměř rovnou. U dospělých se zakřivovala a u některých starých kusů se ústí opět zužovalo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-calceola-morava"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Mohlo se tělo naklánět?",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podle jedné hypotézy posun hmotnosti při otevření víčka naklopil kalich ke dnu. Takový pohyb mohl pomoci uvolnit korál ze sedimentu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-calceola-morava"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poraneni",
+              "title": "Zahojené poškození",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U jednoho moravského jedince schází část stěny. Nový růst uvnitř kalicha ukazuje, že korál po poranění ještě žil."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-calceola-morava"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.028,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna-calceola-barrandien"
+        ],
+        "note": {
+          "cs": "Délka nejdelšího koralitu v popsaném souboru z Barrandienu."
+        }
+      }
+    },
+    {
+      "id": "esconites-zelus",
+      "scientificName": "Esconites zelus",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Esconites",
+      "taxonomy": [
+        "Annelida",
+        "Polychaeta",
+        "Eunicida"
+      ],
+      "aliases": [
+        "mnohoštětinatec",
+        "štětinatý červ",
+        "červ z Mazon Creek"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/esconites-zelus.webp",
+        "alt": {
+          "cs": "Červenohnědý článkovaný červ se na dně stáčí do mělkého oblouku. Z boků vybíhají drobné výběžky se svazečky světlých štětin."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Obrys těla, čelisti a štětiny známe ze zkamenělin. Zbarvení měkkých tkání je odhad."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, pennsylvan"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-esconites-eton",
+            "fauna-esconites-creek"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Naleziště Mazon Creek v Illinois v USA, mořské společenstvo Essex"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-esconites-eton",
+            "fauna-esconites-esconi"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Obvykle kolem 5 cm. Popsány jsou i delší kusy."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-esconites-eton",
+            "fauna-esconites-esconi"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Čelisti naznačují lov drobných živočichů. Přesný výběr kořisti neznáme."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-esconites-esconi"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Esconites",
+          "ageLabel": "Pozdní karbon, pennsylvan",
+          "location": "Naleziště Mazon Creek v Illinois v USA, mořské společenstvo Essex",
+          "groupLabel": "Kroužkovci · mnohoštětinatci",
+          "cardSummary": "V bahně podél karbonského pobřeží žil článkovaný červ. I jemné štětiny po stranách těla se místy zachovaly ve zkamenělinách.",
+          "summary": "V bahně podél karbonského pobřeží žil článkovaný červ. I jemné štětiny po stranách těla se místy zachovaly ve zkamenělinách. Patřil mezi mořské mnohoštětinatce. Svazky štětin ukazují členění těla a odolné čelisti dávají vodítko k jeho způsobu obživy.",
+          "quizHint": "Protáhlé měkké tělo tvoří řada podobných článků.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlé měkké tělo tvoří řada podobných článků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-esconites-eton",
+                "fauna-esconites-esconi"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na bocích se opakují párové, štětinami opatřené výběžky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-esconites-esconi",
+                "fauna-esconites-creek"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Jemné štětiny vystupují z obrysu jako malé kartáčky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-esconites-esconi",
+                "fauna-esconites-creek"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlé měkké tělo tvoří řada podobných článků. Na bocích se opakují párové, štětinami opatřené výběžky."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-esconites-eton",
+              "fauna-esconites-esconi",
+              "fauna-esconites-creek"
+            ]
+          },
+          "sections": [
+            {
+              "id": "clanky",
+              "title": "Článek za článkem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Po stranách trupu se opakují výběžky se štětinami. U mnohoštětinatců se takové výběžky nazývají parapodia."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-esconites-creek",
+                    "fauna-esconites-esconi"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "celisti",
+              "title": "Co přežilo rozklad",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čelisti patří k dobře rozpoznatelným částem tohoto červa. Mohou vyniknout i tam, kde zbytek těla zanechal jen slabý otisk."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-esconites-esconi"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jidlo",
+              "title": "Stopy po způsobu obživy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čelistní aparát odpovídá dravému životu. Samotný tvar čelistí však neprozradí, které druhy červ napadal."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-esconites-esconi"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delta",
+              "title": "Mořská strana delty",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mazon Creek uchovává různé části karbonské krajiny. Esconites náleží k mořské fauně Essex, která sousedila s pevninskými mokřady."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-esconites-eton",
+                    "fauna-esconites-creek"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "konkrece",
+              "title": "Přírodní pouzdro",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V okolí pohřbených těl vznikaly útvary s uhličitanem železnatým, sideritem. Ty mohly uchovat obrys i tak měkkého živočicha."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-esconites-creek",
+                    "fauna-esconites-eton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sbirka",
+              "title": "Dvě poloviny jednoho nálezu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Eton College uchovává obě poloviny konkrece s jedním exemplářem. Na protilehlých plochách tak lze porovnat detaily téhož těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-esconites-eton"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.05,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna-esconites-eton"
+        ],
+        "note": {
+          "cs": "Obvyklá délka uváděná sbírkou Eton College."
+        }
+      }
+    },
+    {
+      "id": "campanile-giganteum",
+      "scientificName": "Campanile giganteum",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "paleogene",
+      "diet": "herbivore",
+      "group": "Campanile",
+      "taxonomy": [
+        "Mollusca",
+        "Gastropoda",
+        "Caenogastropoda",
+        "Campanilidae"
+      ],
+      "aliases": [
+        "obří mořský plž",
+        "věžovitá ulita",
+        "plž z Pařížské pánve"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/campanile-giganteum.webp",
+        "alt": {
+          "cs": "Dlouhá věžovitá ulita leží téměř vodorovně na písku. Z jejího širokého konce vpravo vyčnívá nízká hlava s krátkými tykadly a širokým rypcem."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Ulita vychází z fosilií. Široký rypec, krátká tykadla a oči u jejich kořenů jsou rekonstruovány podle žijícího druhu Campanile symbolicum."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední eocén, lutet, přibližně před 45 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-campanile-paris",
+            "fauna-campanile-fleury"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pařížská pánev ve Francii, například Fleury-la-Rivière"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-campanile-paris",
+            "fauna-campanile-fleury"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Některé ulity přesáhly délku 60 cm. Kus z Fleury-la-Rivière měří 41,5 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-campanile-paris",
+            "fauna-campanile-fleury"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podle žijícího příbuzného pravděpodobně spásal řasy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-campanile-living"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Campanile",
+          "ageLabel": "Střední eocén, lutet, přibližně před 45 miliony let",
+          "location": "Pařížská pánev ve Francii, například Fleury-la-Rivière",
+          "groupLabel": "Měkkýši · plži",
+          "cardSummary": "Jeho věžovitá ulita mohla být delší než lidské předloktí. Před 45 miliony let se tento plž pohyboval na dně moře v dnešní Francii.",
+          "summary": "Jeho věžovitá ulita mohla být delší než lidské předloktí. Před 45 miliony let se tento plž pohyboval na dně moře v dnešní Francii. Nápadně dlouhou ulitu skládají četné stupňovitě stočené závity. O podobě měkké hlavy poskytuje nejlepší představu mnohem menší žijící příbuzný z Austrálie.",
+          "quizHint": "Ulita se od širokého ústí plynule zužuje do dlouhé špičky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Ulita se od širokého ústí plynule zužuje do dlouhé špičky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-campanile-paris",
+                "fauna-campanile-fleury"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Jednu souvislou spirálu tvoří mnoho nízkých závitů těsně nad sebou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-campanile-fleury"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Poslední závit je nejširší a ústí se otevírá na jeho konci."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-campanile-fleury"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Ulita se od širokého ústí plynule zužuje do dlouhé špičky. Jednu souvislou spirálu tvoří mnoho nízkých závitů těsně nad sebou."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-campanile-paris",
+              "fauna-campanile-fleury"
+            ]
+          },
+          "sections": [
+            {
+              "id": "pariz",
+              "title": "Moře u dnešní Paříže",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Eocenní Pařížskou pánev zalévalo teplé mělké moře. Přežívalo v něm mimořádně mnoho různých plžů a mlžů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-campanile-paris",
+                    "fauna-campanile-fleury"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zavity",
+              "title": "Jak přibývaly závity",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Plž zvětšoval ulitu na jejím širokém ústí. Úzká špička proto zachycuje nejstarší část jeho růstu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-campanile-fleury",
+                    "fauna-campanile-living"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmery",
+              "title": "Ulita přes půl metru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Francouzské národní přírodovědné muzeum uvádí kusy delší než 60 cm. Na nalezišti Fleury-la-Rivière badatelé vyobrazili ulitu dlouhou 41,5 cm."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-campanile-paris",
+                    "fauna-campanile-fleury"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hlava",
+              "title": "Jak byla doplněna hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U dnešního příbuzného z Austrálie sedí drobné oči při bázi tykadel a rypec je krátký a široký. Tyto znaky jsou předlohou pro měkké části rekonstrukce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-campanile-living"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Pastva na dně",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žijící Campanile symbolicum získává rostlinnou potravu pomocí raduly, pásky s řadami zoubků. Podobný způsob pastvy předpokládáme i u eocenního druhu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-campanile-living"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vrstvy",
+              "title": "Místo mezi fosiliemi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve Fleury-la-Rivière obsahují různé vrstvy odlišné soubory ulit. Obří Campanile lze proto studovat společně s dalšími obyvateli stejného moře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-campanile-fleury"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.415,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna-campanile-fleury"
+        ],
+        "note": {
+          "cs": "Délka vyobrazené fosilní ulity z Fleury-la-Rivière."
+        }
+      }
+    },
+    {
+      "id": "clypeaster-altus",
+      "scientificName": "Clypeaster altus",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "neogene",
+      "diet": "other",
+      "group": "Clypeaster",
+      "taxonomy": [
+        "Echinodermata",
+        "Echinoidea",
+        "Clypeasteroida",
+        "Clypeasteridae"
+      ],
+      "aliases": [
+        "miocenní ježovka",
+        "ježovka s pěti lístky",
+        "ježovka ze Středomoří"
+      ],
+      "reviewedAt": "2026-11-26",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/clypeaster-altus.webp",
+        "alt": {
+          "cs": "Vysoká olivově zbarvená ježovka leží na hrubém písku. Na jejím vyklenutém vrcholu se z jednoho středu rozbíhá pět lístkovitých polí."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Schránka dokládá tvar těla a pět paprsčitých polí. Hustota krátkých živých ostnů a jejich barva jsou odhad."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-clypeaster-greece",
+            "fauna-clypeaster-crete"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Středomoří, včetně řecké Kréty"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-clypeaster-crete",
+            "fauna-clypeaster-greece"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Krétský exemplář měří 15,2 cm na délku, 13,5 cm na šířku a 6,4 cm na výšku."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna-clypeaster-crete"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro vyobrazeného jedince nemáme spolehlivý odhad."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně sbírala organické částice z povrchu mořského dna."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna-clypeaster-feeding",
+            "fauna-clypeaster-greece"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Clypeaster",
+          "ageLabel": "Miocén",
+          "location": "Středomoří, včetně řecké Kréty",
+          "groupLabel": "Ostnokožci · ježovky",
+          "cardSummary": "Z vrcholu vysoké schránky této ježovky se rozbíhá pět polí. Řádky pórů v nich kreslí obrysy podobné okvětním lístkům.",
+          "summary": "Z vrcholu vysoké schránky této ježovky se rozbíhá pět polí. Řádky pórů v nich kreslí obrysy podobné okvětním lístkům. Na pohled shora vynikne pětipaprsčitá stavba. Z boku je patrný další důležitý znak druhu, vysoký profil s tlustým okrajem.",
+          "quizHint": "Vrchní strana schránky se vysoko klene nad dnem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vrchní strana schránky se vysoko klene nad dnem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-clypeaster-greece",
+                "fauna-clypeaster-crete"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Pět podlouhlých polí tvoří vzor vymezený řadami pórů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-clypeaster-greece",
+                "fauna-clypeaster-crete"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Při pohledu z boku je dobře patrný tlustý okraj."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna-clypeaster-greece"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vrchní strana schránky se vysoko klene nad dnem. Pět podlouhlých polí tvoří vzor vymezený řadami pórů."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna-clypeaster-greece",
+              "fauna-clypeaster-crete"
+            ]
+          },
+          "sections": [
+            {
+              "id": "petaly",
+              "title": "Pět nápadných polí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lístkovitá pole se odborně nazývají petaloidy. Tvoří je párově uspořádané póry ve vápnitých destičkách schránky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-clypeaster-greece",
+                    "fauna-clypeaster-crete"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "profil",
+              "title": "Proč nestačí pohled shora",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Při určování příbuzných ježovek se porovnává také boční profil. U tohoto druhu vystupuje vršek schránky vysoko nad její silný okraj."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-clypeaster-greece"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmery",
+              "title": "Jak se měří ježovka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U krétského jedince vědci zaznamenali délku, šířku i výšku. Nejdelší rozměr činil 15,2 cm, výška necelých šest a půl centimetru."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-clypeaster-crete"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pisek",
+              "title": "Hrubý pobřežní písek",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podle tvaru schránky a prostředí nálezů badatelé usuzují, že tento druh často žil na povrchu hrubého sedimentu v mělké vodě."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-clypeaster-greece"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Drobky z mořského dna",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U žijících příbuzných sbírají částice panožky na spodní straně těla. Podobně se mohla živit i tato fosilní ježovka."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna-clypeaster-feeding"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kreta",
+              "title": "Více druhů pohromadě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z jedné krétské lokality badatelé popsali pět druhů rodu Clypeaster. Lišily se mimo jiné profilem a tvarem lístkovitých polí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna-clypeaster-crete"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.152,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna-clypeaster-crete"
+        ],
+        "note": {
+          "cs": "Délka jednoho změřeného krétského exempláře."
         }
       }
     }
