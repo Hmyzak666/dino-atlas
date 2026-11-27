@@ -3193,6 +3193,141 @@
       "title": "Telford a kol. · Jak získávají potravu žijící druhy rodu Clypeaster",
       "shortTitle": "Telford a kol. · Jak získávají potravu žijící druhy rodu Clypeaster",
       "url": "https://doi.org/10.2307/1541712"
+    },
+    "fauna11-comb": {
+      "title": "Royal Ontario Museum · Ctenorhabdotus capulus v burgesských břidlicích",
+      "shortTitle": "Royal Ontario Museum · Ctenorhabdotus capulus v burgesských břidlicích",
+      "url": "https://burgess-shale.rom.on.ca/fossils/ctenorhabdotus-capulus/"
+    },
+    "fauna11-worm-body": {
+      "title": "Vinther a kol. · Měkké části obrněných kroužkovců",
+      "shortTitle": "Vinther a kol. · Měkké části obrněných kroužkovců",
+      "url": "https://www.vliz.be/imisdocs/publications/ocrd/279839.pdf"
+    },
+    "fauna11-worm-jaw": {
+      "title": "Parry a kol. · Párové čelisti druhu Plumulites bengtsoni",
+      "shortTitle": "Parry a kol. · Párové čelisti druhu Plumulites bengtsoni",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6661337/"
+    },
+    "fauna11-brittle": {
+      "title": "Univerzita ve Freiburgu · Furcaster a stavba těla hadic",
+      "shortTitle": "Univerzita ve Freiburgu · Furcaster a stavba těla hadic",
+      "url": "https://www.geologie.uni-freiburg.de/root/people/studis/horstmam/pdf/Schublade.pdf"
+    },
+    "fauna11-brittle-fossil": {
+      "title": "James St. John · Zkameněliny hadice Furcaster z Hunsrücku",
+      "shortTitle": "James St. John · Zkameněliny hadice Furcaster z Hunsrücku",
+      "url": "https://www.jsj-geology.net/Furcaster-paleozoicus.htm"
+    },
+    "fauna11-slate": {
+      "title": "Geology Today · Zkameněliny v břidlicích Hunsrücku",
+      "shortTitle": "Geology Today · Zkameněliny v břidlicích Hunsrücku",
+      "url": "https://doi.org/10.1111/gto.12426"
+    },
+    "fauna11-snail": {
+      "title": "Solem a Yochelson · Suchozemští plži severoamerických prvohor",
+      "shortTitle": "Solem a Yochelson · Suchozemští plži severoamerických prvohor",
+      "url": "https://pubs.usgs.gov/pp/1072/report.pdf"
+    },
+    "fauna11-snail-size": {
+      "title": "Naturalis · Měření ulit druhu Dendropupa vetusta",
+      "shortTitle": "Naturalis · Měření ulit druhu Dendropupa vetusta",
+      "url": "https://repository.naturalis.nl/pub/317550/ZV1996305001.pdf"
+    },
+    "fauna11-coral-pakistan": {
+      "title": "Permian Corals of Salt Range · Permské nálezy z Pákistánu",
+      "shortTitle": "Permian Corals of Salt Range · Permské nálezy z Pákistánu",
+      "url": "https://www.academia.edu/125495875/Permian_corals_of_salt_range_A_preliminary_report"
+    },
+    "fauna11-coral-type": {
+      "title": "Kansas Geological Survey · Rod Waagenophyllum a jeho typový druh",
+      "shortTitle": "Kansas Geological Survey · Rod Waagenophyllum a jeho typový druh",
+      "url": "https://www.kgs.ku.edu/Publications/Bulletins/38_3/03_descr.html"
+    },
+    "fauna11-rugosa": {
+      "title": "Paleontological Research Institution · Čtyřčetní koráli",
+      "shortTitle": "Paleontological Research Institution · Čtyřčetní koráli",
+      "url": "https://www.digitalatlasofancientlife.org/learn/cnidaria/anthozoa/rugosa/"
+    },
+    "fauna11-sponge-it": {
+      "title": "Dieci, Antonacci a Zardini · Triasové houbovce z Dolomit",
+      "shortTitle": "Dieci, Antonacci a Zardini · Triasové houbovce z Dolomit",
+      "url": "https://www.paleoitalia.it/wp-content/uploads/2023/03/2_Dieci_Antonacci_Zardini_1970_spugne_cassiane.pdf"
+    },
+    "fauna11-sponge-shape": {
+      "title": "Bavorská akademie věd · Komůrky a póry druhu Colospongia dubia",
+      "shortTitle": "Bavorská akademie věd · Komůrky a póry druhu Colospongia dubia",
+      "url": "https://www.zobodat.at/pdf/Abhandlungen-Akademie-Bayern_NF_131_0001-0096.pdf"
+    },
+    "fauna11-sponge-food": {
+      "title": "Smithsonian · Jak houbovci získávají potravu",
+      "shortTitle": "Smithsonian · Jak houbovci získávají potravu",
+      "url": "https://qrius.si.edu/taxonomy/term/11906"
+    },
+    "fauna11-brach": {
+      "title": "Dieni a Middlemiss · Ramenonožci Pygopinae z Benátských Alp",
+      "shortTitle": "Dieni a Middlemiss · Ramenonožci Pygopinae z Benátských Alp",
+      "url": "https://www.paleoitalia.it/wp-content/uploads/2023/03/2-Dieni-Middlemiss.pdf"
+    },
+    "fauna11-brach-museum": {
+      "title": "Univerzita v Padově · Schránka rodu Pygope",
+      "shortTitle": "Univerzita v Padově · Schránka rodu Pygope",
+      "url": "https://collections.geoscienze.unipd.it/pygope"
+    },
+    "fauna11-brach-food": {
+      "title": "British Geological Survey · Stavba těla a život ramenonožců",
+      "shortTitle": "British Geological Survey · Stavba těla a život ramenonožců",
+      "url": "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/brachiopods/"
+    },
+    "fauna11-ammonite": {
+      "title": "Peterman a kol. · Vztlak a růst schránky druhu Nipponites mirabilis",
+      "shortTitle": "Peterman a kol. · Vztlak a růst schránky druhu Nipponites mirabilis",
+      "url": "https://doi.org/10.1371/journal.pone.0235180"
+    },
+    "fauna11-ammonite-specimen": {
+      "title": "Paleontologická společnost Japonska · Exemplář MCM-K0058 z muzea v Mikase",
+      "shortTitle": "Paleontologická společnost Japonska · Exemplář MCM-K0058 z muzea v Mikase",
+      "url": "https://www.palaeo-soc-japan.jp/3d-ammonoids/data/data03.html?menu=101"
+    },
+    "fauna11-ammonite-size": {
+      "title": "Muzeum Hokkaidó · Katalog a rozměry japonských amonitů",
+      "shortTitle": "Muzeum Hokkaidó · Katalog a rozměry japonských amonitů",
+      "url": "https://www.hm.pref.hokkaido.lg.jp/wp-content/uploads/2023/03/bulletin_HM_vol8_04_p057_077.pdf"
+    },
+    "fauna11-bee": {
+      "title": "Wille a Chandler · Původní popis dělnice z dominikánského jantaru",
+      "shortTitle": "Wille a Chandler · Původní popis dělnice z dominikánského jantaru",
+      "url": "https://tropicalstudies.org/rbt/attachments/volumes/vol12-2/05-Wille-Stingless.pdf"
+    },
+    "fauna11-bee-orchid": {
+      "title": "Ramírez a kol. · Miocenní orchidej a její opylovač",
+      "shortTitle": "Ramírez a kol. · Miocenní orchidej a její opylovač",
+      "url": "https://piercelab.oeb.harvard.edu/sites/g/files/omnuum6481/files/ramirez2007fossilorchidpollinator.pdf"
+    },
+    "fauna11-bee-food": {
+      "title": "Engel a kol. · Biologie a určování bezžihadlých včel",
+      "shortTitle": "Engel a kol. · Biologie a určování bezžihadlých včel",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1313298923003609"
+    },
+    "fauna11-bryo-fossil": {
+      "title": "Bennike a kol. · Raně pleistocenní meziledová doba v Pingorsuitu",
+      "shortTitle": "Bennike a kol. · Raně pleistocenní meziledová doba v Pingorsuitu",
+      "url": "https://doi.org/10.1111/bor.12596"
+    },
+    "fauna11-bryo-modern": {
+      "title": "Freshwater bryozoans of Lithuania · Kolonie a statoblasty žijící mechovky",
+      "shortTitle": "Freshwater bryozoans of Lithuania · Kolonie a statoblasty žijící mechovky",
+      "url": "https://doi.org/10.3897/zookeys.774.21769"
+    },
+    "fauna11-bryo-form": {
+      "title": "Allman · Stavba kolonií sladkovodních mechovek",
+      "shortTitle": "Allman · Stavba kolonií sladkovodních mechovek",
+      "url": "https://www.bryozoa.net/library/1856/1856_allman_monograph_freshwater_polyzoa.pdf"
+    },
+    "fauna11-bryo-cz": {
+      "title": "AOPK ČR · Mechovky a pohyb mechovky hadovité",
+      "shortTitle": "AOPK ČR · Mechovky a pohyb mechovky hadovité",
+      "url": "https://aopk.gov.cz/documents/735810/1029025/bezobratli.pdf/5c1846cb-3d71-e7fc-93ce-8fc1637ff679"
     }
   },
   "dinosaurs": [
@@ -68182,6 +68317,2497 @@
         ],
         "note": {
           "cs": "Délka jednoho změřeného krétského exempláře."
+        }
+      }
+    },
+    {
+      "id": "ctenorhabdotus-capulus",
+      "scientificName": "Ctenorhabdotus capulus",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cambrian",
+      "diet": "unknown",
+      "group": "Ctenorhabdotus",
+      "taxonomy": [
+        "Ctenophora",
+        "Ctenorhabdotidae"
+      ],
+      "aliases": [
+        "kambrická žebernatka",
+        "žebernatka z burgesských břidlic"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/ctenorhabdotus-capulus.webp",
+        "alt": {
+          "cs": "Průsvitná vejčitá žebernatka se vznáší v modré vodě. Na bocích se lesknou řady drobných příčných destiček."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Řady brvitých destiček a malý útvar na horním pólu vycházejí z fosilií. Průsvitnost a odstín těla jsou výtvarnou rekonstrukcí."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední kambrium"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-comb"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Burgesské břidlice v Britské Kolumbii, Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-comb"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Největší známí jedinci měří asi 7 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-comb"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Způsob získávání potravy u tohoto druhu neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna11-comb"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Ctenorhabdotus",
+          "ageLabel": "Střední kambrium",
+          "location": "Burgesské břidlice v Britské Kolumbii, Kanada",
+          "groupLabel": "Žebernatky",
+          "cardSummary": "Po bocích téhle kambrické žebernatky se táhlo 24 řad brvitých destiček. Každá trojice měla dvě dlouhé řady a mezi nimi jednu krátkou.",
+          "summary": "Po bocích téhle kambrické žebernatky se táhlo 24 řad brvitých destiček. Každá trojice měla dvě dlouhé řady a mezi nimi jednu krátkou. Většinu známých jedinců uchovaly burgesské břidlice v Kanadě. V jejich otiscích lze rozeznat oba konce těla i uspořádání řad.",
+          "quizHint": "Vejčité tělo má nahoře i dole mírně zploštělý konec.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Vejčité tělo má nahoře i dole mírně zploštělý konec."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-comb"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po jeho povrchu běží osm trojic řad brvitých destiček."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-comb"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na konci těla proti ústům je malý útvar připomínající pouzdro."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-comb"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Vejčité tělo má nahoře i dole mírně zploštělý konec. Po jeho povrchu běží osm trojic řad brvitých destiček."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-comb"
+            ]
+          },
+          "sections": [
+            {
+              "id": "trojice",
+              "title": "Osm trojic na povrchu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Celkem 24 řad je rozdělených do osmi skupin. Krátká prostřední řada v každé skupině pomáhá tento druh poznat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Jak se žebernatka pohybovala",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Destičky nesly brvy. Jejich uspořádání naznačuje, že se zvíře dokázalo vlastní silou pohybovat ve vodě."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poly",
+              "title": "Dva konce těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ústní okraj je na otiscích zvlněný. Na protilehlém konci se řady sbíhají k malému pouzdru."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rovnovaha",
+              "title": "Co mohlo být v pouzdru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podle podobnosti s žijícími žebernatkami mohl útvar obsahovat smyslový orgán, který pomáhal vnímat polohu těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Co zachování těla neprozradilo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ústa se na známých exemplářích uchovala špatně. Z fosilií také neznáme chapadla, která by ukázala, jak živočich získával potravu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lomy",
+              "title": "Dva lomy v Kanadě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Většina nálezů pochází z Raymondova lomu. V blízkém Walcottově lomu patří tento druh mezi velmi vzácné fosilie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-comb"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.07,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-comb"
+        ],
+        "note": {
+          "cs": "Největší rozměr uváděný Royal Ontario Museum."
+        }
+      }
+    },
+    {
+      "id": "plumulites-bengtsoni",
+      "scientificName": "Plumulites bengtsoni",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "ordovician",
+      "diet": "unknown",
+      "group": "Plumulites",
+      "taxonomy": [
+        "Annelida",
+        "Machaeridia",
+        "Plumulitidae"
+      ],
+      "aliases": [
+        "obrněný kroužkovec",
+        "obrněný mnohoštětinatec",
+        "marocký štětinatec"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/plumulites-bengtsoni.webp",
+        "alt": {
+          "cs": "Zploštělý kroužkovec s překrývajícími se destičkami leze po jemném bahně. Ze stran vyčnívají svazky štětin."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Uspořádání pancíře i postranní štětiny dokládají fosilie. Barvy těla a destiček jsou odhad."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný ordovik, tremadok"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-worm-jaw"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Fezouata u města Zagora v Maroku"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-worm-jaw",
+            "fauna11-worm-body"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Zachovaná část pancíře jedince s čelistmi měří přibližně 5,8 cm. Jeho zadní konec chybí."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-worm-jaw"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Párové čelisti se zachovaly, přesné složení jídelníčku neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna11-worm-jaw"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Plumulites",
+          "ageLabel": "Raný ordovik, tremadok",
+          "location": "Souvrství Fezouata u města Zagora v Maroku",
+          "groupLabel": "Kroužkovci · obrnění mnohoštětinatci",
+          "cardSummary": "Hřbet mu kryly čtyři řady překrývajících se destiček. Pod jejich okraji vyčnívaly měkké výběžky se svazky štětin.",
+          "summary": "Hřbet mu kryly čtyři řady překrývajících se destiček. Pod jejich okraji vyčnívaly měkké výběžky se svazky štětin. Právě štětiny ukázaly, že tento obrněný obyvatel ordovického dna patřil mezi kroužkovce. Další exemplář z Maroka odhalil i pár čelistí.",
+          "quizHint": "Hřbet kryjí dvě vnitřní a dvě vnější řady destiček.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Hřbet kryjí dvě vnitřní a dvě vnější řady destiček."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-worm-body",
+                "fauna11-worm-jaw"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Z měkkých párových výběžků vyrůstají svazky štětin."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-worm-body"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Protáhlé tělo se směrem dozadu zužuje."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-worm-body"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Hřbet kryjí dvě vnitřní a dvě vnější řady destiček. Z měkkých párových výběžků vyrůstají svazky štětin."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-worm-body",
+              "fauna11-worm-jaw"
+            ]
+          },
+          "sections": [
+            {
+              "id": "pancir",
+              "title": "Čtyři řady pancíře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na každé straně hřbetu ležela jedna vnitřní a jedna vnější řada minerálních destiček. Často se zachovají i tam, kde měkké části těla zmizely."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-body",
+                    "fauna11-worm-jaw"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stetiny",
+              "title": "Otisky štětin",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U marocké fosilie se uchoval obrys měkkého trupu. Po jeho stranách jsou vidět párové výběžky a jemné štětiny, které z nich vybíhaly."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-body"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "puvod",
+              "title": "Jak se pozná kroužkovec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dříve badatelé zvažovali i příbuznost s měkkýši. Nález výběžků se štětinami poskytl přímý důkaz, kam tihle obrnění živočichové patří."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-body"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "celisti",
+              "title": "Pár čelistí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U předního konce jiného jedince našli paleontologové dva čelistní prvky. Jejich uspořádání porovnali s čelistmi dnešních mnohoštětinatců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-jaw"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "maroko",
+              "title": "Moře u dnešní Zagory",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Exemplář s čelistmi byl objeven v břidlicích asi dvacet kilometrů severovýchodně od marocké Zagory. Vrstvy pocházejí ze sklonku tremadoku."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-jaw"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "praha",
+              "title": "Marocká fosilie v Praze",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedince se zachovanými čelistmi uchovává Národní muzeum v Praze. Vědci zkoumali obě protilehlé plochy rozštípnuté horniny."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-worm-jaw"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.058,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-worm-jaw"
+        ],
+        "note": {
+          "cs": "Délka zachované části jednoho pancíře. Úplný jedinec byl delší."
+        }
+      }
+    },
+    {
+      "id": "furcaster-palaeozoicus",
+      "scientificName": "Furcaster palaeozoicus",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "devonian",
+      "diet": "unknown",
+      "group": "Furcaster",
+      "taxonomy": [
+        "Echinodermata",
+        "Ophiuroidea",
+        "Furcasteridae"
+      ],
+      "aliases": [
+        "devonská hadice",
+        "hadice z Hunsrücku",
+        "Furcaster paleozoicus"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/furcaster-palaeozoicus.webp",
+        "alt": {
+          "cs": "Z malého středového terče hadice vybíhá pět dlouhých, různě prohnutých ramen. Po stranách článků jsou drobné ostny."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Počet ramen a článkování jejich kostry vycházejí z fosilií. Zbarvení a jednotlivé křivky ramen jsou výtvarnou volbou."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný devon, ems"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brittle-fossil",
+            "fauna11-slate"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Bundenbach v pohoří Hunsrück v západním Německu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brittle",
+            "fauna11-brittle-fossil"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Jeden celý exemplář měří v poloze, ve které se zachoval, 8,5 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brittle-fossil"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podle samotné kostry nelze určit, čím se tento jedinec živil."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Furcaster",
+          "ageLabel": "Raný devon, ems",
+          "location": "Bundenbach v pohoří Hunsrück v západním Německu",
+          "groupLabel": "Ostnokožci · hadice",
+          "cardSummary": "Z malého terče vybíhalo pět dlouhých ramen, která se mohla ohýbat už těsně u těla. Jejich články jsou rozeznatelné i na devonských fosiliích.",
+          "summary": "Z malého terče vybíhalo pět dlouhých ramen, která se mohla ohýbat už těsně u těla. Jejich články jsou rozeznatelné i na devonských fosiliích. Německé břidlice uchovaly celé hadice včetně jemných konců ramen. Poloha, ve které fosilie leží, někdy napoví i směr dávného proudu.",
+          "quizHint": "Od středového terče ostře odstupuje pět ramen.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Od středového terče ostře odstupuje pět ramen."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brittle",
+                "fauna11-brittle-fossil"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ramena jsou štíhlá, článkovaná a ke špičkám se zužují."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brittle",
+                "fauna11-brittle-fossil"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po stranách článků jsou drobné ostny."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brittle",
+                "fauna11-brittle-fossil"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Od středového terče ostře odstupuje pět ramen. Ramena jsou štíhlá, článkovaná a ke špičkám se zužují."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-brittle",
+              "fauna11-brittle-fossil"
+            ]
+          },
+          "sections": [
+            {
+              "id": "terc",
+              "title": "Tělo mezi rameny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Střed těla tvoří plochý terč. Na jeho okraji lze sledovat jednotlivá místa, kde se připojovalo pět úzkých ramen."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brittle",
+                    "fauna11-brittle-fossil"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clanky",
+              "title": "Články pod povrchem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Obrysy vnitřních dílků kostry se opakují po délce každého ramene. Jejich spojení dovolovalo rameni se ohýbat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brittle"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dno",
+              "title": "Devonské mořské dno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krajina kolem dnešního Bundenbachu ležela v raném devonu pod mořem. Jemný sediment tam překryl i křehká těla ostnokožců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brittle-fossil",
+                    "fauna11-slate"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pyrit",
+              "title": "Kostra zvýrazněná pyritem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U některých fosilií z Hunsrücku kopíruje části těla minerál pyrit. Díky němu se na tmavé břidlici někdy rýsují celá článkovaná ramena."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-slate",
+                    "fauna11-brittle-fossil"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "proud",
+              "title": "Pět ramen po proudu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U jednoho úplného exempláře leží všechna ramena ohnutá stejným směrem. Jedním vysvětlením je působení vody těsně před pohřbením."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-brittle-fossil"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poloha",
+              "title": "Co měří délka fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachovaný exemplář dlouhý 8,5 cm má ramena ohnutá. Rozměr fosilie tak závisí i na tom, jak se její ramena před pohřbením poskládala."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brittle-fossil"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.085,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-brittle-fossil"
+        ],
+        "note": {
+          "cs": "Rozměr konkrétní fosilie se zahnutými rameny."
+        }
+      }
+    },
+    {
+      "id": "dendropupa-vetusta",
+      "scientificName": "Dendropupa vetusta",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "carboniferous",
+      "diet": "unknown",
+      "group": "Dendropupa",
+      "taxonomy": [
+        "Mollusca",
+        "Gastropoda"
+      ],
+      "aliases": [
+        "karbonský suchozemský plž",
+        "plž z Joggins",
+        "karbonský šnek"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/dendropupa-vetusta.webp",
+        "alt": {
+          "cs": "Drobný hnědý plž se po vlhké kůře plazí doprava. Na jeho vysoké ulitě jsou patrné závity a jemná žebra."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Ulita vychází z popsaných nálezů. Vysunuté měkké tělo, zbarvení a okamžik na kůře jsou rekonstrukcí."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, pennsylvan"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-snail"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Joggins v kanadském Novém Skotsku"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-snail"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Jedna ulita s osmi závity měřila přibližně 9 mm na výšku a necelé 3 mm na šířku."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-snail-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Z nálezů ulit neznáme přesnou potravu těchto plžů."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Dendropupa",
+          "ageLabel": "Pozdní karbon, pennsylvan",
+          "location": "Joggins v kanadském Novém Skotsku",
+          "groupLabel": "Měkkýši · suchozemští plži",
+          "cardSummary": "V karbonském lese v dnešní Kanadě žil plž s úzkou ulitou. Jeho ulity a jejich úlomky zůstaly v usazeninách uvnitř zkamenělých kmenů.",
+          "summary": "V karbonském lese v dnešní Kanadě žil plž s úzkou ulitou. Jeho ulity a jejich úlomky zůstaly v usazeninách uvnitř zkamenělých kmenů. Na zachovaných závitech lze pod lupou sledovat, jak s růstem přibývala nová část ulity. Jeden téměř centimetrový exemplář měl osm závitů.",
+          "quizHint": "Ulita je výrazně vyšší než široká.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Ulita je výrazně vyšší než široká."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-snail-size"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na sebe nasedá řada poměrně úzkých závitů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-snail",
+                "fauna11-snail-size"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Povrch protínají jemné přírůstkové linie a žebírka."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-snail",
+                "fauna11-snail-size"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Ulita je výrazně vyšší než široká. Na sebe nasedá řada poměrně úzkých závitů."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-snail-size",
+              "fauna11-snail"
+            ]
+          },
+          "sections": [
+            {
+              "id": "les",
+              "title": "Les u Joggins",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na pobřeží kanadského Nového Skotska vystupují vrstvy někdejšího karbonského lesa. V usazeninách uvnitř kmenů se našlo mnoho úlomků těchto ulit."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-snail"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kura",
+              "title": "Proč právě u kmenů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Plži mohli žít mezi vlhkými zbytky rostlin u pat stromů. Hojné nálezy v dutých kmenech tuto možnost podporují."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-snail"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "velikost",
+              "title": "Devět milimetrů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U jedné vypreparované ulity vědci napočítali osm závitů. Měřila asi devět milimetrů na výšku, ale na šířku měla méně než tři."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-snail-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Zápis růstu na povrchu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U vrcholu jsou na ulitě husté jemné linie. Na pozdějších závitech se mění jejich výraznost a objevují se hrubší žebírka."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-snail"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vnitrni",
+              "title": "Pohled dovnitř ulity",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na řezu závity lze rozeznat i lišty ve vnitřní části ulity. Ty by při pohledu zvenčí přes ústí zůstaly skryté."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-snail"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zlomky",
+              "title": "Co zbylo z měkkého těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velkou část studovaného materiálu tvoří jednotlivé úlomky ulit. I z malého úlomku lze pod mikroskopem rozeznat přírůstkové linie a stavbu povrchu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-snail"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.009,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-snail-size"
+        ],
+        "note": {
+          "cs": "Výška jedné popsané ulity s osmi závity."
+        }
+      }
+    },
+    {
+      "id": "waagenophyllum-indicum",
+      "scientificName": "Waagenophyllum indicum",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "permian",
+      "diet": "suspension-feeder",
+      "group": "Waagenophyllum",
+      "taxonomy": [
+        "Cnidaria",
+        "Anthozoa",
+        "Rugosa",
+        "Waagenophyllidae"
+      ],
+      "aliases": [
+        "permský koloniální korál",
+        "čtyřčetný korál z Pákistánu",
+        "korál ze Solného pohoří"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/waagenophyllum-indicum.webp",
+        "alt": {
+          "cs": "Ze společného základu vyrůstá trs trubic. V některých kalíšcích jsou roztažená chapadla, v jiných je vidět paprsčité přepážky."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Tvar tvrdých koralitů a uspořádání přepážek dokládají fosilie. Měkká chapadla a barvu kolonie bylo nutné odhadnout."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Perm"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-coral-pakistan",
+            "fauna11-coral-type"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Solné pohoří a okolí v dnešním Pákistánu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-coral-pakistan"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Kolonie přirůstala s každým novým polypem. Jednotnou velikost dospělé kolonie nelze uvést."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost živé kolonie z těchto nálezů neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Polyp mohl chapadly zachycovat drobnou živočišnou potravu unášenou vodou."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna11-rugosa"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Waagenophyllum",
+          "ageLabel": "Perm",
+          "location": "Solné pohoří a okolí v dnešním Pákistánu",
+          "groupLabel": "Žahavci · čtyřčetní koráli",
+          "cardSummary": "Nad permským mořským dnem rostl trs dlouhých korálových kalíšků. Každý poskytoval místo jednomu polypovi ze společné kolonie.",
+          "summary": "Nad permským mořským dnem rostl trs dlouhých korálových kalíšků. Každý poskytoval místo jednomu polypovi ze společné kolonie. Tvrdý vápnitý základ se mohl zachovat, i když z měkkého těla nezbylo nic. Na řezu lze dodnes rozeznat jemné přepážky uvnitř jednotlivých kalíšků.",
+          "quizHint": "Kolonii tvoří svazek samostatně rozlišitelných koralitů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Kolonii tvoří svazek samostatně rozlišitelných koralitů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-coral-type",
+                "fauna11-coral-pakistan"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Koralit má protáhlý trubicovitý tvar."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-coral-type"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Uvnitř kalíšku směřují přepážky od stěny k ose."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-coral-type",
+                "fauna11-rugosa"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Kolonii tvoří svazek samostatně rozlišitelných koralitů. Koralit má protáhlý trubicovitý tvar."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-coral-type",
+              "fauna11-coral-pakistan"
+            ]
+          },
+          "sections": [
+            {
+              "id": "kolonie",
+              "title": "Jeden kalíšek, jeden polyp",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Každý jedinec vytvářel vlastní díl vápnité kostry zvaný koralit. Společně pak jedinci vytvářeli celou kolonii."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-rugosa",
+                    "fauna11-coral-type"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prepazky",
+              "title": "Co ukáže příčný řez",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Při řezu napříč koralitem se objeví uspořádání radiálních přepážek. Paleontologové podle nich rozlišují jednotlivé skupiny fosilních korálů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-coral-type",
+                    "fauna11-rugosa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Chapadla v proudu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní koráloví polypi zachycují chapadly i drobné živočichy. Podle této příbuznosti se podobný způsob obživy předpokládá také u čtyřčetných korálů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-rugosa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pakistan",
+              "title": "Moře v Solném pohoří",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Koralitům tohoto druhu věnovali badatelé pozornost v permských uloženinách Pákistánu. Vyskytují se mezi fosiliemi někdejšího mořského dna."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-coral-pakistan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "typ",
+              "title": "Druh, který vymezuje rod",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Waagenophyllum indicum je typovým druhem svého rodu. Jeho stavba proto slouží jako základ při posuzování příbuzných korálů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-coral-type"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "konec",
+              "title": "Poslední čtyřčetní koráli",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čtyřčetní koráli přežili značnou část prvohor. Jejich fosilní záznam končí při vymírání na konci permu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-rugosa"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "colospongia-dubia",
+      "scientificName": "Colospongia dubia",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "triassic",
+      "diet": "suspension-feeder",
+      "group": "Colospongia",
+      "taxonomy": [
+        "Porifera",
+        "Colospongiidae"
+      ],
+      "aliases": [
+        "triasový houbovec",
+        "komůrkovitý houbovec",
+        "mořská houba z Dolomit"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/colospongia-dubia.webp",
+        "alt": {
+          "cs": "Na kameni stojí světle hnědý houbovec. Jeho kulaté komůrky se směrem k vrcholu zvětšují a v jejich stěnách jsou vidět póry."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Tvar komůrek a uspořádání otvorů vycházejí z fosilií. Odstín povrchu a světlo na útesu jsou rekonstruované."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní trias, karn"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-sponge-it",
+            "fauna11-sponge-shape"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Dolomity v severní Itálii, vrstvy souvrství San Cassiano"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-sponge-it",
+            "fauna11-sponge-shape"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Průměrná výška tří mírně neúplných exemplářů z Dolomit byla 11 mm, jejich průměrná šířka 9 mm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-sponge-it"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Houbovec pravděpodobně filtroval z protékající vody jemné částice potravy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna11-sponge-food",
+            "fauna11-sponge-shape"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Colospongia",
+          "ageLabel": "Pozdní trias, karn",
+          "location": "Dolomity v severní Itálii, vrstvy souvrství San Cassiano",
+          "groupLabel": "Houbovci · komůrkovití houbovci",
+          "cardSummary": "Tenhle drobný houbovec přirůstal komůrku po komůrce. Nejmenší ležela u báze a největší korunovala vrchol.",
+          "summary": "Tenhle drobný houbovec přirůstal komůrku po komůrce. Nejmenší ležela u báze a největší korunovala vrchol. Na houbovcích z Dolomit lze rozlišit drobné póry i větší boční otvory. Vnitřní stavbu vědci zkoumali na podélných řezech.",
+          "quizHint": "Nad sebou je několik zaoblených komůrek.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Nad sebou je několik zaoblených komůrek."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-sponge-it",
+                "fauna11-sponge-shape"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Komůrky jsou u báze malé a směrem nahoru nabývají na velikosti."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-sponge-shape"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na povrchu komůrek jsou jemné póry i nápadnější boční otvory."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-sponge-it",
+                "fauna11-sponge-shape"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Nad sebou je několik zaoblených komůrek. Komůrky jsou u báze malé a směrem nahoru nabývají na velikosti."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-sponge-it",
+              "fauna11-sponge-shape"
+            ]
+          },
+          "sections": [
+            {
+              "id": "rust",
+              "title": "Nová komůrka nahoře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Menší spodní části vznikly dřív než široký vrchol. Dobře zachovaná řada umožňuje sledovat, jak houbovec přirůstal."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-shape"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "patra",
+              "title": "Kolik komůrek je vidět",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na krátkých kyjovitých tělech badatelé popsali pět až šest postupně se zvětšujících částí. Mezi jednotlivými komůrkami je patrné zaškrcení."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-shape"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pory",
+              "title": "Póry v horní části",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drobné otevřené póry se soustřeďují hlavně u vrcholů jednotlivých komůrek. Ve spodní polovině mohou být na povrchu patrné jen mělké prohlubně."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-it",
+                    "fauna11-sponge-shape"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rez",
+              "title": "Co je uvnitř",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podélný řez ukázal stěny jednotlivých komůrek. U tohoto druhu jimi neprochází jedna nepřerušená středová trubice."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-it",
+                    "fauna11-sponge-shape"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Jak houbovci využívají vodu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U žijících houbovců protéká voda soustavou otvorů a kanálků. Buňky z ní zachycují drobné částice, které houbovec stráví."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dolomity",
+              "title": "Drobný obyvatel moře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V italských Dolomitech se zachovala pestrá skupina triasových houbovců. Na podrobný popis tohoto druhu stačily i exempláře vysoké jen asi centimetr."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-sponge-it"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.011,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-sponge-it"
+        ],
+        "note": {
+          "cs": "Průměrná zachovaná výška tří exemplářů z Dolomit."
+        }
+      }
+    },
+    {
+      "id": "pygope-diphya",
+      "scientificName": "Pygope diphya",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "jurassic",
+      "diet": "suspension-feeder",
+      "group": "Pygope",
+      "taxonomy": [
+        "Brachiopoda",
+        "Rhynchonellata",
+        "Terebratulida",
+        "Pygopidae"
+      ],
+      "aliases": [
+        "jurský ramenonožec",
+        "ramenonožec s otvorem",
+        "děrovaná schránka"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pygope-diphya.webp",
+        "alt": {
+          "cs": "Ve světlé, jemně klenuté schránce prosvítá malým otvorem blízko užšího konce načervenalé mořské dno."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Obrys schránky i poloha otvoru vycházejí z fosilií. Barva a poloha živého jedince na dně jsou rekonstrukcí."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní jura, tithon. Druh je známý i z počátku křídy."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brach"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Benátské Alpy v severní Itálii"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brach"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Typový exemplář měří 4,3 cm na délku a 5,1 cm na šířku."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-brach"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Na řasinkatém aparátu uvnitř schránky zachycoval částice potravy z vody podobně jako žijící ramenonožci."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna11-brach-food"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pygope",
+          "ageLabel": "Pozdní jura, tithon. Druh je známý i z počátku křídy.",
+          "location": "Benátské Alpy v severní Itálii",
+          "groupLabel": "Ramenonožci",
+          "cardSummary": "Skrz obě misky jeho schránky procházel otvor. Ležel blíže k užšímu zadnímu konci a na povrchu jej obklopovaly přírůstkové linie.",
+          "summary": "Skrz obě misky jeho schránky procházel otvor. Ležel blíže k užšímu zadnímu konci a na povrchu jej obklopovaly přírůstkové linie. Velikost a poloha otvoru pomáhají rozlišit tento druh od podobných ramenonožců. V jurských vápencích severní Itálie se zachovaly desítky jejich schránek.",
+          "quizHint": "Otvor prochází oběma miskami blíže k zadnímu konci schránky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Otvor prochází oběma miskami blíže k zadnímu konci schránky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brach"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Širší konec schránky má po stranách zaoblená nároží."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brach"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Obě misky společně tvoří mírně vyklenutou schránku."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-brach",
+                "fauna11-brach-museum"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Otvor prochází oběma miskami blíže k zadnímu konci schránky. Širší konec schránky má po stranách zaoblená nároží."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-brach"
+            ]
+          },
+          "sections": [
+            {
+              "id": "srust",
+              "title": "Jak vznikl otvor",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dva výběžky rostoucí schránky se při vývoji spojily. V místě mezi nimi zůstal průchozí prostor ohraničený materiálem obou misek."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach-museum",
+                    "fauna11-brach"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poloha",
+              "title": "Kde hledat otvor",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Otvor neleží přesně uprostřed. Kanálek navíc prochází šikmo, takže na obou stranách schránky vyúsťuje v trochu jiné vzdálenosti od zadního konce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "misky",
+              "title": "Hřbetní a břišní miska",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ramenonožec má dvě misky, jednu na hřbetní a druhou na břišní straně těla. Osová souměrnost prochází středem každé z nich."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Věnec uvnitř schránky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žijící ramenonožci mají uvnitř schránky chapadlovitý útvar zvaný lofofor. Proud vody k němu přináší drobné částice potravy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "alpy",
+              "title": "Mořské vrstvy v horách",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ze severoitalských Benátských Alp popsali paleontologové více než třicet exemplářů tohoto druhu. Pocházejí z někdejších mořských usazenin."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozpeti",
+              "title": "Přes hranici jury a křídy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pro rekonstrukci je vybrán tithon na konci jury. Známe však i jedince z mladších vrstev uložených na počátku křídy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-brach"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.043,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-brach"
+        ],
+        "note": {
+          "cs": "Délka typové schránky, která byla o něco širší než delší."
+        }
+      }
+    },
+    {
+      "id": "nipponites-mirabilis",
+      "scientificName": "Nipponites mirabilis",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Nipponites",
+      "taxonomy": [
+        "Mollusca",
+        "Cephalopoda",
+        "Ammonoidea",
+        "Nostoceratidae"
+      ],
+      "aliases": [
+        "japonský amonit",
+        "amonit s nepravidelnou schránkou",
+        "heteromorfní amonit"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/nipponites-mirabilis.webp",
+        "alt": {
+          "cs": "Amonit se vznáší v modré vodě. Jediná žebrovaná schránka se skládá do těsných oblouků. Z otevřeného ústí vlevo vyčnívá hlava s rameny."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Vinutí vychází z japonských fosilií. Podoba ramen, oka a zbarvení živého hlavonožce je výtvarnou rekonstrukcí."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, turon"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-ammonite-specimen",
+            "fauna11-ammonite"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Ostrov Hokkaidó v Japonsku, včetně oblasti Júbari"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-ammonite-specimen",
+            "fauna11-ammonite-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Muzeum Hokkaidó uvádí u exempláře z Júbari rozměry 9 × 7,7 × 5,5 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-ammonite-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Mohl ve vodním sloupci lovit malé živočichy včetně planktonu. Tuto možnost podporuje model jeho pohybu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna11-ammonite"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Nipponites",
+          "ageLabel": "Pozdní křída, turon",
+          "location": "Ostrov Hokkaidó v Japonsku, včetně oblasti Júbari",
+          "groupLabel": "Měkkýši · amoniti",
+          "cardSummary": "Jeho schránka vypadá jako spletenec, přesto vyrostla jako jediná souvislá trubice. Po začáteční spirále následovaly ohyby střídavě na obě strany.",
+          "summary": "Jeho schránka vypadá jako spletenec, přesto vyrostla jako jediná souvislá trubice. Po začáteční spirále následovaly ohyby střídavě na obě strany. Způsob růstu zachytily trojrozměrné modely japonských fosilií. Podle výpočtů se živý amonit mohl ve vodě vznášet a při pohybu se snadno otáčet.",
+          "quizHint": "Závity tvoří hustý trojrozměrný útvar kolem první spirály uprostřed.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Závity tvoří hustý trojrozměrný útvar kolem první spirály uprostřed."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-ammonite",
+                "fauna11-ammonite-specimen"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po počáteční spirále následují střídavé oblouky ve tvaru písmene U."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-ammonite"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Povrch souvislé schránky protínají jemná příčná žebra."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-ammonite",
+                "fauna11-ammonite-specimen"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Závity tvoří hustý trojrozměrný útvar kolem první spirály uprostřed. Po počáteční spirále následují střídavé oblouky ve tvaru písmene U."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-ammonite",
+              "fauna11-ammonite-specimen"
+            ]
+          },
+          "sections": [
+            {
+              "id": "spirala",
+              "title": "Začátek ve spirále",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mladý jedinec se schránkou ve tvaru otevřené spirály vypadal jinak než dospělec. Starší, dříve vytvořená část schránky zůstala zachovaná uvnitř pozdějších ohybů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-ammonite"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ohyby",
+              "title": "Jeden závit za druhým",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Po spirálovitém začátku přibývaly střídavé ohyby. Pořadí růstu lze sledovat po stále stejné trubici až k ústí, v němž žil hlavonožec."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-ammonite"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hokkaido",
+              "title": "Japonská fosilie ve třech rozměrech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V městském muzeu v Mikase uchovávají málo deformovaný exemplář z oblasti Júbari. Jeho prostorový model ukazuje i ohyby schované při pohledu z jedné strany."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-ammonite-specimen"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zebra",
+              "title": "Záznam polohy ústí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Příčná žebra sledují někdejší polohy okraje ústí. Jejich sklon vědci využili při modelování toho, jak byl živý amonit ve vodě natočený."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-ammonite"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vztlak",
+              "title": "Vznášení ve vodě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Digitální model ukazuje, že stavba schránky dovolovala neutrální vztlak. Ústí s hlavou mohlo při různých fázích růstu směřovat vodorovně nebo šikmo vzhůru."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-ammonite"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Pohyb za drobnou kořistí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U dospělých jedinců mohlo vypuzení vody snadno vyvolat otočení. Badatelé proto uvažují o pomalém lovci menších živočichů ve vodním sloupci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-ammonite"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.09,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-ammonite-size"
+        ],
+        "note": {
+          "cs": "Největší katalogový rozměr exempláře 113389 z Júbari."
+        }
+      }
+    },
+    {
+      "id": "proplebeia-dominicana",
+      "scientificName": "Proplebeia dominicana",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "neogene",
+      "diet": "herbivore",
+      "group": "Proplebeia",
+      "taxonomy": [
+        "Arthropoda",
+        "Insecta",
+        "Hymenoptera",
+        "Apidae",
+        "Meliponini"
+      ],
+      "aliases": [
+        "bezžihadlá včela",
+        "včela z dominikánského jantaru",
+        "miocenní opylovač"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/proplebeia-dominicana.webp",
+        "alt": {
+          "cs": "Drobná hnědá včela natočená doprava se dotýká kůry u kapky pryskyřice. Průsvitná křídla leží nad zadečkem."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Tvar hlavy, nohou a křídel lze porovnat s dělnicemi v jantaru. Živá včela u kapky pryskyřice je rekonstruovaná scéna."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Miocén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bee-orchid"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Dominikánská republika na ostrově Hispaniola"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bee",
+            "fauna11-bee-orchid"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dělnice z původního popisu měří 2,95 mm na délku. Její přední křídlo je dlouhé 2,60 mm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bee"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro tohoto jedince nemáme spolehlivý údaj o hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobnou potravou byly pyl a nektar. U jedné dělnice se přímo zachoval doklad o návštěvě orchideje."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna11-bee-orchid",
+            "fauna11-bee-food"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Proplebeia",
+          "ageLabel": "Miocén",
+          "location": "Dominikánská republika na ostrově Hispaniola",
+          "groupLabel": "Členovci · bezžihadlé včely",
+          "cardSummary": "Jedné dělnici utkvěl na hřbetě hrudi pyl orchideje. Když včelu zalila pryskyřice, uchovala společně s ní i stopu návštěvy květu.",
+          "summary": "Jedné dělnici utkvěl na hřbetě hrudi pyl orchideje. Když včelu zalila pryskyřice, uchovala společně s ní i stopu návštěvy květu. Byla to drobná příbuzná dnešních bezžihadlých včel. Dělnice, podle níž vědci druh původně popsali, měřila necelé tři milimetry.",
+          "quizHint": "Tělo drobné včely má dvě zalomená tykadla.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Tělo drobné včely má dvě zalomená tykadla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bee"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Křídla jsou průsvitná a přední pár je větší než zadní."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bee",
+                "fauna11-bee-food"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Zadní holeně jsou rozšířené a uzpůsobené k přenášení nasbíraného materiálu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bee",
+                "fauna11-bee-food"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Tělo drobné včely má dvě zalomená tykadla. Křídla jsou průsvitná a přední pár je větší než zadní."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-bee",
+              "fauna11-bee-food"
+            ]
+          },
+          "sections": [
+            {
+              "id": "jantar",
+              "title": "Zastavená v pryskyřici",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dělnice tohoto druhu známe z jantaru z Dominikánské republiky. Průhledný materiál uchoval jemné části jejich těla včetně očí, křídel a nohou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bee",
+                    "fauna11-bee-orchid"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kridlo",
+              "title": "Křídlo dlouhé 2,6 milimetru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U dělnice z původního popisu badatelé změřili tělo i přední křídlo. Křídlo dlouhé 2,60 mm bylo jen o něco kratší než celé tělo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bee"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pyl",
+              "title": "Pyl na hřbetě hrudi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna miocenní dělnice nesla na hrudi pylový útvar orchideje Meliorchis caribea. Na hřbetě její hrudi se dokonce zachovalo místo, kam se pyl při návštěvě květu přichytil."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bee-orchid"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "opylovani",
+              "title": "Jak se pyl dostal na včelu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podle místa, kde pylový útvar ulpěl, vědci rekonstruovali postavení včely v květu. Nález tak napovídá i něco o tvaru dávné orchideje."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna11-bee-orchid"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nohy",
+              "title": "Co unese zadní noha",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozšířené části zadních nohou dělnic bezžihadlých včel tvoří pylové košíčky. Žijící příbuzné v nich přenášejí nasbíraný materiál zpět do hnízda."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bee-food",
+                    "fauna11-bee"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "velikost",
+              "title": "Život v malém měřítku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "I na hlavě této nepatrné včely lze rozlišit složené oči a jednotlivé části tykadla. Tyto znaky využili autoři původního popisu při porovnání s příbuznými včelami."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bee"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.00295,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-bee"
+        ],
+        "note": {
+          "cs": "Délka těla dělnice z původního popisu."
+        }
+      }
+    },
+    {
+      "id": "cristatella-mucedo",
+      "scientificName": "Cristatella mucedo",
+      "taxonRank": "species",
+      "category": "other-invertebrate",
+      "period": "quaternary",
+      "diet": "suspension-feeder",
+      "group": "Cristatella",
+      "taxonomy": [
+        "Bryozoa",
+        "Phylactolaemata",
+        "Plumatellida",
+        "Cristatellidae"
+      ],
+      "aliases": [
+        "Cristatella",
+        "sladkovodní mechovka",
+        "putující kolonie"
+      ],
+      "reviewedAt": "2026-11-27",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/cristatella-mucedo.webp",
+        "alt": {
+          "cs": "Světlá podlouhlá kolonie leží na ponořené větvičce. Po jejím obvodu jsou vidět jednotlivé vějířky jemných průsvitných chapadélek."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Podoba kolonie vychází ze žijícího druhu. V grónských usazeninách se zachovala jeho odolná rozmnožovací tělíska."
+        },
+        "sourceIds": []
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný pleistocén. Druh žije i dnes."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bryo-fossil",
+            "fauna11-bryo-modern"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pingorsuit v severozápadním Grónsku, dnes také sladké vody Evropy"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bryo-fossil",
+            "fauna11-bryo-modern"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "U žijících litevských populací byly popsány kolonie dlouhé 5 až 10 cm. Délku grónské fosilní kolonie neznáme."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bryo-modern",
+            "fauna11-bryo-fossil"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost grónské kolonie z nalezených rozmnožovacích tělísek nelze určit."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna11-bryo-fossil"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Kolonie zachycuje z vody jemné částice potravy pomocí jednotlivých věnců chapadélek."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna11-bryo-form",
+            "fauna11-bryo-modern"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Mechovka hadovitá",
+          "ageLabel": "Raný pleistocén. Druh žije i dnes.",
+          "location": "Pingorsuit v severozápadním Grónsku, dnes také sladké vody Evropy",
+          "groupLabel": "Mechovky · sladkovodní mechovky",
+          "cardSummary": "Po ponořené větvičce se může pomalu posouvat celá kolonie. Na jejích okrajích zachycují jednotliví živočichové potravu věnci jemných chapadélek.",
+          "summary": "Po ponořené větvičce se může pomalu posouvat celá kolonie. Na jejích okrajích zachycují jednotliví živočichové potravu věnci jemných chapadélek. Z raného pleistocénu se v Grónsku zachovaly odolné statoblasty této mechovky. Druh žije dodnes, takže podobu celé kolonie můžeme porovnat s živými živočichy.",
+          "quizHint": "Měkká podlouhlá kolonie má zaoblené konce.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Měkká podlouhlá kolonie má zaoblené konce."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bryo-form",
+                "fauna11-bryo-modern"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Podél jejího obvodu se opakuje mnoho drobných věnců chapadélek."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bryo-form"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Širokou spodní stranou přiléhá k ponořenému povrchu a může se po něm posouvat."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna11-bryo-cz",
+                "fauna11-bryo-form"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Měkká podlouhlá kolonie má zaoblené konce. Podél jejího obvodu se opakuje mnoho drobných věnců chapadélek."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna11-bryo-form",
+              "fauna11-bryo-modern"
+            ]
+          },
+          "sections": [
+            {
+              "id": "kolonie",
+              "title": "Mnoho jedinců na jedné větvičce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Každý věneček náleží drobnému jedinci zvanému zooid. Živočichové sdílejí měkké tělo kolonie, které zůstává v kontaktu s podkladem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-form"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chapadelka",
+              "title": "Potrava na okrajích",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jednotlivé podkovovité věnce nesou množství jemných chapadélek. Pohyb jejich brv přivádí částečky potravy k ústům zooida."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-form"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pohyb",
+              "title": "Kolonie se může posouvat",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mechovka hadovitá se dokáže pomalu plazit po ponořeném povrchu. Pohybuje se tak celá kolonie pohromadě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-cz",
+                    "fauna11-bryo-form"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "statoblasty",
+              "title": "Tělíska, která přetrvají",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mechovka vytváří odolná rozmnožovací tělíska zvaná statoblasty. Jejich tvar a výběžky slouží jako vodítko při určování druhu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-modern",
+                    "fauna11-bryo-fossil"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "gronsko",
+              "title": "Sladká voda na severu Grónska",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Statoblasty z Pingorsuitu dokládají výskyt druhu v raném pleistocénu. Zdejší nálezy pocházejí z meziledové doby, kdy krajina hostila sladkovodní živočichy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-fossil"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dnes",
+              "title": "Stejný druh v dnešních jezerech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V Litvě byly zaznamenány jak živé kolonie, tak jejich statoblasty. Právě pozorování dnešních kolonií pomáhá doplnit to, co se z měkkého těla zpravidla nezachová."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna11-bryo-modern",
+                    "fauna11-bryo-fossil"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.1,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna11-bryo-modern"
+        ],
+        "note": {
+          "cs": "Horní hranice délky kolonií popsaných z Litvy, použitá pro srovnání s žijícím druhem."
         }
       }
     }

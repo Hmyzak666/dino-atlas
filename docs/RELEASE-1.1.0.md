@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**27. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **246 zvířat a 246 ilustrací** pro verzi 1.1.0 (1010010). K předchozím 236 zvířatům přibyl jeden dinosaurus z každého druhohorního období a sedm bezobratlých. Každý z těchto bezobratlých zastupuje kmen, který v daném období atlasu dosud chyběl.
+**27. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **256 zvířat a 256 ilustrací** pro verzi 1.1.0 (1010011). Přibylo deset bezobratlých z devíti kmenů. V každém z deseti vybraných období má příslušný kmen v atlasu poprvé svého zástupce.
 
 ## Nový obsah
 
@@ -19,8 +19,11 @@
 | 9c | Ottoia, Didymograptus, Favosites, Mucrospirifer, Archimedes, Ceratites, Clypeus, Ventriculites, Eophyllium, Paradoryphoribius | 226 |
 | 9d | Meganeuropsis, Horridonia, Deltoblastus, Eurydesma, Acanthocladia, zrnovka sprašová, Copris pristinus, větevník dlanitý, Ditrupa, Panagrolaimus | 236 |
 | 10 | Thecodontosaurus, Huayangosaurus, Sinosauropteryx, Vauxia, Constellaria, Pentamerus, Calceola, Esconites, Campanile, Clypeaster | 246 |
+| 11 | Ctenorhabdotus, Plumulites, Furcaster, Dendropupa, Waagenophyllum, Colospongia, Pygope, Nipponites, Proplebeia, mechovka hadovitá | 256 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
+
+V dávce 11 má amonit *Nipponites mirabilis* vybranou druhou ilustraci s těsněji vinutou schránkou. U mechovky hadovité karta rozlišuje nález z pleistocénu a pozorování dnešních kolonií. [Vybrané ilustrace a jejich kontrolní součty](fauna-batch11.json).
 
 V dávce 10 je pro druh *Campanile giganteum* vybrána druhá ilustrace s upraveným rypcem a tykadly podle žijícího příbuzného. [Původ a kontrolní součty deseti ilustrací](fauna-batch10.json).
 
@@ -36,6 +39,10 @@ V dávce 9 pochází třicet obrázků z vybraných sad WebP a prvních deset z 
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010011
+
+Obsahové a mobilní testy prošly. U všech deseti nových druhů se v Chromiu po výběru skupiny, období, potravy a vědeckého názvu otevřela správná karta a načetl se obrázek 1536 × 1024. U druhu *Plumulites bengtsoni* zobrazuje atlas vybranou ilustraci hlavou doprava podle pravidla pro nejistou potravu. Kontrola zdrojů pro Android našla 256 karet a 256 obrázků.
 
 ## Kontroly zdrojů 1010010
 

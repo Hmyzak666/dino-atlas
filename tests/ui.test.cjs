@@ -72,13 +72,16 @@ async function openAnimal(page,id) {
       }
       if (width === 360) {
         const batch = require('../docs/dinosaur-batch08.json');
-        const newFauna = require('../docs/fauna-batch10.json');
-        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...newFauna.images]) {
+        const previousFauna = require('../docs/fauna-batch10.json');
+        const invertebrates = require('../docs/fauna-batch11.json');
+        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...previousFauna.images, ...invertebrates.images]) {
+          // The approved Plumulites image faces left. The atlas shows animals with an unknown diet facing right.
+          const transform = id === 'plumulites-bengtsoni' ? 'matrix(-1, 0, 0, 1, 0, 0)' : 'none';
           const card = page.locator('#card-' + id);
           const thumbnail = page.locator('#gallery img[src="images/' + id + '.webp"]');
           await card.scrollIntoViewIfNeeded();
           await thumbnail.evaluate(image => image.decode());
-          assert.equal(await thumbnail.evaluate(image => getComputedStyle(image).transform), 'none', id + ' gallery orientation');
+          assert.equal(await thumbnail.evaluate(image => getComputedStyle(image).transform), transform, id + ' gallery orientation');
           await card.click();
           const detail = page.locator('.detail-image img[src="images/' + id + '.webp"]');
           await detail.waitFor({state: 'visible'});
@@ -86,7 +89,7 @@ async function openAnimal(page,id) {
             await image.decode();
             return [image.naturalWidth, image.naturalHeight, getComputedStyle(image).transform];
           });
-          assert.deepEqual(info, [1536, 1024, 'none'], id + ' detail');
+          assert.deepEqual(info, [1536, 1024, transform], id + ' detail');
           await page.getByRole('link', {name:'← Zpět do atlasu', exact:true}).click();
           await page.locator('#atlas-view').waitFor({state:'visible'});
         }
