@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**27. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **256 zvířat a 256 ilustrací** pro verzi 1.1.0 (1010011). Přibylo deset bezobratlých z devíti kmenů. V každém z deseti vybraných období má příslušný kmen v atlasu poprvé svého zástupce.
+**28. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **266 zvířat a 266 ilustrací** pro verzi 1.1.0 (1010012). Deset nových druhů doplňuje deset dosud prázdných kombinací období a skupiny. V další kombinaci Jura → Ptáci se zobrazuje stávající karta archeopteryxe.
 
 ## Nový obsah
 
@@ -20,8 +20,11 @@
 | 9d | Meganeuropsis, Horridonia, Deltoblastus, Eurydesma, Acanthocladia, zrnovka sprašová, Copris pristinus, větevník dlanitý, Ditrupa, Panagrolaimus | 236 |
 | 10 | Thecodontosaurus, Huayangosaurus, Sinosauropteryx, Vauxia, Constellaria, Pentamerus, Calceola, Esconites, Campanile, Clypeaster | 246 |
 | 11 | Ctenorhabdotus, Plumulites, Furcaster, Dendropupa, Waagenophyllum, Colospongia, Pygope, Nipponites, Proplebeia, mechovka hadovitá | 256 |
+| 12 | Haikouichthys, Archaeothyris, Lystrosaurus, Proganochelys, Rugosodon, Beelzebufo, Simosuchus, Knightia, Purussaurus, štika z Nogaisku | 266 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
+
+V dávce 12 přibyly ryby pro kambrium, paleogén a čtvrtohory, synapsidi pro karbon a trias, další plazi pro trias, křídu a neogén, savec pro juru a obojživelník pro křídu. U štiky z Nogaisku karta uvádí, které části vycházejí z nalezených kostí a které z žijících příbuzných. [Ilustrace dvanácté dávky](fauna-batch12.json).
 
 V dávce 11 má amonit *Nipponites mirabilis* vybranou druhou ilustraci s těsněji vinutou schránkou. U mechovky hadovité karta rozlišuje nález z pleistocénu a pozorování dnešních kolonií. [Vybrané ilustrace a jejich kontrolní součty](fauna-batch11.json).
 
@@ -32,13 +35,17 @@ V dávce 9 pochází třicet obrázků z vybraných sad WebP a prvních deset z 
 ## Filtry a srovnání
 
 - V nabídce potravy lze vybrat filtrátory. Další způsoby výživy, například požírání bakterií nebo trusu, spadají pod „Jiná potrava“.
-- Skupiny Savci a Ptáci.
+- Skupiny Savci a Ptáci. Archeopteryx se zobrazuje mezi jurskými ptáky i dinosaury pod jednou kartou se společným stavem oblíbených.
 - Tradiční filtr Třetihory, členěný na paleogén a neogén.
 - Filtr Čtvrtohory s Megatheriem a dvaceti dalšími zvířaty; osm nových savců, moa a Megalania v páté dávce.
 - Informační texty nových skupin a období dostupné offline.
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010012
+
+V mobilním Chromiu se všech deset nových karet otevřelo přes odpovídající období, skupinu, potravu a vědecké jméno. V detailu se načetly jejich ilustrace 1536 × 1024. Archeopteryx se zobrazil mezi jurskými ptáky i dinosaury a obě zobrazení sdílela označení oblíbené karty. Testy atlasu, kvízu a kontroly zdrojů pro Android prošly se všemi 266 zvířaty a obrázky.
 
 ## Kontroly zdrojů 1010011
 

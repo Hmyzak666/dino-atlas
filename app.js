@@ -31,13 +31,22 @@
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
   const compactName = value => normalize(value).replace(/ /g, '');
   const categoryOf = animal => animal.category || 'dinosaur';
+  function matchesCategory(animal, category) {
+    return !category || category === 'all' || categoryOf(animal) === category
+      || (category === 'bird' && animal.taxonomy?.includes('Avialae'));
+  }
+  function categoryLabel(animal) {
+    if (categoryOf(animal) === 'dinosaur' && matchesCategory(animal, 'bird')) return 'Dinosaurus · raný pták';
+    if (categoryOf(animal) === 'early-tetrapod' && animal.taxonomy?.includes('Amphibia')) return 'Obojživelník';
+    return CATEGORY_LABELS[categoryOf(animal)];
+  }
   function atlasImageClass(animal) {
     const facing = animal.image.facing || 'right';
     if (facing === 'none') return '';
     const direction = animal.diet === 'carnivore' ? 'left' : 'right';
     return facing === direction ? '' : 'image-flipped';
   }
-  const categoryAnimals = (animals, category = 'all') => animals.filter(animal => category === 'all' || categoryOf(animal) === category);
+  const categoryAnimals = (animals, category = 'all') => animals.filter(animal => matchesCategory(animal, category));
   const numberLabel = value => new Intl.NumberFormat('cs-CZ', { maximumFractionDigits: 2 }).format(value);
 
   function comparisonData(animal, humanHeight = 1.8) {
@@ -57,7 +66,7 @@
     return sortAnimals(dinosaurs.filter(dino => {
       const words = [dino.scientificName, copy(dino).displayName, ...(dino.aliases || [])].map(normalize);
       const matchesName = !query || words.some(word => word.includes(query) || compactName(word).includes(compactName(query)));
-      return matchesName && (!state.category || state.category === 'all' || categoryOf(dino) === state.category)
+      return matchesName && matchesCategory(dino, state.category)
         && periodInEra(dino.period, state.era)
         && (state.period === 'all' || dino.period === state.period)
         && (state.diet === 'all' || dino.diet === state.diet)
@@ -557,7 +566,7 @@
       return `<article class="dino-card">
           <div class="card-picture"><img class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024" ${index > 1 ? 'loading="lazy"' : ''} decoding="async"></div>
           <div class="card-body"><div class="card-title-row"><h3><a class="card-link" id="card-${dino.id}" href="#dinosaurus/${dino.id}">${escapeHtml(text.displayName)}</a></h3>${favoriteButton(dino, 'card-favorite')}</div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p>
-          <div class="card-meta"><span class="period-tag">${PERIODS[dino.period]}</span><span class="animal-kind">${CATEGORY_LABELS[categoryOf(dino)]}</span><span>${escapeHtml(text.ageLabel)}</span></div>
+          <div class="card-meta"><span class="period-tag">${PERIODS[dino.period]}</span><span class="animal-kind">${categoryLabel(dino)}</span><span>${escapeHtml(text.ageLabel)}</span></div>
           <p class="card-location">${escapeHtml(text.location)}</p><p class="card-summary">${escapeHtml(text.cardSummary)}</p><span class="card-open">Prozkoumat →</span></div>
       </article>`;
     }).join('');
@@ -603,7 +612,7 @@
       : { ...state, ...(currentRoute === '#kviz' ? quizFilters : {}), query: '', diet: 'all', favoritesOnly: false };
     let selected = filteredDinosaurs(dinosaurs, detailFilter);
     if (!selected.some(item => item.id === dino.id)) {
-      detailFilter = { ...detailFilter, category: state.category === 'all' ? 'all' : categoryOf(dino), period: 'all', diet: 'all', favoritesOnly: false };
+      detailFilter = { ...detailFilter, category: matchesCategory(dino, detailFilter.category) ? detailFilter.category : categoryOf(dino), period: 'all', diet: 'all', favoritesOnly: false };
       selected = filteredDinosaurs(dinosaurs, detailFilter);
     }
     detailIds = selected.map(item => item.id);
@@ -710,7 +719,7 @@
     const facts = dino.facts.map(fact => `<div class="fact"><dt>${escapeHtml(localized(fact.label))}</dt><dd>${escapeHtml(localized(fact.value))}${fact.note ? `<small>${escapeHtml(localized(fact.note))}</small>` : ''}${confidenceBadge(fact.confidence)}</dd></div>`).join('');
     const sections = text.sections.map(section => `<details class="detail-section"><summary>${escapeHtml(section.title)}</summary><div class="section-text">${readControls(section.id, 'Přečíst tuto část')}${section.claims.map(claim => `<div class="claim">${confidenceBadge(claim.confidence)}<p>${escapeHtml(localized(claim.text))}</p></div>`).join('')}</div></details>`).join('');
     $('detail-view').innerHTML = `<a class="back-link" href="#atlas">← Zpět do atlasu</a>
-      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${CATEGORY_LABELS[categoryOf(dino)]} · ${escapeHtml(text.groupLabel)}</span><div class="detail-name read-controls" data-read-controls="name"><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><button class="button read-button name-read-button" type="button" data-read="name" aria-pressed="false" aria-label="Přečíst jméno zvířete" title="Přečíst jméno"><span aria-hidden="true">🔊</span></button><button class="button read-stop name-read-button" type="button" data-stop-read hidden aria-label="Zastavit čtení jména"><span aria-hidden="true">■</span></button><p class="read-status" data-read-status="name" role="status" aria-live="polite"></p></div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
+      <div class="detail-title-row" id="detail-heading"><div><span class="eyebrow">${categoryLabel(dino)} · ${escapeHtml(text.groupLabel)}</span><div class="detail-name read-controls" data-read-controls="name"><h1 id="detail-title" tabindex="-1">${escapeHtml(text.displayName)}</h1><button class="button read-button name-read-button" type="button" data-read="name" aria-pressed="false" aria-label="Přečíst jméno zvířete" title="Přečíst jméno"><span aria-hidden="true">🔊</span></button><button class="button read-stop name-read-button" type="button" data-stop-read hidden aria-label="Zastavit čtení jména"><span aria-hidden="true">■</span></button><p class="read-status" data-read-status="name" role="status" aria-live="polite"></p></div><p class="scientific-name">${escapeHtml(dino.scientificName)}</p><p class="detail-age"><span class="period-tag">${PERIODS[dino.period]}</span>${escapeHtml(text.ageLabel)}</p></div>${favoriteButton(dino, 'detail-favorite')}</div>
       ${detailNavigation(dino)}
       <figure class="detail-figure"><div class="detail-image"><img data-image-viewer class="${atlasImageClass(dino)}" src="${escapeHtml(dino.image.src)}" alt="${escapeHtml(localized(dino.image.alt))}" width="1536" height="1024">${imageZoomButton()}</div><figcaption>${escapeHtml(localized(dino.image.note))}</figcaption></figure>
       <p class="lead">${escapeHtml(text.summary)}</p>
@@ -723,11 +732,11 @@
   }
 
   function syncQuizFilters() {
-    $('quiz-filters').innerHTML = `<div class="category-filters" role="group" aria-label="Kategorie kvízu">${Object.entries(CATEGORIES).filter(([id]) => id === 'all' || dinosaurs.some(animal => categoryOf(animal) === id)).map(([id, label]) => `<button type="button" data-quiz-category="${id}" aria-pressed="${quizFilters.category === id}">${label}</button>`).join('')}</div>${periodButtons('quiz', quizFilters.period, quizFilters.era)}`;
+    $('quiz-filters').innerHTML = `<div class="category-filters" role="group" aria-label="Kategorie kvízu">${Object.entries(CATEGORIES).filter(([id]) => id === 'all' || dinosaurs.some(animal => matchesCategory(animal, id))).map(([id, label]) => `<button type="button" data-quiz-category="${id}" aria-pressed="${quizFilters.category === id}">${label}</button>`).join('')}</div>${periodButtons('quiz', quizFilters.period, quizFilters.era)}`;
     $('quiz-category').textContent = `Kvíz · ${CATEGORIES[quizFilters.category]} · ${PERIODS[quizFilters.period] || ERAS[quizFilters.era] || 'Všechna období'}`;
   }
   function beginQuiz() {
-    const questions = makeQuiz(dinosaurs.filter(animal => (quizFilters.category === 'all' || categoryOf(animal) === quizFilters.category) && periodInEra(animal.period, quizFilters.era) && (quizFilters.period === 'all' || animal.period === quizFilters.period)));
+    const questions = makeQuiz(dinosaurs.filter(animal => matchesCategory(animal, quizFilters.category) && periodInEra(animal.period, quizFilters.era) && (quizFilters.period === 'all' || animal.period === quizFilters.period)));
     syncQuizFilters();
     quiz = { questions, index: 0, firstTry: 0, answered: false, attempts: 0, hintRevealed: false, tried: new Set() };
     renderQuiz();
@@ -1128,7 +1137,7 @@
       syncQuizFilters();
       byId = new Map(dinosaurs.map(dino => [dino.id, dino]));
       $('category-filters').innerHTML = Object.entries(CATEGORIES)
-        .filter(([id]) => id === 'all' || dinosaurs.some(animal => categoryOf(animal) === id))
+        .filter(([id]) => id === 'all' || dinosaurs.some(animal => matchesCategory(animal, id)))
         .map(([id,label]) => `<button type="button" data-category="${id}" aria-pressed="${state.category === id}">${escapeHtml(label)}</button>`).join('');
       let saved = [];
       try { saved = JSON.parse(readStorage('dinoatlas-favorites', '[]')); } catch (_) {}

@@ -1,0 +1,76 @@
+{
+  "previousCount": 256,
+  "countAfter": 266,
+  "images": [
+    {
+      "id": "haikouichthys-ercaicunensis",
+      "sourceFile": "exec-60ff581d-a954-4420-ae52-d86ca4150588.png",
+      "sourceSha256": "0bd139fd2c4e77bbf4e2541c36cee1110ace0067b73d6dffb3c0bab02592caa4",
+      "sha256": "3ab3bf87e436a46a02ba8675312928183be648d7c748e76220cd40de1958141a",
+      "prompt": "Haikouichthys ercaicunensis, tiny early Cambrian jawless fish-like vertebrate about the length of a fingertip, cruising head to the RIGHT over green-gray mud in the Chengjiang sea. Slender laterally compressed translucent body, small blunt head with a tiny dark paired eye seen from the side, fine gill marks behind it, repeated pale angled muscle blocks visible through the skin, one delicate median dorsal finfold continuing around the tapering tail. Tiny soft mouth. No paired pectoral or pelvic fins, no scales, no jaws, no lamprey suction disc, no modern fish forked tail. Fine suspended sediment and one indistinct tiny sponge far back; frame the full fish in sharp side profile."
+    },
+    {
+      "id": "archaeothyris-florensis",
+      "sourceFile": "exec-226f547f-1a90-4c64-ab8a-086f508db318.png",
+      "sourceSha256": "a2576ea4681c850d9aab5a0b9de0d7647bdaae49316cd61c8430b210384d788d",
+      "sha256": "8d3cf502f08ecd4aa70d9f5ea73530ec63b9192ce4b55cb9c4f3d4a1734e57e1",
+      "prompt": "Archaeothyris florensis, a small late Carboniferous basal synapsid hunting in the coal-swamp forest of Nova Scotia. Head points LEFT, long balancing tail to right; low sprawling stance, one visible foreleg and one hindleg on near side; far limbs naturally foreshortened. Low robust narrow-snouted skull, slightly open lips reveal modest differentiated teeth including a slightly enlarged upper caniniform behind the front teeth. Hide lightly textured warm brown, low back, belly just above shaded log; NOT a dinosaur, no mammal ears, fur, sail, horns or crocodile armor. Segmented horsetails, bark-ridged lycopsid trunks and seed fern litter. Subtle mottled light; full animal clear, digits natural, no multiple tails."
+    },
+    {
+      "id": "lystrosaurus-murrayi",
+      "sourceFile": "exec-5f20d454-bcb0-4ffa-b667-066e2dfc4cea.png",
+      "sourceSha256": "4e8c7c16eba03a579b2e5b29af13ac87c8f34d3a161f7f902a020f99ceed6aa5",
+      "sha256": "efe2beae484c37d8b0129c29546329bfe044a6025de7c43900a9b9419998ba6d",
+      "prompt": "Lystrosaurus murrayi walking head to the RIGHT on damp ochre Karoo mud in the Early Triassic. Portly barrel-chested dicynodont, powerful stocky forelegs, four limbs, short tapering tail, raised shoulders, low squat posture. High, short wedge-shaped skull, blunt down-turned horny beak, one pair of modest, tapered upper tusks descending on either side of face; the far tusk almost occluded. Do not give it a trunk, pig snout, horns, external ears, sabre fangs, fur or lizard tail. Dusty gray-brown skin, patchy silt, low early Triassic riparian plants including a few horsetails and sparse seed-ferns. Detailed unobstructed side/three-quarter full-body view."
+    },
+    {
+      "id": "proganochelys-quenstedtii",
+      "sourceFile": "exec-a4d4b127-5c4b-4570-88a3-c3a0988c6659.png",
+      "sourceSha256": "c77c0b3e793c5664dd1e951d4b9350546db366a55a8985729db65b7bdb67c635",
+      "sha256": "603903caa3177c96ee7ff3aa304454b6f6ef2f04ad57e50e7a1367d2f4f12de9",
+      "prompt": "Proganochelys quenstedtii, an early fully shelled turtle from the Late Triassic of central Europe. Animal walking head to the RIGHT across a dry, fine, floodplain surface with low conifers and ferns well behind, cloudy morning. Wide moderately high domed carapace with broad scutes, low fringe of marginal scales, primitive neck extended horizontally with a few small backward-pointing protective osteoderms on upper neck; distinct fairly long armored tail tapers to a compact terminal club, visible behind it on the left. Simple beaked head with natural tortoise-like nostrils, sturdy short legs, blunt claws. No oversized dinosaur mace, no large dorsal spikes, no marine flippers, no leathery shell. Full silhouette visible in low side view."
+    },
+    {
+      "id": "rugosodon-eurasiaticus",
+      "sourceFile": "exec-326c9c9a-4086-408b-9225-90ddb22fd9da.png",
+      "sourceSha256": "b41dc39fb97167574ac3838bb406b4646fdaa7cff0a3326a4f4c35a0b737cf6c",
+      "sha256": "4d5859980e9de4bb6594d4729e598f047dda76496295e26506985023aaff1028",
+      "prompt": "Rugosodon eurasiaticus, small Late Jurassic multituberculate mammal of northeastern China, walking on all four feet along a moist fern-covered log at the edge of a volcanic lake. Head to the RIGHT, tail gently extended to the left. Palm-sized furry mammal with low belly, long narrow flexible tail, small subdued ears, compact face, small grasping paws. A believable conservative reconstruction with brown-gray fur; not a modern mouse photo, hamster, squirrel, a marsupial or a glider. No bushy tail, no gliding membrane. Dawn light from cool open water; distant ginkgo and low ferns; portrait of whole animal with natural perspective, one animal only."
+    },
+    {
+      "id": "beelzebufo-ampinga",
+      "sourceFile": "exec-56213e9f-2f3f-40ef-b9bd-5882b28ffd04.png",
+      "sourceSha256": "4c2060543505c0dda2923f25bfa3c08a31f0d9b5a46288f6c356b0b44438cbf5",
+      "sha256": "2aae0aacce62c939672bc7ddea932002dd866939194664163cc287b11cb454d5",
+      "prompt": "Beelzebufo ampinga, stocky Late Cretaceous abelisaur-era frog of Madagascar sitting on damp silt at the edge of a seasonally dry shallow pool after rain. Head to the LEFT, three-quarter profile, broad low head with wide gape, eyes near top, subtle rugged bony skull contours and a coarse brown and ochre camouflaged back; compact muscular body; hind limbs short, thick, folded under. Four fingers on front hand, five toes on hind foot, with some naturally obscured. NO protruding horns over eyes, exposed teeth, huge ornamental spikes, mammal features or tail. Fingers rest naturally on mud. Subject in focus, realistic adult frog proportions; small leaf litter nearby, no dinosaurs or extra animals."
+    },
+    {
+      "id": "simosuchus-clarki",
+      "sourceFile": "exec-2fc37394-57ef-401b-91fa-b2cdb79b98aa.png",
+      "sourceSha256": "6341ec9da2079f97c609c0d095c79a3b9f10a80f3affa02f05a989dc5141a386",
+      "sha256": "84d81ebd24deba6d44bcd8507fddd85c34410fee9cbc9e539e4d7038ac97d23a",
+      "prompt": "Simosuchus clarki, compact little terrestrial notosuchian crocodyliform of Late Cretaceous Madagascar. Head to the RIGHT grazing low foliage on a sandy river terrace. Unmistakable very short, blunt and square, almost vertical deep muzzle, broad rear skull, nostrils near front, round lateral eye; knobby rectangular armor on back, flanks and a conspicuously SHORT thick tail. Stout body, four robust legs supporting it above ground, feet partly sheltered by low leaves. Dull dusky olive and earthy gray, side-three-quarter at eye level. Do not give it an elongated modern crocodile snout or tail, mammalian ears, horns, a tortoise shell or protruding fangs. Distinct from a giant crocodile; full distance to tail tip visible."
+    },
+    {
+      "id": "knightia-eocaena",
+      "sourceFile": "exec-377853a5-43f9-4d35-8b65-83f33af13355.png",
+      "sourceSha256": "ac2406490ceadeafe3dafd9085111eb5aa747c818e555ccc32a060a67453e913",
+      "sha256": "aa8fcc8183a33e7f36377a30a19372b1cc4592e1b5247c1295a4dfcb053a10ed",
+      "prompt": "Knightia eocaena, extinct slender herring relative of the Eocene freshwater Fossil Lake in Wyoming. One fish in clear lateral profile pointing to the RIGHT, back gray-olive, flank silvery with delicate individual scales and a pale keel along the belly, proportionally small mouth and one round eye, one short dorsal fin around midback, forked tail, modest paired translucent fins. Two or three very small distant silhouettes of its shoal deep in bluish lake water, no second foreground fish. Quiet offshore water above fine pale lake mud. Accurate fish anatomy, conserved natural colors, attractive subdued reflected daylight, not a marine coral reef. Whole focal individual fills the middle 70%."
+    },
+    {
+      "id": "purussaurus-brasiliensis",
+      "sourceFile": "exec-739bb2be-ef7e-4141-ac37-9a677520e151.png",
+      "sourceSha256": "0808822fcbac46e711a5e5beae28e5ce8506a0e608901e00f1f7f0dcab5f6c5e",
+      "sha256": "57070db57a098d808348534b57d7fe3f635a38ffb46f0a014016b46beba8e9ec",
+      "prompt": "Purussaurus brasiliensis, a very large adult Miocene South American caiman, head to the LEFT, basking in a shallow muddy backwater of the Amazonian wetland in Brazil. Massive but broad, blunt and dorsoventrally deep caiman rostrum; broad bridge to the eyes, organic paired nostrils near tip, rugged dark olive scutes and heavy muscular neck, crocodilian armor, long tapered laterally compressed ridged tail curves into background on right. Anatomically correct big-bodied limbs, much of far side and lower body obscured by water. Humid Neogene gallery forest, floating vegetation, muted daylight. No theropod features, exaggerated saw of teeth or narrow gharial snout; restrained closed or barely parted jaw. Whole animal reasonably legible, head detailed."
+    },
+    {
+      "id": "esox-nogaicus",
+      "sourceFile": "exec-45e21bcf-f7c8-4887-948d-17f479241c10.png",
+      "sourceSha256": "93bd7637b77024e1dbaa8c97cce653872a51a730a9bca12c2ed05aee2a73f5fa",
+      "sha256": "15852e2e38b0615776533324f3ce4509d35e1ef4db7b2394c7175ac11c07d9b5",
+      "prompt": "Esox nogaicus, a freshwater pike from the early Pleistocene of what is now Ukraine. One long ambush predator head to the LEFT in quiet freshwater among a few submerged stems and rippled sand. Use the body plan of a living Esox as a cautious reconstruction: long streamlined body, broad flattened snout, visibly sturdy lower jaw, one dorsal fin set very far back opposite the anal fin close to the forked caudal fin. The head and tail and both rear fins visible in true lateral profile, closed mouth. Quiet green-brown mottling, pale underside, no invented huge fang or deep sea traits. Slanted low sun in pale freshwater, reeds and suspended sediment, crisp detailed body, no modern objects or other fish."
+    }
+  ]
+}

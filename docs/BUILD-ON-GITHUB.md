@@ -2,7 +2,7 @@
 
 Projekt má připravené workflow **Dino Atlas — kontroly a APK** (`android-apk.yml`). Podporuje ruční spuštění a výběr pracovní větve. Sestavení běží na GitHubu; Bazzite ani místní instalaci Android SDK k tomu nepotřebuješ.
 
-Aktuální zdroje 1.1.0 (1010011) obsahují 256 zvířat a 256 obrázků. Sestavení lze nyní spustit. Zdrojová větev je `feature/paleozoic-1.0.0`; kvůli sestavení se nemusí slučovat do main.
+Aktuální zdroje 1.1.0 (1010012) obsahují 266 zvířat a 266 obrázků. Sestavení lze nyní spustit. Zdrojová větev je `feature/paleozoic-1.0.0`; kvůli sestavení se nemusí slučovat do main.
 
 1. V prohlížeči telefonu se přihlas na GitHub jako vlastník repozitáře.
 2. Otevři https://github.com/Hmyzak666/dino-atlas/actions/workflows/android-apk.yml.
@@ -24,6 +24,6 @@ Aktuální hodnoty secrets se v tomto kroku nečetly ani neměnily; jejich dostu
 
 Otevři červený krok konkrétního nového běhu. Zobrazí se, zda selhal test, kompilace nebo podpis. Neslučuj kvůli tomu větev do main a neodinstalovávej stávající aplikaci. Nové sestavení vyžaduje nový Run workflow; opakování starého běhu používá jeho starý commit.
 
-Sestavení pracovní větve se spouští ručně. U verze 1010011 prošly místní testy obsahu i mobilního rozhraní v Chromiu. GitHub Actions je zopakuje před kompilací.
+Sestavení pracovní větve se spouští ručně. U verze 1010012 prošly místní testy obsahu i mobilního rozhraní v Chromiu. GitHub Actions je zopakuje před kompilací.
 
 Oficiální postup: https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow.

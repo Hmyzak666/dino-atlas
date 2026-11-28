@@ -3328,6 +3328,136 @@
       "title": "AOPK ČR · Mechovky a pohyb mechovky hadovité",
       "shortTitle": "AOPK ČR · Mechovky a pohyb mechovky hadovité",
       "url": "https://aopk.gov.cz/documents/735810/1029025/bezobratli.pdf/5c1846cb-3d71-e7fc-93ce-8fc1637ff679"
+    },
+    "fauna12-ha-head": {
+      "title": "Shu a kol. · Hlava a osa těla kambrického obratlovce Haikouichthys",
+      "shortTitle": "Shu a kol. · Hlava a osa těla kambrického obratlovce Haikouichthys",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12556891/"
+    },
+    "fauna12-ha-fin": {
+      "title": "Zhang a Hou · Tvar těla rané bezčelistné ryby z Čcheng-ťiangu",
+      "shortTitle": "Zhang a Hou · Tvar těla rané bezčelistné ryby z Čcheng-ťiangu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15312089/"
+    },
+    "fauna12-ha-scale": {
+      "title": "Smithsonian · Kambrická zvířata a jejich rozměry",
+      "shortTitle": "Smithsonian · Kambrická zvířata a jejich rozměry",
+      "url": "https://www.naturalhistory.si.edu/sites/default/files/media/file/evolve-or-perish-guidebook-3-12-20.pdf"
+    },
+    "fauna12-ar-anat": {
+      "title": "Reisz · Karbonští synapsidi z Nového Skotska, popis kostí",
+      "shortTitle": "Reisz · Karbonští synapsidi z Nového Skotska, popis kostí",
+      "url": "https://www.collectionscanada.ca/obj/thesescanada/vol1/QMM/TC-QMM-47789.pdf"
+    },
+    "fauna12-ar-type": {
+      "title": "Harvard Museum of Comparative Zoology · Typový exemplář Archaeothyris florensis",
+      "shortTitle": "Harvard Museum of Comparative Zoology · Typový exemplář Archaeothyris florensis",
+      "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-4079"
+    },
+    "fauna12-ly-range": {
+      "title": "Botha a Smith · Výskyt druhů rodu Lystrosaurus v pánvi Karoo",
+      "shortTitle": "Botha a Smith · Výskyt druhů rodu Lystrosaurus v pánvi Karoo",
+      "url": "https://nasmus.co.za/wp-content/uploads/2019/01/Botha-and-Smith-2007.pdf"
+    },
+    "fauna12-ly-size": {
+      "title": "Botha · Růst a ekologie jihoafrických lystrosaurů",
+      "shortTitle": "Botha · Růst a ekologie jihoafrických lystrosaurů",
+      "url": "https://nationalmuseum.co.za/wp-content/uploads/2019/02/Botha-2020-The-paleobiology-and-paleoecology-of-South-African-Lystrosaurus.pdf"
+    },
+    "fauna12-ly-food": {
+      "title": "Jasinoski a kol. · Zatížení lebky dicynodontů při příjmu potravy",
+      "shortTitle": "Jasinoski a kol. · Zatížení lebky dicynodontů při příjmu potravy",
+      "url": "https://doi.org/10.1002/ar.20906"
+    },
+    "fauna12-pr-spec": {
+      "title": "Muzeum univerzity v Tübingenu · Proganochelys z Neuenhausu",
+      "shortTitle": "Muzeum univerzity v Tübingenu · Proganochelys z Neuenhausu",
+      "url": "https://www.emuseum.uni-tuebingen.de/de/objects/38755/proganochelys-quenstedtii-steinkern-reptilia-testudinata"
+    },
+    "fauna12-pr-anat": {
+      "title": "Gaffney · Srovnávací anatomie triasové želvy Proganochelys",
+      "shortTitle": "Gaffney · Srovnávací anatomie triasové želvy Proganochelys",
+      "url": "https://field.biodiversitylibrary.org/bibliography/90075"
+    },
+    "fauna12-pr-size": {
+      "title": "Igor Danilov · Fosilní želvy Evropy, krunýř a ocas proganochelyse",
+      "shortTitle": "Igor Danilov · Fosilní želvy Evropy, krunýř a ocas proganochelyse",
+      "url": "https://doc.rero.ch/record/16517/files/PAL_E3519.pdf"
+    },
+    "fauna12-ru-anat": {
+      "title": "University of Chicago · Zuby a kotníky jurského savce Rugosodon",
+      "shortTitle": "University of Chicago · Zuby a kotníky jurského savce Rugosodon",
+      "url": "https://news.uchicago.edu/story/earliest-complete-fossil-rodent-ancient-mammal-discovered"
+    },
+    "fauna12-ru-spec": {
+      "title": "Luo a Yuan · Fosilie rugosodona, rozměry a okolnosti nálezu",
+      "shortTitle": "Luo a Yuan · Fosilie rugosodona, rozměry a okolnosti nálezu",
+      "url": "https://www.eurekalert.org/multimedia/659344"
+    },
+    "fauna12-be-first": {
+      "title": "Evans a kol. · Objev velké křídové žáby na Madagaskaru",
+      "shortTitle": "Evans a kol. · Objev velké křídové žáby na Madagaskaru",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2268566/"
+    },
+    "fauna12-be-anat": {
+      "title": "Evans a kol. · Nové nálezy a rekonstrukce druhu Beelzebufo ampinga",
+      "shortTitle": "Evans a kol. · Nové nálezy a rekonstrukce druhu Beelzebufo ampinga",
+      "url": "https://doi.org/10.1371/journal.pone.0087236"
+    },
+    "fauna12-si-first": {
+      "title": "Buckley a kol. · Krátkolebý krokodýlí příbuzný z Madagaskaru",
+      "shortTitle": "Buckley a kol. · Krátkolebý krokodýlí příbuzný z Madagaskaru",
+      "url": "https://doi.org/10.1038/35016061"
+    },
+    "fauna12-si-head": {
+      "title": "Kley a kol. · Lebka a chrup druhu Simosuchus clarki",
+      "shortTitle": "Kley a kol. · Lebka a chrup druhu Simosuchus clarki",
+      "url": "https://sites.ohio.edu/oconnorp/PDFs/Kley%20etal_2011.pdf"
+    },
+    "fauna12-si-arm": {
+      "title": "Hill · Kožní kostěné destičky simosucha",
+      "shortTitle": "Hill · Kožní kostěné destičky simosucha",
+      "url": "https://doi.org/10.1080/02724634.2010.518110"
+    },
+    "fauna12-si-frame": {
+      "title": "Scott Hartman · Kosterní rekonstrukce druhu Simosuchus clarki",
+      "shortTitle": "Scott Hartman · Kosterní rekonstrukce druhu Simosuchus clarki",
+      "url": "https://www.skeletaldrawing.com/non-dinosaurs/simosuchus-clarki/"
+    },
+    "fauna12-kn-fish": {
+      "title": "National Park Service · Ryby z eocenního jezera Fossil Lake",
+      "shortTitle": "National Park Service · Ryby z eocenního jezera Fossil Lake",
+      "url": "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm"
+    },
+    "fauna12-kn-site": {
+      "title": "National Park Service · Fosilie a geologie Fossil Butte",
+      "shortTitle": "National Park Service · Fosilie a geologie Fossil Butte",
+      "url": "https://www.nps.gov/fobu/learn/fossils-geology.htm"
+    },
+    "fauna12-kn-diet": {
+      "title": "Lance Grande · Ryby a potravní vztahy v souvrství Green River",
+      "shortTitle": "Lance Grande · Ryby a potravní vztahy v souvrství Green River",
+      "url": "https://www.wsgs.wyo.gov/products/wsgs-1984-b-63.pdf"
+    },
+    "fauna12-pu-anat": {
+      "title": "Aureliano a kol. · Lebka a ekologie miocenního kajmana Purussaurus",
+      "shortTitle": "Aureliano a kol. · Lebka a ekologie miocenního kajmana Purussaurus",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25689140/"
+    },
+    "fauna12-pu-size": {
+      "title": "Paiva a kol. · Odhady tělesných rozměrů velkých fosilních kajmanů",
+      "shortTitle": "Paiva a kol. · Odhady tělesných rozměrů velkých fosilních kajmanů",
+      "url": "https://doi.org/10.1016/j.jsames.2022.103970"
+    },
+    "fauna12-es-spec": {
+      "title": "Kovalchuk a kol. · Pleistocenní štika z Nogaisku, popis druhu a měření",
+      "shortTitle": "Kovalchuk a kol. · Pleistocenní štika z Nogaisku, popis druhu a měření",
+      "url": "https://www.app.pan.pl/archive/published/app62/app003112016.html"
+    },
+    "fauna12-es-rel": {
+      "title": "Wisconsin Department of Natural Resources · Stavba těla a způsob lovu dnešní štiky",
+      "shortTitle": "Wisconsin Department of Natural Resources · Stavba těla a způsob lovu dnešní štiky",
+      "url": "https://dnr.wisconsin.gov/sites/default/files/topic/Fishing/Species_northernpike.pdf"
     }
   },
   "dinosaurs": [
@@ -70808,6 +70938,2517 @@
         ],
         "note": {
           "cs": "Horní hranice délky kolonií popsaných z Litvy, použitá pro srovnání s žijícím druhem."
+        }
+      }
+    },
+    {
+      "id": "haikouichthys-ercaicunensis",
+      "scientificName": "Haikouichthys ercaicunensis",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "cambrian",
+      "diet": "unknown",
+      "group": "Haikouichthys",
+      "taxonomy": [
+        "Chordata",
+        "Craniata",
+        "Myllokunmingiidae"
+      ],
+      "aliases": [
+        "kambrická ryba",
+        "bezčelistná ryba z Čcheng-ťiangu"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/haikouichthys-ercaicunensis.webp",
+        "alt": {
+          "cs": "Drobná průsvitná ryba plave doprava nad mořským dnem. Na boku je vidět řada svalových úseků a za okem obrysy žaber."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Obrys hlavy, žaberní oblast a členění svalů vycházejí z fosilií. Průsvitnost a zbarvení jsou výtvarnou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna12-ha-head",
+          "fauna12-ha-fin"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Rané kambrium, přibližně před 518 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ha-head",
+            "fauna12-ha-scale"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Okolí vesnice Ercaicun, provincie Jün-nan v Číně"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ha-fin"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Délka kolem 2,5 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ha-scale"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost tak drobného měkkého těla z otisků neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-ha-head"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-ha-head"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Haikouichthys",
+          "ageLabel": "Rané kambrium, přibližně před 518 miliony let",
+          "location": "Okolí vesnice Ercaicun, provincie Jün-nan v Číně",
+          "groupLabel": "Raní bezčelistní obratlovci",
+          "cardSummary": "Na délku by se tenhle kambrický obratlovec vešel na článek prstu. Už měl pár očí a za hlavou řadu žaberních struktur.",
+          "summary": "Na délku by se tenhle kambrický obratlovec vešel na článek prstu. Už měl pár očí a za hlavou řadu žaberních struktur. Jemné čínské fosilie zachovaly i opakující se úseky svalů, které se po délce boku skládají do řady.",
+          "quizHint": "V přední části úzkého těla leží výrazně oddělená hlava s párem očí.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "V přední části úzkého těla leží výrazně oddělená hlava s párem očí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ha-head"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po stranách trupu se opakují svalové úseky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ha-head",
+                "fauna12-ha-fin"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Jemný ploutevní lem obtáčí zadní část těla podle jedné z rekonstrukcí fosilie."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna12-ha-fin"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "V přední části úzkého těla leží výrazně oddělená hlava s párem očí. Po stranách trupu se opakují svalové úseky."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-ha-head",
+              "fauna12-ha-fin"
+            ]
+          },
+          "sections": [
+            {
+              "id": "hlava",
+              "title": "Co prozradila hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na dobře zachovaných otiscích vědci rozlišili oči a další párové útvary v hlavě. Tato stavba pomohla zařadit zvíře mezi rané obratlovce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ha-head"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zabry",
+              "title": "Hned za hlavou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Za hlavou ležela žaberní oblast. Na fosiliích ji lze odlišit od svalových úseků podél trupu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ha-head"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "svaly",
+              "title": "Jak se mohl pohybovat",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Střídavé stahy svalů po obou stranách trupu mohly rozvlnit tělo a pohánět rybu vodou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ha-head",
+                    "fauna12-ha-fin"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lem",
+              "title": "Ploutevní lem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na jednom mimořádně zachovaném jedinci popsali badatelé návaznost hřbetního, ocasního a břišního lemu. U jiných otisků se jejich okraje čtou obtížněji."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ha-fin"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy",
+              "title": "Moře v dnešní Číně",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Otisky pocházejí z mořských vrstev kambrické fauny Čcheng-ťiangu. Naleziště u vesnice Ercaicun leží v dnešní jihozápadní Číně."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ha-fin"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "meritko",
+              "title": "Rybka na dlani",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Celá rybka měřila asi 25 milimetrů, přibližně jako průměr dvacetikoruny. Jemné detaily hlavy vyniknou až na zvětšeném snímku fosilie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ha-head",
+                    "fauna12-ha-scale"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.025,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna12-ha-scale"
+        ],
+        "note": {
+          "cs": "Orientační délka jedince podle přehledu Smithsonian Institution."
+        }
+      }
+    },
+    {
+      "id": "archaeothyris-florensis",
+      "scientificName": "Archaeothyris florensis",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Archaeothyris",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Synapsida",
+        "Ophiacodontidae"
+      ],
+      "aliases": [
+        "karbonský synapsid",
+        "archeotyris"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/archaeothyris-florensis.webp",
+        "alt": {
+          "cs": "Nízký hnědý čtyřnožec s dlouhým ocasem a pootevřenou tlamou se dívá doleva mezi kmeny karbonského lesa."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Lebka a zuby vycházejí z kosterních nálezů. Barva těla a poloha zvířete na lesní půdě představují možnou podobu živého jedince."
+        },
+        "sourceIds": [
+          "fauna12-ar-anat"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, pensylvan"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ar-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "U obce Florence na ostrově Cape Breton v Novém Skotsku, Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ar-anat",
+            "fauna12-ar-type"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Rekonstruovaná lebka měří na délku přibližně 9,2 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-ar-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přímý údaj o hmotnosti tohoto zvířete nemáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-ar-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Zvětšené špičaté zuby ukazují na živočišnou kořist."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-ar-anat"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Archaeothyris",
+          "ageLabel": "Pozdní karbon, pensylvan",
+          "location": "U obce Florence na ostrově Cape Breton v Novém Skotsku, Kanada",
+          "groupLabel": "Raní synapsidi",
+          "cardSummary": "V horní čelisti měl Archaeothyris několik zubů nápadně větších než ostatní. Za okem se v kosti otevíral jeden spánkový otvor.",
+          "summary": "V horní čelisti měl Archaeothyris několik zubů nápadně větších než ostatní. Za okem se v kosti otevíral jeden spánkový otvor. Tento raný synapsid je známý z karbonských vrstev Nového Skotska. Stejná velká vývojová větev později dala vzniknout savcům.",
+          "quizHint": "Horní řada zubů zahrnuje vedle menších zubů i zvětšené špičáky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Horní řada zubů zahrnuje vedle menších zubů i zvětšené špičáky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ar-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po každé straně lebky je za očnicí jeden spánkový otvor."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ar-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Lebka je poměrně úzká a její čenichová část je delší než očnice."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ar-anat"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Horní řada zubů zahrnuje vedle menších zubů i zvětšené špičáky. Po každé straně lebky je za očnicí jeden spánkový otvor."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-ar-anat"
+            ]
+          },
+          "sections": [
+            {
+              "id": "lebka",
+              "title": "Okno za okem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Spánkový otvor lemují kosti zadní části lebky. Jeho umístění je jedním ze znaků, podle nichž lze na kostře poznat synapsida."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ar-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chrup",
+              "title": "Nestejně velké zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některé zuby horní čelisti přesahují své sousedy. Při rekonstrukci chrupu badatelé porovnávali čelisti z několika kusů horniny."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ar-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "K čemu sloužily špičáky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvětšené zuby mohly pomáhat při uchopení kořisti. Z chrupu samotného nelze určit, jaká zvířata lovil nejčastěji."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ar-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy",
+              "title": "Podle čeho dostal jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druhové jméno florensis odkazuje na obec Florence na kanadském ostrově Cape Breton. Fosilie byly vyzvednuty z okolí místní uhelné sloje."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ar-anat",
+                    "fauna12-ar-type"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kostra",
+              "title": "Co se dochovalo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U typového exempláře se vedle části lebky zachovaly obratle, pažní kost a krční žebra. Další nálezy doplňují pánev i ocas."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ar-anat",
+                    "fauna12-ar-type"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "velikost",
+              "title": "Lebka z více částí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z materiálu ve dvou blocích horniny sestavil Robert Reisz obraz lebky dlouhé zhruba devět centimetrů. Úplná délka těla se určuje obtížněji."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ar-anat"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lystrosaurus-murrayi",
+      "scientificName": "Lystrosaurus murrayi",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "triassic",
+      "diet": "herbivore",
+      "group": "Lystrosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Synapsida",
+        "Therapsida",
+        "Dicynodontia",
+        "Lystrosauridae"
+      ],
+      "aliases": [
+        "lystrosaurus murrayi",
+        "triasový dicynodont"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/lystrosaurus-murrayi.webp",
+        "alt": {
+          "cs": "Zavalitý čtyřnožec s krátkým ocasem, skloněným zobákem a kly kráčí doprava po vlhkém břehu."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Tvar lebky, kly a proporce těla vycházejí z kostry. Vrásčitá kůže, barva a krajina zachycují jednu možnou podobu živého zvířete."
+        },
+        "sourceIds": [
+          "fauna12-ly-food",
+          "fauna12-ly-range"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný trias, po vymírání na konci permu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ly-range"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pánev Karoo v Jihoafrické republice"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ly-range",
+            "fauna12-ly-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Lebka exempláře BP/1/3236 měří na spodní straně 21,3 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ly-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost jedince podle tohoto měření lebky spolehlivě neurčíme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-ly-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Rostliny, které zpracovával zobákovitými čelistmi."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ly-food"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Lystrosaurus",
+          "ageLabel": "Raný trias, po vymírání na konci permu",
+          "location": "Pánev Karoo v Jihoafrické republice",
+          "groupLabel": "Dicynodonti",
+          "cardSummary": "Z každé strany zobákovitých čelistí vyčníval kel. Mohutný trup zakončený krátkým ocasem nesly čtyři silné nohy.",
+          "summary": "Z každé strany zobákovitých čelistí vyčníval kel. Mohutný trup zakončený krátkým ocasem nesly čtyři silné nohy. Jeho pozůstatky patří k častým nálezům ve vrstvách, které se v jihoafrické pánvi Karoo uložily po vymírání na konci permu.",
+          "quizHint": "U okrajů zobákovitých čelistí vyčnívá pár horních klů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "U okrajů zobákovitých čelistí vyčnívá pár horních klů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ly-food",
+                "fauna12-ly-range"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Mohutný trup doplňují čtyři silné končetiny a krátký ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ly-range"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Přední část široké lebky je zahnutá dolů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ly-food"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "U okrajů zobákovitých čelistí vyčnívá pár horních klů. Mohutný trup doplňují čtyři silné končetiny a krátký ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-ly-food",
+              "fauna12-ly-range"
+            ]
+          },
+          "sections": [
+            {
+              "id": "zobak",
+              "title": "Kousnutí do tuhé rostliny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Modely zatížení lebky naznačují, že zobák dokázal zpracovat i tužší rostlinnou potravu. Přesný výběr rostlin zůstává otevřený."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ly-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kly",
+              "title": "Dvojice klů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kly vyrůstaly z horní čelisti. Většinu práce při zpracování potravy zajišťovaly hrany zobáku."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ly-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "naleziste",
+              "title": "Povodí Karoo po vymírání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V jihoafrických vrstvách raného triasu se často nacházejí společně pozůstatky druhů Lystrosaurus murrayi a Lystrosaurus declivis."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ly-range"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rust",
+              "title": "Věk zapsaný v kostech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba kostní tkáně naznačuje, že mnozí známí jedinci v době úhynu ještě rostli. Největší nalezená kost proto nemusí představovat konečnou velikost dospělce."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ly-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Kam patřil",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dicynodonti tvořili rostlinožravou skupinu na vývojové větvi synapsidů. V raném triasu byl v pánvi Karoo mimořádně hojný právě rod Lystrosaurus."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ly-range",
+                    "fauna12-ly-food"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lebka",
+              "title": "Co měří 21 centimetrů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U exempláře BP/1/3236 badatelé uvádějí 213 milimetrů jako délku spodiny lebky. Tento rozměr dovoluje porovnat velikosti nálezů téhož druhu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ly-size"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "proganochelys-quenstedtii",
+      "scientificName": "Proganochelys quenstedtii",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "triassic",
+      "diet": "unknown",
+      "group": "Proganochelys",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Testudinata",
+        "Proganochelyidae"
+      ],
+      "aliases": [
+        "triasová želva",
+        "želva s kyjovitým ocasem"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/proganochelys-quenstedtii.webp",
+        "alt": {
+          "cs": "Želva s pevným krunýřem míří doprava po hlíně. Za krunýřem vyčnívá dlouhý obrněný ocas s rozšířenou špičkou."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Tvar krunýře, kostěný kryt a konec ocasu vycházejí z kostry. Barva šupin a podoba povrchu kůže jsou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna12-pr-anat",
+          "fauna12-pr-size"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní trias, nor"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-pr-spec",
+            "fauna12-pr-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Německo, mimo jiné Neuenhaus v Bádensku-Württembersku"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-pr-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Hřbetní část krunýře dosahovala délky asi 60 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-pr-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Spolehlivý údaj o hmotnosti živého jedince chybí."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-pr-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy z dochovaných kostí neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-pr-anat",
+            "fauna12-pr-size"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Proganochelys",
+          "ageLabel": "Pozdní trias, nor",
+          "location": "Německo, mimo jiné Neuenhaus v Bádensku-Württembersku",
+          "groupLabel": "Rané želvy",
+          "cardSummary": "Tahle triasová želva měla krunýř a na konci dlouhého ocasu kostěný kyj. Destičky v kůži chránily i části těla vyčnívající z krunýře.",
+          "summary": "Tahle triasová želva měla krunýř a na konci dlouhého ocasu kostěný kyj. Destičky v kůži chránily i části těla vyčnívající z krunýře. Z německých nálezů známe stavbu lebky i detaily hřbetního štítu.",
+          "quizHint": "Trup shora kryje úplný kostěný krunýř.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Trup shora kryje úplný kostěný krunýř."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pr-anat",
+                "fauna12-pr-size"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý obrněný ocas se na konci rozšiřuje v kyj."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pr-anat",
+                "fauna12-pr-size"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na krku leží další kostěné destičky a výběžky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pr-anat"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Trup shora kryje úplný kostěný krunýř. Dlouhý obrněný ocas se na konci rozšiřuje v kyj."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-pr-anat",
+              "fauna12-pr-size"
+            ]
+          },
+          "sections": [
+            {
+              "id": "krunyr",
+              "title": "Horní a dolní štít",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hřbetní krunýř doplňoval spodní štít chránící břicho. Obě části známe už u této triasové želvy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "krk",
+              "title": "Jak si chránila krk",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krční páteř měla jinou stavbu než u dnešních želv, které hlavu zatahují do krunýře. Vyčnívající krk nesl vlastní kostěnou ochranu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ocas",
+              "title": "Co nesla na ocase",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na samém konci dlouhého ocasu sedělo kyjovité rozšíření. Další kostěné prvky tvořily podél ocasu kryt."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-anat",
+                    "fauna12-pr-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "patro",
+              "title": "Drobné zuby uvnitř úst",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na kostech ústního patra se zachovaly drobné zoubky. Tento znak lze zjistit při zkoumání lebky, zvenčí ho na živé želvě nebylo vidět."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-anat",
+                    "fauna12-pr-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "piskovec",
+              "title": "Želva v pískovci",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Muzeum v Tübingenu uchovává nález z obce Neuenhaus. Je veden jako kamenná výplň a pochází z vrstev pozdně triasového souvrství Löwenstein."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmer",
+              "title": "Jak dlouhý byl krunýř",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U velkých jedinců dosahovala hřbetní část krunýře zhruba 60 centimetrů. Hlava i značná část ocasu přesahovaly jeho okraj."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pr-size"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rugosodon-eurasiaticus",
+      "scientificName": "Rugosodon eurasiaticus",
+      "taxonRank": "species",
+      "category": "mammal",
+      "period": "jurassic",
+      "diet": "omnivore",
+      "group": "Rugosodon",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Synapsida",
+        "Mammalia",
+        "Multituberculata"
+      ],
+      "aliases": [
+        "jurský savec",
+        "multituberkulát z Číny"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/rugosodon-eurasiaticus.webp",
+        "alt": {
+          "cs": "Drobný hnědě osrstěný savec s dlouhým ocasem postupuje doprava po padlém kmeni u jezera."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Proporce vycházejí z kostry. Odstín srsti, tvar boltců i pohyb po kmeni jsou možnou rekonstrukcí živého zvířete."
+        },
+        "sourceIds": [
+          "fauna12-ru-anat",
+          "fauna12-ru-spec"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní jura, přibližně před 160 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ru-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Provincie Liao-ning na severovýchodě Číny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ru-anat",
+            "fauna12-ru-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Asi 17 cm od hlavy ke kořeni ocasu."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-ru-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Podle rekonstrukce přibližně 80 g."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-ru-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Tvar zubů ukazuje na pestrou živočišnou i rostlinnou potravu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-ru-anat"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Rugosodon",
+          "ageLabel": "Pozdní jura, přibližně před 160 miliony let",
+          "location": "Provincie Liao-ning na severovýchodě Číny",
+          "groupLabel": "Multituberkuláti",
+          "cardSummary": "Rugosodon byl jurský savec velikosti menšího potkana. Podobně jako dnešní plch měl pohyblivé kotníky, v tlamě však nesl typický chrup multituberkulátů.",
+          "summary": "Rugosodon byl jurský savec velikosti menšího potkana. Podobně jako dnešní plch měl pohyblivé kotníky, v tlamě však nesl typický chrup multituberkulátů. Jeho drobnou kostru uchovaly dvě protilehlé desky jezerní břidlice.",
+          "quizHint": "Na zadních zubech se zvedá několik řad hrbolků a hřebenů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Na zadních zubech se zvedá několik řad hrbolků a hřebenů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ru-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Drobné tělo měří od hlavy ke kořeni ocasu přibližně 17 cm."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ru-spec"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Kotníky dovolovaly zadní tlapku výrazně natáčet."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-ru-anat"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Na zadních zubech se zvedá několik řad hrbolků a hřebenů. Drobné tělo měří od hlavy ke kořeni ocasu přibližně 17 cm."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-ru-anat",
+              "fauna12-ru-spec"
+            ]
+          },
+          "sections": [
+            {
+              "id": "chrup",
+              "title": "Proč dostal jméno Rugosodon",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno odkazuje na zvrásněné zuby. Drobné hřebeny a hrbolky vytvářely při skusu členitou plochu pro zpracování potravy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ru-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kotnik",
+              "title": "Kloub, který dovoloval otočit tlapku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na zkamenělém kotníku se zachovaly styčné plochy jednotlivých kostí. Jejich tvar umožňoval značnou pohyblivost zadní tlapky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ru-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jidelnicek",
+              "title": "Co napovídají zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Autoři popisu podle chrupu usuzují na všežravost. Rugosodon mohl zpracovat rostlinnou potravu i drobné živočichy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-ru-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jezero",
+              "title": "Dvě poloviny jedné fosilie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostra zůstala zachovaná v břidlici, která se rozdělila na dvě desky. Okolní jezerní sedimenty obsahují také vrstvy sopečného původu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ru-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sousede",
+              "title": "Další obyvatelé krajiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ze stejného fosilního společenstva pocházejí i opeřený dinosaurus Anchiornis a ptakoještěr Darwinopterus. Drobní savci s nimi tedy sdíleli krajinu kolem jezera."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ru-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzenstvo",
+              "title": "Zuby ze dvou světadílů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobné zuby znali paleontologové i od jurských multituberkulátů ze západní Evropy. Čínský nález k samotnému chrupu přidal téměř celou kostru."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-ru-spec",
+                    "fauna12-ru-anat"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.17,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna12-ru-spec"
+        ],
+        "note": {
+          "cs": "Délka dochovaného těla od hlavy ke kořeni ocasu. Ocas se do těchto 17 cm nezapočítává."
+        }
+      }
+    },
+    {
+      "id": "beelzebufo-ampinga",
+      "scientificName": "Beelzebufo ampinga",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "cretaceous",
+      "diet": "carnivore",
+      "group": "Beelzebufo",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amphibia",
+        "Anura"
+      ],
+      "aliases": [
+        "křídová žába",
+        "žába z Madagaskaru"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/beelzebufo-ampinga.webp",
+        "alt": {
+          "cs": "Mohutná hnědě skvrnitá žába se širokou hlavou sedí u mělké vody a míří doleva."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Široká hlava a její kostěné výběžky vycházejí z fosilií. Barva, kresba kůže a přesný tvar měkkých částí jsou rekonstruované."
+        },
+        "sourceIds": [
+          "fauna12-be-anat",
+          "fauna12-be-first"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, maastricht"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-be-first",
+            "fauna12-be-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Maevarano na severozápadě Madagaskaru"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-be-first",
+            "fauna12-be-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "U jedince FMNH PR 2512 vychází délka od čenichu po konec trupu asi na 19,3 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-be-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost tohoto jedince spolehlivě neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-be-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Dravá žába, která pravděpodobně přepadala kořist zblízka."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-be-first",
+            "fauna12-be-anat"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Beelzebufo",
+          "ageLabel": "Pozdní křída, maastricht",
+          "location": "Souvrství Maevarano na severozápadě Madagaskaru",
+          "groupLabel": "Žáby",
+          "cardSummary": "Na Madagaskaru žila na konci křídy žába s nezvykle širokou, silně vyztuženou lebkou. Některé lebeční kosti vybíhaly do stran a dozadu přes krk.",
+          "summary": "Na Madagaskaru žila na konci křídy žába s nezvykle širokou, silně vyztuženou lebkou. Některé lebeční kosti vybíhaly do stran a dozadu přes krk. Nové nálezy umožnily sestavit trojrozměrný model hlavy a zpřesnit také odhad velikosti těla.",
+          "quizHint": "Široká nízká hlava má po stranách nápadně rozšířenou zadní část.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široká nízká hlava má po stranách nápadně rozšířenou zadní část."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-be-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vnější povrch silných kostí lebky je posetý jamkami a hřebínky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-be-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Celková rekonstrukce má podsadité tělo a široce rozevřenou tlamu."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna12-be-first",
+                "fauna12-be-anat"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široká nízká hlava má po stranách nápadně rozšířenou zadní část. Vnější povrch silných kostí lebky je posetý jamkami a hřebínky."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-be-anat"
+            ]
+          },
+          "sections": [
+            {
+              "id": "lebka",
+              "title": "Lebka jako stavebnice",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Paleontologové spojili informace z několika kostí a pomocí počítačové tomografie připravili trojrozměrnou rekonstrukci. Ta ukázala i kostěné výběžky za tvářemi."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmery",
+              "title": "Kolik měřila",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pro jednoho poměrně dobře známého jedince vyšel odhad délky trupu s hlavou na 19,3 cm. Jiné, větší kosti ukazují, že tento jedinec nepředstavoval horní mez."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "povrch",
+              "title": "Jamky na kostech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Charakteristický drsný povrch kostí lze pozorovat přímo na fosiliích. Stejný znak pomohl přiřadit k sobě jednotlivé části lebky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-be-first",
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Jak mohla lovit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Široká hlava a mohutné čelisti odpovídají představě žáby, která čekala na kořist v dosahu tlamy. Konkrétní úlovek těchto jedinců neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-be-first",
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "madagaskar",
+              "title": "Žába z oblasti Mahajangy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Její kosti pocházejí ze souvrství Maevarano. Nálezy na více místech této oblasti dohromady zachycují různé části kostry."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-be-first",
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "patrani",
+              "title": "Jak se mění odhad",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První odhady velikosti vycházely hlavně z jednotlivých kostí. S novým materiálem mohli badatelé přesněji složit lebku a přepočítat délku těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-be-first",
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.193,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna12-be-anat"
+        ],
+        "note": {
+          "cs": "Odhad od čenichu po konec trupu konkrétního jedince FMNH PR 2512."
+        }
+      }
+    },
+    {
+      "id": "simosuchus-clarki",
+      "scientificName": "Simosuchus clarki",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Simosuchus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Archosauria",
+        "Crocodyliformes",
+        "Notosuchia"
+      ],
+      "aliases": [
+        "krátkohlavý krokodýlí příbuzný",
+        "rostlinožravý krokodýlí příbuzný"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/simosuchus-clarki.webp",
+        "alt": {
+          "cs": "Nízký obrněný plaz s téměř hranatým tupým čenichem stojí na čtyřech nohách u listí a dívá se doprava."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Tvar hlavy, krátký ocas i uspořádání kostěných destiček vycházejí z fosilií. Zbarvení kůže je výtvarnou volbou."
+        },
+        "sourceIds": [
+          "fauna12-si-head",
+          "fauna12-si-arm",
+          "fauna12-si-frame"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní křída, maastricht"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-si-first",
+            "fauna12-si-head"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Maevarano na severozápadě Madagaskaru"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-si-first",
+            "fauna12-si-head"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Kosterní rekonstrukce dosahuje asi 75 cm včetně ocasu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-si-frame"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Spolehlivý údaj o hmotnosti jedince chybí."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-si-frame"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Tvar zubů a čelistí ukazuje na převahu rostlinné potravy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-si-first",
+            "fauna12-si-head"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Simosuchus",
+          "ageLabel": "Pozdní křída, maastricht",
+          "location": "Souvrství Maevarano na severozápadě Madagaskaru",
+          "groupLabel": "Notosuchové",
+          "cardSummary": "Simosuchus měl krátký, zepředu téměř hranatý čenich. Jeho zuby nesly několik špiček a tvarem připomínaly malé lístky.",
+          "summary": "Simosuchus měl krátký, zepředu téměř hranatý čenich. Jeho zuby nesly několik špiček a tvarem připomínaly malé lístky. Tento suchozemský příbuzný krokodýlů byl od hřbetu až po krátký ocas chráněný kostěnými destičkami.",
+          "quizHint": "Čenich je velmi krátký, vysoký a vpředu tupě zakončený.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Čenich je velmi krátký, vysoký a vpředu tupě zakončený."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-si-head"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Kůže na hřbetě obsahovala řady drobných kostěných destiček."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-si-arm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ocas je proti trupu nápadně krátký."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-si-frame"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Čenich je velmi krátký, vysoký a vpředu tupě zakončený. Kůže na hřbetě obsahovala řady drobných kostěných destiček."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-si-head",
+              "fauna12-si-arm"
+            ]
+          },
+          "sections": [
+            {
+              "id": "zuby",
+              "title": "Zuby ve tvaru lístků",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Korunky zubů se na konci rozšiřují a dělí do několika hrotů. Takový chrup patří k nejnápadnějším odlišnostem simosucha od běžné představy krokodýla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-si-first",
+                    "fauna12-si-head"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "strava",
+              "title": "Co se dá vyčíst z čelistí",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Velmi krátký čenich a mnohahroté zuby vedly badatele k závěru, že značnou část jídelníčku tvořily rostliny."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-si-first",
+                    "fauna12-si-head"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pancerovani",
+              "title": "Destičky v kůži",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Osteodermy jsou drobné kosti uložené v kůži. U simosucha se zachovaly z tolika částí těla, že lze rekonstruovat i jejich uspořádání na končetinách."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-si-arm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ocas",
+              "title": "Krátký konec těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V kosterní rekonstrukci tvoří ocas jen malou část celkové délky. Zvíře neslo tělo na poměrně robustních končetinách."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-si-frame"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ostrov",
+              "title": "Život na Madagaskaru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie pocházejí z vrstev posledního stupně křídy zvaného maastricht. Ve stejném souvrství se našly také kosti mohutné žáby Beelzebufo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-si-head",
+                    "fauna12-be-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kostry",
+              "title": "Proč známe jeho siluetu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Různé exempláře uchovaly lebku, části trupu i kožní pancíř. Jejich srovnáním lze doplnit místa, která na jednom jedinci chybějí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-si-head",
+                    "fauna12-si-arm"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.75,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna12-si-frame"
+        ],
+        "note": {
+          "cs": "Délka kosterní rekonstrukce podle Scotta Hartmana včetně krátkého ocasu."
+        }
+      }
+    },
+    {
+      "id": "knightia-eocaena",
+      "scientificName": "Knightia eocaena",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "paleogene",
+      "diet": "omnivore",
+      "group": "Knightia",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Actinopterygii",
+        "Clupeiformes"
+      ],
+      "aliases": [
+        "eocenní sleďovitá ryba",
+        "ryba z Fossil Lake"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/knightia-eocaena.webp",
+        "alt": {
+          "cs": "Štíhlá stříbřitá ryba s vykrojenou ocasní ploutví plave doprava ve volné vodě eocenního jezera."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Obrys těla, poloha hřbetní ploutve a vidlicovitý ocas odpovídají fosiliím. Stříbřitá barva šupin je výtvarnou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna12-kn-fish"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Paleogén, eocén, přibližně před 52 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-kn-site"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jezerní usazeniny souvrství Green River ve Wyomingu, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-kn-fish",
+            "fauna12-kn-site"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dospělci měří v průměru asi 15 cm, velké nálezy dosahují zhruba 25 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-kn-fish"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost živých ryb z uvedených fosilií neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-kn-fish"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně požírala řasy i drobné vodní živočichy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-kn-diet"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Knightia",
+          "ageLabel": "Paleogén, eocén, přibližně před 52 miliony let",
+          "location": "Jezerní usazeniny souvrství Green River ve Wyomingu, USA",
+          "groupLabel": "Sleďotvární",
+          "cardSummary": "V dávném jezeře ve Wyomingu plavaly ve velkých hejnech drobné ryby příbuzné sleďům. Na některých kamenných deskách leží desítky jejich koster pohromadě.",
+          "summary": "V dávném jezeře ve Wyomingu plavaly ve velkých hejnech drobné ryby příbuzné sleďům. Na některých kamenných deskách leží desítky jejich koster pohromadě. Nálezy různě velkých jedinců naznačují, že se do hejn sdružovaly už malé ryby.",
+          "quizHint": "Štíhlé tělo přechází do úzké báze vidlicovitě vykrojené ocasní ploutve.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Štíhlé tělo přechází do úzké báze vidlicovitě vykrojené ocasní ploutve."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-kn-fish"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Jediná hlavní hřbetní ploutev leží přibližně v polovině délky těla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-kn-fish"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dospělí jedinci z Fossil Lake měří v průměru přibližně 15 cm."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-kn-fish"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Štíhlé tělo přechází do úzké báze vidlicovitě vykrojené ocasní ploutve. Jediná hlavní hřbetní ploutev leží přibližně v polovině délky těla."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-kn-fish"
+            ]
+          },
+          "sections": [
+            {
+              "id": "hejna",
+              "title": "Hejno na kamenné desce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na některých deskách s rybami rodu Knightia napočítali až stovku jedinců na metr čtvereční. U druhu K. eocaena jsou v těchto nálezech zastoupeny ryby různých velikostí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-kn-fish"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jezero",
+              "title": "Sladká voda ve Wyomingu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fossil Lake bývalo součástí soustavy eocenních jezer. V jeho jemně vrstevnatých usazeninách se zachovaly ryby i tvorové z okolních břehů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-kn-site"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "velikost",
+              "title": "Malé i velké exempláře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna z ryb ve sbírce národního památníku Fossil Butte měří pouhých 7,8 cm. Největší známé exempláře tohoto druhu jsou přibližně třikrát delší."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-kn-fish"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Co drželo hejno při životě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Paleontolog Lance Grande usuzoval, že si tyto ryby hledaly řasy, rozsivky i drobné živočichy. Větším dravým rybám pak samy poskytovaly bohatý zdroj potravy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-kn-diet"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Dva druhy jednoho rodu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve stejném jezeře se nacházejí také ryby druhu Knightia alta. Oba druhy známe i z vrstev, ve kterých uhynulo mnoho jedinců současně."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-kn-fish"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "symbol",
+              "title": "Znak jednoho státu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Knightia eocaena je státní fosilií Wyomingu. Ve vrstvách někdejšího Fossil Lake je nejčastěji nacházeným druhem ryby."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-kn-fish"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.15,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna12-kn-fish"
+        ],
+        "note": {
+          "cs": "Průměrná délka dospělých nálezů druhu Knightia eocaena podle National Park Service."
+        }
+      }
+    },
+    {
+      "id": "purussaurus-brasiliensis",
+      "scientificName": "Purussaurus brasiliensis",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Purussaurus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Archosauria",
+        "Crocodylia",
+        "Alligatoridae",
+        "Caimaninae"
+      ],
+      "aliases": [
+        "obří kajman",
+        "miocenní kajman"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/purussaurus-brasiliensis.webp",
+        "alt": {
+          "cs": "Obrovský kajman se širokým čenichem spočívá v mělké hnědé vodě. Hlavou míří doleva, za ním se stáčí mohutný ocas."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Široký obrys hlavy vychází z brazilské lebky. Zbytek těla, zbarvení a vodní prostředí zachycují jednu možnou podobu živého zvířete."
+        },
+        "sourceIds": [
+          "fauna12-pu-anat"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Neogén, pozdní miocén, přibližně před 8 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-pu-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Solimões ve státě Acre v západní Brazílii"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-pu-anat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Jeden z novějších modelů odhaduje pro exemplář UFAC 1403 asi 8 m."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-pu-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Pro stejný exemplář vychází v tomto modelu přibližně 3,5 tuny."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-pu-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Velký masožravec schopný ulovit i značně velké obratlovce."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-pu-anat"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Purussaurus",
+          "ageLabel": "Neogén, pozdní miocén, přibližně před 8 miliony let",
+          "location": "Souvrství Solimões ve státě Acre v západní Brazílii",
+          "groupLabel": "Kajmani",
+          "cardSummary": "V miocenních vodách západní Amazonie žil kajman s mimořádně širokou lebkou. Velkou část horní strany čenichu zabíral nosní otvor.",
+          "summary": "V miocenních vodách západní Amazonie žil kajman s mimořádně širokou lebkou. Velkou část horní strany čenichu zabíral nosní otvor. Délku jeho těla badatelé dopočítávají porovnáním fosilní lebky s rozměry žijících krokodýlů a kajmanů.",
+          "quizHint": "Široká, robustní hlava končí mohutně zaobleným čenichem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široká, robustní hlava končí mohutně zaobleným čenichem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pu-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Při pohledu na lebku shora zaujme mimořádně velký otvor pro nozdry."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pu-anat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "V přední části silných čelistí seděly mohutné kuželovité zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-pu-anat"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široká, robustní hlava končí mohutně zaobleným čenichem. Při pohledu na lebku shora zaujme mimořádně velký otvor pro nozdry."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna12-pu-anat"
+            ]
+          },
+          "sections": [
+            {
+              "id": "lebka",
+              "title": "Lebka z brazilského Acre",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvlášť důležitý brazilský exemplář nese označení UFAC 1403. Jeho lebka umožňuje změřit šířku hlavy i délku čenichu a srovnat je s dnešními druhy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pu-anat",
+                    "fauna12-pu-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nozdry",
+              "title": "Velký otvor v čenichu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V kostech na horní straně čenichu je mimořádně velký nosní otvor. U živého kajmana jeho vnější vzhled dotvářely měkké tkáně."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pu-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delka",
+              "title": "Proč se odhady liší",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pro stejnou fosilii vyšel v roce 2015 odhad okolo 12,5 metru. Pozdější výpočet zohlednil příbuznost a proporce dospělých krokodýlů a dal střední hodnotu asi osm metrů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-pu-anat",
+                    "fauna12-pu-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hmotnost",
+              "title": "Kolik mohl vážit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Model z roku 2022 spojuje osmimetrový odhad s hmotností asi 3,5 tuny. Výsledek závisí na zvolené srovnávací skupině žijících zvířat."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-pu-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jidlo",
+              "title": "Co naznačují zuby a čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výpočty založené na lebce ukazují na mimořádně silný skus. Vědci proto předpokládají, že velký jedinec zvládl širokou škálu kořisti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-pu-anat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "amazonie",
+              "title": "Krajina západní Amazonie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vrstvy souvrství Solimões uchovaly pozůstatky vodní fauny miocenní Jižní Ameriky. Právě k ní patřil i tento příbuzný dnešních kajmanů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-pu-anat",
+                    "fauna12-pu-size"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 8.0,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna12-pu-size"
+        ],
+        "note": {
+          "cs": "Zaokrouhlený střední odhad z modelu Paivy a kolegů pro lebku UFAC 1403. Jiné modely dávají odlišné výsledky."
+        }
+      }
+    },
+    {
+      "id": "esox-nogaicus",
+      "scientificName": "Esox nogaicus",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Esox",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Actinopterygii",
+        "Esociformes",
+        "Esocidae"
+      ],
+      "aliases": [
+        "pleistocenní štika",
+        "fosilní štika z Ukrajiny"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/esox-nogaicus.webp",
+        "alt": {
+          "cs": "Štika s dlouhým čenichem a ploutvemi posunutými k ocasu plave doleva mezi stonky v mělké sladké vodě."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Fosilie dokládají především stavbu čelistí. Celkový obrys a poloha ploutví vycházejí z žijících příbuzných. Barva a skvrny jsou ilustrační."
+        },
+        "sourceIds": [
+          "fauna12-es-spec",
+          "fauna12-es-rel"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Čtvrtohory, raný pleistocén, kalábr"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-es-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Naleziště Nogaisk na jihu Ukrajiny"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna12-es-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dochované části hlavy neudávají celkovou délku živé ryby."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-es-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost jedince z těchto zbytků neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna12-es-spec"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Dravá ryba podle chrupu a srovnání s žijícími štikami."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna12-es-spec",
+            "fauna12-es-rel"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Štika z Nogaisku",
+          "ageLabel": "Čtvrtohory, raný pleistocén, kalábr",
+          "location": "Naleziště Nogaisk na jihu Ukrajiny",
+          "groupLabel": "Štikovití",
+          "cardSummary": "Tuhle vyhynulou štiku prozradila mimořádně robustní spodní čelist. V místě, kde se setkávaly její pravá a levá polovina, byla kost nápadně vysoká.",
+          "summary": "Tuhle vyhynulou štiku prozradila mimořádně robustní spodní čelist. V místě, kde se setkávaly její pravá a levá polovina, byla kost nápadně vysoká. Paleontologové nový druh popsali podle nálezů z raného pleistocénu na jihu dnešní Ukrajiny.",
+          "quizHint": "Spodní čelist tvoří velmi robustní kost s vysokým předním koncem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Spodní čelist tvoří velmi robustní kost s vysokým předním koncem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna12-es-spec"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Protáhlé tělo a hřbetní ploutev blízko ocasu známe u dnešních štik. Obrázek vychází z jejich podoby."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna12-es-rel"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na předním konci radličné kosti v patře mohla mít dvojici pevně uchycených velkých zubů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna12-es-spec"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Spodní čelist tvoří velmi robustní kost s vysokým předním koncem. Protáhlé tělo a hřbetní ploutev blízko ocasu známe u dnešních štik. Obrázek vychází z jejich podoby."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna12-es-spec",
+              "fauna12-es-rel"
+            ]
+          },
+          "sections": [
+            {
+              "id": "celist",
+              "title": "Jak poznat druh podle kosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Levá a pravá polovina dolní čelisti se vpředu spojují. Výška a tvar tohoto spoje se u druhu z Nogaisku odlišují od ostatních zkoumaných evropských štik."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-es-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "patro",
+              "title": "Zuby v patře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Autoři popisu se domnívají, že na radličné kosti mohla být dvojice větších pevných zubů. Tento detail označili za možný poznávací znak."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-es-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sladkavoda",
+              "title": "Kde se štiky našly",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pozůstatky pocházejí z lokality Nogaisk. Jsou součástí širšího fosilního záznamu sladkovodních ryb jihovýchodní Evropy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-es-spec"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "silueta",
+              "title": "Jak vznikla rekonstrukce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní štiky mají protáhlé tělo a hřbetní i řitní ploutev blízko ocasu. Tyto proporce slouží jako předloha pro části fosilního druhu, které se nedochovaly pohromadě."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-es-spec",
+                    "fauna12-es-rel"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Příbuzní čekající v úkrytu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žijící štiky často loví rychlým výpadem ze zálohy. Podobný způsob lovu je u fosilního druhu možný, samotné čelisti však jeho chování přímo nezachycují."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna12-es-spec",
+                    "fauna12-es-rel"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Různé štiky pleistocénu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Při zkoumání východoevropských nalezišť vědci rozlišili několik druhů. Vedle vyhynulé štiky z Nogaisku doložili pro raný pleistocén jihovýchodní Evropy také dnešní štiku obecnou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna12-es-spec"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

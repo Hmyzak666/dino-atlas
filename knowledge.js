@@ -606,11 +606,11 @@ window.DINO_KNOWLEDGE = {
 },
 "bird": {
   "title": "Ptáci",
-  "range": "Aves",
+  "range": "Od jurských zástupců ptačí linie po současnost",
   "sections": [
     [
       "Příbuznost",
-      "Ptáci patří do vývojové větve teropodních dinosaurů. V atlasu mají vlastní přehledovou skupinu."
+      "Ptáci patří mezi teropodní dinosaury. Jurského archeopteryxe proto v atlasu najdeš ve skupinách Ptáci i Dinosauři."
     ],
     [
       "Nelétaví obři",
@@ -618,7 +618,8 @@ window.DINO_KNOWLEDGE = {
     ]
   ],
   "sources": [
-    "https://www.amnh.org/explore/news-blogs/gastornis-gigantea"
+    "https://www.amnh.org/explore/news-blogs/gastornis-gigantea",
+    "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
   ]
 },
 "quaternary": {

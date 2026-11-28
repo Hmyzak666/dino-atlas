@@ -45,10 +45,10 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   await checkQuizPosition();
   assert.equal(await page.locator('[data-quiz-category="all"]').getAttribute('aria-pressed'),'true');
   if(db.dinosaurs.length>72) await page.locator('[data-quiz-era="mesozoic"]').click();
-  for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
+  for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','bird','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
    await page.locator(`[data-quiz-category="${category}"]`).click();
    await page.locator(`[data-quiz-period="${period}"]`).click();
-   const pool=db.dinosaurs.filter(a=>(category==='all'||a.category===category)&&(period==='all'||a.period===period));
+   const pool=app.categoryAnimals(db.dinosaurs,category).filter(a=>app.periodInEra(a.period,'mesozoic')&&(period==='all'||a.period===period));
    if(!app.makeQuiz(pool).length){assert.match(await page.locator('#quiz-content').textContent(),/alespoň tři/);continue;}
    const options=await page.locator('[data-answer]').evaluateAll(els=>els.map(el=>el.dataset.answer));
    assert.equal(options.length,3);assert.ok(options.every(id=>pool.some(a=>a.id===id)));

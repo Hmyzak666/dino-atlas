@@ -1,4 +1,4 @@
-> **27. 11. 2026 · Dino Atlas 1.1.0 (1010011)** obsahuje 256 zvířat a 256 ilustrací. Deset bezobratlých doplňuje deset období od kambria po čtvrtohory. [Přehled druhů](docs/RELEASE-1.1.0.md)
+> **28. 11. 2026 · Dino Atlas 1.1.0 (1010012)** obsahuje 266 zvířat a 266 ilustrací. Deset nových druhů doplňuje dosud prázdné skupiny v jednotlivých obdobích. Mezi jurskými ptáky najdeš také archeopteryxe. [Přehled druhů](docs/RELEASE-1.1.0.md)
 
 > **27. 11. 2026 · Dino Atlas 1.1.0 (1010010)** obsahuje 246 zvířat a 246 ilustrací. Přibyli tři dinosauři a sedm bezobratlých. [Přehled druhů](docs/RELEASE-1.1.0.md)
 
