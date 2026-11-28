@@ -1,4 +1,40 @@
+> **28. 11. 2026 · Dino Atlas 1.1.0 (1010014)** obsahuje 286 zvířat a 286 ilustrací. Tři konodonti a šest zástupců pláštěnců doplnili devět dosud prázdných období ve skupině raných strunatců. Kožatka velká se objevuje mezi čtvrtohorními mořskými plazy. [Přehled zvířat](docs/RELEASE-1.1.0.md)
+
+> **27. 11. 2026 · Dino Atlas 1.1.0 (1010010)** obsahuje 246 zvířat a 246 ilustrací. Přibyli tři dinosauři a sedm bezobratlých. [Přehled druhů](docs/RELEASE-1.1.0.md)
+
+> **26. 11. 2026 · Dino Atlas 1.1.0 (1010009)** obsahuje 236 zvířat a 236 ilustrací. Čtyři nové desítky zahrnují 32 bezobratlých a osm obratlovců. [Přehled druhů](docs/RELEASE-1.1.0.md)
+
+> **25. 11. 2026 · Dino Atlas 1.1.0 (1010008)** má 196 zvířat. Přibylo 13 dinosaurů s českými kartami. Novou ilustraci mají Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. [Přehled dávky](docs/RELEASE-1.1.0.md)
+
+> **18. 11. 2026 — 1.1.0, poslední dávka (1010007):** Všech 71 nových zvířat vloženo, celkem **183 zvířat a 183 obrázků**. Poslední sada: Peltephilus a deset dinosaurů až po Lambeosaura. Všech předchozích 172 záznamů, obrázků a zdrojů zachováno. [Poslední dávka](docs/FINAL-BATCH07.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Zdroje připravené k sestavení APK. Pouze pracovní větev. Starší údaje níže jsou historie.
+
+> **18. 11. 2026 — 1.1.0, šestá desítka (1010006):** 172 zvířat; 60 ze 71 položek vloženo, 11 zbývá. Nově Elasmotherium až Dromornis. Všech předchozích 162 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; mobilní a telefonní testy čekají. [Dávka 06](docs/CENOZOIC-BATCH06.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Bez APK a bez sloučení do main.
+
+> **18. 11. 2026 — 1.1.0, pátá desítka (1010005):** 162 zvířat; 50 ze 71 nových vloženo, 21 zbývá. Nově pratur až Macrauchenia, včetně moa a Megalanie. Všech předchozích 152 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; mobilní a telefonní testy čekají. [Dávka 05](docs/CENOZOIC-BATCH05.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Bez APK a bez sloučení do main.
+
+> **18. 11. 2026 — 1.1.0, čtvrtá desítka (1010004):** 152 zvířat; 40 z 71 nových vloženo, 31 zbývá. Nově mamut srstnatý až Thylacoleo. Všech předchozích 142 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; místní Chromium blokuje prostředí, UI testy čekají. [Dávka 04](docs/CENOZOIC-BATCH04.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Bez APK a bez sloučení do main.
+
+> **18. 11. 2026 — 1.1.0, třetí desítka (1010003):** 142 zvířat; 30 z 71 nových vloženo, 41 zbývá. Nově Amphicyon až Aepycamelus; všech předchozích 132 záznamů, obrázků a zdrojů zachováno. `npm test` PASS. APK se zatím nesestavuje. [Dávka 03](docs/CENOZOIC-BATCH03.md) · [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md). Pouze pracovní větev, bez sloučení do main.
+
+> **18. 11. 2026 — 1.1.0, druhá desítka (1010002):** 132 zvířat; 20 z 71 nových vloženo, 51 zbývá. Nově Megatherium až Samotherium, čtvrtohorní filtr a srovnání rozpětí Argentavise. Všech předchozích 122 záznamů, obrázků a zdrojů zachováno. `npm test` PASS; bez APK, sestavení na PC až se všemi zvířaty. [Dávka 02](docs/CENOZOIC-BATCH02.md) · [Souhrn 1.1.0](docs/RELEASE-1.1.0.md). Pouze pracovní větev, neslučovat do main.
+
+> **18. 11. 2026 — 1.1.0, první desítka (1010001):** 122 zvířat. Přidáni Paraceratherium až Chalicotherium s vybranými obrázky, českými texty a zdroji. Nové skupiny Savci/Ptáci a filtr Třetihory. Všech 112 původních záznamů a obrázků zachováno. `npm test` PASS; UI testy blokuje spuštění Chromium (socket Operation not permitted). Na přání uživatele bez sestavení APK, sestavení proběhne na PC. [Soupis a návod](docs/CENOZOIC-BATCH01.md). Zbývá 61 položek z předání 71. Neslučovat do main.
+
+> **8. 11. 2026 — sestavení 1000013:** Vloženo 30 schválených nových ilustrací včetně posledního Edesta a Vulcanidris. Dalších 24 původních obrazů zvětšeno Lanczos; 58 zachováno po bajtech. Všech 112 WebP má 1536 × 1024. Metadata směru opravena u Euryptera a Cladoselache; ostatní data a funkce zachované. Obsahové testy prošly. Lokální UI testy blokuje prostředí při spuštění Chromium (socket Operation not permitted); ověření CI a APK zatím nedokončeno. Původní soubory obnovitelné z `bf62a3bc7e2c05a5699fc7c4cd2fca4879237a75`. Pouze `feature/paleozoic-1.0.0`, neslučovat do main. [Přehled](docs/approved-thirty-2026-11-08.json).
+
+> **6. 11. 2026 — sestavení 1000012 dokončeno:** Obsahové i mobilní testy prošly v GitHub Actions [42279856540](https://github.com/Hmyzak666/dino-atlas/actions/runs/42279856540). Podepsané APK ověřeno: původní certifikát, 112 druhů a přesná shoda všech zabalených souborů se zdroji commitu `062f38d7b62b50757a6934eadd8a46d7103fd417`. Nových 12 schválených obrázků, jediný zaoblený rámeček vyhledávání a šipka zpět; 100 ostatních obrázků zachováno. Zkouška aktualizace na telefonu čeká. Pouze `feature/paleozoic-1.0.0`, bez sloučení do main.
+
+> **Aktuálně 27. 10. 2026 — dávka 06 / 1000006:** Dva přesné ořezy (Pulmonoscorpius a Arthropleura) a nová rekonstrukce Edesta. 112 druhů zachováno. Zbývá sedm permských náhrad; lokální testy prošly, podepsané APK zatím nepotvrzené. [Předání](docs/VISUAL-REFRESH-BATCH06.md). Neslučovat do main. Starší údaje níže jsou historie.
+
+> **Aktuálně 27. 10. 2026 — dávka 05 / 1000005:** Vloženo pět karbonských rekonstrukcí, celkem 22 z 30 náhrad. Edestus odmítnut, zůstává původní; zbývá osm oprav (Edestus + perm 7). Lokální i GitHub testy prošly, podepsané APK 1000005 je hotové. Čeká hodnocení uživatele. [Předání](docs/VISUAL-REFRESH-BATCH05.md). Neslučovat do main. Starší údaje níže jsou historie.
+
+> **Aktuálně 26. 10. 2026 — dávka 04, kandidát 1000004:** Pět nových ordovických scén; předchozí kambrická dávka vizuálně schválená. Zachováno 112 druhů, nahrazeno 17 z 30 plánovaných obrazů, zbývá 13 (karbon 6, perm 7). Lokální i GitHub testy prošly; podepsané APK 1000004 je hotové a ověřené. Čeká uživatelská kontrola nové dávky. [Předání dávky 04](docs/VISUAL-REFRESH-BATCH04.md). Neslučovat do main. Starší údaje níže jsou historie.
+
 # Dino Atlas
+
+> **Aktuálně 26. 10. 2026 — dávka 03, kandidát 1000003:** Vložených šest nových kambrických scén; předchozí dvě trojice vizuálně schválené uživatelem. Celkem 112 druhů, 12 z 30 plánovaných obrazových náhrad; 18 zbývá. Lokální i GitHub testy prošly, podepsané APK 1000003 je hotové; čeká uživatelská kontrola dávky. [Aktuální předání](docs/VISUAL-REFRESH-BATCH03.md). Neslučovat do main. Starší údaje níže jsou historie.
+
+> **Pracovní 1.0.0, kandidát build 1000002:** 112 druhů, šest ze třiceti plánovaných obrazových náhrad vloženo (první tři schválené uživatelem). Nově Acutiramus, Birkenia a Dunkleosteus. Zbývá 24 oprav; nejde o finální vydání. Lokální i GitHub testy prošly a podepsané APK 1000002 je hotové; čeká kontrola této dávky na telefonu. [Stav dávky](docs/VISUAL-REFRESH-BATCH02.md). **Neslučovat do main.**
 
 Český atlas pravěkých zvířat pro děti i dospělé. Android aplikace používá společné HTML, CSS, JavaScript a JSON ve vestavěném WebView. Atlas, obrázky a kvíz fungují bez internetu; čtení používá stažený český hlas telefonu.
 

@@ -16,16 +16,17 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/#atlas`);
   await page.locator('.dino-card').first().waitFor();
+  if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
   await page.locator('[data-category="arthropod"]').click();
-  assert.equal(await page.locator('.dino-card').count(),9);
+  assert.equal(await page.locator('.dino-card').count(),18);
   await page.locator('[data-period="triassic"]').click();
   await page.locator('#search').fill('proto');
   await page.locator('#card-protobuthus-ziliolii').click();
   await page.locator('[data-detail-period="jurassic"]').click();
-  await page.waitForURL('**/#dinosaurus/cymatophlebia-longialata');
-  assert.equal(await page.locator('.detail-position').textContent(),'1 / 3');
+  await page.waitForURL('**/#dinosaurus/antrimpos-speciosus');
+  assert.equal(await page.locator('.detail-position').textContent(),'1 / 7');
   await page.locator('[data-detail-step="1"]').click();
-  await page.waitForURL('**/#dinosaurus/mecochirus-longimanatus');
+  await page.waitForURL('**/#dinosaurus/cymatophlebia-longialata');
   await page.goBack();await page.waitForURL('**/#atlas');
   assert.equal(await page.locator('#search').inputValue(),'proto');
   assert.equal(await page.locator('[data-period="triassic"]').getAttribute('aria-pressed'),'true');
@@ -43,10 +44,11 @@ const server=http.createServer(async(req,res)=>{try {const file=path.join(root,n
   await page.locator('[data-nav="kviz"]').click();
   await checkQuizPosition();
   assert.equal(await page.locator('[data-quiz-category="all"]').getAttribute('aria-pressed'),'true');
-  for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
+  if(db.dinosaurs.length>72) await page.locator('[data-quiz-era="mesozoic"]').click();
+  for(const category of ['arthropod','pterosaur','marine-reptile','dinosaur','bird','all']) for(const period of ['triassic','jurassic','cretaceous','all']) {
    await page.locator(`[data-quiz-category="${category}"]`).click();
    await page.locator(`[data-quiz-period="${period}"]`).click();
-   const pool=db.dinosaurs.filter(a=>(category==='all'||a.category===category)&&(period==='all'||a.period===period));
+   const pool=app.categoryAnimals(db.dinosaurs,category).filter(a=>app.periodInEra(a.period,'mesozoic')&&(period==='all'||a.period===period));
    if(!app.makeQuiz(pool).length){assert.match(await page.locator('#quiz-content').textContent(),/alespoň tři/);continue;}
    const options=await page.locator('[data-answer]').evaluateAll(els=>els.map(el=>el.dataset.answer));
    assert.equal(options.length,3);assert.ok(options.every(id=>pool.some(a=>a.id===id)));

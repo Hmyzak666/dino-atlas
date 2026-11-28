@@ -23,11 +23,26 @@ jobs:
       - run: npm ci
       - run: npm test
       - name: Připravit prohlížeč pro testy
-        run: npx playwright install --with-deps chromium --only-shell
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            dino_browser_path="$(command -v google-chrome)"
+            "$dino_browser_path" --version
+            printf 'DINO_BROWSER_PATH=%s\n' "$dino_browser_path" >> "$GITHUB_ENV"
+          else
+            timeout 180 npx playwright install --with-deps chromium --only-shell
+          fi
       - name: Ověřit mobilní rozhraní a uložené volby
         env:
           DINO_QA_DIR: ${{ runner.temp }}/dino-atlas-qa
         run: npm run test:ui
+
+      - name: Save mobile UI verification screenshots
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: Dino-Atlas-UI-checks
+          path: ${{ runner.temp }}/dino-atlas-qa/
+          retention-days: 7
 
   apk:
     name: Sestavit a ověřit Android

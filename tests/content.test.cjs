@@ -6,12 +6,14 @@ const db = require('../dinosaurs.json');
 const byId = new Map(db.dinosaurs.map(a => [a.id, a]));
 
 assert.equal(app.validateDatabase(db), true);
-assert.equal(db.dinosaurs.length, 72);
-assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile', 'arthropod'].map(category => [category, app.categoryAnimals(db.dinosaurs, category).length])),
+assert.ok([72,78,83,88,96,104,112,122,132,142,152,162,172,183,196,236,246,256,266,276,286].includes(db.dinosaurs.length), 'The catalog must match a verified content batch');
+const original = db.dinosaurs.slice(0,72);
+assert.equal(original.length,72);
+assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile', 'arthropod'].map(category => [category, app.categoryAnimals(original, category).length])),
   { dinosaur: 45, pterosaur: 10, 'marine-reptile': 8, arthropod: 9 });
 
 const addedIds = ['eoraptor-lunensis','herrerasaurus-ischigualastensis','eodromaeus-murphi','saturnalia-tupiniquim','riojasaurus-incertus','eudimorphodon-ranzii','peteinosaurus-zambellii','nothosaurus-mirabilis','shonisaurus-popularis'];
-assert.equal(db.dinosaurs.filter(a => a.period === 'triassic').length, 17);
+assert.equal(db.dinosaurs.filter(a => a.period === 'triassic').length, 29);
 for (const id of addedIds) {
   const animal = byId.get(id);
   assert.equal(animal.period, 'triassic', id);
@@ -106,4 +108,4 @@ const pterosaur = byId.get('rhamphorhynchus-muensteri');
 assert.match(app.narrationText(pterosaur,'comparison'),/Rozpětí křídel/);
 assert.match(app.narrationText(pterosaur,'comparison',1.1),/1,1 metru/);
 assert.equal(app.narrationText(brachio,'missing-section'),'');
-console.log('PASS: 72 animals, all images and narration targets, preserved spelling, separate facts, Czech sorting, filters, and 500 quizzes.');
+console.log('PASS: 72 preserved animals, '+db.dinosaurs.length+' installed entries, all images and narration targets, Czech sorting, filters, and quizzes.');

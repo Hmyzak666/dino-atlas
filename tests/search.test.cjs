@@ -6,9 +6,9 @@ const find = options => app.filteredDinosaurs(db.dinosaurs, {...state, ...option
 assert.equal(app.normalize('ČESKÝ ještěr'), 'cesky jester');
 assert.equal(find({query:'  BRACHIOSAURUS  '})[0].id, 'brachiosaurus-altithorax');
 assert.deepEqual(find({query:'neexistujici-zvire'}), []);
-assert.equal(find({category:'dinosaur', period:'triassic'}).length, 9);
+assert.equal(find({category:'dinosaur', period:'triassic'}).length, 10);
 assert.equal(find({category:'pterosaur', period:'triassic'}).length, 3);
-assert.equal(find({category:'marine-reptile', period:'triassic'}).length, 2);
+assert.deepEqual(find({category:'marine-reptile', period:'triassic'}).map(a => a.id), ['atopodentatus-unicus', 'nothosaurus-mirabilis', 'shonisaurus-popularis']);
 assert.deepEqual(find({category:'pterosaur', diet:'herbivore'}), []);
 assert.deepEqual(find({category:'marine-reptile', query:'eoraptor'}), []);
 assert.deepEqual(find({favoritesOnly:true}), []);

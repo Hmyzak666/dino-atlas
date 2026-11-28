@@ -1,0 +1,2172 @@
+{
+  "status": "draft-awaiting-eight-original-webp-images",
+  "period": "carboniferous",
+  "reviewedAt": "2026-10-25",
+  "explanation": "Osm samostatných českých vědeckých hesel karbonu, zatím mimo aktivní databázi. Před začleněním musí být vytvořeno přesně osm individuálních WebP rekonstukcí, proveden obrazový audit a kompletní testy.",
+  "sources": {
+    "carbon-arthro-2024": {
+      "title": "Lhéritier et al. 2024: Arthropleura head anatomy",
+      "shortTitle": "Lhéritier et al. 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11463278/",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-arthro-nhm": {
+      "title": "Natural History Museum 2024: Arthropleura new head fossils",
+      "shortTitle": "Natural History Museum 2024",
+      "url": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-meganeura-mnhn": {
+      "title": "MNHN Paris: Meganeura monyi fossil wing and 70 cm span",
+      "shortTitle": "MNHN Paris",
+      "url": "https://www.mnhn.fr/fr/meganeura-monyi-libellule-geante",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-pulmo-museum": {
+      "title": "National Museums Scotland: Pulmonoscorpius kirktonensis",
+      "shortTitle": "National Museums Scotland",
+      "url": "https://www.nms.ac.uk/collections/search/object?common-name=Scorpion&entry=605091&page=3&view=cards",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-pulmo-jncc": {
+      "title": "JNCC Geological Conservation Review: East Kirkton Carboniferous scorpions",
+      "shortTitle": "JNCC Geological Conservation Review",
+      "url": "https://data.jncc.gov.uk/data/6b9e4254-1fb9-41ef-acc4-caf6180a731c/gcr-v35-fossil-arthropods-c3.pdf",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-hyl-smithsonian": {
+      "title": "Smithsonian NMNH: Hylonomus lyelli specimen",
+      "shortTitle": "Smithsonian NMNH",
+      "url": "https://www.si.edu/object/hylonomus-lyelli-dawson-1860%3Anmnhpaleobiology_3441092",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-hyl-carroll": {
+      "title": "Carroll 1966: Joggins fossil Hylonomus actually a reptile",
+      "shortTitle": "Carroll 1966",
+      "url": "https://doi.org/10.1111/j.1095-8312.1966.tb00952.x",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-greer-smithsonian": {
+      "title": "Smithsonian NMNH: Greererpeton burkemorani",
+      "shortTitle": "Smithsonian NMNH",
+      "url": "https://www.si.edu/es/object/nmnhpaleobiology_3441105",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-greer-1982": {
+      "title": "Smithson 1982: Cranial morphology Greererpeton burkemorani",
+      "shortTitle": "Smithson 1982",
+      "url": "https://doi.org/10.1111/j.1096-3642.1982.tb01955.x",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-edestus-2020": {
+      "title": "Tapanila et al. 2020: Saws Scissors and Sharks, Edestus",
+      "shortTitle": "Tapanila et al. 2020",
+      "url": "https://doi.org/10.1002/ar.24046",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-petro-reisz": {
+      "title": "Reisz 1977: Petrolacosaurus oldest known diapsid",
+      "shortTitle": "Reisz 1977",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17778545/",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-petro-benton": {
+      "title": "Benton 1985: Classification and phylogeny of diapsid reptiles",
+      "shortTitle": "Benton 1985",
+      "url": "https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/5/537/files/2019/07/1985Classification.pdf",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-crassi-2023": {
+      "title": "Porro et al. 2023: CT reconstructed skull of Crassigyrinus",
+      "shortTitle": "Porro et al. 2023",
+      "url": "https://doi.org/10.1080/02724634.2023.2183134",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    },
+    "carbon-crassi-nhm": {
+      "title": "Natural History Museum 2023: Crassigyrinus skull",
+      "shortTitle": "Natural History Museum 2023",
+      "url": "https://www.nhm.ac.uk/discover/news/2023/may/crushed-scottish-fossils-reconstructed-reveal-ancient-predators-skull.html",
+      "kind": "Muzejní nebo recenzovaný vědecký pramen",
+      "accessedAt": "2026-10-25"
+    }
+  },
+  "animals": [
+    {
+      "id": "arthropleura-armata",
+      "scientificName": "Arthropleura armata",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "carboniferous",
+      "diet": "unknown",
+      "group": "Arthropleura",
+      "taxonomy": [
+        "Arthropoda",
+        "Myriapoda",
+        "Arthropleuridea",
+        "Arthropleura"
+      ],
+      "aliases": [
+        "arthropleura",
+        "obří mnohonožka"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Arthropleura",
+      "image": {
+        "src": "images/arthropleura-armata.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Arthropleura."
+        },
+        "status": "awaiting-original-image",
+        "facing": "right",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Karbon, zhruba před 315–300 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-arthro-2024",
+            "carbon-arthro-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Evropa, včetně Británie a Francie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-arthro-2024",
+            "carbon-arthro-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "2,6 m je odhad největších exemplářů rodu, nikoli průměrná velikost ani přesná délka každé fosilie druhu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-arthro-2024",
+            "carbon-arthro-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesně neznámá"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Arthropleura",
+          "ageLabel": "Karbon, zhruba před 315–300 miliony let",
+          "location": "Evropa, včetně Británie a Francie",
+          "groupLabel": "Vyhynulí mnohonozí členovci",
+          "cardSummary": "Obří suchozemský členovec dlouhý až kolem 2,6 metru.",
+          "summary": "Obrovský mnohonohý suchozemský členovec s plochým, článkovaným tělem a mnoha páry nohou. Výzkum hlavy z roku 2024 ukázal znaky příbuzné stonožkám i mnohonožkám.",
+          "quizHint": "Má široké zploštělé článkované tělo a mnoho krátkých nohou.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široké ploché tělo rozčleněné na mnoho oddílů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-arthro-2024",
+                "carbon-arthro-nhm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Po bocích řady četných končetin, ne jen osm nohou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-arthro-2024",
+                "carbon-arthro-nhm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Malá hlava s tykadly a kusadly, nikoli dravá škorpióní klepeta."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-arthro-2024",
+                "carbon-arthro-nhm"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široké ploché tělo rozčleněné na mnoho oddílů. Po bocích řady četných končetin, ne jen osm nohou. Malá hlava s tykadly a kusadly, nikoli dravá škorpióní klepeta. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-arthro-2024",
+              "carbon-arthro-nhm"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Obrovský členovec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Někteří jedinci rodu Arthropleura dorůstali podle fosilií a jejich velikostních odhadů až asi 2,6 metru."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-arthro-2024",
+                    "carbon-arthro-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Nově prozkoumaná hlava",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tomografie nálezů z Francie v roce 2024 odhalila hlavu s kusadly a dalšími znaky podobnými stonožkám, zatímco trup připomínal mnohonožky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-arthro-2024",
+                    "carbon-arthro-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Mnoho končetin",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Články trupu byly spojeny s dvojicemi párů končetin, jak ukazují zachované části těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-arthro-2024",
+                    "carbon-arthro-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Příbuzenské vztahy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Studie ji zařazuje mezi dávné příbuzné dnešních mnohonožek. Není to obří hmyz ani skutečná stonožka dnešního typu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-arthro-2024",
+                    "carbon-arthro-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Potrava je nejistá",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přestože vzhled svádí k označení za býložravce, přímé doklady přesného jídelníčku chybějí."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Barva, délka života a přesný výběr rostlinné či jiné potravy nejsou známy."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2.6,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-arthro-2024",
+          "carbon-arthro-nhm"
+        ],
+        "note": {
+          "cs": "2,6 m je odhad největších exemplářů rodu, nikoli průměrná velikost ani přesná délka každé fosilie druhu."
+        }
+      },
+      "lengthM": {
+        "estimate": 2.6,
+        "scope": "2,6 m je odhad největších exemplářů rodu, nikoli průměrná velikost ani přesná délka každé fosilie druhu."
+      }
+    },
+    {
+      "id": "meganeura-monyi",
+      "scientificName": "Meganeura monyi",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Meganeura",
+      "taxonomy": [
+        "Arthropoda",
+        "Insecta",
+        "Meganisoptera",
+        "Meganeuridae",
+        "Meganeura"
+      ],
+      "aliases": [
+        "meganeura",
+        "obří vážka"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Meganeura",
+      "image": {
+        "src": "images/meganeura-monyi.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Meganeura."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, asi před 300 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-meganeura-mnhn"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Francie, naleziště Commentry"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-meganeura-mnhn"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Rozpětí křídel"
+          },
+          "value": {
+            "cs": "70 cm je rozpětí křídel doložené fosilními křídly, nikoli délka těla."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-meganeura-mnhn"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-meganeura-mnhn"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Meganeura",
+          "ageLabel": "Pozdní karbon, asi před 300 miliony let",
+          "location": "Francie, naleziště Commentry",
+          "groupLabel": "Pravěký létající hmyz · meganeuridi",
+          "cardSummary": "Obří pravěký létající hmyz s rozpětím křídel 70 cm.",
+          "summary": "Velký dravý létající hmyz vzdáleně podobný dnešním vážkám. Fosilie křídel ukazují rozpětí až asi 70 centimetrů.",
+          "quizHint": "Připomíná vážku se čtyřmi dlouhými blanitými křídly.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Čtyři dlouhá žilkovaná blanitá křídla."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-meganeura-mnhn"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Štíhlé prodloužené tělo a velké oči."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-meganeura-mnhn"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhé nohy zachycující kořist za letu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-meganeura-mnhn"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Čtyři dlouhá žilkovaná blanitá křídla. Štíhlé prodloužené tělo a velké oči. Dlouhé nohy zachycující kořist za letu. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-meganeura-mnhn"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Rozpětí křídel",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilní křídla z Commentry ve Francii dokládají rozpětí kolem 70 centimetrů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-meganeura-mnhn"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Není to dnešní vážka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Meganeura patřila mezi meganeuridy, příbuzné dnešních vážek, ale nevytvářela s nimi totožnou moderní skupinu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-meganeura-mnhn"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Žilkování křídel",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kostru křídel tvořila hustá síť žilek. Právě otisky žilkování umožňují druh rozpoznat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-meganeura-mnhn"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Možný lov za letu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Její tělesný plán odpovídá dravému létajícímu hmyzu, přesné druhy kořisti však fosilie neurčují."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-meganeura-mnhn"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Vzduch karbonu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vyšší koncentrace kyslíku bývá uváděna jako jeden z možných faktorů gigantismu, ale sama není úplným vysvětlením."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-meganeura-mnhn"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesná barva křídel, způsob páření a maximální rychlost letu nejsou doložené."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "wingspan",
+        "valueM": 0.7,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-meganeura-mnhn"
+        ],
+        "note": {
+          "cs": "70 cm je rozpětí křídel doložené fosilními křídly, nikoli délka těla."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.7,
+        "scope": "70 cm je rozpětí křídel doložené fosilními křídly, nikoli délka těla."
+      }
+    },
+    {
+      "id": "pulmonoscorpius-kirktonensis",
+      "scientificName": "Pulmonoscorpius kirktonensis",
+      "taxonRank": "species",
+      "category": "arthropod",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Pulmonoscorpius",
+      "taxonomy": [
+        "Arthropoda",
+        "Chelicerata",
+        "Arachnida",
+        "Scorpiones",
+        "Pulmonoscorpius"
+      ],
+      "aliases": [
+        "pulmonoscorpius",
+        "pravěký štír"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Pulmonoskorpius",
+      "image": {
+        "src": "images/pulmonoscorpius-kirktonensis.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Pulmonoscorpius."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný karbon, zhruba před 335 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-pulmo-museum",
+            "carbon-pulmo-jncc"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Skotsko, lokalita East Kirkton"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-pulmo-museum",
+            "carbon-pulmo-jncc"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "70 cm je nejvyšší publikovaný odhad z neúplných velkých fosilií; většina známých úplnějších jedinců byla výrazně menší."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-pulmo-museum",
+            "carbon-pulmo-jncc"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-pulmo-museum",
+            "carbon-pulmo-jncc"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pulmonoscorpius",
+          "ageLabel": "Raný karbon, zhruba před 335 miliony let",
+          "location": "Skotsko, lokalita East Kirkton",
+          "groupLabel": "Praví štíři · starobylé formy",
+          "cardSummary": "Pravý štír z karbonských lesů, možná až 70 cm dlouhý.",
+          "summary": "Velký pravý štír ze skotského karbonu. Fosilie prokazují přizpůsobení souši, včetně plicních vaků; neúplné nálezy naznačují, že největší mohl dosáhnout až asi 70 cm.",
+          "quizHint": "Typický štír se dvěma klepety a zahnutým ocasem s bodcem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Pár velkých předních klepet."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-pulmo-museum",
+                "carbon-pulmo-jncc"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři páry kráčivých noh."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-pulmo-museum",
+                "carbon-pulmo-jncc"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Článkovaný zvednutý ocas zakončený hrotem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-pulmo-museum",
+                "carbon-pulmo-jncc"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Pár velkých předních klepet. Čtyři páry kráčivých noh. Článkovaný zvednutý ocas zakončený hrotem. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-pulmo-museum",
+              "carbon-pulmo-jncc"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Opravdový štír",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na rozdíl od silurských mořských štírů patřil Pulmonoscorpius ke skutečným štírům."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-pulmo-museum",
+                    "carbon-pulmo-jncc"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Velikost z fragmentů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Odhad až 70 cm pochází z velmi velkých neúplných fosilií. Dochovaní mladí jedinci byli podstatně menší."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-pulmo-museum",
+                    "carbon-pulmo-jncc"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Život na souši",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Příznaky knižních plic v anatomii dokládají přizpůsobení dýchání vzduchu na souši."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-pulmo-museum",
+                    "carbon-pulmo-jncc"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Skotské naleziště",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkameněliny pocházejí ze spodnokarbonského souvrství v lomu East Kirkton, známého výjimečným uchováním členovců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-pulmo-museum",
+                    "carbon-pulmo-jncc"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Lov malých živočichů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba klepet a těla odpovídá dravému štírovi, ale konkrétní kořist nelze přímo určit."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-pulmo-museum",
+                    "carbon-pulmo-jncc"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbarvení a přesná účinnost jedu v porovnání s dnešními štíry nejsou známé."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.7,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-pulmo-museum",
+          "carbon-pulmo-jncc"
+        ],
+        "note": {
+          "cs": "70 cm je nejvyšší publikovaný odhad z neúplných velkých fosilií; většina známých úplnějších jedinců byla výrazně menší."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.7,
+        "scope": "70 cm je nejvyšší publikovaný odhad z neúplných velkých fosilií; většina známých úplnějších jedinců byla výrazně menší."
+      }
+    },
+    {
+      "id": "hylonomus-lyelli",
+      "scientificName": "Hylonomus lyelli",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Hylonomus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Amniota",
+        "Sauropsida",
+        "Hylonomus"
+      ],
+      "aliases": [
+        "hylonomus",
+        "první plaz"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Hylonomus",
+      "image": {
+        "src": "images/hylonomus-lyelli.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Hylonomus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, zhruba před 315 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-hyl-smithsonian",
+            "carbon-hyl-carroll"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kanada, Joggins v Novém Skotsku"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-hyl-smithsonian",
+            "carbon-hyl-carroll"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Orientační délka 22 cm včetně dlouhého ocasu; skutečné exempláře se velikostí lišily."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-hyl-smithsonian",
+            "carbon-hyl-carroll"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-hyl-smithsonian",
+            "carbon-hyl-carroll"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Hylonomus",
+          "ageLabel": "Pozdní karbon, zhruba před 315 miliony let",
+          "location": "Kanada, Joggins v Novém Skotsku",
+          "groupLabel": "Raní plazi · raní amnioti",
+          "cardSummary": "Drobný raný plaz, jehož fosilie se našly ve fosilních stromech.",
+          "summary": "Drobné ještěrkovité zvíře patří k nejstarším známým skutečným plazům. Fosilie byly nalezeny uvnitř dutých fosilizovaných stromů na pobřeží dnešní Kanady.",
+          "quizHint": "Malé štíhlé ještěrkovité tělo, čtyři končetiny a dlouhý ocas.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Úzká hlava s malými zoubky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-hyl-smithsonian",
+                "carbon-hyl-carroll"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čtyři štíhlé končetiny s prsty."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-hyl-smithsonian",
+                "carbon-hyl-carroll"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dlouhý ocas navazující na šupinatý trup."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-hyl-smithsonian",
+                "carbon-hyl-carroll"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Úzká hlava s malými zoubky. Čtyři štíhlé končetiny s prsty. Dlouhý ocas navazující na šupinatý trup. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-hyl-smithsonian",
+              "carbon-hyl-carroll"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Raný skutečný plaz",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosterní stavba řadí Hylonomus mezi velmi časné známé plazy, nikoli mezi dnešní ještěrky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-hyl-smithsonian",
+                    "carbon-hyl-carroll"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Fosilie ve stromě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbytky byly nalezeny uvnitř dávných dutých stromových pařezů v Jogginské formaci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-hyl-smithsonian",
+                    "carbon-hyl-carroll"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Souš místo vody",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jako amniot patřil ke skupině, u níž rozmnožování nebylo vázáno na volnou vodu způsobem typickým pro mnoho obojživelníků."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-hyl-smithsonian",
+                    "carbon-hyl-carroll"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Hmyz na jídelníčku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby naznačují lov menších bezobratlých, jejichž přesný výběr však neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-hyl-smithsonian",
+                    "carbon-hyl-carroll"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Jak vypadal",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zachované kostry dokládají ještěrkovité proporce, ale barvu a měkký pokryv těla přímo neznáme."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-hyl-smithsonian",
+                    "carbon-hyl-carroll"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nelze jej označovat za prokázaného přímého předka dnešních ještěrek nebo savců."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.22,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-hyl-smithsonian",
+          "carbon-hyl-carroll"
+        ],
+        "note": {
+          "cs": "Orientační délka 22 cm včetně dlouhého ocasu; skutečné exempláře se velikostí lišily."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.22,
+        "scope": "Orientační délka 22 cm včetně dlouhého ocasu; skutečné exempláře se velikostí lišily."
+      }
+    },
+    {
+      "id": "greererpeton-burkemorani",
+      "scientificName": "Greererpeton burkemorani",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Greererpeton",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Tetrapoda",
+        "Colosteidae",
+        "Greererpeton"
+      ],
+      "aliases": [
+        "greererpeton",
+        "vodní raný čtyřnožec"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Grírerpeton",
+      "image": {
+        "src": "images/greererpeton-burkemorani.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Greererpeton."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný karbon, asi před 335–325 miliony lety"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-greer-smithsonian",
+            "carbon-greer-1982"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "USA, Západní Virginie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-greer-smithsonian",
+            "carbon-greer-1982"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka kolem 1,5 m je hrubé maximum pro velké jedince, nikoli průměrná délka fosilií."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-greer-smithsonian",
+            "carbon-greer-1982"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-greer-smithsonian",
+            "carbon-greer-1982"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Greererpeton",
+          "ageLabel": "Raný karbon, asi před 335–325 miliony lety",
+          "location": "USA, Západní Virginie",
+          "groupLabel": "Raní vodní čtyřnožci · kolosteidi",
+          "cardSummary": "Protáhlý vodní čtyřnožec s malými nohami.",
+          "summary": "Protáhlý téměř vodní čtyřnožec s plochou širokou hlavou, krátkýma nohama a dlouhým ocasem. Známé kostry ukazují výrazné přizpůsobení životu ve vodě.",
+          "quizHint": "Vypadá jako dlouhé nízké vodní zvíře se širokou hlavou a krátkými nohami.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protažené tělo s mnoha obratli."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-greer-smithsonian",
+                "carbon-greer-1982"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Plochá široká hlava s ozubenými čelistmi."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-greer-smithsonian",
+                "carbon-greer-1982"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Relativně krátké čtyři končetiny u dlouhého trupu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-greer-smithsonian",
+                "carbon-greer-1982"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protažené tělo s mnoha obratli. Plochá široká hlava s ozubenými čelistmi. Relativně krátké čtyři končetiny u dlouhého trupu. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-greer-smithsonian",
+              "carbon-greer-1982"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Vodní čtyřnožec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stavba trupu, končetin a lebky ukazuje hlavně vodní způsob života."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-greer-smithsonian",
+                    "carbon-greer-1982"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Mnoho obratlů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dlouhý trup měl více obratlů než u mnoha jiných raných čtyřnožců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-greer-smithsonian",
+                    "carbon-greer-1982"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Krátké končetiny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čtyři končetiny byly relativně krátké a patrně sloužily k řízení pohybu ve vodě více než k chůzi."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-greer-smithsonian",
+                    "carbon-greer-1982"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Kdy žil",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Greererpeton je známý z raně karbonských vrstev dnešní Západní Virginie a dalších severoamerických lokalit."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-greer-smithsonian",
+                    "carbon-greer-1982"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Dravé čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zuby a proporce lebky odpovídají lovci menší živočišné kořisti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-greer-smithsonian",
+                    "carbon-greer-1982"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přesné zbarvení, délku pobytu na souši ani rychlost plavání neumíme z fosilií stanovit."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 1.5,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-greer-smithsonian",
+          "carbon-greer-1982"
+        ],
+        "note": {
+          "cs": "Délka kolem 1,5 m je hrubé maximum pro velké jedince, nikoli průměrná délka fosilií."
+        }
+      },
+      "lengthM": {
+        "estimate": 1.5,
+        "scope": "Délka kolem 1,5 m je hrubé maximum pro velké jedince, nikoli průměrná délka fosilií."
+      }
+    },
+    {
+      "id": "edestus-heinrichi",
+      "scientificName": "Edestus heinrichi",
+      "taxonRank": "species",
+      "category": "fish",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Edestus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Chondrichthyes",
+        "Eugeneodontiformes",
+        "Edestidae",
+        "Edestus"
+      ],
+      "aliases": [
+        "edestus",
+        "edestus heinrichi",
+        "žralok s nůžkovými zuby"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Edestus",
+      "image": {
+        "src": "images/edestus-heinrichi.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Edestus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, přibližně před 310 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-edestus-2020"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní Amerika, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-edestus-2020"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Délka 4 m je pouze ilustrativní pracovní měřítko; kompletní tělo není doložené a tělesné odhady nejsou spolehlivě ověřené."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-edestus-2020"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-edestus-2020"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Edestus",
+          "ageLabel": "Pozdní karbon, přibližně před 310 miliony let",
+          "location": "Severní Amerika, USA",
+          "groupLabel": "Vyhynulé chrupavčité ryby · edestoidi",
+          "cardSummary": "Pravěká ryba s dvojicí nůžkovitých zubních čepelí.",
+          "summary": "Dávná chrupavčitá ryba známá především z velmi zvláštních řad zubů. Horní a dolní čelist nesly dvě proti sobě se pohybující zakřivené zubní čepele, vhodné k řezání kořisti.",
+          "quizHint": "Má protilehlé zakřivené zubní pásy, nikoli jednu spirálu jako Helicoprion.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dvě proti sobě stojící zakřivené řady ostrých zubů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-edestus-2020"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Zubní čepele vyrůstající ve střední linii čelistí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-edestus-2020"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Žralokovitý obecný tvar je pouze pracovní rekonstrukce."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-edestus-2020"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dvě proti sobě stojící zakřivené řady ostrých zubů. Zubní čepele vyrůstající ve střední linii čelistí. Žralokovitý obecný tvar je pouze pracovní rekonstrukce. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-edestus-2020"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Nůžkovité čelisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkum ukázal protilehlé zakřivené zubní čepele, které se při skusu posouvaly a mohly potravu rozřezávat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-edestus-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Není to Helicoprion",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na rozdíl od Helicopriona netvořily zuby typickou jedinou spodní spirálu; šlo o dvě zakřivené čepele."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-edestus-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Zuby rostly v řadě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Další zuby přirůstaly na konci řady a starší mohly postupně odpadat."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-edestus-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Možná kořist",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některé biomechanické práce navrhují lov měkkotělých hlavonožců. Přímé doklady konkrétního jídelníčku nejsou."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-edestus-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Velikost nejistá",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Protože neznáme kompletní fosilní tělo, oblíbené údaje o délce několika metrů nelze brát jako přesnou míru."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-edestus-2020"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tvar zadní části těla, počet ploutví, barva ani přesná délka se nedají z fosilií rekonstruovat s jistotou."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 4,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-edestus-2020"
+        ],
+        "note": {
+          "cs": "Délka 4 m je pouze ilustrativní pracovní měřítko; kompletní tělo není doložené a tělesné odhady nejsou spolehlivě ověřené."
+        }
+      },
+      "lengthM": {
+        "estimate": 4,
+        "scope": "Délka 4 m je pouze ilustrativní pracovní měřítko; kompletní tělo není doložené a tělesné odhady nejsou spolehlivě ověřené."
+      }
+    },
+    {
+      "id": "petrolacosaurus-kansensis",
+      "scientificName": "Petrolacosaurus kansensis",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Petrolacosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Amniota",
+        "Sauropsida",
+        "Diapsida",
+        "Petrolacosaurus"
+      ],
+      "aliases": [
+        "petrolacosaurus",
+        "raný diapsid"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Petrolakosaurus",
+      "image": {
+        "src": "images/petrolacosaurus-kansensis.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Petrolacosaurus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní karbon, zhruba před 305 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-petro-reisz",
+            "carbon-petro-benton"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "USA, Kansas"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-petro-reisz",
+            "carbon-petro-benton"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Publikovaná rekonstrukce uvádí délku okolo 60–70 cm včetně ocasu; 65 cm je reprezentativní srovnávací hodnota."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-petro-reisz",
+            "carbon-petro-benton"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-petro-reisz",
+            "carbon-petro-benton"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Petrolacosaurus",
+          "ageLabel": "Pozdní karbon, zhruba před 305 miliony let",
+          "location": "USA, Kansas",
+          "groupLabel": "Raní diapsidní plazi",
+          "cardSummary": "Štíhlý raný plaz s dlouhým krkem a ocasem.",
+          "summary": "Jeden z nejstarších známých diapsidních plazů s dlouhým krkem a štíhlým tělem. Lebka měla dvojice spánkových otvorů souvisejících se stavbou pozdějších diapsidů.",
+          "quizHint": "Malé ještěrkovité zvíře s dlouhým krkem, tenkými končetinami a ocasem.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhý úzký krk s malou hlavou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-petro-reisz",
+                "carbon-petro-benton"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Štíhlé čtyři končetiny a dlouhý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-petro-reisz",
+                "carbon-petro-benton"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvojice spánkových otvorů na každé straně lebky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-petro-reisz",
+                "carbon-petro-benton"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhý úzký krk s malou hlavou. Štíhlé čtyři končetiny a dlouhý ocas. Dvojice spánkových otvorů na každé straně lebky. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-petro-reisz",
+              "carbon-petro-benton"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Dva otvory v lebce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Diapsidi mají dvě spánkové otvory na každé straně lebky. Petrolacosaurus dokládá časné vytvoření této stavby."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-petro-reisz",
+                    "carbon-petro-benton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Kansas v karbonu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie tohoto druhu byly objeveny ve svrchně karbonských sedimentech Kansasu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-petro-reisz",
+                    "carbon-petro-benton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Dlouhý krk",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vyznačoval se protáhlými krčními obratli a lehkou tělesnou stavbou."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-petro-reisz",
+                    "carbon-petro-benton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Lov hmyzu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jemné zuby a rozměry těla naznačují potravu tvořenou menšími členovci."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-petro-reisz",
+                    "carbon-petro-benton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Vývoj plazů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Patří k dávné větvi diapsidů, ale není přímým doloženým předkem dnešních ještěrů."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-petro-reisz",
+                    "carbon-petro-benton"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Neznáme přesné zbarvení ani konkrétní prostředí, v němž lovil každý jedinec."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.65,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-petro-reisz",
+          "carbon-petro-benton"
+        ],
+        "note": {
+          "cs": "Publikovaná rekonstrukce uvádí délku okolo 60–70 cm včetně ocasu; 65 cm je reprezentativní srovnávací hodnota."
+        }
+      },
+      "lengthM": {
+        "estimate": 0.65,
+        "scope": "Publikovaná rekonstrukce uvádí délku okolo 60–70 cm včetně ocasu; 65 cm je reprezentativní srovnávací hodnota."
+      }
+    },
+    {
+      "id": "crassigyrinus-scoticus",
+      "scientificName": "Crassigyrinus scoticus",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "carboniferous",
+      "diet": "carnivore",
+      "group": "Crassigyrinus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Tetrapoda",
+        "Crassigyrinidae",
+        "Crassigyrinus"
+      ],
+      "aliases": [
+        "crassigyrinus",
+        "vodní čtyřnožec s velkou hlavou"
+      ],
+      "reviewedAt": "2026-10-25",
+      "quizEnabled": true,
+      "speechName": "Krasigirínus",
+      "image": {
+        "src": "images/crassigyrinus-scoticus.webp",
+        "alt": {
+          "cs": "Pracovní obrazová rekonstrukce: Crassigyrinus."
+        },
+        "status": "awaiting-original-image",
+        "facing": "left",
+        "note": {
+          "cs": "Obraz se teprve vytváří. Zbarvení, některé části těla a pohyb mohou být pouze hypotézou."
+        }
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný až střední karbon, přibližně před 350–330 miliony let"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-crassi-2023",
+            "carbon-crassi-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Skotsko a Kanada"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "carbon-crassi-2023",
+            "carbon-crassi-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka"
+          },
+          "value": {
+            "cs": "Přibližná délka 2 m podle dostupných rekonstrukcí; není založena na jediném úplném neporušeném exempláři."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-crassi-2023",
+            "carbon-crassi-nhm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Bez dostatečně spolehlivého údaje"
+          },
+          "confidence": "unknown",
+          "sourceIds": []
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pravděpodobně masožravá"
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "carbon-crassi-2023",
+            "carbon-crassi-nhm"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Crassigyrinus",
+          "ageLabel": "Raný až střední karbon, přibližně před 350–330 miliony let",
+          "location": "Skotsko a Kanada",
+          "groupLabel": "Raní vodní čtyřnožci",
+          "cardSummary": "Velký karbonský vodní lovec s neobvykle maličkými nohami.",
+          "summary": "Velký téměř úplně vodní dravec s mohutnou hlavou, velkými zuby a velmi drobnými končetinami. CT výzkum z roku 2023 ukázal zploštělejší podobu lebky než starší rekonstrukce.",
+          "quizHint": "Široká plochá zubatá hlava, dlouhé tělo a extrémně malé končetiny.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Velká plochá hlava s ostrými zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-crassi-2023",
+                "carbon-crassi-nhm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Poměrně dlouhý silný vodní trup."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-crassi-2023",
+                "carbon-crassi-nhm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Velmi malé čtyři končetiny neschopné účinné běžné suchozemské chůze."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "carbon-crassi-2023",
+                "carbon-crassi-nhm"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Velká plochá hlava s ostrými zuby. Poměrně dlouhý silný vodní trup. Velmi malé čtyři končetiny neschopné účinné běžné suchozemské chůze. Barva není jednoznačným poznávacím znakem."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "carbon-crassi-2023",
+              "carbon-crassi-nhm"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tema-1",
+              "title": "Znovu sestavená lebka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "CT tomografie deformovaných skotských fosilií v roce 2023 umožnila rekonstruovat plošší lebku než na starších obrázcích."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-crassi-2023",
+                    "carbon-crassi-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-2",
+              "title": "Velké zuby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Čelisti měly rozměrné zuby uzpůsobené k uchopení a zadržení živočišné kořisti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-crassi-2023",
+                    "carbon-crassi-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-3",
+              "title": "Téměř nepotřebné nohy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Končetiny byly velmi krátké v porovnání s rozměry trupu, což podporuje především vodní způsob života."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-crassi-2023",
+                    "carbon-crassi-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-4",
+              "title": "Silný vodní dravec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vědci jej považují za velkého vodního predátora schopného lovit poměrně velkou kořist."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "carbon-crassi-2023",
+                    "carbon-crassi-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-5",
+              "title": "Známý ze severu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie pocházejí z karbonských lokalit Skotska i Kanady."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "carbon-crassi-2023",
+                    "carbon-crassi-nhm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tema-6",
+              "title": "Co nevíme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Úplnou podobu měkké tkáně, zbarvení a rozmnožovací chování nelze přímo doložit."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 2,
+        "confidence": "estimate",
+        "sourceIds": [
+          "carbon-crassi-2023",
+          "carbon-crassi-nhm"
+        ],
+        "note": {
+          "cs": "Přibližná délka 2 m podle dostupných rekonstrukcí; není založena na jediném úplném neporušeném exempláři."
+        }
+      },
+      "lengthM": {
+        "estimate": 2,
+        "scope": "Přibližná délka 2 m podle dostupných rekonstrukcí; není založena na jediném úplném neporušeném exempláři."
+      }
+    }
+  ]
+}

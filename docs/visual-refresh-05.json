@@ -1,0 +1,32 @@
+{
+  "meganeura-monyi": {
+    "sha256": "368443c13f98acd332e3ea6fa1449d6e5ef9229ef7916a27839ce90ae2b66ebe",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-f598a63b-5543-41e0-84c1-7586e9b2327d.png"
+  },
+  "hylonomus-lyelli": {
+    "sha256": "1351876bda29b79e524d29f79afdd8f620f633995dbbd2ba1955d3f507135b63",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-ebc5d058-f7fb-4016-8c3e-0f8c116e46f1.png"
+  },
+  "greererpeton-burkemorani": {
+    "sha256": "ed637d18cacd947f8edff45360658b6740d9e6b4db77eb7bfc972d71da4b8e19",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-f657da48-5088-49d8-bd23-b0425e2433b7.png"
+  },
+  "petrolacosaurus-kansensis": {
+    "sha256": "c86633e701ab5ee044383d90d53ba017353973ccbd2dd492bd81df720901271b",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-2a99d7c5-e540-4508-b994-8c441288ade3.png"
+  },
+  "crassigyrinus-scoticus": {
+    "sha256": "ad21013b46e0517d2299ca8b0d5eae03d3fc9833bbe6102b35c138dc1879b47f",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-737a74f6-c3b7-43e7-93ec-411aa10255b5.png"
+  }
+}

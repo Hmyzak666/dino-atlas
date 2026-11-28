@@ -4,6 +4,8 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const { chromium } = require(require.resolve('playwright', { paths: [path.resolve(__dirname, '..'), process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES || process.cwd()] }));
 const root = path.resolve(__dirname, '..');
+const app = require('../app.js');
+const db = require('../dinosaurs.json');
 const errors = [];
 const server = http.createServer(async (req, res) => {
   const name = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
@@ -61,7 +63,7 @@ async function back(page) {
     await page.locator('#search').fill('brachiosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'brachiosaurus-altithorax');
-    assert.equal(await page.locator('.detail-position').textContent(), '8 / 72');
+    assert.equal(await page.locator('.detail-position').textContent(), `${app.sortAnimals(db.dinosaurs).findIndex(a=>a.id==='brachiosaurus-altithorax')+1} / ${db.dinosaurs.length}`);
     await step(page, 1, 'brontosaurus-excelsus');
     await step(page, -1, 'brachiosaurus-altithorax');
 
@@ -81,12 +83,14 @@ async function back(page) {
 
     // Keep category, period, and diet constraints while ignoring only the query.
     await page.locator('[data-category="dinosaur"]').click();
+    if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
     await page.locator('[data-period="jurassic"]').click();
-    await page.locator('#diet-filter').selectOption('carnivore');
+    await page.locator('#diet-filter').selectOption('carnivore', {force:true});
     await page.locator('#search').fill('ceratosaurus');
     assert.equal(await page.locator('#gallery .dino-card').count(), 1);
     await openResult(page, 'ceratosaurus-nasicornis');
-    assert.equal(await page.locator('.detail-position').textContent(), '3 / 6');
+    const jurassicCarnivores = db.dinosaurs.filter(animal => (animal.category || 'dinosaur') === 'dinosaur' && animal.period === 'jurassic' && animal.diet === 'carnivore');
+    assert.equal(await page.locator('.detail-position').textContent(), '3 / ' + jurassicCarnivores.length);
     await step(page, 1, 'dilophosaurus-wetherilli');
     await step(page, -1, 'ceratosaurus-nasicornis');
     await step(page, -1, 'archaeopteryx-lithographica');
@@ -101,7 +105,7 @@ async function back(page) {
     await page.locator('#search').fill('');
     await page.locator('[data-category="all"]').click();
     await page.locator('[data-period="all"]').click();
-    await page.locator('#diet-filter').selectOption('all');
+    await page.locator('#diet-filter').selectOption('all', {force:true});
     await page.locator('#favorites-filter').click();
     await page.locator('#search').fill('brachiosaurus');
     await openResult(page, 'brachiosaurus-altithorax');

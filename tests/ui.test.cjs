@@ -63,8 +63,41 @@ async function openAnimal(page,id) {
       page.on('request',r=>{if(!r.url().startsWith(base))errors.push('External request: '+r.url());});
       await page.goto(base+'/#atlas');
       await page.locator('#gallery .dino-card').last().waitFor();
-      assert.equal(await page.locator('#gallery .dino-card').count(),72);
-      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),['Trias','Jura','Křída','Vše']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),db.dinosaurs.length);
+      for (const [id, ratio] of [['pulmonoscorpius-kirktonensis',3/2],['arthropleura-armata',3/2]]) {
+        const frame = page.locator('.card-picture').filter({has:page.locator('img[src="images/'+id+'.webp"]')});
+        await frame.scrollIntoViewIfNeeded();
+        const box = await frame.boundingBox();
+        assert.ok(Math.abs(box.width/box.height-ratio)<0.005, id+' frame must use the same 3:2 frame as other images');
+      }
+      if (width === 360) {
+        const batch = require('../docs/dinosaur-batch08.json');
+        const previousFauna = require('../docs/fauna-batch10.json');
+        const invertebrates = require('../docs/fauna-batch11.json');
+        const fauna13 = require('../docs/fauna-batch13.json');
+        const fauna14 = require('../docs/fauna-batch14.json');
+        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...previousFauna.images, ...invertebrates.images, ...fauna13.images, ...fauna14.images]) {
+          // The approved Plumulites image faces left. The atlas shows animals with an unknown diet facing right.
+          const transform = id === 'plumulites-bengtsoni' ? 'matrix(-1, 0, 0, 1, 0, 0)' : 'none';
+          const card = page.locator('#card-' + id);
+          const thumbnail = page.locator('#gallery img[src="images/' + id + '.webp"]');
+          await card.scrollIntoViewIfNeeded();
+          await thumbnail.evaluate(image => image.decode());
+          assert.equal(await thumbnail.evaluate(image => getComputedStyle(image).transform), transform, id + ' gallery orientation');
+          await card.click();
+          const detail = page.locator('.detail-image img[src="images/' + id + '.webp"]');
+          await detail.waitFor({state: 'visible'});
+          const info = await detail.evaluate(async image => {
+            await image.decode();
+            return [image.naturalWidth, image.naturalHeight, getComputedStyle(image).transform];
+          });
+          assert.deepEqual(info, [1536, 1024, transform], id + ' detail');
+          await page.getByRole('link', {name:'← Zpět do atlasu', exact:true}).click();
+          await page.locator('#atlas-view').waitFor({state:'visible'});
+        }
+      }
+      await page.evaluate(()=>scrollTo(0,0));
+      assert.deepEqual(await page.locator('#period-filters button').allTextContents(),db.dinosaurs.length>72?['Vše']:['Trias','Jura','Křída','Vše']);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       if(width===360) {
         const decoded=await page.evaluate(async sources=>Promise.all(sources.map(src=>new Promise((resolve,reject)=>{
@@ -73,7 +106,7 @@ async function openAnimal(page,id) {
           img.onerror=()=>reject(new Error('Image decoding failed: '+src));
           img.src=src;
         }))),db.dinosaurs.map(a=>a.image.src));
-        assert.equal(decoded.length,72);
+        assert.equal(decoded.length,db.dinosaurs.length);
         assert.ok(decoded.every(img=>img.width>0&&img.height>0),'All animal images must decode in the browser');
       }
       const names=await page.locator('.card-title-row h3').allTextContents();
@@ -86,7 +119,10 @@ async function openAnimal(page,id) {
       const galleryY=await page.evaluate(()=>scrollY);
       await link.click();
       await page.waitForURL('**/#dinosaurus/brachiosaurus-altithorax');
-      await page.waitForFunction(()=>document.querySelector('#detail-title')?.getBoundingClientRect().top<180);
+      await page.waitForFunction(() => {
+        const title = document.querySelector('#detail-title');
+        return title?.textContent === 'Brachiosaurus' && title.getBoundingClientRect().top < 180;
+      });
       assert.equal(await page.locator('#detail-title').textContent(),'Brachiosaurus');
       assert.match(await page.locator('.detail-age').textContent(),/Jura.*150/);
       assert.equal(await page.locator('.detail-favorite').getAttribute('aria-pressed'),'true');
@@ -243,8 +279,8 @@ async function openAnimal(page,id) {
       await page.waitForFunction(y=>Math.abs(scrollY-y)<5,galleryY);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       await page.locator('[data-category="marine-reptile"]').click();
-      assert.equal(await page.locator('#gallery .dino-card').count(),8);
-      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Plesiosaurus','Shonisaurus','Tylosaurus']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),12);
+      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Atopodentatus','Ichthyosaurus','Kožatka velká','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Pacifichelys','Palaeophis','Plesiosaurus','Shonisaurus','Tylosaurus']);
       await noOverflow(page);
 
       if(width===412) {
@@ -276,6 +312,23 @@ async function openAnimal(page,id) {
           await page.locator('#quiz-next').click();
         }
         assert.match(await page.locator('.score').textContent(),/5 z 5/);
+        await page.locator('[data-quiz-category="arthropod"]').click();
+        await page.locator('[data-quiz-era="paleozoic"]').click();
+        await page.locator('[data-quiz-period="carboniferous"]').click();
+        const croppedSeen = new Set();
+        for (let i=0;i<3;i++) {
+          const src = await page.locator('.quiz-picture img').getAttribute('src');
+          const id = src.match(/images\/(.+)\.webp/)[1];
+          const ratios = {'pulmonoscorpius-kirktonensis':3/2,'arthropleura-armata':3/2};
+          if (ratios[id]) {
+            croppedSeen.add(id);
+            const box = await page.locator('.quiz-picture').boundingBox();
+            assert.ok(Math.abs(box.width/box.height-ratios[id])<0.01,'Quiz frame fits '+id);
+          }
+          await page.locator('[data-answer="'+id+'"]').click();
+          await page.locator('#quiz-next').click();
+        }
+        assert.equal(croppedSeen.size,2,'Both approved crops exercised in the quiz');
       }
 
       for(const id of ['rhamphorhynchus-muensteri','liopleurodon-ferox','ceratosaurus-nasicornis','eoraptor-lunensis','herrerasaurus-ischigualastensis','eodromaeus-murphi','saturnalia-tupiniquim','riojasaurus-incertus','eudimorphodon-ranzii','peteinosaurus-zambellii','nothosaurus-mirabilis','shonisaurus-popularis']) {
@@ -287,6 +340,7 @@ async function openAnimal(page,id) {
         await page.getByRole('link',{name:'← Zpět do atlasu',exact:true}).click();
         await page.waitForURL('**/#atlas');
         await page.locator('[data-category="all"]').click();
+        if(db.dinosaurs.length>72) await page.locator('[data-atlas-era="mesozoic"]').click();
         await page.locator('[data-period="triassic"]').click();
         const triassicCount=db.dinosaurs.filter(animal=>animal.period==='triassic').length;
         assert.equal(await page.locator('#gallery .dino-card').count(),triassicCount);

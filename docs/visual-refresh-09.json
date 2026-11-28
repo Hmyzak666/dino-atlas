@@ -1,0 +1,38 @@
+{
+  "dimetrodon-grandis": {
+    "sha256": "9d45a292e908b1da852284a6c065fd41b218f919c7b967be998f663a338f7824",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-bca95e5a-43ad-405f-9e4c-6955a29625e6.png",
+    "sourceSha256": "f5f623a553621a42a0c12b033efba27127babd986bf9ae1c334cef79d3fe5205"
+  },
+  "inostrancevia-alexandri": {
+    "sha256": "6801ac485f4e1537d4885182f1c46fd47c0e4fb19f16e9d854f032f69a58a1ff",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-cf5d5cac-c9c6-47f2-8057-d056e2b47247.png",
+    "sourceSha256": "115de1e90d55809c1df05ed9e6c82eaa0dfee36daa761342278816d3877ec21b"
+  },
+  "scutosaurus-karpinskii": {
+    "sha256": "832d30f901b61b485915372ad7ea60789e049b0bc161d13e2ae906d0dca8537e",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-860b45e0-1d44-49e7-a059-5ac2001b0d0a.png",
+    "sourceSha256": "0388cfd5bcd213fd5d45e9a152cf4307f43af2138e2c4e46e742074e20ccded1"
+  },
+  "mesosaurus-tenuidens": {
+    "sha256": "ff4ab64df608db20821810eb8fdc03eb4459f461d2b4be1183b2d80282999c3b",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-ebcb3f6b-422c-4a49-95bf-ecbaa538fc19.png",
+    "sourceSha256": "98bf187eab09ce55e40a1570ad8667b6bbf6e93747ecfb296cb80f550b9e62f6"
+  },
+  "diplocaulus-magnicornis": {
+    "sha256": "236bb944a8379e99fbd0d68b9de44d38e58c37bb06e907fe12af785a44729ca5",
+    "width": 1152,
+    "height": 768,
+    "generatedSource": "exec-8fdc9cc7-6997-48a8-985a-5a813008fc29.png",
+    "sourceSha256": "b13064e714245a5dd163ebf70c04663542f3151f979ae219a5e87bd7c682023f"
+  },
+  "databaseSha256": "c456d4ae33b4930f86937c67024466b1cf3072efaff939e9d7d9a306d474128b"
+}
