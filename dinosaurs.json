@@ -3628,6 +3628,86 @@
       "title": "Sues a Jenkins · Tělesná stavba a znaky tritylodontidů",
       "shortTitle": "Sues a Jenkins · Tělesná stavba a znaky tritylodontidů",
       "url": "https://repository.si.edu/bitstream/handle/10088/7533/paleo_SUES_JENKINS.2006.pdf"
+    },
+    "fauna14-pand": {
+      "title": "Murdock a Smith · Panderodus z Waukeshy, ústní aparát a měkké tkáně",
+      "shortTitle": "Murdock a Smith · Panderodus z Waukeshy, ústní aparát a měkké tkáně",
+      "url": "https://doi.org/10.1002/spp2.1389"
+    },
+    "fauna14-pand-data": {
+      "title": "Murdock a Smith · vyobrazení, data a model aparátu Panderodus",
+      "shortTitle": "Murdock a Smith · vyobrazení, data a model aparátu Panderodus",
+      "url": "https://doi.org/10.5061/dryad.0p2ngf20z"
+    },
+    "fauna14-con-body": {
+      "title": "Aldridge a kol. · anatomie konodontů se zachovaným tělem",
+      "shortTitle": "Aldridge a kol. · anatomie konodontů se zachovaným tělem",
+      "url": "https://doi.org/10.1098/rstb.1993.0082"
+    },
+    "fauna14-palm": {
+      "title": "Konodonti z pozdního frasnu v Belgii · popis druhu Palmatolepis linguiformis",
+      "shortTitle": "Konodonti z pozdního frasnu v Belgii · popis druhu Palmatolepis linguiformis",
+      "url": "https://www.vliz.be/imisdocs/publications/276838.pdf"
+    },
+    "fauna14-zone": {
+      "title": "Sandberg a kol. · zóna linguiformis a změny na konci frasnu",
+      "shortTitle": "Sandberg a kol. · zóna linguiformis a změny na konci frasnu",
+      "url": "https://ntrs.nasa.gov/citations/19890012009"
+    },
+    "fauna14-loch": {
+      "title": "von Bitter a kol. · Lochriea commutata a složení jejího ústního aparátu",
+      "shortTitle": "von Bitter a kol. · Lochriea commutata a složení jejího ústního aparátu",
+      "url": "https://doi.org/10.1017/jpa.2021.2"
+    },
+    "fauna14-khmer": {
+      "title": "Wendt · vápnité schránky a nové pojetí rodu Khmeria",
+      "shortTitle": "Wendt · vápnité schránky a nové pojetí rodu Khmeria",
+      "url": "https://doi.org/10.1111/pala.12356"
+    },
+    "fauna14-tos": {
+      "title": "Wendt · Toscanisoma a stavba triasových pláštěnců",
+      "shortTitle": "Wendt · Toscanisoma a stavba triasových pláštěnců",
+      "url": "https://doi.org/10.1017/jpa.2019.109"
+    },
+    "fauna14-feed": {
+      "title": "Naturalis · stavba těla a filtrace potravy u sumek",
+      "shortTitle": "Naturalis · stavba těla a filtrace potravy u sumek",
+      "url": "https://sat-zooplankton.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?cat=TAB_DESCRIPTION&id=24225"
+    },
+    "fauna14-didem": {
+      "title": "Paulsen a Thibault · raně jurské mikrofosilie z Mochrasu",
+      "shortTitle": "Paulsen a Thibault · raně jurské mikrofosilie z Mochrasu",
+      "url": "https://doi.org/10.1002/spp2.1489"
+    },
+    "fauna14-moreti": {
+      "title": "Kietzmann · jehlice rodu Didemnoides z pánve Neuquén",
+      "shortTitle": "Kietzmann · jehlice rodu Didemnoides z pánve Neuquén",
+      "url": "https://revista.geologica.org.ar/raga/article/view/1790"
+    },
+    "fauna14-cysto": {
+      "title": "Łukowiak · pozdně eocenní sumky z Austrálie",
+      "shortTitle": "Łukowiak · pozdně eocenní sumky z Austrálie",
+      "url": "https://doi.org/10.1666/11-112.1"
+    },
+    "fauna14-cysto-live": {
+      "title": "López-Legentil · stavba těla, ekologie a proměnlivost živého rodu Cystodytes",
+      "shortTitle": "López-Legentil · stavba těla, ekologie a proměnlivost živého rodu Cystodytes",
+      "url": "https://diposit.ub.edu/server/api/core/bitstreams/12e42f46-a608-429c-baec-fb410ce1422f/content"
+    },
+    "fauna14-spic": {
+      "title": "Varol a Houghton · výskyt a určování vápenitých jehlic sumek",
+      "shortTitle": "Varol a Houghton · výskyt a určování vápenitých jehlic sumek",
+      "url": "https://jm.copernicus.org/articles/15/135/1996/"
+    },
+    "fauna14-oman": {
+      "title": "Frazier a kol. · pravěké nálezy kožatky velké na pobřeží Ománu",
+      "shortTitle": "Frazier a kol. · pravěké nálezy kožatky velké na pobřeží Ománu",
+      "url": "https://doi.org/10.7717/peerj.6123"
+    },
+    "fauna14-noaa": {
+      "title": "NOAA Fisheries · kožatka velká, stavba těla, rozměry a způsob života",
+      "shortTitle": "NOAA Fisheries · kožatka velká, stavba těla, rozměry a způsob života",
+      "url": "https://www.fisheries.noaa.gov/species/leatherback-turtle"
     }
   },
   "dinosaurs": [
@@ -76170,6 +76250,2435 @@
         ],
         "note": {
           "cs": "Odhad celé délky s využitím úplnějších konodontů ze Skotska. Na jihoafrické desce se zachovalo 10,9 cm těla."
+        }
+      }
+    },
+    {
+      "id": "panderodus-unicostatus",
+      "scientificName": "Panderodus unicostatus",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "silurian",
+      "diet": "carnivore",
+      "group": "Panderodus",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Conodonta"
+      ],
+      "aliases": [
+        "silurský konodont",
+        "konodont z Waukeshy"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/panderodus-unicostatus.webp",
+        "alt": {
+          "cs": "Drobný protáhlý konodont proplouvá silurským mořem s hlavou obrácenou doleva."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Ústní aparát a část svaloviny známe přímo z nálezu. Obrys chybějících částí a barvy vycházejí z rekonstrukce."
+        },
+        "sourceIds": [
+          "fauna14-pand",
+          "fauna14-con-body",
+          "fauna14-pand-data"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raný silur"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-pand",
+            "fauna14-pand-data"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Waukesha ve Wisconsinu, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-pand"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dochovaná část trupu byla široká nejméně 3,6 mm. Celkovou délku tohoto jedince neznáme."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-pand"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Z částečně zachovaného těla nelze určit hmotnost."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-pand"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Stavba ústního aparátu ukazuje na lov soust poměrně velkých vzhledem k vlastnímu tělu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-pand",
+            "fauna14-pand-data"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Panderodus",
+          "ageLabel": "Raný silur",
+          "location": "Waukesha ve Wisconsinu, USA",
+          "groupLabel": "Konodonti",
+          "cardSummary": "V ústech měl Panderodus dvě řady zahnutých minerálních hrotů, které se svíraly proti sobě. Ve Wisconsinu se kromě hrotů výjimečně zachovala i část svalů.",
+          "summary": "V ústech měl Panderodus dvě řady zahnutých minerálních hrotů, které se svíraly proti sobě. Ve Wisconsinu se kromě hrotů výjimečně zachovala i část svalů. Způsob nasazení hrotů prozrazuje, jak mohl tento drobný obratlovec uchopit kořist.",
+          "quizHint": "Podlouhlé tělo při plavání připomínalo drobného úhoře.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Podlouhlé tělo při plavání připomínalo drobného úhoře."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-pand",
+                "fauna14-con-body"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Podél trupu se opakovaly příčné svalové úseky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-pand-data"
+              ]
+            },
+            {
+              "text": {
+                "cs": "V ústech stály proti sobě dvě řady kuželovitých hrotů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-pand"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Podlouhlé tělo při plavání připomínalo drobného úhoře. Podél trupu se opakovaly příčné svalové úseky."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-pand",
+              "fauna14-con-body",
+              "fauna14-pand-data"
+            ]
+          },
+          "sections": [
+            {
+              "id": "ustrojeni",
+              "title": "Dvě řady hrotů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V přední části aparátu ležel pár jinak tvarovaných hrotů než vzadu. Uprostřed byl i jediný souměrný prvek."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-pand-data"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upnuti",
+              "title": "Co drželo hroty",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Do dutin na bázi hrotů zasahovaly chrupavčité opory. Fosilie zachytila i jejich spojení s minerální částí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-pand"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "svaly",
+              "title": "Otisk trupu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V měkkých částech paleontologové rozeznali oddíly svalů a uvnitř jejich jemná vlákna."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-pand-data"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Sousto pro malého lovce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Když se hroty přiblížily přes střední rovinu úst, mohly společně zadržet pohyblivou kořist. Její druh zatím neznáme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna14-pand"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "meritko",
+              "title": "Co se podařilo změřit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Hodnota 3,6 mm vyjadřuje nejmenší možnou šířku dochované části trupu. Jeho konec se ve fosilii ztrácí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-pand"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalez",
+              "title": "Také něco měkkého",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z konodontů se obyčejně zachovají oddělené prvky ústního aparátu. Exemplář z Waukeshy umožnil spojit tyto tvrdé části s ostatním tělem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-pand",
+                    "fauna14-pand-data"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "palmatolepis-linguiformis",
+      "scientificName": "Palmatolepis linguiformis",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "devonian",
+      "diet": "unknown",
+      "group": "Palmatolepis",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Conodonta"
+      ],
+      "aliases": [
+        "devonský konodont",
+        "konodont z Neuville"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/palmatolepis-linguiformis.webp",
+        "alt": {
+          "cs": "Štíhlý konodont se stáčí při plavání doprava v devonském moři."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Druhové určení stojí na tvaru minerálních prvků v ústech. Oči, ploutevní lem a celkový obrys ilustrace vycházejí ze zachovaných těl jiných konodontů."
+        },
+        "sourceIds": [
+          "fauna14-con-body",
+          "fauna14-palm"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní devon, konec frasnu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-palm",
+            "fauna14-zone"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Neuville v jižní Belgii"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-palm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Belgické doklady tvoří části ústního aparátu. Podle jejich velikosti délku těla spolehlivě neurčíme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-palm",
+            "fauna14-con-body"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost druhu z popsaných prvků neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-palm"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Přesné složení potravy tohoto druhu neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-palm"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Palmatolepis",
+          "ageLabel": "Pozdní devon, konec frasnu",
+          "location": "Neuville v jižní Belgii",
+          "groupLabel": "Konodonti",
+          "cardSummary": "Palmatolepis žil v moři na sklonku devonu. Poznáme ho podle drobných plošinek v ústním aparátu, na kterých mohou vystupovat zaoblené hrbolky.",
+          "summary": "Palmatolepis žil v moři na sklonku devonu. Poznáme ho podle drobných plošinek v ústním aparátu, na kterých mohou vystupovat zaoblené hrbolky. V belgickém Neuville ho paleontologové našli ve čtyřech vrstvách modrošedého vápence.",
+          "quizHint": "Dlouhé tělo a oči na předním konci jsou rekonstrukcí podle jiných konodontů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Dlouhé tělo a oči na předním konci jsou rekonstrukcí podle jiných konodontů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-con-body",
+                "fauna14-palm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Druhové znaky nese drobný prvek s rozšířenou plošinkou uvnitř úst."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-palm"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Vnější okraj plošinky má u některých jedinců mírnou výduť."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-palm"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Dlouhé tělo a oči na předním konci jsou rekonstrukcí podle jiných konodontů. Druhové znaky nese drobný prvek s rozšířenou plošinkou uvnitř úst."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-con-body",
+              "fauna14-palm"
+            ]
+          },
+          "sections": [
+            {
+              "id": "povrch",
+              "title": "Hladký i hrbolatý povrch",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dokonce v jednom belgickém vzorku se vyskytují plošinky téměř hladké i plošinky s hrbolky. Paleontologové je řadí ke stejnému druhu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-palm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vrstvy",
+              "title": "Čtyři vápencové vrstvy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U Neuville se tento konodont vyskytl v malém počtu ve čtyřech vrstvách těsně pod černými břidlicemi Matagne."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-palm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cas",
+              "title": "Jméno v geologickém kalendáři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Po tomto druhu se jmenuje konodontová zóna linguiformis na samém konci frasnu. Geologové díky fosiliím srovnávají stáří hornin z různých oblastí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-zone"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "oci",
+              "title": "Odkud známe obrys těla",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve Skotsku se u jiných konodontů dochovaly oči a ocasní ploutev. Tyto nálezy slouží jako vodítko k podobě belgického zvířete."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-con-body",
+                    "fauna14-palm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Co z úst vyčteme",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nález dovoluje popsat pracovní povrch ústního aparátu. Přímý doklad konkrétní kořisti u belgických exemplářů chybí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-palm"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hranice",
+              "title": "Moře před proměnou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V horninách z konce frasnu sledují geologové změny celých společenstev konodontů v době velkého vymírání."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-zone"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lochriea-commutata",
+      "scientificName": "Lochriea commutata",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "carboniferous",
+      "diet": "unknown",
+      "group": "Lochriea",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Conodonta"
+      ],
+      "aliases": [
+        "karbonský konodont",
+        "konodont z Montany"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/lochriea-commutata.webp",
+        "alt": {
+          "cs": "Drobný protáhlý konodont proplouvá doprava karbonským mořem."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Rekonstrukce obrysu plavce se opírá o příbuzné konodonty. U tohoto druhu jsou nejlépe zdokumentované útvary ukryté v ústech."
+        },
+        "sourceIds": [
+          "fauna14-con-body",
+          "fauna14-loch"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Karbon, doloženo mimo jiné v mississippu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-loch"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Montana v USA, další nálezy také v Evropě"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-loch"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Popsané sestavy uchovaly ústní aparát. Délka těla těchto jedinců není doložená."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-loch"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost nelze určit z jednotlivých minerálních prvků."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-loch"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Aparát sloužil k příjmu a zpracování potravy. Přesná skladba jídelníčku z něj nevyplývá."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-loch"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Lochriea",
+          "ageLabel": "Karbon, doloženo mimo jiné v mississippu",
+          "location": "Montana v USA, další nálezy také v Evropě",
+          "groupLabel": "Konodonti",
+          "cardSummary": "Lochriea měla v ústech patnáct minerálních prvků. Jejich rozmístění paleontologové sestavili z nálezů, na kterých zůstalo několik prvků pohromadě.",
+          "summary": "Lochriea měla v ústech patnáct minerálních prvků. Jejich rozmístění paleontologové sestavili z nálezů, na kterých zůstalo několik prvků pohromadě. Zvláštní postavení měl jediný nepárový prvek uprostřed aparátu.",
+          "quizHint": "Protáhlý plavec s ocasním lemem vychází ze stavby příbuzných konodontů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Protáhlý plavec s ocasním lemem vychází ze stavby příbuzných konodontů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-con-body",
+                "fauna14-loch"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Uvnitř úst se kombinovaly prvky s drobnými hroty a prvky s plošinkou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-loch"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Sedm párů doplňoval jediný souměrný prvek ve střední rovině."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-loch"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Protáhlý plavec s ocasním lemem vychází ze stavby příbuzných konodontů. Uvnitř úst se kombinovaly prvky s drobnými hroty a prvky s plošinkou."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-con-body",
+              "fauna14-loch"
+            ]
+          },
+          "sections": [
+            {
+              "id": "pary",
+              "title": "Jak napočítat patnáct",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Sedm tvarových pozic mělo levou a pravou polovinu. Patnáctou pozici představoval nepárový prvek označovaný S0."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-loch"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "plosinka",
+              "title": "Malá plošinka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Párové prvky zvané P1 mají rozšířenou část. Jejich tvar je důležitý při určování jednotlivých druhů rodu Lochriea."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-loch"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "montana",
+              "title": "Nálezy z Montany",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V horninách souvrství Heath a Tyler se našlo více sestav prvků. Jejich porovnáním šlo lépe určit, které k sobě za života patřily."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-loch"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "shluky",
+              "title": "Když se zbytky promíchají",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Některé shluky obsahují neuspořádané prvky několika jedinců. Autoři studie zohlednili i možnost, že prošly trávicím traktem jiného živočicha."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-loch"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rekonstrukce",
+              "title": "Jak sestavit ústní aparát",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozložení prvků na povrchu horniny lze porovnat s prostorovými shluky, v nichž se původně sousedící části zachovaly u sebe."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-loch"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "plavani",
+              "title": "Vodítko pro plavání",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výjimečně zachovaná těla jiných konodontů ukazují svalové úseky podél trupu a ploutev na ocase. Odtud pochází předloha plavce na ilustraci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-con-body"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "khmeria-problematica",
+      "scientificName": "Khmeria problematica",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "permian",
+      "diet": "suspension-feeder",
+      "group": "Khmeria",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata"
+      ],
+      "aliases": [
+        "permský pláštěnec",
+        "živočich s víčkem"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/khmeria-problematica.webp",
+        "alt": {
+          "cs": "Osamělý kuželovitý kalíšek s víčkem vyrůstá z permského mořského dna."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Tvar kalíšku, víčka a růstových linií známe z fosilií. Zařazení mezi pláštěnce je odborná interpretace Jobsta Wendta. Podoba měkkých tkání je nejistá."
+        },
+        "sourceIds": [
+          "fauna14-khmer"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední až pozdní perm"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-khmer"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kambodža, Vietnam, Japonsko a Sicílie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-khmer"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Vápnitý kalíšek byl vysoký 10–35 mm a nahoře široký 6–17 mm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-khmer"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost měkkého těla uvnitř kalíšku neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-khmer"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Pokud šlo o pláštěnce, mohl získávat potravu filtrací částic z vody."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-khmer",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Khmeria",
+          "ageLabel": "Střední až pozdní perm",
+          "location": "Kambodža, Vietnam, Japonsko a Sicílie",
+          "groupLabel": "Pravděpodobní pláštěnci",
+          "cardSummary": "Khmeria po sobě zanechala vápnitý kalíšek s víčkem. Právě způsob, jakým víčko zapadalo do okraje, přivedl paleontologa Jobsta Wendta k výkladu, že mohlo jít o pláštěnce.",
+          "summary": "Khmeria po sobě zanechala vápnitý kalíšek s víčkem. Právě způsob, jakým víčko zapadalo do okraje, přivedl paleontologa Jobsta Wendta k výkladu, že mohlo jít o pláštěnce. Původně badatelé tyto fosilie popsali jako korály.",
+          "quizHint": "Kalíšek se od úzké báze směrem vzhůru výrazně rozšiřuje.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Kalíšek se od úzké báze směrem vzhůru výrazně rozšiřuje."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-khmer"
+              ]
+            },
+            {
+              "text": {
+                "cs": "K hornímu okraji přiléhalo jediné víčko spojené se schránkou kloubem."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-khmer"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na vnějším povrchu mohou vystupovat nápadné růstové linie."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-khmer"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Kalíšek se od úzké báze směrem vzhůru výrazně rozšiřuje. K hornímu okraji přiléhalo jediné víčko spojené se schránkou kloubem."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna14-khmer"
+            ]
+          },
+          "sections": [
+            {
+              "id": "tvar",
+              "title": "Kalíšek v průřezu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Stěna obepíná dutinu s přibližně kruhovým průřezem. U některých exemplářů jsou uvnitř zachovány řídké příčné přepážky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-khmer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kloub",
+              "title": "Jak víčko dosedalo",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Drobné výběžky podél závěsu zapadaly do protější části a vedly pohyb víčka."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-khmer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "samota",
+              "title": "Samostatná schránka",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Wendt vymezil druh Khmeria problematica pro jednotlivě rostoucí exempláře. Koloniální formu zařadil k jinému druhu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-khmer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "velikost",
+              "title": "Rozdíly mezi nalezišti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Sicilské exempláře patří mezi větší popsané zástupce. Rozměry se vztahují k minerální schránce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-khmer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zarazeni",
+              "title": "Proč se o příbuznosti diskutuje",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kalíšek svým tvarem připomíná korál. Při nové interpretaci hrálo důležitou roli uspořádání schránky s pohyblivým víčkem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-khmer"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vyziva",
+              "title": "Jak mohla získávat potravu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žijící přisedlé sumky zachycují částice z proudu vody uvnitř těla. Představa podobného krmení u rodu Khmeria závisí na správnosti navrženého zařazení."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna14-khmer",
+                    "fauna14-feed"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toscanisoma-multipartitum",
+      "scientificName": "Toscanisoma multipartitum",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "triassic",
+      "diet": "suspension-feeder",
+      "group": "Toscanisoma",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata"
+      ],
+      "aliases": [
+        "triasový pláštěnec",
+        "kolonie z Dolomit"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/toscanisoma-multipartitum.webp",
+        "alt": {
+          "cs": "Malá kolonie trubic z nepravidelných destiček vyrůstá ze společné báze na triasovém dně."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Počet trubic a rozvržení destiček vycházejí z typového nálezu. Vrchol se zachoval celý jen u jednoho jedince. Barva je rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna14-tos"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní trias, raný karn"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-tos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Alpe di Specie v italských Dolomitech, souvrství Cassian"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-tos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Celá kolonie mohla měřit přibližně 5–6 cm na výšku a 7–8 cm na šířku. Jediný úplný jedinec měří asi 25 mm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-tos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost celé kolonie z neúplného nálezu neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-tos"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Jednotliví členové kolonie pravděpodobně filtrovali jemné částice z okolní vody."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-tos",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Toscanisoma",
+          "ageLabel": "Pozdní trias, raný karn",
+          "location": "Alpe di Specie v italských Dolomitech, souvrství Cassian",
+          "groupLabel": "Pláštěnci s vápnitou kostrou",
+          "cardSummary": "Sedm trubic ve fosilii z Dolomit patřilo jedné kolonii. Dole se k sobě tiskly, výše se rozestupovaly a každá obklopovala tělo jednoho živočicha.",
+          "summary": "Sedm trubic ve fosilii z Dolomit patřilo jedné kolonii. Dole se k sobě tiskly, výše se rozestupovaly a každá obklopovala tělo jednoho živočicha. Na jediném úplném vrcholu se zachovalo šest malých destiček.",
+          "quizHint": "Od společné báze se rozbíhá několik krátkých trubic.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Od společné báze se rozbíhá několik krátkých trubic."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-tos"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Stěny skládají široké nepravidelné destičky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-tos"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na dochovaném konci trubice jsou destičky menší než na bocích."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-tos"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Od společné báze se rozbíhá několik krátkých trubic. Stěny skládají široké nepravidelné destičky."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna14-tos"
+            ]
+          },
+          "sections": [
+            {
+              "id": "kolonie",
+              "title": "Sedm členů kolonie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na typovém exempláři lze sledovat sedm jedinců, kterým se u koloniálních živočichů říká zooidi. Každý měl vlastní trubici."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "desticky",
+              "title": "Spoje z obou stran",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zvenku vedou hranice destiček přímo či obloukem. Na odkryté vnitřní straně jsou jejich spoje klikaté."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vrchol",
+              "title": "Dochovaný vrchol",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nejmenší trubice se zachovala celá. Její konec kryje šest malých destiček, takže víme, jak mohl vypadat vrchol dalších jedinců."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hornina",
+              "title": "Moře v Dolomitech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Fosilie pochází z hornin souvrství Cassian. Dnešní horské naleziště uchovává pozůstatky mořského života z počátku karnu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmery",
+              "title": "Odhad z poškozené kolonie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Části větších trubic chybějí. Uváděné rozměry celé kolonie jsou proto odhadem podle dochované části."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Po kom dostala jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rodové jméno připomíná Marii Luigii Toscani, která nalezené exempláře poskytla k výzkumu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-tos"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "didemnum-cassianum",
+      "scientificName": "Didemnum cassianum",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "jurassic",
+      "diet": "suspension-feeder",
+      "group": "Didemnum",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata",
+        "Ascidiacea",
+        "Didemnidae"
+      ],
+      "aliases": [
+        "jurská sumka",
+        "Tetralithus cassianus",
+        "sumka z Mochrasu"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/didemnum-cassianum.webp",
+        "alt": {
+          "cs": "Tenká světlá kolonie sumek obrůstá žebrovanou schránku na jurském mořském dně."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Z jurského nálezu známe mikroskopické jehlice. Vnější podoba kolonie, její barva a poloha na schránce jsou rekonstrukcí podle žijících příbuzných."
+        },
+        "sourceIds": [
+          "fauna14-didem",
+          "fauna14-feed",
+          "fauna14-spic"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná jura, hettang až sinemur"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-didem"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Vrt u Mochrasu na západním pobřeží Walesu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-didem"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Velšské vápenité jehlice měří 6,6–10 μm na délku a 5,4–9,4 μm na šířku. Rozměry celé kolonie neznáme."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-didem"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost kolonie se z mikrofosilií určit nedá."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-didem"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Stejně jako jiné sumky nejspíš filtrovala z vody drobné částice."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-didem",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Didemnum cassianum",
+          "ageLabel": "Raná jura, hettang až sinemur",
+          "location": "Vrt u Mochrasu na západním pobřeží Walesu",
+          "groupLabel": "Koloniální sumky",
+          "cardSummary": "Z jurského moře ve Walesu známe z této sumky hlavně drobné vápenité hvězdičky. Jejich typický tvar se čtyřmi dlouhými paprsky vynikne pod mikroskopem.",
+          "summary": "Z jurského moře ve Walesu známe z této sumky hlavně drobné vápenité hvězdičky. Jejich typický tvar se čtyřmi dlouhými paprsky vynikne pod mikroskopem. Živé kolonii sloužily tyto částice zvané spikuly jako součást obalu těla.",
+          "quizHint": "Na obrázku překrývá podklad tenká přisedlá kolonie, rekonstruovaná podle příbuzných sumek.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Na obrázku překrývá podklad tenká přisedlá kolonie, rekonstruovaná podle příbuzných sumek."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-didem",
+                "fauna14-feed"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Určovacím znakem jsou mikroskopické hvězdicovité jehlice uvnitř tělního obalu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-didem",
+                "fauna14-spic"
+              ]
+            },
+            {
+              "text": {
+                "cs": "U velšských exemplářů vědci popsali čtyři dlouhé volné paprsky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-didem"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Na obrázku překrývá podklad tenká přisedlá kolonie, rekonstruovaná podle příbuzných sumek. Určovacím znakem jsou mikroskopické hvězdicovité jehlice uvnitř tělního obalu."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-didem",
+              "fauna14-feed",
+              "fauna14-spic"
+            ]
+          },
+          "sections": [
+            {
+              "id": "vzorek",
+              "title": "Fosilie z vrtu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jádro vrtu v Mochrasu zachytilo sled jurských mořských usazenin. Jehlice se našly ve vrstvách dvou po sobě následujících geologických věků."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-didem"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "svetlo",
+              "title": "Hvězdičky v polarizovaném světle",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V mikroskopu se zkříženými polarizačními filtry nabývají jehlice žlutých až oranžových odstínů. Tyto barvy vznikají průchodem světla vzorkem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-didem"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "paprsky",
+              "title": "Čtyři nebo tři",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U podobné formy Didemnum pseudotrifidum vynikají jen tři výrazné paprsky. Jejich počet pomáhá při určování jednotlivých mikrofosilií."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-didem"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Starší pojmenování",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V literatuře se tento typ jehlice objevuje také jako Tetralithus cassianus. Později jej badatelé přiřadili k sumkám čeledi Didemnidae."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-didem",
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozsah",
+              "title": "Také za hranicí triasu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podobné jehlice známe rovněž z pozdního triasu v Alpách. Karta ukazuje mladší výskyt doložený ve Walesu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-didem"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kolonie",
+              "title": "Co lze z malé jehlice odvodit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Přirovnání k dnešním příbuzným pomáhá představit si živou kolonii. Konkrétní povrch a odstín velšského živočicha zůstávají neznámé."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna14-didem",
+                    "fauna14-feed"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "quizLookalikeGroup": "kolonialni-sumky"
+    },
+    {
+      "id": "didemnoides-moreti",
+      "scientificName": "Didemnoides moreti",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "cretaceous",
+      "diet": "suspension-feeder",
+      "group": "Didemnoides",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata",
+        "Ascidiacea",
+        "Didemnidae"
+      ],
+      "aliases": [
+        "křídová sumka",
+        "Didemnoides rosetta",
+        "Stomiosphaera moreti"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/didemnoides-moreti.webp",
+        "alt": {
+          "cs": "Nízký povlak s drobnými otvory přerůstá tmavý kámen na mořském dně."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Určení vychází z jehlic v argentinské hornině. Měkkou kolonii na kameni ilustrace přibližuje podle žijících příbuzných."
+        },
+        "sourceIds": [
+          "fauna14-moreti",
+          "fauna14-feed"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída, počátek berriasu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-moreti"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pánev Neuquén v Argentině, souvrství Vaca Muerta"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-moreti"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Průměr studovaných jehlic včetně špiček měří 40–64 μm. Velikost celé kolonie není doložená."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-moreti"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost kolonie z jednotlivých jehlic neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-moreti"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Příbuznost s dnešními sumkami ukazuje na filtrování potravy rozptýlené ve vodě."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-moreti",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Didemnoides moreti",
+          "ageLabel": "Raná křída, počátek berriasu",
+          "location": "Pánev Neuquén v Argentině, souvrství Vaca Muerta",
+          "groupLabel": "Koloniální sumky",
+          "cardSummary": "Při pohledu mikroskopem prozradí tuto sumku drobné růžice krystalů. V mořských horninách Argentiny je vědci vysledovali od konce jury až do první části křídy.",
+          "summary": "Při pohledu mikroskopem prozradí tuto sumku drobné růžice krystalů. V mořských horninách Argentiny je vědci vysledovali od konce jury až do první části křídy. Výbrus horniny může protínat stejný typ růžice v několika různých úhlech.",
+          "quizHint": "Přisedlý povlak kopírující podklad odpovídá jedné možné podobě živé kolonie.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Přisedlý povlak kopírující podklad odpovídá jedné možné podobě živé kolonie."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-moreti",
+                "fauna14-feed"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ve vápenité jehlici vybíhají krystaly od středu do stran."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-moreti"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Konce krystalů tvoří malé pyramidální špičky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-moreti"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Přisedlý povlak kopírující podklad odpovídá jedné možné podobě živé kolonie. Ve vápenité jehlici vybíhají krystaly od středu do stran."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-moreti",
+              "fauna14-feed"
+            ]
+          },
+          "sections": [
+            {
+              "id": "neuq",
+              "title": "Moře v pánvi Neuquén",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Paleontologové objevili jehlice v sedimentech souvrství Vaca Muerta spolu s dalšími drobnými mořskými fosiliemi."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-moreti"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "krystaly",
+              "title": "Od středu ke špičce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jednotlivý krystal se od středu rozšiřuje a před zakončením zase přechází do špičky. Popsané jehlice neměly patrnou středovou dutinu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-moreti"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rez",
+              "title": "Co ukáže tenký řez",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V tenkém průbrusu záleží na směru řezu. Pozorovatel může vidět různé průřezy prostorově uspořádanými krystaly."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-moreti"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zachovani",
+              "title": "Proměna po pohřbení",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Krystaly ve vzorcích prošly rekrystalizací. Vědci proto s opatrností posuzují, z jakého minerálu je živočich původně vytvořil."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-moreti"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hranice",
+              "title": "Přes hranici dvou období",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve studované oblasti jsou nejstarší nálezy jurské, z tithonu. Nejmladší v popsaném sledu patří už do rané křídy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-moreti"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "puvod",
+              "title": "Co patřilo k živému tělu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Vápenité jehlice byly podle srovnání s dnešními sumkami uložené v měkkém obalu. Samotné paprsky byly tak malé, že na celkovém pohledu na kolonii nejsou vidět."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna14-moreti",
+                    "fauna14-feed"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "quizLookalikeGroup": "kolonialni-sumky"
+    },
+    {
+      "id": "cystodytes",
+      "scientificName": "Cystodytes",
+      "taxonRank": "genus",
+      "category": "early-chordate",
+      "period": "paleogene",
+      "diet": "suspension-feeder",
+      "group": "Cystodytes",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata",
+        "Ascidiacea",
+        "Polycitoridae"
+      ],
+      "aliases": [
+        "eocenní sumka",
+        "Cystodytes cf. dellechiajei",
+        "sumka z Blanche Point"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/cystodytes.webp",
+        "alt": {
+          "cs": "Na šikmé skalní stěně je přichycená polštářovitá kolonie s drobnými povrchovými otvory."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Z eocénu jsou doložené mikroskopické části. Povrch kolonie a barvu přibližuje ilustrace podle živých zástupců rodu Cystodytes."
+        },
+        "sourceIds": [
+          "fauna14-cysto-live",
+          "fauna14-cysto"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní eocén, paleogén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-cysto"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Blanche Point, pánev St Vincent v Jižní Austrálii"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-cysto"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Z australských vápenitých destiček není znám rozměr celé kolonie."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-cysto",
+            "fauna14-cysto-live"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost eocenní kolonie neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-cysto"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Jedinci pravděpodobně filtrovali drobné částice z vody tak jako živé sumky."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-cysto",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Cystodytes z Austrálie",
+          "ageLabel": "Pozdní eocén, paleogén",
+          "location": "Souvrství Blanche Point, pánev St Vincent v Jižní Austrálii",
+          "groupLabel": "Koloniální sumky",
+          "cardSummary": "Sumky rodu Cystodytes vytvářejí drobné vápenité disky. U žijících zástupců se disky překrývají jako tašky na střeše a tvoří pouzdro kolem břišní části každého jedince.",
+          "summary": "Sumky rodu Cystodytes vytvářejí drobné vápenité disky. U žijících zástupců se disky překrývají jako tašky na střeše a tvoří pouzdro kolem břišní části každého jedince. V Austrálii se podobné destičky zachovaly v mořských usazeninách z konce eocénu.",
+          "quizHint": "Živí příbuzní tvoří přisedlé kolonie s jedinci sdruženými do menších skupin.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Živí příbuzní tvoří přisedlé kolonie s jedinci sdruženými do menších skupin."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna14-cysto-live"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Rod charakterizují vápenité části ve tvaru drobných disků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-cysto",
+                "fauna14-cysto-live"
+              ]
+            },
+            {
+              "text": {
+                "cs": "U žijících forem se disky překrývají kolem břišní části jedince."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-cysto-live"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Živí příbuzní tvoří přisedlé kolonie s jedinci sdruženými do menších skupin. Rod charakterizují vápenité části ve tvaru drobných disků."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna14-cysto-live",
+              "fauna14-cysto"
+            ]
+          },
+          "sections": [
+            {
+              "id": "pouzdro",
+              "title": "Kam se jedinec stáhne",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U dnešního rodu chrání destičky břišní oblast. Vyrušený jedinec dovnitř pouzdra může vtáhnout i přední část těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto-live"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bahno",
+              "title": "Z někdejšího mořského dna",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkum souvrství Blanche Point zpracoval mimo jiné slínité a bahnité horniny. V nich badatelka nalezla mikroskopické pozůstatky více rodů sumek."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "urceni",
+              "title": "Proč karta nese jméno rodu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Část nálezů badatelka přirovnala ke druhu Cystodytes dellechiajei, část určila jen jako Cystodytes. Společným spolehlivým určením karty je rod."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "otvory",
+              "title": "Seskupení na povrchu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U dnešních kolonií rodu se jedinci často seskupují do kruhů. Ilustrace používá toto uspořádání jako předlohu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto-live"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "barvy",
+              "title": "Barva živé kolonie",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U žijících sumek rodu Cystodytes se barvy kolonií liší. Eocenní destičky samy původní odstín neurčují."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto-live",
+                    "fauna14-cysto"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sousede",
+              "title": "V jediné horninové jednotce",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V souvrství byly zastoupeny také jiné sumky, například rody Didemnum a Lissoclinum. Lišily se mimo jiné tvarem svých vápenitých částí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-cysto"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "quizLookalikeGroup": "kolonialni-sumky"
+    },
+    {
+      "id": "bonetia-acuta",
+      "scientificName": "Bonetia acuta",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "neogene",
+      "diet": "suspension-feeder",
+      "group": "Bonetia",
+      "taxonomy": [
+        "Chordata",
+        "Tunicata",
+        "Ascidiacea",
+        "Didemnidae"
+      ],
+      "aliases": [
+        "miocenní sumka",
+        "hvězdicovitá spikula",
+        "sumka z jižního Turecka"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/bonetia-acuta.webp",
+        "alt": {
+          "cs": "Mikroskopický pohled na kulovitou vápenitou jehlici s ostrými kuželovitými paprsky v průsvitném tělním obalu."
+        },
+        "status": "working-reconstruction",
+        "facing": "none",
+        "note": {
+          "cs": "Ilustrace rekonstruuje jehlici ve zvětšení podle jejího popisu. Okolní měkká tkáň slouží k představě její polohy v živém těle."
+        },
+        "sourceIds": [
+          "fauna14-spic"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Střední miocén, neogén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-spic"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Jižní Turecko, další nálezy mimo jiné v Indonésii a Egyptě"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-spic"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Typová jehlice má průměr 29 μm. Jde o mladší srovnávací exemplář z Rudého moře."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-spic"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost celého živočicha se podle jehlice určit nedá."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna14-spic"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Živočich nejspíš přijímal drobné částice filtrováním vody, jak je obvyklé u sumek."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna14-spic",
+            "fauna14-feed"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Bonetia acuta",
+          "ageLabel": "Střední miocén, neogén",
+          "location": "Jižní Turecko, další nálezy mimo jiné v Indonésii a Egyptě",
+          "groupLabel": "Sumky známé podle jehlic",
+          "cardSummary": "Bonetia acuta je vědecké jméno pro určitý typ vápenitých jehlic sumek. V moři na území dnešního Turecka vznikaly takové jehlice už ve středním miocénu.",
+          "summary": "Bonetia acuta je vědecké jméno pro určitý typ vápenitých jehlic sumek. V moři na území dnešního Turecka vznikaly takové jehlice už ve středním miocénu. Četné kuželovité paprsky jim při velkém zvětšení dávají vzhled drobné ostnaté kuličky.",
+          "quizHint": "Jehlice má kulovité uspořádání s přibližně 20–30 paprsky.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Jehlice má kulovité uspořádání s přibližně 20–30 paprsky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-spic"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Volné konce paprsků jsou kuželovité a ostře se zužují."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-spic"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Volná část každého paprsku je delší než jeho srostlá spodní část."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-spic"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Jehlice má kulovité uspořádání s přibližně 20–30 paprsky. Volné konce paprsků jsou kuželovité a ostře se zužují."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna14-spic"
+            ]
+          },
+          "sections": [
+            {
+              "id": "typ",
+              "title": "Který kus nese jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Typový exemplář pochází z pozdního pleistocénu Rudého moře. Určuje význam jména i pro tvarově odpovídající starší nálezy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cas",
+              "title": "Proč je karta v neogénu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Původní popis uvádí mimo jiné jednoznačný výskyt ve středním miocénu jižního Turecka."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mereni",
+              "title": "Rozměry paprsku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na typové jehlici o průměru 29 μm měří volný úsek paprsku 8,5 μm. Takové podrobnosti lze sledovat až pod mikroskopem."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozdily",
+              "title": "Podobné tvary",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Příbuzná forma jehlic Bonetia brevis mívá více paprsků. Jejich volná část je vůči srostlé části naopak kratší."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nazev",
+              "title": "Co znamená acuta",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druhové jméno odkazuje na latinské označení pro zašpičatělý tvar. Dobře vystihuje konce paprsků."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zivocich",
+              "title": "Od jedné částečky ke kolonii",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jméno rozlišuje fosilní jehlice podle tvaru. Z jejich nálezů nelze obnovit barvu, obrys ani velikost celé živé kolonie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-spic"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dermochelys-coriacea",
+      "scientificName": "Dermochelys coriacea",
+      "taxonRank": "species",
+      "category": "marine-reptile",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Dermochelys",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Testudines",
+        "Pan-Chelonioidea",
+        "Chelonioidea",
+        "Dermochelyidae"
+      ],
+      "aliases": [
+        "želva kožatka",
+        "kožatka z Ománu",
+        "leatherback"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/dermochelys-coriacea.webp",
+        "alt": {
+          "cs": "Kožatka s podélně rýhovaným tmavým hřbetem a dlouhými předními ploutvemi plave doleva v otevřeném moři."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Dochované kostěné destičky prokazují výskyt v pravěkém Ománu. Podobu těla a způsob plavání známe od dnešních kožatek stejného druhu."
+        },
+        "sourceIds": [
+          "fauna14-noaa"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Čtvrtohory, střední až pozdní holocén. Druh žije dodnes."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-oman",
+            "fauna14-noaa"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Ra’s al-Hamra a Ra’s al-Hadd na pobřeží Ománu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-oman"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dnešní dospělé kožatky běžně měří přibližně 1,5–1,8 m. Délka jedinců z ománských nalezišť není známá."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-noaa",
+            "fauna14-oman"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Dnešní dospělci běžně váží asi 340–450 kg. Jde o údaje ze živých kožatek."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-noaa"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Žijící kožatky vyhledávají především medúzy a další měkkou mořskou kořist."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna14-noaa"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Kožatka velká",
+          "ageLabel": "Čtvrtohory, střední až pozdní holocén. Druh žije dodnes.",
+          "location": "Ra’s al-Hamra a Ra’s al-Hadd na pobřeží Ománu",
+          "groupLabel": "Mořské želvy · kožatkovití",
+          "cardSummary": "Kožatka velká žije dodnes. Na pobřeží Ománu po ní zůstaly drobné kostěné destičky na dvou pravěkých nalezištích.",
+          "summary": "Kožatka velká žije dodnes. Na pobřeží Ománu po ní zůstaly drobné kostěné destičky na dvou pravěkých nalezištích. Kdybys ji pozoroval při plavání, poznal bys ji podle dlouhých předních ploutví a podélných hřebenů pod pružnou kůží hřbetu.",
+          "quizHint": "Po hřbetě pokrytém tuhou kůží vede sedm podélných hřebenů.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Po hřbetě pokrytém tuhou kůží vede sedm podélných hřebenů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-noaa"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dvojice předních ploutví je zvlášť dlouhá."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-noaa"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Tmavá kůže bývá posetá světlými skvrnami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna14-noaa"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Po hřbetě pokrytém tuhou kůží vede sedm podélných hřebenů. Dvojice předních ploutví je zvlášť dlouhá."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna14-noaa"
+            ]
+          },
+          "sections": [
+            {
+              "id": "krunyr",
+              "title": "Mozaika pod kůží",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pod povrchem hřbetu leží množství drobných kostěných destiček. Po rozpadu těla se snadno oddělí a mohou se zachovat jednotlivě."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-oman",
+                    "fauna14-noaa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozliseni",
+              "title": "Jak poznat jedinou destičku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ománské nálezy zahrnují ploché destičky i části vystupujících hřebenů. Jejich stavba umožnila přiřadit je ke kožatce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-oman"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pobrezi",
+              "title": "Dvě místa u Arabského moře",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kůstky se našly v pravěkých sídlištních souvislostech na pobřeží Ománu. Dokládají tam druh už ve středním až pozdním holocénu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-oman"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Lov měkké kořisti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní kožatky se živí hlavně rosolovitou kořistí. Dlouhé přední ploutve jim slouží k pohybu mezi potravními oblastmi."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-noaa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ponor",
+              "title": "Cesta pod hladinu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Dnešní kožatky se při hledání potravy potápějí i do velké hloubky. Samice přitom stále musejí vystoupit na pláž, aby nakladly vejce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-noaa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "soucasnost",
+              "title": "Pravěk žijícího druhu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zbarvení a proporce lze na rozdíl od mnoha jiných karet přímo porovnat se živým druhem. Přesnou velikost ománských jedinců jejich oddělené destičky neprozradily."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna14-oman",
+                    "fauna14-noaa"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

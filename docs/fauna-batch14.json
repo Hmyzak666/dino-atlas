@@ -1,0 +1,76 @@
+{
+  "previousCount": 276,
+  "countAfter": 286,
+  "images": [
+    {
+      "id": "panderodus-unicostatus",
+      "sourceFile": "exec-069a48f1-dd7e-47d0-9fe7-a4fddd83a0e5.png",
+      "sourceSha256": "4e92a2ace593f567f168882ab22ba8fa2dead803289812c8de56ddc73451ac9d",
+      "sha256": "91bfcc42df9d07e789d733e74678e0e7dfaf439dfef81dc5364c319af86d290d",
+      "prompt": "A reconstructive wildlife macro photograph of the tiny Silurian conodont Panderodus unicostatus, hunting in the shallow Waukesha lagoon of Wisconsin. Show ONE long, extremely slim flexible unarmored vertebrate swimming with head clearly towards the LEFT, gently curving tail pointing right, low side view through warm amber-grey water just above a rippled fine carbonate mudflat, low eroded microbial films. Restrained tapering snout, small low-contrast eye reconstructed, faint trunk muscle segments under thin dusky skin, a plain terminal fin fold. Tooth-like cones were INTERNAL; no projecting tusks. No paired fins, elaborate fish fins, scales, barbels, lamprey suction cup, mammalian features, legs or external bristles. Body is on a millimetre-to-centimetre scale and stays wholly inside frame. In profile the entire animal is recognisably a living soft-bodied conodont. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "palmatolepis-linguiformis",
+      "sourceFile": "exec-4847524c-782b-4e28-8b05-199e49c82b50.png",
+      "sourceSha256": "bc65676f2ac75de1e0ced9842f00932bef44aa5dc94b8769f1c8739414ec78c5",
+      "sha256": "554f443da193aa3beca4b2bea4f60c78fa9c0459de1b0d7767bc984589efb6b0",
+      "prompt": "Late Devonian Frasnian sea over what is now Belgium. Close naturalistic underwater side photograph of one marine conodont Palmatolepis linguiformis moving towards the RIGHT above a distant dark carbonate shelf. Reconstruct the animal conservatively after conodont body fossils: slender jawless vertebrate, short distinct head, modest visible lateral eye, no paired fins, a small delicate terminal tail fin, subtle chevron muscle blocks; gently arcing muted copper-grey body. Its microscopic asymmetric limestone-recorded feeding elements belong INSIDE its head, never as exposed teeth. Slanting natural light through cool blue water with suspended marine snow, steep drop into distance; frame the complete animal with room on both sides. Do not make a lamprey, hagfish, snake or bony fish. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "lochriea-commutata",
+      "sourceFile": "exec-a3cb7aa9-64cf-4596-9446-e217355c25ff.png",
+      "sourceSha256": "b75f0b8266805272fa50e57b5a2913f3b43e60df1dcba927200c330ea52aae12",
+      "sha256": "16f107b144ab8982f62a34cd8cda2c8695d48c971614f251d848232e9c8f9e47",
+      "prompt": "Lochriea commutata, a small marine Carboniferous conodont from Montana. Photograph it from slightly above as its flexible trunk makes a relaxed S turn, full head to the RIGHT of the frame and pointed caudal fin on the left. Small bilateral eyes, short facial region, slender flexible unscaled skin and a continuous soft-body silhouette, no lateral fins. Its phosphatic feeding array is internal. Natural earthy grey-olive coloration with a neutral pale underside. It swims low over dark fine-mud seabed on a quiet Carboniferous marine shelf; subdued directional shafts of cool daylight and a few shell fragments on mud show scale. One animal only, no fangs or suction disc, no dotted lamps and no eel-like pectoral fins. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "khmeria-problematica",
+      "sourceFile": "exec-2b9513ed-e290-4956-aef4-dab43ac96e8c.png",
+      "sourceSha256": "47b1c020aba9e679836b2edaa2fe0725b45afbf6b46535089a33f08dac048240",
+      "sha256": "8f96791d52d270e4494e47e281ff5d39019f12a35f8f15dad408aa00a1e437c9",
+      "prompt": "One tiny solitary putative tunicate Khmeria problematica as reconstructed on its Permian marine substrate. Base attached to a small carbonate ledge; a single slightly curved straight-sided horn/cup, pointed attachment at the bottom widening toward a roughly circular top. Strong closely spaced concentric growth lines, earthy ivory-beige calcareous conical shell, body 1–3.5 cm. A SINGLE snug, low undivided opercular lid hinged on one side, shown almost closed over the wider upper aperture so the lid and shell rim can be made out. Side-on macro near substrate level on a submerged piece of Permian reef with sparse encrusting life and gently lit green water behind. No coral tentacles, no partitions radiating across top, no branching colonies, no bivalve halves, no modern plants. Preserve the simple two-part geometry. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "toscanisoma-multipartitum",
+      "sourceFile": "exec-3d104d06-15d4-4b9c-b261-398571f3d4a4.png",
+      "sourceSha256": "35f78845c04aa08c3eda1205d296569df37cfcf941b8fb1389e06e664467a4af",
+      "sha256": "fb1c2e84e2e2960c0d2c4635c5f508761c0e68dd1e32cd6fb296cbe79b9c11e3",
+      "prompt": "Single small colonial Toscanisoma multipartitum as described from the early Carnian Cassian Formation in the Dolomites. Near-dorsal oblique underwater macro of a compact hand-sized clump: exactly SEVEN low tubular to elongate finger-shaped zooids branch outward at different heights from a single shared basal area and diverge like a shallow fan, tight together at their bases but with short gaps higher up. Smooth to faintly ridged ivory to warm buff mineralized walls built from a few broad, gently outlined irregular polygonal plates, NOT hundreds of tiny tiles. The tips are gently capped with several little plates, not big open cups; small inconspicuous seam suggested. A thin living covering over skeleton leaves silhouette readable. Sheltered Triassic carbonate substrate on a small patch of seafloor, soft turquoise side light. No soft coral polyps, tendrils, fingers ending in mouths, human hands, flower or barnacle crowns. Entire colony in focus with natural negative space. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "didemnum-cassianum",
+      "sourceFile": "exec-827b34b6-8ca9-4eec-8a0b-c6ecca272b1f.png",
+      "sourceSha256": "06f5f9834933330562e193eb0354e4486df2082c8dedb8e1493c0ba70e196043",
+      "sha256": "37a9eef519dd883dfcd49c08e2e2a89a4571f2aa1b55d4a31d0bf4e6467ec5c2",
+      "prompt": "A living colony reconstructed for the fossil Jurassic didemnid Didemnum cassianum, anchored over a ridged shell on the Welsh Early Jurassic sea floor. Side and top angle: a very thin matte ivory to cream encrusting blanket wrapping the shell's ridges, fine regularly speckled incurrent pores in the common tunic and several slightly larger communal flush outlets, uneven natural spreading edges; individual zooids too small to stand up as large tubes. The distinctive four-rayed microscopic mineral spicules are embedded within tissue and must not become surface spines, stars or visible foreground objects. Quiet soft blue marine light with the low shell on dark silt and another out of focus shell far away. No large branched fingers, solid honeycomb, anemone tentacles or coral flower patterns. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "didemnoides-moreti",
+      "sourceFile": "exec-4717286c-f8b0-4c35-8d48-8b312f2bd06e.png",
+      "sourceSha256": "170af09c01c887a9fa8f9c3ded79fca67f8292a486e282c90e64e4e4bec7657c",
+      "sha256": "ccfb4ac935bfc585149e34d87a91b197887917fc8bee00e1631803fb78c305e2",
+      "prompt": "Reconstruct the colonial ascidian whose fossil spicules are called Didemnoides moreti, on a firm, worn dark carbonate pebble beneath clear Early Cretaceous water over the Neuquén Basin of Argentina. A very low ochre-cream, semitranslucent organic encrustation with many small scattered incurrent pores interrupted by a few low-rimmed larger communal outlets. View obliquely DOWN on the gently curved top and side of an oval pebble, with small coarse pale grains and ripples beside it; warm amber shafts illuminate surface texture. The microscopic pointed stellate spicules are inside the tunic, never big spikes at animal scale. Aim for a restrained living colony plausible by didemnid comparison; no discs on stalks, no flower/star motifs, no tube sponges or tentacles. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "cystodytes",
+      "sourceFile": "exec-9b3c22f3-b430-477d-832c-edaca3599f96.png",
+      "sourceSha256": "105e99acf478502c73d877fc817948ba66708ae45b7b83152c4b84afd86cab3e",
+      "sha256": "35813e416856858fdfc7c740a94b01108560a9d4c9d4ded7151671d5e834bc91",
+      "prompt": "Paleogene ascidian of the genus Cystodytes, reconstructed from Late Eocene fossils of South Australia and living congeners. Macro dive photograph of a thick, smooth, gelatinous violet-grey encrusting cushion following a rock wall; short submerged zooids grouped in a few loose circles, subtle central shared openings, delicate skin and tiny aperture rims rather than big budding tubes. The overlapping calcareous microscopic discs inside each animal do not project from its surface. Blush-violet and slate hues interpreted after living examples, fine natural surface reflections. Place the small cushion on the rightward slant of an overhang above pale marine silt facing open water to the left, oblique light from above, low-saturation colour. No sea-anemone tentacles, external chalk scales, sea sponge chimneys or trees. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "bonetia-acuta",
+      "sourceFile": "exec-983107a1-10e0-456c-89d2-e7d829d769d3.png",
+      "sourceSha256": "350b8188653faa908587c28160825bb1f73fcff41de0b3b3a7d3ad1a6d0d5425",
+      "sha256": "442108a629e9143774ebaa3c47ad075eab4fd1c6d3556ac52891860d95ed1884",
+      "prompt": "A museum-quality optical micrograph-style reconstruction THROUGH the thin, faintly translucent tunic of a living Miocene didemnid ascidian, seen at genuine microscopic scale. Focus on its diagnostic embedded Bonetia acuta spicule, a three-dimensional mineral star roughly 29 micrometres across. Several neighboring identical-size spicules sit out of focus within the faintly amber tissue, showing this is living animal tissue, not a landscape. The sharp central spicule has roughly twenty to thirty tightly based, radially directed narrow conical pointed rays in THREE dimensions, tapering smoothly from broad attached bases to long free tips. Not a flat five-pointed star, large coral, radiolarian lattice or sea urchin, no craters/holes. Real transmitted light, unpolarized warm white and slate grey, slight environmental translucency, grayscale chalky crystalline rays. One full-bleed coherent macro field, no scale bars, decorative arrows, comparison panels or text. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    },
+    {
+      "id": "dermochelys-coriacea",
+      "sourceFile": "exec-2f0a275d-79aa-4b33-b043-6daab5d8b3af.png",
+      "sourceSha256": "40d7c4da02643292152f339eded39428be977ea26a37f6919a50cf53b4bbc72b",
+      "sha256": "cdb5fcc08d95b88f3855740a3e97d6fb590a8ea7918e6c5c7b7dc233d1f64fb3",
+      "prompt": "An adult leatherback sea turtle Dermochelys coriacea swimming through the Holocene Arabian Sea off Oman. Horizontal leading head points clearly LEFT and all body extremities are inside the frame. Three-quarter dorsal view so its seven narrow longitudinal ridges along the elongate dark leathery carapace and tapering posterior tip are legible, with sparse white spotting, soft skin between ridges, massive head, two very long front flippers and two short rear flippers. No polygonal scutes on carapace or scaly plates over head; this is a leatherback, not a green turtle. A small translucent jellyfish at a distance on the left establishes its observed diet without obstructing the body. Open blue, sun-dappled ocean, subtle silhouette of seafloor far beneath, varied natural lighting, no boats or humans. Scientific-educational image for the Czech Dino Atlas, naturalistic museum paleoart. Deliver a single edge-to-edge 1536 × 1024 landscape photograph in 3:2, anatomically restrained and in period-appropriate surroundings, optically credible focus, no text, diagrams, border, inset, captions, scales, writing or watermark."
+    }
+  ]
+}

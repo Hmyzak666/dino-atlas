@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**28. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **276 zvířat a 276 ilustrací** pro verzi 1.1.0 (1010013). V deseti dosud prázdných kombinacích období a skupiny najdeš po jednom novém druhu. Tři přibyly v juře.
+**28. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **286 zvířat a 286 ilustrací** pro verzi 1.1.0 (1010014). Deset nových karet se otevírá v deseti dříve prázdných kombinacích období a skupiny.
 
 ## Nový obsah
 
@@ -22,8 +22,11 @@
 | 11 | Ctenorhabdotus, Plumulites, Furcaster, Dendropupa, Waagenophyllum, Colospongia, Pygope, Nipponites, Proplebeia, mechovka hadovitá | 256 |
 | 12 | Haikouichthys, Archaeothyris, Lystrosaurus, Proganochelys, Rugosodon, Beelzebufo, Simosuchus, Knightia, Purussaurus, štika z Nogaisku | 266 |
 | 13 | Karaurus, Opisthiamimus, Kayentatherium, Fossiomanus, Thaumastosaurus, velemlok Scheuchzerův, leiopelma z Waitoma, Palaeophis, Pacifichelys, Promissum | 276 |
+| 14 | Panderodus, Palmatolepis, Lochriea, Khmeria, Toscanisoma, Didemnum cassianum, Didemnoides moreti, Cystodytes, Bonetia acuta, kožatka velká | 286 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
+
+Dávka 14 doplňuje do skupiny raných strunatců po jednom zástupci pro každé období od siluru po neogén. U koloniálních sumek karty rozlišují dochované jehlice či destičky a předpokládaný vzhled živé kolonie. Australské nálezy rodu Cystodytes jsou vedené na úrovni rodu. U permské Khmerie je vyznačené nejisté zařazení. Kožatku velkou ve čtvrtohorách dokládají pravěké nálezy z Ománu. [Ilustrace čtrnácté dávky](fauna-batch14.json).
 
 V dávce 13 mají obojživelníci nové zástupce v juře, paleogénu, neogénu i čtvrtohorách. Synapsidi přibyli v juře a křídě, další plazi v juře a mořští plazi v paleogénu a neogénu. Rané strunatce v ordoviku zastupuje konodont Promissum. [Ilustrace třinácté dávky](fauna-batch13.json).
 
@@ -45,6 +48,10 @@ V dávce 9 pochází třicet obrázků z vybraných sad WebP a prvních deset z 
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010014
+
+Na mobilním zobrazení šlo v každé z deseti původně prázdných kombinací otevřít právě jednu kartu a načíst její ilustraci 1536 × 1024. Prošlo i hledání podle názvu a filtrování podle potravy. Obsahové testy ověřily všech 276 dřívějších záznamů, zdrojové odkazy v nových kartách, obrázky a volby v kvízu. Kontrola podkladů pro Android našla 286 zvířat a 286 ilustrací.
 
 ## Kontroly zdrojů 1010013
 

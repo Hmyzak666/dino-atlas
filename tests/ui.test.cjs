@@ -75,7 +75,8 @@ async function openAnimal(page,id) {
         const previousFauna = require('../docs/fauna-batch10.json');
         const invertebrates = require('../docs/fauna-batch11.json');
         const fauna13 = require('../docs/fauna-batch13.json');
-        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...previousFauna.images, ...invertebrates.images, ...fauna13.images]) {
+        const fauna14 = require('../docs/fauna-batch14.json');
+        for (const {id} of [...batch.added, ...batch.replacements, ...batch.retained, ...previousFauna.images, ...invertebrates.images, ...fauna13.images, ...fauna14.images]) {
           // The approved Plumulites image faces left. The atlas shows animals with an unknown diet facing right.
           const transform = id === 'plumulites-bengtsoni' ? 'matrix(-1, 0, 0, 1, 0, 0)' : 'none';
           const card = page.locator('#card-' + id);
@@ -278,8 +279,8 @@ async function openAnimal(page,id) {
       await page.waitForFunction(y=>Math.abs(scrollY-y)<5,galleryY);
       assert.equal(await page.locator('#favorites-count').textContent(),'2');
       await page.locator('[data-category="marine-reptile"]').click();
-      assert.equal(await page.locator('#gallery .dino-card').count(),11);
-      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Atopodentatus','Ichthyosaurus','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Pacifichelys','Palaeophis','Plesiosaurus','Shonisaurus','Tylosaurus']);
+      assert.equal(await page.locator('#gallery .dino-card').count(),12);
+      assert.deepEqual(await page.locator('.card-title-row h3').allTextContents(),['Atopodentatus','Ichthyosaurus','Kožatka velká','Liopleurodon','Mosasaurus','Nothosaurus','Ophthalmosaurus','Pacifichelys','Palaeophis','Plesiosaurus','Shonisaurus','Tylosaurus']);
       await noOverflow(page);
 
       if(width===412) {

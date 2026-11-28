@@ -1,4 +1,4 @@
-> **28. 11. 2026 · Dino Atlas 1.1.0 (1010013)** obsahuje 276 zvířat a 276 ilustrací. V juře přibyli mlok Karaurus, příbuzný hatérie Opisthiamimus a synapsid Kayentatherium. Sedm dalších druhů doplnilo prázdné skupiny od ordoviku po čtvrtohory. [Přehled druhů](docs/RELEASE-1.1.0.md)
+> **28. 11. 2026 · Dino Atlas 1.1.0 (1010014)** obsahuje 286 zvířat a 286 ilustrací. Tři konodonti a šest zástupců pláštěnců doplnili devět dosud prázdných období ve skupině raných strunatců. Kožatka velká se objevuje mezi čtvrtohorními mořskými plazy. [Přehled zvířat](docs/RELEASE-1.1.0.md)
 
 > **27. 11. 2026 · Dino Atlas 1.1.0 (1010010)** obsahuje 246 zvířat a 246 ilustrací. Přibyli tři dinosauři a sedm bezobratlých. [Přehled druhů](docs/RELEASE-1.1.0.md)
 

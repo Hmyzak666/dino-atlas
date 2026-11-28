@@ -415,11 +415,11 @@ window.DINO_KNOWLEDGE = {
   },
   "early-chordate": {
     "title": "Raní strunatci",
-    "range": "Nejméně od kambria; strunatci existují dodnes.",
+    "range": "Strunatci jsou doloženi nejméně od kambria a žijí dodnes.",
     "sections": [
       [
         "Co sem patří",
-        "Dávní zástupci skupiny, do níž patří i obratlovci."
+        "V atlasu tu najdeš kambrickou pikaiu, konodonty s minerálními prvky v ústech a pláštěnce včetně koloniálních sumek."
       ],
       [
         "Typické znaky",
@@ -427,15 +427,18 @@ window.DINO_KNOWLEDGE = {
       ],
       [
         "Význam",
-        "Pomáhají poznat počátky stavby těla našich vzdálených příbuzných."
+        "U některých konodontů se zachovaly i svaly. Fosilní sumky naopak mnohdy známe jen podle vápenitých částic v obalu těla."
       ],
       [
         "Věděl jsi?",
-        "Strunatec nemusí mít páteř. Struna a páteř nejsou totéž."
+        "I přisedlá sumka patří ke strunatcům. U její typické plovoucí larvy prochází hřbetní struna ocasem."
       ]
     ],
     "sources": [
-      "https://www.amnh.org/exhibitions/permanent/vertebrate-origins"
+      "https://www.amnh.org/exhibitions/permanent/vertebrate-origins",
+      "https://doi.org/10.1002/spp2.1389",
+      "https://doi.org/10.1666/11-112.1",
+      "https://sat-zooplankton.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?cat=TAB_DESCRIPTION&id=24225"
     ]
   },
   "early-tetrapod": {

@@ -86,7 +86,12 @@
   function makeQuiz(dinosaurs, count = 5, random = Math.random) {
     const usable = dinosaurs.filter(dino => dino.quizEnabled !== false && dino.image?.src);
     if (usable.length < 3) return [];
-    const alternatives = answer => usable.filter(dino => dino.id !== answer.id && (!answer.quizLookalikeGroup || dino.quizLookalikeGroup !== answer.quizLookalikeGroup));
+    // External body shape alone cannot distinguish these conodont reconstructions.
+    const quizGroup = dino => dino.quizLookalikeGroup || (dino.taxonomy?.includes('Conodonta') ? 'conodonti' : null);
+    const alternatives = answer => {
+      const group = quizGroup(answer);
+      return usable.filter(dino => dino.id !== answer.id && (!group || quizGroup(dino) !== group));
+    };
     return shuffle(usable.filter(answer => alternatives(answer).length >= 2), random).slice(0, count).map(answer => ({
       answerId: answer.id,
       optionIds: shuffle([answer, ...shuffle(alternatives(answer), random).slice(0, 2)], random).map(dino => dino.id)
