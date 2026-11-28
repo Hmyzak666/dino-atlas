@@ -111,7 +111,7 @@
       if (!Array.isArray(dino.taxonomy) || !dino.taxonomy.length) throw new Error('Chybí příbuzenské zařazení.');
       if (categoryOf(dino) === 'pterosaur' && (!dino.taxonomy.includes('Pterosauria') || dino.taxonomy.includes('Dinosauria'))) throw new Error('Ptakoještěr má nesprávné zařazení.');
       if (categoryOf(dino) === 'dinosaur' && (!dino.taxonomy.includes('Dinosauria') || dino.taxonomy.includes('Pterosauria'))) throw new Error('Dinosaurus má nesprávné zařazení.');
-      if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria', 'Atopodentatidae'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
+      if (categoryOf(dino) === 'marine-reptile' && (dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria'].includes(group)) || !dino.taxonomy.some(group => ['Mosasauridae', 'Plesiosauria', 'Ichthyosauria', 'Nothosauria', 'Atopodentatidae', 'Palaeophiidae', 'Pan-Chelonioidea'].includes(group)))) throw new Error('Mořský plaz má nesprávné zařazení.');
       if (categoryOf(dino) === 'arthropod' && (!dino.taxonomy.includes('Arthropoda') || dino.taxonomy.some(group => ['Dinosauria', 'Pterosauria', 'Chordata'].includes(group)))) throw new Error('Členovec má nesprávné zařazení.');
       if (categoryOf(dino) === 'mammal' && !dino.taxonomy.includes('Mammalia')) throw new Error('Savec má nesprávné zařazení.');
       if (categoryOf(dino) === 'bird' && !dino.taxonomy.includes('Aves')) throw new Error('Pták má nesprávné zařazení.');

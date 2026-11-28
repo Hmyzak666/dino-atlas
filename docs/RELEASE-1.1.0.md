@@ -1,6 +1,6 @@
 # Dino Atlas 1.1.0 — souhrn novinek
 
-**28. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **266 zvířat a 266 ilustrací** pro verzi 1.1.0 (1010012). Deset nových druhů doplňuje deset dosud prázdných kombinací období a skupiny. V další kombinaci Jura → Ptáci se zobrazuje stávající karta archeopteryxe.
+**28. 11. 2026.** Pracovní větev `feature/paleozoic-1.0.0` obsahuje **276 zvířat a 276 ilustrací** pro verzi 1.1.0 (1010013). V deseti dosud prázdných kombinacích období a skupiny najdeš po jednom novém druhu. Tři přibyly v juře.
 
 ## Nový obsah
 
@@ -21,8 +21,11 @@
 | 10 | Thecodontosaurus, Huayangosaurus, Sinosauropteryx, Vauxia, Constellaria, Pentamerus, Calceola, Esconites, Campanile, Clypeaster | 246 |
 | 11 | Ctenorhabdotus, Plumulites, Furcaster, Dendropupa, Waagenophyllum, Colospongia, Pygope, Nipponites, Proplebeia, mechovka hadovitá | 256 |
 | 12 | Haikouichthys, Archaeothyris, Lystrosaurus, Proganochelys, Rugosodon, Beelzebufo, Simosuchus, Knightia, Purussaurus, štika z Nogaisku | 266 |
+| 13 | Karaurus, Opisthiamimus, Kayentatherium, Fossiomanus, Thaumastosaurus, velemlok Scheuchzerův, leiopelma z Waitoma, Palaeophis, Pacifichelys, Promissum | 276 |
 
 Nové ilustrace vycházejí z již vybraných souborů, ve formátu WebP 1536 × 1024. Nové české karty mají základní údaje, poznávací znaky, šest tematických částí a zdroje. Zapojují se do stávajícího hledání, oblíbených, čtení a kvízu.
+
+V dávce 13 mají obojživelníci nové zástupce v juře, paleogénu, neogénu i čtvrtohorách. Synapsidi přibyli v juře a křídě, další plazi v juře a mořští plazi v paleogénu a neogénu. Rané strunatce v ordoviku zastupuje konodont Promissum. [Ilustrace třinácté dávky](fauna-batch13.json).
 
 V dávce 12 přibyly ryby pro kambrium, paleogén a čtvrtohory, synapsidi pro karbon a trias, další plazi pro trias, křídu a neogén, savec pro juru a obojživelník pro křídu. U štiky z Nogaisku karta uvádí, které části vycházejí z nalezených kostí a které z žijících příbuzných. [Ilustrace dvanácté dávky](fauna-batch12.json).
 
@@ -42,6 +45,10 @@ V dávce 9 pochází třicet obrázků z vybraných sad WebP a prvních deset z 
 - Rozpětí křídel u Argentavise a Pelagornise; rozměry konkrétních rekonstrukcí jsou označené jako odhady. Chybějící podklady se nenahrazují vymyšlenými čísly.
 
 Čtyři starší karty mají novou ilustraci. Jde o rody Baryonyx, Corythosaurus, Lambeosaurus a Euoplocephalus. U dalších šesti souhlasil vybraný soubor s dosavadní ilustrací. [Všech 23 vybraných souborů](dinosaur-batch08.json).
+
+## Kontroly zdrojů 1010013
+
+Mobilní prohlížeč zobrazil v každé z deseti dříve prázdných kombinací jedinou odpovídající kartu. Vyhledání vědeckého jména i otevření ilustrace 1536 × 1024 prošlo u všech deseti druhů. Testy ověřily zařazení, kvíz, směr ilustrací a zachování původních 266 záznamů. Kontrola podkladů pro Android našla 276 zvířat a 276 obrázků.
 
 ## Kontroly zdrojů 1010012
 

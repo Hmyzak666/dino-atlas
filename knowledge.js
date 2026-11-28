@@ -342,7 +342,7 @@ window.DINO_KNOWLEDGE = {
     "sections": [
       [
         "Co sem patří",
-        "Praktické společné označení různých plazů přizpůsobených životu v moři. V atlasu například ryboještěři a plesiosauři."
+        "V moři žily různé větve plazů. Vedle druhohorních ryboještěrů a plesiosaurů tu najdeš i eocenního hada Palaeophis a miocenní mořskou želvu Pacifichelys."
       ],
       [
         "Typické znaky",
@@ -358,7 +358,9 @@ window.DINO_KNOWLEDGE = {
       ]
     ],
     "sources": [
-      "https://www.nhm.ac.uk/discover/the-triassic-period-the-rise-of-the-dinosaurs.html"
+      "https://www.nhm.ac.uk/discover/the-triassic-period-the-rise-of-the-dinosaurs.html",
+      "https://doi.org/10.4202/app.00442.2017",
+      "https://doi.org/10.3390/jmse9111188"
     ]
   },
   "arthropod": {

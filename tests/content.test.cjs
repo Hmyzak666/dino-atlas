@@ -6,7 +6,7 @@ const db = require('../dinosaurs.json');
 const byId = new Map(db.dinosaurs.map(a => [a.id, a]));
 
 assert.equal(app.validateDatabase(db), true);
-assert.ok([72,78,83,88,96,104,112,122,132,142,152,162,172,183,196,236,246,256,266].includes(db.dinosaurs.length), 'The catalog must match a verified content batch');
+assert.ok([72,78,83,88,96,104,112,122,132,142,152,162,172,183,196,236,246,256,266,276].includes(db.dinosaurs.length), 'The catalog must match a verified content batch');
 const original = db.dinosaurs.slice(0,72);
 assert.equal(original.length,72);
 assert.deepEqual(Object.fromEntries(['dinosaur', 'pterosaur', 'marine-reptile', 'arthropod'].map(category => [category, app.categoryAnimals(original, category).length])),

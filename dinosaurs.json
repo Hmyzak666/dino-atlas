@@ -3458,6 +3458,176 @@
       "title": "Wisconsin Department of Natural Resources · Stavba těla a způsob lovu dnešní štiky",
       "shortTitle": "Wisconsin Department of Natural Resources · Stavba těla a způsob lovu dnešní štiky",
       "url": "https://dnr.wisconsin.gov/sites/default/files/topic/Fishing/Species_northernpike.pdf"
+    },
+    "fauna13-kar-type": {
+      "title": "Muséum national d’Histoire naturelle · Odlitek typové kostry druhu Karaurus sharovi",
+      "shortTitle": "Muséum national d’Histoire naturelle · Odlitek typové kostry druhu Karaurus sharovi",
+      "url": "https://science.mnhn.fr/institution/mnhn/collection/f/item/moa14"
+    },
+    "fauna13-kar-anatomy": {
+      "title": "Carroll · Původ ocasatých obojživelníků a kostra karaura",
+      "shortTitle": "Carroll · Původ ocasatých obojživelníků a kostra karaura",
+      "url": "https://doi.org/10.1111/j.1096-3642.2007.00246.x"
+    },
+    "fauna13-kar-size": {
+      "title": "Vertebrata PalAsiatica · Rozměry karaura ve srovnání s křídovým ocasatým obojživelníkem",
+      "shortTitle": "Vertebrata PalAsiatica · Rozměry karaura ve srovnání s křídovým ocasatým obojživelníkem",
+      "url": "https://www.ivpp.cas.cn/cbw/gjzdwxb/xbwzxz/200812/W020090813369657880960.pdf"
+    },
+    "fauna13-kar-line": {
+      "title": "Jones a kol. · Jurská vývojová větev karauridů",
+      "shortTitle": "Jones a kol. · Jurská vývojová větev karauridů",
+      "url": "https://doi.org/10.1073/pnas.2114100119"
+    },
+    "fauna13-opi-team": {
+      "title": "University College London · Drobný příbuzný hatérie z Morrisonova souvrství",
+      "shortTitle": "University College London · Drobný příbuzný hatérie z Morrisonova souvrství",
+      "url": "https://www.ucl.ac.uk/news/2022/sep/extinct-prehistoric-reptile-lived-among-dinosaurs-discovered"
+    },
+    "fauna13-opi-anatomy": {
+      "title": "DeMar, Jones a Carrano · Kostra, chrup a příbuznost druhu Opisthiamimus gregori",
+      "shortTitle": "DeMar, Jones a Carrano · Kostra, chrup a příbuznost druhu Opisthiamimus gregori",
+      "url": "https://doi.org/10.1080/14772019.2022.2093139"
+    },
+    "fauna13-kay-teeth": {
+      "title": "Kermack · První popis lebky a chrupu rodu Kayentatherium",
+      "shortTitle": "Kermack · První popis lebky a chrupu rodu Kayentatherium",
+      "url": "https://doi.org/10.1111/j.1096-3642.1982.tb01953.x"
+    },
+    "fauna13-kay-family": {
+      "title": "Hoffman a Rowe · Nález dospělce a velmi malých jedinců z Arizony",
+      "shortTitle": "Hoffman a Rowe · Nález dospělce a velmi malých jedinců z Arizony",
+      "url": "https://doi.org/10.1038/s41586-018-0441-3"
+    },
+    "fauna13-kay-size": {
+      "title": "University of Texas at Austin · Rozměry mláďat a paleobiologie rodu Kayentatherium",
+      "shortTitle": "University of Texas at Austin · Rozměry mláďat a paleobiologie rodu Kayentatherium",
+      "url": "https://news.utexas.edu/2018/08/29/mammal-forerunner-sheds-light-on-brain-evolution/"
+    },
+    "fauna13-fos-type": {
+      "title": "American Museum of Natural History · Dva hrabaví živočichové z čínské bioty Jehol",
+      "shortTitle": "American Museum of Natural History · Dva hrabaví živočichové z čínské bioty Jehol",
+      "url": "https://www.amnh.org/content/download/338452/5289802/file/ancient-digging-mammals-amnh-press-release.pdf"
+    },
+    "fauna13-fos-paper": {
+      "title": "Mao a kol. · Rozměry, obratle a končetiny druhu Fossiomanus sinensis",
+      "shortTitle": "Mao a kol. · Rozměry, obratle a končetiny druhu Fossiomanus sinensis",
+      "url": "https://doi.org/10.1038/s41586-021-03433-2"
+    },
+    "fauna13-fos-cas": {
+      "title": "Čínská akademie věd · Hrabavé končetiny a dlouhý trup rodu Fossiomanus",
+      "shortTitle": "Čínská akademie věd · Hrabavé končetiny a dlouhý trup rodu Fossiomanus",
+      "url": "https://english.cas.cn/bcas/2021_2/202108/P020210804672060361452.pdf"
+    },
+    "fauna13-tha-mummy": {
+      "title": "Lemierre a kol. · Nové určení fosilní žáby Bufo servatus pomocí tomografie",
+      "shortTitle": "Lemierre a kol. · Nové určení fosilní žáby Bufo servatus pomocí tomografie",
+      "url": "https://doi.org/10.1080/02724634.2021.1989694"
+    },
+    "fauna13-tha-scan": {
+      "title": "Laloy a kol. · CT snímky žabí mumie z Quercy",
+      "shortTitle": "Laloy a kol. · CT snímky žabí mumie z Quercy",
+      "url": "https://doi.org/10.1371/journal.pone.0074874"
+    },
+    "fauna13-tha-review": {
+      "title": "Georgalis, Prendini a Roček · Lebka a příbuznost rodu Thaumastosaurus",
+      "shortTitle": "Georgalis, Prendini a Roček · Lebka a příbuznost rodu Thaumastosaurus",
+      "url": "https://doi.org/10.1093/zoolinnean/zlad047"
+    },
+    "fauna13-and-lake": {
+      "title": "Lokalita Öhningen · Miocenní jezerní usazeniny a historie nálezů",
+      "shortTitle": "Lokalita Öhningen · Miocenní jezerní usazeniny a historie nálezů",
+      "url": "https://doi.org/10.1007/s12549-024-00635-0"
+    },
+    "fauna13-and-bones": {
+      "title": "Miklas · Nálezy evropského velemloka a popis typového exempláře",
+      "shortTitle": "Miklas · Nálezy evropského velemloka a popis typového exempláře",
+      "url": "https://opac.geologie.ac.at/ais312/dokumente/103A_161211_Miklas.pdf"
+    },
+    "fauna13-and-living": {
+      "title": "Smithsonian National Zoo · Tělesné znaky a jídelníček žijícího velemloka japonského",
+      "shortTitle": "Smithsonian National Zoo · Tělesné znaky a jídelníček žijícího velemloka japonského",
+      "url": "https://nationalzoo.si.edu/animals/japanese-giant-salamander"
+    },
+    "fauna13-lei-bones": {
+      "title": "Worthy · Kosti novozélandských leiopelm a popis tří vyhynulých druhů",
+      "shortTitle": "Worthy · Kosti novozélandských leiopelm a popis tří vyhynulých druhů",
+      "url": "https://doi.org/10.1080/03036758.1987.10418160"
+    },
+    "fauna13-lei-habitat": {
+      "title": "Worthy · Rekonstrukce pohybu a prostředí vyhynulých leiopelm",
+      "shortTitle": "Worthy · Rekonstrukce pohybu a prostředí vyhynulých leiopelm",
+      "url": "https://doi.org/10.1080/03036758.1987.10426482"
+    },
+    "fauna13-lei-atlas": {
+      "title": "Department of Conservation, Nový Zéland · Vyhynulá žába z Waitoma",
+      "shortTitle": "Department of Conservation, Nový Zéland · Vyhynulá žába z Waitoma",
+      "url": "https://www.doc.govt.nz/our-work/reptiles-and-frogs-distribution/atlas/atlas-details/?SpeciesID=13194"
+    },
+    "fauna13-lei-age": {
+      "title": "Envirolink · Datované holocenní nálezy vyhynulých žab Nového Zélandu",
+      "shortTitle": "Envirolink · Datované holocenní nálezy vyhynulých žab Nového Zélandu",
+      "url": "https://www.envirolink.govt.nz/assets/Envirolink/2448-ORC015-Species-lists-for-regional-and-unitary-councils-to-inform-biodiversity-management.pdf"
+    },
+    "fauna13-pal-snake": {
+      "title": "McCartney a kol. · Obratle, rozměry a ekologie velkých paleogenních hadů z Mali",
+      "shortTitle": "McCartney a kol. · Obratle, rozměry a ekologie velkých paleogenních hadů z Mali",
+      "url": "https://doi.org/10.4202/app.00442.2017"
+    },
+    "fauna13-pal-sea": {
+      "title": "O’Leary a kol. · Transsaharské moře a jeho fosilie v Mali",
+      "shortTitle": "O’Leary a kol. · Transsaharské moře a jeho fosilie v Mali",
+      "url": "https://doi.org/10.1206/0003-0090.436.1.1"
+    },
+    "fauna13-pac-paper": {
+      "title": "Parham a Pyenson · Lebky, kostra a potrava miocenní mořské želvy z Peru",
+      "shortTitle": "Parham a Pyenson · Lebky, kostra a potrava miocenní mořské želvy z Peru",
+      "url": "https://repository.si.edu/server/api/core/bitstreams/1efc5a63-253f-4d46-b24b-201e85107b37/content"
+    },
+    "fauna13-prom-body": {
+      "title": "Gabbott, Aldridge a Theron · Zachované oči a svalová vlákna ordovického konodonta",
+      "shortTitle": "Gabbott, Aldridge a Theron · Zachované oči a svalová vlákna ordovického konodonta",
+      "url": "https://doi.org/10.1038/374800a0"
+    },
+    "fauna13-prom-elements": {
+      "title": "Theron, Rickards a Aldridge · Potravní aparát jihoafrického konodonta Promissum pulchrum",
+      "shortTitle": "Theron, Rickards a Aldridge · Potravní aparát jihoafrického konodonta Promissum pulchrum",
+      "url": "https://palass.org/publications/palaeontology-journal/archive/33/3/article_pp577-594"
+    },
+    "fauna13-prom-site": {
+      "title": "Gabbott a kol. · Fosilie a vznik ordovických břidlic Soom",
+      "shortTitle": "Gabbott a kol. · Fosilie a vznik ordovických břidlic Soom",
+      "url": "https://nora.nerc.ac.uk/id/eprint/513878/1/Gabbott.pdf"
+    },
+    "fauna13-tha-food": {
+      "title": "Animal Diversity Web · Potrava žijící africké hrabatky",
+      "shortTitle": "Animal Diversity Web · Potrava žijící africké hrabatky",
+      "url": "https://animaldiversity.org/accounts/Pyxicephalus_adspersus/"
+    },
+    "fauna13-lei-food": {
+      "title": "Shaw a kol. · Potrava dvou žijících novozélandských leiopelm",
+      "shortTitle": "Shaw a kol. · Potrava dvou žijících novozélandských leiopelm",
+      "url": "https://doi.org/10.1080/03014223.2011.619989"
+    },
+    "fauna13-and-history": {
+      "title": "Linda Hall Library · Scheuchzerův nález a Cuvierovo určení velemloka",
+      "shortTitle": "Linda Hall Library · Scheuchzerův nález a Cuvierovo určení velemloka",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-grandeur-of-life/section-vi/39-scheuchzer-johann-jacob-1672-1733/"
+    },
+    "fauna13-pac-coast": {
+      "title": "Ekologie mořských obratlovců v souvrství Pisco · Želvy v Cerro Colorado",
+      "shortTitle": "Ekologie mořských obratlovců v souvrství Pisco · Želvy v Cerro Colorado",
+      "url": "https://doi.org/10.3390/jmse9111188"
+    },
+    "fauna13-pac-record": {
+      "title": "PeerJ · Fosilní záznam jihoamerických mořských želv",
+      "shortTitle": "PeerJ · Fosilní záznam jihoamerických mořských želv",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5868478/"
+    },
+    "fauna13-tri-diet": {
+      "title": "Sues a Jenkins · Tělesná stavba a znaky tritylodontidů",
+      "shortTitle": "Sues a Jenkins · Tělesná stavba a znaky tritylodontidů",
+      "url": "https://repository.si.edu/bitstream/handle/10088/7533/paleo_SUES_JENKINS.2006.pdf"
     }
   },
   "dinosaurs": [
@@ -73449,6 +73619,2557 @@
               ]
             }
           ]
+        }
+      }
+    },
+    {
+      "id": "karaurus-sharovi",
+      "scientificName": "Karaurus sharovi",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "jurassic",
+      "diet": "carnivore",
+      "group": "Karaurus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amphibia",
+        "Caudata",
+        "Karauridae"
+      ],
+      "aliases": [
+        "jurský mlok",
+        "mlok z Kazachstánu"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/karaurus-sharovi.webp",
+        "alt": {
+          "cs": "Drobný mlok se širokou hlavou a dlouhým ocasem se v mělké vodě u kamenitého břehu dívá doleva."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Kostra je předlohou tvaru hlavy, páteře a končetin. Zbarvení kůže a prostředí při jezerním břehu jsou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna13-kar-anatomy",
+          "fauna13-kar-type"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Jura"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-kar-type",
+            "fauna13-kar-line"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Pohoří Karatau v jižním Kazachstánu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-kar-line",
+            "fauna13-kar-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Od špičky čenichu k pánvi měřil asi 12 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-kar-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost živého karaura z nalezené kostry spolehlivě neurčíme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-kar-anatomy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podle srovnání s příbuznými mohl lovit drobné živočichy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-kar-line"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Karaurus",
+          "ageLabel": "Jura",
+          "location": "Pohoří Karatau v jižním Kazachstánu",
+          "groupLabel": "Ocasatí obojživelníci · karauridi",
+          "cardSummary": "Jurský Karaurus měl širokou hlavu, čtyři krátké končetiny a ocas, který prodlužoval štíhlý trup. Z Kazachstánu známe jeho kostru s kostmi stále v původním spojení.",
+          "summary": "Jurský Karaurus měl širokou hlavu, čtyři krátké končetiny a ocas, který prodlužoval štíhlý trup. Z Kazachstánu známe jeho kostru s kostmi stále v původním spojení. Na svrchní straně lebky se zachoval členitý kostěný povrch. Paleontologům pomáhá odlišit tuto ranou větev od dnešních mloků.",
+          "quizHint": "Za širokou hlavou následuje trup nesený čtyřmi krátkými končetinami.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Za širokou hlavou následuje trup nesený čtyřmi krátkými končetinami."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kar-anatomy",
+                "fauna13-kar-type"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Páteř za pánví pokračuje v dlouhý ocas."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kar-type",
+                "fauna13-kar-anatomy"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Svrchní kosti lebky nesou výraznou povrchovou kresbu."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kar-anatomy"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Za širokou hlavou následuje trup nesený čtyřmi krátkými končetinami. Páteř za pánví pokračuje v dlouhý ocas."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-kar-anatomy",
+              "fauna13-kar-type"
+            ]
+          },
+          "sections": [
+            {
+              "id": "kostra",
+              "title": "Kosti v původním spojení",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nález zachovává lebku, páteř i obě dvojice končetin pohromadě. Je proto možné porovnat jejich vzájemné proporce na jediném zvířeti."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kar-type",
+                    "fauna13-kar-anatomy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hlava",
+              "title": "Reliéf lebky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosti na svrchní straně lebky mají zřetelně modelovaný povrch. Tato kresba patří ke kostem a sama o sobě neurčuje vzor kůže na živém jedinci."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kar-anatomy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rodokmen",
+              "title": "Příbuzní dnešních mloků",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Karaurus patřil k vyhynulé větvi karauridů. Zkoumání jejich koster ukazuje, které znaky ocasatých obojživelníků se objevily už v juře."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kar-line"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mereni",
+              "title": "Kam dosáhne dvanáct centimetrů",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Údaj dvanáct centimetrů se vztahuje ke vzdálenosti mezi čenichem a pánví. Při měření až ke špičce ocasu by vyšlo větší číslo."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kar-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Co mohl lovit",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podle stavby hlavy a srovnání s dalšími karauridy připadá v úvahu drobná živočišná potrava. Obrázek proto zachycuje mloka bez konkrétní kořisti."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-kar-line"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "odlitek",
+              "title": "Jak se kostra dostala do Paříže",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pařížské přírodovědné muzeum eviduje odlitek původního typového exempláře PIN 2585/2. Odlitky umožňují porovnávat tvar fosilie i v dalších sbírkách."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kar-type"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "opisthiamimus-gregori",
+      "scientificName": "Opisthiamimus gregori",
+      "taxonRank": "species",
+      "category": "other-reptile",
+      "period": "jurassic",
+      "diet": "carnivore",
+      "group": "Opisthiamimus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Lepidosauria",
+        "Rhynchocephalia",
+        "Sphenodontia"
+      ],
+      "aliases": [
+        "jurský příbuzný hatérie",
+        "plaz z Morrisonova souvrství"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/opisthiamimus-gregori.webp",
+        "alt": {
+          "cs": "Drobný šupinatý plaz stojí na větvi. Krátkou hlavou míří doleva a dlouhý ocas se táhne za ním."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Lebka, čelisti a značná část těla vycházejí z fosilií. Zbarvení šupin a téměř celý ocas jsou doplněné."
+        },
+        "sourceIds": [
+          "fauna13-opi-anatomy",
+          "fauna13-opi-team"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní jura, asi před 150 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-opi-team",
+            "fauna13-opi-anatomy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Morrisonovo souvrství v severním Wyomingu, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-opi-team",
+            "fauna13-opi-anatomy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Celkem asi 16 cm od čenichu po špičku ocasu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-opi-team"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Autoři popisu odhadli hmotnost přibližně na 16 g."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-opi-anatomy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Hmyz a další drobní bezobratlí, jejichž tělo zvládl rozmělnit zuby."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-opi-anatomy",
+            "fauna13-opi-team"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Opisthiamimus",
+          "ageLabel": "Pozdní jura, asi před 150 miliony let",
+          "location": "Morrisonovo souvrství v severním Wyomingu, USA",
+          "groupLabel": "Hatérie a jejich vyhynulí příbuzní",
+          "cardSummary": "Tenhle příbuzný dnešní hatérie měřil od čenichu ke špičce ocasu asi tolik co lidská dlaň s prsty. Uvnitř tlamy měl zuby i na patře.",
+          "summary": "Tenhle příbuzný dnešní hatérie měřil od čenichu ke špičce ocasu asi tolik co lidská dlaň s prsty. Uvnitř tlamy měl zuby i na patře. Jeho křehkou kostru objevili ve stejných jurských horninách, ze kterých známe mnohem většího allosaura.",
+          "quizHint": "Malá trojúhelníková hlava patří k tělu dlouhému s ocasem asi 16 cm.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Malá trojúhelníková hlava patří k tělu dlouhému s ocasem asi 16 cm."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-opi-anatomy",
+                "fauna13-opi-team"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Zuby vyrůstají také na patrových kostech uvnitř tlamy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-opi-anatomy"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na dolní čelisti jsou patrné plošky obroušené při styku s horními zuby."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-opi-anatomy",
+                "fauna13-opi-team"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Malá trojúhelníková hlava patří k tělu dlouhému s ocasem asi 16 cm. Zuby vyrůstají také na patrových kostech uvnitř tlamy."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-opi-anatomy",
+              "fauna13-opi-team"
+            ]
+          },
+          "sections": [
+            {
+              "id": "chrup",
+              "title": "Druhá řada uvnitř tlamy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kromě zubů na okraji čelisti měl také řadu zubů uvnitř patra. Na různých kostech se liší počet zubů i směr jejich řad."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-opi-anatomy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Malý lovec",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Rozměry těla a stopy používání zubů ukazují na malé bezobratlé. Čelisti si pravděpodobně poradily i s tvrdšími částmi hmyzu."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-opi-anatomy",
+                    "fauna13-opi-team"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "objev",
+              "title": "Nález u allosauřího hnízda",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Lokalita v severním Wyomingu je známá hnízdem allosaura. Z téhož místa pocházejí také pozůstatky několika drobných příbuzných hatérií."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-opi-team",
+                    "fauna13-opi-anatomy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sken",
+              "title": "Lebka uvnitř horniny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Pomocí počítačové tomografie badatelé rozlišili jednotlivé kosti. Virtuální model dovolil prohlédnout vnitřek maličké lebky z několika stran."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-opi-team"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "meritko",
+              "title": "Jak se odhaduje hmotnost",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Odhad šestnáct gramů vychází z porovnání s 86 druhy dnešních ještěrů podobné délky. Stejně dlouhá živá zvířata se mohou hmotností výrazně lišit."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-opi-anatomy"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rodina",
+              "title": "Příbuzenství s hatérií",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Opisthiamimus patří k plazům z řádu Rhynchocephalia. Ve světě jurských dinosaurů byla tato skupina rozmanitá, dnes ji připomíná novozélandská hatérie."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-opi-team",
+                    "fauna13-opi-anatomy"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.16,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna13-opi-team"
+        ],
+        "note": {
+          "cs": "Odhad celkové délky včetně ocasu, jak jej uvádí výzkumný tým."
+        }
+      }
+    },
+    {
+      "id": "kayentatherium-wellesi",
+      "scientificName": "Kayentatherium wellesi",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "jurassic",
+      "diet": "herbivore",
+      "group": "Kayentatherium",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Synapsida",
+        "Therapsida",
+        "Cynodontia",
+        "Tritylodontidae"
+      ],
+      "aliases": [
+        "jurský synapsid",
+        "tritylodontid z Arizony"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/kayentatherium-wellesi.webp",
+        "alt": {
+          "cs": "Statný hnědý čtyřnožec s protáhlou hlavou se sklání doprava k zeleni na břehu. Za mohutným trupem se táhne ocas."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Stavba čelistí vychází z lebek. Krátká srst, její barva a chování na břehu představují možnou podobu zvířete."
+        },
+        "sourceIds": [
+          "fauna13-kay-teeth",
+          "fauna13-kay-family",
+          "fauna13-kay-size"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná jura, přibližně před 185 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-kay-family",
+            "fauna13-kay-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Kayentské souvrství v Arizoně, USA"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-kay-teeth",
+            "fauna13-kay-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Dospělec byl velikostí srovnatelný s bíglem. Lebka mláděte měří asi 1 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-kay-size"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesnou hmotnost dospělce z tohoto nálezu neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-kay-family"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podle stavby zadních zubů zpracovával převážně rostlinnou potravu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-kay-teeth",
+            "fauna13-tri-diet"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Kayentatherium",
+          "ageLabel": "Raná jura, přibližně před 185 miliony let",
+          "location": "Kayentské souvrství v Arizoně, USA",
+          "groupLabel": "Cynodonti · tritylodontidi",
+          "cardSummary": "Kayentatherium mělo nápadné řezáky a široké zadní zuby s řadami hrbolků. V Arizoně se spolu s jediným dospělcem zachovaly pozůstatky nejméně 38 mláďat.",
+          "summary": "Kayentatherium mělo nápadné řezáky a široké zadní zuby s řadami hrbolků. V Arizoně se spolu s jediným dospělcem zachovaly pozůstatky nejméně 38 mláďat. Jejich drobné lebky ukazují, že mláďata měla už od počátku života podobně protáhlou hlavu jako dospělec.",
+          "quizHint": "Mezi velkými předními řezáky a řadou zadních zubů je mezera.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Mezi velkými předními řezáky a řadou zadních zubů je mezera."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kay-teeth"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Široké zadní zuby nesou několik podélných řad hrbolků."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kay-teeth"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Hlava je protáhlá už u maličkých mláďat."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-kay-family",
+                "fauna13-kay-size"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Mezi velkými předními řezáky a řadou zadních zubů je mezera. Široké zadní zuby nesou několik podélných řad hrbolků."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-kay-teeth"
+            ]
+          },
+          "sections": [
+            {
+              "id": "zuby",
+              "title": "Dva úseky chrupu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Za předními řezáky následuje bezzubá mezera. Úsek se zadními zuby tvoří samostatnou plochu, kterou mohl býložravec zpracovávat sousta."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kay-teeth",
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "spolecne",
+              "title": "Jedna dospělá kostra a mnoho malých",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V hornině u dospělého jedince vědci rozpoznali nejméně 38 velmi malých jedinců. Uvnitř jediného bloku horniny nalezli drobné lebky, části čelistí i kosti končetin."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kay-family",
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mladata",
+              "title": "Jak vypadala mláďata",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jedna z drobných lebek je dlouhá jen asi centimetr. Zachovává podobně protáhlé proporce jako lebka dospělce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kay-family",
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tomografie",
+              "title": "Objev uvnitř bloku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Další lebky a kosti končetin odhalilo postupně zpřesňované rentgenové snímkování. Z křehkých fosilií nebylo nutné odstranit všechnu okolní horninu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vek",
+              "title": "Těsně kolem začátku života",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Malí jedinci byli v podobné rané fázi vývoje. Nález připouští, že ještě byli ve vejcích nebo se právě vylíhli."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-kay-family",
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "srst",
+              "title": "Co na kostře neuvidíš",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U tohoto blízkého příbuzného savců je krátký tělní pokryv možný. Zbarvení srsti ani přesný tvar boltců arizonské kosti neukazují."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-kay-size"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fossiomanus-sinensis",
+      "scientificName": "Fossiomanus sinensis",
+      "taxonRank": "species",
+      "category": "synapsid",
+      "period": "cretaceous",
+      "diet": "herbivore",
+      "group": "Fossiomanus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Synapsida",
+        "Therapsida",
+        "Cynodontia",
+        "Tritylodontidae"
+      ],
+      "aliases": [
+        "hrabavý synapsid",
+        "hrabavý tritylodontid"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/fossiomanus-sinensis.webp",
+        "alt": {
+          "cs": "Krátce osrstěný čtyřnožec rozhrabává širokými předními tlapkami zeminu u otvoru pod kořeny. Čenichem míří doprava."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Velké hrabavé ruce a krátký ocas vycházejí z nálezu. Srst, zbarvení a konkrétní podoba vstupu do nory jsou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna13-fos-type",
+          "fauna13-fos-paper",
+          "fauna13-fos-cas"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Raná křída, apt, asi před 120 miliony let"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-fos-paper",
+            "fauna13-fos-cas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Jiufotang u Lamadongu v provincii Liao-ning, Čína"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-fos-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Od špičky dolní čelisti po zadní okraj pánve měřil 31,6 cm, ocas dalších 6,5 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-fos-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost tohoto jedince nelze z uvedených délek přímo určit."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-fos-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Patřil k pravděpodobně převážně býložravým tritylodontidům. Konkrétní rostliny neznáme."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-fos-paper",
+            "fauna13-tri-diet"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Fossiomanus",
+          "ageLabel": "Raná křída, apt, asi před 120 miliony let",
+          "location": "Souvrství Jiufotang u Lamadongu v provincii Liao-ning, Čína",
+          "groupLabel": "Cynodonti · tritylodontidi",
+          "cardSummary": "Fossiomanus měl přední tlapky jako malé hrabičky. Jeho silné přední končetiny končily širokýma rukama s velkými koncovými články prstů.",
+          "summary": "Fossiomanus měl přední tlapky jako malé hrabičky. Jeho silné přední končetiny končily širokýma rukama s velkými koncovými články prstů. Jeho protáhlý trup sestával z mnoha obratlů, zatímco ocas zůstával krátký.",
+          "quizHint": "Na koncích silných předních končetin leží široké ruce přizpůsobené hrabání.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Na koncích silných předních končetin leží široké ruce přizpůsobené hrabání."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-fos-type",
+                "fauna13-fos-paper"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Ocas je ve srovnání s protáhlým trupem nápadně krátký."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-fos-paper"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Páteř před křížovou oblastí obsahuje 38 obratlů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-fos-paper",
+                "fauna13-fos-cas"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Na koncích silných předních končetin leží široké ruce přizpůsobené hrabání. Ocas je ve srovnání s protáhlým trupem nápadně krátký."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-fos-type",
+              "fauna13-fos-paper"
+            ]
+          },
+          "sections": [
+            {
+              "id": "ruce",
+              "title": "Jak hrabal",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Silné pažní kosti, široké ruce a zvětšené koncové články prstů odpovídají způsobu hrabání, při kterém přední končetiny rozrušují půdu drápy."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-fos-type",
+                    "fauna13-fos-paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pater",
+              "title": "Dlouhá záda",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Před křížovou oblastí se zachovalo 38 obratlů. Jejich počet je jedním z důvodů, proč má tento poměrně malý živočich tak dlouhý trup."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-fos-paper",
+                    "fauna13-fos-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ocas",
+              "title": "Krátké články za pánví",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "I jednotlivé ocasní obratle jsou krátké. Celý ocas na popsané kostře měří jen asi pětinu vzdálenosti od tlamy k zadnímu okraji pánve."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-fos-paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Ruka ukrytá ve jménu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "První část rodového jména odkazuje na hrabání a druhá na ruku. Právě stavba předních končetin pomohla určit způsob života zvířete."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-fos-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sousede",
+              "title": "Dva různí kopáči",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve stejné studii vědci popsali také křídového savce Jueconodon. Znaky hrabání se u těchto dvou vzdálených příbuzných vyvinuly nezávisle."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-fos-type",
+                    "fauna13-fos-cas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stari",
+              "title": "Když ještě žili tritylodontidi",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Nález z čínské bioty Jehol dokládá přežívání této savcům blízké větve hluboko do křídy. Z téže oblasti známe i skutečné savce."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-fos-type",
+                    "fauna13-fos-paper"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.381,
+        "confidence": "evidence",
+        "sourceIds": [
+          "fauna13-fos-paper"
+        ],
+        "note": {
+          "cs": "Součet délky od čelisti k pánvi a délky ocasu na popsané kostře."
+        }
+      }
+    },
+    {
+      "id": "thaumastosaurus-servatus",
+      "scientificName": "Thaumastosaurus servatus",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "paleogene",
+      "diet": "carnivore",
+      "group": "Thaumastosaurus",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amphibia",
+        "Anura",
+        "Pyxicephalidae"
+      ],
+      "aliases": [
+        "eocenní žába z Francie",
+        "Thaumastosaurus gezei",
+        "Bufo servatus"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/thaumastosaurus-servatus.webp",
+        "alt": {
+          "cs": "Žába se širokou hlavou a složenýma zadníma nohama sedí čenichem doleva na vlhkém podkladu mezi listím a kameny."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Fosilie dokládají tvar lebky i část těla. Zbarvení a některé detaily končetin jsou doplněné podle žijících příbuzných."
+        },
+        "sourceIds": [
+          "fauna13-tha-scan",
+          "fauna13-tha-review",
+          "fauna13-tha-mummy"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Paleogén, eocén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-tha-scan",
+            "fauna13-tha-mummy"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Fosforitové výplně v oblasti Quercy, jihozápadní Francie"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-tha-scan",
+            "fauna13-tha-review"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Lebka mumifikovaného jedince QU 17279 je téměř stejně dlouhá jako široká."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-tha-scan"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Hmotnost živé žáby se z dochované mineralizované mumie nedá spolehlivě odvodit."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-tha-scan"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podle chrupu a srovnání s žijícími příbuznými šlo pravděpodobně o lovce živočišné potravy."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-tha-review",
+            "fauna13-tha-food"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Thaumastosaurus",
+          "ageLabel": "Paleogén, eocén",
+          "location": "Fosforitové výplně v oblasti Quercy, jihozápadní Francie",
+          "groupLabel": "Žáby · příbuzní afrických hrabatkovitých",
+          "cardSummary": "V horninách francouzského Quercy se tahle žába zachovala i s obrysem těla. Počítačová tomografie dovolila podívat se pod povrch fosilie a složit lebku kost po kosti.",
+          "summary": "V horninách francouzského Quercy se tahle žába zachovala i s obrysem těla. Počítačová tomografie dovolila podívat se pod povrch fosilie a složit lebku kost po kosti. Drobné jamky oddělené nízkými hřebínky dávají lebečním kostem nápadný vzor.",
+          "quizHint": "Hlava má široký obrys, její délka a šířka jsou si blízké.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Hlava má široký obrys, její délka a šířka jsou si blízké."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-tha-scan"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na svrchních kostech lebky leží jamky ohraničené nízkými kostěnými hřebínky."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-tha-scan",
+                "fauna13-tha-review"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Na dochované kostře je patrné spojení kostí ramenního pletence typické pro její žabí příbuzné."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-tha-scan",
+                "fauna13-tha-mummy"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Hlava má široký obrys, její délka a šířka jsou si blízké. Na svrchních kostech lebky leží jamky ohraničené nízkými kostěnými hřebínky."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-tha-scan",
+              "fauna13-tha-review"
+            ]
+          },
+          "sections": [
+            {
+              "id": "mumie",
+              "title": "Jak se zachovala žába",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve fosforitech se zachoval prostorový tvar některých těl. U exempláře QU 17279 jsou patrné obrysy trupu a uvnitř zůstaly kosti, které lze studovat pomocí rentgenového záření."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-scan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sken",
+              "title": "Co odhalil rentgen",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Z mnoha snímků sestavili vědci virtuální řezy fosilií. Mohli si tak odděleně prohlédnout lebku, páteř i oblast ramen uvnitř zachovaného těla."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-scan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vzorek",
+              "title": "Mladší a starší jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Výzkum typového exempláře původně označeného Bufo servatus spojil jeho jméno s rodem Thaumastosaurus. Z novější literatury se tak k tomuto druhu přiřazují i nálezy vedené jako T. gezei."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-mummy",
+                    "fauna13-tha-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nalezy",
+              "title": "Jak přesně známe stáří",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Historické sbírky někdy neuvádějí přesnou puklinu, ze které exemplář pochází. U jednotlivé fosilie pak nelze jemně rozlišit části eocénu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-scan"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pribuzni",
+              "title": "Srovnání s žijícími žábami",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Podrobnosti chrupu, lebky a ramenního pletence ukazují na příbuzenství se skupinou afrických žab, k níž patří i dnešní hrabatky."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-mummy",
+                    "fauna13-tha-review"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "povrch",
+              "title": "Vzor na kosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jamky na lebečních kostech lze přímo pozorovat a porovnávat mezi exempláři. Barevný vzor kůže se z této kostní struktury vyčíst nedá."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-tha-scan",
+                    "fauna13-tha-review"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "andrias-scheuchzeri",
+      "scientificName": "Andrias scheuchzeri",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Andrias",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amphibia",
+        "Caudata",
+        "Cryptobranchidae"
+      ],
+      "aliases": [
+        "velemlok z Öhningenu",
+        "evropský velemlok",
+        "Homo diluvii testis"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/andrias-scheuchzeri.webp",
+        "alt": {
+          "cs": "Skvrnitý velemlok se širokou plochou hlavou a zřasenou kůží leží na kamenitém dně, hlavou doleva."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Lebka a přední část kostry vycházejí z fosilií. Kožní záhyby, kresba a měkké části ocasu jsou doplněné podle žijících velemloků."
+        },
+        "sourceIds": [
+          "fauna13-and-bones",
+          "fauna13-and-history",
+          "fauna13-and-living"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Neogén, střední miocén. Jezero u Öhningenu existovalo asi před 13 miliony let."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-and-lake"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Öhningen u Bodamského jezera, jihozápadní Německo"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-and-lake",
+            "fauna13-and-bones"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Část typové kostry sahá od hlavy po šestnáctý obratel. Celkovou délku tohoto jedince z ní přímo nezměříme."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-and-bones"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Přesnou hmotnost jedince z Öhningenu neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-and-bones"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Podobně jako dnešní velemloci mohl ve vodě lovit ryby a bezobratlé."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-and-bones",
+            "fauna13-and-living"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Velemlok Scheuchzerův",
+          "ageLabel": "Neogén, střední miocén. Jezero u Öhningenu existovalo asi před 13 miliony let.",
+          "location": "Öhningen u Bodamského jezera, jihozápadní Německo",
+          "groupLabel": "Ocasatí obojživelníci · velemlokovití",
+          "cardSummary": "Velemlok z Öhningenu proslul omylem. Jeho plochou lebku a řadu obratlů považoval v roce 1726 přírodovědec Johann Jakob Scheuchzer za pozůstatky člověka z biblické potopy.",
+          "summary": "Velemlok z Öhningenu proslul omylem. Jeho plochou lebku a řadu obratlů považoval v roce 1726 přírodovědec Johann Jakob Scheuchzer za pozůstatky člověka z biblické potopy. Georges Cuvier později v kostře rozpoznal velkého ocasatého obojživelníka. Slavný exemplář dnes uchovává muzeum v nizozemském Haarlemu.",
+          "quizHint": "Široká nízká hlava navazuje na protáhlý trup.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Široká nízká hlava navazuje na protáhlý trup."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-and-bones",
+                "fauna13-and-history"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Maličké oči a kožní záhyby po stranách těla odpovídají vzhledu žijících příbuzných."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna13-and-living"
+              ]
+            },
+            {
+              "text": {
+                "cs": "U typové kostry lze sledovat páteř od lebky až k šestnáctému obratli."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-and-bones"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Široká nízká hlava navazuje na protáhlý trup. Maličké oči a kožní záhyby po stranách těla odpovídají vzhledu žijících příbuzných."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna13-and-bones",
+              "fauna13-and-history",
+              "fauna13-and-living"
+            ]
+          },
+          "sections": [
+            {
+              "id": "jezero",
+              "title": "Jezero v sopečném kráteru",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V miocénu se u dnešního Öhningenu naplnil sopečný kráter vodou. Na dně se ukládaly tenké vrstvy, ve kterých se zachovaly ryby i pozůstatky sladkovodních bezobratlých."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-and-lake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "omyl",
+              "title": "Jak vznikl „svědek potopy“",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Scheuchzer vykládal fosilie ve světle biblického vyprávění. V roce 1726 proto představil širokou lebku s páteří jako lidské pozůstatky a použil označení Homo diluvii testis."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-and-history",
+                    "fauna13-and-lake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "urceni",
+              "title": "Co poznal Cuvier",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Srovnání stavby kostí dovedlo Georgese Cuviera k velemlokovi. Právě tento exemplář si lze spojit s vědeckým jménem Andrias scheuchzeri."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-and-history",
+                    "fauna13-and-bones"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sbirka",
+              "title": "Co zbylo v kameni",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Muzeum v Haarlemu uchovává přední část kostry. U chybějící zadní poloviny těla musí rekonstrukce vycházet i ze srovnání s příbuznými."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-and-bones",
+                    "fauna13-and-history"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kuze",
+              "title": "Proč kreslit kožní záhyby",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U žijícího velemloka japonského zvětšují záhyby plochu kůže, přes niž přijímá kyslík. Podobné záhyby jsou jednou z možností, jak zobrazit evropský druh."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-and-living"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Jídelníček pod vodou",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Žijící příbuzný loví mimo jiné ryby, hmyz a raky. Nález kostry z německého jezera sám neurčuje, co přesně měl velemlok naposledy v žaludku."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-and-living",
+                    "fauna13-and-bones"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leiopelma-waitomoensis",
+      "scientificName": "Leiopelma waitomoensis",
+      "taxonRank": "species",
+      "category": "early-tetrapod",
+      "period": "quaternary",
+      "diet": "carnivore",
+      "group": "Leiopelma",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amphibia",
+        "Anura",
+        "Leiopelmatidae"
+      ],
+      "aliases": [
+        "novozélandská žába z Waitoma",
+        "waitomská žába"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/leiopelma-waitomoensis.webp",
+        "alt": {
+          "cs": "Hnědě skvrnitá žába s dlouhýma složenýma nohama sedí na mokrém kameni vedle lesního potoka a hledí doleva."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Proporce nohou vycházejí z kostí. Lesní potok odpovídá jedné z hypotéz o jejím prostředí. Barva a kresba kůže jsou volnou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna13-lei-bones",
+          "fauna13-lei-habitat"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Čtvrtohory, doložena v holocénu"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-lei-age",
+            "fauna13-lei-habitat"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Severní ostrov Nového Zélandu, včetně jeskyní v oblasti Waitomo"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-lei-bones",
+            "fauna13-lei-atlas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Od čenichu ke konci trupu mohla měřit přibližně 10 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-lei-bones",
+            "fauna13-lei-atlas"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Z dochovaných kostí nemáme spolehlivý odhad tělesné hmotnosti."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-lei-bones"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Její žijící příbuzné loví drobné bezobratlé. Konkrétní kořist vyhynulého druhu neznáme."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-lei-food"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Leiopelma z Waitoma",
+          "ageLabel": "Čtvrtohory, doložena v holocénu",
+          "location": "Severní ostrov Nového Zélandu, včetně jeskyní v oblasti Waitomo",
+          "groupLabel": "Žáby · leiopelmovití",
+          "cardSummary": "Z jeskyní Severního ostrova pocházejí kosti nezvykle velké novozélandské žáby. Silně zkrácené přední nohy a dlouhé zadní nohy jí dávaly jiné proporce než některým příbuzným leiopelmám.",
+          "summary": "Z jeskyní Severního ostrova pocházejí kosti nezvykle velké novozélandské žáby. Silně zkrácené přední nohy a dlouhé zadní nohy jí dávaly jiné proporce než některým příbuzným leiopelmám. Délky stehenní kosti a bérce naznačují, že se uměla odrazit k vydatnému skoku.",
+          "quizHint": "Zadní končetiny byly podstatně delší než přední.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Zadní končetiny byly podstatně delší než přední."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-lei-bones",
+                "fauna13-lei-habitat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Stehenní kost je kratší než srůstající kosti bérce."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-lei-bones",
+                "fauna13-lei-habitat"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Dospělá žába mohla délkou těla dosáhnout přibližně deseti centimetrů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna13-lei-bones"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Zadní končetiny byly podstatně delší než přední. Stehenní kost je kratší než srůstající kosti bérce."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-lei-bones",
+              "fauna13-lei-habitat"
+            ]
+          },
+          "sections": [
+            {
+              "id": "jeskyne",
+              "title": "Kde se našly kosti",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Exemplář, podle nějž byl druh popsán, pochází z jeskyně Haggas Hole v oblasti Waitomo. Další kosti se našly i jinde na Severním ostrově."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-lei-bones"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Co skrývá jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druhové jméno waitomoensis odkazuje na oblast Waitomo. Odtud také pocházelo nejvíce nálezů, které měl autor při popisu k dispozici."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-lei-bones"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "odraz",
+              "title": "Stavěná ke skoku",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Při porovnání kostí zadní končetiny vycházejí podobné poměry jako u dobře skákajících žab. Takové srovnání dovoluje odhadnout způsob pohybu vyhynulého zvířete."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-lei-habitat"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stanoviste",
+              "title": "Proč je na obrázku potok",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Část kostí do jeskyní zanesla tekoucí voda. Poměr nálezů z takových míst vedl k hypotéze, že se žába pohybovala u potoků. Přesné stanoviště zůstává otevřené."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-lei-habitat",
+                    "fauna13-lei-atlas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stari",
+              "title": "Kdy na ostrově žila",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Kosti dokládají výskyt v holocénu, současném úseku čtvrtohor. Ochrana přírody Nového Zélandu dnes druh vede jako vyhynulý."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-lei-age",
+                    "fauna13-lei-atlas"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "potrava",
+              "title": "Co loví její příbuzné",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U žijících novozélandských leiopelm vědci našli v žaludcích drobné členovce včetně chvostoskoků a roztočů. U druhu z Waitoma máme pro jídelníček pouze takové nepřímé vodítko."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-lei-food"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna13-lei-bones"
+        ],
+        "note": {
+          "cs": "Odhad vzdálenosti od špičky čenichu ke konci trupu, bez natažených zadních nohou."
+        }
+      }
+    },
+    {
+      "id": "palaeophis-colossaeus",
+      "scientificName": "Palaeophis colossaeus",
+      "taxonRank": "species",
+      "category": "marine-reptile",
+      "period": "paleogene",
+      "diet": "carnivore",
+      "group": "Palaeophis",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Squamata",
+        "Serpentes",
+        "Palaeophiidae"
+      ],
+      "aliases": [
+        "mořský had z Mali",
+        "obří paleogenní had"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/palaeophis-colossaeus.webp",
+        "alt": {
+          "cs": "Mohutný had plave doleva nad písčitým dnem mělkého moře. Dlouhé tělo se vlní pod prosluněnou hladinou."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Velikost a mohutnost trupu vycházejí z obratlů. Tvar hlavy, kresba šupin a přesný obrys ocasu představují rekonstrukci."
+        },
+        "sourceIds": [
+          "fauna13-pal-snake",
+          "fauna13-pal-sea"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Paleogén, eocén"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-pal-snake",
+            "fauna13-pal-sea"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Údolí Tilemsi v Mali, v oblasti bývalého transsaharského moře"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-pal-snake",
+            "fauna13-pal-sea"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Odhady ze dvou různých obratlů vyšly na 8,1 m a 12,3 m."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-pal-snake"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Spolehlivý údaj o hmotnosti z izolovaných obratlů neznáme."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-pal-snake"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Šlo patrně o lovce vodních obratlovců. Velikost kořisti závisela také na tom, jak široce dokázal otevřít tlamu."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-pal-snake"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Palaeophis",
+          "ageLabel": "Paleogén, eocén",
+          "location": "Údolí Tilemsi v Mali, v oblasti bývalého transsaharského moře",
+          "groupLabel": "Šupinatí · vyhynulí mořští hadi",
+          "cardSummary": "Tam, kde se dnes rozkládá Mali, plaval v eocénu několikametrový had. Prozradily ho mimořádně velké obratle z usazenin tehdejšího transsaharského moře.",
+          "summary": "Tam, kde se dnes rozkládá Mali, plaval v eocénu několikametrový had. Prozradily ho mimořádně velké obratle z usazenin tehdejšího transsaharského moře. Široké obratle svědčí o mohutném trupu. Přesný tvar hlavy zůstává neznámý.",
+          "quizHint": "Obratle trupu jsou nápadné mohutností a značnou šířkou.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Obratle trupu jsou nápadné mohutností a značnou šířkou."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-pal-snake"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Trup byl zřejmě méně zploštělý ze stran než u některých jeho mořských příbuzných."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna13-pal-snake"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Srovnání s žijícími hady ukazuje na tělo dlouhé mnoho metrů."
+              },
+              "confidence": "estimate",
+              "sourceIds": [
+                "fauna13-pal-snake",
+                "fauna13-pal-sea"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Obratle trupu jsou nápadné mohutností a značnou šířkou. Trup byl zřejmě méně zploštělý ze stran než u některých jeho mořských příbuzných."
+            },
+            "confidence": "estimate",
+            "sourceIds": [
+              "fauna13-pal-snake"
+            ]
+          },
+          "sections": [
+            {
+              "id": "more",
+              "title": "Moře uprostřed dnešní pevniny",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Zkameněliny z Mali ukazují, že severní částí Afriky v paleogénu vedla mořská cesta. Tamější usazeniny obsahují vedle hadů také ryby a měkkýše."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pal-sea",
+                    "fauna13-pal-snake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "patere",
+              "title": "Co poznáme z obratle",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Jednotlivé články páteře se mění podle polohy v těle. Porovnání více obratlů pomohlo popsat, jak se od přední části trupu směrem dozadu měnily jejich tvary."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pal-snake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delky",
+              "title": "Proč vyšly dvě délky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U jednoho obratle tým měřil rozpětí kloubních výběžků, u druhého šířku kloubní jamky. Obě měření porovnal s žijícími hady. Hodnoty 8,1 a 12,3 metru pocházejí z různých exemplářů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-pal-snake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "plavani",
+              "title": "Jak mohl vypadat trup",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Tento druh měl obratle poměrně široké. U dalších vyhynulých mořských hadů odpovídají užší obratle výraznějšímu bočnímu zploštění těla."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-pal-snake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lov",
+              "title": "Čelisti a kořist",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Bez lebky nelze určit, jak široce dokázal rozevřít tlamu. Velikost obratlů proto nestačí k určení největší kořisti, kterou mohl spolknout."
+                  },
+                  "confidence": "unknown",
+                  "sourceIds": [
+                    "fauna13-pal-snake"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "breh",
+              "title": "Jak blízko byl břeh",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Mořské usazeniny dobře dokládají prostředí nálezů. Míru, s jakou tento had využíval otevřenou vodu nebo prostředí při pobřeží, je těžší určit."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-pal-snake",
+                    "fauna13-pal-sea"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 8.1,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna13-pal-snake"
+        ],
+        "note": {
+          "cs": "Odhad pro jedince zastoupeného obratlem CNRST-SUNY 290. Pro jiný exemplář vyšel z odlišného měření odhad 12,3 m."
+        }
+      }
+    },
+    {
+      "id": "pacifichelys-urbinai",
+      "scientificName": "Pacifichelys urbinai",
+      "taxonRank": "species",
+      "category": "marine-reptile",
+      "period": "neogene",
+      "diet": "carnivore",
+      "group": "Pacifichelys",
+      "taxonomy": [
+        "Chordata",
+        "Tetrapoda",
+        "Amniota",
+        "Testudines",
+        "Pan-Chelonioidea",
+        "Pan-Cheloniidae"
+      ],
+      "aliases": [
+        "miocenní mořská želva z Peru",
+        "peruánská želva z Pisca"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/pacifichelys-urbinai.webp",
+        "alt": {
+          "cs": "Mořská želva se širokou hlavou a oválným krunýřem plave doleva nad písčitým dnem. Pod jejími ploutvemi leží lastury."
+        },
+        "status": "working-reconstruction",
+        "facing": "left",
+        "note": {
+          "cs": "Lebka a čelisti dokládají šířku hlavy a drticí plochy. Vnější rohovina zobáku, odstín krunýře a vzor šupin jsou rekonstrukcí."
+        },
+        "sourceIds": [
+          "fauna13-pac-paper",
+          "fauna13-pac-coast",
+          "fauna13-pac-record"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Neogén, miocén. Nález z Cerro Colorado pochází z vrstev starých přibližně 9,5 až 8,9 milionu let."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-pac-coast",
+            "fauna13-pac-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Souvrství Pisco v oblasti Ica na pobřeží Peru"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-pac-coast",
+            "fauna13-pac-record"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "Lebky dvou jedinců měří od týlu k čenichu 8,3 a 9,4 cm. U většího typového exempláře vychází stejný rozměr přibližně na 13,4 cm."
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-pac-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Samotné rozměry těchto lebek neposkytují spolehlivou tělesnou hmotnost."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-pac-paper"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Ploché široké čelisti mohly drtit tvrdou potravu, například schránky mořských bezobratlých."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-pac-paper",
+            "fauna13-pac-coast"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Pacifichelys",
+          "ageLabel": "Neogén, miocén. Nález z Cerro Colorado pochází z vrstev starých přibližně 9,5 až 8,9 milionu let.",
+          "location": "Souvrství Pisco v oblasti Ica na pobřeží Peru",
+          "groupLabel": "Mořské želvy · příbuzné karet",
+          "cardSummary": "Na spodní straně lebky Pacifichelys vynikají široké drticí plochy. Při skusu na ně dosedala dolní čelist. Právě ty prozrazují, jak dokázala peruánská želva drtit tvrdou potravu.",
+          "summary": "Na spodní straně lebky Pacifichelys vynikají široké drticí plochy. Při skusu na ně dosedala dolní čelist. Právě ty prozrazují, jak dokázala peruánská želva drtit tvrdou potravu. Vedle lebek se našly dolní čelisti, kosti končetin a části krunýře. Další kostru odkryli u Cerro Colorado.",
+          "quizHint": "Lebka je široká a oční jamky směřují do stran.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "Lebka je široká a oční jamky směřují do stran."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-pac-paper"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Čelisti nesou široké, poměrně ploché drticí plochy."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-pac-paper",
+                "fauna13-pac-coast"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Krk, přední končetiny a krunýř známe i ze vzájemně přiřazených kostí."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-pac-paper",
+                "fauna13-pac-record"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "Lebka je široká a oční jamky směřují do stran. Čelisti nesou široké, poměrně ploché drticí plochy."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-pac-paper",
+              "fauna13-pac-coast"
+            ]
+          },
+          "sections": [
+            {
+              "id": "celisti",
+              "title": "Co prozradí skus",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Široké čelisti mohly sevřít tvrdou kořist mezi dvě plochy a rozdrtit ji. Jednotlivé druhy kořisti z tvaru kostí neurčíme."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-pac-paper",
+                    "fauna13-pac-coast"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rozmery",
+              "title": "Tři velikosti hlavy",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Autoři původního popisu porovnali tři různě velké lebky. U dvou menších se dochovala vzdálenost od týlu k čenichu. U největší museli polohu chybějícího týlu odhadnout."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pac-paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kostra",
+              "title": "Co se našlo u Cerro Colorado",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "U Cerro Colorado byla v pobřežních usazeninách zdokumentována kostra tohoto druhu. Ze stejné části souvrství známe také pozůstatky mořských ptáků, žraloků a kostnatých ryb."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pac-coast",
+                    "fauna13-pac-record"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jmeno",
+              "title": "Komu vděčí za jméno",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Druhové jméno připomíná Maria Urbinu. Tento peruánský sběratel shromáždil materiál, podle kterého vědci želvu původně popsali."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pac-paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "krunyr",
+              "title": "Další díly skládačky",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "S nálezy lebek lze porovnat také části horního krunýře a krční obratle. Pomáhají poznat další stránky tělesné stavby mořské želvy."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pac-record",
+                    "fauna13-pac-paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pobrezi",
+              "title": "Peruánské moře v miocénu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V pánvi Pisco se na mořském dně hromadily písky a jemnější sedimenty. Vrstvy s Pacifichelys dnes vystupují na souši a dovolují rekonstruovat zvířenu tehdejšího pobřeží."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-pac-coast",
+                    "fauna13-pac-record"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "promissum-pulchrum",
+      "scientificName": "Promissum pulchrum",
+      "taxonRank": "species",
+      "category": "early-chordate",
+      "period": "ordovician",
+      "diet": "unknown",
+      "group": "Promissum",
+      "taxonomy": [
+        "Chordata",
+        "Vertebrata",
+        "Conodonta"
+      ],
+      "aliases": [
+        "ordovický konodont",
+        "konodont z břidlic Soom"
+      ],
+      "reviewedAt": "2026-11-28",
+      "quizEnabled": true,
+      "image": {
+        "src": "images/promissum-pulchrum.webp",
+        "alt": {
+          "cs": "Štíhlý živočich s nápadným okem plave hlavou doprava nad tmavým mořským dnem. Po bocích má řadu šikmých svalových bloků."
+        },
+        "status": "working-reconstruction",
+        "facing": "right",
+        "note": {
+          "cs": "Oči a úhlovité svalové bloky vycházejí z fosilie. Chybějící zadní část, zbarvení a vnější obrys hlavy jsou doplněné."
+        },
+        "sourceIds": [
+          "fauna13-prom-body",
+          "fauna13-prom-site",
+          "fauna13-prom-elements"
+        ]
+      },
+      "facts": [
+        {
+          "label": {
+            "cs": "Období a stáří"
+          },
+          "value": {
+            "cs": "Pozdní ordovik"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-prom-elements",
+            "fauna13-prom-site"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Oblast nálezů"
+          },
+          "value": {
+            "cs": "Břidlice Soom u Clanwilliamu, Jihoafrická republika"
+          },
+          "confidence": "evidence",
+          "sourceIds": [
+            "fauna13-prom-elements",
+            "fauna13-prom-site"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Délka nebo rozměry"
+          },
+          "value": {
+            "cs": "V hornině se zachovalo 10,9 cm těla. Podle úplnějších příbuzných mohl živý jedinec dosahovat kolem 40 cm."
+          },
+          "confidence": "estimate",
+          "sourceIds": [
+            "fauna13-prom-site",
+            "fauna13-prom-body"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Hmotnost"
+          },
+          "value": {
+            "cs": "Z neúplného otisku měkkého těla neznáme hmotnost živého živočicha."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-prom-body",
+            "fauna13-prom-site"
+          ]
+        },
+        {
+          "label": {
+            "cs": "Potrava"
+          },
+          "value": {
+            "cs": "Mineralizované prvky uvnitř hlavy sloužily při přijímání potravy. Přesné složení jídelníčku zůstává nejisté."
+          },
+          "confidence": "unknown",
+          "sourceIds": [
+            "fauna13-prom-elements",
+            "fauna13-prom-site"
+          ]
+        }
+      ],
+      "translations": {
+        "cs": {
+          "displayName": "Promissum",
+          "ageLabel": "Pozdní ordovik",
+          "location": "Břidlice Soom u Clanwilliamu, Jihoafrická republika",
+          "groupLabel": "Raní obratlovci · konodonti",
+          "cardSummary": "Jemné ordovické bahno uchovalo i oči a pravidelnou řadu svalových bloků tohoto konodonta. U většiny příbuzných nacházejí paleontologové hlavně drobné tvrdé součásti potravního aparátu.",
+          "summary": "Jemné ordovické bahno uchovalo i oči a pravidelnou řadu svalových bloků tohoto konodonta. U většiny příbuzných nacházejí paleontologové hlavně drobné tvrdé součásti potravního aparátu. Dochovaná část těla končí až na okraji kamenné desky. Při odhadu celé délky proto pomohlo srovnání s menšími, úplnějšími konodonty.",
+          "quizHint": "V přední části dlouhého těla ležely párové oči.",
+          "recognition": [
+            {
+              "text": {
+                "cs": "V přední části dlouhého těla ležely párové oči."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-prom-body",
+                "fauna13-prom-site"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Podél trupu se opakovaly úhlovité svalové bloky připomínající písmeno V."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-prom-site",
+                "fauna13-prom-body"
+              ]
+            },
+            {
+              "text": {
+                "cs": "Uvnitř hlavy měl soustavu mineralizovaných prvků různých tvarů."
+              },
+              "confidence": "evidence",
+              "sourceIds": [
+                "fauna13-prom-elements",
+                "fauna13-prom-site"
+              ]
+            }
+          ],
+          "quizExplanation": {
+            "text": {
+              "cs": "V přední části dlouhého těla ležely párové oči. Podél trupu se opakovaly úhlovité svalové bloky připomínající písmeno V."
+            },
+            "confidence": "evidence",
+            "sourceIds": [
+              "fauna13-prom-body",
+              "fauna13-prom-site"
+            ]
+          },
+          "sections": [
+            {
+              "id": "jmeno",
+              "title": "Živočich považovaný za rostlinu",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Části nálezu byly původně popsány jako možná raná suchozemská rostlina. Pravidelně uspořádané mineralizované prvky ukázaly, že jde o konodonta."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-prom-elements"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "soustava",
+              "title": "Drobné součásti pohromadě",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Ve vrstvách břidlice leží některé soubory prvků v uspořádání, které se blíží jejich poloze za života. Lze tak poznat několik odlišných tvarů v jediném potravním aparátu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-prom-elements",
+                    "fauna13-prom-site"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "oci",
+              "title": "Oči na kameni",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "V břidlicích Soom se obrysy očí konodontů zachovávají jako tmavé kroužky nebo tenké vrstvičky minerálů. Jsou dobře vidět i bez dochované lebky z pevných kostí."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-prom-site",
+                    "fauna13-prom-body"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "svaly",
+              "title": "Stopy po svalech",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na otisku jsou rozeznatelné opakující se bloky trupu. Jejich tvar vypovídá o uspořádání svalů. Původ jemných vláken pozorovaných pod mikroskopem zůstává předmětem výkladu."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-prom-site",
+                    "fauna13-prom-body"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delka",
+              "title": "Co pokračovalo za okrajem",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Na zachované desce končí otisk po 10,9 centimetru. Podle proporcí úplnějších skotských konodontů vyšel pro celé Promissum odhad okolo čtyřiceti centimetrů."
+                  },
+                  "confidence": "estimate",
+                  "sourceIds": [
+                    "fauna13-prom-site"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bahno",
+              "title": "Moře po zalednění",
+              "claims": [
+                {
+                  "text": {
+                    "cs": "Břidlice Soom vznikly ukládáním velmi jemného materiálu v chladném moři po ústupu ledovce. Výjimečné podmínky dovolily zachovat také stopy po měkkých tkáních."
+                  },
+                  "confidence": "evidence",
+                  "sourceIds": [
+                    "fauna13-prom-site"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "kind": "length",
+        "valueM": 0.4,
+        "confidence": "estimate",
+        "sourceIds": [
+          "fauna13-prom-site"
+        ],
+        "note": {
+          "cs": "Odhad celé délky s využitím úplnějších konodontů ze Skotska. Na jihoafrické desce se zachovalo 10,9 cm těla."
         }
       }
     }

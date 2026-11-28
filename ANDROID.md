@@ -1,4 +1,4 @@
-> Aktuální pracovní verze **1.1.0 (1010012)** obsahuje 266 zvířat a 266 ilustrací. [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md).
+> Aktuální pracovní verze **1.1.0 (1010013)** obsahuje 276 zvířat a 276 ilustrací. [Sestavení z telefonu na GitHubu](docs/BUILD-ON-GITHUB.md).
 
 > Aktuální zdroje: **1.1.0, build 1010002, 132 zvířat**. [Stav a návod](docs/CENOZOIC-BATCH02.md). APK se připraví až po dokončení všech zvířat.
 
